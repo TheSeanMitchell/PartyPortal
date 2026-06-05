@@ -1,0 +1,47 @@
+name: Daily Culture Feed Refresh
+
+on:
+  schedule:
+    # Run at 6 AM, 12 PM, and 6 PM UTC every day
+    - cron: '0 6,12,18 * * *'
+  workflow_dispatch:   # Allow manual trigger from GitHub UI
+  push:
+    branches: [ main ]
+    paths:
+      - 'bot.py'       # Re-run bot whenever bot.py is updated
+
+permissions:
+  contents: write
+
+jobs:
+  refresh-feed:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Run Party Portal bot
+        run: python bot.py
+
+      - name: Check for changes
+        id: changes
+        run: |
+          git diff --quiet index.html feed.json 2>/dev/null && echo "changed=false" >> $GITHUB_OUTPUT || echo "changed=true" >> $GITHUB_OUTPUT
+
+      - name: Commit and push updated content
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          git config user.name  "PartyPortal Bot"
+          git config user.email "bot@partyportal.app"
+          git add index.html feed.json
+          git commit -m "🎉 Culture feed refresh [$(date -u '+%Y-%m-%d %H:%M UTC')]"
+          git push
