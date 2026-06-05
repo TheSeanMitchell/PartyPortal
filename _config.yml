@@ -1,0 +1,14 @@
+# Party Portal — Jekyll / GitHub Pages config
+title: "Party Portal"
+description: "Live Festival Streams, Party Cams & Culture — Your One-Stop Party Destination"
+url: "https://theseamitchell.github.io"
+baseurl: "/PartyPortal"
+theme: null
+plugins: []
+exclude:
+  - bot.py
+  - feed.json
+  - README.md
+  - .github
+  - "*.pyc"
+  - __pycache__
