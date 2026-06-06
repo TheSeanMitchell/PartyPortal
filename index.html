@@ -326,6 +326,20 @@
     }
     .pp-footer a{color:var(--pink-l);text-decoration:none}
     .pp-footer a:hover{color:var(--cyan)}
+
+    /* ── Live cam badge (main grid only) ── */
+    .pp-inset-live{
+      position:absolute;top:6px;right:8px;
+      background:rgba(190,20,20,.88);color:#fff;
+      font-family:'Barlow Condensed',sans-serif;font-size:.6em;
+      font-weight:800;letter-spacing:.1em;text-transform:uppercase;
+      padding:2px 8px;border-radius:2px;pointer-events:none;user-select:none;
+      display:flex;align-items:center;gap:4px
+    }
+    .pp-inset-live-dot{
+      width:5px;height:5px;border-radius:50%;background:#ff6060;flex-shrink:0;
+      animation:pp-pulse 1.3s ease-in-out infinite
+    }
   </style>
 </head>
 <body>
@@ -410,224 +424,34 @@
 
 <!-- BOT INJECTS CULTURE DATA HERE -->
 <!-- PP_CULTURE_INJECT -->
-<script>window._ppCultureItems=[{"title": "Carlos ‘Indio’ Solari, Legend of Argentina’s Rock Scene, Dies at 77 - Billboard", "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOM1N3NVpqNmdtbkdSblZtYlVhZl9yclhiZVh2NldNekVSVE5BYld2ajR3QWNJdk0yc2FaczFHeXZPR0ZWay1qMXRGMWczV01wYzZwa3hnTUQ4czRQb19jeWNXcWtvV2hYTkhnUGQ3QzB1WFY5bjl0Qy0xWG5DczZlSFFSbVl3djg0VERuekNib0xlSTNzNGlKZDRyLThkR3VOVUVWbw?oc=5", "src": "Billboard", "time": "28 min ago", "cat": "Culture", "hot": true, "ts": 1780770903}, {"title": "Madonna 'Confessions II' Film Debuts at Tribeca, Celeb Cameos Abound - Billboard", "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQdFBLWXZVYWtMVUVReFg3Q3lVNkdPYS1uMUo0cVRDMHRsTXVfNklnbmQyYlRfRDlsQkd6R1NsYWphZjBBTVlfQ3FPRF9mX0hTR2JGR3NyOE82NXVWRno4dUxmWEpEV0tnekxLVmhMWk1Xb3dPYW5HNDVvRVlhcVpma2NqRll5R29ITHR0RkUxQ00wOGpNdlRj?oc=5", "src": "Billboard", "time": "32 min ago", "cat": "Culture", "hot": true, "ts": 1780770684}, {"title": "Disney World’s Stealth Tomorrowland Transformation - Disney Tourist Blog", "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNNnZZZ21sYVJqcHl3YkpGc0d3LUxlam84c0FTbGxKcGxJSXpYMEJSd0Z1TXU5N2x2TU5CVWtHNnQyZHJaSkwwVHN1amlBSW9LV1FhTWEwTnRTNFR2YVRfdDNvdUFXbzNsSnF5SkQxSVJXQURBbC05cm1tS2Zrd0N6Z1E1aGRub0t5ZEZFUA?oc=5", "src": "Disney Tourist Blog", "time": "1 hr ago", "cat": "Festival", "hot": true, "ts": 1780768800}, {"title": "Day rave taking place at Reading bar later this month - Reading Chronicle", "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOSXdSdUUxOXdSYy1RNWxNci1aUldfSlB1V2laNjhYOXRTWGd2eGhXLUFhbmM5NmZFZEIwa2VMZDVBU2xRTllMWXNVc0k4M00yTGJoZVVWSFVnU2t0TlBKN1d2X2Rjemttck85VDlScWF1S2x4c1AzczluekZRRnBCNFF0dm9LMndKOVJ2eWdmYVVud0w3OXZNQXIySUgxZWM?oc=5", "src": "Reading Chronicle", "time": "1 hr ago", "cat": "Nightlife", "hot": true, "ts": 1780768800}, {"title": "Olivia Rodrigo Announces Surprise Set at 2026 Primavera Sound - Billboard", "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNZ1R3MWhMbHh3Nm91SDA2OXVmUjBaQjZEdlNXOGFGRWlBU05Md0FsU3FWcXdKNGNwMVhRd3N5cEQ3TUZiM0VTbFlpMDUxWXNQR1BucjhRaDBlMThYMzkyTGZ1VEY3RHRWOHFDU2JiN2NWck5jNm4ySXkyaF9ibENxVFpRV3BIajlCQUtJdU16UklUQ1pNSWxRci0xZEtTLVRCY2xSbGpR?oc=5", "src": "Billboard", "time": "1 hr ago", "cat": "Culture", "hot": true, "ts": 1780768299}, {"title": "Lollapalooza just announced its after-show lineup with Zara Larsson and Ethel Cain - NJ.com", "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQdEo5UTVPTjJLZTdSY0hWdXFPUVgxUzZnZjl6VFFBRGVGdG9nbmhmOHFzMHh0bmFWNEFjTFpGdnBhQ0U0X3hGZTVsVXZYUlMyRC1TcS1SNUVUT1VQX3I1TFNzczVvaFNGc3ZtSGpJTUR5dkQ3aV9VQnd5SlFRSEoxVmd2MVo4QktZWFpCNUd3Ql94WEU1bTdYQktWOHBlbWRKektmX2QyeHhfVURzWFNOc29WS1Z6allBbVpTd2syNTNyZ0NIZndBUnNRTW9wZ0QxUVRBa2NyMktXN29GMDQ3Ql930gHiAUFVX3lxTFB0SjlRNU9OMktlN1JjSFZ1cU9RWDFTNmdmOXpUUUFEZUZ0b2duaGY4cXMweHRuYVY0QWNMWkZ2cGFDRTRfeEZlNWxVdlhSUzJELVNxLVI1RVRPVVBfcjVMU3NzNW9oU0Zzdm1IaklNRHl2RDdpX1VCd3lKUVFISjFWZ3YxWjhCS1lYWkI1R3dCX3hYRTVtN1hCS1Y4cGVtZEp6S2ZfZDJ4eF9VRHNYU05zb1ZLVnpqWUFtWlN3azI1M3JnQ0hmd0FSc1FNb3BnRDFRVEFrY3IyS1c3b0YwNDdCX3c?oc=5", "src": "NJ.com", "time": "1 hr ago", "cat": "Festival", "hot": true, "ts": 1780765500}, {"title": "Roger Sanchez Ends 20-Year Album Gap With ‘Spectrum’: Listen - edm.com", "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOZnMzbGVOQmIxejc4cU4wVERIUENEMjlOdHFscnQ2cnYxQlduRDNnbVdUejhSY3VVWUNJYXl2dThzcm40aFk3UmU1N0pDVEViSlkyTmZ0a3RBUndtaTdDdDgxSm90Q21BdUVpWHkzbmJZcWRkd29nZDdJYk5Nd0FaQmItUG5UUQ?oc=5", "src": "edm.com", "time": "2 hr ago", "cat": "EDM", "hot": true, "ts": 1780763099}, {"title": "Sultan of Sultan + Shepard Opens Up About Rare Lung Condition Affecting His Performances - edm.com", "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9GR0cyLTBkR0FVdERIMmdwTXRrc012NGxxY3poaEVrWHliSS1RZEY3SUE3M1dJc3E1d0ljRGdRRlpvTmJMc3NXZkFEUXhkaWN4azA2WWgxNjNHY0liSHo1MWoyOEF4OWpaZXJUQTcwUS1MQUVHWksxVW84WkVPdlk?oc=5", "src": "edm.com", "time": "2 hr ago", "cat": "EDM", "hot": true, "ts": 1780762555}, {"title": "Daft Punk’s Thomas Bangalter Gets Candid on Life After the Robots In Rare Interview - edm.com", "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQcEl1Y2ZjaERHcmp6a1YxUDNVc0RNaUcyMkN4QVpCQzFhLUl1Y1lfaC1halRYNkNWSWVhOXFvODVjRnhqNEpITmRYdzFzdGNOa2pOd04tWFVuSTBJd3ZaSm5TUUNmUXJpeGFjVjE2YUJlTnNsZlRBRGx1SmFtVFE4YUlGVERGRlJmbG5kMDIyYXpZTms?oc=5", "src": "edm.com", "time": "3 hr ago", "cat": "EDM", "hot": true, "ts": 1780761655}, {"title": "Nashville Pride announces festival lineup, monthlong events - News Channel 5 Nashville", "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOTVJad0RkTjlRLVltYnhEcWpQZmVYTGNZVmdZWmdIRFVUeDE1NXVMM2R4enFlZlA5R1FCdWVUc1lHSzhoQzRvdUZqQ1pZY2MwUlVHcXFzUDFFMkZ2QVdvYlZYYzRtUlh1TlZPamVjSWhsVWs3UzNKVWtiZGRubGZFSEI4S2R0aXhOcXQ1eFhQRV9wSm5jOEVZTjE5YV9FdS1seTFwdGdOZlBsaVNMUU1SZDRpREVsVU1qNFRLVzM4WnNldw?oc=5", "src": "News Channel 5 Nashville", "time": "3 hr ago", "cat": "Festival", "hot": true, "ts": 1780760537}, {"title": "Kehlani Gets Interviewed By Her Daughter Adeya | Billboard Family Ns&i Premium Bonds Rate Increase (UI2hrVCZCs) - Mshale", "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBnMGRETHlQbVp3V0k4eE5ueVY4c2Z0T2ZEekt4V1dRYW1SN2lyX2VibnBDbTk2SjdPQXByVld0dzFJb09IMm8wdWFWd2JVWGJhbExPbUpibkRzclk?oc=5", "src": "Mshale", "time": "3 hr ago", "cat": "Culture", "hot": true, "ts": 1780759634}, {"title": "Donald J. Trump News - Rolling Stone", "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9SWFNpbTdXQ0lyT09RdkkyTlNMaTh1dUh5VkJNMGltRV9xWnVQVkNuMl9COFRwaW9iVGpNM0F2RndYUkRxU3hyZ1FNOE9ienpxWXFhMzUtaw?oc=5", "src": "Rolling Stone", "time": "3 hr ago", "cat": "Culture", "hot": true, "ts": 1780758257}, {"title": "Miranda Lambert Wins Billboard’s First-Ever Country Music Icon Award - Yahoo", "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQUS1DVUhhQjAzakNzdjhSS2ZrUXpISFlEb0JzY2J4YXVkMGZNRGxZbE9BRzhuMjgtTXdKM2dja29PRXFfSmlRdHZjMWxheHpmcmJoTlZjMXF5YjlLUmI5TUFnWkJDNnZMMGQxTU9vaWptNm9UdGdTeXlIMXNnNEVFRUQwSEQtOUlvMFFsdlRMcWljNnR5eUx3NERjUHZkZUZZX1FQSA?oc=5", "src": "Yahoo", "time": "4 hr ago", "cat": "Culture", "hot": true, "ts": 1780758000}, {"title": "Belarusian camp to be organized again at American festival Burning Man - Наша Ніва", "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE92bG9MQ0lCY0dhNXZFWEYwakhvcTlzRHVITklJMEpiVlZPVFlkV2hFRThPNUJYMkhLX0pXYjMwaEdiZzdRUEZBWU5Ia9IBS0FVX3lxTE92bG9MQ0lCY0dhNXZFWEYwakhvcTlzRHVITklJMEpiVlZPVFlkV2hFRThPNUJYMkhLX0pXYjMwaEdiZzdRUEZBWU5Iaw?oc=5", "src": "Наша Ніва", "time": "4 hr ago", "cat": "Festival", "hot": true, "ts": 1780757815}, {"title": "The Massive Impact of Social Media on Fashion and Modeling - Yahoo", "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOd2IzbHJITzFTdUwxMVVMZDY4MEE0MU5KLUw3aERHcnFaZXZGcFd6Q05YX3FvVl9zQmc4czNBaU9RUU9Wb2Zpb05zOW9ZTFJnampmdDNGTDVlSnFYampJdFc4QThMeDU1aDRRS0NyeEJfRGlnMUZHWE9ZTVJILUM1Y280RktSMXpmLXN1dnVtbTdLd2l6ZDltbw?oc=5", "src": "Yahoo", "time": "4 hr ago", "cat": "Fashion", "hot": true, "ts": 1780757810}, {"title": "KuCoin Highlights Trust-Led Web3 Strategy and Tomorrowland Branding in Weekly Updates - TipRanks", "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQOTNzX2ZSUlJMWWc5Tm5NalB1Xy1VZnFXQVcxaEVoMkZtb3drczI0cUJFTDJjcm9jUG9LSWlBR3JPU0VmakJYRTJ5N0VSZTBMYmZUdXlZLWhNNUZkWWNaTVp0Y2MzRkF0VGVTNzBBdHpyMWtvR0ZscGloTEg1Wl83cFpQZ2tJdzBGd2V5Z3dTc1dqeWZtWjBUdE5YZ1RMaVpoWFpUOUdCcm5MRmxHY2VGdEYxZmhiaG1tV3hUa1pscDMzM0NCbC1JRG1ySzFZZw?oc=5", "src": "TipRanks", "time": "4 hr ago", "cat": "Festival", "hot": true, "ts": 1780757428}, {"title": "Madonna Premieres Surrealistic, NSFW 'Confessions II' Short Film at Tribeca: 'It's About Connection' - Rolling Stone", "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOLWNYVktvdnBEMENaNmYyVkJCYVU1VDFqdHNIWHAxa0ZEenR4WkxLYk41c2hxUXVwOHlJQTdpMnJQMjNpT1NSaU5qQURoLUdHT01Id0tudzlLWFRmNDRkS0RkcFpYWmlCQW5KWmE2T1I3RnZzNDFJcVRwalBxZDdQRzZsWEpXdmhQbDUxTzNmbkhzODhIMk1KMFhNNDdLTHVEQ1NBVC1RTTA?oc=5", "src": "Rolling Stone", "time": "4 hr ago", "cat": "Culture", "hot": true, "ts": 1780756241}, {"title": "Boza Serves as Panama’s Musical Ambassador for World Cup 2026 & More Uplifting Moments in Latin Music - Billboard", "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNLUtVWDlFV3dVQnNObGw2NWpMMTl2bm8zOV9ycWZIb3BMWXE1eWdJR1BqV0lqMllWSjNBT1lrQzNqNHZSYjVIbWZUc1o1eUdQbXF5NmZEeTJZckNpeDFLejBHZTZsWmN5elBvS2ZKSlo0VDJyVVRGcXlVcERFNzVxY2ZsTnFSVmFxa0ZuZy1fWVcwTDcwaThIa0J6OTFqV1lOOTNjekZB?oc=5", "src": "Billboard", "time": "5 hr ago", "cat": "Culture", "hot": true, "ts": 1780754497}, {"title": "Disney Confirms Status of Indefinitely Closed Tomorrowland Attraction - disneydining.com", "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNSXYzVkxxWlIwUkJuQjhhYTJqdnJKdnVBQzNKekJjUV96YTV6N1RObVJiMkdwcTNNb2s2MXk4c3lJRFV3cUxTX2xPazFCV241a1Q5dTVmbjNHTFlrUXctMWlQTkJMZU81ZGEzUEwzem82bV81U1BsOWpSb003VGJSOWViRk9JWW1rMXhlbGlRM2xfekZCUnlqcmNWdFRRMkhQRGdoLXJ3?oc=5", "src": "disneydining.com", "time": "5 hr ago", "cat": "Festival", "hot": true, "ts": 1780754142}, {"title": "I used to clean toilets at Glastonbury - this is the best time to use it - MSN", "link": "https://news.google.com/rss/articles/CBMi3gJBVV95cUxOWDZzYmRGS0VhdVNic2JVTFNqTE03SGsydWRzUUdVbGNNS0g5OEROMHlTMl94aUc5WnpNVnplVmZnbEQxYS0zN0tPQUc5M2dQV0R3TDZzam1JWkgzdzhRZGtROERuN251Umh5bU4wSVAwQVlvUVNET0RTb3RXTG9rTmdiVzFQb2dqSy1DeE83SzRMam92MlNLcTNIN0NUNldKRVVnM1gxLTI3VVQzTklwdlgxdll6QzdLMW85RmVrNi1OOW81WlFvY1pUay1nX0hVUGtDZTg3NHA5T0VJcmtQa2g0OHJKYnlpNS1EdW1BZXNtcHp6bUJfZ3plQ2dVNXhheVJILUtYTzJRb2RLQWpVOHgtSDh4bmplQzRBT3JmakRMSXlYTjhpMnNyczM2MWJzX0RqcV9xNUFSbURNNl9iUmFCWWVoQzEteFhCbndCZ2FfX3dYa1cwRWc5LTlEZw?oc=5", "src": "MSN", "time": "5 hr ago", "cat": "Festival", "hot": true, "ts": 1780753935}, {"title": "iHeartRadio Music Festival lineup and how to get 2026 tickets - MLive.com", "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOLVhCNlEyektJbnRFMUJjSWxocmlPM1UyZkFJcXZfZHFoRDNQaE90OFdBWEZRNUt0X3VQZzRXZHZVZ3ROcWszeE5CZTRDTmFjWThaekpWY3hHZTl5MkxvRk9ZZzloY3NZUUt0eGRhckp5aE04OGMtRUZjbC1wRjVOX1FmT19EYVJoY2NXWGtkZkJRYTN0Z1BybV8yTGpRbFhsc2Y1Z1NNYWhmOGRqYm1NZXRNdnBjQQ?oc=5", "src": "MLive.com", "time": "5 hr ago", "cat": "Festival", "hot": true, "ts": 1780752420}, {"title": "Illegal rave party tests French ban and draft law - The Local France", "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPelpvTXFFWnNtdllQR1BoY09TcDhaWUFKLXN4aFc3eHQyRE54RTZKUjd4MUtvQUlUWEJkbnFUa2Fud1g3RFdqczgzS0dkbDlROFlPbl83VFFiY3lRXzZ3SkNuU3BwZzBVbFFjUE9GSU5JN2p1Zzh3RXdoMERNYlluSGJtQ1VIMUw5TWc?oc=5", "src": "The Local France", "time": "5 hr ago", "cat": "Nightlife", "hot": true, "ts": 1780751496}, {"title": "How Walt Disney World Quietly Reimagined Tomorrowland & What’s Next - BlogMickey.com", "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOeHpEQktuS0V4RFBXTUtTOTViblI5d0FURktpNm9hNTg5MXpXbXk4cWNKV1NHVjNCRC1JdDltREdSZDRGS0I1dEZSMW5ySzVhQmZTZjBFZ1BYZGRsS2p0ZzBDRVlZQ3RXQmlXNW9acThVRllJUVFuSG0tTjdzOG51UkdweGdUSmZtcUkxNjBWa2Q3cTB0eW45ZGZzV3I?oc=5", "src": "BlogMickey.com", "time": "6 hr ago", "cat": "Festival", "hot": true, "ts": 1780750917}, {"title": "Travis Kelce’s Future Wife Taylor Swift Receives Historic News on Friday - Yahoo", "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPenM0QVNyN0xYTFBkeUdEUVVqLXBGMkhGSVJ5Q2hzaGpkX2pHX0NmVno3N1R6WGJybTJqdUlPR0NDLTNLZmR6Rld3VVN1VmNGZ0xzY0RmLVF1OXZfRVNFVnR6Mk15d3N5MEltanVPemFiTm1rblhfNkNDbHpSZXFRY2k3QWkyVnhsRkh1OXRZTFRJMlBvQVBXLU80RklxUVZiU3RB?oc=5", "src": "Yahoo", "time": "7 hr ago", "cat": "Culture", "hot": true, "ts": 1780746820}, {"title": "Taylor Swift, Travis Kelce July 3 Wedding Location Revealed: Report - Republic World", "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPNXY2YVc4cHI0Y2wxaHdOVTFfQ3RtcEFKNUFOZTZuekRJbWlmdF90dkZBMC1pLWNSSVR6MTJOcW9SaEJWSHVKLWplYVN3Sk4tbmNFX1NHdHRQc3lXMDA5WTRUTVZLSE9lNnRVcVRETlota2lrcmxKdFRTdlpoak5taFF0cHBWMm04QW5lWmNQWEYxWDFlNUdxdTBQZkZiRmswX2NMUG5ORlVnWUsxTTVVT3lZRlNMVEhrT08zWWZhb0FsR3h6bkJ5d1lsUkVsZWpkUVdYctIB2wFBVV95cUxOamg4SXZ3V1AtampQa1IyZDVjWHVLdDJneWhGcVlEYl9LUWdwdGJuejQ2YkZyZ0NtVkdkNnBCazVoaDJwbmgzeFQ5c3hZSlVvZVpnR1dvTGZ3ZFBiTk5tVzNUeDJIM3ppVHdjT00tOTI4OVVBYkNxTnNjam03TWh6QkpiSzNoQ1FUWGNwbUVyUTZiNUNDQUFpN2ZtdmZsRkEyZ2NQelRjbFNxRFp3R1FTRU90ZjFOYWZORmxYbFYzdmJMQkx3ZTBRTzRGNlJscWl5X2xKTXRSZGtRM2M?oc=5", "src": "Republic World", "time": "7 hr ago", "cat": "Culture", "hot": true, "ts": 1780746802}, {"title": "New billboard goes up on Clairemont Mesa Blvd. - MSN", "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOYUJwMXJFZlRlbWdxeWtvRFV5ZHE5dmEySzZVUW1hRDlHOFFUZ3p5SmFJY3VLNXNXOTNwbk1MV0Nrb3ZULUgxOVpBa0xYRjNLMEkwWk5SUjh5dm9sWTI2RzFHUUxVUEF2TWhHWTRuMFIwWVR2UVE2ZHZXczROVHVTVm5ZajIyTzNubGF5bXRHYzFKTlEteXJIRVdn?oc=5", "src": "MSN", "time": "7 hr ago", "cat": "Culture", "hot": true, "ts": 1780745305}, {"title": "Ted Danson apologises for wearing Blackface and using N-word at celebrity roast in 1993 - NME", "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNRG5xMkZiUFJRaGNoazlaTkhhLW1hbUw2YnZjZlBZOGRfbUliUWRUZWlPc0JIbGEyVW9oclRXU0MzTjM3eGNmd002SkRzRVl3c3Vud3R1WklyZTRsZ3JFcS1pMnI3ODExZEhGZGd1NDZWaTd3SG0ySV9JXzBaXzJmUmloenR5eDBFWUxkTXVWZmUtUVJUYVp5dUlaQWVOdkFJQ2R6VXpwYUZfdWV2SkNPSGtRd09pUU9lMDFxN2MtMmg?oc=5", "src": "NME", "time": "7 hr ago", "cat": "Culture", "hot": true, "ts": 1780745194}, {"title": "Skrillex set to release new album soon: full track list revealed - artthreat.net", "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPWHdtV3FVWWpXbWZuY0Y4OHdqV24xaGZYOEk3VklueUxjVXlPMXdkQ3M2Vzd3LXRhb1EzSTVFamJCRlEtNFB6SkFwMF9zVkVkTElhY1NVeGRlRzNCazNBeW5YWjJoVVRobmY5MF8zNkRmaGtMZVQ3d1lPM21LUnNFU0FkYzdDZXRJYm1HOE80YXozNWt6NEsw?oc=5", "src": "artthreat.net", "time": "7 hr ago", "cat": "Culture", "hot": true, "ts": 1780745124}, {"title": "Valtteri Bottas & Daniel Ricciardo At Coachella During The F1 Break Douglas Ross (2EhAcrT4vc) - Mshale", "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE80VDMxZHhpNmcxRi1JNXdXLTNGZXIxOEtVMXZ6OUQ0MnVfc1ByU1dPWTVRNXRndHNJeUhqWE9FMU9McFliVnJlTnI0VUtYWlpmYkJjZU9wbmYwa0U?oc=5", "src": "Mshale", "time": "8 hr ago", "cat": "Festival", "hot": true, "ts": 1780741867}, {"title": "The Cure air rarities and classics as they kick off 2026 European tour at Primavera Sound - NME", "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOMERsWHBTTkdSUk1KR2s1dFF2eU5ES0ZmbkJ2empZRTY1UUc2U3FSQmtOT1dPTy1RLXVBWkpPTEV1S1dKZmI4ZUc5WHlRVTBsZTB3Y2xwNlFhYmFmT3UxSWhFSkNTUE1JQjQxUEFSNm9yYjkxdEdvVk96d0UzdklrSnZlWU5LdjEtam82UGEzbUIwSnU2dS1xOHphd0h6WS1ObFpIWm53UmhyZUZFMDJqU1pEV05ybTlwdy1lUVk1VWxDV243eTlz?oc=5", "src": "NME", "time": "9 hr ago", "cat": "Concert", "hot": true, "ts": 1780739598}, {"title": "Phoebe Bridgers calls out ICE “idiots” and thanks fans for “internet-free zone” during sold-out Madison Square Garden benefit show - NME", "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQQnFqWXM4SmdfTl9UdFlqZU5XTzkwTWhRSjExekdTRzR4MDk0cGNUQU10Q3h4VHlQdUZIY1hDZl9peUJBQ3JpanVWZG1TaG9HRXdyV2ZXRlpHd2dkS3Vmc2JtRHhzSUlqT1RlaHlPZ01zMmZOc01LWHoya0pOMDJ5SmlxRVVCLUNVQzZvbmdpU3BzTDhtTFFUUkF4NDFQMG5oWkJMby04c19TMGJsUE5xLUJlUzduUQ?oc=5", "src": "NME", "time": "9 hr ago", "cat": "Culture", "hot": true, "ts": 1780739367}, {"title": "Music Industry Events Calendar: Festivals, Awards & More - Billboard", "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNUTJBZDRxd19YSHplbTJIdmNMRHY1TW1RY3BmdHVzemNPb1lTWW12Z3dzd0xvelcwaXdpSTFZbjIyQXR4ZGZFMjZvWTVIYXJkaDZGTWpMZE1Ib3V1SUVqQ2dNWjBNaHAwbzYxZk1lZlhFRzZKSlhPanoxWmMzYWQ4YkF5dE0tOGpTc0ZTX2hRN0Z3UUx6?oc=5", "src": "Billboard", "time": "9 hr ago", "cat": "Festival", "hot": true, "ts": 1780739264}, {"title": "Arena One, AMC Theatres Lift the Curtain on ‘Next Chapter of Live Shows’ - Billboard", "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQNFZlY0VfdUpYa2xiV1FKVE04N0JLdVo3YUhzWDFMZDV0TF93U180MnFwemxLdHZJQVpaM2o5RFFHc3JjQVZGekN3UmVHRFhfaFlhTEhtUzJrN3I0ZnpRWGI1MlBTQ3lVSkhOR3E2Z0NIRlZDT2hncFZBb2xZQ2xJMlRsUQ?oc=5", "src": "Billboard", "time": "9 hr ago", "cat": "Concert", "hot": true, "ts": 1780738125}, {"title": "Ira Sandler, who made 1015 Folsom a San Francisco nightlife institution, dies at 73 - MSN", "link": "https://news.google.com/rss/articles/CBMi-AJBVV95cUxOTy00cExrQmkwb1ZBLWpjeVlBTkdMM2hfVlRwTmp2TFFfLW1WTXBWUDdVV19hdnZzVnh5ajdBNUZRSWN1SkZFZENkMHpJeXZ3U2dyQ3VHb1RUUDROeFZYU0RrMmZGZFR6NUp1bnFCUFB3RlczdEc5dVJIVTMyRFltRVlTMXJZWFExaE01Y2pSU0piX1g4U2Q1cXEzNlRCMmNqd19iUUFBTEZmTlBkOGdYMGtsV0pCeWxDaGJKRWh5QnVYMWFTMC1ieHFCS2pOTHpmaDAydG1FdTYyOEJqQVVLWHIxc0JuRjhIVmtPV3QyTDg4SWlQbzFGSGRHaFN4NFZlMHBBZXdFMFVfMzRmWlRqREFHNVJoZFd2cHMxQ3hrelBfR1d4QkVoYVV4X0RiamdQT0I4bElPSXV6azJ2RlNXVGhOUUZYTUI4Z0xvcHlNRDRIWkNDT1NoQ05iY2M0YnFMYW9heENUeVhtMGRMTkJ2YlJsZUlTTkpF?oc=5", "src": "MSN", "time": "9 hr ago", "cat": "Nightlife", "hot": true, "ts": 1780737847}, {"title": "M.I.A. opens up about being cut from Kid Cudi’s tour: \"He didn’t even speak to me about it\" - NME", "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQTlJOVENNZlE0OUZ2VG9WN2xfNnVyWWh1WFA1ZDNqaWJ1LXZ3Tkl0YktUa20zQjFVbjVTSE5Za3ZLVTBtWmMzNi1tVkJESktKWTVHemdGYzVEZFgzQVVzamFGS3BabllGa01tTHR0NzNIZ0pKRHhZTDdDZE5kOEZPTDRuak5FekxwVlFOYmdOUHZQYWxoNFNXUWw0dkNydE4yYTA2U1lGV3lDTzg1T25rYzZKdGRUd2NOc3RiMnhHWQ?oc=5", "src": "NME", "time": "10 hr ago", "cat": "Concert", "hot": true, "ts": 1780736009}, {"title": "Billboard Hot Latin Songs Top 10 Countdown For June 6th, 2026 - Billboard", "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOX3JMUXRkSm0wanJZTHZSMjI2cElCYTY1VTB1MjVrMUZoa2ZBcVhZODNmd2NxYzMtckx2OEU2R3Jka1RLQ0RqVG8wbm4yZ0t4WXIzVWxpczd4X3RDdGhrY2VnSUxiOXkwYUFzNHVYb21BaGExTFdyeWRlVEM1WjNSVHUzX3Y4aWUtOTNBSEZKdHFWWlBFbHc?oc=5", "src": "Billboard", "time": "10 hr ago", "cat": "Culture", "hot": true, "ts": 1780735639}, {"title": "The Offspring’s Dexter Holland Joins Electric Callboy on New Single ‘Let the Good Times Roll’ - Billboard", "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOdmtLVnJMNUFSdHB2WFk2RWNmeVAyUWNoLW5VMXFVY08wX0k0OVFUSE1GbTJjQjYxekRSeE1RdXV1b2Zfa2N4RWRJRnB4TDZHOTg0djItaXJoU3VjUjNZUkk3SkZrM2VjVFdZWE9Xd2JjaTdOam5RWERpQUZld0J4cFZyRmhxQkd6bXBMdVUtRWxNenZBVW9XLU9DeHhZTTZUU1hZc3lDZjFJQVQyWmI2S2Q1Nm5Na2xuSnh0b3EtRWtWQQ?oc=5", "src": "Billboard", "time": "11 hr ago", "cat": "Culture", "hot": true, "ts": 1780732405}, {"title": "Taylor Swift–Travis Kelce wedding rumors now include Madison Square Garden - MSN", "link": "https://news.google.com/rss/articles/CBMinwNBVV95cUxOMkxWZWJOV0ZDUWQzRmtjcVFEUklqOWxaM2ZxSmJVZEpvVmFtOGtiVFNxbWpocUVBb2xPV3kza3FmUFVtR3kwWTlfUHN0bUhhNjZtRXpoLXZ6amY1amlLVEVqNXJiX3RQUEw3VWEzMzdJUFJoUnVJVmExX0hDOGphaUtRWmtPRENESnI5LWs2OXlJakdleXpzOWlvQVNGSjNBUkYtdGx2VnJuVGtKdWFCWWI1ajEzWVBoTXFqMy1UTERhaVI2cy1jNXJnZnRLXzRYckpxRjdCRVpRbmFmcjg0ZXdRVlIyVFNrTE5QM3Vvb2N5RnluMXJwbFNwaG8tNUhDQl9kdjdlREN0Wi1HVEZObGRGNnBfbF94bUUtTHFBZW1mNWE5RDJ5T0VoRFE4elRLWWtNR09jaUx0cTRkZmN2R1V5MllyNlN4RURwYy1WV0lRRkdhMVZ3U1QzWThQdXFvSWh6MzBpTDl1VExxRGJsdWk1SEo4OXhvTkNJdlNOM2VlUTlxck5TSVF1czBWZjRUTmdfZ2hzY2FsY3ZFMHNn?oc=5", "src": "MSN", "time": "11 hr ago", "cat": "Culture", "hot": true, "ts": 1780731198}, {"title": "Tucker Wetmore Brings an Effervescent Energy to Billboard Country Live’s Night Two - Billboard", "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNZHlCU1ZYaFV6dzRrb0hUa1BDMFg4aGRrdWw2NllwODJRcWlZR1p2QXEyeU5ZdDlVYUdoOUp4cGl2SWt1eGxnWlZPVUpHdDJEbjVZZlFFRWlfVlRWMlRCR0RJdkFWT1M1T1pFYWdkSlhUeEZoN0M3T2EtVllBQ3p5UnoyemMzckZLQmJtaEN3RWpTN3R2N2c?oc=5", "src": "Billboard", "time": "13 hr ago", "cat": "Culture", "hot": true, "ts": 1780724846}, {"title": "‘Don’t Look for Me, I’m Gone’: Lorde Premieres Unreleased Song, Puts Personal Spin on ‘Girl, So Confusing’ & More at Gov Ball 2026 - Billboard", "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQcnI2Yll6akkyQzlFR2RWUmJVMF9HaEdhb2EtN2NpTWVfalVWRGk5VnFoTDVleExmNXdKMzdReDRkNDdvSUJUZktmckpIeGFmLUxxVnpDczEyTnBNV1p1WVI0RGZwVW1CTkNoT2VHRjZVVXdRZjlpMEJ6N1VjUkF2N0R1dTUwQk56dkZNcTB0RFBva05vcmtPcGd5ajdyWHpyaTZVMC05Q3Z2RTFZNUE?oc=5", "src": "Billboard", "time": "13 hr ago", "cat": "Culture", "hot": true, "ts": 1780724797}];window._ppUpdatedTs=1780772636;</script>
+<script>window._ppCultureItems=[{"title": "Billboard Honors Country Music Industry Leaders in Nashville Event - asatunews.co.id", "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBRb2VEVmFCcllXdXQ5Sko5b0k1VkZpck11YkNTUGhrRmt3X2h2eWdyal9ZZEZtQUVVWjNfRnctUmdOa3JyMXVIc3lNc3huamNCb1otT3RmaFNlLTRlYUFOZFNmT1dYU09RS29GT0x6RHM3U3dldllUdQ?oc=5", "src": "asatunews.co.id", "time": "36 min ago", "cat": "Culture", "hot": true, "ts": 1780626035}, {"title": "Billboard Hot Latin Songs Top 10 Countdown For June 6th, 2026 - Billboard", "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOX3JMUXRkSm0wanJZTHZSMjI2cElCYTY1VTB1MjVrMUZoa2ZBcVhZODNmd2NxYzMtckx2OEU2R3Jka1RLQ0RqVG8wbm4yZ0t4WXIzVWxpczd4X3RDdGhrY2VnSUxiOXkwYUFzNHVYb21BaGExTFdyeWRlVEM1WjNSVHUzX3Y4aWUtOTNBSEZKdHFWWlBFbHc?oc=5", "src": "Billboard", "time": "45 min ago", "cat": "Culture", "hot": true, "ts": 1780625503}, {"title": "Muddy Roots Music Festival 2026 Lineup Announced Featuring Circle Jerks, Municipal Waste, Monolord & More - mxdwn Music", "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNaWhuRTB5WTZESmViWmpyS2pxMG5qYmpJNHMzM1FOQ3dDN3hWWDJuSDJFaEpsVGRCWjNuV21BT243ZjdlZVc1WHlmSXh1bDBic2MwbnY0emxnQjd1WTNibkhOakN3bFVNV2RHbzVVak83bExJNklkcVN4U3JMRDJhV0wtcUNDd2d2Y0dwTGI4akpzc0JwMjBjeng2Tjg2V0ZwT1lIRDhwakFGX3NrY3RJekFibmJPUkdZaDRuTmRTcERZLTQ0ZU9ZbUZUYVUtdFpMd3hSeUVjWVVJUdIB3wFBVV95cUxPTjZRQkNacDI4VHZHOWxDQWYxTFVoUGtOZUVLbEJaWVkzbEM0NktDejQ5cjBPZVpwN1FCYmVsd21ZbmJETFZUWll6ZjZRdkZfc1g0X3ZMNXk3eGtwY0dsY0tuN1FhTmpZNkxoczN6cENMcjZqaERxYk1oN2dXNDhfc2xyT25GTExzdUJJUGU0OTl6VG1RYnlzNGNwaTNIU3U2Q0RDV0d1UHUwdFFPXy1pcEx2U0hfb3ZFRnlfOXlFZlBUUWVidlh5RjBOeDMxSkwtX1poOVpFVEI4UlItRWkw?oc=5", "src": "mxdwn Music", "time": "1 hr ago", "cat": "Festival", "hot": true, "ts": 1780623902}, {"title": "How PepsiCo’s Sting swapped the old marketing playbook for internet culture - Storyboard18", "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQN1VyUm11WGg3alU4Xy10VDVJLXJ2OWN2Qk01RmhNZGE2Rk1ueXdDTm9kTjYycG5OdzFTYUJCZ2ZwTnBHLXQyM1BjWHhiLV9DUmRWY01ENzVTLXZjYVN1dEtFaGZlMmN5Y3NxZm9zY0ZZYkZ0dkFkaTcxS1BEMVRUUWx5cEVYUm96U0F6V1FKdUdpb2lQTnkyaEZHLVJvSWNaZUpIUkJucVlUOHdjM0pLbE5OLW9uenJ2RkIyUFJkRDE0b01QVFpQVmRHcEhGUdIBzgFBVV95cUxQN1VyUm11WGg3alU4Xy10VDVJLXJ2OWN2Qk01RmhNZGE2Rk1ueXdDTm9kTjYycG5OdzFTYUJCZ2ZwTnBHLXQyM1BjWHhiLV9DUmRWY01ENzVTLXZjYVN1dEtFaGZlMmN5Y3NxZm9zY0ZZYkZ0dkFkaTcxS1BEMVRUUWx5cEVYUm96U0F6V1FKdUdpb2lQTnkyaEZHLVJvSWNaZUpIUkJucVlUOHdjM0pLbE5OLW9uenJ2RkIyUFJkRDE0b01QVFpQVmRHcEhGUQ?oc=5", "src": "Storyboard18", "time": "1 hr ago", "cat": "Culture", "hot": true, "ts": 1780623347}, {"title": "There Is No Sound Of The 2020s. Yet. · Feature ⟋ RA - Resident Advisor", "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE1tS1dqSEdRaUYyZkVfMVdYV0trWkVuR2xrSVFGS1l2OHNwVHdSd01HM0h6Rndmb0dFYTl3ZWY4blI?oc=5", "src": "Resident Advisor", "time": "1 hr ago", "cat": "Culture", "hot": true, "ts": 1780622739}, {"title": "RIIZE Reveals the Full Tracklist for Second Mini-Album II - Billboard", "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxORVlOSmdqSVpIakI3OGpJOThYQm5oSUVxNGtiM19ydEhlTXVJUEZGV1BQVVNfNlFlYXhaYTAydFd6eXh2R19ORFFZbWkzYTJQSi16OUo0V1ZvZ21CbnBUZjZKdGlwdy1sQjFDb3V1b3RtUVhGY1Rpa2FVQ0FSemNXUFVTS2ZrU01NaDBXMk55dlM?oc=5", "src": "Billboard", "time": "1 hr ago", "cat": "Culture", "hot": true, "ts": 1780622192}, {"title": "Madonna Transforms Times Square Into a Dancefloor and Reminds Everyone Who the 'Mother' of Pop Is - Rolling Stone", "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOUUFGaWtZcVhER3RVQ2pIdklCWW1tX2tERjZlTXhpX3gyd1lIRDQ4cVVfOVdQN2laMFNEWGJWU1RuQVFhX2FRbWNYNVM1cXdfRUJVRWVsQmZSRS1RR0dMRU5qeHZHak85UXE3NlMyaXVnTFlBc2VlSkl5Q1VJX1pvTnVHeHJUTDk3dWFXMzN0cUNJS0lUdHNPcEhKTDRIT3lJMVFlZGZHT3hQcnV1?oc=5", "src": "Rolling Stone", "time": "1 hr ago", "cat": "Culture", "hot": true, "ts": 1780622138}, {"title": "Burning Man is less than 100 days away. Here's how Bay Area Burners are preparing - MSN", "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOMG1vMjJnNmNXeXEwdGJKNVZFcHNMY09nel9JS1VXbWFHRl9fajh0MmFmdE9FXzdhMnlPZnlBaVdHLW1kUEp3R3QxQTBzT081MkVVdjhEZllSVzJhUWZSdFdaYm1ZXzhZWmRMOGlvUEhHOS1QRC1adXlES25tOWdvaXllR2hiWlctZ0pyaGI5VkFnVkc2WXc4a19XeGFxR0VpaEtSYlMxYlkwYWp4enFvZFVicXpDM0F2QjRMSU5obXp0MXhf?oc=5", "src": "MSN", "time": "1 hr ago", "cat": "Festival", "hot": true, "ts": 1780622107}, {"title": "Tomorrowland Melbourne lineup lands for CORE debut at Flemington Racecourse - شبكة تواصل الإخبارية", "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5SdkhLZ0x1aTVvVEFncjdxcWdyU0RCaXpPMGR2MzFaaVF0R1RPdE5mUDBRaG9oZ1BoVk55VTVxWlNORlJQUVpHUWE2NmpHbDRURURN?oc=5", "src": "شبكة تواصل الإخبارية", "time": "2 hr ago", "cat": "Festival", "hot": true, "ts": 1780619125}, {"title": "Yalla Habibi – Albanian X Arabic Techno Mix 2026 🚀 Berlin Underground Rave | EDM Festival Vibes Keinan Davis (eqZLdecJoZ) - Mshale", "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBETGMydDZHeGJuN2hxUDluUm54b25IMG9DT3U2X25uVklEU0RWbUVnVWZKaFJ4ZkVQSnctT2xjMFFaZS1kbWZjYXhSMlhzVTRMcDlNbVlVT3FLRXc?oc=5", "src": "Mshale", "time": "2 hr ago", "cat": "Festival", "hot": true, "ts": 1780618544}, {"title": "Honey Dijon Leads Tomorrowland Melbourne CORE Lineup for 28 November 2026 - El-Balad.com", "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5OLVpUSlNpSDloYThVd0ZNUzF3YTVIWGllZnVnYmZPQjdReXRhUFlVbk83cklvNjlEU0VuU1haek1tU1FJaFJqaA?oc=5", "src": "El-Balad.com", "time": "2 hr ago", "cat": "Festival", "hot": true, "ts": 1780618396}, {"title": "Mall Grab Leads Tomorrowland CORE’s Melbourne Debut at Flemington - شبكة تواصل الإخبارية", "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE10RTR6bmxLazdueUJRNzRVOVNlbGlOSjlsSUxBaEhtSWVjc2R0dndZbUU5UW1fZ0poM3FVMUtSZXJhdy1nNGZEM1l2NEFzSC1hOFpv?oc=5", "src": "شبكة تواصل الإخبارية", "time": "3 hr ago", "cat": "Festival", "hot": true, "ts": 1780617266}, {"title": "Tomorrowland-linked CORE Festival picks Melbourne for Australian debut in 2026 - mogazmasr.com", "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1nTGFnbjJyNldsZlN3dTh0c2VsYVpxbVY5WmF1S0xfanQ5d1Q4djdxeFhISzdid1RhdkV2Z0N2Rm9lVGxFZDMw?oc=5", "src": "mogazmasr.com", "time": "3 hr ago", "cat": "Festival", "hot": true, "ts": 1780616902}, {"title": "No Music on a Dead Internet · Feature ⟋ RA - Resident Advisor", "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTFBNVTl4WXNYakZNd0FvUlBhNEZuRGN1RVN4WTRWLUxGMnd6TWVzQXlSSFdUOUZEZlhuY01mdEZfRDU?oc=5", "src": "Resident Advisor", "time": "3 hr ago", "cat": "Culture", "hot": true, "ts": 1780616556}, {"title": "Exploring the Link Between Psychedelics, Music and Technology at Dave Asprey's 2026 BEYOND Biohacking Conference - edm.com", "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQZ0NWUk9jZGhsX2lRd0tyalMxWS0xZEFEZl91cGs4bXh3Y0RLWThxLWpnRWpaNF9IVE1JZ0FDRWEzcG5UdDVfdWxDTlFaTWQtTmszdW55dDRpMmxnYnFEQjdaNTNMRlNpYjFHY01vdGRHdHF5R2RpUy0xMTdvZWdlb21nOV9kQ1JoSWRtaF9qTUpCb0lW?oc=5", "src": "edm.com", "time": "3 hr ago", "cat": "EDM", "hot": true, "ts": 1780616322}, {"title": "The Beach Boys’ Official Online Store Drops ‘Pet Sounds’ 60th-Anniversary Merch & Apparel: Shop Now - Billboard", "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPcEd1OTJoNmZ6dzlUSGNLY1dGc3NTYk1icWNPWXotNVU2WHFPeEd4YmJyaC1Ebm1WWkc2anp3Xzl5THdkNUUxendFTE43OGU1QW0yTkE1c1FGNC0zZURTT1ZJS2pKN3Zad1JlZFdNQlN2ZWdzTWlpWDBmbDFuMnhNdGJoUU43Y3R5MWM3M2MyR2RURjJFMWlLR0Rqemo4ejctMkU0Yk12aEhUVmo4ZjE2d3JHSXhxZDZjV0xtTjMxYy1OLWc?oc=5", "src": "Billboard", "time": "3 hr ago", "cat": "Culture", "hot": true, "ts": 1780615339}, {"title": "NIVA '26 Conference to Focus on Live Music in a \"Post Monopoly World\" - Billboard", "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5QSGpuSU9Bb3JFMm5kTnJwdmFSQmJBRFdNZWNfbDhnQzRKQll0MHR5RjBiajE3aGhPN0xadHlPQm1BSmFFUFNzTkppdUtHU2pJY3kzWjMxdFNoNzhVUDhfbEh6QV9FWFlEVjh3?oc=5", "src": "Billboard", "time": "3 hr ago", "cat": "Culture", "hot": true, "ts": 1780614642}, {"title": "ILLIT Tops Billboard Japan's Overseas Female Artists - 조선일보", "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQOXMwbXM2ajlNNmc3MXRNeTdxbVhDTVdXbjFxaDAwUzI3czZjS0Zpa2tXU3RDZGJ4NEtfMU0xRE5PSnNxME1vUjBGcmpYUURfTzh1cEtqR1RuSTFjM3JHTkd2MThncWtyTUxUWFEtMEZkanQ2anNKODEwZEljQXM3M2lscVE2RUlqQzFEd3Jn?oc=5", "src": "조선일보", "time": "3 hr ago", "cat": "Culture", "hot": true, "ts": 1780614239}, {"title": "Concord Enters Strategic Partnership with Latin Rapper Lito MC Cassidy’s Lito Music - Billboard", "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQN2tLam5rOFVqZE14QlZyX2hPQTExZWdhc0gtZE52ZjFXQUVoMUtNSENWbDVOY3BFX1poRmRTSVlGZDUwRVRqRU0xcGVwZXhQLTFlUm5tSmRkQjdtU1dFUThTLWhxUVM3aFZrWC1mSlppZElSOEhpOXBNSmtTNXJQdzhB?oc=5", "src": "Billboard", "time": "4 hr ago", "cat": "Culture", "hot": true, "ts": 1780613477}, {"title": "Music Mogul Clive Davis Discharged From Hospital Following Respiratory Issue - Rolling Stone", "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOZUxlMzBLNVkyeUdMYmVjRVhuSk9NbkstcnlHOGNxd3RIM0ltYWxtRUtyY0FxanpQMkxmOXZ3MllPZnFmMkFwLXIzOGR2dG1Kc0Zia2wwNzNKcF9pVlFaZVltdlVJUFNkRlBNT3M4Y0c0MXNKa182NlhqaGtGTndwelU2Q05wSzFWTm5WMFRObVFTTVp2eTZjTnFXSVRZQjVtSWc?oc=5", "src": "Rolling Stone", "time": "4 hr ago", "cat": "Culture", "hot": true, "ts": 1780612500}, {"title": "EXIT to debut Starlight Festival at the Pyramids of Giza - Rave Jungle", "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPUlduUEttUG9adk95bjVaYUVpY2JMUWtYN0NqY2VPOE9EM05WOFRRcmp4YlNsVWk0MGVqT3F4VGtHRXZuOE9zZl9TbXh6cjA3cGY3VFdvaV9nLTM0dTg0ZVdFd0hfZms3UDhEdVJNUlNyVDZvcE1rTlBUcHBULUwtbnJhUE5vNGZwalpRUw?oc=5", "src": "Rave Jungle", "time": "4 hr ago", "cat": "Festival", "hot": true, "ts": 1780610620}, {"title": "Karol G and Drake: Coachella 2026 collaboration? - latination.com", "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQQmxkb3BJc2xEZ2dNRklLb1RxQWVib3lpN0thX1pWOG5PWUdqOGdxbVVlU0ZfaC1SeEY4N18wU2VZYVdqM2Y1Smo3Q3RHalQyVnNMRXFpMzA1MW9YTG1kTlhFNVZiell1bERUMVFjY1dFTFNwQ25QQlQ0Vmg4T0tyQzMzMGJxVmc?oc=5", "src": "latination.com", "time": "4 hr ago", "cat": "Festival", "hot": true, "ts": 1780610434}, {"title": "New York Knicks Star Jalen Brunson Says He’d Pay $7,500 to See This Music Legend Perform Live - Billboard", "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOdlYyNUFjdjZtSEVFOFZZR0EtdWQydk8xd1M1TDFNTGpMQ2VfeGRWR0dmR0dDb2pvLU1qaEVjNFRQelJCY1FDbkJBYkJLV2lxUVRDWFdrUnU3ZGNWUmtMX1RwcFJxbDhzOXNtSHJDWWhKQzV4dmtDUHUtX3Y2OUdJbU5CS3Y4MDRGOXJWZlJjU3lRM1Ytdmd1aDN1cXdBOHdLcXhHTEhKemRudWJEQ3hyaA?oc=5", "src": "Billboard", "time": "5 hr ago", "cat": "Culture", "hot": true, "ts": 1780609888}, {"title": "The Best Moments From Bad Bunny’s Global Tour - Rolling Stone", "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQbWFVdTh0bHpvMFlwcGhFYjlacE5sc0c1cTZ1VTFwQlVFcjlNcHp1WmF4Wm9SQUl0NGRqMllONUxwcW5fb05kaFNBdHh4eUxubGhqYUtuZlFxUF9qbTVwZF9TMk1YM2pYUUJOemFXOGtDRTByd0gzN2VQWjJPUlNKTUFTTTNJcjl0TG1VUndUdWdUNlBxakNpTkJ6VTh4dXA2TllSUFZ3?oc=5", "src": "Rolling Stone", "time": "5 hr ago", "cat": "Concert", "hot": true, "ts": 1780609595}, {"title": "What’s the Best Official FIFA World Cup Song of All Time? Vote for J.Lo, Shakira, Will Smith, Il Divo & More - Billboard", "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNeGFkZkxLcFlfekYtUkdXWlh5bkg5WTQ4SHY4YWo4M1lCcjhZV0I0djRHb2FycUM1VHVaN2dVQ2I0ZkZKMnNMLUNsbS0xZVJCeDJ1ZXF5cVJCOVRvdkJIbkh1am5pMmo4aTRZRGM0Y2Y5eWJObHZpOFliNDcxYmdXNjZKNThrLUdSRXk0MXRydEtBVm9NQ3NXdG1VTU9JUHNBMnpHcGFOM21zVldMV0xBSU9VRWk?oc=5", "src": "Billboard", "time": "5 hr ago", "cat": "Culture", "hot": true, "ts": 1780609420}, {"title": "Jim Jones Thinks Jay-Z ‘Spared’ the People He Dissed at Roots Picnic: ‘I Wanna See the Yankee Stadium Freestyle’ - Billboard", "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOQ1h5cDQ3cTVKRUM5VE9xX1I2VXptZGs5S0loLUpPbm5oRm5LMXo5a1JKNnpKRUd1a2JndHk0Z2tsWVdOTGg4RFNRQm42dVppSjYtZ0o2UWRESFBtRlZYVmE2bTRpQVlnWW9NOUhBTk5fODNnVW1qNVNuVy1MS2xlT1lGUzQyT2ZDWFc4cjVDQUM1RzUydVQxZXpXUEF0Y0djeGJzbG1MQ1VoOXNB?oc=5", "src": "Billboard", "time": "5 hr ago", "cat": "Fashion", "hot": true, "ts": 1780609147}, {"title": "Becky G Suggests a Taco Spin-Off & Says ‘You Can’t Even Enjoy That’ While Eating Spiciest Wing on ‘Hot Ones’ - Billboard", "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOOVhRamItX0twZW1TREppUE1sUkM4bmZVSGdNRHZOX2cyckZhczlDZ0Q4aDVPcXhwbGg2ZDFMcmhXMWRMLTcyRFJZVTZVYmtMekItM2JZZTZlLTlWcGYwT1dUQXZ1bjkzRVk2ZmtzSk5wY2RQT0NfbEdpVTlLOV9mY01lODVzek9ubmNXZmVQNW52SzFjcXItLWZSZw?oc=5", "src": "Billboard", "time": "5 hr ago", "cat": "Culture", "hot": true, "ts": 1780609087}, {"title": "Trump Confirms He’s Attending Game 3 of NBA Finals — And Maybe Game 4 - Rolling Stone", "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNVFQ2Z1NDMUx0Ykd6RWdkLTFVaGdvU3hiMWRYMkRnOEF4dW9zSHgzSkF2R3pWbnZJM0Z1dnhwU3pJRE00QWxMdXQ2cVpWMjctQ1JWOVJwTGtfZDhLZTRYYl96X296THNJTTJGXzNzOXdqc1AyelhxQXNWQzhZUmVDQ3E4RzFjdkpzSUZHbnEwUXYzRnV4TzFUR2VzVTF0UHNDc1RpN3hCS0pDdFlJenI4?oc=5", "src": "Rolling Stone", "time": "5 hr ago", "cat": "Culture", "hot": true, "ts": 1780608814}, {"title": "Dharius Surprises on New Album With Regional Track ‘Ey Mezcal’ Feat. Christian Nodal: ‘We Must Adapt’ - Billboard", "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQRWV0VTRmdnd3dFFieGc3dFhVSEdVcElaSXVIemJXTktsQ25qX3JBZnNEM2NrX2JsVjVPVnNxVUlFdWUtUk00aks5bHNwWlZqanNtN3c4Um42c3Fva2piQzJXUEZsSG1aWmVjaGNpZkttOXNnWkNfLWN1SnRNNHdQNTVsM3Z4VGxVU2ZfZWdrMjFia2ZJN2ZvaUtWYkppU2s0a1RhRktn?oc=5", "src": "Billboard", "time": "5 hr ago", "cat": "Culture", "hot": true, "ts": 1780608688}, {"title": "Black Boat Weekend to bring hundreds of boats, live DJ sets to Lake Norman - AOL.com", "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOUW1QUE5FZjVvZkVOWHIxN1hPNkpJREttRHlfVWZnZEsyVmNNQnA2QzZYelJYQkRVZTZiVVl1a19DaTRrS2pGUTFtTjRVZ2Zfc3kzeEY2dmVYQU9rWDk1SWdEQVZFYlAzNktLS0pOLXNidFBwU19wSUo4M09tWk1OVU5fVQ?oc=5", "src": "AOL.com", "time": "5 hr ago", "cat": "EDM", "hot": true, "ts": 1780607474}, {"title": "IN CASE YOU MISSED IT: Cara Delevingne had seizure at 2022 Burning Man festival before infamous photos - News.com.au", "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPVWNuOFpuLWFxWDZtdGEtblJIZ09tb1hTa2VJbDdySFVqcW51VkpGWFJxa3JLNUZvMExIWmh3QUZCME9CZjdtUGdnZy1fTUR3WmlMS2tQYU5XVUhBQ1laVnNjbGQzM2ZJTUJwSVk2ajl4M1p5WlNjVUp0cUE2aDY4ZUdMbEpkV1hWQ3BwNWp0M2plNEJOckF4VXFkNzV1U1J1ZEF2YnJmWnFmNmJiZmtuWkUwWFhQOTR4TWF6My1Kb2tjbHBzV2N6Y0xaaUIzZndvbmw1RGZqMjkwZ3FZZUFYOEVhU3d5a3pxOElRMEZ0c09TR2NoQVRoLWwycVQxbHJOOFY1M3NCVF8tQVFiaFE00gGPAkFVX3lxTE9VY244Wm4tYXFYNm10YS1uUkhnT21vWFNrZUlsN3JIVWpxbnVWSkZYUnFrcks1Rm8wTEhaaHdBRkIwT0JmN21QZ2dnLV9NRHdaaUxLa1BhTldVSEFDWVpWc2NsZDMzZklNQnBJWTZqOXgzWnlaU2NVSnRxQTZoNjhlR0xsSmRXWFZDcHA1anQzamU0Qk5yQXhVcWQ3NXVTUnVkQXZicmZacWY2YmJma25aRTBYWFA5NHhNYXozLUpva2NscHNXY3pjTFppQjNmd29ubDVEZmoyOTBncVllQVg4RWFTd3lrenE4SVEwRnRzT1NHY2hBVGgtbDJxVDFsck44VjUzc0JUXy1BUWJoUTQ?oc=5", "src": "News.com.au", "time": "6 hr ago", "cat": "Festival", "hot": true, "ts": 1780605221}, {"title": "Here’s Where to Buy Affordable Tickets to XG’s 2026 WORLD TOUR: THE CORE Online - Billboard", "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQMjlhM0VRczlQUHNmQTZvamllcTVIck12cHZkWkZFM0t3TlFPRkFQS242TnRTS3lnTzlNTWFnRFFSZW54QXkxRGJMRFhRaVVYTGhJUnZzbk1xbk5LQmhNUUdFbG5FVy15STUxc1ppRjBRQks0N0ZnZndmU1V0RUdXOUlaYVpwSkxuNnJhV0hKbTNCQXJOSWpUczdEYXY3WFB5cHJHZTAwT19SSHFlaFNBRWNSRm56cUhnejBCSXNNTUxJUnloekxR?oc=5", "src": "Billboard", "time": "6 hr ago", "cat": "Concert", "hot": true, "ts": 1780604498}, {"title": "David Bisbal Returning to ‘Operación Triunfo’ as a Judge for Spanish Singing Competition’s U.S. Debut - Billboard", "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNLXRFVDFzdUQ5NDVLdjgyU2w4YllobG51R0x2d0s0VkJvaTB3bzJiQjFUd3g1bXhyS2UwUUs2ODVURnlVUm5iY2p2RjNiUmlYUmRzdWt5LVhsMU00S3NrX2pDdmw4eng0N241ZUxSZDUwRGRBRnJiQzduaVFUYkp4aEZEOGpkdnhGbVNNbXptZw?oc=5", "src": "Billboard", "time": "7 hr ago", "cat": "Culture", "hot": true, "ts": 1780602688}, {"title": "Drake’s Sound Engineer OVO Noel Reveals Original ‘ICEMAN,’ ‘MAID OF HONOUR’ & ‘HABIBTI’ Tracklists - Billboard", "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPRFd2a3lxSkJya1ZhRWk2Y2RPYWNGb1RtZVBSdTlTRW5Pc1h0UTc5X3otdkVJZFRvMGV0R3dLN0xDTVNfQUhQdHpLNFdOQ3h4ckxFcWx5dFRGVlRnSlp1TDJzajg5NWNPXzhVMTFBeW5uemJMQXl2M1ZLMlppdjZ3b3JqU0ZMN28yOXk2WExjbEQ5U2E2bmFnckFXWHFmZmFMa0pISXVIblQwWDRaTklfSkF2OE9PUTlSWDhJ?oc=5", "src": "Billboard", "time": "7 hr ago", "cat": "Culture", "hot": true, "ts": 1780602088}, {"title": "Kenshi Yonezu, BTS & Mrs. GREEN APPLE Top Billboard Japan’s 2026 Mid-Year Charts - Yahoo", "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPc215aWZsSE1CNGRMOGxPaXlXU0FVdzVZX2JIdzJHb0pOUWc2eWd6WHVrSjF3WTVyOHFoalI3WkdVbkdnVFRyc1BJTEdqNjBIc1BsYlRqUU1WajhmNjQ2bXg2dE1PUGNBd1JOQm5UX0k2NUpmR25QcW1mOVp3QkxRQ3gyQmtPM0pCVWxRUDFPNjJyakdpOHVEaQ?oc=5", "src": "Yahoo", "time": "7 hr ago", "cat": "Culture", "hot": true, "ts": 1780601225}, {"title": "Here Are the Performers & Presenters for 2026 Tony Awards - Billboard", "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5wRXdwMlNSeENJemhCQzFuai1GeFhFVDBzT3lmb1hlTTNUM0FHaGpzYkc2aDVTaG1hRnd4YVRST1pCaEltYVZWWmpwdWt3dkRIbUlyUF9Wc093ZTBsWDZvVnhLLVR6UGxrQzhXekEzVWJ0SHJDTmRDUEJLQQ?oc=5", "src": "Billboard", "time": "7 hr ago", "cat": "Culture", "hot": true, "ts": 1780601116}, {"title": "Meg Symsyk to Receive the Visionary Leadership Award at Billboard Canada Power Players 2026 - Billboard Canada", "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOdU16MXFCX3BoMk96b3VSYzczOG80bk01S3lqN0lrOGNDSE1BX244N3N3ZmlrR1VyMlFfMzVRUi01Qi1rcEJNdWE3RHI4UE5MM01mWnpBSElEXzJUczNxRzFIb2E1dFZEcGw4cjU0MndybWZiYW9FTjRzTHRDa2o1V3hOWTRyWkxxV3ZkaUZn?oc=5", "src": "Billboard Canada", "time": "7 hr ago", "cat": "Culture", "hot": true, "ts": 1780600969}, {"title": "So, What Was GRiZ Doing During All That Time Off? ‘I Just Needed to Figure Out Who I Am to Me’ - Billboard", "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQQW1mdEhLTXZpMGRYbkx2R0o5SnBwaENwU0ZwaGxHMHZZZnJoTXlyLTJHM1d0QjBHRDZfeFM2MDJzVXE5dHFzcFhCQzhfODZ3Y3NPWFBnejI5eGxLUnUwTDYtTFpqbUdUbFJ2OG02SngzMFlWbmRSbnQ0VE0tdTdRUU44YmZCdU90N2Nmd2xSVkNSd0VVeTBSYnUxMU9Mc2dYRHZOTmhMSnl0NG9kZ2F6RQ?oc=5", "src": "Billboard", "time": "7 hr ago", "cat": "Culture", "hot": true, "ts": 1780600783}, {"title": "EAZYBAKED Chats About EDC Las Vegas, Their Origin Story, And More - EDM Identity", "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE4tWGtjN2U1WTdwWnV1ZjlaSERTaXg2OUh4bjllYVJmeFF5THhZZVZ5QnZWZmx6bmFCRWo5b2l2UnFkaUNjQmdNNWk4eTBQcWYyUjlyTzdXYkR5aG1leTY2WV9KZFlIcER3aTN0VEZ6N2c5UG9nWFRLRA?oc=5", "src": "EDM Identity", "time": "7 hr ago", "cat": "Festival", "hot": true, "ts": 1780600730}, {"title": "Taylor Swift’s net worth crosses $2 billion; new report reveals details behind her billionaire empire | Hindustan Times - Hindustan Times", "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxQUjNERndXRWRFcGx4TGVaT2gwbzFvNEszQjFvTDV2MFhjVnRTOEZOYzhFVnZnUl81ZUhlbXZGYmVLb0pmZkg4RTkycGZCcS05NXB1LWVIQ1Z1bVByYzdfVkYyS3JfRktpQ2R1X0JVT3ZDemZEalZTcmFZMm5Yd053VTRpZFI2Y2VHRWQ2SjlzZ2ZsTlBlVmJPRlZYempKOEtUd0d4eE9JU3A5TmFITnJWWWRxdHVXM0pVQk5SVzQ5aXRjLWU1ZUE1eGpQVUVTV3FfVkNobUFmbU1zZ3RpMUxJSDQycXlzdkVHd3JwaVA0Tzg2Vk10STZRUnEtemlNOEpVUHhxWi130gGGAkFVX3lxTFBSM0RGd1dFZEVwbHhMZVpPaDBvMW80SzNCMW9MNXYwWGNWdFM4Rk5jOEVWdmdSXzVlSGVtdkZiZUtvSmZmSDhFOTJwZkJxLTk1cHUtZUhDVnVtUHJjN19WRjJLcl9GS2lDZHVfQlVPdkN6ZkRqVlNyYVkyblh3TndVNGlkUjZjZUdFZDZKOXNnZmxOUGVWYk9GVlh6ako4S1R3R3h4T0lTcDlOYUhOclZZZHF0dVczSlVCTlJXNDlpdGMtZTVlQTV4alBVRVNXcV9WQ2htQWZtTXNndGkxTElINDJxeXN2RUd3cnBpUDRPODZWTXRJNlFScS16aU04SlVQeHFaLXc?oc=5", "src": "Hindustan Times", "time": "7 hr ago", "cat": "Culture", "hot": true, "ts": 1780600573}];window._ppUpdatedTs=1780628238;</script>
+
 
 <script>
-/* ═══════════════════════════════════════════════════════
-   PARTY PORTAL — COMPLETE FEED POOL (25 channels)
-   Embed params: autoplay+mute for main grid, enablejsapi for WR
-═══════════════════════════════════════════════════════ */
-var _P = '?autoplay=1&mute=1&controls=1&modestbranding=1&rel=0&iv_load_policy=3&playsinline=1';
-var _W = '?autoplay=1&mute=1&controls=1&modestbranding=1&rel=0&playsinline=1&enablejsapi=1';
+/* ════════════════════════════════════════════════════════════
+   PARTY PORTAL — 49-Channel Pool
+   Random playlist starts · Alternating cam/music grid
+════════════════════════════════════════════════════════════ */
 
-var PP_ALL_FEEDS = [
-  {
-    id:'edc',
-    label:'\u26A1 Electric Daisy Carnival \u2014 Las Vegas',
-    cat:'FESTIVAL',
-    emoji:'\u26A1',
-    src:'https://www.youtube.com/embed/VJrd9doSRwA'+_P,
-    wrsrc:'https://www.youtube.com/embed/VJrd9doSRwA'+_W
-  },
-  {
-    id:'coachella',
-    label:'\uD83C\uDF34 Coachella \u2014 California',
-    cat:'FESTIVAL',
-    emoji:'\uD83C\uDF34',
-    src:'https://www.youtube.com/embed/videoseries?list=PLIjqRbAQP0WKzta60mC1aINWniI0OTk8Z&autoplay=1&mute=1&controls=1&modestbranding=1&rel=0&iv_load_policy=3&playsinline=1',
-    wrsrc:'https://www.youtube.com/embed/videoseries?list=PLIjqRbAQP0WKzta60mC1aINWniI0OTk8Z&autoplay=1&mute=1&controls=1&modestbranding=1&rel=0&playsinline=1&enablejsapi=1'
-  },
-  {
-    id:'ultra',
-    label:'\uD83C\uDFA7 Ultra Music Fest',
-    cat:'FESTIVAL',
-    emoji:'\uD83C\uDFA7',
-    src:'https://www.youtube.com/embed/0psLTNmJM38?list=PLBg1SJiXSxfJ6lee3le9qRtIFLkdFwd8E&autoplay=1&mute=1&controls=1&modestbranding=1&rel=0&iv_load_policy=3&playsinline=1',
-    wrsrc:'https://www.youtube.com/embed/0psLTNmJM38?list=PLBg1SJiXSxfJ6lee3le9qRtIFLkdFwd8E&autoplay=1&mute=1&controls=1&modestbranding=1&rel=0&playsinline=1&enablejsapi=1'
-  },
-  {
-    id:'coachella-dj',
-    label:'\uD83C\uDF39 Coachella DJ Sets',
-    cat:'FESTIVAL',
-    emoji:'\uD83C\uDF39',
-    src:'https://www.youtube.com/embed/videoseries?list=PLIjqRbAQP0WIkL5rzNwl19gVHMT0T93NH&autoplay=1&mute=1&controls=1&modestbranding=1&rel=0&iv_load_policy=3&playsinline=1',
-    wrsrc:'https://www.youtube.com/embed/videoseries?list=PLIjqRbAQP0WIkL5rzNwl19gVHMT0T93NH&autoplay=1&mute=1&controls=1&modestbranding=1&rel=0&playsinline=1&enablejsapi=1'
-  },
-  {
-    id:'tomorrowland',
-    label:'\uD83C\uDF0D Tomorrowland',
-    cat:'FESTIVAL',
-    emoji:'\uD83C\uDF0D',
-    src:'https://www.youtube.com/embed/acExYGsV2SU?list=PLoSIOFPSXQoN-uoi-Bn6R4JA8C4beRJsU&autoplay=1&mute=1&controls=1&modestbranding=1&rel=0&iv_load_policy=3&playsinline=1',
-    wrsrc:'https://www.youtube.com/embed/acExYGsV2SU?list=PLoSIOFPSXQoN-uoi-Bn6R4JA8C4beRJsU&autoplay=1&mute=1&controls=1&modestbranding=1&rel=0&playsinline=1&enablejsapi=1'
-  },
-  {
-    id:'tomorrowland-winter',
-    label:'\u2744\uFE0F Tomorrowland Winter',
-    cat:'FESTIVAL',
-    emoji:'\u2744\uFE0F',
-    src:'https://www.youtube.com/embed/gUrIVfzGg9U?list=PLoSIOFPSXQoOx5SBOrejTmvsC6wJhUvl1&autoplay=1&mute=1&controls=1&modestbranding=1&rel=0&iv_load_policy=3&playsinline=1',
-    wrsrc:'https://www.youtube.com/embed/gUrIVfzGg9U?list=PLoSIOFPSXQoOx5SBOrejTmvsC6wJhUvl1&autoplay=1&mute=1&controls=1&modestbranding=1&rel=0&playsinline=1&enablejsapi=1'
-  },
-  {
-    id:'tomorrowland-brasil',
-    label:'\uD83C\uDDE7\uD83C\uDDF7 Tomorrowland Brasil',
-    cat:'FESTIVAL',
-    emoji:'\uD83C\uDDE7\uD83C\uDDF7',
-    src:'https://www.youtube.com/embed/hbXhiCyGYx0?list=PLoSIOFPSXQoMwpfuQrKNGXb30FW5cBYJP&autoplay=1&mute=1&controls=1&modestbranding=1&rel=0&iv_load_policy=3&playsinline=1',
-    wrsrc:'https://www.youtube.com/embed/hbXhiCyGYx0?list=PLoSIOFPSXQoMwpfuQrKNGXb30FW5cBYJP&autoplay=1&mute=1&controls=1&modestbranding=1&rel=0&playsinline=1&enablejsapi=1'
-  },
-  {
-    id:'glastonbury',
-    label:'\uD83C\uDF7E Glastonbury Classics',
-    cat:'FESTIVAL',
-    emoji:'\uD83C\uDF7E',
-    src:'https://www.youtube.com/embed/4VlAYrOK0RM?list=PLPEH9n2NIpqyLh_f3rTfnCH7F2v0k9MUV&autoplay=1&mute=1&controls=1&modestbranding=1&rel=0&iv_load_policy=3&playsinline=1',
-    wrsrc:'https://www.youtube.com/embed/4VlAYrOK0RM?list=PLPEH9n2NIpqyLh_f3rTfnCH7F2v0k9MUV&autoplay=1&mute=1&controls=1&modestbranding=1&rel=0&playsinline=1&enablejsapi=1'
-  },
-  {
-    id:'creamfields',
-    label:'\uD83C\uDFA8 Creamfields',
-    cat:'FESTIVAL',
-    emoji:'\uD83C\uDFA8',
-    src:'https://www.youtube.com/embed/mrAi6lvPoP0?list=PLThryQTnOzUZhmFS6hxUhlnD8Y7ftxR0u&autoplay=1&mute=1&controls=1&modestbranding=1&rel=0&iv_load_policy=3&playsinline=1',
-    wrsrc:'https://www.youtube.com/embed/mrAi6lvPoP0?list=PLThryQTnOzUZhmFS6hxUhlnD8Y7ftxR0u&autoplay=1&mute=1&controls=1&modestbranding=1&rel=0&playsinline=1&enablejsapi=1'
-  },
-  {
-    id:'lostlands',
-    label:'\uD83C\uDF32 Lost Lands',
-    cat:'FESTIVAL',
-    emoji:'\uD83C\uDF32',
-    src:'https://www.youtube.com/embed/b29GV8RODIc?list=PLK2KdupVnODMzWyy7LLbKqfldBevub1OX&autoplay=1&mute=1&controls=1&modestbranding=1&rel=0&iv_load_policy=3&playsinline=1',
-    wrsrc:'https://www.youtube.com/embed/b29GV8RODIc?list=PLK2KdupVnODMzWyy7LLbKqfldBevub1OX&autoplay=1&mute=1&controls=1&modestbranding=1&rel=0&playsinline=1&enablejsapi=1'
-  },
-  {
-    id:'awakenings',
-    label:'\uD83D\uDD0A Awakenings',
-    cat:'FESTIVAL',
-    emoji:'\uD83D\uDD0A',
-    src:'https://www.youtube.com/embed/OWdgrl2W5W0?list=PLx2MVuP_pkQjkUwJVjZ1_NBv4hLXdU31v&autoplay=1&mute=1&controls=1&modestbranding=1&rel=0&iv_load_policy=3&playsinline=1',
-    wrsrc:'https://www.youtube.com/embed/OWdgrl2W5W0?list=PLx2MVuP_pkQjkUwJVjZ1_NBv4hLXdU31v&autoplay=1&mute=1&controls=1&modestbranding=1&rel=0&playsinline=1&enablejsapi=1'
-  },
-  {
-    id:'lucidity',
-    label:'\uD83C\uDF19 Lucidity',
-    cat:'FESTIVAL',
-    emoji:'\uD83C\uDF19',
-    src:'https://www.youtube.com/embed/o9ast9cAnLc?list=PLNE3b80YbdkmIGZM7vmVH6ltftUBEEVhq&autoplay=1&mute=1&controls=1&modestbranding=1&rel=0&iv_load_policy=3&playsinline=1',
-    wrsrc:'https://www.youtube.com/embed/o9ast9cAnLc?list=PLNE3b80YbdkmIGZM7vmVH6ltftUBEEVhq&autoplay=1&mute=1&controls=1&modestbranding=1&rel=0&playsinline=1&enablejsapi=1'
-  },
-  {
-    id:'daytrip',
-    label:'\uD83C\uDFB5 Day Trip',
-    cat:'FESTIVAL',
-    emoji:'\uD83C\uDFB5',
-    src:'https://www.youtube.com/embed/videoseries?list=PLzrOS24IvDg2er-Tr4zM54y7tB6EWHV8m&autoplay=1&mute=1&controls=1&modestbranding=1&rel=0&iv_load_policy=3&playsinline=1',
-    wrsrc:'https://www.youtube.com/embed/videoseries?list=PLzrOS24IvDg2er-Tr4zM54y7tB6EWHV8m&autoplay=1&mute=1&controls=1&modestbranding=1&rel=0&playsinline=1&enablejsapi=1'
-  },
-  {
-    id:'ushuaia',
-    label:'\uD83C\uDFD6\uFE0F Ushia\uEFBFA7a Ibiza',
-    cat:'CLUB',
-    emoji:'\uD83C\uDFD6\uFE0F',
-    src:'https://www.youtube.com/embed/Ci_T8FG-fVo?list=PLBnY7C_EK6mobzx3NxO0QCtwzTU1dwfrP&autoplay=1&mute=1&controls=1&modestbranding=1&rel=0&iv_load_policy=3&playsinline=1',
-    wrsrc:'https://www.youtube.com/embed/Ci_T8FG-fVo?list=PLBnY7C_EK6mobzx3NxO0QCtwzTU1dwfrP&autoplay=1&mute=1&controls=1&modestbranding=1&rel=0&playsinline=1&enablejsapi=1'
-  },
-  {
-    id:'prettylights',
-    label:'\uD83D\uDCA1 Pretty Lights Live',
-    cat:'ARTIST',
-    emoji:'\uD83D\uDCA1',
-    src:'https://www.youtube.com/embed/QSw61raIxyM'+_P,
-    wrsrc:'https://www.youtube.com/embed/QSw61raIxyM'+_W
-  },
-  {
-    id:'astrix',
-    label:'\uD83D\uDD25 Astrix Live',
-    cat:'ARTIST',
-    emoji:'\uD83D\uDD25',
-    src:'https://www.youtube.com/embed/1GFb-6UHFuE'+_P,
-    wrsrc:'https://www.youtube.com/embed/1GFb-6UHFuE'+_W
-  },
-  {
-    id:'classmatic',
-    label:'\uD83C\uDFBC Classmatic Live',
-    cat:'ARTIST',
-    emoji:'\uD83C\uDFBC',
-    src:'https://www.youtube.com/embed/E4r0p5xeWXE?list=PLu_uwpMLoV0meDFttcusIUy0vze9hkyME&autoplay=1&mute=1&controls=1&modestbranding=1&rel=0&iv_load_policy=3&playsinline=1',
-    wrsrc:'https://www.youtube.com/embed/E4r0p5xeWXE?list=PLu_uwpMLoV0meDFttcusIUy0vze9hkyME&autoplay=1&mute=1&controls=1&modestbranding=1&rel=0&playsinline=1&enablejsapi=1'
-  },
-  {
-    id:'unity',
-    label:'\uD83C\uDFB6 Unity Live',
-    cat:'ARTIST',
-    emoji:'\uD83C\uDFB6',
-    src:'https://www.youtube.com/embed/op29bgeM3zI?list=PLvmn9Ssy7H3zRe6XrCYPoUykVso4wmXbg&autoplay=1&mute=1&controls=1&modestbranding=1&rel=0&iv_load_policy=3&playsinline=1',
-    wrsrc:'https://www.youtube.com/embed/op29bgeM3zI?list=PLvmn9Ssy7H3zRe6XrCYPoUykVso4wmXbg&autoplay=1&mute=1&controls=1&modestbranding=1&rel=0&playsinline=1&enablejsapi=1'
-  },
-  {
-    id:'edm1',
-    label:'\uD83C\uDF9B\uFE0F General EDM Station',
-    cat:'RADIO',
-    emoji:'\uD83C\uDF9B\uFE0F',
-    src:'https://www.youtube.com/embed/amJ8uKUU_fE?list=PLfE0pS819ps4F5UZ8fw5HU0xKZZs_AHkY&autoplay=1&mute=1&controls=1&modestbranding=1&rel=0&iv_load_policy=3&playsinline=1',
-    wrsrc:'https://www.youtube.com/embed/amJ8uKUU_fE?list=PLfE0pS819ps4F5UZ8fw5HU0xKZZs_AHkY&autoplay=1&mute=1&controls=1&modestbranding=1&rel=0&playsinline=1&enablejsapi=1'
-  },
-  {
-    id:'edm2',
-    label:'\uD83C\uDF9B\uFE0F General EDM Station 2',
-    cat:'RADIO',
-    emoji:'\uD83C\uDF9B\uFE0F',
-    src:'https://www.youtube.com/embed/kG0SVvz9e-g?list=PL0vg5Od16vrb8tMmoLZa6Q1eh41iQlY23&autoplay=1&mute=1&controls=1&modestbranding=1&rel=0&iv_load_policy=3&playsinline=1',
-    wrsrc:'https://www.youtube.com/embed/kG0SVvz9e-g?list=PL0vg5Od16vrb8tMmoLZa6Q1eh41iQlY23&autoplay=1&mute=1&controls=1&modestbranding=1&rel=0&playsinline=1&enablejsapi=1'
-  },
-  {
-    id:'bourbon',
-    label:'\uD83C\uDFB7 Bourbon Street \u2014 New Orleans, LA',
-    cat:'LIVE CAM',
-    emoji:'\uD83C\uDFB7',
-    src:'https://www.youtube.com/embed/Ksrleaxxxhw'+_P,
-    wrsrc:'https://www.youtube.com/embed/Ksrleaxxxhw'+_W
-  },
-  {
-    id:'bellagio',
-    label:'\u2728 The Bellagio \u2014 Las Vegas, NV',
-    cat:'LIVE CAM',
-    emoji:'\u2728',
-    src:'https://www.youtube.com/embed/KJuGU7v5oYw'+_P,
-    wrsrc:'https://www.youtube.com/embed/KJuGU7v5oYw'+_W
-  },
-  {
-    id:'dublin',
-    label:'\uD83C\uDF7A Dublin, Ireland',
-    cat:'LIVE CAM',
-    emoji:'\uD83C\uDF7A',
-    src:'https://www.youtube.com/embed/3nyPER2kzqk'+_P,
-    wrsrc:'https://www.youtube.com/embed/3nyPER2kzqk'+_W
-  },
-  {
-    id:'timessquare',
-    label:'\uD83D\uDDFD Times Square \u2014 New York City, NY',
-    cat:'LIVE CAM',
-    emoji:'\uD83D\uDDFD',
-    src:'https://www.youtube.com/embed/z-jYdOIKcTQ'+_P,
-    wrsrc:'https://www.youtube.com/embed/z-jYdOIKcTQ'+_W
-  },
-  {
-    id:'hogsbreath',
-    label:'\uD83C\uDF05 Hogs Breath \u2014 Key West, FL',
-    cat:'LIVE CAM',
-    emoji:'\uD83C\uDF05',
-    src:'https://www.youtube.com/embed/S605ycm0Vlk'+_P,
-    wrsrc:'https://www.youtube.com/embed/S605ycm0Vlk'+_W
-  }
-];
+/* YouTube embed param strings */
+var YTP = '&autoplay=1&mute=1&controls=1&modestbranding=1&rel=0&iv_load_policy=3&playsinline=1';
+var YTW = '&autoplay=1&mute=1&controls=1&modestbranding=1&rel=0&playsinline=1&enablejsapi=1';
 
-/* Fix the Ushuaia label typo */
-PP_ALL_FEEDS[13].label = '\uD83C\uDFD6\uFE0F Ushia\u00EFa Ibiza';
-PP_ALL_FEEDS[13].label = '\uD83C\uDFD6\uFE0F Ushia\u00EFa Ibiza';
-PP_ALL_FEEDS.find(function(f){return f.id==='ushuaia';}).label = 'Ushia\u00EFa Ibiza — Spain';
-
+/**
+ * getFeedSrc: returns full embed URL.
+ * For playlist feeds (maxIdx > 1) inserts a random &index=N each call
+ * so every page load / shuffle starts on a different video.
+ */
+function getFeedSrc(feed, forWR) {
+  if (feed.isArchive) return feed.embed + '?autoplay=1&mute=1';
+  var params = forWR ? YTW : YTP;
+  var sep    = feed.embed.indexOf('?') >= 0 ? '' : '?';
+  var connector = feed.embed.indexOf('?') >= 0 ? params : '?' + params.slice(1);
+  var idx    = (feed.maxIdx && feed.maxIdx > 1)
+    ? '&index=' + (1 + Math.floor(Math.random() * feed.maxIdx))
+    : '';
+  return feed.embed + connector + idx;
+}
 
 /* ── Fisher-Yates shuffle ── */
 function ppShuffle(arr) {
@@ -639,56 +463,296 @@ function ppShuffle(arr) {
   return a;
 }
 
-var IS_MOBILE = window.innerWidth <= 600;
-var _currentMain = [];   /* tracks which 10 are showing (for restore after WR) */
+/* ════════════════════════════════════════════════════════════
+   COMPLETE FEED POOL  (49 channels)
+   cat values: FESTIVAL | CLUB | ARTIST | RADIO | LIVE CAM |
+               RETRO | CONCERT | ROCK | FASHION
+   maxIdx: random start range (1 = fixed/single video)
+════════════════════════════════════════════════════════════ */
+var PP_ALL_FEEDS = [
 
-/* ── Build main grid ── */
+  /* ── FESTIVALS ───────────────────────────────── */
+  { id:'edc',               cat:'FESTIVAL', maxIdx:1,
+    label:'\u26A1 Electric Daisy Carnival \u2014 Las Vegas',
+    embed:'https://www.youtube.com/embed/VJrd9doSRwA' },
+
+  { id:'coachella',         cat:'FESTIVAL', maxIdx:40,
+    label:'\uD83C\uDF34 Coachella \u2014 California',
+    embed:'https://www.youtube.com/embed/videoseries?list=PLIjqRbAQP0WKzta60mC1aINWniI0OTk8Z' },
+
+  { id:'ultra',             cat:'FESTIVAL', maxIdx:40,
+    label:'\uD83C\uDFA7 Ultra Music Fest',
+    embed:'https://www.youtube.com/embed/0psLTNmJM38?list=PLBg1SJiXSxfJ6lee3le9qRtIFLkdFwd8E' },
+
+  { id:'coachella-dj',      cat:'FESTIVAL', maxIdx:50,
+    label:'\uD83C\uDF39 Coachella DJ Sets',
+    embed:'https://www.youtube.com/embed/videoseries?list=PLIjqRbAQP0WIkL5rzNwl19gVHMT0T93NH' },
+
+  { id:'tomorrowland',      cat:'FESTIVAL', maxIdx:50,
+    label:'\uD83C\uDF0D Tomorrowland',
+    embed:'https://www.youtube.com/embed/acExYGsV2SU?list=PLoSIOFPSXQoN-uoi-Bn6R4JA8C4beRJsU' },
+
+  { id:'tomorrowland-winter', cat:'FESTIVAL', maxIdx:30,
+    label:'\u2744\uFE0F Tomorrowland Winter',
+    embed:'https://www.youtube.com/embed/gUrIVfzGg9U?list=PLoSIOFPSXQoOx5SBOrejTmvsC6wJhUvl1' },
+
+  { id:'tomorrowland-brasil', cat:'FESTIVAL', maxIdx:30,
+    label:'\uD83C\uDDE7\uD83C\uDDF7 Tomorrowland Brasil',
+    embed:'https://www.youtube.com/embed/hbXhiCyGYx0?list=PLoSIOFPSXQoMwpfuQrKNGXb30FW5cBYJP' },
+
+  { id:'glastonbury',       cat:'FESTIVAL', maxIdx:40,
+    label:'\uD83C\uDF7E Glastonbury Classics',
+    embed:'https://www.youtube.com/embed/4VlAYrOK0RM?list=PLPEH9n2NIpqyLh_f3rTfnCH7F2v0k9MUV' },
+
+  { id:'creamfields',       cat:'FESTIVAL', maxIdx:30,
+    label:'\uD83C\uDFA8 Creamfields',
+    embed:'https://www.youtube.com/embed/mrAi6lvPoP0?list=PLThryQTnOzUZhmFS6hxUhlnD8Y7ftxR0u' },
+
+  { id:'lostlands',         cat:'FESTIVAL', maxIdx:30,
+    label:'\uD83C\uDF32 Lost Lands',
+    embed:'https://www.youtube.com/embed/b29GV8RODIc?list=PLK2KdupVnODMzWyy7LLbKqfldBevub1OX' },
+
+  { id:'awakenings',        cat:'FESTIVAL', maxIdx:30,
+    label:'\uD83D\uDD0A Awakenings',
+    embed:'https://www.youtube.com/embed/OWdgrl2W5W0?list=PLx2MVuP_pkQjkUwJVjZ1_NBv4hLXdU31v' },
+
+  { id:'lucidity',          cat:'FESTIVAL', maxIdx:20,
+    label:'\uD83C\uDF19 Lucidity',
+    embed:'https://www.youtube.com/embed/o9ast9cAnLc?list=PLNE3b80YbdkmIGZM7vmVH6ltftUBEEVhq' },
+
+  { id:'daytrip',           cat:'FESTIVAL', maxIdx:30,
+    label:'\uD83C\uDFB5 Day Trip',
+    embed:'https://www.youtube.com/embed/videoseries?list=PLzrOS24IvDg2er-Tr4zM54y7tB6EWHV8m' },
+
+  /* ── CLUBS ───────────────────────────────────── */
+  { id:'ushuaia',           cat:'CLUB', maxIdx:40,
+    label:'\uD83C\uDFD6\uFE0F Ushia\u00EFa Ibiza',
+    embed:'https://www.youtube.com/embed/Ci_T8FG-fVo?list=PLBnY7C_EK6mobzx3NxO0QCtwzTU1dwfrP' },
+
+  { id:'boilerroom-sheffield', cat:'CLUB', maxIdx:50,
+    label:'\uD83C\uDF99\uFE0F Boiler Room \u2014 Sheffield',
+    embed:'https://www.youtube.com/embed/KmRqOaS_6FI?list=PLx3QyNMosJdyX8cHLHhynbH50sHiN9Wpa' },
+
+  { id:'boilerroom-trending', cat:'CLUB', maxIdx:50,
+    label:'\uD83C\uDF99\uFE0F Boiler Room Trending',
+    embed:'https://www.youtube.com/embed/videoseries?list=PLx3QyNMosJdzB-NH7ZdQf_FrOt2Uu2D9T' },
+
+  { id:'boilerroom-fresh',  cat:'CLUB', maxIdx:30,
+    label:'\uD83C\uDF99\uFE0F Boiler Room Fresh',
+    embed:'https://www.youtube.com/embed/videoseries?list=PLx3QyNMosJdzDzBt2XYB-pKrDlJ5Ph7aY' },
+
+  /* ── ARTISTS ─────────────────────────────────── */
+  { id:'prettylights',      cat:'ARTIST', maxIdx:1,
+    label:'\uD83D\uDCA1 Pretty Lights Live',
+    embed:'https://www.youtube.com/embed/QSw61raIxyM' },
+
+  { id:'astrix',            cat:'ARTIST', maxIdx:1,
+    label:'\uD83D\uDD25 Astrix Live',
+    embed:'https://www.youtube.com/embed/1GFb-6UHFuE' },
+
+  { id:'classmatic',        cat:'ARTIST', maxIdx:30,
+    label:'\uD83C\uDFBC Classmatic Live',
+    embed:'https://www.youtube.com/embed/E4r0p5xeWXE?list=PLu_uwpMLoV0meDFttcusIUy0vze9hkyME' },
+
+  { id:'unity',             cat:'ARTIST', maxIdx:20,
+    label:'\uD83C\uDFB6 Unity Live',
+    embed:'https://www.youtube.com/embed/op29bgeM3zI?list=PLvmn9Ssy7H3zRe6XrCYPoUykVso4wmXbg' },
+
+  { id:'pinkfloyd',         cat:'ARTIST', maxIdx:1,
+    label:'\uD83D\uDFE3 Pink Floyd Live 1994',
+    embed:'https://www.youtube.com/embed/MLie88A7SZU' },
+
+  { id:'muse',              cat:'ARTIST', maxIdx:1,
+    label:'\uD83D\uDD35 Muse Live',
+    embed:'https://www.youtube.com/embed/PQdBUEXxCoo' },
+
+  { id:'linkinpark',        cat:'ARTIST', maxIdx:1,
+    label:'\uD83D\uDFE4 Linkin Park Live',
+    embed:'https://www.youtube.com/embed/7Mxg4VkkRRI' },
+
+  { id:'incubus',           cat:'ARTIST', maxIdx:30,
+    label:'\uD83D\uDFE0 Incubus Live',
+    embed:'https://www.youtube.com/embed/JS-Dpwq1j9I?list=PLNWsysQ4t2gIJm2NEb6TwmJuCYnMBSmLY' },
+
+  { id:'michaeljackson',    cat:'ARTIST', maxIdx:30,
+    label:'\uD83E\uDD4A Michael Jackson',
+    embed:'https://www.youtube.com/embed/SDDC-QdOR14?list=RDSDDC-QdOR14' },
+
+  /* ── RADIO / EDM ─────────────────────────────── */
+  { id:'edm1',              cat:'RADIO', maxIdx:80,
+    label:'\uD83C\uDF9B\uFE0F General EDM Station',
+    embed:'https://www.youtube.com/embed/amJ8uKUU_fE?list=PLfE0pS819ps4F5UZ8fw5HU0xKZZs_AHkY' },
+
+  { id:'edm2',              cat:'RADIO', maxIdx:60,
+    label:'\uD83C\uDF9B\uFE0F General EDM Station 2',
+    embed:'https://www.youtube.com/embed/kG0SVvz9e-g?list=PL0vg5Od16vrb8tMmoLZa6Q1eh41iQlY23' },
+
+  /* ── CONCERTS ────────────────────────────────── */
+  { id:'concerts-4k',       cat:'CONCERT', maxIdx:40,
+    label:'\uD83C\uDFAC 4K UHD Live Concerts',
+    embed:'https://www.youtube.com/embed/ldWvm-ZqKaY?list=PLL_UCi3tgYwQddQqOlMsX6ZeubyQtGtcc' },
+
+  { id:'concerts-live',     cat:'CONCERT', maxIdx:50,
+    label:'\uD83C\uDFAC Live Concert Channel',
+    embed:'https://www.youtube.com/embed/sVNLMOgTKik?list=PL9760EA8B9633FCC0' },
+
+  /* ── ROCK ────────────────────────────────────── */
+  { id:'rock-live1',        cat:'ROCK', maxIdx:50,
+    label:'\uD83C\uDFB8 Live Rock N Roll Channel',
+    embed:'https://www.youtube.com/embed/N0dbGGvsjf8?list=PLr_3_vOUiFjDDLaRNKmAnqbc-uzgRdfNu' },
+
+  { id:'rock-live2',        cat:'ROCK', maxIdx:50,
+    label:'\uD83C\uDFB8 Rock N Roll Channel \u00232',
+    embed:'https://www.youtube.com/embed/Z3OId9eT0lk?list=PL2N_sVGOb3clqyWSLspkp8BAv4FBfBaxH' },
+
+  { id:'retro-rock1',       cat:'ROCK', maxIdx:60,
+    label:'\uD83C\uDFB8 Retro Rock Channel',
+    embed:'https://www.youtube.com/embed/aWmkuH1k7uA?list=PLplXQ2cg9B_o1X-Knd5wgbAi-YDTSbmy-' },
+
+  { id:'retro-rock2',       cat:'ROCK', maxIdx:50,
+    label:'\uD83C\uDFB8 Retro Rock Channel \u00232',
+    embed:'https://www.youtube.com/embed/PEWP9nbqG9Q?list=PLTqks9TihZsCRdWT12_r7lKfxLFE4KdjJ' },
+
+  /* ── RETRO / MTV ─────────────────────────────── */
+  { id:'mtv-99',            cat:'RETRO', maxIdx:1,
+    label:'\uD83D\uDCFA MTV Spring Break 1999',
+    embed:'https://www.youtube.com/embed/YPS4ROQXwdU' },
+
+  { id:'mtv-2000',          cat:'RETRO', maxIdx:1, isArchive:true,
+    label:'\uD83D\uDCFA MTV Spring Break 2000',
+    embed:'https://archive.org/embed/mtv-spring-break-2000' },
+
+  { id:'mtv-performances',  cat:'RETRO', maxIdx:30,
+    label:'\uD83D\uDCFA MTV Spring Break Performances',
+    embed:'https://www.youtube.com/embed/8gcJCN3ibzI?list=PL7q6J5rVHCG54FeMWL82FUw1e-OG4rFHn' },
+
+  { id:'mtv-1990',          cat:'RETRO', maxIdx:1,
+    label:'\uD83D\uDCFA MTV Spring Break 1990',
+    embed:'https://www.youtube.com/embed/mOpuN38KV24' },
+
+  { id:'mtv-1996',          cat:'RETRO', maxIdx:1,
+    label:'\uD83D\uDCFA MTV Spring Break 1996',
+    embed:'https://www.youtube.com/embed/nG_4BnQg9SM' },
+
+  { id:'mtv-springbreak',   cat:'RETRO', maxIdx:40,
+    label:'\uD83D\uDCFA MTV Spring Break',
+    embed:'https://www.youtube.com/embed/videoseries?list=PLYIZQCa2qFD1NtTuxQvWWlcr8cPJTiAoZ' },
+
+  { id:'mtv-grind1',        cat:'RETRO', maxIdx:30,
+    label:'\uD83D\uDCFA MTV The Grind',
+    embed:'https://www.youtube.com/embed/videoseries?list=PLDuXmMxquAlDYpaVx9b5vUXpU-JWokO41' },
+
+  { id:'mtv-grind2',        cat:'RETRO', maxIdx:20,
+    label:'\uD83D\uDCFA MTV The Grind \u00232',
+    embed:'https://www.youtube.com/embed/videoseries?list=PLsYm-8dIbFRvOZhySm8rbD9J2lOHYbp-5' },
+
+  { id:'retro-mtv',         cat:'RETRO', maxIdx:60,
+    label:'\uD83D\uDCFA Retro MTV',
+    embed:'https://www.youtube.com/embed/8N3NC6gx-wg?list=PLW2jIdqxf7EncdalfB3BAAno6a2kwPWrO' },
+
+  /* ── FASHION ─────────────────────────────────── */
+  { id:'victorias-secret',  cat:'FASHION', maxIdx:20,
+    label:'\uD83E\uDE85 Victoria\'s Secret Fashion Shows',
+    embed:'https://www.youtube.com/embed/3MWRooknI-U?list=PLKc-8XN3rXSJsmI3N4LTkZlDgTe7MNQIE' },
+
+  /* ── LIVE CAMS ───────────────────────────────── */
+  { id:'bourbon',           cat:'LIVE CAM', maxIdx:1,
+    label:'\uD83C\uDFB7 Bourbon Street \u2014 New Orleans, LA',
+    embed:'https://www.youtube.com/embed/Ksrleaxxxhw' },
+
+  { id:'bellagio',          cat:'LIVE CAM', maxIdx:1,
+    label:'\u2728 The Bellagio \u2014 Las Vegas, NV',
+    embed:'https://www.youtube.com/embed/KJuGU7v5oYw' },
+
+  { id:'dublin',            cat:'LIVE CAM', maxIdx:1,
+    label:'\uD83C\uDF7A Dublin, Ireland',
+    embed:'https://www.youtube.com/embed/3nyPER2kzqk' },
+
+  { id:'timessquare',       cat:'LIVE CAM', maxIdx:1,
+    label:'\uD83D\uDDFD Times Square \u2014 New York City, NY',
+    embed:'https://www.youtube.com/embed/z-jYdOIKcTQ' },
+
+  { id:'hogsbreath',        cat:'LIVE CAM', maxIdx:1,
+    label:'\uD83C\uDF05 Hogs Breath \u2014 Key West, FL',
+    embed:'https://www.youtube.com/embed/S605ycm0Vlk' }
+];
+
+var IS_MOBILE    = window.innerWidth <= 600;
+var _currentMain = [];
+
+/* ── Date display ── */
+(function(){
+  var el = document.getElementById('pp-date');
+  if (el) el.textContent = new Date().toLocaleDateString('en-US',
+    {weekday:'long',year:'numeric',month:'long',day:'numeric'});
+  var fc = document.getElementById('pp-feed-count');
+  if (fc) fc.textContent = PP_ALL_FEEDS.length + ' Channels';
+})();
+
+/* ════════════════════════════════════════════════════════════
+   MAIN GRID — alternating layout:
+   Even slots (0,2,4,6,8) = music/entertainment (random from pool)
+   Odd  slots (1,3,5,7,9) = live cams (all 5, random order)
+   Each playlist feed gets a fresh random &index= on every build.
+════════════════════════════════════════════════════════════ */
 function buildMainGrid() {
   var grid = document.getElementById('pp-video-grid');
   if (!grid) return;
 
-  /* blank existing iframes */
-  grid.querySelectorAll('iframe').forEach(function(f){ f.src='about:blank'; });
+  /* blank any existing iframes */
+  grid.querySelectorAll('iframe').forEach(function(f){ f.src = 'about:blank'; });
 
-  _currentMain = ppShuffle(PP_ALL_FEEDS).slice(0, 10);
+  var musicPool = ppShuffle(PP_ALL_FEEDS.filter(function(f){ return f.cat !== 'LIVE CAM'; }));
+  var camPool   = ppShuffle(PP_ALL_FEEDS.filter(function(f){ return f.cat === 'LIVE CAM'; }));
+
+  _currentMain = [];
+  var mi = 0, ci = 0;
+  for (var slot = 0; slot < 10; slot++) {
+    if (slot % 2 === 0) {
+      /* music slot */
+      if (mi < musicPool.length) _currentMain.push(musicPool[mi++]);
+    } else {
+      /* live cam slot — cycle if cams exhausted */
+      if (camPool.length > 0) {
+        _currentMain.push(camPool[ci % camPool.length]);
+        ci++;
+      }
+    }
+  }
+
   var html = '';
   _currentMain.forEach(function(feed) {
+    var liveBadge = feed.cat === 'LIVE CAM'
+      ? '<span class="pp-inset-live"><span class="pp-inset-live-dot"></span>LIVE</span>'
+      : '';
     html +=
       '<div class="pp-inset" id="pp-inset-' + feed.id + '">' +
         '<iframe allow="autoplay; encrypted-media" allowfullscreen></iframe>' +
-        '<span class="pp-inset-cat">' + feed.cat + '</span>' +
+        liveBadge +
         '<span class="pp-inset-lbl">' + feed.label + '</span>' +
       '</div>';
   });
   grid.innerHTML = html;
 
-  /* activate iframes on desktop */
+  /* activate iframes on desktop — getFeedSrc picks random index here */
   if (!IS_MOBILE) {
     var iframes = grid.querySelectorAll('iframe');
     _currentMain.forEach(function(feed, i) {
-      if (iframes[i]) iframes[i].src = feed.src;
+      if (iframes[i]) iframes[i].src = getFeedSrc(feed, false);
     });
   }
 }
 
-/* ── Init ── */
-(function() {
-  /* Date display */
-  var de = document.getElementById('pp-date');
-  if (de) de.textContent = new Date().toLocaleDateString('en-US',{weekday:'long',year:'numeric',month:'long',day:'numeric'});
+/* init + shuffle button */
+buildMainGrid();
+document.getElementById('pp-shuffle-btn').addEventListener('click', buildMainGrid);
 
-  buildMainGrid();
-
-  document.getElementById('pp-shuffle-btn').addEventListener('click', function() {
-    buildMainGrid();
-  });
-})();
-
-
-/* ════════════════════════════════════════════════════════
+/* ════════════════════════════════════════════════════════════
    PARTY MODE (exact NUZU Waiting Room port)
-════════════════════════════════════════════════════════ */
-(function() {
+   Shows all 49 channels in auto-packed fullscreen grid.
+   getFeedSrc picks a fresh random playlist index for each cell.
+════════════════════════════════════════════════════════════ */
+(function(){
   var openBtn  = document.getElementById('pp-mode-btn');
   var overlay  = document.getElementById('pp-overlay');
   var closeBtn = document.getElementById('pp-wrclose');
@@ -698,99 +762,100 @@ function buildMainGrid() {
   var _wrOpen = false, _wrFs = false;
   var VIDEO_AR = 16 / 9;
 
-  function _suspendMain() {
+  function _suspendMain(){
     document.querySelectorAll('#pp-video-grid iframe').forEach(function(f){ f.src='about:blank'; });
   }
-  function _restoreMain() {
+  function _restoreMain(){
     var iframes = document.querySelectorAll('#pp-video-grid iframe');
-    _currentMain.forEach(function(feed, i) {
-      if (iframes[i]) iframes[i].src = feed.src;
+    _currentMain.forEach(function(feed,i){
+      if (iframes[i]) iframes[i].src = getFeedSrc(feed, false);
     });
   }
 
-  function _overscan(cell) {
+  function _overscan(cell){
     var iframe = cell.querySelector('iframe');
     if (!iframe) return;
     var cw = cell.clientWidth, ch = cell.clientHeight;
     if (cw < 1 || ch < 1) return;
     var ar = cw / ch;
-    var scale = ar < VIDEO_AR ? (ch * VIDEO_AR) / cw : cw / (ch * VIDEO_AR);
-    scale = Math.min(scale, 1.05);
-    iframe.style.position = 'relative';
-    iframe.style.width = '100%'; iframe.style.height = '100%';
-    iframe.style.border = 'none'; iframe.style.display = 'block';
-    iframe.style.transformOrigin = '50% 50%';
-    iframe.style.transform = 'scale(' + scale.toFixed(4) + ')';
+    var sc = ar < VIDEO_AR ? (ch * VIDEO_AR) / cw : cw / (ch * VIDEO_AR);
+    sc = Math.min(sc, 1.05);
+    iframe.style.cssText = 'position:relative;width:100%;height:100%;border:none;display:block;' +
+      'transform-origin:50% 50%;transform:scale(' + sc.toFixed(4) + ')';
   }
 
-  function packGrid() {
+  function packGrid(){
     var cells = grid.querySelectorAll('.pp-wrcell');
     var n = cells.length;
-    if (n < 1) return;
-    var W = overlay.clientWidth || window.innerWidth;
+    if (!n) return;
+    var W = overlay.clientWidth  || window.innerWidth;
     var H = (overlay.clientHeight || window.innerHeight) - 44;
     if (W < 1 || H < 1) return;
-    var GAP = 3, best = {cols:5, rows:5, score:-Infinity};
-    for (var c = 2; c <= 8; c++) {
-      var r   = Math.ceil(n / c);
-      var cw  = (W - GAP * (c - 1) - 6) / c;
-      var ch  = (H - GAP * (r - 1) - 6) / r;
+    var GAP = 3, best = {cols:7,rows:7,score:-Infinity};
+    for (var c = 2; c <= 10; c++){
+      var r  = Math.ceil(n / c);
+      var cw = (W - GAP*(c-1) - 6) / c;
+      var ch = (H - GAP*(r-1) - 6) / r;
       if (cw < 1 || ch < 1) continue;
-      var ar  = cw / ch;
-      var ov  = ar < VIDEO_AR ? (ch * VIDEO_AR / cw) : (cw / (ch * VIDEO_AR));
-      var scr = (n / (c * r)) * 10 - (ov - 1) * 3;
+      var ov  = (cw/ch) < VIDEO_AR ? (ch*VIDEO_AR/cw) : (cw/(ch*VIDEO_AR));
+      var scr = (n/(c*r))*10 - (ov-1)*3;
       if (scr > best.score) best = {cols:c, rows:r, score:scr};
     }
-    grid.style.gridTemplateColumns = 'repeat(' + best.cols + ', 1fr)';
-    grid.style.gridTemplateRows    = 'repeat(' + best.rows + ', 1fr)';
+    grid.style.gridTemplateColumns = 'repeat('+best.cols+',1fr)';
+    grid.style.gridTemplateRows    = 'repeat('+best.rows+',1fr)';
     void grid.offsetWidth;
     cells.forEach(function(cell){ _overscan(cell); });
   }
 
-  function buildWR() {
+  function buildWR(){
     grid.innerHTML = '';
-    /* Shuffle all 25 for Party Mode */
-    var feeds = ppShuffle(PP_ALL_FEEDS);
-    feeds.forEach(function(feed) {
+    /* Shuffle all 49 — each gets fresh random playlist start */
+    ppShuffle(PP_ALL_FEEDS).forEach(function(feed){
       var cell   = document.createElement('div'); cell.className = 'pp-wrcell';
       var iframe = document.createElement('iframe');
-      iframe.src = feed.wrsrc;
+      iframe.src = getFeedSrc(feed, true);
       iframe.setAttribute('allow','autoplay; encrypted-media; fullscreen');
       iframe.setAttribute('allowfullscreen','');
       iframe.setAttribute('frameborder','0');
-      var lbl = document.createElement('div'); lbl.className = 'pp-wrlbl'; lbl.textContent = feed.label;
-      var cat = document.createElement('div'); cat.className = 'pp-wrcatbadge'; cat.textContent = feed.cat;
+      var lbl = document.createElement('div');
+      lbl.className = 'pp-wrlbl'; lbl.textContent = feed.label;
+      var cat = document.createElement('div');
+      cat.className = 'pp-wrcatbadge'; cat.textContent = feed.cat;
       cell.appendChild(iframe); cell.appendChild(lbl); cell.appendChild(cat);
       grid.appendChild(cell);
     });
     requestAnimationFrame(function(){ requestAnimationFrame(function(){ packGrid(); }); });
   }
 
-  function destroyWR() {
+  function destroyWR(){
     grid.querySelectorAll('iframe').forEach(function(f){ f.src='about:blank'; });
     grid.innerHTML = '';
   }
 
-  function openWR() {
+  function openWR(){
     if (_wrOpen) return; _wrOpen = true;
     _suspendMain(); buildWR();
     overlay.classList.add('pp-open');
     document.body.style.overflow = 'hidden';
     _wrFs = false;
-
-    if (!openWR._resize) {
-      openWR._resize = function(){ if (_wrOpen) requestAnimationFrame(function(){ packGrid(); }); };
+    if (!openWR._resize){
+      openWR._resize = function(){ if (_wrOpen) requestAnimationFrame(packGrid); };
       window.addEventListener('resize', openWR._resize);
     }
     try {
       var req = overlay.requestFullscreen
         ? overlay.requestFullscreen()
-        : (overlay.webkitRequestFullscreen ? (overlay.webkitRequestFullscreen(), Promise.resolve()) : Promise.reject(''));
-      if (req && req.then) req.then(function(){ _wrFs = true; requestAnimationFrame(function(){ requestAnimationFrame(function(){ packGrid(); }); }); }).catch(function(){});
+        : (overlay.webkitRequestFullscreen
+           ? (overlay.webkitRequestFullscreen(), Promise.resolve())
+           : Promise.reject(''));
+      if (req && req.then) req.then(function(){
+        _wrFs = true;
+        requestAnimationFrame(function(){ requestAnimationFrame(packGrid); });
+      }).catch(function(){});
     } catch(e){}
   }
 
-  function closeWR() {
+  function closeWR(){
     if (!_wrOpen) return; _wrOpen = false; _wrFs = false;
     overlay.classList.remove('pp-open');
     document.body.style.overflow = '';
@@ -806,149 +871,131 @@ function buildMainGrid() {
   closeBtn.addEventListener('click', closeWR);
   document.addEventListener('keydown', function(e){
     if (e.key !== 'Escape' || !_wrOpen) return;
-    var fs = document.fullscreenElement || document.webkitFullscreenElement || null;
-    if (!fs) closeWR();
+    if (!(document.fullscreenElement || document.webkitFullscreenElement)) closeWR();
   });
-  document.addEventListener('fullscreenchange', function(){
-    if (!document.fullscreenElement && _wrOpen && _wrFs) _wrFs = false;
-  });
-  document.addEventListener('webkitfullscreenchange', function(){
-    if (!document.webkitFullscreenElement && _wrOpen && _wrFs) _wrFs = false;
+  ['fullscreenchange','webkitfullscreenchange'].forEach(function(ev){
+    document.addEventListener(ev, function(){
+      if (!(document.fullscreenElement||document.webkitFullscreenElement) && _wrOpen && _wrFs)
+        _wrFs = false;
+    });
   });
 })();
 
-
-/* ═══ AUDIO-ACTIVE tracking ═══ */
-window.addEventListener('message', function(e) {
+/* ── Audio-active tracking (click-to-unmute hint) ── */
+window.addEventListener('message', function(e){
   if (!e.data) return;
-  var data; try { data = typeof e.data === 'string' ? JSON.parse(e.data) : e.data; } catch(ex){ return; }
-  if (!data || data.event !== 'infoDelivery') return;
+  var d; try { d = typeof e.data==='string' ? JSON.parse(e.data) : e.data; } catch(x){ return; }
+  if (!d || d.event !== 'infoDelivery') return;
   var iframes = document.querySelectorAll('#pp-video-grid iframe');
-  var activeInset = null;
-  iframes.forEach(function(f){ if (f.contentWindow === e.source) activeInset = f.closest('.pp-inset'); });
-  if (!activeInset) return;
+  var hit = null;
+  iframes.forEach(function(f){ if (f.contentWindow === e.source) hit = f.closest('.pp-inset'); });
+  if (!hit) return;
   document.querySelectorAll('.pp-inset').forEach(function(inset){
     inset.classList.remove('pp-audio-active');
     var f = inset.querySelector('iframe');
-    if (f && inset !== activeInset) { try { f.contentWindow.postMessage(JSON.stringify({event:'command',func:'mute',args:[]}), '*'); } catch(ex){} }
+    if (f && inset !== hit){
+      try { f.contentWindow.postMessage(JSON.stringify({event:'command',func:'mute',args:[]}), '*'); } catch(x){}
+    }
   });
-  activeInset.classList.add('pp-audio-active');
+  hit.classList.add('pp-audio-active');
 });
 
-
-/* ═══ CULTURE FEED RENDERER ═══
-   Reads window._ppCultureItems (injected by bot.py) and renders it.
-   Falls back to built-in items if bot hasn't run yet.
-═══ */
-(function() {
+/* ════════════════════════════════════════════════════════════
+   CULTURE FEED RENDERER
+   Reads window._ppCultureItems (injected by bot.py).
+   Falls back to built-in party headlines until first bot run.
+════════════════════════════════════════════════════════════ */
+(function(){
   var cols = document.getElementById('pp-culture-cols');
   if (!cols) return;
 
   var items = window._ppCultureItems || [];
-
-  /* fallback hardcoded items (bot will replace these with live content) */
   if (!items.length) {
     items = [
-      {title:'Electric Daisy Carnival returns to Las Vegas Motor Speedway for record-breaking 3-night run featuring 200+ artists across 10 stages',link:'#',src:'EDC Official',time:'Just now',cat:'Festival',hot:true},
-      {title:'Coachella 2026 lineup drops: massive electronic and hip-hop headliners announced for both weekends',link:'#',src:'Billboard',time:'1 hr ago',cat:'Festival',hot:true},
-      {title:'Ultra Music Festival Miami breaks all-time attendance record: 180,000 ravers over three days on Bayfront Park',link:'#',src:'Rolling Stone',time:'2 hrs ago',cat:'Festival',hot:false},
-      {title:'Tomorrowland 20th anniversary edition teaser dropped: three weekends, 600+ artists, biggest lineup ever',link:'#',src:'Mixmag',time:'3 hrs ago',cat:'Festival',hot:false},
-      {title:'Ibiza season opens: Ushuaia announces summer 2026 residencies with biggest electronic DJ lineup in history',link:'#',src:'Resident Advisor',time:'4 hrs ago',cat:'Club',hot:false},
-      {title:'Bourbon Street ranked #1 party destination in the United States for fifth consecutive year by travel publication',link:'#',src:'Travel + Leisure',time:'5 hrs ago',cat:'Nightlife',hot:false},
-      {title:'Las Vegas Sphere announces new immersive 360° rave series "Pulse" — tickets on sale this Friday at 10AM PT',link:'#',src:'Vegas Weekly',time:'6 hrs ago',cat:'Vegas',hot:false},
-      {title:'Lost Lands festival releases 2026 lineup: dubstep and bass music fans react with widespread enthusiasm online',link:'#',src:'EDM.com',time:'8 hrs ago',cat:'Festival',hot:false},
-      {title:'Creamfields UK announces biggest stage ever for 2026 edition — 80,000 capacity field added to site',link:'#',src:'DJ Mag',time:'10 hrs ago',cat:'Festival',hot:false},
-      {title:'Awakenings festival Amsterdam confirms three-day techno extravaganza for summer 2026 at new outdoor venue',link:'#',src:'RA',time:'12 hrs ago',cat:'Festival',hot:false},
-      {title:'Glastonbury 2026 full lineup revealed: rock legends and electronic pioneers share the Pyramid Stage',link:'#',src:'NME',time:'14 hrs ago',cat:'Festival',hot:false},
-      {title:'Key West Fantasy Fest 2026 expands to three weekends due to record ticket demand and international interest',link:'#',src:'Miami Herald',time:'1 day ago',cat:'Nightlife',hot:false},
-      {title:'Dublin named Europe\'s #1 nightlife city for fourth consecutive year — Temple Bar district sees record visitors',link:'#',src:'Time Out',time:'1 day ago',cat:'Nightlife',hot:false},
-      {title:'Burning Man 2026 announces theme "The Great Awakening" — largest art installation ever planned for Black Rock City',link:'#',src:'BM Official',time:'1 day ago',cat:'Festival',hot:false},
-      {title:'Times Square NYE 2026: DJ performances added to midnight ball drop — free live stream confirmed for global viewers',link:'#',src:'NYC Tourism',time:'2 days ago',cat:'Event',hot:false},
-      {title:'Lollapalooza 2026 announces full lineup for Grant Park Chicago — July 30 to August 2 with six stages',link:'#',src:'Pitchfork',time:'2 days ago',cat:'Festival',hot:false}
+      {title:'Electric Daisy Carnival Las Vegas announces record 2026 lineup spanning three nights across ten stages',link:'#',src:'EDC Official',time:'Just now',cat:'Festival',hot:true},
+      {title:'Coachella 2026 weekend one lineup drops: massive headliners confirmed across all stages',link:'#',src:'Billboard',time:'1 hr ago',cat:'Festival',hot:true},
+      {title:'Ultra Music Festival Miami breaks all-time attendance record for third consecutive year',link:'#',src:'Rolling Stone',time:'2 hrs ago',cat:'Festival',hot:true},
+      {title:'Tomorrowland announces 20th anniversary edition spanning three full weekends in Belgium',link:'#',src:'Mixmag',time:'3 hrs ago',cat:'Festival',hot:false},
+      {title:'Ushuaia Ibiza announces summer 2026 DJ residencies with biggest electronic lineup in history',link:'#',src:'Resident Advisor',time:'4 hrs ago',cat:'Club',hot:false},
+      {title:'Bourbon Street New Orleans ranked number one party destination in the United States',link:'#',src:'Travel+Leisure',time:'5 hrs ago',cat:'Nightlife',hot:false},
+      {title:'Las Vegas Sphere announces immersive 360 degree rave series called Pulse for summer 2026',link:'#',src:'Vegas Weekly',time:'6 hrs ago',cat:'Vegas',hot:false},
+      {title:'Lost Lands festival reveals massive bass music lineup for 2026 Ohio edition',link:'#',src:'EDM.com',time:'8 hrs ago',cat:'Festival',hot:false},
+      {title:'Glastonbury 2026 headliners revealed as tickets sell out within seconds of release',link:'#',src:'NME',time:'10 hrs ago',cat:'Festival',hot:false},
+      {title:'Boiler Room announces global tour hitting 30 cities with underground electronic acts',link:'#',src:'DJ Mag',time:'12 hrs ago',cat:'Club',hot:false},
+      {title:'Victoria Secret returns to runway format with fashion show incorporating live music performances',link:'#',src:'Vogue',time:'14 hrs ago',cat:'Fashion',hot:false},
+      {title:'MTV celebrates 30 years of Spring Break programming with remastered archive release',link:'#',src:'MTV',time:'16 hrs ago',cat:'Retro',hot:false},
+      {title:'Awakenings festival Amsterdam confirms outdoor techno extravaganza for August 2026',link:'#',src:'RA',time:'18 hrs ago',cat:'Festival',hot:false},
+      {title:'Creamfields UK adds fourth day to 2026 edition due to overwhelming ticket demand',link:'#',src:'DJ Mag',time:'1 day ago',cat:'Festival',hot:false},
+      {title:'Burning Man 2026 announces theme and confirms largest art installation ever planned',link:'#',src:'BM Official',time:'1 day ago',cat:'Festival',hot:false},
+      {title:'Linkin Park surprise concert announcement sends fans into frenzy on social media',link:'#',src:'Pitchfork',time:'2 days ago',cat:'Concert',hot:false}
     ];
   }
 
-  /* split into breaking (hot) and latest */
   var breaking = items.filter(function(i){ return i.hot; });
   var latest   = items.filter(function(i){ return !i.hot; });
-
-  /* if no hot items flagged, treat first 4 as breaking */
-  if (!breaking.length && items.length) {
-    breaking = items.slice(0,4);
-    latest   = items.slice(4);
-  }
+  if (!breaking.length && items.length) { breaking = items.slice(0,4); latest = items.slice(4); }
 
   function renderItems(arr, max) {
-    if (!arr.length) return '<div class="pp-empty">No stories yet &mdash; bot will populate shortly.</div>';
-    return arr.slice(0, max).map(function(item) {
-      var initials = (item.src || 'PP').replace(/[^A-Z0-9]/gi,'').slice(0,2).toUpperCase() || 'PP';
-      var safeTitle = (item.title||'').replace(/</g,'&lt;').replace(/>/g,'&gt;');
-      return (
-        '<div class="pp-hl" onclick="window.open(\'' + (item.link||'#').replace(/'/g,"\\'") + '\',\'_blank\')" role="article">' +
-          '<div class="pp-hl-icon">' + initials + '</div>' +
-          '<div class="pp-hl-body">' +
-            '<div class="pp-hl-tags">' +
-              (item.hot ? '<span class="pp-new-dot" aria-hidden="true">&#9679;</span>' : '') +
-              (item.cat ? '<span class="pp-hl-tag">' + item.cat + '</span>' : '') +
-            '</div>' +
-            '<span class="pp-hl-title">' + safeTitle + '</span>' +
-            '<div class="pp-hl-meta">' +
-              (item.src  ? '<span class="pp-hl-src">'  + item.src  + '</span>' : '') +
-              (item.time ? '<span class="pp-hl-time">' + item.time + '</span>' : '') +
-              (item.link && item.link !== '#' ? '<a class="pp-hl-link" href="' + item.link + '" target="_blank" rel="noopener noreferrer">Read &#8599;</a>' : '') +
-            '</div>' +
+    if (!arr.length) return '<div class="pp-empty">Culture feed loading\u2026</div>';
+    return arr.slice(0, max).map(function(item){
+      var init = (item.src||'PP').replace(/[^A-Z0-9]/gi,'').slice(0,2).toUpperCase()||'PP';
+      var safe = (item.title||'').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+      return '<div class="pp-hl" onclick="window.open(\''+(item.link||'#').replace(/'/g,'\\\'')+'\',' +
+        '\'_blank\')">' +
+        '<div class="pp-hl-icon">'+init+'</div>' +
+        '<div class="pp-hl-body">' +
+          '<div class="pp-hl-tags">' +
+            (item.hot ? '<span class="pp-new-dot">&#9679;</span>' : '') +
+            (item.cat ? '<span class="pp-hl-tag">'+item.cat+'</span>' : '') +
           '</div>' +
-        '</div>'
-      );
+          '<span class="pp-hl-title">'+safe+'</span>' +
+          '<div class="pp-hl-meta">' +
+            (item.src  ? '<span class="pp-hl-src">'+item.src+'</span>'   : '') +
+            (item.time ? '<span class="pp-hl-time">'+item.time+'</span>' : '') +
+            (item.link && item.link!=='#'
+              ? '<a class="pp-hl-link" href="'+item.link+'" target="_blank" rel="noopener">Read &#8599;</a>'
+              : '') +
+          '</div>' +
+        '</div>' +
+      '</div>';
     }).join('');
   }
 
   cols.innerHTML =
-    '<div>' +
-      '<div class="pp-col-label pp-col-breaking">' +
-        '<div class="pp-col-dot"></div>BREAKING &amp; HOT' +
-      '</div>' +
-      renderItems(breaking, 10) +
-    '</div>' +
-    '<div>' +
-      '<div class="pp-col-label pp-col-latest">' +
-        '<div class="pp-col-dot"></div>LATEST CULTURE' +
-      '</div>' +
-      renderItems(latest, 10) +
-    '</div>';
+    '<div><div class="pp-col-label pp-col-breaking">'+
+      '<div class="pp-col-dot"></div>BREAKING &amp; HOT</div>'+
+      renderItems(breaking,10)+'</div>'+
+    '<div><div class="pp-col-label pp-col-latest">'+
+      '<div class="pp-col-dot"></div>LATEST CULTURE</div>'+
+      renderItems(latest,10)+'</div>';
 
-  /* updated timestamp */
   var upd = document.getElementById('pp-updated');
-  if (upd && window._ppUpdatedTs) {
-    var d = new Date(window._ppUpdatedTs * 1000);
-    upd.textContent = 'Updated ' + d.toLocaleTimeString('en-US',{hour:'numeric',minute:'2-digit'});
+  if (upd && window._ppUpdatedTs){
+    var d = new Date(window._ppUpdatedTs*1000);
+    upd.textContent = 'Updated '+d.toLocaleTimeString('en-US',{hour:'numeric',minute:'2-digit'});
   }
 
-  /* Build ticker from all items */
+  /* build ticker from all items */
   var belt = document.getElementById('pp-ticker-belt');
-  if (belt) {
+  if (belt){
     var all = breaking.concat(latest);
-    var tickerHtml = '';
-    [all, all].forEach(function(arr) {
-      arr.forEach(function(item) {
-        var safeTitle = (item.title||'').replace(/</g,'&lt;').replace(/>/g,'&gt;');
-        tickerHtml +=
-          '<span class="pp-tick-item" onclick="window.open(\'' + (item.link||'#').replace(/'/g,"\\'") + '\',\'_blank\')">' +
-            (item.cat ? '<strong style="color:var(--pink-l);margin-right:6px">[' + item.cat + ']</strong>' : '') +
-            safeTitle +
-          '</span>' +
-          '<span class="pp-tick-sep" aria-hidden="true">&#9670;</span>';
+    var h   = '';
+    [all, all].forEach(function(arr){
+      arr.forEach(function(item){
+        var safe = (item.title||'').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+        h += '<span class="pp-tick-item" onclick="window.open(\''+(item.link||'#').replace(/'/g,'\\\'')+'\',' +
+          '\'_blank\')">' +
+          (item.cat ? '<strong style="color:var(--pink-l);margin-right:6px">['+item.cat+']</strong>' : '') +
+          safe+'</span><span class="pp-tick-sep" aria-hidden="true">&#9670;</span>';
       });
     });
-    belt.innerHTML = tickerHtml;
-    requestAnimationFrame(function() {
+    belt.innerHTML = h;
+    requestAnimationFrame(function(){
       var px  = belt.scrollWidth;
-      var dur = Math.round((px / 2) / 80);
-      belt.style.animationDuration = Math.max(dur, 40) + 's';
+      belt.style.animationDuration = Math.max(Math.round((px/2)/80), 40)+'s';
     });
   }
 })();
 </script>
-
 </body>
 </html>
