@@ -363,12 +363,12 @@ if __name__ == '__main__':
     print(f'  After filter/dedup: {len(items)} items')
 
     if items:
-        inject_into_html(items)
-        # also write a feed.json for external consumption
+        # Write feed.json — index.html fetches this at runtime via fetch()
+        # DO NOT modify index.html (regex injection was eating the main JS block)
         with open('feed.json', 'w', encoding='utf-8') as f:
             json.dump({'updated': int(time.time()), 'items': items}, f, ensure_ascii=False, indent=2)
-        print('[OK] feed.json written')
+        print(f'[OK] feed.json written — {len(items)} items')
     else:
-        print('[WARN] No items after filtering — index.html not modified')
+        print('[WARN] No items after filtering — feed.json not updated')
 
     print('[Done]')
