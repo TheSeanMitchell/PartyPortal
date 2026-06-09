@@ -1,74 +1,335 @@
 {
-  "updated": 1780995521,
+  "updated": 1781014871,
   "items": [
     {
-      "title": "John Summit speaks out after Travis Scott allegedly \"forced his way\" on to stage after showing up late to shut show down - NME",
-      "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNYVM5a24yLUdtNE1oLTJiWDlKcDZLdi1RZ283aUg4Nlo0NndIOWpVODlCUk11LVc1dmN3ZHhkYkFGWm1UOXZfLXJObDZUdy1ZZlR0RnJTTU5sMmN0VWpodGZQRHFUZ0ZpNjVaa3NXbDQ5aDE2RkNLem5JaDIyYV9mZXZJeGpHS3A3alljOG16MXZ0ZFQtRFZJQ3BxWWVSR2N1MWlRYllDMkR2R3V4UkU4ZkRPbUdsQ0lNMkFlU280V2dqemxFOVFIaGlQUXVpdl9WYmNja2tSSldWOEU2eV8ybWFDMjFFVDA2ekZGTHVB?oc=5",
-      "src": "NME",
-      "time": "4 min ago",
+      "title": "Before Music Publishers Invest in AI, They Need to Know What They’re Fixing (Guest Column) - Billboard",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQREdEN2J1ZlMzSUoyTW16TVRiemY0cUc0SUpRclhna2tzS2o5a3NPSm00VmlkUkgtYWZpZDg5TWJJZl9oVC11M2FHS1hTVUZ3N19JZzlCNTQ1SnZVQzBPWU1WbVRoM24zSV9rV0tRRHdaZFZFQ2RtNE5KSlpWa1lldVptdWhnd2RPbk9GSW9iWE1yeWs?oc=5",
+      "src": "Billboard",
+      "time": "19 min ago",
       "cat": "Culture",
       "hot": true,
-      "ts": 1780995261
+      "ts": 1781013730
     },
     {
-      "title": "The Avalanches, Tortoise, Jacob Alon For Pitchfork Music Festival London 2026 - clashmusic.com",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPT3Y5dHo3dlVzSm1VV0p4UTg4cEE4OUtXZmJuTE5OMldER1c1M2tHbHloMDV3LUcyQXEwUmpwa19WdVQ3TW5MLWN6UlM4YnFSR2pJdnhvcUM4dm5ub056TXBkbmZVaDdnUEhxcEdvSUo1Vk5ubEtyVE16MHhOcTZuUjYxQzB3dmRFQUZqelZkRW1kb1V0VmlLalZNWVhxLUtHV0xyZkZyallUTkNq?oc=5",
-      "src": "clashmusic.com",
-      "time": "36 min ago",
+      "title": "Ty Segall Is Releasing a New Album and EP on the Same Day - Pitchfork",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPYkx3dGJPOU1VRkxLc2pJR1VIVjRxT29CRzJKekpEZWphLVQ1cUwyWDFSYnlsdmN6ZDNsUV9GN3h1UkFpZVJLRFlBME1WSkdkNTZCczRUZ3IyeXZnZ2dZSkVvcUVWcElRbVdhNk5zNjFXcnZEZmJEOUpzMHczUWtDMHZhaFZKVk9DeEdUem9R?oc=5",
+      "src": "Pitchfork",
+      "time": "34 min ago",
+      "cat": "Culture",
+      "hot": true,
+      "ts": 1781012774
+    },
+    {
+      "title": "Tomorrowland Honours Avicii With The Return Of A Tribute Experience - EDM House Network",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQcTZqQnQwTEtUc3g3YzFXYTBOeWEzTzA3a3k2cHo4M09sOEp6bi01LThOQ1hiSVBacC02SkFucUVhcFF6STFZOHpfMHowV01WQUJkVjB0QUctb2FpYXFJR1Z6MVBKWTMwSzlnWDA4Znp3TDdPemNWQy1FUXRnZ09KU3Ryei1SY0FvdmhfbGpMcHNabV82NTdJSk1TTF8?oc=5",
+      "src": "EDM House Network",
+      "time": "35 min ago",
       "cat": "Festival",
       "hot": true,
-      "ts": 1780993357
-    },
-    {
-      "title": "Munich club BLITZ reveals June programme ahead of closure · News ⟋ RA - Resident Advisor",
-      "link": "https://news.google.com/rss/articles/CBMiPEFVX3lxTE83RV90R1U5Z3BkNmpEeGZUT2ZtSEc0enJ0dkJscUlnbG83VjF6TFh1NUFCTS1qU0FUeDZmYQ?oc=5",
-      "src": "Resident Advisor",
-      "time": "46 min ago",
-      "cat": "Culture",
-      "hot": true,
-      "ts": 1780992743
+      "ts": 1781012762
     },
     {
       "title": "Top Five Tomorrowland Mainstages of All Time - EDM House Network",
       "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFA3b01DOFk3QmZwSmxNRGJIX09iVlljYmNhMlVQUTBqazVfRzViQmtuaTZZSUF1Mldad1VkZWQ0NF9ma2hsQ2lJRnYwbFh6blQ4TTBxTnlwcHJZRGdGMzNMRGgybzZVVEItV1dUZC1NQjl0WF9fRkZ3MzlmVXBPdw?oc=5",
       "src": "EDM House Network",
+      "time": "45 min ago",
+      "cat": "Festival",
+      "hot": true,
+      "ts": 1781012116
+    },
+    {
+      "title": "Tomorrowland honours Avicii with the return of a tribute experience, original artefacts, remastered live sets and an exclusive festival collection. - Tomorrowland",
+      "link": "https://news.google.com/rss/articles/CBMioAJBVV95cUxQQlBLVDhkbVZ4RXgzSTRrXzlFcTM2aDhrQXlCNmU4cjNnY3hJMlA5bTFoTzE2OEx6X0F4OUhjVXB0OHBNZnVEX29pcWdpZFZyb1lySzZFanoyc1dZVFhWdWxVWXUzaDZQcmJNNkE0NkpmM3ZRY0hDLXhCZHFwaEZOeTM5ZnBMRmZrNE1DbkpQUWYxcFFzZUZKdXJvZ0hhVW9DZkxGRGd4LW5fc1UxT3R1SG8tbnZMMWFNRWdTNnZGQnJjQXB5YVNtcUpTcjJ0X2t0bk9pb0xZT1VlbTlVLWE2QWhUbjFJaFZsM2QtQ05PMG1nU3g4eWFUYTNtSVFDR1hpVTlGN1hhdHNFSWFwMTVDby1ORmcycVhGbE5xQV9henk?oc=5",
+      "src": "Tomorrowland",
       "time": "1 hr ago",
       "cat": "Festival",
       "hot": true,
-      "ts": 1780991087
+      "ts": 1781011200
     },
     {
-      "title": "Formula Six makes his debut on Puntería records with ‘A lo Mexicana’ - We Rave You",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNSVNidTlMcTJPNW9LQTJoSi1UTG05c2h0Vk8yNlJySzZmSmpIRkplMlVLaFhDb2JxNG1GLXp4SExPMGwybUhscUM0blg5NnB1WVAtMzJSQm5DbElFRFR4UTh5UnI3cDZpWHJ4dFMtb3VrSVgzQXlJLU1URE91eTYyQWcydzJWREk?oc=5",
-      "src": "We Rave You",
+      "title": "South Beach Overtakes Soliman Bay, Bottle, Nissi, Freedom, Paradise and More Beaches in United States, Mexico, Greece and Cyprus are Now Becoming One Stop Party Destinations for Nightlife Lovers: This Attracting Millions in Tourism Revenue - Travel And Tour World",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9uY3VqaXlBcmNOSlNFQXdVVV80SmhPQXhhMlJVSXJnbVZsWjlXamZNT01KZG13eG1EamxmVDdYUlB5eE1CYWtSdWszTTZONmtyTkVCWjgzWWpCTlNLUEJkMUpENlFLcHRrRjE3aEJn?oc=5",
+      "src": "Travel And Tour World",
       "time": "1 hr ago",
       "cat": "Nightlife",
       "hot": true,
-      "ts": 1780990711
+      "ts": 1781011199
+    },
+    {
+      "title": "Soma Records unveils 35th anniversary remix EP series · News ⟋ RA - Resident Advisor",
+      "link": "https://news.google.com/rss/articles/CBMiPEFVX3lxTE1yV0dzX0txSWhobW5mbjVRWndLeWRvandFUDFfcURRR3ItMm9pR2NuSHhwOFc5eWFXQjBDYg?oc=5",
+      "src": "Resident Advisor",
+      "time": "1 hr ago",
+      "cat": "Culture",
+      "hot": true,
+      "ts": 1781011119
+    },
+    {
+      "title": "Sturgill Simpson Finally Releases 'Mutiny After Midnight' on Streaming - Billboard",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOUWJZbkY2c1NGV3lRaHNKTFlYSEdveHA5RG90NGNXUnhHTjVCcHFmWUZiaHdkTzNoa2xhUUdXemVCMmJGV0ktVndLeU9hVEpVbHlsRlpxa29OTlNiSm1Tc2hTeFdKbTVDM1NGZjJVcmdlbzg1MmZnR2NJYmtwallpMjV0R1dOdTNldXoydlJnOGg1TE9zUnhmcTdRUE5XOHVDOWdSVU5RTGhtdw?oc=5",
+      "src": "Billboard",
+      "time": "1 hr ago",
+      "cat": "Culture",
+      "hot": true,
+      "ts": 1781010704
+    },
+    {
+      "title": "Valletta Beats Ibiza, Corfu, Marbella, Nice and More Destinations in Spain, Malta, France and Greece Becoming Best for Partygoers and Nightlife Lovers - Travel And Tour World",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBkRkhuRmlPRkxlTEVjcTlVR2RrY2lnSUs0SEU0c0Y0X0RjTEJ6WTZKbXZrYVV1X2dSREpoTUpMNTNDSnMyUlBkYlJVS1AzV1lCMEtya0xMU3NWcXVpUmhDQnlHQUVObzlJeUFJejln?oc=5",
+      "src": "Travel And Tour World",
+      "time": "1 hr ago",
+      "cat": "Nightlife",
+      "hot": true,
+      "ts": 1781010354
+    },
+    {
+      "title": "Martin Garrix confirms new album is coming in late 2026 - DJ Mag",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE84aUVBOXR0eGlYdm12Q1l0dE9YWk4xUWpwZzE3OUZkeTkzVGRfYlhpY3FreXR2SVFnUWFVSVVJNmU4UmpxNVlEeWRrWjkzMjdtekcwOU9kWFhmU01TZnROY0Y0UnBGb0k1WC1qY0ZYaVkxWUstRGEzRExPX1Y?oc=5",
+      "src": "DJ Mag",
+      "time": "1 hr ago",
+      "cat": "EDM",
+      "hot": true,
+      "ts": 1781010103
+    },
+    {
+      "title": "Sheffield is getting a brand new warehouse venue, Hangr - Mixmag",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPbkV4ZWJLZU8xdmRES1RmRHdnWnFoTElPZlcxN25iV3hjY2tvT1JETkgzdHpmcnF0S3UxV09BU19QaWhFeVVxMF9WVWRwYV9laEFHajNXOGNLckREdnFiUjRQLVRWVWxmVl9mRWZyTE10NzJjOVFmXzhzVVBSWVo2Z1NnSFYyQTTSAYcBQVVfeXFMT25FeGViS2VPMXZkREtUZkR3Z1pxaExJT2ZXMTduYld4Y2Nrb09SRE5IM3R6ZnJxdEt1MVdPQVNfUGloRXlVcTBfVlVkcGFfZWhBR2ozVzhjS3JERHZxYlI0UC1UVlVsZlZfZkVmckxNdDcyYzlRZl84c1VQUllaNmdTZ0hWMkE0?oc=5",
+      "src": "Mixmag",
+      "time": "1 hr ago",
+      "cat": "Concert",
+      "hot": true,
+      "ts": 1781009186
+    },
+    {
+      "title": "Madrid venue Soundbaths to close · News ⟋ RA - Resident Advisor",
+      "link": "https://news.google.com/rss/articles/CBMiPEFVX3lxTE1DUVVJUkUyWVJNZ3pNNFFxcUk2WDJzeUJ3UEFYZl83T0ZyXzRycjR6RDFUc1h6anhqRVBQQw?oc=5",
+      "src": "Resident Advisor",
+      "time": "1 hr ago",
+      "cat": "Concert",
+      "hot": true,
+      "ts": 1781008677
+    },
+    {
+      "title": "Kevin Jonas Threw Up During Brother Nick's First Date With Wife Chopra - Billboard",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQb0xmM18zd04zSVQ1Q0tBYVRMcDdhSUw4RHpua2pVS1p6MjY1ZnliR3dSaGlSTkJIdW5UcElWa1lOUE9DN3hsaFRGVVI4dHY3a1VUSkVOM0h2SjU5NWplQlU5MXo3U0NOaGlna29mSlhpLWk3ZmQxXzhmNm1WWGxMTmtjN2E1RWozVkJZV0lmeWR0QkdqMnhsSloxNUVZUHhXR3c?oc=5",
+      "src": "Billboard",
+      "time": "1 hr ago",
+      "cat": "Culture",
+      "hot": true,
+      "ts": 1781008452
+    },
+    {
+      "title": "Interpol Ready New Album, Share Two Songs - Pitchfork",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9uSHNLMExneHVYcV91b3c2NEJOY3l0dWpBVGNPblA4V3Iwb0VUXzF4UVNCaUp4bVN3UGZnYTRZb2x5aVlyM0ZKSlF2Q05Xa3l1RFVrWjc2ZmpmRjRobi1nT3JfUjZGcHphQkJQRzdFVkZ1WUpEMVNz?oc=5",
+      "src": "Pitchfork",
+      "time": "2 hr ago",
+      "cat": "Culture",
+      "hot": true,
+      "ts": 1781006681
+    },
+    {
+      "title": "Paul McCartney’s ‘The Boys of Dungeon Lane’ Debuts at No. 1 on 3 Billboard Album Charts - Billboard",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQcnh3NkxJazFHazNFWUlfV3ZoS2E2OTFMUEl0bHJWVDZDRW5DeUwyU1Vja1JXeVFidGxHRG9DRFd1ZjVUUFNYRkFOc3RESm54ZDFNd0VaRzdRWlUtWmJZQVo5THRldFB3U3NjaURob0ZrUk5HS3RkbWY3YjFFWlB5U3ZKdGZob2hhVFAtcDAxcVJ1a2t2SFJZcHl0bFFsMGdtNE93N3gyLXNJc1NRbVh5OA?oc=5",
+      "src": "Billboard",
+      "time": "2 hr ago",
+      "cat": "Culture",
+      "hot": true,
+      "ts": 1781006111
+    },
+    {
+      "title": "Beastie Boys’ Mike D Reveals Release Date, Track List for Debut Solo Album, ‘Thank You’ - Billboard",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOckdZRVVwR1NRZXNxZXhlczdNUVdlOWp6NDZFNWZwalo4TWduTjFJbTV5bU9qNTVZQjFBZWFIcHFnOHhqNkxDZkFfZTJuZjVXQk1HWWdzYU9VMTI3Q0NvcVdmTE42N1k4UE95SU9CbkVHVWdjZ3lBY2MwV3JlMk5FSWdvcU1MUUU4U1ZMOVBVT2l6OGJJQ0dmcFRIWGRrLXBPS19RQVhiTGVfMW5BU0RJSA?oc=5",
+      "src": "Billboard",
+      "time": "2 hr ago",
+      "cat": "Culture",
+      "hot": true,
+      "ts": 1781005974
+    },
+    {
+      "title": "Duetti is Acquiring Six-Month-Old Songs and Hiring Indie Artists to Remix Them - Billboard",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNdmY5UlFKeWZ5cUZ1ZER6TW1ydlBKT0JTMjdJcjNlQ3phYWEyVGxiUTJmTjRCcFktVnV2dVVDY090SWo3Tk9MNi1VUmlkdUlaaEloR2p5aHhkV2pvX190Q2VnbHdwdHNBNmdwT0hpenc5Z0Z3aVJGbU9MdGU2QWlGRWRFdF9SLXFSZG0wbE5TbTJGUQ?oc=5",
+      "src": "Billboard",
+      "time": "2 hr ago",
+      "cat": "Culture",
+      "hot": true,
+      "ts": 1781005541
+    },
+    {
+      "title": "Nashville Pride announces festival lineup, monthlong events - News Channel 5 Nashville",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOTVJad0RkTjlRLVltYnhEcWpQZmVYTGNZVmdZWmdIRFVUeDE1NXVMM2R4enFlZlA5R1FCdWVUc1lHSzhoQzRvdUZqQ1pZY2MwUlVHcXFzUDFFMkZ2QVdvYlZYYzRtUlh1TlZPamVjSWhsVWs3UzNKVWtiZGRubGZFSEI4S2R0aXhOcXQ1eFhQRV9wSm5jOEVZTjE5YV9FdS1seTFwdGdOZlBsaVNMUU1SZDRpREVsVU1qNFRLVzM4WnNldw?oc=5",
+      "src": "News Channel 5 Nashville",
+      "time": "2 hr ago",
+      "cat": "Festival",
+      "hot": true,
+      "ts": 1781004163
+    },
+    {
+      "title": "Soft Cell Unveil Final Album Danceteria - Pitchfork",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1Fc1lHU25iWFh5TlBFTVhvSV96dVliVEdoeFF5bnB3dEUwTXNySkF5QWgtckpaWTdmRVdaZXA1X2JMZmEyX2gzUHlVZnU3cFp0SF9WYmFMcEx5b0tZa1dMZDRyVkl2UHlhM2xrbkxreGVzOGFGdlE?oc=5",
+      "src": "Pitchfork",
+      "time": "3 hr ago",
+      "cat": "Culture",
+      "hot": true,
+      "ts": 1781003924
+    },
+    {
+      "title": "Berlin's Hamburger Bahnhof to host Ryuichi Sakamoto exhibition · News ⟋ RA - Resident Advisor",
+      "link": "https://news.google.com/rss/articles/CBMiPEFVX3lxTE5PQWxPWXQ5YW0xc2V5WERpMVNNbzc0WGhtRGlvTFVZVWpRTHEyZlkxa0FVMUlJYmFZWndPLQ?oc=5",
+      "src": "Resident Advisor",
+      "time": "3 hr ago",
+      "cat": "Culture",
+      "hot": true,
+      "ts": 1781003865
+    },
+    {
+      "title": "London’s Barfly Venue Set to Return Under Historic Name, Frank Turner to Play Exclusive Gig - Billboard",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNaVh4UVNJR0F5dnpNdENjc2hHQUM1R3RSQnNJUmFQbmloWm9FR3phRGRyUzgtUmkyNUdjalRiTkxrcmptckI4S3d0WEZxWFZCRmxSQmJ2d1JiTWxNdFE5Y3N6X1hfc1pabjVwdVZjUk9LX2FKUmVYWGVYVk1GSWtxNDVCbk10NDZUbXNTREpJRUFvN0hXMVJnUGJuZkk2aTI4?oc=5",
+      "src": "Billboard",
+      "time": "3 hr ago",
+      "cat": "Concert",
+      "hot": true,
+      "ts": 1781003470
+    },
+    {
+      "title": "://sektgarten x stößchen [free entry & open air] at ://about blank, Berlin ⟋ RA - Resident Advisor",
+      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE9ka3JSR3M5QlJXM0haUkRIVEFSUUxKMEpqTjNVUmlfeThpcE16Sm5SV0JINHFLeDdGM1F0OG5Mc3R3QQ?oc=5",
+      "src": "Resident Advisor",
+      "time": "3 hr ago",
+      "cat": "Culture",
+      "hot": true,
+      "ts": 1781002581
+    },
+    {
+      "title": "Thomas Banglater says that Daft Punk will not reunite for comeback show - Mixmag",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQVkFiazZQWXo1cTluZG1DbFJPZTdkQVJGckNMUVZXcmZEN1A5aG9CZDhydF8ydlpDNzhoX0ZDUmlzUk43SGdFeEctc2QwMmxmbGc3a09pcXN1TTZIbnczc29WVnoxV2ZrTFlscHBJMlVXQnRKNGZqWkE0VWxzYXpubFR2RE5McEQ2cDB2R21tWEtHbjTSAZMBQVVfeXFMUFZBYms2UFl6NXE5bmRtQ2xST2U3ZEFSRnJDTFFWV3JmRDdQOWhvQmQ4cnRfMnZaQzc4aF9GQ1Jpc1JON0hnRXhHLXNkMDJsZmxnN2tPaXFzdU02SG53M3NvVlZ6MVdma0xZbHBwSTJVV0J0SjRmalpBNFVsc2F6bmxUdkROTHBENnAwdkdtbVhLR240?oc=5",
+      "src": "Mixmag",
+      "time": "3 hr ago",
+      "cat": "Culture",
+      "hot": true,
+      "ts": 1781001900
+    },
+    {
+      "title": "Munich club BLITZ reveals June programme ahead of closure · News ⟋ RA - Resident Advisor",
+      "link": "https://news.google.com/rss/articles/CBMiPEFVX3lxTE83RV90R1U5Z3BkNmpEeGZUT2ZtSEc0enJ0dkJscUlnbG83VjF6TFh1NUFCTS1qU0FUeDZmYQ?oc=5",
+      "src": "Resident Advisor",
+      "time": "3 hr ago",
+      "cat": "Culture",
+      "hot": true,
+      "ts": 1781001456
+    },
+    {
+      "title": "Sheffield's No Bounds Festival reveals 2026 lineup · News ⟋ RA - Resident Advisor",
+      "link": "https://news.google.com/rss/articles/CBMiPEFVX3lxTE9KQVgyRS1IbThGMjhkT1pWaVRhYTJTSHl6aGpQSjVKcFZKLWM4dHotYWFfSUpJdzA3VTlGWg?oc=5",
+      "src": "Resident Advisor",
+      "time": "3 hr ago",
+      "cat": "Festival",
+      "hot": true,
+      "ts": 1781001155
+    },
+    {
+      "title": "The history of Tennessee's most adventurous music festival, Bonnaroo - The Tennessean",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQb1ZwMTZsejRhekJvVUxJVnJzdkZHSmRUM1dUZF9qRVBXSXhRYkpXSFdhOWlWZW52RWdiSXVOMkZZSnZLZ2JNbUE4WVRoTmhBVXBreEVRelVPYkQ4NUJ2YWtMdXhTb2NGaHRkMHhuaElUTzhoMXdwd2kzUWJ2ckFIU3BjUzc0Q0R4bTdiWHE1UHZqbV92aHA1T0NiMkxLMzNvS0xDa2t2amlVVlpsaXV4ZzNXUDBBYUU?oc=5",
+      "src": "The Tennessean",
+      "time": "4 hr ago",
+      "cat": "Festival",
+      "hot": true,
+      "ts": 1780999200
+    },
+    {
+      "title": "Pitchfork Music Festival London 2026 announces first lineup with The Avalanches, Tortoise and Jacob Alon - whynow",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPWjFtNGg0cWhWUzRWWTkzU0ViNXFBa2dFclZiQ2laNDBxM1JnR2JkOWFVeDVPZTFieUVsNW5zSFdHekRMdzktdUlyOFlaSlNZU2haQmpodF9RYmJ0Wm5aQ1dHd1ZzWmVLSnpOVkZwd1dVMUhId3lxS1BzbXg2b1Z2aHp0TV9zUmNUQmtiTlFqMEcxT2s?oc=5",
+      "src": "whynow",
+      "time": "4 hr ago",
+      "cat": "Festival",
+      "hot": true,
+      "ts": 1780998272
+    },
+    {
+      "title": "Watch Daft Punk’s Thomas Bangalter play a surprise DJ set on The Lot Radio - DJ Mag",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNbFY3Z3A5RGlVdllPelJwYlZKeWxaZjFVTnU3ODA2V0xMSmpqZEl6b0Q5MFJnX1p0WDAxUndIMFd6ODhteXRPWHJhZUh6NzdKN0xGNGQ2QU9xVmNKeVZCNEdSQllaakpSdVpYbkZzOFlGSEVoTms0bnM0WkNCN2JPYmRLSENRaEtWdGVMUld6bWc?oc=5",
+      "src": "DJ Mag",
+      "time": "4 hr ago",
+      "cat": "EDM",
+      "hot": true,
+      "ts": 1780997544
+    },
+    {
+      "title": "John Summit speaks out after Travis Scott allegedly \"forced his way\" on to stage after showing up late to shut show down - NME",
+      "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNYVM5a24yLUdtNE1oLTJiWDlKcDZLdi1RZ283aUg4Nlo0NndIOWpVODlCUk11LVc1dmN3ZHhkYkFGWm1UOXZfLXJObDZUdy1ZZlR0RnJTTU5sMmN0VWpodGZQRHFUZ0ZpNjVaa3NXbDQ5aDE2RkNLem5JaDIyYV9mZXZJeGpHS3A3alljOG16MXZ0ZFQtRFZJQ3BxWWVSR2N1MWlRYllDMkR2R3V4UkU4ZkRPbUdsQ0lNMkFlU280V2dqemxFOVFIaGlQUXVpdl9WYmNja2tSSldWOEU2eV8ybWFDMjFFVDA2ekZGTHVB?oc=5",
+      "src": "NME",
+      "time": "5 hr ago",
+      "cat": "Culture",
+      "hot": true,
+      "ts": 1780995261
+    },
+    {
+      "title": "Niall Horan’s ‘Dinner Party’ Gets Manhattan Pop-Up at UMusic Shop NY for Release Day - Billboard",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNYlFrRzRzRjl5WUI5WWkwWXlhS1RKeWVFQ3lTUlFWeHBtSUQxZkU0c1RnSFVxODh1SUpCeVpQWWdncTZSc3NndlFFWHNlcWJ1eVo2ampTVGFLdXhuajBsdVpKWElLcVhCWEFXcUdaU2dBZHJPQXcwNDV6SzFCUGxtV1V0REZlUWhuNUNZU1Q3ZC1uQURySy1PaFlR?oc=5",
+      "src": "Billboard",
+      "time": "5 hr ago",
+      "cat": "Culture",
+      "hot": true,
+      "ts": 1780994518
+    },
+    {
+      "title": "Music Industry Events Calendar: Festivals, Awards & More - Billboard",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNUTJBZDRxd19YSHplbTJIdmNMRHY1TW1RY3BmdHVzemNPb1lTWW12Z3dzd0xvelcwaXdpSTFZbjIyQXR4ZGZFMjZvWTVIYXJkaDZGTWpMZE1Ib3V1SUVqQ2dNWjBNaHAwbzYxZk1lZlhFRzZKSlhPanoxWmMzYWQ4YkF5dE0tOGpTc0ZTX2hRN0Z3UUx6?oc=5",
+      "src": "Billboard",
+      "time": "5 hr ago",
+      "cat": "Festival",
+      "hot": true,
+      "ts": 1780994053
+    },
+    {
+      "title": "Olivia Rodrigo Albums Reenter Billboard Charts Ahead of New Release - asatunews.co.id",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9EQ1c2VlU1d01kcU1mQUdxMHdfOFBwNC1lNlVRd2JFSTZoSXF6R2FsMHdXaGpYV0hNbGNMVmdIYmVKMno2UEJnbGxWMy1WT1VlUVlVLW1Ya00tWG1ueFFlei14SlJFVElvQXNSdG9vdENnaWpxU2RVRWRR?oc=5",
+      "src": "asatunews.co.id",
+      "time": "5 hr ago",
+      "cat": "Culture",
+      "hot": true,
+      "ts": 1780993992
+    },
+    {
+      "title": "Open Decks at Den Anden Ende at Den Anden Side, Copenhagen ⟋ RA Tickets - Resident Advisor",
+      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFBrMTFYM09jMWpnVVloV2owOVZtc0c1dFo3aEJ3NnVwYTdSaldYcVpHMjNlOFV0LU44OFZlOS1NUGM2dw?oc=5",
+      "src": "Resident Advisor",
+      "time": "5 hr ago",
+      "cat": "Concert",
+      "hot": true,
+      "ts": 1780993936
+    },
+    {
+      "title": "Bini Make History With Coachella 2026 Performance - MSN",
+      "link": "https://news.google.com/rss/articles/CBMilgRBVV95cUxPQkFUTDVteHo4Y2tKQjlWY3JMODFYMGpuMGZtbWtTOTNENW9Fa01TczNUZWJMalBpWW5OZ1V4ZTg4TGVaSWNFbDA0bWYwb2k5TUtxYlFEeUI5M3kwa1RFU2tnM0o2RUhWNUt1Q3JoZ3hKLW13OXNwVmpHUnRvaDdWX1BESU1QUjlvYTFnSllpczJUUHBOS2tRUVA1MjNKaUFoWlM0UVdlS0VnYXB2dnNQWExfdDFDb01LazhpZ0dhaVBPSGo3MWlDT1lzRk9sWFkxV0VhX3BqZm5ZSnEyRzlGZ09laEIxMWdjTGhnQmptNVEzVlBPV1AtdnI5NURnWEFRblJDV1RocXVPRTJPS01yeVFOVUxJbTZBOHFnWWJnZWc1VnhNVTRIRDhrUlBVeVhFME5kVDVDX1daQnZqZ25kWW9qcDIybG51bTNuUzJXTnZRakRVRkstWVV0SGxMeGs0UVJEYlR0X3REZFF4VDlEUlVTeXl4QW8wMDY2bjFoaUZhVEhpVEJqTlJLOE1YYlR5YXlENl9aeFpoMU95X3Z1VGUwMVo4Uk5nNl9SZlJBclRCSEhvUDg5YzRELWp6YS1WajVnUGxldUozdXA0d3JuRk5mcDJ1bW1hRXRXdEdzRDVNR1UxakhzRVUxdFpKenhFU2NMN21yYXNQdGdQM1l4RTRabVNuUDNyemNiMTRweTFsR0tGTkE?oc=5",
+      "src": "MSN",
+      "time": "5 hr ago",
+      "cat": "Festival",
+      "hot": true,
+      "ts": 1780993434
     },
     {
       "title": "Coachella Valley High School celebrates its class of 2026 Mighty Arabs - The Desert Sun",
       "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQX3loNDNRdC1wc3p3MmlTejBhdTVsQzVxWldxbUptU2RoN0x5enA5R0YxLUJpeVdKNzdGc1VkZjV0bGcxLXJYWkNkNjhROEtXUlRBdmZ4c0EtZnNKXzlfUGxDQ2lDd2kzODB0ZE5maWlVbkJmUjJLOFh4dmM5OWVwai1PZXRXRmYtYWloX0ttV3ZMeW54X0o0cUp1YU51a0gtRXl4aG1LNndOZXBXcFRiUkZjS0t5Q0Q3a3RxN0hxcVRqOGhBQy1BNzBSX0dNS3ZIM2FKNEdfZXo0X2NGSl9Ceg?oc=5",
       "src": "The Desert Sun",
-      "time": "1 hr ago",
+      "time": "6 hr ago",
       "cat": "Festival",
       "hot": true,
       "ts": 1780989900
     },
     {
-      "title": "FIFA World Cup Countdown Concert Lineup: Major Lazer, Angeles Azules - Billboard",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNQ2ZZRnAxSDN0bTd3SDQtQ2F5Y1VrZEhpcjFUaXhFcGF6Wm1sb3FwX1JYTVk2MGJUTHpPRWlYckV4aC00Ync0MjBDUUpPb3NwLTRQS2dGTjRiMVZNNUNsWWdNak43ajhKLUhFOC1aTEM1STlQMXd4Tk04QXVMQmVtU0s0MzdySTVOZ1EwMjR5eUxmWnFnS3NEVmJiUWVCV3I0ekZNSGJReTA5Y1dETHMxeg?oc=5",
-      "src": "Billboard",
-      "time": "2 hr ago",
-      "cat": "Festival",
+      "title": "Mix Of The Day: Maher Daniel · News ⟋ RA - Resident Advisor",
+      "link": "https://news.google.com/rss/articles/CBMiPEFVX3lxTE5KeDNZZGNuRUVDclBBRjdGRFVrdk5Zb3lHSU0tZTBGMk90QmJ4eDJZc19JUjYxMlQ3ZFU5cg?oc=5",
+      "src": "Resident Advisor",
+      "time": "7 hr ago",
+      "cat": "Culture",
       "hot": true,
-      "ts": 1780986033
+      "ts": 1780987734
     },
     {
       "title": "Nova’s Red Room Unveils ‘Dinner Party’ Listening Experience Celebrating Niall Horan’s New Album - Billboard",
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNNkVNRnJrNVJUWENSWVpDVDdDWUFWd182ZjF3WU93LVp5N0hJUFRiWjhpMVZkbVB6QThrd1AxYXIwclpWeXIwREdXZ2RpYmlVSjlSYjVkVjBZTlU1bHpXbDRiT3E4dVFTajhXNnpfRzUxWjc4VWFPWVN6Yl9zb0RWdno0ZUdFRFhSVENITlhPeU1MWlBVWnpGSExpVjBqUWVsXy1IQXQybmY4V0xZQVo2Rw?oc=5",
       "src": "Billboard",
-      "time": "2 hr ago",
+      "time": "8 hr ago",
       "cat": "Culture",
       "hot": true,
       "ts": 1780985147
@@ -77,7 +338,7 @@
       "title": "Tomorrowland 2026: Consciencia Comes to Boom - TNT Magazine",
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQZW9ndVJxSmxzbXlJaWhVR3JadkM5SnEtZFd6Q0c0MDE0LXBIVTBNLVdyZ3FuYjI1bWxWZ3JpLUp5QUpqZEN1YkhwWHZQZG00bzRPbEtQdlVsRzFETktMaEdCSE5NbmZ1UjBKa1hxS2l0TVJlRnN2NHdxRVFUaXpOSm1aMVJPNHZ6ZFBfR3YzdUQyM2lkbFBFZ29TeXBQaDBNOG44?oc=5",
       "src": "TNT Magazine",
-      "time": "3 hr ago",
+      "time": "8 hr ago",
       "cat": "Festival",
       "hot": true,
       "ts": 1780984243
@@ -86,280 +347,19 @@
       "title": "Taylor Swift & Travis Kelce Wedding Guest List: Stars We Think Are Unlikely To Be Invited - Prestige Online - Singapore",
       "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQT1MwV01FMFNlRC0yMGl1aFFGRXN6RUhQMzItNFJLRkh6d3g1NFZSVl9WZzdMVFc3Y3hhMVNwZFpDRmpsNks3QjlqMjBpT2tEa3FFdjZNR1M4NURjWm5FYUdtVFlPYllOdjRHNTQyUTRGLUFFbzUwbVJ4a3lZTVd5RlN4YXd6QnROenZDNnFvaVF6LU9QVUVsV3J1QXdxY0lVZ0pCX3EtV0xXWTJEMENZVkZMc1hGNEZhU0Z5ZFVmV1g4S1JkMXdZeHVHYVVGODlva3FlSS1xTmRraTFjYkFFS19VSnN4alpN0gHuAUFVX3lxTE8tOHAybXB5ZGxZLWExa21jRFlEdDhJbmdwYmJFdkswY0dzZG5ma2ZycHNheXZRbVdDMVZHY0ZyaTlBTWhncG5ZMUd2ZXJELVFqazh5NjBtZ1R5bng0cGs1VUgyblU3NGtlZnFuM3RSSkZUckVWS0RBQk5FVm1Gd3N3N000X2NrWi1XS0tLZ1hXelhCcUZ1cVRVbnRKSzc1Z1oteDRrdWhEc2llTUR0cnVKSDh4TVlsWmJLMmwySmZ2UTdvRUVYTFRpZUdiTzlubnRMTDd5cVlFckRXbGRrYldoVG5USHljSE9ZblUtc0E?oc=5",
       "src": "Prestige Online - Singapore",
-      "time": "3 hr ago",
+      "time": "8 hr ago",
       "cat": "Culture",
       "hot": true,
       "ts": 1780983000
     },
     {
-      "title": "Niall Horan’s ‘Dinner Party’ to Take Over UMusic Shop NY to Celebrate Release - Billboard",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNYlFrRzRzRjl5WUI5WWkwWXlhS1RKeWVFQ3lTUlFWeHBtSUQxZkU0c1RnSFVxODh1SUpCeVpQWWdncTZSc3NndlFFWHNlcWJ1eVo2ampTVGFLdXhuajBsdVpKWElLcVhCWEFXcUdaU2dBZHJPQXcwNDV6SzFCUGxtV1V0REZlUWhuNUNZU1Q3ZC1uQURySy1PaFlR?oc=5",
-      "src": "Billboard",
-      "time": "3 hr ago",
-      "cat": "Culture",
-      "hot": true,
-      "ts": 1780981923
-    },
-    {
-      "title": "Mix Of The Day: Maher Daniel · News ⟋ RA - Resident Advisor",
-      "link": "https://news.google.com/rss/articles/CBMiPEFVX3lxTE5KeDNZZGNuRUVDclBBRjdGRFVrdk5Zb3lHSU0tZTBGMk90QmJ4eDJZc19JUjYxMlQ3ZFU5cg?oc=5",
-      "src": "Resident Advisor",
-      "time": "3 hr ago",
-      "cat": "Culture",
-      "hot": true,
-      "ts": 1780981613
-    },
-    {
-      "title": "High-Profile Drug Busts at IGI Airport and Pune Rave Party - Devdiscourse",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPbk05TlFycXVOTDl1c3NNQmo5eWNLbTRwdC1qT044VVBUQnZveklxU1VYYVNxdUNXdjNqanhBTGJ2QmNMRjBpdGU3VU9pdGR6ZXVQNnl1ZHBwNkVGV3dzZWNhdmV2YWtpZGhMS1F0THZfc1VaNzVsWHhkMTMxV2h2M2xNMzlQRHROQU1vWFlRQU1zZHcxTjBBel85dkFsajkzSkVJengtb3l3a1VFaHo3QURqb9IBuAFBVV95cUxNNHJaYThoMHJsNlZUNk13engzQnRIcU93VDRhRmswaURDVVFGaC1KaDQ1b0h3N1JqMUlrVC12OF9RUnV6RTdYSFJjcm9tbTZJVG1PYVRvak1UZkFEMUpaUEpRcHZkeDZQT3JqdVIzZ1pCQzBpTlBlUERMNWxmM1dPZEh1ZVBfUUlfVVJUYmpBdHMySDNzczA0TkM1TV9LdTQxYS1WbW1saDE5MEVkMFRadE1zM3VzNktG?oc=5",
-      "src": "Devdiscourse",
-      "time": "4 hr ago",
-      "cat": "Nightlife",
-      "hot": true,
-      "ts": 1780979710
-    },
-    {
-      "title": "Hina Khan urges fans to choose kindness amid social media spat with Shilpa Shinde - Mid-day",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNaVlLS3Vqbll1MHZWRmRUcHFWZHdsa0FxNk94NkVCMjhjVUlodXo5OHFHa1hGS3VJb01GN19heVV3QTRoc1p3UWpBWVVOUGsydWZxZWtBcTdySjlXY29hRDhoT1FPT0t5SnFuc0FFTVlKUGl5UVM0NFdzS0haa3VqZVA5c1hYWHdNRU5OT3JFek81TXUwR2FWeVU4RC1JdkFvZHBzOXhJTHJYU3dURmxHVS1ZUGEzR0c3b09KTXU0Unk4WU1QdUN5YdIByAFBVV95cUxNaVlLS3Vqbll1MHZWRmRUcHFWZHdsa0FxNk94NkVCMjhjVUlodXo5OHFHa1hGS3VJb01GN19heVV3QTRoc1p3UWpBWVVOUGsydWZxZWtBcTdySjlXY29hRDhoT1FPT0t5SnFuc0FFTVlKUGl5UVM0NFdzS0haa3VqZVA5c1hYWHdNRU5OT3JFek81TXUwR2FWeVU4RC1JdkFvZHBzOXhJTHJYU3dURmxHVS1ZUGEzR0c3b09KTXU0Unk4WU1QdUN5YQ?oc=5",
-      "src": "Mid-day",
-      "time": "4 hr ago",
-      "cat": "Culture",
-      "hot": true,
-      "ts": 1780978920
-    },
-    {
-      "title": "B0YG1RL / Novagang: EXIT 2B Album Review - Pitchfork",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5MQXdWT0E1TnVzd3Bob3RnczJoRkJ1cW5ZbVZydF9tZzgyMGhfV0R5ZFFMNzFLSzdUd2ZSLWd1R1d1WTl3Q1phQmZTN29tenBXT0VySnJERDd2WEF6Sk9iRHNmNllFSnp1VGxiUVQ5bw?oc=5",
-      "src": "Pitchfork",
-      "time": "4 hr ago",
-      "cat": "Culture",
-      "hot": true,
-      "ts": 1780977780
-    },
-    {
-      "title": "Neil Young and the Chrome Hearts Are Returning to the Stage at Farm Aid in Virginia Beach - Rolling Stone",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNN2NHYWpvRmZnWUM1aGgwLUpjVm1NS0k3eE1ZTE1BTjVocDhtRDRXMmVhcmlaandOXzBtdnNQMlV6ZndIUmUwM0FaQ3ZSSlI1eEZVenZ6S1VycENOaUNUN2Fadl9CdURlWmU0a01iMWlyYmZuOEFIWUxhRHlCckJ6VHFad1BQdDk5VkhxVHl6aUNqTWxSVGZyYXZNQXVJREhrdkRLVw?oc=5",
-      "src": "Rolling Stone",
-      "time": "4 hr ago",
-      "cat": "Culture",
-      "hot": true,
-      "ts": 1780977770
-    },
-    {
-      "title": "Of Montreal: Aethermead Album Review - Pitchfork",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE85ODBraHJ5VnU5T0YwUTlXaDFnRGhOLXJ6UmxSay1BS08tejNWZExhN2RSc0o5LUNTWTlPa043d2ItVWpFZjEyVVp5UXRGWk1mdmJyR3BtQlY0b2o5QnpnRDhpVTdIcnVyaUx3NA?oc=5",
-      "src": "Pitchfork",
-      "time": "4 hr ago",
-      "cat": "Culture",
-      "hot": true,
-      "ts": 1780977720
-    },
-    {
-      "title": "Willie Nelson’s Farm Aid 2026 Headed to Virginia Beach for First Time: Here’s the Date & Lineup - Billboard",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNLU52OVRzenEtaUlHcnExTW1xdW4wLXVHcTA4MmpWQlpPWlF6QllEUThJR2VhOFE5dTlpMzRlUkE4VWJoaUpZTDU2ajRkS1JIS25oYmdnMzhvbDZ2cjJiUUhYN0dOMmhjTEpjODJZR0pucnN2a180RnpQcmtJLTFzZG92MkJOeU9RNHhEM2VJSllZellHREM2MDRBLTQyVVV5RnFSS0tR?oc=5",
-      "src": "Billboard",
-      "time": "4 hr ago",
-      "cat": "Festival",
-      "hot": true,
-      "ts": 1780977705
-    },
-    {
-      "title": "Vanessa Rossetto: The Professional Album Review - Pitchfork",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5uelhra0pFdk9FNUtJb1hDNmpZMmplek16aWkyZnVZNUs4SXN6Y3picE5oYkswUjFmMFE3cnd4T3V1bzdoZzFmYUREcUNsZ2xIZ3l4UXdlX0laZ0FCblBhS2FUMnpsemlyUWR5TzE5YTNXTHJrX1RLRzh4MA?oc=5",
-      "src": "Pitchfork",
-      "time": "4 hr ago",
-      "cat": "Culture",
-      "hot": true,
-      "ts": 1780977660
-    },
-    {
-      "title": "New art and nature exhibition coming to Glastonbury Festival site - Yahoo News UK",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQeXpSdkN6cndwaFVjNHI3TlNQbkFyUU9qaFY5b0c5c3VpYXNseFJxclpIRklCXzJHbTA2RllBZWZIdDRlYUFLWm5nb1VhVklaYjZWZ09NTkN6Y29GblhNWTcwR094WGRfelBaaE5yVWNuVHN0bHZERmtQc01yUWt4VTFwVF9jb1Rp?oc=5",
-      "src": "Yahoo News UK",
-      "time": "4 hr ago",
-      "cat": "Festival",
-      "hot": true,
-      "ts": 1780977600
-    },
-    {
-      "title": "Major upcoming music event at Glastonbury Abbey announces lineup - Yahoo News UK",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxObFFaTThCNmdrVXBsemdkZDNWSEdOdFdJUEFaZFk4LWdrRU5XRFR0REx1Mm51XzR1TnBjQng3NHdvdWZtS1pnUXFWQWZNOW9ZTTJLaXZMQkZTZmZzRlBNTk5tZXZTY1BJVU5rZl9MS0NHdUJ1b0ZPZ1NKejI1N3lMQzVtXzB2QQ?oc=5",
-      "src": "Yahoo News UK",
-      "time": "4 hr ago",
-      "cat": "Festival",
-      "hot": true,
-      "ts": 1780977600
-    },
-    {
-      "title": "Zoh Amba: Eyes Full Album Review - Pitchfork",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9vMUR2Q2pFdERxRUkyRmd5UGVwWEJacjZvQjR4YlNTYzBoaFNWSFVhcl9pNG52NDdtNy05aVhWVmxvb1hSekVRbUF5dkRjajJqUjFnZktKaFJydUlwRkxEN0JKMHhWWjA?oc=5",
-      "src": "Pitchfork",
-      "time": "4 hr ago",
-      "cat": "Culture",
-      "hot": true,
-      "ts": 1780977600
-    },
-    {
-      "title": "Olivia Rodrigo recalls attending rave with ‘ultimate party girl’ Charli xcx - Irvine Times",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQejNaWVZvS3dRYlFzeWJqLVZfYkdNeUtOb293Sm8wal92VjJKUE1XbHptYWp5b1NPZXJKdFd4ODMzZzFmWjhKMXBsOTIzR192Q2FRYkczWFZwZndFR3pRMUdidVBzSlJLMjdyclFMM0ptcFU0SHE2OW1jVEV4TENkdXJSa0w2aUJFZzFhLTFPVlRqb0htdnAwaDBwUUg4WnhDek1OaF9nd3BBcEV3NEsyZWgxYy1zcXVXbUZTR1BWR3c?oc=5",
-      "src": "Irvine Times",
-      "time": "5 hr ago",
-      "cat": "Nightlife",
-      "hot": true,
-      "ts": 1780975704
-    },
-    {
-      "title": "Cardi B Brings ‘Bodega Baddie’ & ‘Bodak Yellow’ to Fiery NBA Finals Game 3 Halftime Show - Billboard",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOVldrbm0yTW1SUU00VGpKYzRVdlpncjVlSUlCSFY0M0ZGZkF3OElELTZyekhKSk5YNVRzamVWenJTT0R1OEhLcWJNeUZDRXFWOG1QRlEzOVZXdkV0WkhuMnozeXJaYjN3R1ViaTQyZkNodnBsd3BuU1pVb040dlFONmxWSldXbVJ0THZDYm5jcEFDdU5LZVNQSW9kOFdnWkVyRHc?oc=5",
-      "src": "Billboard",
-      "time": "5 hr ago",
-      "cat": "Culture",
-      "hot": true,
-      "ts": 1780974123
-    },
-    {
-      "title": "Coachella outfit showdown: Stylish vs. over-the-top DIY looks - MSN",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQTlVKSjlYSWU5YW9jMV95WXVURTE3VWpMcFBxMjRWeW1zNkJYeW5XWk1aUGZpZEt6Q20zb2Fud2lWNEVkWEZCTWtZYUxKMjdBTjd3bUltaXFsaVI3SzRXLU1PUC1wRVd0V3c4dTdVS2duckV4UnQ2bnUxOE54QjlUU0d5Wm53TUZQTi1XZDA5OWdES2ZEaVNfYzkycERpZ2d0d2FGTU1lM1NCUHUxWEpxcUVFcVNEV1R3SVJWSFVlTVpJQUhuWnJn?oc=5",
-      "src": "MSN",
-      "time": "6 hr ago",
-      "cat": "Festival",
-      "hot": true,
-      "ts": 1780973905
-    },
-    {
-      "title": "Banda El Recodo to Light Up FIFA Fan Fest at Mexico City’s Zócalo After Opening of 2026 World Cup - Billboard",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNRDhsd19Yb2R2NFJNYUhrRWZrTWhzbC1OWEJDcnhrQUdsN1U4WWotRGpCbE1NYk5nTWFOX20zUUh6RUhEU1o4U3QyUHZHeDlJUHJTMF9qS2xVRkM1V3BCeDhjTDdDUHpaSU9ENDVvR3R2Q09tZ241aldDRkdLZ0lldnBJMFY5dVBVQXVDblUwR3RUbnlndUVaLUtVbDNtY3BPc2hCMld3?oc=5",
-      "src": "Billboard",
-      "time": "7 hr ago",
-      "cat": "Culture",
-      "hot": true,
-      "ts": 1780969923
-    },
-    {
-      "title": "Palm Springs and Coachella City Councils Prepare for Critical Votes on Infrastructure and Leadership - NBC Palm Springs",
-      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOLUZ6UWRXRGh5cnV2MkV5VTBqLW1nSV9zbjFyMVFEcEFHOTBXMF9NdF9lakVTSDZnRVpoWVlsSzVLQU9EZ2VpUEtsVDdsWWE3RnN3SllGMUNEUnhsT0RRRE5tTlBONGVsRU9FQzVMSjBabkhISTd6QU5Yc1ZBazZ2aGhhanpIeUoxa1B3QmZQRGFVU3lLMnp4V3RaUGx2ellMY0hEMG9fQ1U4OGpydVFhcm8yRkJNLVMycmFZOUVCcUpGOUdfZ2hjSkM5V2JEZzczS2RMbjVaNTJ6dw?oc=5",
-      "src": "NBC Palm Springs",
-      "time": "7 hr ago",
-      "cat": "Festival",
-      "hot": true,
-      "ts": 1780969800
-    },
-    {
-      "title": "Ecotat Gardens Outdoor Concert - newscentermaine.com",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQWjhqM0V2c0VyMUdVX1RhUWRidXVHUXQ4cWRjd1ZZSmI0WGhLR2dfY20taDJDNWNpbDZwbWJWdlNCenI4dGtuUDF5Tm1KLU54aXRTQ1YwZXJqRVh6RldZM2Q1MWRSaXRkQVNTMlpxdzdyQ056Yjl5LVNnYy14QTVadkI0cUo2WVBHbjNobi1xY2lMSmtRM0pmTFY3bEF6cGhSWmFjb3dtRUhkYVM3eFFN?oc=5",
-      "src": "newscentermaine.com",
-      "time": "7 hr ago",
-      "cat": "Concert",
-      "hot": true,
-      "ts": 1780967084
-    },
-    {
-      "title": "Tomorrowland Winter returns to Alpe d’Huez from March 20-27, 2027 - Snow Industry News",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQeXhFb3M3ckRteFFwN2tuYV9jRnZLYkdhcWpTQVNjc3MxeEFlOEtwYWpTUlNOZ3F0OFNESndNZkJxY1dhclZjdXhQYnR1M3M5Sm1tMWhMa0tuY0p3THlmMHFkNmZaUUxCQ1lYRENIdTc1NnBhUm1vbWZiaGJJRXdISDRLYmk4bG9aS19CRGxFMWpaMjlaelpNQi1faHdKRmJPVkgzSkVjOUFQNVFSaWZuT0pfelQ1eGs1cWEyak1n?oc=5",
-      "src": "Snow Industry News",
-      "time": "7 hr ago",
-      "cat": "Festival",
-      "hot": true,
-      "ts": 1780966871
-    },
-    {
-      "title": "Ryo Miyaichi & Sota Nakajima Talk Soccer, Music and Playing to the Crowd - Billboard",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNZnpQSURoODY2OFppWFBTS0t6RGFzVDRTVG1XVnJGcHY2eUFvbHNwcUxyMjBuMTJDX3FXUlRUU2R4dU9SOGxld2NrV0RrVHBldHpWeGpHRkJhLWMtVVhWOXI3WGhJLTFka2RwQ1FCWE9mbV9pNm81b3hJdGI2UnlwZGh1WWJwSXJISjNJd2prcmM1NkI2MmJHaDI2dEJpMGNNSkE?oc=5",
-      "src": "Billboard",
-      "time": "7 hr ago",
-      "cat": "Culture",
-      "hot": true,
-      "ts": 1780966844
-    },
-    {
-      "title": "Sandbox Festival launches as Australia’s hardest new multi-city rave - Beat Magazine",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPVWxmZ0twdWQ5a1N6RXEtbWI0Z3habTlmbUR3UVhoRHlPVEUwVTRUSENZNEhIcUE1T1ZUeFNaVldQY1RMNHJDUFdaMy1Ba2E0MHJTR1VfR00xb1cwNTByejZiNnFsMUtfOUh3bUJCeDQxRVZoM2xCMUFXemZ1S2g1QzFlUjczZmxfMFlfdUVzNGpuUQ?oc=5",
-      "src": "Beat Magazine",
-      "time": "8 hr ago",
-      "cat": "Festival",
-      "hot": true,
-      "ts": 1780964943
-    },
-    {
-      "title": "LenoxLovesMusic! Outdoor Concert Series Returns to Lenox Historic Village - The Berkshire Edge",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPVXhIR193OU1odE9PblgxVWZ5Vll2bDd0Y3lqRWpRUkJsbk9VdjkwN1pQSkZpdDJYc2hwWHFLTksyZk9hZE1GOHdLUXRka1lSOS1SMnlWa3RIUTBqVXNSN3JzWXczOWE4ZGVNMmtub0ctS0ExZ2ZwQ000SDFoV3lPQ0tLR3E2WThuUjA2OUtCQjcxaXdiZFhpbGM4LWxDOEVCNUhidm4wY19yT3YtQS1Vamk0Q2xZclJKYTBN?oc=5",
-      "src": "The Berkshire Edge",
-      "time": "8 hr ago",
-      "cat": "Concert",
-      "hot": true,
-      "ts": 1780964417
-    },
-    {
-      "title": "Ye Releases Milky ‘GEMINI SEASON’ Video Starring His Wife Bianca Censori & Reveals ‘BULLY’ Deluxe Release Date - Billboard",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQb1ZGWFVkQkw4bmdTSXJCQWJjc21wVERWUnZXY21vNW40UmZBQWFFQTREcnlhXzRRM1YxTGwwWUF6emF2emN6RTRVYUpEY3k4cWlvd0xrYS1RU3h1WFotb1Blc3dteVo5LXkwZC1qWHZVbm01aE5jWmlnNExXNGZJdjRKbDVUd29lT0g5dVJ0YkJUNUJtQzlYR2VDSi1rcUhp?oc=5",
-      "src": "Billboard",
-      "time": "8 hr ago",
-      "cat": "Culture",
-      "hot": true,
-      "ts": 1780963923
-    },
-    {
-      "title": "Madonna’s ‘CONFESSIONS II – The Film’ Shows Her Living a Fever-Like Dream at the Club: Watch It Now - Billboard",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNWUZvMzJtNy1HTk1MUFBodERqNFZtSXNzT0ZQanYtRlF3VXdJR1Y2blNYRXBQczB6Wk1YLXFhTGZxb3JaUG9NUUFjMHNqS3pjQl9KUlZ0MGphUDBwYTF4VWlPeHpLYkc3SDZQWHNYRFZJdG1VX3hJU01IRHlJLXpNZmVGb290TDFadkU5X25nZUNBMDh5ZU1N?oc=5",
-      "src": "Billboard",
-      "time": "8 hr ago",
-      "cat": "Culture",
-      "hot": true,
-      "ts": 1780963152
-    },
-    {
-      "title": "“Better Than Halloween!”: The Most Cringeworthy Outfits From Coachella Weekend 2 - AOL.com",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNUFdRTXhjR1dOVWt0OThlYmFsMlRBenY1TmZtTUVXbHFncHZrOVZyckVNNmdNRGREdmEyNnhfbUtIUHZMV3kxZ3RiVks3Nk43Z3RqdkxhT2cyN1gzb1ZkUGFzREd4Z0l4NnhtbVZrU3djMG1WUmRUamRMdWluTVNQMg?oc=5",
-      "src": "AOL.com",
+      "title": "Slayyyter is the summer's unexpected music festival headliner - RUSSH",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5sQlA1a29IYWtPYTFONUF3X1pCWUg3RW1iZm9DZzVpcDhaV0trSXNuSTBGSDhuQmQ3Z1AwcTY4QXkzeF9YQlIxVXY1dEdlY3RQ?oc=5",
+      "src": "RUSSH",
       "time": "9 hr ago",
       "cat": "Festival",
       "hot": true,
-      "ts": 1780961191
-    },
-    {
-      "title": "Nashville Pride announces festival lineup, monthlong events - News Channel 5 Nashville",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOTVJad0RkTjlRLVltYnhEcWpQZmVYTGNZVmdZWmdIRFVUeDE1NXVMM2R4enFlZlA5R1FCdWVUc1lHSzhoQzRvdUZqQ1pZY2MwUlVHcXFzUDFFMkZ2QVdvYlZYYzRtUlh1TlZPamVjSWhsVWs3UzNKVWtiZGRubGZFSEI4S2R0aXhOcXQ1eFhQRV9wSm5jOEVZTjE5YV9FdS1seTFwdGdOZlBsaVNMUU1SZDRpREVsVU1qNFRLVzM4WnNldw?oc=5",
-      "src": "News Channel 5 Nashville",
-      "time": "9 hr ago",
-      "cat": "Festival",
-      "hot": true,
-      "ts": 1780960765
-    },
-    {
-      "title": "‘The Vampire Lestat’ Takes Over the Las Vegas Sphere in One of TV’s Most Audacious Marketing Moments - IMDb",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1oMEpiT0Q1ZVNqenUtaWZvWjdKLWhjcVZRRUxhVzM4RUV5R1REdmFXSG9SRU1USjgzMkVTLXNtNUZaa3ZSNjFlRnRkY0h6UkJEb0NPS2NqX1Nkcll0V2RhdEhOTmhQMzg?oc=5",
-      "src": "IMDb",
-      "time": "9 hr ago",
-      "cat": "Culture",
-      "hot": true,
-      "ts": 1780960144
-    },
-    {
-      "title": "Cardi B to Perform Halftime Show for Game 3 of NBA Finals Between New York Knicks & San Antonio Spurs - Billboard",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQSjNVNk5lSGtIYkNpMU01Si15QllSTTdfX2x5QzBoRUNpMzRUWWFXY0RpeEhpSW92VVIyS3ZVQnByaE5HcmtRdTI4NEJYbGlQNTF1akdVZTJEY1lESldCc1Y1Wk1qMnZPb09HVjJCUWtKamVYUkx4ZWFKMXpRaWozZG4tQzR2LU5VM1F5WTRxZ1VzNUdpZnE4M0JHTE9kanY2V3g5ek55WQ?oc=5",
-      "src": "Billboard",
-      "time": "9 hr ago",
-      "cat": "Culture",
-      "hot": true,
-      "ts": 1780960029
-    },
-    {
-      "title": "Billboard Hot 100 Top 10 Countdown For June 13th, 2026 - Billboard",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNRktldHI0STlOcnluZk9SWXVvVG9mbzAzdElqZlpmdjdZOVNQbktzSldsT3M4bjFyOFMzd1pwZHIyNDhPN2xyNk9KT0U1dE5LY3o5Z19JUk01MlZEYkktSHhaNXB2dmJpWExCTHhEdDctemF3eWV4dExaQWEtMjIyVWc0dUV5djlYek14em1Zbw?oc=5",
-      "src": "Billboard",
-      "time": "10 hr ago",
-      "cat": "Culture",
-      "hot": true,
-      "ts": 1780959362
-    },
-    {
-      "title": "Burning Man Reveals 75 Art Installations for 2026, Ticket Registration Opens April 20 - TicketNews",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFA4QjBmRGNvNzZLdWh5RngydWJ1aUNFdTJibTZfRmJ2clFaVjhvUHZXaHI2WFRwMDB6WGJ2T1BSLXBzTGxrRURQU2dfYkNVZUFWUlQ0WklVN29YcXhoU1VJeF9rQ2FMMS1BbFotMHQyNXA3WmZjaFRwTno0ZkFTQQ?oc=5",
-      "src": "TicketNews",
-      "time": "10 hr ago",
-      "cat": "Festival",
-      "hot": true,
-      "ts": 1780959086
+      "ts": 1780982259
     }
   ]
 }
