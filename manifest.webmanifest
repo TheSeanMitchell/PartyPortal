@@ -1,0 +1,36 @@
+{
+  "name": "Party Portal — Live Festival Streams & Culture",
+  "short_name": "Party Portal",
+  "description": "Your one-stop party destination: live festival cams, DJ sets, nightlife streams and real party-culture news.",
+  "id": "/PartyPortal/",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#030009",
+  "theme_color": "#030009",
+  "categories": ["entertainment", "music", "lifestyle"],
+  "lang": "en-US",
+  "dir": "ltr",
+  "icons": [
+    { "src": "favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    {
+      "name": "Party Mode",
+      "short_name": "Party Mode",
+      "description": "Open the full-screen video wall",
+      "url": "./index.html?mode=party"
+    },
+    {
+      "name": "Culture News",
+      "short_name": "News",
+      "description": "Jump to the latest party-culture headlines",
+      "url": "./index.html#culture"
+    }
+  ]
+}

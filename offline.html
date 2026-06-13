@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Offline — Party Portal</title>
+<meta name="theme-color" content="#030009">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow+Condensed:wght@400;600;700&family=Space+Mono&display=swap" rel="stylesheet">
+<style>
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:#030009;color:#F0E8FF;font-family:'Barlow Condensed','Arial Narrow',sans-serif;min-height:100vh;display:flex;align-items:center;justify-content:center;text-align:center;padding:24px;
+    background-image:radial-gradient(ellipse 80% 60% at 50% 0%,rgba(144,32,220,.18),transparent 60%)}
+  .wrap{max-width:440px}
+  img{width:72px;height:72px;filter:drop-shadow(0 0 12px rgba(214,25,112,.55));margin-bottom:18px}
+  h1{font-family:'Bebas Neue',sans-serif;font-size:2.4em;letter-spacing:.14em;line-height:1;margin-bottom:10px;
+    background:linear-gradient(100deg,#FF3D90,#BB4FFF 50%,#00E5FF);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+  p{color:#9080A8;letter-spacing:.04em;line-height:1.6;margin-bottom:22px}
+  a{display:inline-block;background:linear-gradient(135deg,#D61970,#9020DC);color:#fff;text-decoration:none;
+    font-family:'Bebas Neue',sans-serif;font-size:1.15em;letter-spacing:.1em;padding:10px 28px;border-radius:6px;box-shadow:0 0 18px rgba(214,25,112,.4)}
+  .mono{font-family:'Space Mono',monospace;font-size:.78em;color:rgba(0,229,255,.55);margin-top:18px;letter-spacing:.06em}
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <img src="favicon.svg" alt="Party Portal">
+    <h1>The Party's Offline</h1>
+    <p>You're not connected to the internet right now, so the live streams and culture feed can't load. Reconnect and the party picks right back up.</p>
+    <a href="index.html">Try again</a>
+    <div class="mono">PARTY PORTAL &bull; LAS VEGAS</div>
+  </div>
+  <script>
+    window.addEventListener('online', function(){ location.replace('index.html'); });
+  </script>
+</body>
+</html>

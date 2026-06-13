@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="wm" x1="270" y1="240" x2="1000" y2="330" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FF3D90"/>
+      <stop offset="0.48" stop-color="#BB4FFF"/>
+      <stop offset="1" stop-color="#00E5FF"/>
+    </linearGradient>
+    <linearGradient id="ring" x1="92" y1="250" x2="208" y2="360" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FF3D90"/>
+      <stop offset="0.5" stop-color="#BB4FFF"/>
+      <stop offset="1" stop-color="#00E5FF"/>
+    </linearGradient>
+    <radialGradient id="bg" cx="600" cy="120" r="760" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#14001F"/>
+      <stop offset="0.6" stop-color="#07000F"/>
+      <stop offset="1" stop-color="#030009"/>
+    </radialGradient>
+    <radialGradient id="glowP" cx="120" cy="540" r="420" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#D61970" stop-opacity="0.30"/>
+      <stop offset="1" stop-color="#D61970" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowC" cx="1080" cy="90" r="420" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#00E5FF" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#00E5FF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#glowP)"/>
+  <rect width="1200" height="630" fill="url(#glowC)"/>
+
+  <g transform="translate(150,300)">
+    <circle r="58" fill="#0B0018"/>
+    <circle r="58" fill="none" stroke="url(#ring)" stroke-width="14"/>
+    <circle r="37" fill="none" stroke="url(#ring)" stroke-width="3" opacity="0.5"/>
+    <path d="M-14 -27 L33 0 L-14 27 Z" fill="#FFFFFF"/>
+  </g>
+
+  <text x="248" y="312" font-family="'Bebas Neue','Arial Narrow',sans-serif" font-size="92" letter-spacing="8" fill="url(#wm)">PARTY PORTAL</text>
+  <text x="250" y="362" font-family="'Barlow Condensed','Arial Narrow',sans-serif" font-size="30" letter-spacing="7" fill="#9080A8">YOUR ONE-STOP PARTY DESTINATION</text>
+
+  <g font-family="'Barlow Condensed','Arial Narrow',sans-serif" font-size="26" font-weight="700" letter-spacing="3">
+    <rect x="250" y="402" width="556" height="48" rx="24" fill="#D61970" fill-opacity="0.13" stroke="#D61970" stroke-opacity="0.5"/>
+    <circle cx="280" cy="426" r="6" fill="#FF3D90"/>
+    <text x="300" y="435" fill="#F0E8FF">LIVE FESTIVAL STREAMS  <tspan fill="#00E5FF">&#8226;  49+ CHANNELS</tspan></text>
+  </g>
+
+  <text x="150" y="556" font-family="'Barlow Condensed','Arial Narrow',sans-serif" font-size="23" letter-spacing="6" fill="#6b5a84">LIVE CAMS &#8226; FESTIVALS &#8226; NIGHTLIFE &#8226; CULTURE</text>
+</svg>

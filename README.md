@@ -1,175 +1,104 @@
 # 🎉 Party Portal
 
-**Your One-Stop Party Destination** — live festival streams, party cams, nightlife feeds, and culture news.
+**Your One-Stop Party Destination** — live festival streams, party cams, nightlife feeds, and real party-culture news.
 
 > Live at: `https://theseamitchell.github.io/PartyPortal`
 
----
-
-## What It Is
-
-Party Portal is a real-time party culture hub built as a static GitHub Pages site, powered by a Python content bot that refreshes the culture feed three times daily via GitHub Actions.
-
-### Core Features
-
-- **25 live video channels** — EDM festivals, live cams, DJ sets, and nightlife streams
-- **Randomized grid** — 10 channels are randomly selected from the pool on every page load; click **SHUFFLE** to get a new selection
-- **Party Mode** — fullscreen 5×5 video wall showing all 25 channels simultaneously (identical algorithm to NUZU Waiting Room)
-- **Culture ticker** — scrolling live bar at the bottom with the latest party/festival/nightlife headlines
-- **Culture feed** — two-column breaking + latest news section, refreshed 3× daily by the bot
+A fast, single-page, static site (no framework, no server). See **[CHANGELOG.md](CHANGELOG.md)** for the full v2.0 upgrade notes.
 
 ---
 
-## Video Channel Pool (25 channels)
+## Features
 
-### 🎪 Festivals
-| Channel | Category |
-|---|---|
-| ⚡ Electric Daisy Carnival, Las Vegas | Festival |
-| 🌴 Coachella, California | Festival |
-| 🌺 Coachella DJ Sets | Festival |
-| 🎧 Ultra Music Fest | Festival |
-| 🌍 Tomorrowland | Festival |
-| ❄️ Tomorrowland Winter | Festival |
-| 🇧🇷 Tomorrowland Brasil | Festival |
-| 🎸 Glastonbury Classics | Festival |
-| 🎨 Creamfields | Festival |
-| 🌲 Lost Lands | Festival |
-| 🔊 Awakenings | Festival |
-| 🌙 Lucidity | Festival |
-| 🎵 Day Trip | Festival |
-
-### 🎛️ Artists / Live Sets
-| Channel | Category |
-|---|---|
-| 💡 Pretty Lights Live | Artist |
-| 🔥 Astrix Live | Artist |
-| 🎼 Classmatic Live | Artist |
-| 🎶 Unity Live | Artist |
-
-### 🏖️ Clubs & Nightlife
-| Channel | Category |
-|---|---|
-| 🏖️ Ushuaïa Ibiza | Club |
-
-### 📻 Radio / Continuous
-| Channel | Category |
-|---|---|
-| 🎛️ General EDM Station | Radio |
-| 🎛️ General EDM Station 2 | Radio |
-
-### 📡 Live Cams
-| Channel | Category |
-|---|---|
-| 🎷 Bourbon Street, New Orleans, LA | Live Cam |
-| ✨ The Bellagio, Las Vegas, NV | Live Cam |
-| 🍺 Dublin, Ireland | Live Cam |
-| 🗽 Times Square Crossroads, NYC | Live Cam |
-| 🌅 Hogs Breath, Key West, FL | Live Cam |
+- **49+ live channels** — EDM festivals, DJ sets, retro MTV, rock blocks, and 24/7 city cams.
+- **Stations & filters** — tune the wall by category (Festivals, Clubs, Retro, Live Cams, …) or fire a curated mix: **🔥 Peak Hours** and **📼 Throwback**. Each chip shows a live count.
+- **Favorites** — ⭐ any channel; saved on your device, filterable, one tap away.
+- **Channel search** — type to find a channel by name.
+- **Per-tile controls** (desktop) — unmute (auto-mutes the rest), fullscreen, favorite. Click a tile to unmute.
+- **Party Mode** — full-screen 12-channel video wall (desktop).
+- **Mobile player** — one channel at a time: **Prev / Shuffle Next**, swipe to change, tap to unmute, optional auto-advance. *(No Party Mode on mobile.)*
+- **Festival countdowns** — live timers + ticket links to the next confirmed 2026 festivals.
+- **Culture feed** — **real** headlines from the music & nightlife press, refreshed 3×/day.
+- **Installable PWA** + offline support, keyboard shortcuts (`?` for the list), social share card.
 
 ---
 
-## How It Works
+## How the news works (real data only)
 
-### Static Site (GitHub Pages)
-`index.html` is a single-file app — no build step, no framework, no server. It serves directly from GitHub Pages.
+The culture feed is **100% real**. `bot.py` gathers headlines from trusted publications
+(Mixmag, DJ Mag, Resident Advisor, EDM.com, Dancing Astronaut, Billboard, Rolling Stone,
+Pitchfork, NME, …) via public Google News feeds, then:
 
-### Content Bot (`bot.py`)
-The bot runs on GitHub Actions 3× daily:
-1. Fetches RSS from 30 Google News search feeds focused on party/festival/nightlife/EDM topics
-2. Filters by 200+ party-culture keywords
-3. Blocklists negative/off-topic content
-4. Deduplicates by normalized title hash
-5. Injects `window._ppCultureItems` JSON directly into `index.html`
-6. Commits the updated file back to the repo
-7. GitHub Pages serves the fresh file within ~30 seconds
+1. uses `site:` queries to pull straight from those domains,
+2. strips the trailing " - Source" from each title,
+3. drops junk/spam (tracking-code titles, daily-digest pages, mashups),
+4. filters out off-topic and negative content (specialist EDM sources pass on-topic; broad
+   outlets must match a party keyword),
+5. tags a source-trust tier (green/amber/grey dot), de-duplicates, and
+6. writes `feed.json` only.
 
-### Party Mode (Waiting Room Architecture)
-Party Mode uses the exact same algorithm as NUZU's Waiting Room:
-- `packWRGrid()` — scores every possible cols×rows layout by fill-ratio vs. overscan penalty
-- `_overscan()` — applies `transform: scale()` to each iframe so YouTube's 16:9 letterboxing pushes off-screen
-- Two-rAF flush cycle ensures grid is painted before measuring cells
-- ESC handling distinguishes between exiting a fullscreen YouTube video vs. closing Party Mode
-- Main grid iframes are blanked when Party Mode opens, restored 300ms after close
+If nothing real passes the filters, `feed.json` is left untouched — the site **never** shows
+invented headlines. The page links every headline to its original publisher.
+
+The bot runs on GitHub Actions at **06:00, 12:00, 18:00 UTC** (and on manual dispatch). Run it
+locally with `python bot.py` (Python 3.8+, standard library only).
 
 ---
 
-## Setup
+## Keyboard shortcuts
 
-### GitHub Pages
-1. Push this repo to `TheSeanMitchell/PartyPortal`
-2. Go to Settings → Pages → Source: **GitHub Actions** (or Branch: `main`, root `/`)
-3. The site will be live at `https://theseamitchell.github.io/PartyPortal`
-
-### Running the Bot Manually
-```bash
-python bot.py
-```
-Requires Python 3.8+ and only standard library modules (no pip installs needed).
-
-### Bot Schedule
-The bot runs automatically via GitHub Actions at:
-- **06:00 UTC** (morning refresh)
-- **12:00 UTC** (midday refresh)
-- **18:00 UTC** (evening refresh)
-
-You can also trigger it manually from the **Actions** tab → **Daily Culture Feed Refresh** → **Run workflow**.
+| Key | Action |
+|---|---|
+| `S` | Shuffle channels |
+| `P` | Party Mode (desktop) |
+| `F` | Show only favorites |
+| `/` | Search channels |
+| `?` | Help / shortcuts |
+| `Esc` | Close / exit |
 
 ---
 
-## Adding New Videos
+## Adding a channel
 
-Add entries to the `PP_ALL_FEEDS` array in `index.html`:
+Add an entry to `PP_ALL_FEEDS` in `index.html`:
 
 ```javascript
 {
-  id:    'myfest',                   // unique slug
-  label: '🎪 My Festival Name',      // displayed on the tile
-  cat:   'FESTIVAL',                 // badge: FESTIVAL | CLUB | ARTIST | RADIO | LIVE CAM
-  emoji: '🎪',
-  src:   'https://www.youtube.com/embed/VIDEO_ID?autoplay=1&mute=1&controls=1&modestbranding=1&rel=0&iv_load_policy=3&playsinline=1',
-  wrsrc: 'https://www.youtube.com/embed/VIDEO_ID?autoplay=1&mute=1&controls=1&modestbranding=1&rel=0&playsinline=1&enablejsapi=1'
+  id:    'myfest',                 // unique slug
+  cat:   'FESTIVAL',               // FESTIVAL | CLUB | ARTIST | ROCK | RETRO | CONCERT | RADIO | FASHION | LIVE CAM
+  maxIdx: 1,                       // playlist length (1 for a single video)
+  label: '🎪 My Festival Name',
+  embed: 'https://www.youtube.com/embed/VIDEO_ID',   // or videoseries?list=PLAYLIST_ID
+  url:   'https://official-site.com'                 // optional: shown as "Official site / Tickets"
 }
 ```
 
-For playlists, use `videoseries?list=PLAYLIST_ID` as the embed path.
-For videos that are also part of a playlist, use `VIDEO_ID?list=PLAYLIST_ID`.
+New categories automatically get their own filter chip.
 
 ---
 
-## Adding Bot Keywords
+## Adding a news source or keyword
 
-In `bot.py`, add entries to `RAW_KEYWORDS`:
+In `bot.py`, add to `RAW_KEYWORDS` and/or `CULTURE_SOURCES`:
+
 ```python
-RAW_KEYWORDS = [
-    # ... existing keywords ...
-    "your new keyword",
-    "another festival name",
-    "new venue name",
+RAW_KEYWORDS += ["your festival name", "new venue"]
+
+CULTURE_SOURCES += [
+    ("My Source", g("site:mysource.com+when:3d")),   # g() builds the Google News RSS URL
 ]
 ```
 
-Add new RSS sources to `CULTURE_SOURCES`:
-```python
-CULTURE_SOURCES = [
-    # ... existing sources ...
-    ("My Source", "https://news.google.com/rss/search?q=my+search+terms+when:1d&hl=en-US&gl=US&ceid=US:en"),
-]
-```
+Specialist EDM domains can be added to `NICHE_SOURCES` to accept them on-topic without a keyword match.
 
 ---
 
-## Roadmap
+## Deploy (GitHub Pages)
 
-- [ ] TV / desktop Electron app wrapper
-- [ ] Google Play Android app (WebView wrapper)
-- [ ] User-customizable channel selection (localStorage)
-- [ ] Real-time event calendar integration
-- [ ] Ticketing links for detected festival headlines
-- [ ] City-based nightlife sections (Vegas, Miami, NYC, Ibiza, Berlin, Dublin)
-- [ ] Festival countdown timers
-- [ ] Dark/light mode toggle
-- [ ] PWA / service worker for offline support
+1. Push to `TheSeanMitchell/PartyPortal`.
+2. Settings → Pages → deploy from `main` (root). A `.nojekyll` file is included so every asset
+   (`feed.json`, `sw.js`, `manifest.webmanifest`, icons) is served as-is.
+3. Live at `https://theseamitchell.github.io/PartyPortal`.
 
 ---
 

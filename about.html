@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About — Party Portal</title>
+<meta name="description" content="What Party Portal is and how it works: live festival streams, party cams and real party-culture news.">
+<meta name="theme-color" content="#030009">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow+Condensed:wght@400;600;700;800&family=Space+Mono&display=swap" rel="stylesheet">
+<style>
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:#030009;color:#F0E8FF;font-family:'Barlow Condensed','Arial Narrow',sans-serif;line-height:1.65;
+    background-image:radial-gradient(ellipse 90% 50% at 50% 0%,rgba(144,32,220,.16),transparent 60%)}
+  .nav{position:sticky;top:0;background:rgba(3,0,9,.95);backdrop-filter:blur(12px);border-bottom:1px solid rgba(214,25,112,.22);
+    height:52px;display:flex;align-items:center;justify-content:space-between;padding:0 18px;z-index:10}
+  .logo{display:flex;align-items:center;gap:9px;text-decoration:none;font-family:'Bebas Neue',sans-serif;font-size:1.5em;letter-spacing:.14em}
+  .logo img{width:24px;height:24px}
+  .logo span{background:linear-gradient(100deg,#FF3D90,#BB4FFF 50%,#00E5FF);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+  .back{color:#FF3D90;text-decoration:none;font-weight:700;letter-spacing:.08em;text-transform:uppercase;font-size:.84em}
+  .back:hover{color:#00E5FF}
+  main{max-width:760px;margin:0 auto;padding:38px 22px 60px}
+  h1{font-family:'Bebas Neue',sans-serif;font-size:clamp(2.2em,6vw,3.4em);letter-spacing:.12em;line-height:1;margin-bottom:6px;
+    background:linear-gradient(100deg,#FF3D90,#BB4FFF 50%,#00E5FF);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+  .sub{color:#9080A8;letter-spacing:.16em;text-transform:uppercase;font-size:.82em;font-weight:600;margin-bottom:28px}
+  h2{font-family:'Bebas Neue',sans-serif;font-size:1.35em;letter-spacing:.1em;color:#fff;margin:28px 0 8px;padding-bottom:6px;border-bottom:1px solid rgba(214,25,112,.22)}
+  p{color:rgba(240,232,255,.82);margin-bottom:12px}
+  ul{margin:0 0 12px 20px;color:rgba(240,232,255,.82)}
+  li{margin-bottom:6px}
+  a.inline{color:#FF3D90;text-decoration:none}a.inline:hover{color:#00E5FF}
+  strong{color:#BB4FFF}
+  .foot{border-top:1px solid rgba(214,25,112,.14);text-align:center;color:#9080A8;font-size:.8em;letter-spacing:.06em;padding:18px}
+  .foot a{color:#FF3D90;text-decoration:none}
+</style>
+</head>
+<body>
+<nav class="nav">
+  <a class="logo" href="index.html"><img src="favicon.svg" alt=""><span>PARTY PORTAL</span></a>
+  <a class="back" href="index.html">&larr; Back to the party</a>
+</nav>
+<main>
+  <h1>About Party Portal</h1>
+  <div class="sub">Your one-stop party destination</div>
+
+  <p>Party Portal is a single screen that pulls the best of global party culture into one place: <strong>live festival streams</strong>, <strong>DJ sets</strong>, <strong>nightlife cams</strong> from cities that never sleep, and a real-time feed of <strong>party-culture news</strong>. Press play and you're dropped into the party — no account, no sign-up, no clutter.</p>
+
+  <h2>What's inside</h2>
+  <ul>
+    <li><strong>49+ live channels</strong> — EDM festivals, club sets, retro MTV, rock blocks and 24/7 city cams.</li>
+    <li><strong>Stations &amp; filters</strong> — tune the wall to Festivals, Clubs, Retro, Live Cams and more, or fire up a curated mix like <em>Peak Hours</em> or <em>Throwback</em>.</li>
+    <li><strong>Favorites</strong> — star the channels you love; they're saved to your device and one tap away.</li>
+    <li><strong>Party Mode</strong> — a full-screen video wall of twelve channels at once (desktop).</li>
+    <li><strong>Mobile player</strong> — one channel at a time, swipe or shuffle to the next.</li>
+    <li><strong>Festival countdowns</strong> — live timers and ticket links to the next big drops.</li>
+    <li><strong>Culture feed</strong> — real headlines from the music and nightlife press.</li>
+  </ul>
+
+  <h2>How the news works</h2>
+  <p>The culture feed is <strong>100% real</strong>. A small bot gathers headlines from trusted music and nightlife publications (Mixmag, DJ Mag, Resident Advisor, Billboard, Rolling Stone and more) via public news feeds, cleans and de-duplicates them, filters out anything off-topic or negative, and refreshes the feed three times a day. Every headline links straight to the original publisher. We don't write or invent stories.</p>
+
+  <h2>How it's built</h2>
+  <p>Party Portal is a fast, static web app — no framework, no server, no database. It runs as a single page hosted on GitHub Pages, with the news bot running on a schedule via GitHub Actions. Video is embedded from public streams using privacy-friendly <span style="font-family:'Space Mono',monospace;font-size:.85em;color:#00E5FF">youtube-nocookie</span> players. It also installs as an app and works offline for the parts that don't need a live connection.</p>
+
+  <h2>A note on the streams</h2>
+  <p>Live feeds are embedded from publicly available streams owned by their respective broadcasters and creators. Availability can change at any time — if a channel goes dark, hit <a class="inline" href="index.html">Shuffle</a> for another, or open Party Mode for a fresh wall.</p>
+</main>
+<div class="foot">&copy; 2026 Party Portal &mdash; Las Vegas, NV &mdash; <a href="privacy.html">Privacy</a> &bull; <a href="contact.html">Contact</a> &bull; <a href="index.html">Home</a></div>
+</body>
+</html>

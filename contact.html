@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — Party Portal</title>
+<meta name="description" content="Get in touch with Party Portal — feedback, broken streams, and channel suggestions.">
+<meta name="theme-color" content="#030009">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow+Condensed:wght@400;600;700;800&family=Space+Mono&display=swap" rel="stylesheet">
+<style>
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:#030009;color:#F0E8FF;font-family:'Barlow Condensed','Arial Narrow',sans-serif;line-height:1.65;
+    background-image:radial-gradient(ellipse 90% 50% at 50% 0%,rgba(144,32,220,.16),transparent 60%)}
+  .nav{position:sticky;top:0;background:rgba(3,0,9,.95);backdrop-filter:blur(12px);border-bottom:1px solid rgba(214,25,112,.22);
+    height:52px;display:flex;align-items:center;justify-content:space-between;padding:0 18px;z-index:10}
+  .logo{display:flex;align-items:center;gap:9px;text-decoration:none;font-family:'Bebas Neue',sans-serif;font-size:1.5em;letter-spacing:.14em}
+  .logo img{width:24px;height:24px}
+  .logo span{background:linear-gradient(100deg,#FF3D90,#BB4FFF 50%,#00E5FF);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+  .back{color:#FF3D90;text-decoration:none;font-weight:700;letter-spacing:.08em;text-transform:uppercase;font-size:.84em}
+  .back:hover{color:#00E5FF}
+  main{max-width:680px;margin:0 auto;padding:38px 22px 60px}
+  h1{font-family:'Bebas Neue',sans-serif;font-size:clamp(2.2em,6vw,3.4em);letter-spacing:.12em;line-height:1;margin-bottom:6px;
+    background:linear-gradient(100deg,#FF3D90,#BB4FFF 50%,#00E5FF);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+  .sub{color:#9080A8;letter-spacing:.16em;text-transform:uppercase;font-size:.82em;font-weight:600;margin-bottom:28px}
+  h2{font-family:'Bebas Neue',sans-serif;font-size:1.35em;letter-spacing:.1em;color:#fff;margin:26px 0 8px}
+  p{color:rgba(240,232,255,.82);margin-bottom:12px}
+  strong{color:#BB4FFF}
+  .cards{display:grid;gap:12px;margin-top:8px}
+  .card{display:block;background:linear-gradient(160deg,rgba(20,0,31,.85),rgba(11,0,24,.85));border:1px solid rgba(144,32,220,.28);
+    border-radius:10px;padding:16px 18px;text-decoration:none;color:#F0E8FF;transition:border-color .2s,transform .2s}
+  .card:hover{border-color:rgba(214,25,112,.55);transform:translateY(-2px)}
+  .card .t{font-family:'Bebas Neue',sans-serif;font-size:1.1em;letter-spacing:.08em;color:#FF3D90;margin-bottom:3px}
+  .card .d{font-size:.92em;color:#9080A8}
+  .foot{border-top:1px solid rgba(214,25,112,.14);text-align:center;color:#9080A8;font-size:.8em;letter-spacing:.06em;padding:18px}
+  .foot a{color:#FF3D90;text-decoration:none}
+</style>
+</head>
+<body>
+<nav class="nav">
+  <a class="logo" href="index.html"><img src="favicon.svg" alt=""><span>PARTY PORTAL</span></a>
+  <a class="back" href="index.html">&larr; Back to the party</a>
+</nav>
+<main>
+  <h1>Contact</h1>
+  <div class="sub">Found a dead stream? Got a channel idea?</div>
+
+  <p>Party Portal is an independent, open project. The best way to report a broken stream, suggest a new channel, or send feedback is through the project's GitHub page — open an issue and we'll take a look.</p>
+
+  <div class="cards">
+    <a class="card" href="https://github.com/TheSeanMitchell/PartyPortal/issues" target="_blank" rel="noopener">
+      <div class="t">&#128027; Report an issue / suggest a channel</div>
+      <div class="d">Open a GitHub issue — broken streams, new festival cams, feature ideas.</div>
+    </a>
+    <a class="card" href="https://github.com/TheSeanMitchell/PartyPortal" target="_blank" rel="noopener">
+      <div class="t">&#9733; View the project on GitHub</div>
+      <div class="d">Star the repo, fork it, or read how the live site and news bot are built.</div>
+    </a>
+  </div>
+
+  <h2>Streams &amp; takedowns</h2>
+  <p>All video is embedded from publicly available streams owned by their respective creators and broadcasters. If you're a rights holder and would like a channel removed, please open a GitHub issue with the details and it will be addressed.</p>
+
+  <p style="margin-top:24px;font-family:'Space Mono',monospace;font-size:.85em;color:rgba(0,229,255,.55);letter-spacing:.06em">Built with care in Las Vegas, NV &#127881;</p>
+</main>
+<div class="foot">&copy; 2026 Party Portal &mdash; Las Vegas, NV &mdash; <a href="about.html">About</a> &bull; <a href="privacy.html">Privacy</a> &bull; <a href="index.html">Home</a></div>
+</body>
+</html>

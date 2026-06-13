@@ -1,14 +1,20 @@
-# Party Portal — Jekyll / GitHub Pages config
+# Party Portal — GitHub Pages config
+# A .nojekyll file is also present, so Pages serves every file as-is
+# (feed.json, sw.js, manifest.webmanifest, icons). This config is kept
+# for clarity / in case Jekyll processing is re-enabled.
 title: "Party Portal"
 description: "Live Festival Streams, Party Cams & Culture — Your One-Stop Party Destination"
 url: "https://theseamitchell.github.io"
 baseurl: "/PartyPortal"
 theme: null
 plugins: []
+# NOTE: feed.json is intentionally NOT excluded — the site fetches it at runtime.
 exclude:
   - bot.py
-  - feed.json
   - README.md
+  - CHANGELOG.md
   - .github
   - "*.pyc"
+  - "*.bak"
   - __pycache__
+  - init

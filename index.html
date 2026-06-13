@@ -4,347 +4,319 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <title>PARTY PORTAL — Live Festival Streams, Party Cams &amp; Culture</title>
-  <meta name="description" content="Party Portal: live festival cams, EDM streams, party culture news. Your one-stop party destination.">
+  <meta name="description" content="Party Portal: live festival cams, EDM streams, DJ sets and real party-culture news. Your one-stop party destination — 49+ live channels.">
   <meta name="theme-color" content="#030009">
+  <meta name="color-scheme" content="dark">
+  <link rel="canonical" href="https://theseamitchell.github.io/PartyPortal/">
+
+  <!-- Favicons / icons -->
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16.png">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="mask-icon" href="favicon.svg" color="#D61970">
+
+  <!-- PWA -->
+  <link rel="manifest" href="manifest.webmanifest">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Party Portal">
+  <meta name="mobile-web-app-capable" content="yes">
+
+  <!-- Open Graph / Twitter -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Party Portal">
+  <meta property="og:title" content="Party Portal — Live Festival Streams &amp; Culture">
+  <meta property="og:description" content="Live festival cams, EDM streams, DJ sets and real party-culture news. 49+ live channels.">
+  <meta property="og:url" content="https://theseamitchell.github.io/PartyPortal/">
+  <meta property="og:image" content="https://theseamitchell.github.io/PartyPortal/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Party Portal — Live Festival Streams &amp; Culture">
+  <meta name="twitter:description" content="Live festival cams, EDM streams, DJ sets and real party-culture news. 49+ live channels.">
+  <meta name="twitter:image" content="https://theseamitchell.github.io/PartyPortal/og-image.png">
+
+  <!-- Perf -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://www.youtube-nocookie.com">
+  <link rel="dns-prefetch" href="https://i.ytimg.com">
   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow+Condensed:wght@400;500;600;700;800;900&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 
-  <style>
-    /* ═══ CSS VARIABLES ═══ */
-    :root {
-      --bg:       #030009;
-      --bg2:      #07000F;
-      --card:     #0B0018;
-      --border:   rgba(210,25,110,0.22);
-      --pink:     #D61970;
-      --pink-l:   #FF3D90;
-      --cyan:     #00E5FF;
-      --purple:   #9020DC;
-      --purple-l: #BB4FFF;
-      --gold:     #FFD700;
-      --white:    #F0E8FF;
-      --dim:      #9080A8;
-      --navy:     #06000F;
-      --glow-p:   0 0 16px rgba(214,25,112,0.55);
-      --glow-c:   0 0 16px rgba(0,229,255,0.55);
-    }
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
-    body {
-      background: var(--bg);
-      color: var(--white);
-      font-family: 'Barlow Condensed', 'Arial Narrow', Arial, sans-serif;
-      min-height: 100vh;
-      overflow-x: hidden;
-      padding-bottom: 40px; /* clear fixed ticker */
-    }
+  <!-- Structured data -->
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"WebSite","name":"Party Portal","url":"https://theseamitchell.github.io/PartyPortal/","description":"Live festival streams, party cams, nightlife feeds and real party-culture news."}
+  </script>
 
-    /* grain overlay */
+  <style>
+    :root {
+      --bg:#030009; --bg2:#07000F; --card:#0B0018;
+      --border:rgba(210,25,110,0.22);
+      --pink:#D61970; --pink-l:#FF3D90; --cyan:#00E5FF;
+      --purple:#9020DC; --purple-l:#BB4FFF; --gold:#FFD700;
+      --white:#F0E8FF; --dim:#9080A8; --navy:#06000F;
+      --glow-p:0 0 16px rgba(214,25,112,0.55);
+      --glow-c:0 0 16px rgba(0,229,255,0.55);
+      --ok:#22c55e; --warn:#f59e0b;
+    }
+    *, *::before, *::after { box-sizing:border-box; margin:0; padding:0; }
+    html { scroll-behavior:smooth; -webkit-text-size-adjust:100%; text-size-adjust:100%; }
+    body {
+      background:var(--bg); color:var(--white);
+      font-family:'Barlow Condensed','Arial Narrow',Arial,sans-serif;
+      min-height:100vh; overflow-x:hidden; padding-bottom:40px;
+    }
     body::after {
       content:''; position:fixed; inset:0; opacity:0.028; pointer-events:none; z-index:9999;
-      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+      background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
     }
-    ::-webkit-scrollbar{width:5px}::-webkit-scrollbar-track{background:var(--bg)}
+    ::-webkit-scrollbar{width:5px;height:5px}::-webkit-scrollbar-track{background:var(--bg)}
     ::-webkit-scrollbar-thumb{background:rgba(214,25,112,0.35);border-radius:3px}
     ::-webkit-scrollbar-thumb:hover{background:rgba(214,25,112,0.65)}
+    a, button { -webkit-tap-highlight-color:transparent; }
+    :focus-visible{ outline:2px solid var(--cyan); outline-offset:2px; border-radius:3px }
 
-    /* ═══ PARTY MODE OVERLAY ═══ */
+    /* PARTY MODE OVERLAY */
     #pp-overlay{display:none;position:fixed;inset:0;z-index:3000;background:#000;flex-direction:column}
     #pp-overlay.pp-open{display:flex}
-    #pp-wrhdr{
-      display:flex;align-items:center;justify-content:space-between;
-      padding:0 16px;background:#050008;
-      border-bottom:2px solid var(--pink);flex-shrink:0;height:44px;gap:12px
-    }
+    #pp-wrhdr{display:flex;align-items:center;justify-content:space-between;padding:0 16px;background:#050008;border-bottom:2px solid var(--pink);flex-shrink:0;height:44px;gap:12px}
     #pp-wrhdr-left{display:flex;align-items:center;gap:14px;flex:1;min-width:0}
-    #pp-wrtitle{
-      font-family:'Bebas Neue',sans-serif;font-size:1.12em;
-      letter-spacing:.14em;color:var(--pink-l);text-shadow:var(--glow-p);flex-shrink:0
-    }
+    #pp-wrtitle{font-family:'Bebas Neue',sans-serif;font-size:1.12em;letter-spacing:.14em;color:var(--pink-l);text-shadow:var(--glow-p);flex-shrink:0}
     #pp-wrsub{font-size:.72em;color:var(--dim);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-    #pp-wrclose{
-      background:var(--pink);border:none;border-radius:4px;color:#fff;
-      font-family:'Barlow Condensed',sans-serif;font-size:.84em;font-weight:700;
-      letter-spacing:.06em;padding:6px 18px;cursor:pointer;flex-shrink:0;
-      text-transform:uppercase;transition:background .15s
-    }
+    #pp-wrclose{background:var(--pink);border:none;border-radius:4px;color:#fff;font-family:'Barlow Condensed',sans-serif;font-size:.84em;font-weight:700;letter-spacing:.06em;padding:6px 18px;cursor:pointer;flex-shrink:0;text-transform:uppercase;transition:background .15s}
     #pp-wrclose:hover{background:var(--pink-l)}
     #pp-wrclose kbd{background:rgba(255,255,255,.15);border-radius:3px;padding:1px 5px;font-size:.85em;font-family:monospace}
-
     #pp-wrgrid{flex:1;display:grid;gap:3px;background:#040004;padding:3px;overflow:hidden}
     .pp-wrcell{position:relative;background:#040004;overflow:hidden;border-radius:2px;cursor:pointer;transition:outline .15s}
     .pp-wrcell:hover{outline:2px solid var(--pink);outline-offset:-2px}
     .pp-wrcell.pp-active{outline:3px solid var(--cyan);outline-offset:-3px}
     .pp-wrcell iframe{position:relative;width:100%;height:100%;border:none;display:block;transform-origin:50% 50%;pointer-events:all}
-    .pp-wrlbl{
-      position:absolute;top:6px;left:8px;background:rgba(0,0,0,.72);color:rgba(255,255,255,.88);
-      font-family:'Barlow Condensed',sans-serif;font-size:.63em;font-weight:700;
-      letter-spacing:.07em;text-transform:uppercase;padding:2px 9px;
-      border-radius:10px;border-left:2px solid var(--pink);
-      pointer-events:none;user-select:none;z-index:1
-    }
-    .pp-wrcatbadge{
-      position:absolute;bottom:6px;right:8px;background:rgba(0,0,0,.65);
-      color:rgba(180,120,255,.8);font-family:'Barlow Condensed',sans-serif;
-      font-size:.58em;font-weight:700;letter-spacing:.1em;text-transform:uppercase;
-      padding:1px 7px;border-radius:2px;pointer-events:none;user-select:none;z-index:1
-    }
-    @media(max-width:900px){
-      #pp-wrgrid{grid-template-columns:repeat(2,1fr);grid-template-rows:repeat(5,1fr)}
-      #pp-wrsub{display:none}
-    }
+    .pp-wrlbl{position:absolute;top:6px;left:8px;background:rgba(0,0,0,.72);color:rgba(255,255,255,.88);font-family:'Barlow Condensed',sans-serif;font-size:.63em;font-weight:700;letter-spacing:.07em;text-transform:uppercase;padding:2px 9px;border-radius:10px;border-left:2px solid var(--pink);pointer-events:none;user-select:none;z-index:1}
+    .pp-wrcatbadge{position:absolute;bottom:6px;right:8px;background:rgba(0,0,0,.65);color:rgba(180,120,255,.8);font-family:'Barlow Condensed',sans-serif;font-size:.58em;font-weight:700;letter-spacing:.1em;text-transform:uppercase;padding:1px 7px;border-radius:2px;pointer-events:none;user-select:none;z-index:1}
+    @media(max-width:900px){#pp-wrgrid{grid-template-columns:repeat(2,1fr);grid-template-rows:repeat(5,1fr)}#pp-wrsub{display:none}}
 
-    /* ═══ NAV ═══ */
-    .pp-nav{
-      position:sticky;top:0;z-index:1000;height:52px;
-      display:flex;align-items:center;justify-content:space-between;padding:0 18px;
-      background:rgba(3,0,9,.95);border-bottom:1px solid var(--border);
-      backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px)
-    }
-    .pp-logo{
-      font-family:'Bebas Neue',sans-serif;font-size:1.65em;letter-spacing:.16em;
-      text-decoration:none;
-      background:linear-gradient(100deg,#FF3D90 0%,#BB4FFF 48%,#00E5FF 100%);
-      -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;line-height:1
-    }
+    /* NAV */
+    .pp-nav{position:sticky;top:0;z-index:1000;height:52px;display:flex;align-items:center;justify-content:space-between;padding:0 18px;background:rgba(3,0,9,.95);border-bottom:1px solid var(--border);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px)}
+    .pp-logo{display:flex;align-items:center;gap:9px;font-family:'Bebas Neue',sans-serif;font-size:1.65em;letter-spacing:.16em;text-decoration:none;line-height:1}
+    .pp-logo-mark{width:26px;height:26px;flex-shrink:0;filter:drop-shadow(0 0 6px rgba(214,25,112,.5))}
+    .pp-logo-text{background:linear-gradient(100deg,#FF3D90 0%,#BB4FFF 48%,#00E5FF 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
     .pp-nav-tag{font-size:.67em;letter-spacing:.16em;text-transform:uppercase;color:var(--dim);display:none}
-    @media(min-width:820px){.pp-nav-tag{display:block}}
-    .pp-nav-r{display:flex;align-items:center;gap:12px}
-
-    /* shuffle button */
-    .pp-shuffle-btn{
-      display:flex;align-items:center;gap:6px;
-      background:transparent;border:1px solid rgba(214,25,112,.4);border-radius:4px;color:var(--pink-l);
-      font-family:'Barlow Condensed',sans-serif;font-size:.88em;font-weight:700;
-      letter-spacing:.1em;padding:6px 14px;cursor:pointer;text-transform:uppercase;
-      transition:background .15s,border-color .15s
-    }
+    @media(min-width:880px){.pp-nav-tag{display:block}}
+    .pp-nav-r{display:flex;align-items:center;gap:10px}
+    .pp-iconbtn{display:flex;align-items:center;justify-content:center;width:34px;height:32px;background:transparent;border:1px solid rgba(214,25,112,.32);border-radius:4px;color:var(--pink-l);font-size:1em;cursor:pointer;transition:background .15s,border-color .15s;font-family:'Barlow Condensed',sans-serif;font-weight:700}
+    .pp-iconbtn:hover{background:rgba(214,25,112,.12);border-color:var(--pink-l)}
+    .pp-install-btn{display:none;align-items:center;gap:6px;background:transparent;border:1px solid rgba(0,229,255,.4);border-radius:4px;color:var(--cyan);font-family:'Barlow Condensed',sans-serif;font-size:.84em;font-weight:700;letter-spacing:.08em;padding:6px 12px;cursor:pointer;text-transform:uppercase;transition:background .15s,border-color .15s}
+    .pp-install-btn:hover{background:rgba(0,229,255,.12)}
+    .pp-install-btn.pp-show{display:flex}
+    .pp-shuffle-btn{display:flex;align-items:center;gap:6px;background:transparent;border:1px solid rgba(214,25,112,.4);border-radius:4px;color:var(--pink-l);font-family:'Barlow Condensed',sans-serif;font-size:.88em;font-weight:700;letter-spacing:.1em;padding:6px 14px;cursor:pointer;text-transform:uppercase;transition:background .15s,border-color .15s}
     .pp-shuffle-btn:hover{background:rgba(214,25,112,.12);border-color:var(--pink-l)}
-
-    /* party mode button */
-    .pp-mode-btn{
-      display:flex;align-items:center;gap:7px;
-      background:linear-gradient(135deg,#D61970 0%,#9020DC 100%);
-      border:none;border-radius:4px;color:#fff;
-      font-family:'Bebas Neue',sans-serif;font-size:1.07em;letter-spacing:.12em;
-      padding:7px 18px;cursor:pointer;box-shadow:0 0 14px rgba(214,25,112,.4);
-      transition:transform .15s,box-shadow .15s
-    }
+    .pp-mode-btn{display:flex;align-items:center;gap:7px;background:linear-gradient(135deg,#D61970 0%,#9020DC 100%);border:none;border-radius:4px;color:#fff;font-family:'Bebas Neue',sans-serif;font-size:1.07em;letter-spacing:.12em;padding:7px 18px;cursor:pointer;box-shadow:0 0 14px rgba(214,25,112,.4);transition:transform .15s,box-shadow .15s}
     .pp-mode-btn:hover{transform:translateY(-1px);box-shadow:0 0 28px rgba(214,25,112,.7)}
     .pp-mode-btn:active{transform:translateY(0)}
     .pp-modeicon{animation:pp-beat 2s ease-in-out infinite;font-style:normal}
     @keyframes pp-beat{0%,100%{transform:scale(1)}40%{transform:scale(1.3)}60%{transform:scale(1.1)}}
+    .pp-nav-shuffle{display:none}
+    @media(min-width:601px){.pp-nav-shuffle{display:flex}}
+    @media(max-width:600px){.pp-mode-btn{display:none !important}}
 
-    /* ═══ HERO ═══ */
-    .pp-hero{position:relative;padding:28px 20px 20px;text-align:center;overflow:hidden}
-    .pp-hero::before{
-      content:'';position:absolute;inset:0;pointer-events:none;
-      background:
-        radial-gradient(ellipse 88% 65% at 50% -5%,rgba(144,32,220,.17),transparent 65%),
-        radial-gradient(ellipse 55% 42% at 8% 110%,rgba(214,25,112,.11),transparent 55%),
-        radial-gradient(ellipse 55% 42% at 92% 110%,rgba(0,229,255,.08),transparent 55%)
-    }
-    .pp-hero-wordmark{
-      font-family:'Bebas Neue',sans-serif;
-      font-size:clamp(2.6em,7.5vw,5.2em);letter-spacing:.18em;line-height:1;
-      background:linear-gradient(108deg,#FF3D90 0%,#BB4FFF 45%,#00E5FF 100%);
-      -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:6px
-    }
+    /* HERO */
+    .pp-hero{position:relative;padding:28px 20px 18px;text-align:center;overflow:hidden}
+    .pp-hero::before{content:'';position:absolute;inset:0;pointer-events:none;background:radial-gradient(ellipse 88% 65% at 50% -5%,rgba(144,32,220,.17),transparent 65%),radial-gradient(ellipse 55% 42% at 8% 110%,rgba(214,25,112,.11),transparent 55%),radial-gradient(ellipse 55% 42% at 92% 110%,rgba(0,229,255,.08),transparent 55%)}
+    .pp-hero-wordmark{font-family:'Bebas Neue',sans-serif;font-size:clamp(2.6em,7.5vw,5.2em);letter-spacing:.18em;line-height:1;background:linear-gradient(108deg,#FF3D90 0%,#BB4FFF 45%,#00E5FF 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:6px}
     .pp-hero-tag{font-size:clamp(.8em,1.8vw,1em);letter-spacing:.22em;text-transform:uppercase;color:var(--dim);font-weight:600;margin-bottom:12px}
     .pp-hero-meta{display:flex;align-items:center;justify-content:center;gap:14px;flex-wrap:wrap}
     .pp-hero-date{font-family:'Space Mono',monospace;font-size:.7em;color:rgba(0,229,255,.5);letter-spacing:.08em}
-    .pp-live-badge{
-      display:inline-flex;align-items:center;gap:5px;font-size:.67em;font-weight:700;
-      letter-spacing:.1em;text-transform:uppercase;color:var(--pink-l);
-      padding:3px 10px;border:1px solid rgba(214,25,112,.4);border-radius:20px;background:rgba(214,25,112,.1)
-    }
+    .pp-live-badge{display:inline-flex;align-items:center;gap:5px;font-size:.67em;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--pink-l);padding:3px 10px;border:1px solid rgba(214,25,112,.4);border-radius:20px;background:rgba(214,25,112,.1)}
     .pp-dot{width:6px;height:6px;border-radius:50%;background:var(--pink-l);animation:pp-pulse 1.4s ease-in-out infinite}
     @keyframes pp-pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.25;transform:scale(.5)}}
 
-    /* ═══ FEEDS HEADER ═══ */
+    /* COUNTDOWN */
+    .pp-cd-wrap{max-width:1380px;margin:0 auto;padding:6px 18px 4px}
+    .pp-cd-hdr{display:flex;align-items:center;gap:9px;margin-bottom:9px}
+    .pp-cd-hdr-title{font-family:'Bebas Neue',sans-serif;font-size:.9em;letter-spacing:.18em;color:var(--white)}
+    .pp-cd-hdr-sub{font-size:.66em;letter-spacing:.06em;color:var(--dim);margin-left:auto;display:none}
+    @media(min-width:700px){.pp-cd-hdr-sub{display:block}}
+    .pp-cd-row{display:flex;gap:10px;overflow-x:auto;padding-bottom:6px;scrollbar-width:thin}
+    .pp-cd-card{flex:0 0 auto;min-width:182px;background:linear-gradient(160deg,rgba(20,0,31,.9),rgba(11,0,24,.9));border:1px solid rgba(144,32,220,.28);border-radius:8px;padding:11px 13px;position:relative;overflow:hidden;transition:border-color .2s,transform .2s}
+    .pp-cd-card:hover{border-color:rgba(214,25,112,.5);transform:translateY(-2px)}
+    .pp-cd-card::before{content:'';position:absolute;top:-30px;right:-30px;width:80px;height:80px;border-radius:50%;background:radial-gradient(circle,rgba(214,25,112,.18),transparent 70%);pointer-events:none}
+    .pp-cd-top{display:flex;align-items:center;gap:7px;margin-bottom:7px}
+    .pp-cd-emoji{font-size:1.05em}
+    .pp-cd-name{font-family:'Bebas Neue',sans-serif;font-size:.94em;letter-spacing:.08em;color:var(--white);line-height:1}
+    .pp-cd-where{font-size:.66em;color:var(--dim);letter-spacing:.04em;margin-bottom:8px}
+    .pp-cd-timer{font-family:'Space Mono',monospace;font-weight:700;color:var(--cyan);letter-spacing:.02em;display:flex;gap:8px;align-items:baseline}
+    .pp-cd-seg{display:flex;flex-direction:column;align-items:center;line-height:1}
+    .pp-cd-seg b{font-size:1.02em}
+    .pp-cd-seg span{font-size:.46em;color:var(--dim);letter-spacing:.12em;text-transform:uppercase;margin-top:3px;font-family:'Barlow Condensed',sans-serif;font-weight:700}
+    .pp-cd-live{font-family:'Bebas Neue',sans-serif;font-size:1.02em;letter-spacing:.1em;color:var(--pink-l);text-shadow:var(--glow-p)}
+    .pp-cd-foot{display:flex;align-items:center;justify-content:space-between;margin-top:9px;gap:8px}
+    .pp-cd-date{font-size:.62em;color:rgba(144,108,176,.85);font-family:'Space Mono',monospace}
+    .pp-cd-link{font-size:.66em;font-weight:700;letter-spacing:.05em;color:var(--pink-l);text-decoration:none;padding:2px 8px;border-radius:3px;background:rgba(214,25,112,.12);transition:background .15s;white-space:nowrap}
+    .pp-cd-link:hover{background:rgba(214,25,112,.28)}
+
+    /* FEEDS HEADER */
     .pp-feeds-wrap{background:#000}
-    .pp-feeds-bar{
-      display:flex;align-items:center;justify-content:space-between;
-      padding:8px 14px;border-bottom:1px solid rgba(214,25,112,.18);gap:10px
-    }
+    .pp-feeds-bar{display:flex;align-items:center;justify-content:space-between;padding:8px 14px;border-bottom:1px solid rgba(214,25,112,.18);gap:10px}
     .pp-feeds-bar-l{display:flex;align-items:center;gap:10px}
     .pp-feeds-lbl{font-family:'Bebas Neue',sans-serif;font-size:.92em;letter-spacing:.18em;color:var(--pink-l)}
-    .pp-feeds-badge{
-      display:inline-flex;align-items:center;gap:5px;
-      background:rgba(214,25,112,.12);border:1px solid rgba(214,25,112,.35);
-      border-radius:20px;padding:2px 9px;font-size:.62em;font-weight:800;
-      letter-spacing:.1em;color:var(--pink-l);text-transform:uppercase
-    }
+    .pp-feeds-badge{display:inline-flex;align-items:center;gap:5px;background:rgba(214,25,112,.12);border:1px solid rgba(214,25,112,.35);border-radius:20px;padding:2px 9px;font-size:.62em;font-weight:800;letter-spacing:.1em;color:var(--pink-l);text-transform:uppercase}
     .pp-feeds-hint{font-size:.7em;color:var(--dim);letter-spacing:.05em;display:none}
     @media(min-width:900px){.pp-feeds-hint{display:block}}
-    .pp-loading-indicator{
-      font-size:.75em;color:var(--dim);letter-spacing:.06em;padding:10px 14px;
-      font-family:'Space Mono',monospace;display:none
-    }
-    .pp-loading-indicator.active{display:block}
 
-    /* ═══ VIDEO GRID ═══ */
-    .pp-video-grid{
-      display:grid;grid-template-columns:repeat(5,1fr);
-      grid-template-rows:repeat(2,auto);gap:4px;padding:6px;background:#000
-    }
+    /* CONTROLS TOOLBAR */
+    .pp-toolbar{display:flex;align-items:center;gap:10px;padding:9px 14px;background:#000;border-bottom:1px solid rgba(214,25,112,.12)}
+    .pp-chips{display:flex;align-items:center;gap:7px;overflow-x:auto;flex:1;min-width:0;scrollbar-width:none;-webkit-overflow-scrolling:touch;padding-bottom:1px}
+    .pp-chips::-webkit-scrollbar{display:none}
+    .pp-chip{flex:0 0 auto;display:inline-flex;align-items:center;gap:5px;cursor:pointer;background:transparent;border:1px solid rgba(144,32,220,.3);border-radius:20px;color:var(--dim);font-family:'Barlow Condensed',sans-serif;font-size:.78em;font-weight:700;letter-spacing:.07em;text-transform:uppercase;padding:4px 13px;white-space:nowrap;transition:background .15s,border-color .15s,color .15s}
+    .pp-chip:hover{color:var(--white);border-color:rgba(214,25,112,.5)}
+    .pp-chip .pp-chip-n{font-size:.82em;opacity:.65;font-family:'Space Mono',monospace}
+    .pp-chip.pp-active{background:linear-gradient(135deg,rgba(214,25,112,.9),rgba(144,32,220,.9));border-color:transparent;color:#fff;box-shadow:0 0 12px rgba(214,25,112,.35)}
+    .pp-chip.pp-station{border-color:rgba(0,229,255,.4);color:var(--cyan)}
+    .pp-chip.pp-station:hover{border-color:var(--cyan);color:#fff}
+    .pp-chip.pp-station.pp-active{background:linear-gradient(135deg,rgba(0,229,255,.85),rgba(144,32,220,.85));color:#04000e}
+    .pp-chip.pp-fav.pp-active{background:linear-gradient(135deg,#FFD700,#FF3D90);color:#1a0010}
+    .pp-search-wrap{position:relative;flex:0 0 auto;display:flex;align-items:center}
+    .pp-search{width:150px;max-width:42vw;background:rgba(255,255,255,.04);border:1px solid rgba(144,32,220,.3);border-radius:20px;color:var(--white);font-family:'Barlow Condensed',sans-serif;font-size:.84em;letter-spacing:.03em;padding:5px 28px 5px 12px;transition:border-color .15s,width .2s}
+    .pp-search:focus{outline:none;border-color:var(--pink-l);width:190px}
+    .pp-search::placeholder{color:rgba(144,128,168,.7)}
+    .pp-search-clear{position:absolute;right:8px;top:50%;transform:translateY(-50%);background:none;border:none;color:var(--dim);font-size:1em;cursor:pointer;display:none;padding:0;line-height:1}
+    .pp-search-clear.pp-show{display:block}
+    .pp-search-clear:hover{color:var(--pink-l)}
+
+    /* VIDEO GRID (desktop) */
+    .pp-video-grid{display:grid;grid-template-columns:repeat(5,1fr);grid-template-rows:repeat(2,auto);gap:4px;padding:6px;background:#000}
     @media(max-width:1200px){.pp-video-grid{grid-template-columns:repeat(4,1fr)}}
     @media(max-width:900px){.pp-video-grid{grid-template-columns:repeat(3,1fr)}}
     @media(max-width:600px){.pp-video-grid{display:none}}
-    .pp-inset{
-      position:relative;aspect-ratio:16/9;width:100%;background:#0A0012;
-      border-radius:3px;overflow:hidden;border:1px solid rgba(144,32,220,.18);
-      transition:border-color .2s;cursor:pointer
-    }
+    .pp-inset{position:relative;aspect-ratio:16/9;width:100%;background:#0A0012;border-radius:3px;overflow:hidden;border:1px solid rgba(144,32,220,.18);transition:border-color .2s;cursor:pointer}
     .pp-inset:hover{border-color:rgba(214,25,112,.5)}
     .pp-inset.pp-audio-active{outline:3px solid var(--cyan);outline-offset:2px;border-radius:3px}
     .pp-inset iframe{width:100%;height:100%;border:none;display:block}
-    .pp-inset-lbl{
-      position:absolute;bottom:6px;left:8px;background:rgba(0,0,0,.82);color:rgba(255,255,255,.92);
-      font-family:'Barlow Condensed',sans-serif;font-size:.66em;font-weight:700;
-      letter-spacing:.07em;text-transform:uppercase;padding:2px 8px;
-      border-radius:2px;border-left:2px solid var(--pink);pointer-events:none;user-select:none
-    }
-    .pp-inset:hover .pp-inset-lbl{opacity:.2}
-    .pp-inset-cat{
-      position:absolute;top:6px;right:8px;background:rgba(0,0,0,.65);
-      color:rgba(180,120,255,.85);font-family:'Barlow Condensed',sans-serif;
-      font-size:.58em;font-weight:700;letter-spacing:.09em;text-transform:uppercase;
-      padding:1px 6px;border-radius:2px;pointer-events:none;user-select:none
-    }
+    .pp-inset-lbl{position:absolute;bottom:6px;left:8px;background:rgba(0,0,0,.82);color:rgba(255,255,255,.92);font-family:'Barlow Condensed',sans-serif;font-size:.66em;font-weight:700;letter-spacing:.07em;text-transform:uppercase;padding:2px 8px;border-radius:2px;border-left:2px solid var(--pink);pointer-events:none;user-select:none;max-width:calc(100% - 16px);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+    .pp-inset:hover .pp-inset-lbl{opacity:.25}
+    .pp-inset-cat{position:absolute;top:6px;left:8px;background:rgba(0,0,0,.65);color:rgba(180,120,255,.85);font-family:'Barlow Condensed',sans-serif;font-size:.58em;font-weight:700;letter-spacing:.09em;text-transform:uppercase;padding:1px 6px;border-radius:2px;pointer-events:none;user-select:none}
+    .pp-inset-tools{position:absolute;top:5px;right:6px;display:flex;gap:4px;z-index:2;opacity:0;transform:translateY(-3px);transition:opacity .15s,transform .15s;pointer-events:none}
+    .pp-inset:hover .pp-inset-tools,.pp-inset:focus-within .pp-inset-tools{opacity:1;transform:none;pointer-events:auto}
+    .pp-tool{width:24px;height:24px;border-radius:50%;border:none;cursor:pointer;background:rgba(0,0,0,.7);color:#fff;font-size:.74em;display:flex;align-items:center;justify-content:center;transition:background .15s,color .15s;line-height:1}
+    .pp-tool:hover{background:var(--pink)}
+    .pp-tool.pp-tool-on{color:var(--gold)}
+    .pp-tool.pp-tool-unmute.pp-on{background:var(--cyan);color:#04000e}
+    .pp-inset-live{position:absolute;top:6px;right:8px;background:rgba(190,20,20,.88);color:#fff;font-family:'Barlow Condensed',sans-serif;font-size:.6em;font-weight:800;letter-spacing:.1em;text-transform:uppercase;padding:2px 8px;border-radius:2px;pointer-events:none;user-select:none;display:flex;align-items:center;gap:4px;transition:opacity .15s}
+    .pp-inset:hover .pp-inset-live{opacity:0}
+    .pp-inset-live-dot{width:5px;height:5px;border-radius:50%;background:#ff6060;flex-shrink:0;animation:pp-pulse 1.3s ease-in-out infinite}
+    .pp-grid-empty{grid-column:1/-1;text-align:center;padding:40px 20px;color:var(--dim);font-size:.9em;letter-spacing:.05em}
+    .pp-grid-empty b{color:var(--pink-l);font-weight:700}
 
-    /* ═══ CULTURE SECTION ═══ */
+    /* MOBILE SINGLE PLAYER */
+    .pp-mplayer{display:none}
+    @media(max-width:600px){.pp-mplayer{display:block;padding:10px 12px 4px;background:#000}}
+    .pp-mp-context{display:flex;align-items:center;justify-content:space-between;margin-bottom:8px;gap:8px}
+    .pp-mp-context-l{font-size:.72em;color:var(--dim);letter-spacing:.05em;font-family:'Space Mono',monospace}
+    .pp-mp-context-l b{color:var(--cyan)}
+    .pp-mp-auto{display:inline-flex;align-items:center;gap:5px;background:transparent;border:1px solid rgba(0,229,255,.35);border-radius:20px;color:var(--cyan);font-family:'Barlow Condensed',sans-serif;font-size:.72em;font-weight:700;letter-spacing:.08em;text-transform:uppercase;padding:3px 11px;cursor:pointer;transition:background .15s}
+    .pp-mp-auto.pp-on{background:var(--cyan);color:#04000e;border-color:transparent}
+    .pp-mp-frame{position:relative;aspect-ratio:16/9;width:100%;background:#0A0012;border-radius:6px;overflow:hidden;border:1px solid rgba(214,25,112,.4);box-shadow:0 0 22px rgba(214,25,112,.18)}
+    .pp-mp-frame iframe{width:100%;height:100%;border:none;display:block}
+    .pp-mp-live{position:absolute;top:8px;right:8px;background:rgba(190,20,20,.9);color:#fff;font-family:'Barlow Condensed',sans-serif;font-size:.66em;font-weight:800;letter-spacing:.1em;text-transform:uppercase;padding:2px 9px;border-radius:3px;display:flex;align-items:center;gap:4px}
+    .pp-mp-mute{position:absolute;bottom:8px;right:8px;background:rgba(0,0,0,.7);color:#fff;border:none;border-radius:20px;font-family:'Barlow Condensed',sans-serif;font-size:.72em;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:4px 11px;cursor:pointer;display:flex;align-items:center;gap:5px;transition:background .15s}
+    .pp-mp-mute.pp-on{background:var(--cyan);color:#04000e}
+    .pp-mp-meta{display:flex;align-items:center;gap:9px;margin-top:10px}
+    .pp-mp-emoji{font-size:1.3em;flex-shrink:0}
+    .pp-mp-titles{flex:1;min-width:0}
+    .pp-mp-name{font-family:'Bebas Neue',sans-serif;font-size:1.12em;letter-spacing:.05em;color:var(--white);line-height:1.1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+    .pp-mp-sub{display:flex;align-items:center;gap:7px;margin-top:3px}
+    .pp-mp-cat{font-size:.62em;font-weight:800;letter-spacing:.09em;text-transform:uppercase;padding:1px 7px;border-radius:2px;background:rgba(144,32,220,.25);color:#C070FF}
+    .pp-mp-link{font-size:.68em;font-weight:700;color:var(--pink-l);text-decoration:none;letter-spacing:.03em}
+    .pp-mp-link:hover{color:var(--cyan)}
+    .pp-mp-fav{background:none;border:1px solid rgba(255,215,0,.4);border-radius:50%;width:34px;height:34px;flex-shrink:0;cursor:pointer;color:var(--dim);font-size:1em;transition:color .15s,border-color .15s,background .15s}
+    .pp-mp-fav.pp-on{color:var(--gold);border-color:var(--gold);background:rgba(255,215,0,.1)}
+    .pp-mp-controls{display:flex;align-items:center;gap:8px;margin-top:12px}
+    .pp-mbtn{flex:1;display:flex;align-items:center;justify-content:center;gap:6px;background:rgba(255,255,255,.04);border:1px solid rgba(144,32,220,.3);border-radius:6px;color:var(--white);font-family:'Barlow Condensed',sans-serif;font-size:.92em;font-weight:700;letter-spacing:.08em;text-transform:uppercase;padding:10px 8px;cursor:pointer;transition:background .15s,border-color .15s}
+    .pp-mbtn:hover,.pp-mbtn:active{background:rgba(214,25,112,.12);border-color:var(--pink-l)}
+    .pp-mbtn-primary{flex:2;background:linear-gradient(135deg,#D61970 0%,#9020DC 100%);border-color:transparent;color:#fff;box-shadow:0 0 14px rgba(214,25,112,.35)}
+    .pp-mbtn-primary:hover,.pp-mbtn-primary:active{box-shadow:0 0 24px rgba(214,25,112,.6);background:linear-gradient(135deg,#FF3D90 0%,#9020DC 100%)}
+    .pp-mp-hint{text-align:center;font-size:.66em;color:rgba(144,108,176,.7);letter-spacing:.05em;margin-top:9px;font-family:'Space Mono',monospace}
+    .pp-mp-empty{text-align:center;padding:30px 16px;color:var(--dim);font-size:.9em}
+    .pp-mp-empty b{color:var(--pink-l)}
+
+    /* CULTURE */
     .pp-culture-wrap{max-width:1380px;margin:0 auto;padding:20px 18px 14px}
-
-    .pp-sec-hdr{
-      display:flex;align-items:center;gap:10px;
-      padding-bottom:9px;margin-bottom:12px;
-      border-bottom:1px solid rgba(214,25,112,.24)
-    }
+    .pp-sec-hdr{display:flex;align-items:center;gap:10px;padding-bottom:9px;margin-bottom:12px;border-bottom:1px solid rgba(214,25,112,.24)}
     .pp-sec-dot{width:8px;height:8px;border-radius:50%;background:var(--pink-l);box-shadow:0 0 9px var(--pink-l);flex-shrink:0}
     .pp-sec-title{font-family:'Bebas Neue',sans-serif;font-size:1em;letter-spacing:.18em;color:var(--white);text-transform:uppercase}
-    .pp-sec-badge{
-      font-size:.64em;font-weight:800;letter-spacing:.08em;padding:2px 8px;
-      border-radius:10px;background:rgba(214,25,112,.14);border:1px solid rgba(214,25,112,.28);
-      color:var(--pink-l);text-transform:uppercase
-    }
+    .pp-sec-badge{font-size:.64em;font-weight:800;letter-spacing:.08em;padding:2px 8px;border-radius:10px;background:rgba(214,25,112,.14);border:1px solid rgba(214,25,112,.28);color:var(--pink-l);text-transform:uppercase}
     .pp-sec-updated{font-family:'Space Mono',monospace;font-size:.62em;color:var(--dim);margin-left:auto}
-
-    /* two-column culture grid */
     .pp-culture-cols{display:grid;grid-template-columns:1fr 1fr;gap:0 28px}
     @media(max-width:768px){.pp-culture-cols{grid-template-columns:1fr}}
-
-    /* Column labels (Breaking / Latest) */
-    .pp-col-label{
-      font-family:'Bebas Neue',sans-serif;font-size:.78em;letter-spacing:.18em;
-      padding-bottom:6px;margin-bottom:8px;border-bottom:1px solid rgba(214,25,112,.18);
-      display:flex;align-items:center;gap:7px
-    }
+    .pp-col-label{font-family:'Bebas Neue',sans-serif;font-size:.78em;letter-spacing:.18em;padding-bottom:6px;margin-bottom:8px;border-bottom:1px solid rgba(214,25,112,.18);display:flex;align-items:center;gap:7px}
     .pp-col-dot{width:5px;height:5px;border-radius:50%;flex-shrink:0}
     .pp-col-breaking .pp-col-dot{background:#E06060;box-shadow:0 0 6px #E06060}
-    .pp-col-latest   .pp-col-dot{background:var(--dim)}
-
-    /* Individual headline */
-    .pp-hl{
-      padding:9px 6px 9px 10px;border-bottom:1px solid rgba(144,32,220,.1);
-      display:flex;align-items:flex-start;gap:8px;cursor:pointer;
-      border-radius:3px;transition:background .15s;margin-bottom:2px
-    }
+    .pp-col-latest .pp-col-dot{background:var(--dim)}
+    .pp-col-count{margin-left:auto;font-size:.7em;font-family:'Space Mono',monospace;color:var(--dim);letter-spacing:0}
+    .pp-hl{padding:9px 6px 9px 10px;border-bottom:1px solid rgba(144,32,220,.1);display:flex;align-items:flex-start;gap:8px;cursor:pointer;border-radius:3px;transition:background .15s;margin-bottom:2px}
     .pp-hl:hover{background:rgba(214,25,112,.045)}
-    .pp-hl-icon{
-      width:22px;height:22px;border-radius:50%;background:rgba(144,32,220,.25);
-      color:var(--purple-l);font-family:'Bebas Neue',sans-serif;font-size:.72em;
-      display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:2px;
-      font-weight:700;letter-spacing:0
-    }
+    .pp-hl-icon{width:22px;height:22px;border-radius:50%;background:rgba(144,32,220,.25);color:var(--purple-l);font-family:'Bebas Neue',sans-serif;font-size:.72em;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:2px;font-weight:700;letter-spacing:0;position:relative}
     .pp-hl-body{flex:1;min-width:0}
     .pp-hl-tags{display:flex;align-items:center;gap:5px;margin-bottom:3px;flex-wrap:wrap}
-    .pp-hl-tag{
-      font-size:.62em;font-weight:800;letter-spacing:.07em;text-transform:uppercase;
-      padding:1px 6px;border-radius:2px;background:rgba(144,32,220,.2);color:#C070FF
-    }
-    .pp-hl-title{
-      font-size:.88em;line-height:1.43;color:rgba(240,232,255,.85);
-      display:block;margin-bottom:3px
-    }
+    .pp-hl-tag{font-size:.62em;font-weight:800;letter-spacing:.07em;text-transform:uppercase;padding:1px 6px;border-radius:2px;background:rgba(144,32,220,.2);color:#C070FF}
+    .pp-hl-title{font-size:.88em;line-height:1.43;color:rgba(240,232,255,.85);display:block;margin-bottom:3px}
     .pp-hl:hover .pp-hl-title{color:var(--white)}
     .pp-hl-meta{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
-    .pp-hl-src{
-      font-family:'Space Mono',monospace;font-size:.62em;color:var(--dim);
-      background:rgba(255,255,255,.04);padding:1px 6px;border-radius:2px
-    }
+    .pp-hl-src{display:inline-flex;align-items:center;gap:5px;font-family:'Space Mono',monospace;font-size:.62em;color:var(--dim);background:rgba(255,255,255,.04);padding:1px 6px;border-radius:2px}
+    .pp-hl-trust{width:5px;height:5px;border-radius:50%;flex-shrink:0;background:var(--dim)}
     .pp-hl-time{font-family:'Space Mono',monospace;font-size:.6em;color:rgba(144,108,176,.7)}
-    .pp-hl-link{
-      font-size:.72em;font-weight:700;letter-spacing:.06em;color:var(--pink-l);
-      padding:2px 8px;border-radius:2px;background:rgba(214,25,112,.1);
-      text-decoration:none;transition:background .15s;flex-shrink:0
-    }
+    .pp-hl-link{font-size:.72em;font-weight:700;letter-spacing:.06em;color:var(--pink-l);padding:2px 8px;border-radius:2px;background:rgba(214,25,112,.1);text-decoration:none;transition:background .15s;flex-shrink:0}
     .pp-hl-link:hover{background:rgba(214,25,112,.25)}
-
-    /* culture section new-dot */
     .pp-new-dot{color:#EF4444;font-size:.65em;vertical-align:middle;margin-right:3px;animation:pp-hot 1.3s ease-in-out infinite}
     @keyframes pp-hot{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.2;transform:scale(.55)}}
+    .pp-empty{grid-column:1/-1;text-align:center;padding:34px 20px;font-size:.85em;color:var(--dim);letter-spacing:.05em;line-height:1.6}
+    .pp-empty b{color:var(--pink-l);font-weight:700}
+    .pp-retry{margin-top:12px;background:transparent;border:1px solid rgba(214,25,112,.4);border-radius:4px;color:var(--pink-l);font-family:'Barlow Condensed',sans-serif;font-size:.84em;font-weight:700;letter-spacing:.08em;text-transform:uppercase;padding:6px 16px;cursor:pointer;transition:background .15s}
+    .pp-retry:hover{background:rgba(214,25,112,.12)}
 
-    /* empty state */
-    .pp-empty{
-      grid-column:1/-1;text-align:center;padding:40px 20px;
-      font-size:.85em;color:var(--dim);letter-spacing:.06em
-    }
-
-    /* ═══ CULTURE TICKER ═══ */
-    .pp-ticker{
-      position:fixed;bottom:0;left:0;right:0;z-index:950;height:38px;
-      background:#04000E;border-top:1px solid rgba(214,25,112,.45);
-      display:flex;align-items:stretch;overflow:hidden
-    }
-    .pp-ticker-lbl{
-      background:linear-gradient(135deg,#D61970 0%,#9020DC 100%);color:#fff;
-      padding:0 14px;font-family:'Bebas Neue',sans-serif;font-size:.82em;letter-spacing:.18em;
-      flex-shrink:0;display:flex;align-items:center;gap:6px;border-right:1px solid rgba(255,255,255,.12)
-    }
-    .pp-ticker-track{
-      flex:1;overflow:hidden;display:flex;align-items:center;
-      -webkit-mask-image:linear-gradient(to right,transparent,black 2.5%,black 97.5%,transparent);
-      mask-image:linear-gradient(to right,transparent,black 2.5%,black 97.5%,transparent)
-    }
+    /* TICKER */
+    .pp-ticker{position:fixed;bottom:0;left:0;right:0;z-index:950;height:38px;background:#04000E;border-top:1px solid rgba(214,25,112,.45);display:flex;align-items:stretch;overflow:hidden}
+    .pp-ticker-lbl{background:linear-gradient(135deg,#D61970 0%,#9020DC 100%);color:#fff;padding:0 14px;font-family:'Bebas Neue',sans-serif;font-size:.82em;letter-spacing:.18em;flex-shrink:0;display:flex;align-items:center;gap:6px;border-right:1px solid rgba(255,255,255,.12)}
+    .pp-ticker-track{flex:1;overflow:hidden;display:flex;align-items:center;-webkit-mask-image:linear-gradient(to right,transparent,black 2.5%,black 97.5%,transparent);mask-image:linear-gradient(to right,transparent,black 2.5%,black 97.5%,transparent)}
     .pp-ticker-belt{display:flex;align-items:center;white-space:nowrap;animation:pp-scroll 90s linear infinite}
     .pp-ticker-belt:hover{animation-play-state:paused}
     @keyframes pp-scroll{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
-    .pp-tick-item{
-      display:inline-flex;align-items:center;padding:0 18px;font-size:.82em;font-weight:600;
-      letter-spacing:.025em;color:rgba(240,232,255,.84);cursor:pointer;transition:color .15s;
-      border-right:1px solid rgba(214,25,112,.18)
-    }
+    .pp-tick-item{display:inline-flex;align-items:center;padding:0 18px;font-size:.82em;font-weight:600;letter-spacing:.025em;color:rgba(240,232,255,.84);cursor:pointer;transition:color .15s;border-right:1px solid rgba(214,25,112,.18)}
     .pp-tick-item:hover{color:var(--cyan)}
     .pp-tick-sep{display:inline-flex;align-items:center;padding:0 5px;color:var(--pink);font-size:.6em}
 
-    /* ═══ FOOTER ═══ */
-    .pp-footer{
-      background:#020006;border-top:1px solid rgba(214,25,112,.14);
-      padding:16px 20px;text-align:center;font-size:.72em;letter-spacing:.07em;
-      color:var(--dim);margin-bottom:38px
-    }
+    /* FOOTER */
+    .pp-footer{background:#020006;border-top:1px solid rgba(214,25,112,.14);padding:16px 20px;text-align:center;font-size:.72em;letter-spacing:.07em;color:var(--dim);margin-bottom:38px;line-height:1.9}
     .pp-footer a{color:var(--pink-l);text-decoration:none}
     .pp-footer a:hover{color:var(--cyan)}
+    .pp-footer-sep{color:rgba(144,32,220,.5)}
 
-    /* ── Live cam badge (main grid only) ── */
-    .pp-inset-live{
-      position:absolute;top:6px;right:8px;
-      background:rgba(190,20,20,.88);color:#fff;
-      font-family:'Barlow Condensed',sans-serif;font-size:.6em;
-      font-weight:800;letter-spacing:.1em;text-transform:uppercase;
-      padding:2px 8px;border-radius:2px;pointer-events:none;user-select:none;
-      display:flex;align-items:center;gap:4px
-    }
-    .pp-inset-live-dot{
-      width:5px;height:5px;border-radius:50%;background:#ff6060;flex-shrink:0;
-      animation:pp-pulse 1.3s ease-in-out infinite
+    /* HELP OVERLAY */
+    .pp-help{display:none;position:fixed;inset:0;z-index:3500;background:rgba(2,0,8,.86);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);align-items:center;justify-content:center;padding:20px}
+    .pp-help.pp-open{display:flex}
+    .pp-help-card{width:min(460px,100%);background:linear-gradient(160deg,#12001D,#0B0018);border:1px solid rgba(214,25,112,.4);border-radius:12px;padding:22px 24px;box-shadow:0 0 40px rgba(214,25,112,.25)}
+    .pp-help-card h2{font-family:'Bebas Neue',sans-serif;font-size:1.4em;letter-spacing:.14em;background:linear-gradient(100deg,#FF3D90,#BB4FFF 55%,#00E5FF);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:16px}
+    .pp-help-row{display:flex;align-items:center;justify-content:space-between;padding:8px 0;border-bottom:1px solid rgba(144,32,220,.12);font-size:.9em;color:var(--white)}
+    .pp-help-row:last-of-type{border-bottom:none}
+    .pp-help-row kbd{background:rgba(255,255,255,.08);border:1px solid rgba(214,25,112,.3);border-radius:4px;padding:2px 9px;font-family:'Space Mono',monospace;font-size:.86em;color:var(--cyan);min-width:26px;text-align:center}
+    .pp-help-close{margin-top:18px;width:100%;background:linear-gradient(135deg,#D61970,#9020DC);border:none;border-radius:6px;color:#fff;font-family:'Bebas Neue',sans-serif;font-size:1.05em;letter-spacing:.1em;padding:9px;cursor:pointer}
+    .pp-help-note{margin-top:12px;font-size:.72em;color:var(--dim);text-align:center;letter-spacing:.04em}
+
+    /* TOAST */
+    .pp-toast{position:fixed;left:50%;bottom:54px;transform:translateX(-50%) translateY(20px);background:rgba(11,0,24,.96);border:1px solid rgba(0,229,255,.4);border-radius:8px;color:var(--white);font-size:.84em;letter-spacing:.04em;padding:9px 18px;z-index:1200;opacity:0;pointer-events:none;transition:opacity .25s,transform .25s;box-shadow:0 0 24px rgba(0,229,255,.2);max-width:90vw;text-align:center}
+    .pp-toast.pp-show{opacity:1;transform:translateX(-50%) translateY(0)}
+
+    @media (prefers-reduced-motion: reduce){
+      *{animation-duration:.001ms !important;animation-iteration-count:1 !important;transition-duration:.001ms !important;scroll-behavior:auto !important}
+      .pp-ticker-belt{animation:none;transform:none}
     }
   </style>
 </head>
 <body>
 
-<!-- PARTY MODE OVERLAY -->
+<!-- PARTY MODE OVERLAY (desktop) -->
 <div id="pp-overlay" role="dialog" aria-modal="true" aria-label="Party Portal — Party Mode">
   <div id="pp-wrhdr">
     <div id="pp-wrhdr-left">
@@ -357,15 +329,33 @@
   <div id="pp-wrgrid"></div>
 </div>
 
+<!-- HELP OVERLAY -->
+<div class="pp-help" id="pp-help" role="dialog" aria-modal="true" aria-label="Keyboard shortcuts">
+  <div class="pp-help-card">
+    <h2>Keyboard Shortcuts</h2>
+    <div class="pp-help-row"><span>Shuffle channels</span><kbd>S</kbd></div>
+    <div class="pp-help-row"><span>Party Mode (full wall)</span><kbd>P</kbd></div>
+    <div class="pp-help-row"><span>Show only favorites</span><kbd>F</kbd></div>
+    <div class="pp-help-row"><span>Search channels</span><kbd>/</kbd></div>
+    <div class="pp-help-row"><span>This menu</span><kbd>?</kbd></div>
+    <div class="pp-help-row"><span>Close / exit</span><kbd>Esc</kbd></div>
+    <button class="pp-help-close" id="pp-help-close">Got it</button>
+    <p class="pp-help-note">Tip: click any video tile to unmute it. Star a channel to save it.</p>
+  </div>
+</div>
+
 <!-- NAV -->
 <nav class="pp-nav">
-  <a class="pp-logo" href="/">PARTY PORTAL</a>
+  <a class="pp-logo" href="./" aria-label="Party Portal home">
+    <img class="pp-logo-mark" src="favicon.svg" alt="" width="26" height="26">
+    <span class="pp-logo-text">PARTY PORTAL</span>
+  </a>
   <span class="pp-nav-tag">Live Cams &bull; Festivals &bull; Nightlife &bull; Culture</span>
   <div class="pp-nav-r">
-    <button class="pp-shuffle-btn" id="pp-shuffle-btn" title="Randomize feed selection">
-      &#8635; SHUFFLE
-    </button>
-    <button class="pp-mode-btn" id="pp-mode-btn" title="Party Mode — full-screen video wall">
+    <button class="pp-install-btn" id="pp-install-btn" title="Install Party Portal as an app">&#11015; Install</button>
+    <button class="pp-iconbtn pp-nav-shuffle" id="pp-help-btn" title="Keyboard shortcuts (?)" aria-label="Keyboard shortcuts">?</button>
+    <button class="pp-shuffle-btn pp-nav-shuffle" id="pp-shuffle-btn" title="Randomize feed selection (S)">&#8635; SHUFFLE</button>
+    <button class="pp-mode-btn" id="pp-mode-btn" title="Party Mode — full-screen video wall (P)">
       <i class="pp-modeicon" aria-hidden="true">&#127881;</i>
       PARTY MODE
     </button>
@@ -379,9 +369,19 @@
   <div class="pp-hero-meta">
     <span class="pp-hero-date" id="pp-date"></span>
     <span class="pp-live-badge"><span class="pp-dot" aria-hidden="true"></span>Streaming Now</span>
-    <span class="pp-live-badge" id="pp-feed-count" style="color:var(--cyan);border-color:rgba(0,229,255,.4);background:rgba(0,229,255,.08)">25 Channels</span>
+    <span class="pp-live-badge" id="pp-feed-count" style="color:var(--cyan);border-color:rgba(0,229,255,.4);background:rgba(0,229,255,.08)">49 Channels</span>
   </div>
 </div>
+
+<!-- COUNTDOWN STRIP -->
+<section class="pp-cd-wrap" id="pp-cd-wrap" aria-label="Upcoming festivals">
+  <div class="pp-cd-hdr">
+    <span class="pp-sec-dot" aria-hidden="true"></span>
+    <span class="pp-cd-hdr-title">On The Horizon</span>
+    <span class="pp-cd-hdr-sub">Counting down to the next big drops &mdash; tap for tickets &amp; info</span>
+  </div>
+  <div class="pp-cd-row" id="pp-cd-row"></div>
+</section>
 
 <!-- VIDEO FEEDS -->
 <div class="pp-feeds-wrap">
@@ -390,66 +390,75 @@
       <span class="pp-feeds-lbl">&#9711; Live Feeds &amp; Party Streams</span>
       <span class="pp-feeds-badge"><span class="pp-dot" aria-hidden="true"></span>LIVE</span>
     </div>
-    <span class="pp-feeds-hint">Showing 10 of 25 channels &bull; Click SHUFFLE to change &bull; Party Mode for full wall</span>
+    <span class="pp-feeds-hint" id="pp-feeds-hint">Showing 10 of 49 channels &bull; Click SHUFFLE to change &bull; Party Mode for full wall</span>
   </div>
-  <div class="pp-video-grid" id="pp-video-grid">
-    <!-- built dynamically by JS -->
+
+  <div class="pp-toolbar">
+    <div class="pp-chips" id="pp-chips" role="tablist" aria-label="Channel stations and categories"></div>
+    <div class="pp-search-wrap">
+      <input class="pp-search" id="pp-search" type="search" inputmode="search" placeholder="Search channels" aria-label="Search channels" autocomplete="off">
+      <button class="pp-search-clear" id="pp-search-clear" aria-label="Clear search">&#x2715;</button>
+    </div>
   </div>
+
+  <div class="pp-video-grid" id="pp-video-grid"></div>
+  <div class="pp-mplayer" id="pp-mplayer" aria-label="Channel player"></div>
 </div>
 
 <!-- CULTURE SECTION -->
-<div class="pp-culture-wrap">
+<div class="pp-culture-wrap" id="culture">
   <div class="pp-sec-hdr">
     <div class="pp-sec-dot" aria-hidden="true"></div>
     <span class="pp-sec-title">Party &amp; Culture</span>
     <span class="pp-sec-badge">&#128293; Hot Now</span>
     <span class="pp-sec-updated" id="pp-updated"></span>
   </div>
-  <div class="pp-culture-cols" id="pp-culture-cols">
-    <!-- populated by JS / bot injection -->
-  </div>
+  <div class="pp-culture-cols" id="pp-culture-cols"></div>
 </div>
 
 <div class="pp-footer">
-  &copy; 2026 Party Portal &mdash; Las Vegas, NV &mdash;
-  <a href="#">About</a> &bull; <a href="#">Privacy</a> &bull; <a href="#">Contact</a>
+  &copy; 2026 Party Portal &mdash; Las Vegas, NV
+  <span class="pp-footer-sep">&mdash;</span>
+  <a href="about.html">About</a> <span class="pp-footer-sep">&bull;</span>
+  <a href="privacy.html">Privacy</a> <span class="pp-footer-sep">&bull;</span>
+  <a href="contact.html">Contact</a> <span class="pp-footer-sep">&bull;</span>
+  <a href="https://github.com/TheSeanMitchell/PartyPortal" target="_blank" rel="noopener">GitHub</a>
+  <br>
+  <span style="font-size:.92em">Live feeds are embedded from public streams. Culture headlines link to original publishers.</span>
 </div>
 
 <!-- CULTURE TICKER -->
 <div class="pp-ticker" id="pp-ticker">
   <div class="pp-ticker-lbl"><span class="pp-dot" aria-hidden="true"></span>CULTURE</div>
-  <div class="pp-ticker-track">
-    <div class="pp-ticker-belt" id="pp-ticker-belt"></div>
-  </div>
+  <div class="pp-ticker-track"><div class="pp-ticker-belt" id="pp-ticker-belt"></div></div>
 </div>
+
+<!-- TOAST -->
+<div class="pp-toast" id="pp-toast" role="status" aria-live="polite"></div>
 
 <script>
 /* ════════════════════════════════════════════════════════════
-   PARTY PORTAL — main JS  (49 channels, nocookie embeds,
-   Party Mode = 12 random, TODAY/YESTERDAY news split)
+   PARTY PORTAL — main JS
+   • 49-channel pool, youtube-nocookie embeds
+   • Stations / category filtering, favorites, search
+   • Desktop video wall + mobile single-player (shuffle one at a time)
+   • Party Mode (full wall) — desktop only
+   • Festival countdowns, keyboard shortcuts, PWA install
+   • Culture feed = real data only (feed.json), no synthetic fallback
 ════════════════════════════════════════════════════════════ */
 
-/* ── Embed helpers ──
-   All YT embeds use youtube-nocookie.com:
-   • Removes personalised tracking
-   • Bypasses some (not all) login-wall prompts
-   • Age-restricted content still can't be embedded — those
-     channels should be swapped for non-restricted alternatives.
-*/
-var YTP = '&autoplay=1&mute=1&controls=1&modestbranding=1&rel=0&iv_load_policy=3&playsinline=1';
-var YTW = '&autoplay=1&mute=1&controls=1&modestbranding=1&rel=0&playsinline=1&enablejsapi=1';
+/* ── Embed helpers (youtube-nocookie, enablejsapi for unmute) ── */
+var YT_PARAMS = 'autoplay=1&mute=1&controls=1&modestbranding=1&rel=0&iv_load_policy=3&playsinline=1&enablejsapi=1';
 
-function getFeedSrc(feed, forWR) {
+function getFeedSrc(feed) {
   if (feed.isArchive) return feed.embed + '?autoplay=1&mute=1';
-  var params = forWR ? YTW : YTP;
-  /* youtube-nocookie swap */
   var base = feed.embed.replace('www.youtube.com', 'www.youtube-nocookie.com');
-  var connector = base.indexOf('?') >= 0 ? params : '?' + params.slice(1);
-  /* random playlist index — 0-based per YT spec */
+  var connector = base.indexOf('?') >= 0 ? '&' + YT_PARAMS : '?' + YT_PARAMS;
+  var origin = (location.protocol === 'http:' || location.protocol === 'https:')
+    ? '&origin=' + encodeURIComponent(location.origin) : '';
   var idx = (feed.maxIdx && feed.maxIdx > 1)
-    ? '&index=' + Math.floor(Math.random() * feed.maxIdx)
-    : '';
-  return base + connector + idx;
+    ? '&index=' + Math.floor(Math.random() * feed.maxIdx) : '';
+  return base + connector + origin + idx;
 }
 
 function ppShuffle(arr) {
@@ -461,457 +470,541 @@ function ppShuffle(arr) {
   return a;
 }
 
+function ytCommand(iframe, func, args) {
+  if (!iframe || !iframe.contentWindow) return;
+  try { iframe.contentWindow.postMessage(JSON.stringify({event:'command', func:func, args:args||[]}), '*'); } catch(e){}
+}
+
+function escHtml(s){ return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
+
 /* ════════════════════════════════════════════════════════════
-   49-CHANNEL POOL
+   49-CHANNEL POOL  (url = official site, surfaced where known)
 ════════════════════════════════════════════════════════════ */
 var PP_ALL_FEEDS = [
   /* FESTIVALS */
-  {id:'edc',cat:'FESTIVAL',maxIdx:1,label:'\u26A1 Electric Daisy Carnival \u2014 Las Vegas',
-   embed:'https://www.youtube.com/embed/VJrd9doSRwA'},
-  {id:'coachella',cat:'FESTIVAL',maxIdx:40,label:'\uD83C\uDF34 Coachella \u2014 California',
-   embed:'https://www.youtube.com/embed/videoseries?list=PLIjqRbAQP0WKzta60mC1aINWniI0OTk8Z'},
-  {id:'ultra',cat:'FESTIVAL',maxIdx:40,label:'\uD83C\uDFA7 Ultra Music Fest',
-   embed:'https://www.youtube.com/embed/0psLTNmJM38?list=PLBg1SJiXSxfJ6lee3le9qRtIFLkdFwd8E'},
-  {id:'coachella-dj',cat:'FESTIVAL',maxIdx:50,label:'\uD83C\uDF39 Coachella DJ Sets',
-   embed:'https://www.youtube.com/embed/videoseries?list=PLIjqRbAQP0WIkL5rzNwl19gVHMT0T93NH'},
-  {id:'tomorrowland',cat:'FESTIVAL',maxIdx:50,label:'\uD83C\uDF0D Tomorrowland',
-   embed:'https://www.youtube.com/embed/acExYGsV2SU?list=PLoSIOFPSXQoN-uoi-Bn6R4JA8C4beRJsU'},
-  {id:'tomorrowland-winter',cat:'FESTIVAL',maxIdx:30,label:'\u2744\uFE0F Tomorrowland Winter',
-   embed:'https://www.youtube.com/embed/gUrIVfzGg9U?list=PLoSIOFPSXQoOx5SBOrejTmvsC6wJhUvl1'},
-  {id:'tomorrowland-brasil',cat:'FESTIVAL',maxIdx:30,label:'\uD83C\uDDE7\uD83C\uDDF7 Tomorrowland Brasil',
-   embed:'https://www.youtube.com/embed/hbXhiCyGYx0?list=PLoSIOFPSXQoMwpfuQrKNGXb30FW5cBYJP'},
-  {id:'glastonbury',cat:'FESTIVAL',maxIdx:40,label:'\uD83C\uDF7E Glastonbury Classics',
-   embed:'https://www.youtube.com/embed/4VlAYrOK0RM?list=PLPEH9n2NIpqyLh_f3rTfnCH7F2v0k9MUV'},
-  {id:'creamfields',cat:'FESTIVAL',maxIdx:30,label:'\uD83C\uDFA8 Creamfields',
-   embed:'https://www.youtube.com/embed/mrAi6lvPoP0?list=PLThryQTnOzUZhmFS6hxUhlnD8Y7ftxR0u'},
-  {id:'lostlands',cat:'FESTIVAL',maxIdx:30,label:'\uD83C\uDF32 Lost Lands',
-   embed:'https://www.youtube.com/embed/b29GV8RODIc?list=PLK2KdupVnODMzWyy7LLbKqfldBevub1OX'},
-  {id:'awakenings',cat:'FESTIVAL',maxIdx:30,label:'\uD83D\uDD0A Awakenings',
-   embed:'https://www.youtube.com/embed/OWdgrl2W5W0?list=PLx2MVuP_pkQjkUwJVjZ1_NBv4hLXdU31v'},
-  {id:'lucidity',cat:'FESTIVAL',maxIdx:20,label:'\uD83C\uDF19 Lucidity',
-   embed:'https://www.youtube.com/embed/o9ast9cAnLc?list=PLNE3b80YbdkmIGZM7vmVH6ltftUBEEVhq'},
-  {id:'daytrip',cat:'FESTIVAL',maxIdx:30,label:'\uD83C\uDFB5 Day Trip',
-   embed:'https://www.youtube.com/embed/videoseries?list=PLzrOS24IvDg2er-Tr4zM54y7tB6EWHV8m'},
+  {id:'edc',cat:'FESTIVAL',maxIdx:1,label:'\u26A1 Electric Daisy Carnival \u2014 Las Vegas',embed:'https://www.youtube.com/embed/VJrd9doSRwA',url:'https://lasvegas.electricdaisycarnival.com'},
+  {id:'coachella',cat:'FESTIVAL',maxIdx:40,label:'\uD83C\uDF34 Coachella \u2014 California',embed:'https://www.youtube.com/embed/videoseries?list=PLIjqRbAQP0WKzta60mC1aINWniI0OTk8Z',url:'https://www.coachella.com'},
+  {id:'ultra',cat:'FESTIVAL',maxIdx:40,label:'\uD83C\uDFA7 Ultra Music Fest',embed:'https://www.youtube.com/embed/0psLTNmJM38?list=PLBg1SJiXSxfJ6lee3le9qRtIFLkdFwd8E',url:'https://ultramusicfestival.com'},
+  {id:'coachella-dj',cat:'FESTIVAL',maxIdx:50,label:'\uD83C\uDF39 Coachella DJ Sets',embed:'https://www.youtube.com/embed/videoseries?list=PLIjqRbAQP0WIkL5rzNwl19gVHMT0T93NH',url:'https://www.coachella.com'},
+  {id:'tomorrowland',cat:'FESTIVAL',maxIdx:50,label:'\uD83C\uDF0D Tomorrowland',embed:'https://www.youtube.com/embed/acExYGsV2SU?list=PLoSIOFPSXQoN-uoi-Bn6R4JA8C4beRJsU',url:'https://www.tomorrowland.com'},
+  {id:'tomorrowland-winter',cat:'FESTIVAL',maxIdx:30,label:'\u2744\uFE0F Tomorrowland Winter',embed:'https://www.youtube.com/embed/gUrIVfzGg9U?list=PLoSIOFPSXQoOx5SBOrejTmvsC6wJhUvl1',url:'https://www.tomorrowland.com/en/winter'},
+  {id:'tomorrowland-brasil',cat:'FESTIVAL',maxIdx:30,label:'\uD83C\uDDE7\uD83C\uDDF7 Tomorrowland Brasil',embed:'https://www.youtube.com/embed/hbXhiCyGYx0?list=PLoSIOFPSXQoMwpfuQrKNGXb30FW5cBYJP',url:'https://www.tomorrowland.com'},
+  {id:'glastonbury',cat:'FESTIVAL',maxIdx:40,label:'\uD83C\uDF7E Glastonbury Classics',embed:'https://www.youtube.com/embed/4VlAYrOK0RM?list=PLPEH9n2NIpqyLh_f3rTfnCH7F2v0k9MUV',url:'https://www.glastonburyfestivals.co.uk'},
+  {id:'creamfields',cat:'FESTIVAL',maxIdx:30,label:'\uD83C\uDFA8 Creamfields',embed:'https://www.youtube.com/embed/mrAi6lvPoP0?list=PLThryQTnOzUZhmFS6hxUhlnD8Y7ftxR0u',url:'https://www.creamfields.com'},
+  {id:'lostlands',cat:'FESTIVAL',maxIdx:30,label:'\uD83C\uDF32 Lost Lands',embed:'https://www.youtube.com/embed/b29GV8RODIc?list=PLK2KdupVnODMzWyy7LLbKqfldBevub1OX',url:'https://www.lostlandsfestival.com'},
+  {id:'awakenings',cat:'FESTIVAL',maxIdx:30,label:'\uD83D\uDD0A Awakenings',embed:'https://www.youtube.com/embed/OWdgrl2W5W0?list=PLx2MVuP_pkQjkUwJVjZ1_NBv4hLXdU31v',url:'https://www.awakenings.com'},
+  {id:'lucidity',cat:'FESTIVAL',maxIdx:20,label:'\uD83C\uDF19 Lucidity',embed:'https://www.youtube.com/embed/o9ast9cAnLc?list=PLNE3b80YbdkmIGZM7vmVH6ltftUBEEVhq'},
+  {id:'daytrip',cat:'FESTIVAL',maxIdx:30,label:'\uD83C\uDFB5 Day Trip',embed:'https://www.youtube.com/embed/videoseries?list=PLzrOS24IvDg2er-Tr4zM54y7tB6EWHV8m'},
   /* CLUBS */
-  {id:'ushuaia',cat:'CLUB',maxIdx:40,label:'\uD83C\uDFD6\uFE0F Ushia\u00EFa Ibiza',
-   embed:'https://www.youtube.com/embed/Ci_T8FG-fVo?list=PLBnY7C_EK6mobzx3NxO0QCtwzTU1dwfrP'},
-  {id:'boilerroom-sheffield',cat:'CLUB',maxIdx:50,label:'\uD83C\uDF99\uFE0F Boiler Room \u2014 Sheffield',
-   embed:'https://www.youtube.com/embed/KmRqOaS_6FI?list=PLx3QyNMosJdyX8cHLHhynbH50sHiN9Wpa'},
-  {id:'boilerroom-trending',cat:'CLUB',maxIdx:50,label:'\uD83C\uDF99\uFE0F Boiler Room Trending',
-   embed:'https://www.youtube.com/embed/videoseries?list=PLx3QyNMosJdzB-NH7ZdQf_FrOt2Uu2D9T'},
-  {id:'boilerroom-fresh',cat:'CLUB',maxIdx:30,label:'\uD83C\uDF99\uFE0F Boiler Room Fresh',
-   embed:'https://www.youtube.com/embed/videoseries?list=PLx3QyNMosJdzDzBt2XYB-pKrDlJ5Ph7aY'},
+  {id:'ushuaia',cat:'CLUB',maxIdx:40,label:'\uD83C\uDFD6\uFE0F Ushia\u00EFa Ibiza',embed:'https://www.youtube.com/embed/Ci_T8FG-fVo?list=PLBnY7C_EK6mobzx3NxO0QCtwzTU1dwfrP',url:'https://www.theushuaiaexperience.com'},
+  {id:'boilerroom-sheffield',cat:'CLUB',maxIdx:50,label:'\uD83C\uDF99\uFE0F Boiler Room \u2014 Sheffield',embed:'https://www.youtube.com/embed/KmRqOaS_6FI?list=PLx3QyNMosJdyX8cHLHhynbH50sHiN9Wpa'},
+  {id:'boilerroom-trending',cat:'CLUB',maxIdx:50,label:'\uD83C\uDF99\uFE0F Boiler Room Trending',embed:'https://www.youtube.com/embed/videoseries?list=PLx3QyNMosJdzB-NH7ZdQf_FrOt2Uu2D9T'},
+  {id:'boilerroom-fresh',cat:'CLUB',maxIdx:30,label:'\uD83C\uDF99\uFE0F Boiler Room Fresh',embed:'https://www.youtube.com/embed/videoseries?list=PLx3QyNMosJdzDzBt2XYB-pKrDlJ5Ph7aY'},
   /* ARTISTS */
-  {id:'prettylights',cat:'ARTIST',maxIdx:1,label:'\uD83D\uDCA1 Pretty Lights Live',
-   embed:'https://www.youtube.com/embed/QSw61raIxyM'},
-  {id:'astrix',cat:'ARTIST',maxIdx:1,label:'\uD83D\uDD25 Astrix Live',
-   embed:'https://www.youtube.com/embed/1GFb-6UHFuE'},
-  {id:'classmatic',cat:'ARTIST',maxIdx:30,label:'\uD83C\uDFBC Classmatic Live',
-   embed:'https://www.youtube.com/embed/E4r0p5xeWXE?list=PLu_uwpMLoV0meDFttcusIUy0vze9hkyME'},
-  {id:'unity',cat:'ARTIST',maxIdx:20,label:'\uD83C\uDFB6 Unity Live',
-   embed:'https://www.youtube.com/embed/op29bgeM3zI?list=PLvmn9Ssy7H3zRe6XrCYPoUykVso4wmXbg'},
-  {id:'pinkfloyd',cat:'ARTIST',maxIdx:1,label:'\uD83D\uDFE3 Pink Floyd Live 1994',
-   embed:'https://www.youtube.com/embed/MLie88A7SZU'},
-  {id:'muse',cat:'ARTIST',maxIdx:1,label:'\uD83D\uDD35 Muse Live',
-   embed:'https://www.youtube.com/embed/PQdBUEXxCoo'},
-  {id:'linkinpark',cat:'ARTIST',maxIdx:1,label:'\uD83D\uDFE4 Linkin Park Live',
-   embed:'https://www.youtube.com/embed/7Mxg4VkkRRI'},
-  {id:'incubus',cat:'ARTIST',maxIdx:30,label:'\uD83D\uDFE0 Incubus Live',
-   embed:'https://www.youtube.com/embed/JS-Dpwq1j9I?list=PLNWsysQ4t2gIJm2NEb6TwmJuCYnMBSmLY'},
-  {id:'michaeljackson',cat:'ARTIST',maxIdx:30,label:'\uD83E\uDD4A Michael Jackson',
-   embed:'https://www.youtube.com/embed/SDDC-QdOR14?list=RDSDDC-QdOR14'},
+  {id:'prettylights',cat:'ARTIST',maxIdx:1,label:'\uD83D\uDCA1 Pretty Lights Live',embed:'https://www.youtube.com/embed/QSw61raIxyM'},
+  {id:'astrix',cat:'ARTIST',maxIdx:1,label:'\uD83D\uDD25 Astrix Live',embed:'https://www.youtube.com/embed/1GFb-6UHFuE'},
+  {id:'classmatic',cat:'ARTIST',maxIdx:30,label:'\uD83C\uDFBC Classmatic Live',embed:'https://www.youtube.com/embed/E4r0p5xeWXE?list=PLu_uwpMLoV0meDFttcusIUy0vze9hkyME'},
+  {id:'unity',cat:'ARTIST',maxIdx:20,label:'\uD83C\uDFB6 Unity Live',embed:'https://www.youtube.com/embed/op29bgeM3zI?list=PLvmn9Ssy7H3zRe6XrCYPoUykVso4wmXbg'},
+  {id:'pinkfloyd',cat:'ARTIST',maxIdx:1,label:'\uD83D\uDFE3 Pink Floyd Live 1994',embed:'https://www.youtube.com/embed/MLie88A7SZU'},
+  {id:'muse',cat:'ARTIST',maxIdx:1,label:'\uD83D\uDD35 Muse Live',embed:'https://www.youtube.com/embed/PQdBUEXxCoo'},
+  {id:'linkinpark',cat:'ARTIST',maxIdx:1,label:'\uD83D\uDFE4 Linkin Park Live',embed:'https://www.youtube.com/embed/7Mxg4VkkRRI'},
+  {id:'incubus',cat:'ARTIST',maxIdx:30,label:'\uD83D\uDFE0 Incubus Live',embed:'https://www.youtube.com/embed/JS-Dpwq1j9I?list=PLNWsysQ4t2gIJm2NEb6TwmJuCYnMBSmLY'},
+  {id:'michaeljackson',cat:'ARTIST',maxIdx:30,label:'\uD83E\uDD4A Michael Jackson',embed:'https://www.youtube.com/embed/SDDC-QdOR14?list=RDSDDC-QdOR14'},
   /* RADIO */
-  {id:'edm1',cat:'RADIO',maxIdx:80,label:'\uD83C\uDF9B\uFE0F General EDM Station',
-   embed:'https://www.youtube.com/embed/amJ8uKUU_fE?list=PLfE0pS819ps4F5UZ8fw5HU0xKZZs_AHkY'},
-  {id:'edm2',cat:'RADIO',maxIdx:60,label:'\uD83C\uDF9B\uFE0F General EDM Station 2',
-   embed:'https://www.youtube.com/embed/kG0SVvz9e-g?list=PL0vg5Od16vrb8tMmoLZa6Q1eh41iQlY23'},
+  {id:'edm1',cat:'RADIO',maxIdx:80,label:'\uD83C\uDF9B\uFE0F General EDM Station',embed:'https://www.youtube.com/embed/amJ8uKUU_fE?list=PLfE0pS819ps4F5UZ8fw5HU0xKZZs_AHkY'},
+  {id:'edm2',cat:'RADIO',maxIdx:60,label:'\uD83C\uDF9B\uFE0F General EDM Station 2',embed:'https://www.youtube.com/embed/kG0SVvz9e-g?list=PL0vg5Od16vrb8tMmoLZa6Q1eh41iQlY23'},
   /* CONCERTS */
-  {id:'concerts-4k',cat:'CONCERT',maxIdx:40,label:'\uD83C\uDFAC 4K UHD Live Concerts',
-   embed:'https://www.youtube.com/embed/ldWvm-ZqKaY?list=PLL_UCi3tgYwQddQqOlMsX6ZeubyQtGtcc'},
-  {id:'concerts-live',cat:'CONCERT',maxIdx:50,label:'\uD83C\uDFAC Live Concert Channel',
-   embed:'https://www.youtube.com/embed/sVNLMOgTKik?list=PL9760EA8B9633FCC0'},
+  {id:'concerts-4k',cat:'CONCERT',maxIdx:40,label:'\uD83C\uDFAC 4K UHD Live Concerts',embed:'https://www.youtube.com/embed/ldWvm-ZqKaY?list=PLL_UCi3tgYwQddQqOlMsX6ZeubyQtGtcc'},
+  {id:'concerts-live',cat:'CONCERT',maxIdx:50,label:'\uD83C\uDFAC Live Concert Channel',embed:'https://www.youtube.com/embed/sVNLMOgTKik?list=PL9760EA8B9633FCC0'},
   /* ROCK */
-  {id:'rock-live1',cat:'ROCK',maxIdx:50,label:'\uD83C\uDFB8 Live Rock N Roll Channel',
-   embed:'https://www.youtube.com/embed/N0dbGGvsjf8?list=PLr_3_vOUiFjDDLaRNKmAnqbc-uzgRdfNu'},
-  {id:'rock-live2',cat:'ROCK',maxIdx:50,label:'\uD83C\uDFB8 Rock N Roll Channel \u00232',
-   embed:'https://www.youtube.com/embed/Z3OId9eT0lk?list=PL2N_sVGOb3clqyWSLspkp8BAv4FBfBaxH'},
-  {id:'retro-rock1',cat:'ROCK',maxIdx:60,label:'\uD83C\uDFB8 Retro Rock Channel',
-   embed:'https://www.youtube.com/embed/aWmkuH1k7uA?list=PLplXQ2cg9B_o1X-Knd5wgbAi-YDTSbmy-'},
-  {id:'retro-rock2',cat:'ROCK',maxIdx:50,label:'\uD83C\uDFB8 Retro Rock Channel \u00232',
-   embed:'https://www.youtube.com/embed/PEWP9nbqG9Q?list=PLTqks9TihZsCRdWT12_r7lKfxLFE4KdjJ'},
+  {id:'rock-live1',cat:'ROCK',maxIdx:50,label:'\uD83C\uDFB8 Live Rock N Roll Channel',embed:'https://www.youtube.com/embed/N0dbGGvsjf8?list=PLr_3_vOUiFjDDLaRNKmAnqbc-uzgRdfNu'},
+  {id:'rock-live2',cat:'ROCK',maxIdx:50,label:'\uD83C\uDFB8 Rock N Roll Channel \u00232',embed:'https://www.youtube.com/embed/Z3OId9eT0lk?list=PL2N_sVGOb3clqyWSLspkp8BAv4FBfBaxH'},
+  {id:'retro-rock1',cat:'ROCK',maxIdx:60,label:'\uD83C\uDFB8 Retro Rock Channel',embed:'https://www.youtube.com/embed/aWmkuH1k7uA?list=PLplXQ2cg9B_o1X-Knd5wgbAi-YDTSbmy-'},
+  {id:'retro-rock2',cat:'ROCK',maxIdx:50,label:'\uD83C\uDFB8 Retro Rock Channel \u00232',embed:'https://www.youtube.com/embed/PEWP9nbqG9Q?list=PLTqks9TihZsCRdWT12_r7lKfxLFE4KdjJ'},
   /* RETRO / MTV */
-  {id:'mtv-99',cat:'RETRO',maxIdx:1,label:'\uD83D\uDCFA MTV Spring Break 1999',
-   embed:'https://www.youtube.com/embed/YPS4ROQXwdU'},
-  {id:'mtv-2000',cat:'RETRO',maxIdx:1,isArchive:true,label:'\uD83D\uDCFA MTV Spring Break 2000',
-   embed:'https://archive.org/embed/mtv-spring-break-2000'},
-  {id:'mtv-performances',cat:'RETRO',maxIdx:30,label:'\uD83D\uDCFA MTV Spring Break Performances',
-   embed:'https://www.youtube.com/embed/8gcJCN3ibzI?list=PL7q6J5rVHCG54FeMWL82FUw1e-OG4rFHn'},
-  {id:'mtv-1990',cat:'RETRO',maxIdx:1,label:'\uD83D\uDCFA MTV Spring Break 1990',
-   embed:'https://www.youtube.com/embed/mOpuN38KV24'},
-  {id:'mtv-1996',cat:'RETRO',maxIdx:1,label:'\uD83D\uDCFA MTV Spring Break 1996',
-   embed:'https://www.youtube.com/embed/nG_4BnQg9SM'},
-  {id:'mtv-springbreak',cat:'RETRO',maxIdx:40,label:'\uD83D\uDCFA MTV Spring Break',
-   embed:'https://www.youtube.com/embed/videoseries?list=PLYIZQCa2qFD1NtTuxQvWWlcr8cPJTiAoZ'},
-  {id:'mtv-grind1',cat:'RETRO',maxIdx:30,label:'\uD83D\uDCFA MTV The Grind',
-   embed:'https://www.youtube.com/embed/videoseries?list=PLDuXmMxquAlDYpaVx9b5vUXpU-JWokO41'},
-  {id:'mtv-grind2',cat:'RETRO',maxIdx:20,label:'\uD83D\uDCFA MTV The Grind \u00232',
-   embed:'https://www.youtube.com/embed/videoseries?list=PLsYm-8dIbFRvOZhySm8rbD9J2lOHYbp-5'},
-  {id:'retro-mtv',cat:'RETRO',maxIdx:60,label:'\uD83D\uDCFA Retro MTV',
-   embed:'https://www.youtube.com/embed/8N3NC6gx-wg?list=PLW2jIdqxf7EncdalfB3BAAno6a2kwPWrO'},
+  {id:'mtv-99',cat:'RETRO',maxIdx:1,label:'\uD83D\uDCFA MTV Spring Break 1999',embed:'https://www.youtube.com/embed/YPS4ROQXwdU'},
+  {id:'mtv-2000',cat:'RETRO',maxIdx:1,isArchive:true,label:'\uD83D\uDCFA MTV Spring Break 2000',embed:'https://archive.org/embed/mtv-spring-break-2000'},
+  {id:'mtv-performances',cat:'RETRO',maxIdx:30,label:'\uD83D\uDCFA MTV Spring Break Performances',embed:'https://www.youtube.com/embed/8gcJCN3ibzI?list=PL7q6J5rVHCG54FeMWL82FUw1e-OG4rFHn'},
+  {id:'mtv-1990',cat:'RETRO',maxIdx:1,label:'\uD83D\uDCFA MTV Spring Break 1990',embed:'https://www.youtube.com/embed/mOpuN38KV24'},
+  {id:'mtv-1996',cat:'RETRO',maxIdx:1,label:'\uD83D\uDCFA MTV Spring Break 1996',embed:'https://www.youtube.com/embed/nG_4BnQg9SM'},
+  {id:'mtv-springbreak',cat:'RETRO',maxIdx:40,label:'\uD83D\uDCFA MTV Spring Break',embed:'https://www.youtube.com/embed/videoseries?list=PLYIZQCa2qFD1NtTuxQvWWlcr8cPJTiAoZ'},
+  {id:'mtv-grind1',cat:'RETRO',maxIdx:30,label:'\uD83D\uDCFA MTV The Grind',embed:'https://www.youtube.com/embed/videoseries?list=PLDuXmMxquAlDYpaVx9b5vUXpU-JWokO41'},
+  {id:'mtv-grind2',cat:'RETRO',maxIdx:20,label:'\uD83D\uDCFA MTV The Grind \u00232',embed:'https://www.youtube.com/embed/videoseries?list=PLsYm-8dIbFRvOZhySm8rbD9J2lOHYbp-5'},
+  {id:'retro-mtv',cat:'RETRO',maxIdx:60,label:'\uD83D\uDCFA Retro MTV',embed:'https://www.youtube.com/embed/8N3NC6gx-wg?list=PLW2jIdqxf7EncdalfB3BAAno6a2kwPWrO'},
   /* FASHION */
-  {id:'victorias-secret',cat:'FASHION',maxIdx:20,label:'\uD83E\uDE85 Victoria\'s Secret Fashion Shows',
-   embed:'https://www.youtube.com/embed/3MWRooknI-U?list=PLKc-8XN3rXSJsmI3N4LTkZlDgTe7MNQIE'},
-  /* LIVE CAMS — always shown at alternating positions in main grid */
-  {id:'bourbon',cat:'LIVE CAM',maxIdx:1,label:'\uD83C\uDFB7 Bourbon Street \u2014 New Orleans, LA',
-   embed:'https://www.youtube.com/embed/Ksrleaxxxhw'},
-  {id:'bellagio',cat:'LIVE CAM',maxIdx:1,label:'\u2728 The Bellagio \u2014 Las Vegas, NV',
-   embed:'https://www.youtube.com/embed/KJuGU7v5oYw'},
-  {id:'dublin',cat:'LIVE CAM',maxIdx:1,label:'\uD83C\uDF7A Dublin, Ireland',
-   embed:'https://www.youtube.com/embed/3nyPER2kzqk'},
-  {id:'timessquare',cat:'LIVE CAM',maxIdx:1,label:'\uD83D\uDDFD Times Square \u2014 New York City, NY',
-   embed:'https://www.youtube.com/embed/z-jYdOIKcTQ'},
-  {id:'hogsbreath',cat:'LIVE CAM',maxIdx:1,label:'\uD83C\uDF05 Hogs Breath \u2014 Key West, FL',
-   embed:'https://www.youtube.com/embed/S605ycm0Vlk'}
+  {id:'victorias-secret',cat:'FASHION',maxIdx:20,label:"\uD83E\uDE85 Victoria's Secret Fashion Shows",embed:'https://www.youtube.com/embed/3MWRooknI-U?list=PLKc-8XN3rXSJsmI3N4LTkZlDgTe7MNQIE'},
+  /* LIVE CAMS */
+  {id:'bourbon',cat:'LIVE CAM',maxIdx:1,label:'\uD83C\uDFB7 Bourbon Street \u2014 New Orleans, LA',embed:'https://www.youtube.com/embed/Ksrleaxxxhw'},
+  {id:'bellagio',cat:'LIVE CAM',maxIdx:1,label:'\u2728 The Bellagio \u2014 Las Vegas, NV',embed:'https://www.youtube.com/embed/KJuGU7v5oYw'},
+  {id:'dublin',cat:'LIVE CAM',maxIdx:1,label:'\uD83C\uDF7A Dublin, Ireland',embed:'https://www.youtube.com/embed/3nyPER2kzqk'},
+  {id:'timessquare',cat:'LIVE CAM',maxIdx:1,label:'\uD83D\uDDFD Times Square \u2014 New York City, NY',embed:'https://www.youtube.com/embed/z-jYdOIKcTQ'},
+  {id:'hogsbreath',cat:'LIVE CAM',maxIdx:1,label:'\uD83C\uDF05 Hogs Breath \u2014 Key West, FL',embed:'https://www.youtube.com/embed/S605ycm0Vlk'}
 ];
 
-var IS_MOBILE    = window.innerWidth <= 600;
-var _currentMain = [];
+/* ── State ── */
+function loadFavs(){ try { return new Set(JSON.parse(localStorage.getItem('pp:favs')||'[]')); } catch(e){ return new Set(); } }
+function saveFavs(){ try { localStorage.setItem('pp:favs', JSON.stringify(Array.from(PP.favs))); } catch(e){} }
+function isFav(id){ return PP.favs.has(id); }
 
-/* date display */
-(function(){
-  var el = document.getElementById('pp-date');
-  if (el) el.textContent = new Date().toLocaleDateString('en-US',
-    {weekday:'long',year:'numeric',month:'long',day:'numeric'});
-  var fc = document.getElementById('pp-feed-count');
-  if (fc) fc.textContent = PP_ALL_FEEDS.length + ' Channels';
-})();
+var PP = {
+  filterId:'all', search:'', favs:loadFavs(),
+  curMain:[], mQueue:[], mIndex:0, mAuto:false, mAutoTimer:null
+};
 
-/* ════════════════════════════════════════════════════════════
-   MAIN GRID — alternating: even slots=music, odd slots=live cam
-   getFeedSrc() picks a fresh random playlist index each call.
-════════════════════════════════════════════════════════════ */
-function buildMainGrid() {
-  var grid = document.getElementById('pp-video-grid');
-  if (!grid) return;
-  grid.querySelectorAll('iframe').forEach(function(f){ f.src='about:blank'; });
-
-  var musicPool = ppShuffle(PP_ALL_FEEDS.filter(function(f){ return f.cat !== 'LIVE CAM'; }));
-  var camPool   = ppShuffle(PP_ALL_FEEDS.filter(function(f){ return f.cat === 'LIVE CAM'; }));
-
-  _currentMain = [];
-  var mi = 0, ci = 0;
-  for (var slot = 0; slot < 10; slot++) {
-    if (slot % 2 === 0) {
-      if (mi < musicPool.length) _currentMain.push(musicPool[mi++]);
-    } else {
-      if (camPool.length) { _currentMain.push(camPool[ci % camPool.length]); ci++; }
-    }
-  }
-
-  var html = '';
-  _currentMain.forEach(function(feed) {
-    html += '<div class="pp-inset" id="pp-inset-'+feed.id+'">' +
-      '<iframe allow="autoplay; encrypted-media" allowfullscreen></iframe>' +
-      (feed.cat === 'LIVE CAM'
-        ? '<span class="pp-inset-live"><span class="pp-inset-live-dot"></span>LIVE</span>'
-        : '') +
-      '<span class="pp-inset-lbl">'+feed.label+'</span>' +
-    '</div>';
-  });
-  grid.innerHTML = html;
-
-  if (!IS_MOBILE) {
-    var iframes = grid.querySelectorAll('iframe');
-    _currentMain.forEach(function(feed, i){
-      if (iframes[i]) iframes[i].src = getFeedSrc(feed, false);
-    });
-  }
+/* ── Toast ── */
+var _toastT;
+function toast(msg){
+  var t=document.getElementById('pp-toast'); if(!t) return;
+  t.textContent=msg; t.classList.add('pp-show');
+  clearTimeout(_toastT); _toastT=setTimeout(function(){ t.classList.remove('pp-show'); }, 2600);
 }
 
-buildMainGrid();
-document.getElementById('pp-shuffle-btn').addEventListener('click', buildMainGrid);
+/* ── Stations & category filters ── */
+var PP_FILTERS = [
+  {id:'all',          label:'All',                kind:'all'},
+  {id:'fav',          label:'\u2605 Favorites',   kind:'fav',  cls:'pp-fav'},
+  {id:'st-peak',      label:'\uD83D\uDD25 Peak Hours', kind:'cats', cats:['FESTIVAL','CLUB'], cls:'pp-station'},
+  {id:'st-throwback', label:'\uD83D\uDCFC Throwback',  kind:'cats', cats:['RETRO','ROCK'],    cls:'pp-station'},
+  {id:'c-FESTIVAL',   label:'Festivals',          kind:'cat', cat:'FESTIVAL'},
+  {id:'c-CLUB',       label:'Clubs',              kind:'cat', cat:'CLUB'},
+  {id:'c-ARTIST',     label:'Artists',            kind:'cat', cat:'ARTIST'},
+  {id:'c-ROCK',       label:'Rock',               kind:'cat', cat:'ROCK'},
+  {id:'c-RETRO',      label:'Retro',              kind:'cat', cat:'RETRO'},
+  {id:'c-CONCERT',    label:'Concerts',           kind:'cat', cat:'CONCERT'},
+  {id:'c-LIVE CAM',   label:'Live Cams',          kind:'cat', cat:'LIVE CAM'},
+  {id:'c-RADIO',      label:'Radio',              kind:'cat', cat:'RADIO'},
+  {id:'c-FASHION',    label:'Fashion',            kind:'cat', cat:'FASHION'}
+];
 
-/* ════════════════════════════════════════════════════════════
-   PARTY MODE — 12 random channels, reshufflable
-   Same packGrid/overscan algorithm as NUZU Waiting Room.
-   "NEW 12" button in header picks a completely fresh set.
-════════════════════════════════════════════════════════════ */
-(function(){
-  var openBtn   = document.getElementById('pp-mode-btn');
-  var overlay   = document.getElementById('pp-overlay');
-  var closeBtn  = document.getElementById('pp-wrclose');
-  var shufBtn   = document.getElementById('pp-wrshuffle');
-  var grid      = document.getElementById('pp-wrgrid');
-  if (!openBtn || !overlay || !closeBtn || !grid) return;
+function getFilterById(id){ for(var i=0;i<PP_FILTERS.length;i++){ if(PP_FILTERS[i].id===id) return PP_FILTERS[i]; } return PP_FILTERS[0]; }
+function feedMatchesFilter(f, filt){
+  if(filt.kind==='all') return true;
+  if(filt.kind==='fav') return isFav(f.id);
+  if(filt.kind==='cat') return f.cat===filt.cat;
+  if(filt.kind==='cats') return filt.cats.indexOf(f.cat)>=0;
+  return true;
+}
+function getActivePool(){
+  var filt=getFilterById(PP.filterId);
+  var q=PP.search.trim().toLowerCase();
+  return PP_ALL_FEEDS.filter(function(f){
+    if(!feedMatchesFilter(f, filt)) return false;
+    if(q && (f.label+' '+f.cat).toLowerCase().indexOf(q)<0) return false;
+    return true;
+  });
+}
 
-  var _wrOpen = false, _wrFs = false;
-  var VIDEO_AR = 16 / 9;
-  var WR_COUNT = 12;
+function renderChips(){
+  var wrap=document.getElementById('pp-chips'); if(!wrap) return;
+  wrap.innerHTML='';
+  PP_FILTERS.forEach(function(filt){
+    var count;
+    if(filt.kind==='all') count=PP_ALL_FEEDS.length;
+    else if(filt.kind==='fav') count=PP.favs.size;
+    else count=PP_ALL_FEEDS.filter(function(f){ return feedMatchesFilter(f,filt); }).length;
+    var btn=document.createElement('button');
+    btn.className='pp-chip'+(filt.cls?(' '+filt.cls):'')+(PP.filterId===filt.id?' pp-active':'');
+    btn.setAttribute('role','tab');
+    btn.setAttribute('aria-selected', PP.filterId===filt.id?'true':'false');
+    btn.innerHTML=filt.label+(count>0?(' <span class="pp-chip-n">'+count+'</span>'):'');
+    btn.addEventListener('click', function(){ setFilter(filt.id); });
+    wrap.appendChild(btn);
+  });
+}
 
-  function _suspendMain(){
-    document.querySelectorAll('#pp-video-grid iframe').forEach(function(f){ f.src='about:blank'; });
+function setFilter(id){
+  var filt=getFilterById(id);
+  if(filt.kind==='fav' && PP.favs.size===0){ toast('Tap the star on a channel to save favorites'); return; }
+  PP.filterId=id;
+  var s=document.getElementById('pp-search'); if(s){ s.value=''; PP.search=''; }
+  var c=document.getElementById('pp-search-clear'); if(c) c.classList.remove('pp-show');
+  renderChips();
+  renderActiveView(true);
+}
+
+/* ── Favorites ── */
+function toggleFav(id){
+  if(PP.favs.has(id)){ PP.favs.delete(id); toast('Removed from favorites'); }
+  else { PP.favs.add(id); toast('Saved to favorites \u2605'); }
+  saveFavs(); refreshFavUI();
+}
+function refreshFavUI(){
+  renderChips();
+  var nodes=document.querySelectorAll('[data-fav-id]');
+  for(var i=0;i<nodes.length;i++){
+    var b=nodes[i], id=b.getAttribute('data-fav-id'), on=isFav(id);
+    if(b.classList.contains('pp-tool')){ b.classList.toggle('pp-tool-on', on); b.innerHTML= on?'\u2605':'\u2606'; }
+    if(b.classList.contains('pp-mp-fav')){ b.classList.toggle('pp-on', on); b.innerHTML= on?'\u2605':'\u2606'; }
   }
-  function _restoreMain(){
-    var iframes = document.querySelectorAll('#pp-video-grid iframe');
-    _currentMain.forEach(function(feed,i){
-      if (iframes[i]) iframes[i].src = getFeedSrc(feed, false);
-    });
-  }
+  if(PP.filterId==='fav' && PP.favs.size===0){ PP.filterId='all'; renderChips(); renderActiveView(true); }
+}
 
-  function _overscan(cell){
-    var iframe = cell.querySelector('iframe');
-    if (!iframe) return;
-    var cw = cell.clientWidth, ch = cell.clientHeight;
-    if (cw < 1 || ch < 1) return;
-    var ar = cw / ch;
-    var sc = ar < VIDEO_AR ? (ch*VIDEO_AR)/cw : cw/(ch*VIDEO_AR);
-    sc = Math.min(sc, 1.05);
-    iframe.style.cssText = 'position:relative;width:100%;height:100%;border:none;display:block;' +
-      'transform-origin:50% 50%;transform:scale('+sc.toFixed(4)+')';
-  }
+/* ── Audio + fullscreen helpers ── */
+function soloAudio(iframe, inset, btn){
+  var grid=document.getElementById('pp-video-grid'); if(!grid) return;
+  grid.querySelectorAll('iframe').forEach(function(f){ if(f!==iframe) ytCommand(f,'mute'); });
+  grid.querySelectorAll('.pp-inset').forEach(function(el){ el.classList.remove('pp-audio-active'); });
+  grid.querySelectorAll('.pp-tool-unmute').forEach(function(b){ b.classList.remove('pp-on'); b.innerHTML='\uD83D\uDD07'; });
+  ytCommand(iframe,'unMute'); ytCommand(iframe,'setVolume',[100]);
+  if(inset) inset.classList.add('pp-audio-active');
+  if(btn){ btn.classList.add('pp-on'); btn.innerHTML='\uD83D\uDD0A'; }
+}
+function goFs(el){ try{ if(el.requestFullscreen) el.requestFullscreen(); else if(el.webkitRequestFullscreen) el.webkitRequestFullscreen(); }catch(e){} }
 
-  function packGrid(){
-    var cells = grid.querySelectorAll('.pp-wrcell');
-    var n = cells.length; if (!n) return;
-    var W = overlay.clientWidth  || window.innerWidth;
-    var H = (overlay.clientHeight || window.innerHeight) - 44;
-    if (W < 1 || H < 1) return;
-    var GAP = 4, best = {cols:4, rows:3, score:-Infinity};
-    for (var c = 2; c <= 8; c++){
-      var r  = Math.ceil(n/c);
-      var cw = (W - GAP*(c-1) - 6)/c;
-      var ch = (H - GAP*(r-1) - 6)/r;
-      if (cw < 1 || ch < 1) continue;
-      var ov  = (cw/ch) < VIDEO_AR ? (ch*VIDEO_AR/cw) : (cw/(ch*VIDEO_AR));
-      var scr = (n/(c*r))*10 - (ov-1)*3;
-      if (scr > best.score) best = {cols:c, rows:r, score:scr};
+/* ════════ DESKTOP VIDEO WALL ════════ */
+function buildMainGrid(){
+  var grid=document.getElementById('pp-video-grid'); if(!grid) return;
+  grid.querySelectorAll('iframe').forEach(function(f){ f.src='about:blank'; });
+  var filt=getFilterById(PP.filterId), pool=getActivePool(), chosen;
+  if(filt.kind==='all' && !PP.search){
+    var music=ppShuffle(pool.filter(function(f){ return f.cat!=='LIVE CAM'; }));
+    var cams =ppShuffle(pool.filter(function(f){ return f.cat==='LIVE CAM'; }));
+    chosen=[]; var mi=0,ci=0;
+    for(var slot=0;slot<10;slot++){
+      if(slot%2===0){ if(mi<music.length) chosen.push(music[mi++]); }
+      else { if(cams.length){ chosen.push(cams[ci%cams.length]); ci++; } }
     }
-    grid.style.gridTemplateColumns = 'repeat('+best.cols+',1fr)';
-    grid.style.gridTemplateRows    = 'repeat('+best.rows+',1fr)';
+    while(chosen.length<Math.min(10,pool.length) && mi<music.length){ chosen.push(music[mi++]); }
+  } else { chosen=ppShuffle(pool).slice(0,10); }
+  PP.curMain=chosen;
+  grid.innerHTML='';
+  if(!chosen.length){
+    grid.innerHTML='<div class="pp-grid-empty">No channels match <b>'+escHtml(filt.label.replace(/^[^A-Za-z]+/,'').trim()||'this station')+'</b>'+(PP.search?(' &middot; &ldquo;'+escHtml(PP.search)+'&rdquo;'):'')+'. Try another station.</div>';
+    return;
+  }
+  chosen.forEach(function(feed){
+    var inset=document.createElement('div'); inset.className='pp-inset'; inset.id='pp-inset-'+feed.id;
+    var iframe=document.createElement('iframe');
+    iframe.setAttribute('allow','autoplay; encrypted-media; fullscreen');
+    iframe.setAttribute('allowfullscreen',''); iframe.setAttribute('frameborder','0');
+    iframe.src=getFeedSrc(feed);
+    inset.appendChild(iframe);
+    var tools=document.createElement('div'); tools.className='pp-inset-tools';
+    var bUn=document.createElement('button'); bUn.className='pp-tool pp-tool-unmute'; bUn.title='Unmute'; bUn.setAttribute('aria-label','Unmute'); bUn.innerHTML='\uD83D\uDD07';
+    bUn.addEventListener('click', function(ev){ ev.stopPropagation(); soloAudio(iframe, inset, bUn); });
+    var bFs=document.createElement('button'); bFs.className='pp-tool'; bFs.title='Fullscreen'; bFs.setAttribute('aria-label','Fullscreen'); bFs.innerHTML='\u26F6';
+    bFs.addEventListener('click', function(ev){ ev.stopPropagation(); goFs(iframe); });
+    var bFav=document.createElement('button'); bFav.className='pp-tool'+(isFav(feed.id)?' pp-tool-on':''); bFav.title='Save channel'; bFav.setAttribute('aria-label','Save channel'); bFav.setAttribute('data-fav-id',feed.id); bFav.innerHTML= isFav(feed.id)?'\u2605':'\u2606';
+    bFav.addEventListener('click', function(ev){ ev.stopPropagation(); toggleFav(feed.id); });
+    tools.appendChild(bUn); tools.appendChild(bFs); tools.appendChild(bFav);
+    inset.appendChild(tools);
+    if(feed.cat==='LIVE CAM'){
+      var live=document.createElement('span'); live.className='pp-inset-live'; live.innerHTML='<span class="pp-inset-live-dot"></span>LIVE'; inset.appendChild(live);
+    } else {
+      var cat=document.createElement('span'); cat.className='pp-inset-cat'; cat.textContent=feed.cat; inset.appendChild(cat);
+    }
+    var lbl=document.createElement('span'); lbl.className='pp-inset-lbl'; lbl.textContent=feed.label; inset.appendChild(lbl);
+    inset.addEventListener('click', function(){ soloAudio(iframe, inset, bUn); });
+    grid.appendChild(inset);
+  });
+}
+
+/* ════════ MOBILE SINGLE PLAYER — shuffle one channel at a time ════════ */
+function buildMobileQueue(){ var pool=getActivePool(); PP.mQueue=pool.length?ppShuffle(pool):[]; PP.mIndex=0; }
+function curMobileFeed(){ return PP.mQueue.length?PP.mQueue[PP.mIndex%PP.mQueue.length]:null; }
+function stopMobileFrame(){ var f=document.getElementById('pp-mp-iframe'); if(f) f.src='about:blank'; }
+function startMobileAuto(){ stopMobileAuto(); PP.mAutoTimer=setTimeout(function(){ mobileNext(); }, 105000); }
+function stopMobileAuto(){ if(PP.mAutoTimer){ clearTimeout(PP.mAutoTimer); PP.mAutoTimer=null; } }
+function mobileNext(){ if(!PP.mQueue.length) return; PP.mIndex=(PP.mIndex+1)%PP.mQueue.length; renderMobilePlayer(); }
+function mobilePrev(){ if(!PP.mQueue.length) return; PP.mIndex=(PP.mIndex-1+PP.mQueue.length)%PP.mQueue.length; renderMobilePlayer(); }
+function mobileToggleAuto(){ PP.mAuto=!PP.mAuto; toast(PP.mAuto?'Auto-shuffle on \u00B7 new channel ~100s':'Auto-shuffle off'); var b=document.getElementById('pp-mp-auto'); if(b) b.classList.toggle('pp-on',PP.mAuto); if(PP.mAuto) startMobileAuto(); else stopMobileAuto(); }
+
+function renderMobilePlayer(){
+  var box=document.getElementById('pp-mplayer'); if(!box) return;
+  stopMobileAuto();
+  var feed=curMobileFeed(), filt=getFilterById(PP.filterId);
+  var label=(filt.label.replace(/^[^A-Za-z]+/,'').trim())||'All';
+  if(!feed){
+    box.innerHTML='<div class="pp-mp-empty">No channels match <b>'+escHtml(label)+'</b>'+(PP.search?(' &middot; &ldquo;'+escHtml(PP.search)+'&rdquo;'):'')+'.<br>Try another station.</div>';
+    return;
+  }
+  var n=PP.mQueue.length, pos=(PP.mIndex%n)+1, isCam=feed.cat==='LIVE CAM';
+  box.innerHTML=''
+    +'<div class="pp-mp-context"><span class="pp-mp-context-l">Now playing <b>'+pos+'</b> / '+n+' \u00B7 '+escHtml(label)+'</span>'
+    +'<button class="pp-mp-auto'+(PP.mAuto?' pp-on':'')+'" id="pp-mp-auto" aria-pressed="'+(PP.mAuto?'true':'false')+'">\u27F3 Auto</button></div>'
+    +'<div class="pp-mp-frame"><iframe id="pp-mp-iframe" allow="autoplay; encrypted-media; fullscreen" allowfullscreen frameborder="0" src="'+getFeedSrc(feed)+'"></iframe>'
+    +(isCam?'<span class="pp-mp-live"><span class="pp-inset-live-dot"></span>LIVE</span>':'')
+    +'<button class="pp-mp-mute" id="pp-mp-mute">\uD83D\uDD07 Unmute</button></div>'
+    +'<div class="pp-mp-meta"><button class="pp-mp-fav'+(isFav(feed.id)?' pp-on':'')+'" id="pp-mp-fav" data-fav-id="'+feed.id+'" title="Save channel" aria-label="Save channel">'+(isFav(feed.id)?'\u2605':'\u2606')+'</button>'
+    +'<div class="pp-mp-titles"><div class="pp-mp-name">'+escHtml(feed.label)+'</div>'
+    +'<div class="pp-mp-sub"><span class="pp-mp-cat">'+escHtml(feed.cat)+'</span>'+(feed.url?('<a class="pp-mp-link" href="'+feed.url+'" target="_blank" rel="noopener">Official site \u2197</a>'):'')+'</div></div></div>'
+    +'<div class="pp-mp-controls"><button class="pp-mbtn" id="pp-mp-prev">\u25C0 Prev</button>'
+    +'<button class="pp-mbtn pp-mbtn-primary" id="pp-mp-next">\u27F3 Shuffle Next</button></div>'
+    +'<div class="pp-mp-hint">Swipe the video left / right to change channels \u00B7 tap Unmute for sound</div>';
+  document.getElementById('pp-mp-next').addEventListener('click', mobileNext);
+  document.getElementById('pp-mp-prev').addEventListener('click', mobilePrev);
+  document.getElementById('pp-mp-auto').addEventListener('click', mobileToggleAuto);
+  document.getElementById('pp-mp-fav').addEventListener('click', function(){ toggleFav(feed.id); });
+  var iframe=document.getElementById('pp-mp-iframe'), mute=document.getElementById('pp-mp-mute'), muted=true;
+  mute.addEventListener('click', function(){
+    muted=!muted;
+    if(muted){ ytCommand(iframe,'mute'); mute.classList.remove('pp-on'); mute.innerHTML='\uD83D\uDD07 Unmute'; }
+    else { ytCommand(iframe,'unMute'); ytCommand(iframe,'setVolume',[100]); mute.classList.add('pp-on'); mute.innerHTML='\uD83D\uDD0A Mute'; }
+  });
+  var frame=box.querySelector('.pp-mp-frame'), sx=null;
+  frame.addEventListener('touchstart', function(e){ sx=e.touches[0].clientX; }, {passive:true});
+  frame.addEventListener('touchend', function(e){ if(sx===null) return; var dx=e.changedTouches[0].clientX-sx; sx=null; if(Math.abs(dx)>45){ if(dx<0) mobileNext(); else mobilePrev(); } }, {passive:true});
+  if(PP.mAuto) startMobileAuto();
+}
+
+/* ── View router (desktop wall vs mobile player) ── */
+function IS_NARROW(){ return window.matchMedia('(max-width:600px)').matches; }
+function renderActiveView(rebuild){
+  var narrow=IS_NARROW(), pool=getActivePool();
+  var hint=document.getElementById('pp-feeds-hint');
+  if(hint){
+    hint.textContent = narrow
+      ? ('Tap Shuffle for a new channel \u00B7 swipe to change \u00B7 '+pool.length+' in this station')
+      : ('Showing up to 10 of '+pool.length+' channels \u00B7 Click SHUFFLE to change \u00B7 Party Mode for full wall');
+  }
+  if(narrow){
+    var grid=document.getElementById('pp-video-grid'); if(grid) grid.querySelectorAll('iframe').forEach(function(f){ f.src='about:blank'; });
+    if(rebuild || !PP.mQueue.length) buildMobileQueue();
+    renderMobilePlayer();
+  } else {
+    stopMobileAuto(); stopMobileFrame();
+    var box=document.getElementById('pp-mplayer'); if(box) box.innerHTML='';
+    buildMainGrid();
+  }
+}
+(function(){
+  var mq=window.matchMedia('(max-width:600px)');
+  var handler=function(){ renderActiveView(true); };
+  if(mq.addEventListener) mq.addEventListener('change', handler); else if(mq.addListener) mq.addListener(handler);
+})();
+function shuffleCurrent(){ if(IS_NARROW()){ buildMobileQueue(); renderMobilePlayer(); } else { buildMainGrid(); } }
+
+/* ════════ PARTY MODE (desktop only) ════════ */
+(function(){
+  var openBtn=document.getElementById('pp-mode-btn'), overlay=document.getElementById('pp-overlay'),
+      closeBtn=document.getElementById('pp-wrclose'), shufBtn=document.getElementById('pp-wrshuffle'),
+      grid=document.getElementById('pp-wrgrid');
+  if(!openBtn||!overlay||!closeBtn||!grid) return;
+  var _wrOpen=false,_wrFs=false,VIDEO_AR=16/9,WR_COUNT=12;
+  function _suspendMain(){ document.querySelectorAll('#pp-video-grid iframe').forEach(function(f){ f.src='about:blank'; }); }
+  function _restoreMain(){ if(!IS_NARROW()) buildMainGrid(); }
+  function _overscan(cell){
+    var iframe=cell.querySelector('iframe'); if(!iframe) return;
+    var cw=cell.clientWidth, ch=cell.clientHeight; if(cw<1||ch<1) return;
+    var ar=cw/ch, sc= ar<VIDEO_AR ? (ch*VIDEO_AR)/cw : cw/(ch*VIDEO_AR);
+    sc=Math.min(sc,1.05);
+    iframe.style.cssText='position:relative;width:100%;height:100%;border:none;display:block;transform-origin:50% 50%;transform:scale('+sc.toFixed(4)+')';
+  }
+  function packGrid(){
+    var cells=grid.querySelectorAll('.pp-wrcell'); var n=cells.length; if(!n) return;
+    var W=overlay.clientWidth||window.innerWidth, H=(overlay.clientHeight||window.innerHeight)-44;
+    if(W<1||H<1) return;
+    var GAP=4, best={cols:4,rows:3,score:-Infinity};
+    for(var c=2;c<=8;c++){
+      var r=Math.ceil(n/c), cw=(W-GAP*(c-1)-6)/c, ch=(H-GAP*(r-1)-6)/r;
+      if(cw<1||ch<1) continue;
+      var ov=(cw/ch)<VIDEO_AR ? (ch*VIDEO_AR/cw) : (cw/(ch*VIDEO_AR));
+      var scr=(n/(c*r))*10-(ov-1)*3;
+      if(scr>best.score) best={cols:c,rows:r,score:scr};
+    }
+    grid.style.gridTemplateColumns='repeat('+best.cols+',1fr)';
+    grid.style.gridTemplateRows='repeat('+best.rows+',1fr)';
     void grid.offsetWidth;
     cells.forEach(function(cell){ _overscan(cell); });
   }
-
   function buildWR(){
-    grid.innerHTML = '';
-    /* pick WR_COUNT random feeds — fresh random playlist index per cell */
-    ppShuffle(PP_ALL_FEEDS).slice(0, WR_COUNT).forEach(function(feed){
-      var cell = document.createElement('div'); cell.className = 'pp-wrcell';
-      var iframe = document.createElement('iframe');
-      iframe.src = getFeedSrc(feed, true);
-      iframe.setAttribute('allow','autoplay; encrypted-media; fullscreen');
-      iframe.setAttribute('allowfullscreen','');
-      iframe.setAttribute('frameborder','0');
-      var lbl = document.createElement('div');
-      lbl.className = 'pp-wrlbl'; lbl.textContent = feed.label;
-      var cat = document.createElement('div');
-      cat.className = 'pp-wrcatbadge'; cat.textContent = feed.cat;
+    grid.innerHTML='';
+    var pool=getActivePool(); if(pool.length<1) pool=PP_ALL_FEEDS.slice();
+    ppShuffle(pool).slice(0,WR_COUNT).forEach(function(feed){
+      var cell=document.createElement('div'); cell.className='pp-wrcell';
+      var iframe=document.createElement('iframe'); iframe.src=getFeedSrc(feed);
+      iframe.setAttribute('allow','autoplay; encrypted-media; fullscreen'); iframe.setAttribute('allowfullscreen',''); iframe.setAttribute('frameborder','0');
+      var lbl=document.createElement('div'); lbl.className='pp-wrlbl'; lbl.textContent=feed.label;
+      var cat=document.createElement('div'); cat.className='pp-wrcatbadge'; cat.textContent=feed.cat;
       cell.appendChild(iframe); cell.appendChild(lbl); cell.appendChild(cat);
+      cell.addEventListener('click', function(){
+        grid.querySelectorAll('iframe').forEach(function(f){ if(f!==iframe) ytCommand(f,'mute'); });
+        grid.querySelectorAll('.pp-wrcell').forEach(function(c){ c.classList.remove('pp-active'); });
+        ytCommand(iframe,'unMute'); ytCommand(iframe,'setVolume',[100]); cell.classList.add('pp-active');
+      });
       grid.appendChild(cell);
     });
     requestAnimationFrame(function(){ requestAnimationFrame(packGrid); });
   }
-
-  function reshuffleWR(){
-    grid.querySelectorAll('iframe').forEach(function(f){ f.src='about:blank'; });
-    grid.innerHTML = '';
-    buildWR();
-  }
-
+  function reshuffleWR(){ grid.querySelectorAll('iframe').forEach(function(f){ f.src='about:blank'; }); grid.innerHTML=''; buildWR(); }
   function openWR(){
-    if (_wrOpen) return; _wrOpen = true;
+    if(_wrOpen||IS_NARROW()) return; _wrOpen=true;
     _suspendMain(); buildWR();
-    overlay.classList.add('pp-open');
-    document.body.style.overflow = 'hidden'; _wrFs = false;
-    if (!openWR._resize){
-      openWR._resize = function(){ if (_wrOpen) requestAnimationFrame(packGrid); };
-      window.addEventListener('resize', openWR._resize);
-    }
-    try {
-      var req = overlay.requestFullscreen
-        ? overlay.requestFullscreen()
-        : (overlay.webkitRequestFullscreen
-           ? (overlay.webkitRequestFullscreen(), Promise.resolve()) : Promise.reject(''));
-      if (req && req.then) req.then(function(){
-        _wrFs = true;
-        requestAnimationFrame(function(){ requestAnimationFrame(packGrid); });
-      }).catch(function(){});
-    } catch(e){}
+    overlay.classList.add('pp-open'); document.body.style.overflow='hidden'; _wrFs=false;
+    if(!openWR._resize){ openWR._resize=function(){ if(_wrOpen) requestAnimationFrame(packGrid); }; window.addEventListener('resize', openWR._resize); }
+    try{
+      var req=overlay.requestFullscreen?overlay.requestFullscreen():(overlay.webkitRequestFullscreen?(overlay.webkitRequestFullscreen(),Promise.resolve()):Promise.reject(''));
+      if(req&&req.then) req.then(function(){ _wrFs=true; requestAnimationFrame(function(){ requestAnimationFrame(packGrid); }); }).catch(function(){});
+    }catch(e){}
   }
-
   function closeWR(){
-    if (!_wrOpen) return; _wrOpen = false; _wrFs = false;
-    overlay.classList.remove('pp-open');
-    document.body.style.overflow = '';
-    grid.querySelectorAll('iframe').forEach(function(f){ f.src='about:blank'; });
-    grid.innerHTML = '';
-    try {
-      if (document.fullscreenElement && document.exitFullscreen) document.exitFullscreen();
-      else if (document.webkitFullscreenElement && document.webkitExitFullscreen) document.webkitExitFullscreen();
-    } catch(e){}
-    setTimeout(_restoreMain, 300);
+    if(!_wrOpen) return; _wrOpen=false; _wrFs=false;
+    overlay.classList.remove('pp-open'); document.body.style.overflow='';
+    grid.querySelectorAll('iframe').forEach(function(f){ f.src='about:blank'; }); grid.innerHTML='';
+    try{ if(document.fullscreenElement&&document.exitFullscreen) document.exitFullscreen(); else if(document.webkitFullscreenElement&&document.webkitExitFullscreen) document.webkitExitFullscreen(); }catch(e){}
+    setTimeout(_restoreMain,300);
   }
-
   openBtn.addEventListener('click', openWR);
   closeBtn.addEventListener('click', closeWR);
-  if (shufBtn) shufBtn.addEventListener('click', reshuffleWR);
-  document.addEventListener('keydown', function(e){
-    if (e.key !== 'Escape' || !_wrOpen) return;
-    if (!(document.fullscreenElement || document.webkitFullscreenElement)) closeWR();
-  });
-  ['fullscreenchange','webkitfullscreenchange'].forEach(function(ev){
-    document.addEventListener(ev, function(){
-      if (!(document.fullscreenElement||document.webkitFullscreenElement) && _wrOpen && _wrFs)
-        _wrFs = false;
-    });
-  });
+  if(shufBtn) shufBtn.addEventListener('click', reshuffleWR);
+  document.addEventListener('keydown', function(e){ if(e.key!=='Escape'||!_wrOpen) return; if(!(document.fullscreenElement||document.webkitFullscreenElement)) closeWR(); });
+  ['fullscreenchange','webkitfullscreenchange'].forEach(function(ev){ document.addEventListener(ev,function(){ if(!(document.fullscreenElement||document.webkitFullscreenElement)&&_wrOpen&&_wrFs) _wrFs=false; }); });
+  window.__ppOpenParty=openWR;
 })();
 
-/* audio-active mute tracking */
-window.addEventListener('message', function(e){
-  if (!e.data) return;
-  var d; try{ d=typeof e.data==='string'?JSON.parse(e.data):e.data; }catch(x){ return; }
-  if (!d || d.event !== 'infoDelivery') return;
-  var iframes = document.querySelectorAll('#pp-video-grid iframe');
-  var hit = null;
-  iframes.forEach(function(f){ if (f.contentWindow===e.source) hit=f.closest('.pp-inset'); });
-  if (!hit) return;
-  document.querySelectorAll('.pp-inset').forEach(function(inset){
-    inset.classList.remove('pp-audio-active');
-    var f = inset.querySelector('iframe');
-    if (f && inset !== hit){
-      try{ f.contentWindow.postMessage(JSON.stringify({event:'command',func:'mute',args:[]}),'*'); }catch(x){}
-    }
+/* ════════ FESTIVAL COUNTDOWNS (real confirmed 2026 dates) ════════ */
+var PP_FESTIVALS=[
+  {name:'Tomorrowland', emoji:'\uD83C\uDF0D', where:'Boom, Belgium',       start:'2026-07-17T16:00:00+02:00', dateLabel:'Jul 17\u201319 & 24\u201326', url:'https://www.tomorrowland.com'},
+  {name:'Lollapalooza', emoji:'\uD83C\uDFB8', where:'Chicago, IL',         start:'2026-07-30T11:00:00-05:00', dateLabel:'Jul 30 \u2013 Aug 2',        url:'https://www.lollapalooza.com'},
+  {name:'Creamfields',  emoji:'\uD83C\uDFA8', where:'Daresbury, UK',       start:'2026-08-27T12:00:00+01:00', dateLabel:'Aug 27\u201330 (20yr)',      url:'https://www.creamfields.com'},
+  {name:'Burning Man',  emoji:'\uD83D\uDD25', where:'Black Rock City, NV', start:'2026-08-30T00:00:00-07:00', dateLabel:'Aug 30 \u2013 Sep 7',        url:'https://burningman.org'}
+];
+function renderCountdowns(){
+  var row=document.getElementById('pp-cd-row'); if(!row) return;
+  row.innerHTML='';
+  PP_FESTIVALS.forEach(function(ft,i){
+    var card=document.createElement('div'); card.className='pp-cd-card';
+    card.innerHTML='<div class="pp-cd-top"><span class="pp-cd-emoji">'+ft.emoji+'</span><span class="pp-cd-name">'+escHtml(ft.name)+'</span></div>'
+      +'<div class="pp-cd-where">'+escHtml(ft.where)+'</div>'
+      +'<div class="pp-cd-timer" id="pp-cd-t'+i+'"></div>'
+      +'<div class="pp-cd-foot"><span class="pp-cd-date">'+escHtml(ft.dateLabel)+' 2026</span>'+(ft.url?('<a class="pp-cd-link" href="'+ft.url+'" target="_blank" rel="noopener">Tickets \u2197</a>'):'')+'</div>';
+    row.appendChild(card);
   });
-  hit.classList.add('pp-audio-active');
+  tickCountdowns();
+}
+function tickCountdowns(){
+  var now=Date.now();
+  PP_FESTIVALS.forEach(function(ft,i){
+    var el=document.getElementById('pp-cd-t'+i); if(!el) return;
+    var diff=new Date(ft.start).getTime()-now;
+    if(isNaN(diff)){ el.textContent=''; return; }
+    if(diff<=0){ el.innerHTML='<span class="pp-cd-live">\u25CF Happening now</span>'; return; }
+    var s=Math.floor(diff/1000), d=Math.floor(s/86400); s-=d*86400;
+    var h=Math.floor(s/3600); s-=h*3600; var m=Math.floor(s/60); s-=m*60;
+    function seg(v,l){ return '<span class="pp-cd-seg"><b>'+(v<10?'0':'')+v+'</b><span>'+l+'</span></span>'; }
+    el.innerHTML=seg(d,'days')+seg(h,'hrs')+seg(m,'min')+seg(s,'sec');
+  });
+}
+setInterval(tickCountdowns, 1000);
+
+/* ════════ KEYBOARD SHORTCUTS + HELP ════════ */
+function toggleHelp(){ var h=document.getElementById('pp-help'); if(h) h.classList.toggle('pp-open'); }
+document.addEventListener('keydown', function(e){
+  var tag=(e.target&&e.target.tagName)||'', typing=(tag==='INPUT'||tag==='TEXTAREA');
+  if(e.key==='Escape'){
+    var help=document.getElementById('pp-help');
+    if(help&&help.classList.contains('pp-open')){ help.classList.remove('pp-open'); return; }
+    if(typing && e.target.id==='pp-search'){ e.target.blur(); }
+    return;
+  }
+  if(typing) return;
+  var k=e.key.toLowerCase();
+  if(k==='s'){ e.preventDefault(); shuffleCurrent(); }
+  else if(k==='p'){ if(!IS_NARROW() && window.__ppOpenParty){ e.preventDefault(); window.__ppOpenParty(); } }
+  else if(k==='f'){ e.preventDefault(); setFilter(PP.filterId==='fav'?'all':'fav'); }
+  else if(k==='/'){ e.preventDefault(); var s=document.getElementById('pp-search'); if(s) s.focus(); }
+  else if(k==='?'){ e.preventDefault(); toggleHelp(); }
 });
-
-/* ════════════════════════════════════════════════════════════
-   CULTURE FEED — fetch-based (bot writes feed.json only,
-   never modifies index.html — no more accidental JS deletion)
-════════════════════════════════════════════════════════════ */
+document.getElementById('pp-shuffle-btn').addEventListener('click', shuffleCurrent);
+document.getElementById('pp-help-btn').addEventListener('click', toggleHelp);
+document.getElementById('pp-help-close').addEventListener('click', toggleHelp);
+document.getElementById('pp-help').addEventListener('click', function(e){ if(e.target===this) this.classList.remove('pp-open'); });
 (function(){
-  var cols = document.getElementById('pp-culture-cols');
-  if (!cols) return;
+  var s=document.getElementById('pp-search'), c=document.getElementById('pp-search-clear'); if(!s) return;
+  var t;
+  s.addEventListener('input', function(){
+    PP.search=s.value; c.classList.toggle('pp-show', !!s.value);
+    clearTimeout(t); t=setTimeout(function(){ renderActiveView(true); }, 220);
+  });
+  c.addEventListener('click', function(){ s.value=''; PP.search=''; c.classList.remove('pp-show'); s.focus(); renderActiveView(true); });
+})();
 
-  /* show loading state immediately */
-  cols.innerHTML =
-    '<div style="grid-column:1/-1;padding:20px 6px;font-size:.82em;color:var(--dim);letter-spacing:.06em">' +
-    '\u23F3 Loading culture feed\u2026</div>';
+/* ════════ PWA install + service worker ════════ */
+var _deferredPrompt=null;
+window.addEventListener('beforeinstallprompt', function(e){ e.preventDefault(); _deferredPrompt=e; var b=document.getElementById('pp-install-btn'); if(b) b.classList.add('pp-show'); });
+(function(){
+  var b=document.getElementById('pp-install-btn'); if(!b) return;
+  b.addEventListener('click', function(){ if(!_deferredPrompt) return; _deferredPrompt.prompt(); var p=_deferredPrompt.userChoice; _deferredPrompt=null; b.classList.remove('pp-show'); if(p&&p.then) p.then(function(){}); });
+})();
+window.addEventListener('appinstalled', function(){ var b=document.getElementById('pp-install-btn'); if(b) b.classList.remove('pp-show'); toast('Party Portal installed \uD83C\uDF89'); });
+if('serviceWorker' in navigator && (location.protocol==='https:'||location.protocol==='http:')){
+  window.addEventListener('load', function(){ navigator.serviceWorker.register('sw.js').catch(function(){}); });
+}
 
-  var FALLBACK = [
-    {title:'Electric Daisy Carnival Las Vegas announces record 2026 lineup spanning three nights across ten stages',link:'#',src:'EDC Official',time:'2 hr ago',cat:'Festival',hot:true,ts:Math.floor(Date.now()/1000)-7200},
-    {title:'Coachella 2026 lineup drops: massive headliners confirmed across all stages for both weekends',link:'#',src:'Billboard',time:'4 hr ago',cat:'Festival',hot:true,ts:Math.floor(Date.now()/1000)-14400},
-    {title:'Ultra Music Festival Miami breaks all-time attendance record for third consecutive year running',link:'#',src:'Rolling Stone',time:'6 hr ago',cat:'Festival',hot:true,ts:Math.floor(Date.now()/1000)-21600},
-    {title:'Tomorrowland announces 20th anniversary edition spanning three full weekends in Belgium',link:'#',src:'Mixmag',time:'9 hr ago',cat:'Festival',hot:true,ts:Math.floor(Date.now()/1000)-32400},
-    {title:'Ushuaia Ibiza announces summer 2026 DJ residencies with biggest electronic lineup in club history',link:'#',src:'Resident Advisor',time:'12 hr ago',cat:'Club',hot:true,ts:Math.floor(Date.now()/1000)-43200},
-    {title:'Las Vegas Sphere announces immersive 360 degree rave series called Pulse for summer 2026',link:'#',src:'Vegas Weekly',time:'18 hr ago',cat:'Vegas',hot:true,ts:Math.floor(Date.now()/1000)-64800},
-    {title:'Lost Lands festival reveals massive bass and dubstep lineup for 2026 Ohio edition',link:'#',src:'EDM.com',time:'22 hr ago',cat:'Festival',hot:true,ts:Math.floor(Date.now()/1000)-79200},
-    {title:'Glastonbury 2026 headliners revealed as tickets sell out within seconds of going on sale',link:'#',src:'NME',time:'1 day ago',cat:'Festival',hot:false,ts:Math.floor(Date.now()/1000)-90000},
-    {title:'Boiler Room announces global tour hitting 30 cities with underground electronic acts worldwide',link:'#',src:'DJ Mag',time:'1 day ago',cat:'Club',hot:false,ts:Math.floor(Date.now()/1000)-100800},
-    {title:'Victoria Secret returns to runway with fashion show incorporating live music performances',link:'#',src:'Vogue',time:'1 day ago',cat:'Fashion',hot:false,ts:Math.floor(Date.now()/1000)-108000},
-    {title:'MTV celebrates 30 years of Spring Break programming with fully remastered archive release',link:'#',src:'MTV',time:'1 day ago',cat:'Retro',hot:false,ts:Math.floor(Date.now()/1000)-115200},
-    {title:'Awakenings festival Amsterdam confirms outdoor techno extravaganza for full August 2026 run',link:'#',src:'RA',time:'1 day ago',cat:'Festival',hot:false,ts:Math.floor(Date.now()/1000)-122400},
-    {title:'Creamfields UK adds fourth day to 2026 edition due to completely overwhelming ticket demand',link:'#',src:'DJ Mag',time:'2 days ago',cat:'Festival',hot:false,ts:Math.floor(Date.now()/1000)-172800},
-    {title:'Burning Man 2026 confirms theme and largest art installation ever planned for Black Rock City',link:'#',src:'BM Official',time:'2 days ago',cat:'Festival',hot:false,ts:Math.floor(Date.now()/1000)-180000},
-    {title:'Linkin Park surprise concert announcement sends fans into frenzy across social media',link:'#',src:'Pitchfork',time:'2 days ago',cat:'Concert',hot:false,ts:Math.floor(Date.now()/1000)-187200},
-    {title:'Bourbon Street New Orleans ranked number one party destination in the United States again',link:'#',src:'Travel+Leisure',time:'2 days ago',cat:'Nightlife',hot:false,ts:Math.floor(Date.now()/1000)-194400}
-  ];
-
-  function renderCulture(items, updatedTs) {
-    var now      = Math.floor(Date.now() / 1000);
-    var DAY      = 86400;
-    var cutToday = now - DAY;
-    var cutYest  = now - (2 * DAY);
-
-    var today = items.filter(function(i){ return !i.ts || i.ts >= cutToday; });
-    var yest  = items.filter(function(i){ return i.ts && i.ts < cutToday; });
-
-    if (!today.length && items.length) { today = items.slice(0,8); yest = items.slice(8); }
-
-    function hl(item) {
-      var init = (item.src||'PP').replace(/[^A-Z0-9]/gi,'').slice(0,2).toUpperCase()||'PP';
-      var safe = (item.title||'').replace(/</g,'&lt;').replace(/>/g,'&gt;');
-      var href = (item.link && item.link !== '#') ? item.link : null;
-      return '<div class="pp-hl"' +
-        (href ? ' onclick="window.open(\''+href.replace(/'/g,"\\'")+"','_blank')\"" : '') + '>' +
-        '<div class="pp-hl-icon">'+init+'</div>' +
-        '<div class="pp-hl-body">' +
-          '<div class="pp-hl-tags">' +
-            (item.hot ? '<span class="pp-new-dot" aria-hidden="true">&#9679;</span>' : '') +
-            (item.cat ? '<span class="pp-hl-tag">'+item.cat+'</span>' : '') +
-          '</div>' +
-          '<span class="pp-hl-title">'+safe+'</span>' +
-          '<div class="pp-hl-meta">' +
-            (item.src  ? '<span class="pp-hl-src">'+item.src+'</span>'   : '') +
-            (item.time ? '<span class="pp-hl-time">'+item.time+'</span>' : '') +
-            (href ? '<a class="pp-hl-link" href="'+href+'" target="_blank" rel="noopener">Read &#8599;</a>' : '') +
-          '</div>' +
-        '</div></div>';
+/* ════════ CULTURE FEED — real data only (feed.json), no synthetic fallback ════════ */
+(function(){
+  var cols=document.getElementById('pp-culture-cols'); if(!cols) return;
+  function loading(){ cols.innerHTML='<div class="pp-empty">\u23F3 Loading the latest party-culture headlines\u2026</div>'; }
+  function emptyState(msg){
+    cols.innerHTML='<div class="pp-empty"><b>'+escHtml(msg)+'</b><br>This feed pulls real headlines from music &amp; nightlife press and refreshes three times a day.<br><button class="pp-retry" id="pp-retry">Try again</button></div>';
+    var r=document.getElementById('pp-retry'); if(r) r.addEventListener('click', load);
+    var belt=document.getElementById('pp-ticker-belt'); if(belt) belt.innerHTML='';
+  }
+  function trustColor(t){ if(t===1) return 'var(--ok)'; if(t===2) return 'var(--warn)'; return 'var(--dim)'; }
+  function stripSrc(t){ if(!t || t.indexOf(' - ')<0) return t; var p=t.split(' - '); var last=p[p.length-1]; if(last.split(' ').length<=5){ p.pop(); return p.join(' - '); } return t; }
+  loading();
+  function render(items, updatedTs){
+    items=(items||[]).filter(function(i){ return i && i.title; });
+    if(!items.length){ emptyState('No fresh headlines just yet'); return; }
+    var now=Math.floor(Date.now()/1000), DAY=86400, cutToday=now-DAY;
+    var today=items.filter(function(i){ return !i.ts || i.ts>=cutToday; });
+    var yest=items.filter(function(i){ return i.ts && i.ts<cutToday; });
+    if(!today.length){ today=items.slice(0,8); yest=items.slice(8); }
+    function hl(item){
+      var title=stripSrc(item.title);
+      var init=(item.src||'PP').replace(/[^A-Z0-9]/gi,'').slice(0,2).toUpperCase()||'PP';
+      var href=(item.link && item.link!=='#')?item.link:null;
+      var tc=trustColor(item.tier||3);
+      return '<div class="pp-hl"'+(href?(' onclick="window.open(\''+href.replace(/'/g,"\\'")+'\',\'_blank\',\'noopener\')"'):'')+'>'
+        +'<div class="pp-hl-icon">'+init+'</div><div class="pp-hl-body">'
+        +'<div class="pp-hl-tags">'+(item.hot?'<span class="pp-new-dot" aria-hidden="true">\u25CF</span>':'')+(item.cat?'<span class="pp-hl-tag">'+escHtml(item.cat)+'</span>':'')+'</div>'
+        +'<span class="pp-hl-title">'+escHtml(title)+'</span><div class="pp-hl-meta">'
+        +(item.src?('<span class="pp-hl-src"><span class="pp-hl-trust" style="background:'+tc+'"></span>'+escHtml(item.src)+'</span>'):'')
+        +(item.time?('<span class="pp-hl-time">'+escHtml(item.time)+'</span>'):'')
+        +(href?('<a class="pp-hl-link" href="'+href+'" target="_blank" rel="noopener" onclick="event.stopPropagation()">Read \u2197</a>'):'')
+        +'</div></div></div>';
     }
-
-    var todayStr = new Date().toLocaleDateString('en-US',{weekday:'short',month:'short',day:'numeric'});
-    var yd = new Date(Date.now()-DAY*1000);
-    var yestStr = yd.toLocaleDateString('en-US',{weekday:'short',month:'short',day:'numeric'});
-
-    cols.innerHTML =
-      '<div>'+
-        '<div class="pp-col-label pp-col-breaking">'+
-          '<div class="pp-col-dot"></div>TODAY &mdash; '+todayStr+
-          '<span style="margin-left:auto;font-size:.7em;font-family:\'Space Mono\',monospace;color:var(--dim)">'+today.length+' stories</span>'+
-        '</div>'+
-        (today.length ? today.slice(0,12).map(hl).join('') :
-          '<p style="font-size:.82em;color:var(--dim);padding:12px 6px">Feed refreshes 3&times; daily &mdash; check back soon</p>')+
-      '</div>'+
-      '<div>'+
-        '<div class="pp-col-label pp-col-latest">'+
-          '<div class="pp-col-dot"></div>YESTERDAY &mdash; '+yestStr+
-          '<span style="margin-left:auto;font-size:.7em;font-family:\'Space Mono\',monospace;color:var(--dim)">'+yest.length+' stories</span>'+
-        '</div>'+
-        (yest.length ? yest.slice(0,12).map(hl).join('') :
-          '<p style="font-size:.82em;color:var(--dim);padding:12px 6px">Yesterday\'s stories will appear here</p>')+
-      '</div>';
-
-    /* updated label */
-    var upd = document.getElementById('pp-updated');
-    if (upd && updatedTs) {
-      var d = new Date(updatedTs * 1000);
-      upd.textContent = 'Updated ' + d.toLocaleTimeString('en-US',{hour:'numeric',minute:'2-digit'});
-    }
-
-    /* ticker */
-    var belt = document.getElementById('pp-ticker-belt');
-    if (belt) {
-      var h = '';
-      [items, items].forEach(function(arr){
-        arr.forEach(function(item){
-          var safe = (item.title||'').replace(/</g,'&lt;').replace(/>/g,'&gt;');
-          var href = (item.link && item.link!=='#') ? item.link : '#';
-          h += '<span class="pp-tick-item" onclick="window.open(\''+href.replace(/'/g,"\\'")+'\',\'_blank\')">' +
-            (item.cat ? '<strong style="color:var(--pink-l);margin-right:6px">['+item.cat+']</strong>' : '') +
-            safe + '</span><span class="pp-tick-sep" aria-hidden="true">&#9670;</span>';
-        });
-      });
-      belt.innerHTML = h;
-      requestAnimationFrame(function(){
-        belt.style.animationDuration = Math.max(Math.round(belt.scrollWidth/160), 40) + 's';
-      });
+    var todayStr=new Date().toLocaleDateString('en-US',{weekday:'short',month:'short',day:'numeric'});
+    var yestStr=new Date(Date.now()-DAY*1000).toLocaleDateString('en-US',{weekday:'short',month:'short',day:'numeric'});
+    cols.innerHTML='<div><div class="pp-col-label pp-col-breaking"><div class="pp-col-dot"></div>TODAY \u2014 '+todayStr+'<span class="pp-col-count">'+today.length+' stories</span></div>'
+      +(today.length?today.slice(0,14).map(hl).join(''):'<p style="font-size:.82em;color:var(--dim);padding:12px 6px">Feed refreshes 3\u00D7 daily \u2014 check back soon</p>')+'</div>'
+      +'<div><div class="pp-col-label pp-col-latest"><div class="pp-col-dot"></div>EARLIER \u2014 '+yestStr+'<span class="pp-col-count">'+yest.length+' stories</span></div>'
+      +(yest.length?yest.slice(0,14).map(hl).join(''):'<p style="font-size:.82em;color:var(--dim);padding:12px 6px">Earlier stories will appear here</p>')+'</div>';
+    var upd=document.getElementById('pp-updated');
+    if(upd && updatedTs){ var dd=new Date(updatedTs*1000); upd.textContent='Updated '+dd.toLocaleTimeString('en-US',{hour:'numeric',minute:'2-digit'}); }
+    var belt=document.getElementById('pp-ticker-belt');
+    if(belt){
+      var h='';
+      [items,items].forEach(function(arr){ arr.forEach(function(item){
+        var title=stripSrc(item.title), href=(item.link&&item.link!=='#')?item.link:'#';
+        h+='<span class="pp-tick-item" onclick="window.open(\''+href.replace(/'/g,"\\'")+'\',\'_blank\',\'noopener\')">'+(item.cat?'<strong style="color:var(--pink-l);margin-right:6px">['+escHtml(item.cat)+']</strong>':'')+escHtml(title)+'</span><span class="pp-tick-sep" aria-hidden="true">\u25C6</span>';
+      }); });
+      belt.innerHTML=h;
+      requestAnimationFrame(function(){ belt.style.animationDuration=Math.max(Math.round(belt.scrollWidth/160),40)+'s'; });
     }
   }
+  function load(){
+    loading();
+    fetch('./feed.json?v='+Date.now()).then(function(r){ if(!r.ok) throw 0; return r.json(); })
+      .then(function(data){ render(data.items||[], data.updated||0); })
+      .catch(function(){ emptyState('Couldn\u2019t load the feed right now'); });
+  }
+  window.__ppLoadCulture=load;
+  load();
+})();
 
-  /* fetch feed.json — bot writes this file, never touches index.html */
-  fetch('./feed.json?v=' + Date.now())
-    .then(function(r){
-      if (!r.ok) throw new Error('feed.json not found');
-      return r.json();
-    })
-    .then(function(data){
-      renderCulture(data.items || [], data.updated || 0);
-    })
-    .catch(function(){
-      /* first deploy or fetch failed — use fallback hardcoded items */
-      renderCulture(FALLBACK, 0);
-    });
+/* ════════ INIT ════════ */
+(function(){
+  var el=document.getElementById('pp-date');
+  if(el) el.textContent=new Date().toLocaleDateString('en-US',{weekday:'long',year:'numeric',month:'long',day:'numeric'});
+  var fc=document.getElementById('pp-feed-count'); if(fc) fc.textContent=PP_ALL_FEEDS.length+' Channels';
+  renderChips();
+  renderCountdowns();
+  renderActiveView(true);
+  try{
+    var params=new URLSearchParams(location.search);
+    if(params.get('mode')==='party' && !IS_NARROW() && window.__ppOpenParty){ setTimeout(window.__ppOpenParty, 400); }
+  }catch(e){}
 })();
 </script>
 </body>

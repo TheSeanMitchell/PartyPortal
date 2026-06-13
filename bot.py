@@ -1,12 +1,24 @@
 #!/usr/bin/env python3
 """
-PARTY PORTAL — Content Bot
-Based on NUZU culture bot architecture.
-Fetches party/festival/nightlife culture news from Google News RSS,
-filters by party-culture keywords, deduplicates, and injects into index.html.
+PARTY PORTAL — Content Bot  (real news only)
+=============================================
+Aggregates *real* party / festival / nightlife / EDM headlines from Google
+News RSS, then cleans, filters and de-duplicates them into feed.json.
 
-Run: python bot.py
-GitHub Actions trigger: daily at 6 AM UTC
+Key quality techniques (borrowed from the NUZU aggregator):
+  • site:<domain> queries pull straight from trusted music/nightlife press
+  • trailing " - Source Name" stripped from every display title
+  • junk/spam filter drops tracking-code titles, daily-digest pages, etc.
+  • source-trust tiers (1=specialist/major, 2=solid, 3=other) drive the dot colour
+  • broad outlets (Billboard, Pitchfork…) must match a party keyword;
+    specialist EDM outlets are accepted on-topic by default
+  • NO synthetic / placeholder items are ever written — if nothing real
+    passes the filters, feed.json is left untouched.
+
+The bot writes feed.json ONLY. It never edits index.html (the page fetches
+feed.json at runtime). Runs on GitHub Actions 3×/day.
+
+Run locally:  python bot.py    (Python 3.8+, standard library only)
 """
 
 import os, re, json, time, hashlib, html as htmllib
@@ -15,215 +27,181 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from xml.etree import ElementTree as ET
 import urllib.request, urllib.error
 
-# ─────────────────────────────────────────────────────────────
-#  CONFIG
-# ─────────────────────────────────────────────────────────────
-MAX_ITEMS       = 40      # max culture items to display
-BREAKING_HOURS  = 48      # items < 48h old are "breaking"
-DAILY_HOURS     = 96      # items < 96h old are "latest"
-FETCH_TIMEOUT   = 12      # seconds per RSS request
-MAX_WORKERS     = 12      # concurrent RSS fetches
-MIN_TITLE_LEN   = 30
-MAX_TITLE_LEN   = 280
-INDEX_PATH      = 'index.html'
-INJECT_MARKER   = '<!-- PP_CULTURE_INJECT -->'
+# ───────────────────────────── CONFIG ─────────────────────────────
+MAX_ITEMS      = 40
+BREAKING_HOURS = 36     # < 36h old  → "hot"
+DAILY_HOURS    = 96     # < 96h old  → kept
+FETCH_TIMEOUT  = 12
+MAX_WORKERS    = 12
+MIN_TITLE_LEN  = 28
+MAX_TITLE_LEN  = 200
 
-# ─────────────────────────────────────────────────────────────
-#  PARTY CULTURE KEYWORDS
-#  (NUZU culture base + extensive party/festival additions)
-# ─────────────────────────────────────────────────────────────
+# ──────────────────────── PARTY-CULTURE KEYWORDS ───────────────────
 RAW_KEYWORDS = [
-    # ── Core party/festival ──────────────────────────────────
-    "edm festival","electronic music festival","music festival 2026",
-    "electric daisy carnival","edc las vegas","edc 2026",
-    "coachella","coachella 2026","coachella festival",
-    "coachella lineup","coachella headliner",
-    "ultra music festival","ultra miami","ultra 2026",
-    "tomorrowland","tomorrowland 2026","tomorrowland belgium",
-    "tomorrowland winter","tomorrowland brazil",
-    "glastonbury","glastonbury 2026","glastonbury festival",
-    "lollapalooza","lollapalooza 2026","lollapalooza chicago",
-    "bonnaroo","bonnaroo 2026",
-    "burning man","burning man 2026","black rock city",
-    "creamfields","creamfields 2026",
-    "lost lands festival","awakenings festival",
-    "lucidity festival","day trip festival",
-    "ibiza festival","ibiza club season","ibiza 2026",
-    "ushuaia ibiza","dc10 ibiza","fabric london",
-    "festival lineup","festival headliner","festival announcement",
-    "festival tickets","festival season 2026",
-    "music festival news","festival news 2026",
-    # ── Electronic music ─────────────────────────────────────
-    "edm news","dance music news","electronic music news",
-    "dj set","live dj","dj residency","dj tour 2026",
-    "techno festival","house music festival","trance festival",
-    "dubstep festival","bass music","bass festival",
-    "rave","rave culture","underground rave",
-    "beatport chart","resident advisor","mixmag festival",
-    "dj mag","dancing astronaut","edm.com",
-    "hardstyle festival","drum and bass festival",
-    "electronic dance music","progressive house",
-    "festival dj","festival stage","mainstage",
-    # ── Nightlife/venues ─────────────────────────────────────
-    "nightlife","nightclub news","club night","club culture",
-    "vegas nightclub","las vegas entertainment","vegas strip party",
-    "las vegas shows","las vegas nightlife 2026",
-    "bourbon street","new orleans nightlife","mardi gras",
-    "mardi gras 2026","new orleans party",
-    "key west bar","key west nightlife","duval street",
-    "ibiza nightclub","ibiza party","ibiza season",
-    "miami nightlife","miami beach party","miami art basel",
-    "new york nightlife","nyc club","manhattan nightlife",
-    "berlin techno","berlin club","berlin nightlife",
-    "amsterdam nightlife","amsterdam club",
-    "london nightlife","london club scene",
-    "club opening","bar scene","nightclub review",
-    # ── Specific venues/events ───────────────────────────────
-    "bellagio fountain","las vegas sphere","sphere las vegas",
-    "times square new year","times square celebration",
-    "hogs breath key west","sloppy joe's key west",
-    # ── Culture (NUZU base, party-adjacent) ──────────────────
-    "celebrity news","hollywood news","pop culture news",
-    "viral moment","trending topic","internet culture",
-    "festival fashion 2026","coachella fashion","rave outfit",
-    "festival outfit","festival style","festival looks",
-    "glastonbury fashion","burning man costumes",
-    "billboard","rolling stone music","pitchfork music",
-    "nme music","stereogum","consequence of sound",
-    "concert tour 2026","touring artist 2026",
-    "music tour announcement","tour dates 2026",
-    "grammy awards music","grammy 2026",
-    "sxsw 2026","south by southwest music",
-    "bonnaroo festival","outside lands festival",
-    "governor's ball festival","firefly music festival",
-    "splendour in the grass","reading festival",
-    "download festival","bestival","worthy farm",
-    # ── Artist/performer ─────────────────────────────────────
-    "pretty lights live","astrix live","classmatic",
-    "tiesto","martin garrix","david guetta","calvin harris",
-    "deadmau5","skrillex","diplo","marshmello",
-    "afrojack","armin van buuren","above beyond",
-    "eric prydz","bicep live","four tet live",
-    "jamie jones","charlotte de witte","adam beyer",
-    "richie hawtin","nina kraviz","peggy gou",
-    "amelie lens","helena hauff","paul kalkbrenner",
-    # ── Broad culture (inherited from NUZU) ──────────────────
-    "entertainment news","film industry news","box office updates",
-    "movie premieres","celebrity interviews","streaming services",
-    "netflix celebrity","hbo celebrity","award show",
-    "met gala","red carpet fashion","vogue covers",
-    "fashion trends","street style","beauty trends",
-    "influencer fashion","tiktok influencers","content creators",
-    "viral entertainment","trending celebrity","social media",
-    "world cup culture","host city celebration","fan zone 2026",
-    "art basel miami 2026","frieze art fair","venice biennale",
-    "summer concerts 2026","outdoor concert","amphitheater show",
-    "pop star tour","rock concert 2026","hip hop show",
-    "rap concert","festival rap","hip hop festival",
-    "taylor swift","beyonce concert","rihanna tour",
-    "dua lipa concert","the weeknd tour","drake concert",
-    "bad bunny tour","j balvin concert","reggaeton festival",
+    # festivals / scene
+    "festival","festival lineup","festival headliner","festival announcement",
+    "festival tickets","music festival","edm festival","dance music festival",
+    "electronic music festival","festival season","festival stage","mainstage",
+    "coachella","edc","electric daisy carnival","ultra music festival","ultra miami",
+    "tomorrowland","glastonbury","lollapalooza","bonnaroo","burning man","black rock city",
+    "creamfields","lost lands","awakenings","lucidity","day trip","ushuaia","ushuaïa",
+    "dc10","amnesia ibiza","hi ibiza","pacha ibiza","iii points","movement detroit",
+    "electric forest","electric zoo","edc orlando","nocturnal wonderland","hard summer",
+    "sxsw","south by southwest","outside lands","governors ball","mysteryland","defqon",
+    "tomorrowland winter","tomorrowland brasil","afterlife festival","time warp",
+    # electronic music / djs
+    "edm","dj set","dj residency","dj tour","techno","house music","trance","dubstep",
+    "bass music","hardstyle","drum and bass","rave","rave culture","underground rave",
+    "boiler room","beatport","resident advisor","electronic dance music","b2b set",
+    "tiesto","martin garrix","david guetta","calvin harris","deadmau5","skrillex","diplo",
+    "marshmello","afrojack","armin van buuren","eric prydz","bicep","four tet","fred again",
+    "charlotte de witte","amelie lens","peggy gou","john summit","disclosure","chris lake",
+    # nightlife / venues
+    "nightlife","nightclub","club night","club culture","club opening","rooftop party",
+    "vegas nightlife","las vegas nightclub","vegas residency","las vegas sphere","sphere las vegas",
+    "bourbon street","new orleans nightlife","mardi gras","key west","ibiza party","ibiza season",
+    "miami nightlife","miami beach party","art basel miami","berlin techno","berlin club",
+    "amsterdam club","london club","warehouse party","after hours","day party","pool party",
+    # culture / live music adjacents
+    "concert tour","tour dates","summer concerts","amphitheater","live show","residency",
+    "festival fashion","coachella fashion","rave outfit","festival outfit","festival style",
+    "mtv spring break","spring break",
 ]
+KEYWORDS = set(k.lower() for k in RAW_KEYWORDS)
 
-KEYWORDS = set(kw.lower() for kw in RAW_KEYWORDS)
-
-def make_pattern(kw_set):
-    escaped = [re.escape(k) for k in sorted(kw_set, key=len, reverse=True)]
-    return re.compile(r'\b(?:' + '|'.join(escaped) + r')\b', re.IGNORECASE) if escaped else None
+def make_pattern(words):
+    esc = [re.escape(w) for w in sorted(words, key=len, reverse=True)]
+    return re.compile(r'\b(?:' + '|'.join(esc) + r')\b', re.IGNORECASE) if esc else None
 
 KEYWORD_PAT = make_pattern(KEYWORDS)
 
-# strict blocklist — keep feed party-positive
+# keep the feed party-positive (drop hard news / negativity)
 BLOCKLIST = {
-    "war","bombing","missile","attack","massacre","genocide","terrorist",
-    "shooting","murder","crime","arrest","lawsuit","controversy",
-    "scandal","abuse","harassment","assault","conviction","prison",
-    "inflation","recession","stock market","fed rate","federal reserve",
-    "immigration","border","deportation","politics","election",
-    "republican","democrat","congress","senate","white house",
-    "foreign policy","nato","ukraine","iran","israel","palestine",
+    "war","bombing","missile","airstrike","massacre","genocide","terrorist","terror attack",
+    "shooting","stabbing","murder","killed","dead","death toll","manslaughter","overdose death",
+    "arrest","arrested","lawsuit","sues","indicted","conviction","convicted","prison","sentenced",
+    "rape","assault charges","sexual assault","harassment lawsuit","abuse allegations","trafficking",
+    "inflation","recession","stock market","fed rate","federal reserve","layoffs","bankruptcy",
+    "immigration","border","deportation","politics","election","republican","democrat","congress",
+    "senate","white house","supreme court","foreign policy","nato","ukraine","gaza","israel",
+    "palestine","iran","obituary","dies at","has died","passes away","funeral","memorial",
+    "drugs","drug bust","police raid","raids","seized","narcotics","crackdown","banned",
+    "steam launch","gacha","anime","esports","video game","crypto","nft",
 }
 BLOCK_PAT = make_pattern(BLOCKLIST)
 
-# ─────────────────────────────────────────────────────────────
-#  RSS SOURCES — party/festival/nightlife culture focused
-# ─────────────────────────────────────────────────────────────
+# ───────────────────── SOURCE TRUST + FRIENDLY NAMES ───────────────
+TIER1 = {  # specialist EDM/dance press + major outlets
+    "mixmag","dj mag","djmag","resident advisor","ra","edm.com","dancing astronaut",
+    "billboard","rolling stone","pitchfork","nme","variety","stereogum","consequence",
+    "the guardian","bbc","npr","associated press","ap news","reuters","time out",
+}
+TIER2 = {  # solid music/culture blogs & city press
+    "edmtunes","your edm","we rave you","6am","magnetic magazine","magnetic mag",
+    "electronic groove","edm identity","dancing astronaut","festicket","ticketnews",
+    "vegas weekly","las vegas review-journal","timeout","attack magazine","mixdown",
+    "the line of best fit","clash","diy magazine","brooklyn vegan","spin","paper magazine",
+}
+NICHE_SOURCES = {  # accepted on-topic even without a generic keyword hit
+    "mixmag","dj mag","djmag","resident advisor","edm.com","dancing astronaut","edmtunes",
+    "your edm","we rave you","6am","magnetic magazine","magnetic mag","electronic groove",
+    "edm identity","attack magazine","ra",
+}
+
+def _name_has(n, s):
+    # short codes (<=3 chars, e.g. "ra") must match a whole word, not a substring
+    if len(s) <= 3:
+        return s in n.split()
+    return s in n
+
+def source_tier(name):
+    n = (name or "").lower()
+    if any(_name_has(n, s) for s in TIER1): return 1
+    if any(_name_has(n, s) for s in TIER2): return 2
+    return 3
+
+def is_niche(name):
+    n = (name or "").lower()
+    return any(_name_has(n, s) for s in NICHE_SOURCES)
+
+# ─────────────────────────── RSS SOURCES ───────────────────────────
+def g(q):
+    return "https://news.google.com/rss/search?q=" + q + "&hl=en-US&gl=US&ceid=US:en"
+
 CULTURE_SOURCES = [
-    # Party / Festival direct
-    ("Party Festival",      "https://news.google.com/rss/search?q=music+festival+2026+OR+festival+lineup+OR+EDM+festival+when:2d&hl=en-US&gl=US&ceid=US:en"),
-    ("EDC Las Vegas",       "https://news.google.com/rss/search?q=electric+daisy+carnival+OR+EDC+Las+Vegas+when:2d&hl=en-US&gl=US&ceid=US:en"),
-    ("Coachella News",      "https://news.google.com/rss/search?q=coachella+festival+lineup+OR+coachella+2026+when:2d&hl=en-US&gl=US&ceid=US:en"),
-    ("Tomorrowland",        "https://news.google.com/rss/search?q=tomorrowland+festival+OR+tomorrowland+2026+when:2d&hl=en-US&gl=US&ceid=US:en"),
-    ("Ultra Music Fest",    "https://news.google.com/rss/search?q=ultra+music+festival+OR+ultra+miami+when:2d&hl=en-US&gl=US&ceid=US:en"),
-    ("Glastonbury",         "https://news.google.com/rss/search?q=glastonbury+festival+2026+when:2d&hl=en-US&gl=US&ceid=US:en"),
-    ("Burning Man",         "https://news.google.com/rss/search?q=burning+man+2026+OR+burning+man+festival+when:2d&hl=en-US&gl=US&ceid=US:en"),
-    ("EDM News",            "https://news.google.com/rss/search?q=edm+news+OR+dance+music+news+OR+electronic+music+when:1d&hl=en-US&gl=US&ceid=US:en"),
-    ("DJ News",             "https://news.google.com/rss/search?q=dj+residency+OR+dj+tour+OR+dj+set+announcement+when:1d&hl=en-US&gl=US&ceid=US:en"),
-    ("Nightlife",           "https://news.google.com/rss/search?q=nightlife+guide+OR+nightclub+OR+club+night+when:1d&hl=en-US&gl=US&ceid=US:en"),
-    ("Ibiza",               "https://news.google.com/rss/search?q=ibiza+club+OR+ibiza+season+OR+ushuaia+ibiza+when:2d&hl=en-US&gl=US&ceid=US:en"),
-    ("Vegas Party",         "https://news.google.com/rss/search?q=las+vegas+nightlife+OR+vegas+nightclub+OR+las+vegas+entertainment+when:1d&hl=en-US&gl=US&ceid=US:en"),
-    ("New Orleans",         "https://news.google.com/rss/search?q=bourbon+street+OR+new+orleans+nightlife+OR+mardi+gras+when:2d&hl=en-US&gl=US&ceid=US:en"),
-    ("Miami Nightlife",     "https://news.google.com/rss/search?q=miami+nightlife+OR+miami+beach+party+OR+miami+art+basel+when:2d&hl=en-US&gl=US&ceid=US:en"),
-    ("Lollapalooza",        "https://news.google.com/rss/search?q=lollapalooza+2026+OR+lollapalooza+lineup+when:3d&hl=en-US&gl=US&ceid=US:en"),
-    ("Rave Culture",        "https://news.google.com/rss/search?q=rave+culture+OR+underground+rave+OR+techno+festival+when:2d&hl=en-US&gl=US&ceid=US:en"),
-    ("Festival Fashion",    "https://news.google.com/rss/search?q=coachella+fashion+OR+festival+outfit+OR+rave+outfit+when:2d&hl=en-US&gl=US&ceid=US:en"),
-    # Broad culture (from NUZU, party-adjacent)
-    ("Billboard",           "https://news.google.com/rss/search?q=billboard+music+news+when:1d&hl=en-US&gl=US&ceid=US:en"),
-    ("Rolling Stone",       "https://news.google.com/rss/search?q=rolling+stone+music+celebrity+when:1d&hl=en-US&gl=US&ceid=US:en"),
-    ("Pitchfork",           "https://news.google.com/rss/search?q=pitchfork+music+news+when:1d&hl=en-US&gl=US&ceid=US:en"),
-    ("NME",                 "https://news.google.com/rss/search?q=nme+music+celebrity+when:1d&hl=en-US&gl=US&ceid=US:en"),
-    ("Variety Music",       "https://news.google.com/rss/search?q=variety+music+concert+tour+when:1d&hl=en-US&gl=US&ceid=US:en"),
-    ("Mixmag",              "https://news.google.com/rss/search?q=mixmag+electronic+music+when:2d&hl=en-US&gl=US&ceid=US:en"),
-    ("DJ Mag",              "https://news.google.com/rss/search?q=dj+magazine+electronic+music+when:2d&hl=en-US&gl=US&ceid=US:en"),
-    ("Resident Advisor",    "https://news.google.com/rss/search?q=resident+advisor+electronic+music+when:2d&hl=en-US&gl=US&ceid=US:en"),
-    ("Concert Tour",        "https://news.google.com/rss/search?q=concert+tour+2026+OR+tour+dates+announcement+when:1d&hl=en-US&gl=US&ceid=US:en"),
-    ("SXSW",                "https://news.google.com/rss/search?q=sxsw+2026+OR+south+by+southwest+music+when:3d&hl=en-US&gl=US&ceid=US:en"),
-    ("Broad Culture",       "https://news.google.com/rss/search?q=celebrity+news+OR+hollywood+OR+pop+culture+when:1d&hl=en-US&gl=US&ceid=US:en"),
-    ("Entertainment",       "https://news.google.com/rss/search?q=entertainment+news+celebrity+when:1d&hl=en-US&gl=US&ceid=US:en"),
-    ("Outdoor Events",      "https://news.google.com/rss/search?q=outdoor+concert+2026+OR+amphitheater+show+OR+summer+concert+when:2d&hl=en-US&gl=US&ceid=US:en"),
+    # specialist EDM / dance press via site: queries (clean + on-topic)
+    ("Mixmag",            g("site:mixmag.net+when:3d")),
+    ("DJ Mag",            g("site:djmag.com+when:3d")),
+    ("Resident Advisor",  g("site:ra.co+when:3d")),
+    ("EDM.com",           g("site:edm.com+when:3d")),
+    ("Dancing Astronaut", g("site:dancingastronaut.com+when:3d")),
+    ("Your EDM",          g("site:youredm.com+when:3d")),
+    ("EDMTunes",          g("site:edmtunes.com+when:3d")),
+    ("We Rave You",       g("site:weraveyou.com+when:3d")),
+    ("Electronic Groove", g("site:electronicgroove.com+when:4d")),
+    ("Magnetic Magazine", g("site:magneticmag.com+when:4d")),
+    ("6AM",               g("site:6amgroup.com+when:4d")),
+    # festival-specific (broad search, will be keyword-filtered)
+    ("Festivals",         g("music+festival+2026+OR+festival+lineup+OR+festival+headliner+when:2d")),
+    ("EDC / EDM Fests",   g("electric+daisy+carnival+OR+EDC+OR+ultra+music+festival+OR+tomorrowland+when:3d")),
+    ("Coachella",         g("coachella+festival+OR+coachella+lineup+when:3d")),
+    ("Lollapalooza",      g("lollapalooza+2026+OR+lollapalooza+lineup+when:3d")),
+    ("Creamfields",       g("creamfields+festival+OR+creamfields+2026+when:3d")),
+    ("Burning Man",       g("burning+man+2026+OR+black+rock+city+when:4d")),
+    ("Rave / Techno",     g("rave+OR+techno+festival+OR+warehouse+party+OR+boiler+room+when:2d")),
+    # nightlife / cities
+    ("Nightlife",         g("nightlife+OR+nightclub+OR+club+night+when:2d")),
+    ("Ibiza",             g("ibiza+club+OR+ibiza+season+OR+ushuaia+ibiza+when:3d")),
+    ("Vegas Party",       g("las+vegas+nightlife+OR+vegas+nightclub+OR+las+vegas+sphere+when:2d")),
+    ("New Orleans",       g("bourbon+street+OR+new+orleans+nightlife+OR+mardi+gras+when:3d")),
+    ("Miami",             g("miami+nightlife+OR+miami+beach+party+OR+art+basel+miami+when:3d")),
+    # broad music press (site: → high quality; keyword-filtered for relevance)
+    ("Billboard Dance",   g("site:billboard.com+dance+OR+electronic+OR+festival+when:2d")),
+    ("Rolling Stone",     g("site:rollingstone.com+festival+OR+electronic+OR+dj+when:2d")),
+    ("Pitchfork",         g("site:pitchfork.com+festival+OR+electronic+when:3d")),
+    ("NME",               g("site:nme.com+festival+OR+dance+when:3d")),
+    ("DJ Tours",          g("dj+residency+OR+dj+tour+2026+OR+b2b+set+when:2d")),
+    ("Festival Fashion",  g("coachella+fashion+OR+festival+outfit+OR+rave+outfit+when:3d")),
 ]
 
-# ─────────────────────────────────────────────────────────────
-#  RSS FETCH + PARSE
-# ─────────────────────────────────────────────────────────────
+# ───────────────────────── FETCH + PARSE ───────────────────────────
 def _fetch_rss(name, url):
     headers = {
-        'User-Agent': 'Mozilla/5.0 (compatible; PartyPortalBot/1.0)',
-        'Accept': 'application/rss+xml, application/xml, text/xml',
+        "User-Agent": "Mozilla/5.0 (compatible; PartyPortalBot/2.0)",
+        "Accept": "application/rss+xml, application/xml, text/xml",
     }
     try:
         req = urllib.request.Request(url, headers=headers)
         with urllib.request.urlopen(req, timeout=FETCH_TIMEOUT) as resp:
             raw = resp.read()
         root = ET.fromstring(raw)
-        items = []
-        for item in root.iter('item'):
-            title_el = item.find('title')
-            link_el  = item.find('link')
-            pub_el   = item.find('pubDate')
-            src_el   = item.find('{https://news.google.com/rss}source') or item.find('source')
-            if title_el is None or not title_el.text:
+        out = []
+        for item in root.iter("item"):
+            t_el = item.find("title")
+            l_el = item.find("link")
+            p_el = item.find("pubDate")
+            s_el = item.find("{https://news.google.com/rss}source") or item.find("source")
+            if t_el is None or not t_el.text:
                 continue
-            title = htmllib.unescape(title_el.text.strip())
-            link  = (link_el.text or '').strip() if link_el is not None else ''
-            src   = src_el.text.strip() if src_el is not None and src_el.text else name
-            # parse pub date
+            title = htmllib.unescape(t_el.text.strip())
+            link  = (l_el.text or "").strip() if l_el is not None else ""
+            src   = s_el.text.strip() if (s_el is not None and s_el.text) else name
             ts = 0
-            if pub_el is not None and pub_el.text:
-                for fmt in ('%a, %d %b %Y %H:%M:%S %z', '%a, %d %b %Y %H:%M:%S GMT',
-                            '%a, %d %b %Y %H:%M:%S +0000'):
+            if p_el is not None and p_el.text:
+                for fmt in ("%a, %d %b %Y %H:%M:%S %z", "%a, %d %b %Y %H:%M:%S GMT",
+                            "%a, %d %b %Y %H:%M:%S +0000"):
                     try:
-                        dt = datetime.strptime(pub_el.text.strip(), fmt)
+                        dt = datetime.strptime(p_el.text.strip(), fmt)
                         ts = int(dt.replace(tzinfo=timezone.utc).timestamp()) if dt.tzinfo is None else int(dt.timestamp())
                         break
                     except ValueError:
                         pass
             if not ts:
                 ts = int(time.time()) - 3600
-            items.append((ts, title, link, src))
-        return items
+            out.append((ts, title, link, src))
+        return out
     except Exception as e:
-        print(f'  [WARN] {name}: {e}')
+        print(f"  [WARN] {name}: {e}")
         return []
 
 def fetch_all():
@@ -234,141 +212,124 @@ def fetch_all():
             results.extend(f.result())
     return results
 
-# ─────────────────────────────────────────────────────────────
-#  FILTER + DEDUPLICATE
-# ─────────────────────────────────────────────────────────────
-def _title_key(title):
-    """Normalize title for dedup."""
-    t = re.sub(r'\s*[-–|:]\s*\w[\w\s]+$', '', title)  # strip "- Source Name"
-    t = re.sub(r'[^a-z0-9 ]', '', t.lower())
-    return ' '.join(t.split()[:12])
+# ──────────────────── CLEANING / JUNK DETECTION ────────────────────
+def strip_source(title):
+    """Remove a trailing ' - Source Name' (<=5 words) appended by Google News."""
+    if " - " not in title:
+        return title
+    head, tail = title.rsplit(" - ", 1)
+    if len(tail.split()) <= 5:
+        return head.strip()
+    return title
 
-def _item_hash(title):
-    return hashlib.md5(_title_key(title).encode()).hexdigest()
+_TRACKING_RE = re.compile(r"\(([A-Za-z0-9]{6,16})\)")
+_JUNK_PHRASES = (
+    "print edition", "today's paper", "todays paper", "daily digest",
+    "daily briefing", "front page", "newspaper - magzter", "- magzter",
+    "week in review |", "watch live:", "live updates:",
+)
 
-def filter_and_dedup(raw_items):
+def is_junk(title):
+    tl = title.lower()
+    # tracking-code titles (two Google headlines mashed together / spam)
+    for m in _TRACKING_RE.findall(title):
+        if any(c.isdigit() for c in m) and any(c.isalpha() for c in m) and m != m.lower() and m != m.upper():
+            return True
+    for p in _JUNK_PHRASES:
+        if p in tl:
+            return True
+    # absurdly long mashups
+    if len(title.split()) > 28:
+        return True
+    return False
+
+def categorize(title):
+    t = title.lower()
+    if any(w in t for w in ["festival","lineup","headliner","coachella","edc","tomorrowland",
+                            "ultra","glastonbury","lollapalooza","bonnaroo","burning man",
+                            "creamfields","lost lands","awakenings","iii points","outside lands"]):
+        return "Festival"
+    if any(w in t for w in ["nightclub","club night","nightlife","rave","ibiza","sphere",
+                            "warehouse","after hours","bourbon street","mardi gras"]):
+        return "Nightlife"
+    if any(w in t for w in ["dj","edm","electronic","techno","house music","dance music",
+                            "boiler room","trance","dubstep","hardstyle","drum and bass"]):
+        return "EDM"
+    if any(w in t for w in ["fashion","outfit","style","runway","looks"]):
+        return "Fashion"
+    if any(w in t for w in ["concert","tour","live show","residency","ticket","amphitheater"]):
+        return "Concert"
+    return "Culture"
+
+def time_label(age_sec):
+    if age_sec < 3600:   return f"{max(1, age_sec // 60)} min ago"
+    if age_sec < 86400:  return f"{age_sec // 3600} hr ago"
+    if age_sec < 172800: return "1 day ago"
+    return f"{age_sec // 86400} days ago"
+
+def _key(title):
+    t = re.sub(r"[^a-z0-9 ]", "", strip_source(title).lower())
+    return " ".join(t.split()[:12])
+
+def build_item(ts, title, link, src):
+    """Apply all cleaning/filters. Return dict or None if rejected."""
+    if len(title) < MIN_TITLE_LEN or len(title) > MAX_TITLE_LEN:
+        return None
+    if is_junk(title):
+        return None
+    if BLOCK_PAT and BLOCK_PAT.search(title):
+        return None
+    # relevance: specialist EDM sources accepted on-topic; everything else
+    # must contain a party-culture keyword.
+    if not (KEYWORD_PAT and KEYWORD_PAT.search(title)):
+        if not is_niche(src):
+            return None
+    now = int(time.time())
+    age = now - ts
+    return {
+        "title": strip_source(title),
+        "link":  link or "#",
+        "src":   src,
+        "time":  time_label(age),
+        "cat":   categorize(title),
+        "hot":   age < BREAKING_HOURS * 3600,
+        "ts":    ts,
+        "tier":  source_tier(src),
+    }
+
+def filter_and_dedup(raw):
     now = int(time.time())
     max_age = DAILY_HOURS * 3600
-    seen_hashes = set()
-    results = []
-    raw_items.sort(key=lambda x: x[0], reverse=True)  # newest first
-
-    for ts, title, link, src in raw_items:
-        # age filter
+    raw.sort(key=lambda x: x[0], reverse=True)
+    seen, out = set(), []
+    for ts, title, link, src in raw:
         if (now - ts) > max_age:
             continue
-        # length filter
-        if len(title) < MIN_TITLE_LEN or len(title) > MAX_TITLE_LEN:
+        it = build_item(ts, title, link, src)
+        if not it:
             continue
-        # blocklist
-        if BLOCK_PAT and BLOCK_PAT.search(title):
+        h = hashlib.md5(_key(title).encode()).hexdigest()
+        if h in seen:
             continue
-        # keyword match
-        if KEYWORD_PAT and not KEYWORD_PAT.search(title):
-            # still accept if from a highly relevant source
-            relevant_sources = {'billboard','rolling stone','pitchfork','nme','mixmag','dj mag',
-                                 'resident advisor','edm.com','dancing astronaut','festicket'}
-            if src.lower() not in relevant_sources:
-                continue
-        # dedup
-        h = _item_hash(title)
-        if h in seen_hashes:
-            continue
-        seen_hashes.add(h)
-
-        # classify
-        hot = (now - ts) < BREAKING_HOURS * 3600
-        age_sec = now - ts
-        if age_sec < 3600:
-            time_label = f'{max(1, age_sec // 60)} min ago'
-        elif age_sec < 86400:
-            time_label = f'{age_sec // 3600} hr ago'
-        elif age_sec < 172800:
-            time_label = '1 day ago'
-        else:
-            time_label = f'{age_sec // 86400} days ago'
-
-        # category tag
-        t_lower = title.lower()
-        if any(w in t_lower for w in ['festival','lineup','headliner','coachella','edc','tomorrowland','ultra','glastonbury','lollapalooza','burning man','creamfields','lost lands','awakenings']):
-            cat = 'Festival'
-        elif any(w in t_lower for w in ['nightclub','club night','nightlife','rave','ibiza','vegas club']):
-            cat = 'Nightlife'
-        elif any(w in t_lower for w in ['dj','edm','electronic music','techno','house music','dance music']):
-            cat = 'EDM'
-        elif any(w in t_lower for w in ['concert','tour','live show','ticket','venue']):
-            cat = 'Concert'
-        elif any(w in t_lower for w in ['fashion','outfit','style','looks','trend']):
-            cat = 'Fashion'
-        else:
-            cat = 'Culture'
-
-        results.append({
-            'title': title,
-            'link':  link,
-            'src':   src,
-            'time':  time_label,
-            'cat':   cat,
-            'hot':   hot,
-            'ts':    ts,
-        })
-
-        if len(results) >= MAX_ITEMS * 2:
+        seen.add(h)
+        out.append(it)
+        if len(out) >= MAX_ITEMS * 2:
             break
+    return out[:MAX_ITEMS]
 
-    return results[:MAX_ITEMS]
-
-# ─────────────────────────────────────────────────────────────
-#  INJECT INTO index.html
-# ─────────────────────────────────────────────────────────────
-def inject_into_html(items):
-    if not os.path.exists(INDEX_PATH):
-        print(f'[ERROR] {INDEX_PATH} not found')
-        return False
-
-    with open(INDEX_PATH, 'r', encoding='utf-8') as f:
-        html = f.read()
-
-    # Remove any previous injection
-    html = re.sub(r'<!-- PP_CULTURE_INJECT -->\s*<script>.*?</script>', INJECT_MARKER, html, flags=re.DOTALL)
-
-    now_ts = int(time.time())
-    items_json = json.dumps(items, ensure_ascii=False)
-    inject = (
-        INJECT_MARKER + '\n'
-        f'<script>window._ppCultureItems={items_json};window._ppUpdatedTs={now_ts};</script>'
-    )
-    if INJECT_MARKER in html:
-        html = html.replace(INJECT_MARKER, inject, 1)
-        with open(INDEX_PATH, 'w', encoding='utf-8') as f:
-            f.write(html)
-        print(f'[OK] Injected {len(items)} culture items into {INDEX_PATH}')
-        return True
-    else:
-        print(f'[WARN] Inject marker not found in {INDEX_PATH}')
-        return False
-
-# ─────────────────────────────────────────────────────────────
-#  MAIN
-# ─────────────────────────────────────────────────────────────
-if __name__ == '__main__':
-    print(f'[Party Portal Bot] Starting at {datetime.now(timezone.utc).isoformat()}')
-    print(f'  Keywords: {len(KEYWORDS)} | Sources: {len(CULTURE_SOURCES)}')
-
-    print('  Fetching RSS...')
+# ─────────────────────────────── MAIN ──────────────────────────────
+if __name__ == "__main__":
+    print(f"[Party Portal Bot 2.0] {datetime.now(timezone.utc).isoformat()}")
+    print(f"  Keywords: {len(KEYWORDS)} | Sources: {len(CULTURE_SOURCES)}")
+    print("  Fetching RSS…")
     raw = fetch_all()
-    print(f'  Raw items fetched: {len(raw)}')
-
+    print(f"  Raw items: {len(raw)}")
     items = filter_and_dedup(raw)
-    print(f'  After filter/dedup: {len(items)} items')
-
+    print(f"  After clean/filter/dedup: {len(items)}")
     if items:
-        # Write feed.json — index.html fetches this at runtime via fetch()
-        # DO NOT modify index.html (regex injection was eating the main JS block)
-        with open('feed.json', 'w', encoding='utf-8') as f:
-            json.dump({'updated': int(time.time()), 'items': items}, f, ensure_ascii=False, indent=2)
-        print(f'[OK] feed.json written — {len(items)} items')
+        with open("feed.json", "w", encoding="utf-8") as f:
+            json.dump({"updated": int(time.time()), "items": items}, f, ensure_ascii=False, indent=2)
+        print(f"[OK] feed.json written — {len(items)} real items")
     else:
-        print('[WARN] No items after filtering — feed.json not updated')
-
-    print('[Done]')
+        print("[WARN] No real items passed the filters — feed.json left unchanged (no synthetic data).")
+    print("[Done]")
