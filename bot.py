@@ -271,6 +271,14 @@ def _key(title):
     t = re.sub(r"[^a-z0-9 ]", "", strip_source(title).lower())
     return " ".join(t.split()[:12])
 
+_STOP = set(("the a an and or of to in for on at with from your you their his her its this that "
+             "these those is are was were be been being new live full set mix official video as "
+             "2026 2025 2024 ft feat vs after first time bring back into out over more most").split())
+
+def _sigwords(title):
+    t = re.sub(r"[^a-z0-9 ]", " ", strip_source(title).lower())
+    return set(w for w in t.split() if len(w) > 3 and w not in _STOP)
+
 def build_item(ts, title, link, src):
     """Apply all cleaning/filters. Return dict or None if rejected."""
     if len(title) < MIN_TITLE_LEN or len(title) > MAX_TITLE_LEN:
@@ -298,10 +306,15 @@ def build_item(ts, title, link, src):
     }
 
 def filter_and_dedup(raw):
+    """Filter, then collapse exact AND near-duplicate headlines.
+    Near-dupes (Jaccard of significant words >= 0.55) are merged, keeping the
+    higher-trust source — stops the feed filling up with five rewrites of the
+    same story."""
     now = int(time.time())
     max_age = DAILY_HOURS * 3600
     raw.sort(key=lambda x: x[0], reverse=True)
-    seen, out = set(), []
+    exact = set()
+    out, sigs = [], []
     for ts, title, link, src in raw:
         if (now - ts) > max_age:
             continue
@@ -309,10 +322,27 @@ def filter_and_dedup(raw):
         if not it:
             continue
         h = hashlib.md5(_key(title).encode()).hexdigest()
-        if h in seen:
+        if h in exact:
             continue
-        seen.add(h)
+        sg = _sigwords(title)
+        dup = -1
+        if sg:
+            for i, prev in enumerate(sigs):
+                if not prev:
+                    continue
+                inter = len(sg & prev)
+                union = len(sg | prev)
+                if union and (inter / union) >= 0.55:
+                    dup = i
+                    break
+        if dup >= 0:
+            if it["tier"] < out[dup]["tier"]:
+                out[dup] = it
+                sigs[dup] = sg
+            continue
+        exact.add(h)
         out.append(it)
+        sigs.append(sg)
         if len(out) >= MAX_ITEMS * 2:
             break
     return out[:MAX_ITEMS]

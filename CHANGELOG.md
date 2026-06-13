@@ -1,5 +1,27 @@
 # Changelog
 
+## v2.1 — Channel expansion + ergonomics
+
+### Channels (49 → 70)
+- **+21 verified channels** across three new categories, each with real, embeddable, long-stable YouTube IDs:
+  - **Cercle** (7) — scenic live DJ sets filmed at landmark locations (Above & Beyond in Guatapé, ARTBAT & Monolink at Cercle Odyssey, Argy at Jungfraujoch, Black Coffee, FKJ at the Bolivian salt flats, Disclosure b2b Mochakk).
+  - **Melodic** (7) — Afterlife / Anyma-style immersive melodic techno, incl. the 4K drone Afterlife Budapest set.
+  - **Rave** (7) — future-rave, big-room, hard-trance and trance-classics mixes, plus a rotating Future-Rave playlist.
+- Two new station presets: **🌌 Immersive** (Cercle + Melodic) and Rave folded into **🔥 Peak Hours**.
+
+### "On The Horizon" (4 → 11 festivals)
+- Widened to 11 confirmed upcoming 2026 festivals with live countdowns + ticket links: Defqon.1, Ultra Europe, Tomorrowland, Lollapalooza, Untold, Sziget, Creamfields, Mysteryland, Burning Man, Ultra Japan, EDC Orlando. (Dates verified; fallow/past events excluded.)
+- Countdown cards for festivals we stream (Tomorrowland, Ultra, Creamfields, EDC) are now **clickable to filter the wall** to that festival's channels.
+
+### New standalone features
+- **Share / deep-link** — every tile (and the mobile player) has a 🔗 share button that copies a `?ch=<id>` link or opens the native share sheet. Opening that link **features that channel** first.
+- **Remembers your station** — your last selected station is restored on return (localStorage).
+- **Number keys 1–9** jump straight to a station.
+- **News category pills** — filter the culture feed by Festival / EDM / Nightlife / Concert / Culture / Fashion, with live counts.
+
+### News quality
+- **Near-duplicate clustering** in `bot.py`: collapses multiple rewrites of the same story (Jaccard ≥ 0.55 on significant words), keeping the highest-trust source — no more five-in-a-row repeats.
+
 ## v2.0 — Major upgrade
 
 A theme-preserving overhaul. Same neon Party Portal look; lots more under the hood.

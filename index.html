@@ -336,6 +336,7 @@
     <div class="pp-help-row"><span>Shuffle channels</span><kbd>S</kbd></div>
     <div class="pp-help-row"><span>Party Mode (full wall)</span><kbd>P</kbd></div>
     <div class="pp-help-row"><span>Show only favorites</span><kbd>F</kbd></div>
+    <div class="pp-help-row"><span>Jump to station 1&ndash;9</span><kbd>1&ndash;9</kbd></div>
     <div class="pp-help-row"><span>Search channels</span><kbd>/</kbd></div>
     <div class="pp-help-row"><span>This menu</span><kbd>?</kbd></div>
     <div class="pp-help-row"><span>Close / exit</span><kbd>Esc</kbd></div>
@@ -413,6 +414,7 @@
     <span class="pp-sec-badge">&#128293; Hot Now</span>
     <span class="pp-sec-updated" id="pp-updated"></span>
   </div>
+  <div class="pp-news-pills" id="pp-news-pills" style="display:flex;flex-wrap:wrap;gap:7px;margin:-2px 0 14px"></div>
   <div class="pp-culture-cols" id="pp-culture-cols"></div>
 </div>
 
@@ -538,7 +540,31 @@ var PP_ALL_FEEDS = [
   {id:'bellagio',cat:'LIVE CAM',maxIdx:1,label:'\u2728 The Bellagio \u2014 Las Vegas, NV',embed:'https://www.youtube.com/embed/KJuGU7v5oYw'},
   {id:'dublin',cat:'LIVE CAM',maxIdx:1,label:'\uD83C\uDF7A Dublin, Ireland',embed:'https://www.youtube.com/embed/3nyPER2kzqk'},
   {id:'timessquare',cat:'LIVE CAM',maxIdx:1,label:'\uD83D\uDDFD Times Square \u2014 New York City, NY',embed:'https://www.youtube.com/embed/z-jYdOIKcTQ'},
-  {id:'hogsbreath',cat:'LIVE CAM',maxIdx:1,label:'\uD83C\uDF05 Hogs Breath \u2014 Key West, FL',embed:'https://www.youtube.com/embed/S605ycm0Vlk'}
+  {id:'hogsbreath',cat:'LIVE CAM',maxIdx:1,label:'\uD83C\uDF05 Hogs Breath \u2014 Key West, FL',embed:'https://www.youtube.com/embed/S605ycm0Vlk'},
+  /* CERCLE — scenic live DJ sets filmed at landmark locations worldwide */
+  {id:'cercle-aboveandbeyond',cat:'CERCLE',maxIdx:1,label:'\uD83C\uDFD4\uFE0F Above & Beyond \u2014 Guatap\u00E9, Colombia',embed:'https://www.youtube.com/embed/MEzU1HvBo6Y',url:'https://www.cercle.io'},
+  {id:'cercle-artbat',cat:'CERCLE',maxIdx:1,label:'\uD83C\uDFDB\uFE0F ARTBAT \u2014 Cercle Odyssey, Paris',embed:'https://www.youtube.com/embed/4hnJUB_g290',url:'https://www.cercle.io'},
+  {id:'cercle-monolink',cat:'CERCLE',maxIdx:1,label:'\uD83C\uDFA4 Monolink \u2014 Cercle Odyssey, Paris',embed:'https://www.youtube.com/embed/nxuB96ppBLY',url:'https://www.cercle.io'},
+  {id:'cercle-argy',cat:'CERCLE',maxIdx:1,label:'\u2744\uFE0F Argy \u2014 Jungfraujoch, Switzerland',embed:'https://www.youtube.com/embed/sL16rh73r-M',url:'https://www.cercle.io'},
+  {id:'cercle-blackcoffee',cat:'CERCLE',maxIdx:1,label:'\u2615 Black Coffee \u2014 Salle Wagram, Paris',embed:'https://www.youtube.com/embed/SGqg_ZzThDU',url:'https://www.cercle.io'},
+  {id:'cercle-fkj',cat:'CERCLE',maxIdx:1,label:'\uD83C\uDFDC\uFE0F FKJ \u2014 Salar de Uyuni, Bolivia',embed:'https://www.youtube.com/embed/hENgrbIMiy4',url:'https://www.cercle.io'},
+  {id:'cercle-disclosure',cat:'CERCLE',maxIdx:1,label:'\u2708\uFE0F Disclosure b2b Mochakk \u2014 Cercle Festival',embed:'https://www.youtube.com/embed/X6ko4cklXjs',url:'https://www.cercle.io'},
+  /* MELODIC TECHNO — Afterlife / Anyma-style immersive sets */
+  {id:'melodic-afterlife-budapest',cat:'MELODIC',maxIdx:1,label:'\uD83C\uDF0C Afterlife Budapest \u2014 Drone 4K',embed:'https://www.youtube.com/embed/6V94G-E5WdY'},
+  {id:'melodic-best-techno',cat:'MELODIC',maxIdx:1,label:'\uD83C\uDF0C Afterlife \u2014 Best of Techno 2026',embed:'https://www.youtube.com/embed/2XmTkFIzu5g'},
+  {id:'melodic-anyma-friends',cat:'MELODIC',maxIdx:1,label:'\uD83C\uDF0C Anyma & Friends \u2014 Afterlife 2026',embed:'https://www.youtube.com/embed/T963eE4O4-Y'},
+  {id:'melodic-taleofus',cat:'MELODIC',maxIdx:1,label:'\uD83C\uDF0C Melodic Techno \u2014 Tale of Us Mix',embed:'https://www.youtube.com/embed/9GreWp9VdIM'},
+  {id:'melodic-best-anyma',cat:'MELODIC',maxIdx:1,label:'\uD83C\uDF0C Best of Anyma 2025',embed:'https://www.youtube.com/embed/fhyU-M_W4i8'},
+  {id:'melodic-anyma-ade',cat:'MELODIC',maxIdx:1,label:'\uD83C\uDF0C Anyma \u2014 live at ADE 2024',embed:'https://www.youtube.com/embed/ic0QCu9WLxs'},
+  {id:'melodic-djset2',cat:'MELODIC',maxIdx:1,label:'\uD83C\uDF0C Afterlife \u2014 DJ Set II',embed:'https://www.youtube.com/embed/wg_CIQut4Lo'},
+  /* RAVE — future rave / big-room / trance mainstage mixes */
+  {id:'rave-future-mainstage',cat:'RAVE',maxIdx:1,label:'\u26A1 Future Rave \u2014 Mainstage Mix',embed:'https://www.youtube.com/embed/M9fCxltDthA'},
+  {id:'rave-future-playlist',cat:'RAVE',maxIdx:30,label:'\u26A1 Future Rave 2026 \u2014 Nonstop',embed:'https://www.youtube.com/embed/videoseries?list=PLa1E0oX0lRB9QrXtuQWnrBzbuCemG_aJu'},
+  {id:'rave-hardtrance',cat:'RAVE',maxIdx:1,label:'\u26A1 Hard Trance & Techno \u2014 Rave Set',embed:'https://www.youtube.com/embed/v7xC3x_Gr74'},
+  {id:'rave-prog-house',cat:'RAVE',maxIdx:1,label:'\u26A1 Progressive House \u2014 Euphoric Mix',embed:'https://www.youtube.com/embed/XJiL7mQb8CM'},
+  {id:'rave-trance-classics',cat:'RAVE',maxIdx:1,label:'\u26A1 Trance Classics \u2014 90s Anthems',embed:'https://www.youtube.com/embed/fS_MwN2uhog'},
+  {id:'rave-bigroom',cat:'RAVE',maxIdx:1,label:'\u26A1 Big Room \u2014 Festival Mix',embed:'https://www.youtube.com/embed/mCsyKrcR25k'},
+  {id:'rave-hardrave',cat:'RAVE',maxIdx:1,label:'\u26A1 Hard Rave Techno \u2014 Visualizer',embed:'https://www.youtube.com/embed/iOBv88KUJwc'}
 ];
 
 /* ── State ── */
@@ -563,7 +589,8 @@ function toast(msg){
 var PP_FILTERS = [
   {id:'all',          label:'All',                kind:'all'},
   {id:'fav',          label:'\u2605 Favorites',   kind:'fav',  cls:'pp-fav'},
-  {id:'st-peak',      label:'\uD83D\uDD25 Peak Hours', kind:'cats', cats:['FESTIVAL','CLUB'], cls:'pp-station'},
+  {id:'st-peak',      label:'\uD83D\uDD25 Peak Hours', kind:'cats', cats:['FESTIVAL','CLUB','RAVE'], cls:'pp-station'},
+  {id:'st-immersive', label:'\uD83C\uDF0C Immersive',  kind:'cats', cats:['CERCLE','MELODIC'], cls:'pp-station'},
   {id:'st-throwback', label:'\uD83D\uDCFC Throwback',  kind:'cats', cats:['RETRO','ROCK'],    cls:'pp-station'},
   {id:'c-FESTIVAL',   label:'Festivals',          kind:'cat', cat:'FESTIVAL'},
   {id:'c-CLUB',       label:'Clubs',              kind:'cat', cat:'CLUB'},
@@ -572,6 +599,9 @@ var PP_FILTERS = [
   {id:'c-RETRO',      label:'Retro',              kind:'cat', cat:'RETRO'},
   {id:'c-CONCERT',    label:'Concerts',           kind:'cat', cat:'CONCERT'},
   {id:'c-LIVE CAM',   label:'Live Cams',          kind:'cat', cat:'LIVE CAM'},
+  {id:'c-CERCLE',     label:'\u25C9 Cercle',       kind:'cat', cat:'CERCLE'},
+  {id:'c-MELODIC',    label:'\uD83C\uDF0C Melodic', kind:'cat', cat:'MELODIC'},
+  {id:'c-RAVE',       label:'Rave',               kind:'cat', cat:'RAVE'},
   {id:'c-RADIO',      label:'Radio',              kind:'cat', cat:'RADIO'},
   {id:'c-FASHION',    label:'Fashion',            kind:'cat', cat:'FASHION'}
 ];
@@ -616,6 +646,7 @@ function setFilter(id){
   var filt=getFilterById(id);
   if(filt.kind==='fav' && PP.favs.size===0){ toast('Tap the star on a channel to save favorites'); return; }
   PP.filterId=id;
+  try{ localStorage.setItem('pp:station', id); }catch(e){}
   var s=document.getElementById('pp-search'); if(s){ s.value=''; PP.search=''; }
   var c=document.getElementById('pp-search-clear'); if(c) c.classList.remove('pp-show');
   renderChips();
@@ -650,6 +681,15 @@ function soloAudio(iframe, inset, btn){
   if(btn){ btn.classList.add('pp-on'); btn.innerHTML='\uD83D\uDD0A'; }
 }
 function goFs(el){ try{ if(el.requestFullscreen) el.requestFullscreen(); else if(el.webkitRequestFullscreen) el.webkitRequestFullscreen(); }catch(e){} }
+function shareChannel(feed){
+  if(!feed) return;
+  var url=location.origin+location.pathname+'?ch='+encodeURIComponent(feed.id);
+  if(navigator.share){ navigator.share({title:'Party Portal',text:feed.label,url:url}).catch(function(){}); return; }
+  function done(){ toast('Link copied \u2014 share this channel'); }
+  if(navigator.clipboard && navigator.clipboard.writeText){ navigator.clipboard.writeText(url).then(done).catch(function(){ window.prompt('Copy this channel link:', url); }); }
+  else { window.prompt('Copy this channel link:', url); }
+}
+function feedById(id){ for(var i=0;i<PP_ALL_FEEDS.length;i++){ if(PP_ALL_FEEDS[i].id===id) return PP_ALL_FEEDS[i]; } return null; }
 
 /* ════════ DESKTOP VIDEO WALL ════════ */
 function buildMainGrid(){
@@ -666,6 +706,7 @@ function buildMainGrid(){
     }
     while(chosen.length<Math.min(10,pool.length) && mi<music.length){ chosen.push(music[mi++]); }
   } else { chosen=ppShuffle(pool).slice(0,10); }
+  if(PP.feature){ var _ff=feedById(PP.feature); if(_ff){ chosen=[_ff].concat(chosen.filter(function(f){return f.id!==_ff.id;})).slice(0,10); } PP.feature=null; }
   PP.curMain=chosen;
   grid.innerHTML='';
   if(!chosen.length){
@@ -686,7 +727,9 @@ function buildMainGrid(){
     bFs.addEventListener('click', function(ev){ ev.stopPropagation(); goFs(iframe); });
     var bFav=document.createElement('button'); bFav.className='pp-tool'+(isFav(feed.id)?' pp-tool-on':''); bFav.title='Save channel'; bFav.setAttribute('aria-label','Save channel'); bFav.setAttribute('data-fav-id',feed.id); bFav.innerHTML= isFav(feed.id)?'\u2605':'\u2606';
     bFav.addEventListener('click', function(ev){ ev.stopPropagation(); toggleFav(feed.id); });
-    tools.appendChild(bUn); tools.appendChild(bFs); tools.appendChild(bFav);
+    var bSh=document.createElement('button'); bSh.className='pp-tool'; bSh.title='Share / copy link'; bSh.setAttribute('aria-label','Share channel'); bSh.innerHTML='\uD83D\uDD17';
+    bSh.addEventListener('click', function(ev){ ev.stopPropagation(); shareChannel(feed); });
+    tools.appendChild(bUn); tools.appendChild(bFs); tools.appendChild(bFav); tools.appendChild(bSh);
     inset.appendChild(tools);
     if(feed.cat==='LIVE CAM'){
       var live=document.createElement('span'); live.className='pp-inset-live'; live.innerHTML='<span class="pp-inset-live-dot"></span>LIVE'; inset.appendChild(live);
@@ -700,7 +743,15 @@ function buildMainGrid(){
 }
 
 /* ════════ MOBILE SINGLE PLAYER — shuffle one channel at a time ════════ */
-function buildMobileQueue(){ var pool=getActivePool(); PP.mQueue=pool.length?ppShuffle(pool):[]; PP.mIndex=0; }
+function buildMobileQueue(){
+  var pool=getActivePool(); PP.mQueue=pool.length?ppShuffle(pool):[]; PP.mIndex=0;
+  if(PP.feature && PP.mQueue.length){
+    var fi=-1,i; for(i=0;i<PP.mQueue.length;i++){ if(PP.mQueue[i].id===PP.feature){ fi=i; break; } }
+    if(fi<0){ var _ff=feedById(PP.feature); if(_ff){ PP.mQueue.unshift(_ff); fi=0; } }
+    if(fi>0){ PP.mQueue.unshift(PP.mQueue.splice(fi,1)[0]); }
+    PP.mIndex=0; PP.feature=null;
+  }
+}
 function curMobileFeed(){ return PP.mQueue.length?PP.mQueue[PP.mIndex%PP.mQueue.length]:null; }
 function stopMobileFrame(){ var f=document.getElementById('pp-mp-iframe'); if(f) f.src='about:blank'; }
 function startMobileAuto(){ stopMobileAuto(); PP.mAutoTimer=setTimeout(function(){ mobileNext(); }, 105000); }
@@ -729,10 +780,12 @@ function renderMobilePlayer(){
     +'<div class="pp-mp-titles"><div class="pp-mp-name">'+escHtml(feed.label)+'</div>'
     +'<div class="pp-mp-sub"><span class="pp-mp-cat">'+escHtml(feed.cat)+'</span>'+(feed.url?('<a class="pp-mp-link" href="'+feed.url+'" target="_blank" rel="noopener">Official site \u2197</a>'):'')+'</div></div></div>'
     +'<div class="pp-mp-controls"><button class="pp-mbtn" id="pp-mp-prev">\u25C0 Prev</button>'
-    +'<button class="pp-mbtn pp-mbtn-primary" id="pp-mp-next">\u27F3 Shuffle Next</button></div>'
+    +'<button class="pp-mbtn pp-mbtn-primary" id="pp-mp-next">\u27F3 Shuffle Next</button>'
+    +'<button class="pp-mbtn" id="pp-mp-share" aria-label="Share channel" title="Share / copy link">\uD83D\uDD17</button></div>'
     +'<div class="pp-mp-hint">Swipe the video left / right to change channels \u00B7 tap Unmute for sound</div>';
   document.getElementById('pp-mp-next').addEventListener('click', mobileNext);
   document.getElementById('pp-mp-prev').addEventListener('click', mobilePrev);
+  document.getElementById('pp-mp-share').addEventListener('click', function(){ shareChannel(feed); });
   document.getElementById('pp-mp-auto').addEventListener('click', mobileToggleAuto);
   document.getElementById('pp-mp-fav').addEventListener('click', function(){ toggleFav(feed.id); });
   var iframe=document.getElementById('pp-mp-iframe'), mute=document.getElementById('pp-mp-mute'), muted=true;
@@ -854,20 +907,42 @@ function shuffleCurrent(){ if(IS_NARROW()){ buildMobileQueue(); renderMobilePlay
 
 /* ════════ FESTIVAL COUNTDOWNS (real confirmed 2026 dates) ════════ */
 var PP_FESTIVALS=[
+  {name:'Defqon.1',     emoji:'\uD83D\uDD0A', where:'Biddinghuizen, NL',   start:'2026-06-25T12:00:00+02:00', dateLabel:'Jun 25\u201328',          url:'https://www.defqon1.com'},
+  {name:'Ultra Europe', emoji:'\uD83C\uDFA7', where:'Split, Croatia',      start:'2026-07-10T16:00:00+02:00', dateLabel:'Jul 10\u201312',          url:'https://ultraeurope.com'},
   {name:'Tomorrowland', emoji:'\uD83C\uDF0D', where:'Boom, Belgium',       start:'2026-07-17T16:00:00+02:00', dateLabel:'Jul 17\u201319 & 24\u201326', url:'https://www.tomorrowland.com'},
   {name:'Lollapalooza', emoji:'\uD83C\uDFB8', where:'Chicago, IL',         start:'2026-07-30T11:00:00-05:00', dateLabel:'Jul 30 \u2013 Aug 2',        url:'https://www.lollapalooza.com'},
+  {name:'Untold',       emoji:'\uD83C\uDFF0', where:'Cluj-Napoca, RO',     start:'2026-08-06T18:00:00+03:00', dateLabel:'Aug 6\u20139',            url:'https://untold.com'},
+  {name:'Sziget',       emoji:'\uD83C\uDFDD\uFE0F', where:'Budapest, HU',  start:'2026-08-11T12:00:00+02:00', dateLabel:'Aug 11\u201316',          url:'https://szigetfestival.com'},
   {name:'Creamfields',  emoji:'\uD83C\uDFA8', where:'Daresbury, UK',       start:'2026-08-27T12:00:00+01:00', dateLabel:'Aug 27\u201330 (20yr)',      url:'https://www.creamfields.com'},
-  {name:'Burning Man',  emoji:'\uD83D\uDD25', where:'Black Rock City, NV', start:'2026-08-30T00:00:00-07:00', dateLabel:'Aug 30 \u2013 Sep 7',        url:'https://burningman.org'}
+  {name:'Mysteryland',  emoji:'\uD83C\uDF08', where:'Haarlemmermeer, NL',  start:'2026-08-29T12:00:00+02:00', dateLabel:'Aug 29\u201330',          url:'https://www.mysteryland.com'},
+  {name:'Burning Man',  emoji:'\uD83D\uDD25', where:'Black Rock City, NV', start:'2026-08-30T00:00:00-07:00', dateLabel:'Aug 30 \u2013 Sep 7',        url:'https://burningman.org'},
+  {name:'Ultra Japan',  emoji:'\uD83D\uDDFE', where:'Tokyo, Japan',        start:'2026-09-19T13:00:00+09:00', dateLabel:'Sep 19\u201320',          url:'https://ultrajapan.com'},
+  {name:'EDC Orlando',  emoji:'\uD83C\uDFA1', where:'Orlando, FL',         start:'2026-11-06T16:00:00-05:00', dateLabel:'Nov 6\u20138',            url:'https://orlando.electricdaisycarnival.com'}
 ];
 function renderCountdowns(){
   var row=document.getElementById('pp-cd-row'); if(!row) return;
   row.innerHTML='';
+  var matchMap={ 'Tomorrowland':'tomorrowland', 'Ultra Europe':'ultra', 'Creamfields':'creamfields', 'EDC Orlando':'electric daisy' };
   PP_FESTIVALS.forEach(function(ft,i){
     var card=document.createElement('div'); card.className='pp-cd-card';
+    var mk=matchMap[ft.name]||null;
+    var hasCh=mk && PP_ALL_FEEDS.some(function(f){ return (f.label+' '+f.id).toLowerCase().indexOf(mk)>=0; });
     card.innerHTML='<div class="pp-cd-top"><span class="pp-cd-emoji">'+ft.emoji+'</span><span class="pp-cd-name">'+escHtml(ft.name)+'</span></div>'
-      +'<div class="pp-cd-where">'+escHtml(ft.where)+'</div>'
+      +'<div class="pp-cd-where">'+escHtml(ft.where)+(hasCh?' <span style="color:var(--cyan)">\u25B8 watch</span>':'')+'</div>'
       +'<div class="pp-cd-timer" id="pp-cd-t'+i+'"></div>'
-      +'<div class="pp-cd-foot"><span class="pp-cd-date">'+escHtml(ft.dateLabel)+' 2026</span>'+(ft.url?('<a class="pp-cd-link" href="'+ft.url+'" target="_blank" rel="noopener">Tickets \u2197</a>'):'')+'</div>';
+      +'<div class="pp-cd-foot"><span class="pp-cd-date">'+escHtml(ft.dateLabel)+' 2026</span>'+(ft.url?('<a class="pp-cd-link" href="'+ft.url+'" target="_blank" rel="noopener" onclick="event.stopPropagation()">Tickets \u2197</a>'):'')+'</div>';
+    if(hasCh){
+      card.style.cursor='pointer';
+      card.title='Watch '+ft.name+' channels';
+      card.addEventListener('click', function(){
+        var s=document.getElementById('pp-search'); if(s) s.value=mk;
+        PP.search=mk; PP.filterId='all';
+        var c=document.getElementById('pp-search-clear'); if(c) c.classList.add('pp-show');
+        renderChips(); renderActiveView(true);
+        var fw=document.querySelector('.pp-feeds-wrap'); if(fw) fw.scrollIntoView({behavior:'smooth',block:'start'});
+        toast('Showing '+ft.name+' channels');
+      });
+    }
     row.appendChild(card);
   });
   tickCountdowns();
@@ -899,6 +974,7 @@ document.addEventListener('keydown', function(e){
   }
   if(typing) return;
   var k=e.key.toLowerCase();
+  if(/^[1-9]$/.test(e.key)){ var _fi=parseInt(e.key,10)-1; if(PP_FILTERS[_fi]){ e.preventDefault(); setFilter(PP_FILTERS[_fi].id); } return; }
   if(k==='s'){ e.preventDefault(); shuffleCurrent(); }
   else if(k==='p'){ if(!IS_NARROW() && window.__ppOpenParty){ e.preventDefault(); window.__ppOpenParty(); } }
   else if(k==='f'){ e.preventDefault(); setFilter(PP.filterId==='fav'?'all':'fav'); }
@@ -943,45 +1019,62 @@ if('serviceWorker' in navigator && (location.protocol==='https:'||location.proto
   function trustColor(t){ if(t===1) return 'var(--ok)'; if(t===2) return 'var(--warn)'; return 'var(--dim)'; }
   function stripSrc(t){ if(!t || t.indexOf(' - ')<0) return t; var p=t.split(' - '); var last=p[p.length-1]; if(last.split(' ').length<=5){ p.pop(); return p.join(' - '); } return t; }
   loading();
-  function render(items, updatedTs){
-    items=(items||[]).filter(function(i){ return i && i.title; });
-    if(!items.length){ emptyState('No fresh headlines just yet'); return; }
-    var now=Math.floor(Date.now()/1000), DAY=86400, cutToday=now-DAY;
-    var today=items.filter(function(i){ return !i.ts || i.ts>=cutToday; });
-    var yest=items.filter(function(i){ return i.ts && i.ts<cutToday; });
-    if(!today.length){ today=items.slice(0,8); yest=items.slice(8); }
-    function hl(item){
-      var title=stripSrc(item.title);
-      var init=(item.src||'PP').replace(/[^A-Z0-9]/gi,'').slice(0,2).toUpperCase()||'PP';
-      var href=(item.link && item.link!=='#')?item.link:null;
-      var tc=trustColor(item.tier||3);
-      return '<div class="pp-hl"'+(href?(' onclick="window.open(\''+href.replace(/'/g,"\\'")+'\',\'_blank\',\'noopener\')"'):'')+'>'
-        +'<div class="pp-hl-icon">'+init+'</div><div class="pp-hl-body">'
-        +'<div class="pp-hl-tags">'+(item.hot?'<span class="pp-new-dot" aria-hidden="true">\u25CF</span>':'')+(item.cat?'<span class="pp-hl-tag">'+escHtml(item.cat)+'</span>':'')+'</div>'
-        +'<span class="pp-hl-title">'+escHtml(title)+'</span><div class="pp-hl-meta">'
-        +(item.src?('<span class="pp-hl-src"><span class="pp-hl-trust" style="background:'+tc+'"></span>'+escHtml(item.src)+'</span>'):'')
-        +(item.time?('<span class="pp-hl-time">'+escHtml(item.time)+'</span>'):'')
-        +(href?('<a class="pp-hl-link" href="'+href+'" target="_blank" rel="noopener" onclick="event.stopPropagation()">Read \u2197</a>'):'')
-        +'</div></div></div>';
-    }
+  var _items=[], _updated=0, _newsCat='all';
+  function hl(item){
+    var title=stripSrc(item.title);
+    var init=(item.src||'PP').replace(/[^A-Z0-9]/gi,'').slice(0,2).toUpperCase()||'PP';
+    var href=(item.link && item.link!=='#')?item.link:null;
+    var tc=trustColor(item.tier||3);
+    return '<div class="pp-hl"'+(href?(' onclick="window.open(\''+href.replace(/'/g,"\\'")+'\',\'_blank\',\'noopener\')"'):'')+'>'
+      +'<div class="pp-hl-icon">'+init+'</div><div class="pp-hl-body">'
+      +'<div class="pp-hl-tags">'+(item.hot?'<span class="pp-new-dot" aria-hidden="true">\u25CF</span>':'')+(item.cat?'<span class="pp-hl-tag">'+escHtml(item.cat)+'</span>':'')+'</div>'
+      +'<span class="pp-hl-title">'+escHtml(title)+'</span><div class="pp-hl-meta">'
+      +(item.src?('<span class="pp-hl-src"><span class="pp-hl-trust" style="background:'+tc+'"></span>'+escHtml(item.src)+'</span>'):'')
+      +(item.time?('<span class="pp-hl-time">'+escHtml(item.time)+'</span>'):'')
+      +(href?('<a class="pp-hl-link" href="'+href+'" target="_blank" rel="noopener" onclick="event.stopPropagation()">Read \u2197</a>'):'')
+      +'</div></div></div>';
+  }
+  function renderPills(){
+    var box=document.getElementById('pp-news-pills'); if(!box) return;
+    var counts={}; _items.forEach(function(i){ var c=i.cat||'Other'; counts[c]=(counts[c]||0)+1; });
+    var cats=Object.keys(counts).sort(function(a,b){ return counts[b]-counts[a]; });
+    var html='<button class="pp-chip'+(_newsCat==='all'?' pp-active':'')+'" data-nc="all">All <span class="pp-chip-n">'+_items.length+'</span></button>';
+    cats.forEach(function(c){ html+='<button class="pp-chip'+(_newsCat===c?' pp-active':'')+'" data-nc="'+escHtml(c)+'">'+escHtml(c)+' <span class="pp-chip-n">'+counts[c]+'</span></button>'; });
+    box.innerHTML=html;
+    Array.prototype.forEach.call(box.querySelectorAll('[data-nc]'), function(b){
+      b.addEventListener('click', function(){ _newsCat=b.getAttribute('data-nc'); renderPills(); paint(); });
+    });
+  }
+  function paint(){
+    var list = _newsCat==='all' ? _items : _items.filter(function(i){ return (i.cat||'Other')===_newsCat; });
+    var DAY=86400, now=Math.floor(Date.now()/1000), cutToday=now-DAY;
+    var today=list.filter(function(i){ return !i.ts || i.ts>=cutToday; });
+    var yest=list.filter(function(i){ return i.ts && i.ts<cutToday; });
+    if(!today.length && list.length){ today=list.slice(0,8); yest=list.slice(8); }
     var todayStr=new Date().toLocaleDateString('en-US',{weekday:'short',month:'short',day:'numeric'});
     var yestStr=new Date(Date.now()-DAY*1000).toLocaleDateString('en-US',{weekday:'short',month:'short',day:'numeric'});
     cols.innerHTML='<div><div class="pp-col-label pp-col-breaking"><div class="pp-col-dot"></div>TODAY \u2014 '+todayStr+'<span class="pp-col-count">'+today.length+' stories</span></div>'
-      +(today.length?today.slice(0,14).map(hl).join(''):'<p style="font-size:.82em;color:var(--dim);padding:12px 6px">Feed refreshes 3\u00D7 daily \u2014 check back soon</p>')+'</div>'
+      +(today.length?today.slice(0,16).map(hl).join(''):'<p style="font-size:.82em;color:var(--dim);padding:12px 6px">No stories in this filter \u2014 try another.</p>')+'</div>'
       +'<div><div class="pp-col-label pp-col-latest"><div class="pp-col-dot"></div>EARLIER \u2014 '+yestStr+'<span class="pp-col-count">'+yest.length+' stories</span></div>'
-      +(yest.length?yest.slice(0,14).map(hl).join(''):'<p style="font-size:.82em;color:var(--dim);padding:12px 6px">Earlier stories will appear here</p>')+'</div>';
+      +(yest.length?yest.slice(0,16).map(hl).join(''):'<p style="font-size:.82em;color:var(--dim);padding:12px 6px">Earlier stories will appear here</p>')+'</div>';
+  }
+  function renderTicker(){
+    var belt=document.getElementById('pp-ticker-belt'); if(!belt) return;
+    var h='';
+    [_items,_items].forEach(function(arr){ arr.forEach(function(item){
+      var title=stripSrc(item.title), href=(item.link&&item.link!=='#')?item.link:'#';
+      h+='<span class="pp-tick-item" onclick="window.open(\''+href.replace(/'/g,"\\'")+'\',\'_blank\',\'noopener\')">'+(item.cat?'<strong style="color:var(--pink-l);margin-right:6px">['+escHtml(item.cat)+']</strong>':'')+escHtml(title)+'</span><span class="pp-tick-sep" aria-hidden="true">\u25C6</span>';
+    }); });
+    belt.innerHTML=h;
+    requestAnimationFrame(function(){ belt.style.animationDuration=Math.max(Math.round(belt.scrollWidth/160),40)+'s'; });
+  }
+  function render(items, updatedTs){
+    _items=(items||[]).filter(function(i){ return i && i.title; });
+    _updated=updatedTs||0; _newsCat='all';
+    if(!_items.length){ emptyState('No fresh headlines just yet'); var pb=document.getElementById('pp-news-pills'); if(pb) pb.innerHTML=''; return; }
     var upd=document.getElementById('pp-updated');
-    if(upd && updatedTs){ var dd=new Date(updatedTs*1000); upd.textContent='Updated '+dd.toLocaleTimeString('en-US',{hour:'numeric',minute:'2-digit'}); }
-    var belt=document.getElementById('pp-ticker-belt');
-    if(belt){
-      var h='';
-      [items,items].forEach(function(arr){ arr.forEach(function(item){
-        var title=stripSrc(item.title), href=(item.link&&item.link!=='#')?item.link:'#';
-        h+='<span class="pp-tick-item" onclick="window.open(\''+href.replace(/'/g,"\\'")+'\',\'_blank\',\'noopener\')">'+(item.cat?'<strong style="color:var(--pink-l);margin-right:6px">['+escHtml(item.cat)+']</strong>':'')+escHtml(title)+'</span><span class="pp-tick-sep" aria-hidden="true">\u25C6</span>';
-      }); });
-      belt.innerHTML=h;
-      requestAnimationFrame(function(){ belt.style.animationDuration=Math.max(Math.round(belt.scrollWidth/160),40)+'s'; });
-    }
+    if(upd && _updated){ var dd=new Date(_updated*1000); upd.textContent='Updated '+dd.toLocaleTimeString('en-US',{hour:'numeric',minute:'2-digit'}); }
+    renderPills(); paint(); renderTicker();
   }
   function load(){
     loading();
@@ -998,13 +1091,18 @@ if('serviceWorker' in navigator && (location.protocol==='https:'||location.proto
   var el=document.getElementById('pp-date');
   if(el) el.textContent=new Date().toLocaleDateString('en-US',{weekday:'long',year:'numeric',month:'long',day:'numeric'});
   var fc=document.getElementById('pp-feed-count'); if(fc) fc.textContent=PP_ALL_FEEDS.length+' Channels';
+  try{ var st=localStorage.getItem('pp:station'); if(st){ var sf=getFilterById(st); if(sf && sf.id===st && (sf.kind!=='fav' || PP.favs.size>0)) PP.filterId=st; } }catch(e){}
+  var featLabel=null;
+  try{
+    var params=new URLSearchParams(location.search);
+    var chId=params.get('ch');
+    if(chId){ var cf=feedById(chId); if(cf){ PP.filterId='all'; PP.feature=cf.id; featLabel=cf.label; } }
+    if(params.get('mode')==='party' && !IS_NARROW() && window.__ppOpenParty){ setTimeout(window.__ppOpenParty, 400); }
+  }catch(e){}
   renderChips();
   renderCountdowns();
   renderActiveView(true);
-  try{
-    var params=new URLSearchParams(location.search);
-    if(params.get('mode')==='party' && !IS_NARROW() && window.__ppOpenParty){ setTimeout(window.__ppOpenParty, 400); }
-  }catch(e){}
+  if(featLabel) toast('Featuring \u2014 '+featLabel.replace(/^[^A-Za-z0-9]+/,''));
 })();
 </script>
 </body>
