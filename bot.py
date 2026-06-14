@@ -28,9 +28,9 @@ from xml.etree import ElementTree as ET
 import urllib.request, urllib.error
 
 # ───────────────────────────── CONFIG ─────────────────────────────
-MAX_ITEMS      = 40
+MAX_ITEMS      = 55
 BREAKING_HOURS = 36     # < 36h old  → "hot"
-DAILY_HOURS    = 96     # < 96h old  → kept
+DAILY_HOURS    = 48     # < 48h old  → kept (today + yesterday)
 FETCH_TIMEOUT  = 12
 MAX_WORKERS    = 12
 MIN_TITLE_LEN  = 28
@@ -186,6 +186,12 @@ def _fetch_rss(name, url):
             title = htmllib.unescape(t_el.text.strip())
             link  = (l_el.text or "").strip() if l_el is not None else ""
             src   = s_el.text.strip() if (s_el is not None and s_el.text) else name
+            domain = ""
+            if s_el is not None:
+                surl = s_el.get("url") or ""
+                m = re.search(r"https?://([^/]+)", surl)
+                if m:
+                    domain = m.group(1).lower().replace("www.", "")
             ts = 0
             if p_el is not None and p_el.text:
                 for fmt in ("%a, %d %b %Y %H:%M:%S %z", "%a, %d %b %Y %H:%M:%S GMT",
@@ -198,7 +204,7 @@ def _fetch_rss(name, url):
                         pass
             if not ts:
                 ts = int(time.time()) - 3600
-            out.append((ts, title, link, src))
+            out.append((ts, title, link, src, domain))
         return out
     except Exception as e:
         print(f"  [WARN] {name}: {e}")
@@ -279,7 +285,28 @@ def _sigwords(title):
     t = re.sub(r"[^a-z0-9 ]", " ", strip_source(title).lower())
     return set(w for w in t.split() if len(w) > 3 and w not in _STOP)
 
-def build_item(ts, title, link, src):
+_DOMAIN_MAP = {
+    "mixmag": "mixmag.net", "dj mag": "djmag.com", "djmag": "djmag.com",
+    "resident advisor": "ra.co", "ra": "ra.co", "edm.com": "edm.com",
+    "edm": "edm.com", "dancing astronaut": "dancingastronaut.com",
+    "your edm": "youredm.com", "edmtunes": "edmtunes.com", "we rave you": "weraveyou.com",
+    "weraveyou": "weraveyou.com", "edm identity": "edmidentity.com",
+    "billboard": "billboard.com", "rolling stone": "rollingstone.com",
+    "pitchfork": "pitchfork.com", "stereogum": "stereogum.com", "nme": "nme.com",
+    "consequence": "consequence.net", "variety": "variety.com", "the guardian": "theguardian.com",
+    "spin": "spin.com", "loudwire": "loudwire.com", "ultimate classic rock": "ultimateclassicrock.com",
+    "kerrang": "kerrang.com", "magnetic magazine": "magneticmag.com", "6am": "6amgroup.com",
+    "djs from mars": "djmag.com", "the nocturnal times": "thenocturnaltimes.com",
+    "edm sauce": "edmsauce.com", "data transmission": "datatransmission.co",
+    "attack magazine": "attackmagazine.com", "mixmag asia": "mixmag.asia",
+    "the dj list": "thedjlist.com", "ravejungle": "ravejungle.com", "decoded magazine": "decodedmagazine.com",
+}
+def _guess_domain(src):
+    if not src:
+        return ""
+    return _DOMAIN_MAP.get(src.strip().lower(), "")
+
+def build_item(ts, title, link, src, domain=""):
     """Apply all cleaning/filters. Return dict or None if rejected."""
     if len(title) < MIN_TITLE_LEN or len(title) > MAX_TITLE_LEN:
         return None
@@ -298,31 +325,40 @@ def build_item(ts, title, link, src):
         "title": strip_source(title),
         "link":  link or "#",
         "src":   src,
+        "domain": domain or _guess_domain(src),
         "time":  time_label(age),
         "cat":   categorize(title),
         "hot":   age < BREAKING_HOURS * 3600,
         "ts":    ts,
         "tier":  source_tier(src),
+        "n":     1,
     }
 
 def filter_and_dedup(raw):
     """Filter, then collapse exact AND near-duplicate headlines.
     Near-dupes (Jaccard of significant words >= 0.55) are merged, keeping the
-    higher-trust source — stops the feed filling up with five rewrites of the
-    same story."""
+    higher-trust source. Each surviving story carries n = the number of DISTINCT
+    sources that reported it (the 'most-reported' ranking signal)."""
     now = int(time.time())
     max_age = DAILY_HOURS * 3600
     raw.sort(key=lambda x: x[0], reverse=True)
-    exact = set()
-    out, sigs = [], []
-    for ts, title, link, src in raw:
+    out, sigs, srcsets = [], [], []
+    exact_idx = {}
+    for tup in raw:
+        ts, title, link, src = tup[0], tup[1], tup[2], tup[3]
+        domain = tup[4] if len(tup) > 4 else ""
         if (now - ts) > max_age:
             continue
-        it = build_item(ts, title, link, src)
+        it = build_item(ts, title, link, src, domain)
         if not it:
             continue
+        srcid = (it.get("domain") or src or "").lower()
         h = hashlib.md5(_key(title).encode()).hexdigest()
-        if h in exact:
+        if h in exact_idx:
+            j = exact_idx[h]
+            if srcid:
+                srcsets[j].add(srcid)
+            out[j]["n"] = max(1, len(srcsets[j]))
             continue
         sg = _sigwords(title)
         dup = -1
@@ -336,16 +372,41 @@ def filter_and_dedup(raw):
                     dup = i
                     break
         if dup >= 0:
+            if srcid:
+                srcsets[dup].add(srcid)
             if it["tier"] < out[dup]["tier"]:
+                it["n"] = max(1, len(srcsets[dup]))
                 out[dup] = it
                 sigs[dup] = sg
+                exact_idx[h] = dup
+            else:
+                out[dup]["n"] = max(1, len(srcsets[dup]))
             continue
-        exact.add(h)
+        exact_idx[h] = len(out)
         out.append(it)
         sigs.append(sg)
+        srcsets.append(set([srcid]) if srcid else set())
         if len(out) >= MAX_ITEMS * 2:
             break
+    out.sort(key=lambda x: x.get("ts", 0), reverse=True)
     return out[:MAX_ITEMS]
+
+def load_prior():
+    """Load the previous feed.json (if any) as raw tuples so yesterday's
+    stories persist across runs — that's what fills the 'Earlier' column."""
+    try:
+        with open("feed.json", "r", encoding="utf-8") as f:
+            data = json.load(f)
+        out = []
+        for it in data.get("items", []):
+            ts = int(it.get("ts") or 0)
+            if not ts:
+                continue
+            out.append((ts, it.get("title", ""), it.get("link", "#"),
+                        it.get("src", ""), it.get("domain", "")))
+        return out
+    except Exception:
+        return []
 
 # ─────────────────────────────── MAIN ──────────────────────────────
 if __name__ == "__main__":
@@ -353,9 +414,13 @@ if __name__ == "__main__":
     print(f"  Keywords: {len(KEYWORDS)} | Sources: {len(CULTURE_SOURCES)}")
     print("  Fetching RSS…")
     raw = fetch_all()
-    print(f"  Raw items: {len(raw)}")
+    print(f"  Raw items (fresh): {len(raw)}")
+    prior = load_prior()
+    print(f"  Prior items (carried for 'Earlier'): {len(prior)}")
+    raw = raw + prior
     items = filter_and_dedup(raw)
-    print(f"  After clean/filter/dedup: {len(items)}")
+    multi = sum(1 for i in items if i.get("n", 1) >= 2)
+    print(f"  After clean/filter/dedup: {len(items)} ({multi} multi-source)")
     if items:
         with open("feed.json", "w", encoding="utf-8") as f:
             json.dump({"updated": int(time.time()), "items": items}, f, ensure_ascii=False, indent=2)

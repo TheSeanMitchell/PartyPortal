@@ -1,5 +1,23 @@
 # Changelog
 
+## v2.3 — Psytrance + Pool Party channels, NUZU-style news, Vegas nightlife, mute toggle
+
+### New channel types (106 → 122)
+- **🍄 Psytrance (new, 13)** — official *Full Set Movies* from Astrix, Ace Ventura and Liquid Soul at **Ozora** and **Boom Festival** (high-quality video + audio, stable official uploads). Added to the **🔥 Peak Hours** station.
+- **🏖️ Pool Party (new, 4)** — daytime/poolside sets & aftermovies: your pick, Ushuaïa Ibiza (Opening 2025 + 2025 aftermovie), and an Encore Beach Club Las Vegas playlist.
+- Removed the Keinemusik afro tile that got copyright-claimed (the "video unavailable" one).
+
+### News feed — now styled like NUZU
+- **Source logos** — every headline now shows the publisher's favicon (via the bot capturing each story's domain), with the 2-letter monogram as a fallback.
+- **"🔥 N sources" ranking** — the bot clusters the same story across outlets and counts how many distinct sources reported it; the most-reported stories are badged and sorted to the top of each column.
+- **Yesterday's biggest stories** — the bot now *merges the previous feed* on every run (48-hour window), so the **Earlier** column keeps yesterday's top stories instead of emptying out. (The Earlier column fills in automatically after the next scheduled bot run, since it needs a prior day of data to carry forward.)
+
+### Vegas Nightlife directory
+- New **Vegas Nightlife** section: 17 Strip clubs & pool parties (Zouk, XS, Omnia, Marquee, Tao, Hakkasan, LIV, Jewel, EBC + the dayclubs), each linking straight to its live **guest list** and **event calendar** on No Cover Nightclubs — always-current event links rather than dates that go stale.
+
+### Fixes
+- **You can re-mute now.** Clicking an unmuted tile (or the speaker button) toggles it back to muted, so you're no longer forced to keep audio playing on *some* channel. The auto-mute-others behaviour and auto-mute-on-new-channel are unchanged — works the same in Party Mode too.
+
 ## v2.2 — Big scenic-channel expansion + Vegas + fixes
 
 ### Channels (70 → 106)

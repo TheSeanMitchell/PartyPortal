@@ -258,7 +258,9 @@
     .pp-col-count{margin-left:auto;font-size:.7em;font-family:'Space Mono',monospace;color:var(--dim);letter-spacing:0}
     .pp-hl{padding:9px 6px 9px 10px;border-bottom:1px solid rgba(144,32,220,.1);display:flex;align-items:flex-start;gap:8px;cursor:pointer;border-radius:3px;transition:background .15s;margin-bottom:2px}
     .pp-hl:hover{background:rgba(214,25,112,.045)}
-    .pp-hl-icon{width:22px;height:22px;border-radius:50%;background:rgba(144,32,220,.25);color:var(--purple-l);font-family:'Bebas Neue',sans-serif;font-size:.72em;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:2px;font-weight:700;letter-spacing:0;position:relative}
+    .pp-hl-icon{width:22px;height:22px;border-radius:50%;background:rgba(144,32,220,.25);color:var(--purple-l);font-family:'Bebas Neue',sans-serif;font-size:.72em;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:2px;font-weight:700;letter-spacing:0;position:relative;overflow:hidden}
+    .pp-hl-fav{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;border-radius:50%;background:#0b0712}
+    .pp-hl-srcs{display:inline-flex;align-items:center;gap:3px;font-family:'Space Mono',monospace;font-size:.56em;font-weight:700;color:#ff7ab8;background:rgba(214,25,112,.16);border:1px solid rgba(214,25,112,.4);padding:0 6px;border-radius:10px;letter-spacing:.02em;text-transform:uppercase}
     .pp-hl-body{flex:1;min-width:0}
     .pp-hl-tags{display:flex;align-items:center;gap:5px;margin-bottom:3px;flex-wrap:wrap}
     .pp-hl-tag{font-size:.62em;font-weight:800;letter-spacing:.07em;text-transform:uppercase;padding:1px 6px;border-radius:2px;background:rgba(144,32,220,.2);color:#C070FF}
@@ -322,7 +324,7 @@
   <div id="pp-wrhdr">
     <div id="pp-wrhdr-left">
       <span id="pp-wrtitle">&#9654; PARTY PORTAL &mdash; PARTY MODE</span>
-      <span id="pp-wrsub">12 random channels — click any to unmute — ESC exits</span>
+      <span id="pp-wrsub">12 random channels — click to unmute · click again to mute — ESC exits</span>
     </div>
     <button id="pp-wrshuffle" style="background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.2);border-radius:4px;color:#fff;font-family:'Barlow Condensed',sans-serif;font-size:.84em;font-weight:700;letter-spacing:.08em;padding:6px 14px;cursor:pointer;text-transform:uppercase;margin-right:6px;transition:background .15s" onmouseover="this.style.background='rgba(255,255,255,.22)'" onmouseout="this.style.background='rgba(255,255,255,.12)'">&#8635;&nbsp;NEW 12</button>
     <button id="pp-wrclose">&#x2715;&nbsp;EXIT&nbsp;<kbd>ESC</kbd></button>
@@ -342,7 +344,7 @@
     <div class="pp-help-row"><span>This menu</span><kbd>?</kbd></div>
     <div class="pp-help-row"><span>Close / exit</span><kbd>Esc</kbd></div>
     <button class="pp-help-close" id="pp-help-close">Got it</button>
-    <p class="pp-help-note">Tip: click any video tile to unmute it. Star a channel to save it.</p>
+    <p class="pp-help-note">Tip: click a tile to unmute · click again to mute. Star a channel to save it.</p>
   </div>
 </div>
 
@@ -383,6 +385,17 @@
     <span class="pp-cd-hdr-sub">Counting down to the next big drops &mdash; tap for tickets &amp; info</span>
   </div>
   <div class="pp-cd-row" id="pp-cd-row"></div>
+</section>
+
+<style>.pp-vg-wrap{max-width:1380px;margin:0 auto;padding:6px 18px 0}.pp-vg-wrap .pp-cd-hdr{display:flex;align-items:center;gap:10px}.pp-vg-all{margin-left:auto;font-family:'Space Mono',monospace;font-size:.64em;color:var(--cyan);text-decoration:none;border:1px solid rgba(0,229,255,.3);padding:3px 9px;border-radius:6px;white-space:nowrap}.pp-vg-all:hover{background:rgba(0,229,255,.1)}.pp-vg-row{display:flex;gap:10px;overflow-x:auto;padding:11px 2px 4px;scroll-snap-type:x proximity}.pp-vg-card{flex:0 0 auto;width:184px;background:linear-gradient(160deg,rgba(40,8,40,.55),rgba(10,6,20,.55));border:1px solid rgba(214,25,112,.22);border-radius:12px;padding:12px 13px;scroll-snap-align:start;transition:border-color .15s,transform .15s}.pp-vg-card:hover{border-color:rgba(0,229,255,.5);transform:translateY(-2px)}.pp-vg-top{display:flex;align-items:center;justify-content:space-between;gap:6px;margin-bottom:11px}.pp-vg-name{font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:1.05em;letter-spacing:.02em;color:#fff;text-transform:uppercase;line-height:1.05}.pp-vg-badge{font-family:'Space Mono',monospace;font-size:.5em;font-weight:700;text-transform:uppercase;letter-spacing:.06em;padding:2px 6px;border-radius:8px;flex-shrink:0}.pp-vg-club{color:#ff7ab8;background:rgba(214,25,112,.16);border:1px solid rgba(214,25,112,.4)}.pp-vg-pool{color:#5fd9ff;background:rgba(0,229,255,.12);border:1px solid rgba(0,229,255,.35)}.pp-vg-links{display:flex;gap:7px}.pp-vg-links a{flex:1;text-align:center;font-family:'Space Mono',monospace;font-size:.58em;text-decoration:none;padding:5px 0;border-radius:7px;letter-spacing:.01em}.pp-vg-cal{color:var(--cyan);background:rgba(0,229,255,.08);border:1px solid rgba(0,229,255,.25)}.pp-vg-cal:hover{background:rgba(0,229,255,.18)}.pp-vg-gl{color:#fff;background:rgba(214,25,112,.5)}.pp-vg-gl:hover{background:rgba(214,25,112,.78)}</style>
+<section class="pp-vg-wrap" aria-label="Las Vegas nightlife">
+  <div class="pp-cd-hdr">
+    <span class="pp-sec-dot" aria-hidden="true"></span>
+    <span class="pp-cd-hdr-title">Vegas Nightlife</span>
+    <span class="pp-cd-hdr-sub">Clubs &amp; pool parties on the Strip &mdash; tap for guest list &amp; tickets</span>
+    <a class="pp-vg-all" href="https://nocovernightclubs.com/las-vegas-nightclub-events/" target="_blank" rel="noopener">Full calendar &#8599;</a>
+  </div>
+  <div class="pp-vg-row"><div class="pp-vg-card"><div class="pp-vg-top"><span class="pp-vg-name">Zouk</span><span class="pp-vg-badge pp-vg-club">Club</span></div><div class="pp-vg-links"><a class="pp-vg-cal" href="https://nocovernightclubs.com/zouk-nightclub-event-calendar/" target="_blank" rel="noopener">Calendar</a><a class="pp-vg-gl" href="https://nocovernightclubs.com/nightclubs/zouk-nightclub-guest-list/#guestlist" target="_blank" rel="noopener">Guest List &#8599;</a></div></div><div class="pp-vg-card"><div class="pp-vg-top"><span class="pp-vg-name">XS</span><span class="pp-vg-badge pp-vg-club">Club</span></div><div class="pp-vg-links"><a class="pp-vg-cal" href="https://nocovernightclubs.com/xs-nightclub-event-calendar/" target="_blank" rel="noopener">Calendar</a><a class="pp-vg-gl" href="https://nocovernightclubs.com/nightclubs/xs-nightclub-guest-list/#guestlist" target="_blank" rel="noopener">Guest List &#8599;</a></div></div><div class="pp-vg-card"><div class="pp-vg-top"><span class="pp-vg-name">Omnia</span><span class="pp-vg-badge pp-vg-club">Club</span></div><div class="pp-vg-links"><a class="pp-vg-cal" href="https://nocovernightclubs.com/omnia-nightclub-las-vegas-event-calendar/" target="_blank" rel="noopener">Calendar</a><a class="pp-vg-gl" href="https://nocovernightclubs.com/omnia-nightclub-guest-list/#guestlist" target="_blank" rel="noopener">Guest List &#8599;</a></div></div><div class="pp-vg-card"><div class="pp-vg-top"><span class="pp-vg-name">Marquee</span><span class="pp-vg-badge pp-vg-club">Club</span></div><div class="pp-vg-links"><a class="pp-vg-cal" href="https://nocovernightclubs.com/marquee-nightclub-las-vegas-event-calendar/" target="_blank" rel="noopener">Calendar</a><a class="pp-vg-gl" href="https://nocovernightclubs.com/nightclubs/marquee-nightclub-guest-list/#guestlist" target="_blank" rel="noopener">Guest List &#8599;</a></div></div><div class="pp-vg-card"><div class="pp-vg-top"><span class="pp-vg-name">Tao</span><span class="pp-vg-badge pp-vg-club">Club</span></div><div class="pp-vg-links"><a class="pp-vg-cal" href="https://nocovernightclubs.com/tao-nightclub-las-vegas-event-calendar/" target="_blank" rel="noopener">Calendar</a><a class="pp-vg-gl" href="https://nocovernightclubs.com/nightclubs/tao-nightclub-guest-list/#guestlist" target="_blank" rel="noopener">Guest List &#8599;</a></div></div><div class="pp-vg-card"><div class="pp-vg-top"><span class="pp-vg-name">Hakkasan</span><span class="pp-vg-badge pp-vg-club">Club</span></div><div class="pp-vg-links"><a class="pp-vg-cal" href="https://nocovernightclubs.com/hakkasan-nightclub-event-calendar/" target="_blank" rel="noopener">Calendar</a><a class="pp-vg-gl" href="https://nocovernightclubs.com/nightclubs/hakkasan-nightclub-guest-list/#guestlist" target="_blank" rel="noopener">Guest List &#8599;</a></div></div><div class="pp-vg-card"><div class="pp-vg-top"><span class="pp-vg-name">LIV</span><span class="pp-vg-badge pp-vg-club">Club</span></div><div class="pp-vg-links"><a class="pp-vg-cal" href="https://nocovernightclubs.com/liv-nightclub-event-calendar/" target="_blank" rel="noopener">Calendar</a><a class="pp-vg-gl" href="https://nocovernightclubs.com/liv-nightclub-guest-list/#guestlist" target="_blank" rel="noopener">Guest List &#8599;</a></div></div><div class="pp-vg-card"><div class="pp-vg-top"><span class="pp-vg-name">Jewel</span><span class="pp-vg-badge pp-vg-club">Club</span></div><div class="pp-vg-links"><a class="pp-vg-cal" href="https://nocovernightclubs.com/jewel-nightclub-event-calendar/" target="_blank" rel="noopener">Calendar</a><a class="pp-vg-gl" href="https://nocovernightclubs.com/nightclubs/jewel-nightclub-guest-list/#guestlist" target="_blank" rel="noopener">Guest List &#8599;</a></div></div><div class="pp-vg-card"><div class="pp-vg-top"><span class="pp-vg-name">EBC At Night</span><span class="pp-vg-badge pp-vg-club">Club</span></div><div class="pp-vg-links"><a class="pp-vg-cal" href="https://nocovernightclubs.com/encore-beach-club-event-calendar/" target="_blank" rel="noopener">Calendar</a><a class="pp-vg-gl" href="https://nocovernightclubs.com/nightclubs/surrender-nightclub-guest-list/#guestlist" target="_blank" rel="noopener">Guest List &#8599;</a></div></div><div class="pp-vg-card"><div class="pp-vg-top"><span class="pp-vg-name">Encore Beach Club</span><span class="pp-vg-badge pp-vg-pool">Pool</span></div><div class="pp-vg-links"><a class="pp-vg-cal" href="https://nocovernightclubs.com/encore-beach-club-event-calendar/" target="_blank" rel="noopener">Calendar</a><a class="pp-vg-gl" href="https://nocovernightclubs.com/pool-parties/encore-beach-club-guest-list/#guestlist" target="_blank" rel="noopener">Guest List &#8599;</a></div></div><div class="pp-vg-card"><div class="pp-vg-top"><span class="pp-vg-name">Marquee Dayclub</span><span class="pp-vg-badge pp-vg-pool">Pool</span></div><div class="pp-vg-links"><a class="pp-vg-cal" href="https://nocovernightclubs.com/marquee-dayclub-event-calendar/" target="_blank" rel="noopener">Calendar</a><a class="pp-vg-gl" href="https://nocovernightclubs.com/pool-parties/marquee-dayclub-guest-list/#guestlist" target="_blank" rel="noopener">Guest List &#8599;</a></div></div><div class="pp-vg-card"><div class="pp-vg-top"><span class="pp-vg-name">Tao Beach</span><span class="pp-vg-badge pp-vg-pool">Pool</span></div><div class="pp-vg-links"><a class="pp-vg-cal" href="https://nocovernightclubs.com/tao-beach-event-calendar/" target="_blank" rel="noopener">Calendar</a><a class="pp-vg-gl" href="https://nocovernightclubs.com/pool-parties/tao-beach-guest-list/#guestlist" target="_blank" rel="noopener">Guest List &#8599;</a></div></div><div class="pp-vg-card"><div class="pp-vg-top"><span class="pp-vg-name">Liquid Pool</span><span class="pp-vg-badge pp-vg-pool">Pool</span></div><div class="pp-vg-links"><a class="pp-vg-cal" href="https://nocovernightclubs.com/liquid-pool-event-calendar/" target="_blank" rel="noopener">Calendar</a><a class="pp-vg-gl" href="https://nocovernightclubs.com/pool-parties/liquid-pool-guest-list/#guestlist" target="_blank" rel="noopener">Guest List &#8599;</a></div></div><div class="pp-vg-card"><div class="pp-vg-top"><span class="pp-vg-name">Palm Tree Beach</span><span class="pp-vg-badge pp-vg-pool">Pool</span></div><div class="pp-vg-links"><a class="pp-vg-cal" href="https://nocovernightclubs.com/palm-tree-beach-club-event-calendar/" target="_blank" rel="noopener">Calendar</a><a class="pp-vg-gl" href="https://nocovernightclubs.com/pool-parties/palm-tree-beach-club-guest-list/#guestlist" target="_blank" rel="noopener">Guest List &#8599;</a></div></div><div class="pp-vg-card"><div class="pp-vg-top"><span class="pp-vg-name">LIV Beach</span><span class="pp-vg-badge pp-vg-pool">Pool</span></div><div class="pp-vg-links"><a class="pp-vg-cal" href="https://nocovernightclubs.com/liv-beach-event-calendar/" target="_blank" rel="noopener">Calendar</a><a class="pp-vg-gl" href="https://nocovernightclubs.com/pool-parties/liv-beach-guest-list/#guestlist" target="_blank" rel="noopener">Guest List &#8599;</a></div></div><div class="pp-vg-card"><div class="pp-vg-top"><span class="pp-vg-name">AYU Dayclub</span><span class="pp-vg-badge pp-vg-pool">Pool</span></div><div class="pp-vg-links"><a class="pp-vg-cal" href="https://nocovernightclubs.com/ayu-dayclub-event-calendar/" target="_blank" rel="noopener">Calendar</a><a class="pp-vg-gl" href="https://nocovernightclubs.com/pool-parties/ayu-dayclub-guest-list/#guestlist" target="_blank" rel="noopener">Guest List &#8599;</a></div></div><div class="pp-vg-card"><div class="pp-vg-top"><span class="pp-vg-name">Tailgate Beach</span><span class="pp-vg-badge pp-vg-pool">Pool</span></div><div class="pp-vg-links"><a class="pp-vg-cal" href="https://nocovernightclubs.com/tailgate-beach-club-event-calendar/" target="_blank" rel="noopener">Calendar</a><a class="pp-vg-gl" href="https://nocovernightclubs.com/pool-parties/tailgate-beach-club-guest-list/#guestlist" target="_blank" rel="noopener">Guest List &#8599;</a></div></div></div>
 </section>
 
 <!-- VIDEO FEEDS -->
@@ -601,12 +614,30 @@ var PP_ALL_FEEDS = [
   /* MELODIC — more */
   {id:'melodic-aeden',cat:'MELODIC',maxIdx:1,label:'\uD83C\uDF0C Afterlife \u2014 Aeden 2026 Set',embed:'https://www.youtube.com/embed/W0dRO6XtHxY'},
   /* AFRO HOUSE — soulful / Keinemusik / Black Coffee vibe */
-  {id:'afro-keinemusik1',cat:'AFRO',maxIdx:1,label:'\uD83E\uDD41 Keinemusik \u2014 Afro House Set',embed:'https://www.youtube.com/embed/RvE-DYPyPqw'},
   {id:'afro-blackcoffee1',cat:'AFRO',maxIdx:1,label:'\uD83E\uDD41 Black Coffee & Keinemusik \u2014 Mix',embed:'https://www.youtube.com/embed/wjtWjwCJ-bw'},
   {id:'afro-cabana',cat:'AFRO',maxIdx:1,label:'\uD83E\uDD41 Afro House \u2014 Casabana, Rio',embed:'https://www.youtube.com/embed/88IHZanUimI'},
   {id:'afro-blackcoffee2',cat:'AFRO',maxIdx:1,label:'\uD83E\uDD41 Black Coffee \u2014 Afro House Concept',embed:'https://www.youtube.com/embed/nWTmPyESz6I'},
   /* FESTIVAL — more */
-  {id:'tl-dvlm',cat:'FESTIVAL',maxIdx:1,label:'\uD83C\uDF86 Dimitri Vegas & Like Mike \u2014 Tomorrowland 2025',embed:'https://www.youtube.com/embed/WdWnCTkqIRs',url:'https://www.tomorrowland.com'}
+  {id:'tl-dvlm',cat:'FESTIVAL',maxIdx:1,label:'\uD83C\uDF86 Dimitri Vegas & Like Mike \u2014 Tomorrowland 2025',embed:'https://www.youtube.com/embed/WdWnCTkqIRs',url:'https://www.tomorrowland.com'},
+  /* PSYTRANCE — official Astrix / Ace Ventura / Liquid Soul "Full Set Movies" (Ozora & Boom, high-quality video + audio) */
+  {id:'psy-astrix-ozora23',cat:'PSYTRANCE',maxIdx:1,label:'\uD83C\uDF44 Astrix \u2014 Ozora 2023 (Full Set)',embed:'https://www.youtube.com/embed/1-ccS5614j0',url:'https://ozorafestival.eu'},
+  {id:'psy-astrix-ozora19',cat:'PSYTRANCE',maxIdx:1,label:'\uD83C\uDF44 Astrix \u2014 Ozora 2019 (Full Set)',embed:'https://www.youtube.com/embed/123Z5KLLiO8',url:'https://ozorafestival.eu'},
+  {id:'psy-astrix-boom23',cat:'PSYTRANCE',maxIdx:1,label:'\uD83C\uDF44 Astrix \u2014 Boom Festival 2023',embed:'https://www.youtube.com/embed/kdVElRhr4q4',url:'https://www.boomfestival.org'},
+  {id:'psy-astrix-boom25',cat:'PSYTRANCE',maxIdx:1,label:'\uD83C\uDF44 Astrix \u2014 Boom Festival 2025',embed:'https://www.youtube.com/embed/HS4c4a8OCj4',url:'https://www.boomfestival.org'},
+  {id:'psy-liquidsoul-ozora25',cat:'PSYTRANCE',maxIdx:1,label:'\uD83C\uDF44 Liquid Soul \u2014 Ozora 2025 (Full Set)',embed:'https://www.youtube.com/embed/1Ye65tC5VgE',url:'https://ozorafestival.eu'},
+  {id:'psy-ace-ozora25',cat:'PSYTRANCE',maxIdx:1,label:'\uD83C\uDF44 Ace Ventura \u2014 Ozora 2025 (night)',embed:'https://www.youtube.com/embed/j8hAZoXVEgM',url:'https://ozorafestival.eu'},
+  {id:'psy-ace-ozora24',cat:'PSYTRANCE',maxIdx:1,label:'\uD83C\uDF44 Ace Ventura \u2014 Ozora 2024 (Full Set)',embed:'https://www.youtube.com/embed/MwJZZujSGsw',url:'https://ozorafestival.eu'},
+  {id:'psy-ace-ozora23',cat:'PSYTRANCE',maxIdx:1,label:'\uD83C\uDF44 Ace Ventura \u2014 Ozora 2023 (Full Set)',embed:'https://www.youtube.com/embed/l82cnAU-8a8',url:'https://ozorafestival.eu'},
+  {id:'psy-ace-ozora22',cat:'PSYTRANCE',maxIdx:1,label:'\uD83C\uDF44 Ace Ventura \u2014 Ozora 2022 (Full Set)',embed:'https://www.youtube.com/embed/DhsD-gQMlU0',url:'https://ozorafestival.eu'},
+  {id:'psy-ace-ozora19',cat:'PSYTRANCE',maxIdx:1,label:'\uD83C\uDF44 Ace Ventura \u2014 Ozora 2019 (Full Set)',embed:'https://www.youtube.com/embed/9o5dn0uDiYE',url:'https://ozorafestival.eu'},
+  {id:'psy-ace-ozora18',cat:'PSYTRANCE',maxIdx:1,label:'\uD83C\uDF44 Ace Ventura \u2014 Ozora 2018 (Full Set)',embed:'https://www.youtube.com/embed/oQ1nYcs-HUs',url:'https://ozorafestival.eu'},
+  {id:'psy-ace-dub-ozora22',cat:'PSYTRANCE',maxIdx:1,label:'\uD83C\uDF44 Ace Ventura in Dub \u2014 Ozora 2022',embed:'https://www.youtube.com/embed/BAaInTCpsTE',url:'https://ozorafestival.eu'},
+  {id:'psy-ace-boom22',cat:'PSYTRANCE',maxIdx:1,label:'\uD83C\uDF44 Ace Ventura \u2014 Boom 2022 (3hr)',embed:'https://www.youtube.com/embed/pmgmq9fWz94',url:'https://www.boomfestival.org'},
+  /* POOL PARTY — daytime / poolside DJ sets & aftermovies (high-quality video + audio) */
+  {id:'pool-userpick',cat:'POOL',maxIdx:1,label:'\uD83C\uDFD6\uFE0F Poolside DJ Set',embed:'https://www.youtube.com/embed/_bKZIUr9s4g'},
+  {id:'pool-ushuaia-open25',cat:'POOL',maxIdx:1,label:'\uD83C\uDFD6\uFE0F Ushua\u00EFa Ibiza \u2014 Opening 2025',embed:'https://www.youtube.com/embed/YGqDwW7Ga6M',url:'https://www.theushuaiaexperience.com'},
+  {id:'pool-ushuaia-after25',cat:'POOL',maxIdx:1,label:'\uD83C\uDFD6\uFE0F Ushua\u00EFa Ibiza \u2014 2025 Aftermovie',embed:'https://www.youtube.com/embed/uDfq8zPUoEk',url:'https://www.theushuaiaexperience.com'},
+  {id:'pool-ebc-vegas',cat:'POOL',maxIdx:1,label:'\uD83C\uDFD6\uFE0F Encore Beach Club \u2014 Las Vegas',embed:'https://www.youtube.com/embed/videoseries?list=PL5EACz6_ykI2wAu6PyPu2cJFFGMtNytD_',url:'https://www.wynnlasvegas.com/nightlife/encore-beach-pool'}
 ];
 
 /* ── State ── */
@@ -631,7 +662,7 @@ function toast(msg){
 var PP_FILTERS = [
   {id:'all',          label:'All',                kind:'all'},
   {id:'fav',          label:'\u2605 Favorites',   kind:'fav',  cls:'pp-fav'},
-  {id:'st-peak',      label:'\uD83D\uDD25 Peak Hours', kind:'cats', cats:['FESTIVAL','CLUB','RAVE'], cls:'pp-station'},
+  {id:'st-peak',      label:'\uD83D\uDD25 Peak Hours', kind:'cats', cats:['FESTIVAL','CLUB','RAVE','PSYTRANCE'], cls:'pp-station'},
   {id:'st-immersive', label:'\uD83C\uDF0C Immersive',  kind:'cats', cats:['CERCLE','MELODIC','ANJUNA'], cls:'pp-station'},
   {id:'st-throwback', label:'\uD83D\uDCFC Throwback',  kind:'cats', cats:['RETRO','ROCK'],    cls:'pp-station'},
   {id:'c-FESTIVAL',   label:'Festivals',          kind:'cat', cat:'FESTIVAL'},
@@ -646,6 +677,8 @@ var PP_FILTERS = [
   {id:'c-ANJUNA',     label:'\uD83C\uDF05 Anjuna',  kind:'cat', cat:'ANJUNA'},
   {id:'c-RAVE',       label:'Rave',               kind:'cat', cat:'RAVE'},
   {id:'c-AFRO',       label:'\uD83E\uDD41 Afro House', kind:'cat', cat:'AFRO'},
+  {id:'c-PSYTRANCE',  label:'\uD83C\uDF44 Psytrance', kind:'cat', cat:'PSYTRANCE'},
+  {id:'c-POOL',       label:'\uD83C\uDFD6\uFE0F Pool Party', kind:'cat', cat:'POOL'},
   {id:'c-RADIO',      label:'Radio',              kind:'cat', cat:'RADIO'},
   {id:'c-FASHION',    label:'Fashion',            kind:'cat', cat:'FASHION'}
 ];
@@ -717,9 +750,11 @@ function refreshFavUI(){
 /* ── Audio + fullscreen helpers ── */
 function soloAudio(iframe, inset, btn){
   var grid=document.getElementById('pp-video-grid'); if(!grid) return;
-  grid.querySelectorAll('iframe').forEach(function(f){ if(f!==iframe) ytCommand(f,'mute'); });
+  var already = btn && btn.classList.contains('pp-on');
+  grid.querySelectorAll('iframe').forEach(function(f){ ytCommand(f,'mute'); });
   grid.querySelectorAll('.pp-inset').forEach(function(el){ el.classList.remove('pp-audio-active'); });
   grid.querySelectorAll('.pp-tool-unmute').forEach(function(b){ b.classList.remove('pp-on'); b.innerHTML='\uD83D\uDD07'; });
+  if(already) return;  /* it was unmuted → now muted (toggle off) */
   ytCommand(iframe,'unMute'); ytCommand(iframe,'setVolume',[100]);
   if(inset) inset.classList.add('pp-audio-active');
   if(btn){ btn.classList.add('pp-on'); btn.innerHTML='\uD83D\uDD0A'; }
@@ -915,8 +950,10 @@ function shuffleCurrent(){ if(IS_NARROW()){ buildMobileQueue(); renderMobilePlay
       var cat=document.createElement('div'); cat.className='pp-wrcatbadge'; cat.textContent=feed.cat;
       cell.appendChild(iframe); cell.appendChild(lbl); cell.appendChild(cat);
       cell.addEventListener('click', function(){
-        grid.querySelectorAll('iframe').forEach(function(f){ if(f!==iframe) ytCommand(f,'mute'); });
+        var already=cell.classList.contains('pp-active');
+        grid.querySelectorAll('iframe').forEach(function(f){ ytCommand(f,'mute'); });
         grid.querySelectorAll('.pp-wrcell').forEach(function(c){ c.classList.remove('pp-active'); });
+        if(already) return;  /* toggle off */
         ytCommand(iframe,'unMute'); ytCommand(iframe,'setVolume',[100]); cell.classList.add('pp-active');
       });
       grid.appendChild(cell);
@@ -1072,9 +1109,13 @@ if('serviceWorker' in navigator && (location.protocol==='https:'||location.proto
     var init=(item.src||'PP').replace(/[^A-Z0-9]/gi,'').slice(0,2).toUpperCase()||'PP';
     var href=(item.link && item.link!=='#')?item.link:null;
     var tc=trustColor(item.tier||3);
+    var dom=item.domain||'';
+    var icon='<div class="pp-hl-icon">'+init+(dom?'<img class="pp-hl-fav" loading="lazy" alt="" src="https://www.google.com/s2/favicons?domain='+encodeURIComponent(dom)+'&sz=64" onerror="this.style.display=\'none\'">':'')+'</div>';
+    var n=item.n||1;
+    var srcsPill=n>=2?'<span class="pp-hl-srcs" title="Reported by '+n+' sources">\uD83D\uDD25 '+n+' sources</span>':'';
     return '<div class="pp-hl"'+(href?(' onclick="window.open(\''+href.replace(/'/g,"\\'")+'\',\'_blank\',\'noopener\')"'):'')+'>'
-      +'<div class="pp-hl-icon">'+init+'</div><div class="pp-hl-body">'
-      +'<div class="pp-hl-tags">'+(item.hot?'<span class="pp-new-dot" aria-hidden="true">\u25CF</span>':'')+(item.cat?'<span class="pp-hl-tag">'+escHtml(item.cat)+'</span>':'')+'</div>'
+      +icon+'<div class="pp-hl-body">'
+      +'<div class="pp-hl-tags">'+(item.hot?'<span class="pp-new-dot" aria-hidden="true">\u25CF</span>':'')+srcsPill+(item.cat?'<span class="pp-hl-tag">'+escHtml(item.cat)+'</span>':'')+'</div>'
       +'<span class="pp-hl-title">'+escHtml(title)+'</span><div class="pp-hl-meta">'
       +(item.src?('<span class="pp-hl-src"><span class="pp-hl-trust" style="background:'+tc+'"></span>'+escHtml(item.src)+'</span>'):'')
       +(item.time?('<span class="pp-hl-time">'+escHtml(item.time)+'</span>'):'')
@@ -1098,6 +1139,8 @@ if('serviceWorker' in navigator && (location.protocol==='https:'||location.proto
     var today=list.filter(function(i){ return !i.ts || i.ts>=cutToday; });
     var yest=list.filter(function(i){ return i.ts && i.ts<cutToday; });
     if(!today.length && list.length){ today=list.slice(0,8); yest=list.slice(8); }
+    var byImp=function(a,b){ return (b.n||1)-(a.n||1) || (b.ts||0)-(a.ts||0); };
+    today.sort(byImp); yest.sort(byImp);
     var todayStr=new Date().toLocaleDateString('en-US',{weekday:'short',month:'short',day:'numeric'});
     var yestStr=new Date(Date.now()-DAY*1000).toLocaleDateString('en-US',{weekday:'short',month:'short',day:'numeric'});
     cols.innerHTML='<div><div class="pp-col-label pp-col-breaking"><div class="pp-col-dot"></div>TODAY \u2014 '+todayStr+'<span class="pp-col-count">'+today.length+' stories</span></div>'
