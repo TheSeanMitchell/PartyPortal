@@ -92,9 +92,10 @@
     .pp-wrcell{position:relative;background:#040004;overflow:hidden;border-radius:2px;cursor:pointer;transition:outline .15s}
     .pp-wrcell:hover{outline:2px solid var(--pink);outline-offset:-2px}
     .pp-wrcell.pp-active{outline:3px solid var(--cyan);outline-offset:-3px}
-    .pp-wrcell iframe{position:relative;width:100%;height:100%;border:none;display:block;transform-origin:50% 50%;pointer-events:all}
+    .pp-wrcell iframe{position:relative;width:100%;height:100%;border:none;display:block;transform-origin:50% 100%;pointer-events:all}
     .pp-wrlbl{position:absolute;top:6px;left:8px;background:rgba(0,0,0,.72);color:rgba(255,255,255,.88);font-family:'Barlow Condensed',sans-serif;font-size:.63em;font-weight:700;letter-spacing:.07em;text-transform:uppercase;padding:2px 9px;border-radius:10px;border-left:2px solid var(--pink);pointer-events:none;user-select:none;z-index:1}
-    .pp-wrcatbadge{position:absolute;bottom:6px;right:8px;background:rgba(0,0,0,.65);color:rgba(180,120,255,.8);font-family:'Barlow Condensed',sans-serif;font-size:.58em;font-weight:700;letter-spacing:.1em;text-transform:uppercase;padding:1px 7px;border-radius:2px;pointer-events:none;user-select:none;z-index:1}
+    .pp-wrcatbadge{position:absolute;bottom:6px;right:8px;background:rgba(0,0,0,.65);color:rgba(180,120,255,.8);font-family:'Barlow Condensed',sans-serif;font-size:.58em;font-weight:700;letter-spacing:.1em;text-transform:uppercase;padding:1px 7px;border-radius:2px;pointer-events:none;user-select:none;z-index:1;transition:opacity .15s}
+    .pp-wrcell:hover .pp-wrcatbadge,.pp-wrcell:hover .pp-wrlbl{opacity:0}
     @media(max-width:900px){#pp-wrgrid{grid-template-columns:repeat(2,1fr);grid-template-rows:repeat(5,1fr)}#pp-wrsub{display:none}}
 
     /* NAV */
@@ -195,7 +196,7 @@
     .pp-inset.pp-audio-active{outline:3px solid var(--cyan);outline-offset:2px;border-radius:3px}
     .pp-inset iframe{width:100%;height:100%;border:none;display:block}
     .pp-inset-lbl{position:absolute;bottom:6px;left:8px;background:rgba(0,0,0,.82);color:rgba(255,255,255,.92);font-family:'Barlow Condensed',sans-serif;font-size:.66em;font-weight:700;letter-spacing:.07em;text-transform:uppercase;padding:2px 8px;border-radius:2px;border-left:2px solid var(--pink);pointer-events:none;user-select:none;max-width:calc(100% - 16px);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-    .pp-inset:hover .pp-inset-lbl{opacity:.25}
+    .pp-inset:hover .pp-inset-lbl,.pp-inset:hover .pp-inset-cat{opacity:0}
     .pp-inset-cat{position:absolute;top:6px;left:8px;background:rgba(0,0,0,.65);color:rgba(180,120,255,.85);font-family:'Barlow Condensed',sans-serif;font-size:.58em;font-weight:700;letter-spacing:.09em;text-transform:uppercase;padding:1px 6px;border-radius:2px;pointer-events:none;user-select:none}
     .pp-inset-tools{position:absolute;top:5px;right:6px;display:flex;gap:4px;z-index:2;opacity:0;transform:translateY(-3px);transition:opacity .15s,transform .15s;pointer-events:none}
     .pp-inset:hover .pp-inset-tools,.pp-inset:focus-within .pp-inset-tools{opacity:1;transform:none;pointer-events:auto}
@@ -525,7 +526,7 @@ var PP_ALL_FEEDS = [
   {id:'retro-rock2',cat:'ROCK',maxIdx:50,label:'\uD83C\uDFB8 Retro Rock Channel \u00232',embed:'https://www.youtube.com/embed/PEWP9nbqG9Q?list=PLTqks9TihZsCRdWT12_r7lKfxLFE4KdjJ'},
   /* RETRO / MTV */
   {id:'mtv-99',cat:'RETRO',maxIdx:1,label:'\uD83D\uDCFA MTV Spring Break 1999',embed:'https://www.youtube.com/embed/YPS4ROQXwdU'},
-  {id:'mtv-2000',cat:'RETRO',maxIdx:1,isArchive:true,label:'\uD83D\uDCFA MTV Spring Break 2000',embed:'https://archive.org/embed/mtv-spring-break-2000'},
+  {id:'mtv-2000',cat:'RETRO',maxIdx:1,label:'\uD83D\uDCFA MTV Spring Break 2000 \u2014 Lit (Canc\u00FAn)',embed:'https://www.youtube.com/embed/mCQGUeAZTj4'},
   {id:'mtv-performances',cat:'RETRO',maxIdx:30,label:'\uD83D\uDCFA MTV Spring Break Performances',embed:'https://www.youtube.com/embed/8gcJCN3ibzI?list=PL7q6J5rVHCG54FeMWL82FUw1e-OG4rFHn'},
   {id:'mtv-1990',cat:'RETRO',maxIdx:1,label:'\uD83D\uDCFA MTV Spring Break 1990',embed:'https://www.youtube.com/embed/mOpuN38KV24'},
   {id:'mtv-1996',cat:'RETRO',maxIdx:1,label:'\uD83D\uDCFA MTV Spring Break 1996',embed:'https://www.youtube.com/embed/nG_4BnQg9SM'},
@@ -564,7 +565,48 @@ var PP_ALL_FEEDS = [
   {id:'rave-prog-house',cat:'RAVE',maxIdx:1,label:'\u26A1 Progressive House \u2014 Euphoric Mix',embed:'https://www.youtube.com/embed/XJiL7mQb8CM'},
   {id:'rave-trance-classics',cat:'RAVE',maxIdx:1,label:'\u26A1 Trance Classics \u2014 90s Anthems',embed:'https://www.youtube.com/embed/fS_MwN2uhog'},
   {id:'rave-bigroom',cat:'RAVE',maxIdx:1,label:'\u26A1 Big Room \u2014 Festival Mix',embed:'https://www.youtube.com/embed/mCsyKrcR25k'},
-  {id:'rave-hardrave',cat:'RAVE',maxIdx:1,label:'\u26A1 Hard Rave Techno \u2014 Visualizer',embed:'https://www.youtube.com/embed/iOBv88KUJwc'}
+  {id:'rave-hardrave',cat:'RAVE',maxIdx:1,label:'\u26A1 Hard Rave Techno \u2014 Visualizer',embed:'https://www.youtube.com/embed/iOBv88KUJwc'},
+  /* CERCLE — more scenic landmark live sets (official Cercle, high-quality 4K video + audio) */
+  {id:'cercle-bohmer-cappadocia',cat:'CERCLE',maxIdx:1,label:'\uD83C\uDF88 Ben B\u00F6hmer \u2014 Cappadocia (balloon)',embed:'https://www.youtube.com/embed/RvRhUHTV_8k',url:'https://www.cercle.io'},
+  {id:'cercle-brejcha-nimes',cat:'CERCLE',maxIdx:1,label:'\uD83C\uDFDF\uFE0F Boris Brejcha \u2014 Ar\u00E8nes de N\u00EEmes',embed:'https://www.youtube.com/embed/1MobY_vR7-g',url:'https://www.cercle.io'},
+  {id:'cercle-brejcha-palais',cat:'CERCLE',maxIdx:1,label:'\uD83C\uDFDB\uFE0F Boris Brejcha \u2014 Grand Palais, Paris',embed:'https://www.youtube.com/embed/vqz8c4ZP3Wg',url:'https://www.cercle.io'},
+  {id:'cercle-brejcha-fontainebleau',cat:'CERCLE',maxIdx:1,label:'\uD83C\uDFF0 Boris Brejcha \u2014 Fontainebleau',embed:'https://www.youtube.com/embed/4Rc-NGWEHdU',url:'https://www.cercle.io'},
+  {id:'cercle-leger-pyramids',cat:'CERCLE',maxIdx:1,label:'\uD83D\uDD3A S\u00E9bastien L\u00E9ger \u2014 Pyramids of Giza',embed:'https://www.youtube.com/embed/DiiKdG4lOug',url:'https://www.cercle.io'},
+  {id:'cercle-taleofus-pizgloria',cat:'CERCLE',maxIdx:1,label:'\u26F0\uFE0F Tale Of Us \u2014 Piz Gloria, Alps',embed:'https://www.youtube.com/embed/VMI1p3Au6ik',url:'https://www.cercle.io'},
+  {id:'cercle-bodzin-pizgloria',cat:'CERCLE',maxIdx:1,label:'\u2744\uFE0F Stephan Bodzin \u2014 Piz Gloria, Alps',embed:'https://www.youtube.com/embed/xF_QkfZI1mM',url:'https://www.cercle.io'},
+  {id:'cercle-blomqvist-tossa',cat:'CERCLE',maxIdx:1,label:'\uD83C\uDF0A Jan Blomqvist \u2014 Tossa de Mar',embed:'https://www.youtube.com/embed/w1ElkNNsfm8',url:'https://www.cercle.io'},
+  {id:'cercle-fritz-chantilly',cat:'CERCLE',maxIdx:1,label:'\uD83C\uDF33 Fritz Kalkbrenner \u2014 Chantilly',embed:'https://www.youtube.com/embed/IaplaO9oU5k',url:'https://www.cercle.io'},
+  {id:'cercle-paul-la',cat:'CERCLE',maxIdx:1,label:'\uD83C\uDF0C Paul Kalkbrenner \u2014 Cercle Odyssey LA',embed:'https://www.youtube.com/embed/QzGFFvbwpy8',url:'https://www.cercle.io'},
+  {id:'cercle-nina-eiffel',cat:'CERCLE',maxIdx:1,label:'\uD83D\uDDFC Nina Kraviz \u2014 Eiffel Tower, Paris',embed:'https://www.youtube.com/embed/oFvqo1dil7M',url:'https://www.cercle.io'},
+  {id:'cercle-maceo-hudson',cat:'CERCLE',maxIdx:1,label:'\uD83D\uDDFD Maceo Plex \u2014 Hudson River, NYC',embed:'https://www.youtube.com/embed/8x13vB2yK30',url:'https://www.cercle.io'},
+  {id:'cercle-amelie-atomium',cat:'CERCLE',maxIdx:1,label:'\u269B\uFE0F Amelie Lens \u2014 Atomium, Brussels',embed:'https://www.youtube.com/embed/1BPiqQaO0zI',url:'https://www.cercle.io'},
+  /* ANJUNA — Anjunadeep / Above & Beyond official open-air 4K sets (scenic, melodic, high quality) */
+  {id:'anjuna-bohmer-prague',cat:'ANJUNA',maxIdx:1,label:'\uD83C\uDF05 Ben B\u00F6hmer \u2014 Anjunadeep O.A. Prague 4K',embed:'https://www.youtube.com/embed/b9kThoLdDc8',url:'https://anjunadeep.com'},
+  {id:'anjuna-bohmer-london',cat:'ANJUNA',maxIdx:1,label:'\uD83C\uDF05 Ben B\u00F6hmer \u2014 Anjunadeep O.A. London 4K',embed:'https://www.youtube.com/embed/eN0dz0EV8bE',url:'https://anjunadeep.com'},
+  {id:'anjuna-bohmer-roundhouse',cat:'ANJUNA',maxIdx:1,label:'\uD83C\uDF05 Ben B\u00F6hmer \u2014 Roundhouse London 4K',embed:'https://www.youtube.com/embed/guOFgrp7JoI',url:'https://anjunadeep.com'},
+  {id:'anjuna-deep16',cat:'ANJUNA',maxIdx:1,label:'\uD83C\uDF05 Anjunadeep 16 \u2014 Vietnam',embed:'https://www.youtube.com/embed/a47T2qylqWU',url:'https://anjunadeep.com'},
+  {id:'anjuna-deep15',cat:'ANJUNA',maxIdx:1,label:'\uD83C\uDF05 Anjunadeep 15 \u2014 Iceland',embed:'https://www.youtube.com/embed/byGPEiHbsnc',url:'https://anjunadeep.com'},
+  {id:'anjuna-jw-hk',cat:'ANJUNA',maxIdx:1,label:'\uD83C\uDF05 Jody Wisternoff \u2014 O.A. Hong Kong 4K',embed:'https://www.youtube.com/embed/wjPerMAIi1E',url:'https://anjunadeep.com'},
+  {id:'anjuna-jw-london',cat:'ANJUNA',maxIdx:1,label:'\uD83C\uDF05 Jody Wisternoff \u2014 O.A. London 4K',embed:'https://www.youtube.com/embed/y2W6PYIl_J4',url:'https://anjunadeep.com'},
+  {id:'anjuna-jw-la',cat:'ANJUNA',maxIdx:1,label:'\uD83C\uDF05 Jody Wisternoff \u2014 O.A. Los Angeles 4K',embed:'https://www.youtube.com/embed/K-Jw37y7RH8',url:'https://anjunadeep.com'},
+  {id:'anjuna-jw-london25',cat:'ANJUNA',maxIdx:1,label:'\uD83C\uDF05 Jody Wisternoff \u2014 O.A. London 2025',embed:'https://www.youtube.com/embed/-57qj8tWpXc',url:'https://anjunadeep.com'},
+  {id:'anjuna-jw-mexico',cat:'ANJUNA',maxIdx:1,label:'\uD83C\uDF05 Jody Wisternoff \u2014 O.A. Mexico City',embed:'https://www.youtube.com/embed/Ky8RJkroThs',url:'https://anjunadeep.com'},
+  {id:'anjuna-yotto-eli',cat:'ANJUNA',maxIdx:1,label:'\uD83C\uDF05 Yotto b2b Eli & Fur \u2014 Seattle 4K',embed:'https://www.youtube.com/embed/65dLci0zbIw',url:'https://anjunadeep.com'},
+  {id:'anjuna-marsh-redrocks',cat:'ANJUNA',maxIdx:1,label:'\uD83C\uDF05 Marsh \u2014 Anjunadeep at Red Rocks',embed:'https://www.youtube.com/embed/fxN0dD-QA6A',url:'https://anjunadeep.com'},
+  {id:'anjuna-yotto-london',cat:'ANJUNA',maxIdx:1,label:'\uD83C\uDF05 Yotto \u2014 Anjunadeep O.A. London 2025',embed:'https://www.youtube.com/embed/tYGqfWUjIxY',url:'https://anjunadeep.com'},
+  {id:'anjuna-ab-gt350',cat:'ANJUNA',maxIdx:1,label:'\uD83C\uDF05 Above & Beyond \u2014 Group Therapy 350 4K',embed:'https://www.youtube.com/embed/XlndmZ-4mc8',url:'https://anjunadeep.com'},
+  {id:'anjuna-ab-gt450',cat:'ANJUNA',maxIdx:1,label:'\uD83C\uDF05 Above & Beyond \u2014 GT 450 Deep Set 4K',embed:'https://www.youtube.com/embed/IrzO9GqS8BY',url:'https://anjunadeep.com'},
+  {id:'anjuna-ab-gt350deep',cat:'ANJUNA',maxIdx:1,label:'\uD83C\uDF05 Above & Beyond \u2014 GT 350 Deep Set 4K',embed:'https://www.youtube.com/embed/n5ZhKyOxZns',url:'https://anjunadeep.com'},
+  {id:'anjuna-ab-gt671',cat:'ANJUNA',maxIdx:1,label:'\uD83C\uDF05 Above & Beyond \u2014 Group Therapy 671',embed:'https://www.youtube.com/embed/5MUBQz0gioU',url:'https://anjunadeep.com'},
+  /* MELODIC — more */
+  {id:'melodic-aeden',cat:'MELODIC',maxIdx:1,label:'\uD83C\uDF0C Afterlife \u2014 Aeden 2026 Set',embed:'https://www.youtube.com/embed/W0dRO6XtHxY'},
+  /* AFRO HOUSE — soulful / Keinemusik / Black Coffee vibe */
+  {id:'afro-keinemusik1',cat:'AFRO',maxIdx:1,label:'\uD83E\uDD41 Keinemusik \u2014 Afro House Set',embed:'https://www.youtube.com/embed/RvE-DYPyPqw'},
+  {id:'afro-blackcoffee1',cat:'AFRO',maxIdx:1,label:'\uD83E\uDD41 Black Coffee & Keinemusik \u2014 Mix',embed:'https://www.youtube.com/embed/wjtWjwCJ-bw'},
+  {id:'afro-cabana',cat:'AFRO',maxIdx:1,label:'\uD83E\uDD41 Afro House \u2014 Casabana, Rio',embed:'https://www.youtube.com/embed/88IHZanUimI'},
+  {id:'afro-blackcoffee2',cat:'AFRO',maxIdx:1,label:'\uD83E\uDD41 Black Coffee \u2014 Afro House Concept',embed:'https://www.youtube.com/embed/nWTmPyESz6I'},
+  /* FESTIVAL — more */
+  {id:'tl-dvlm',cat:'FESTIVAL',maxIdx:1,label:'\uD83C\uDF86 Dimitri Vegas & Like Mike \u2014 Tomorrowland 2025',embed:'https://www.youtube.com/embed/WdWnCTkqIRs',url:'https://www.tomorrowland.com'}
 ];
 
 /* ── State ── */
@@ -590,7 +632,7 @@ var PP_FILTERS = [
   {id:'all',          label:'All',                kind:'all'},
   {id:'fav',          label:'\u2605 Favorites',   kind:'fav',  cls:'pp-fav'},
   {id:'st-peak',      label:'\uD83D\uDD25 Peak Hours', kind:'cats', cats:['FESTIVAL','CLUB','RAVE'], cls:'pp-station'},
-  {id:'st-immersive', label:'\uD83C\uDF0C Immersive',  kind:'cats', cats:['CERCLE','MELODIC'], cls:'pp-station'},
+  {id:'st-immersive', label:'\uD83C\uDF0C Immersive',  kind:'cats', cats:['CERCLE','MELODIC','ANJUNA'], cls:'pp-station'},
   {id:'st-throwback', label:'\uD83D\uDCFC Throwback',  kind:'cats', cats:['RETRO','ROCK'],    cls:'pp-station'},
   {id:'c-FESTIVAL',   label:'Festivals',          kind:'cat', cat:'FESTIVAL'},
   {id:'c-CLUB',       label:'Clubs',              kind:'cat', cat:'CLUB'},
@@ -601,7 +643,9 @@ var PP_FILTERS = [
   {id:'c-LIVE CAM',   label:'Live Cams',          kind:'cat', cat:'LIVE CAM'},
   {id:'c-CERCLE',     label:'\u25C9 Cercle',       kind:'cat', cat:'CERCLE'},
   {id:'c-MELODIC',    label:'\uD83C\uDF0C Melodic', kind:'cat', cat:'MELODIC'},
+  {id:'c-ANJUNA',     label:'\uD83C\uDF05 Anjuna',  kind:'cat', cat:'ANJUNA'},
   {id:'c-RAVE',       label:'Rave',               kind:'cat', cat:'RAVE'},
+  {id:'c-AFRO',       label:'\uD83E\uDD41 Afro House', kind:'cat', cat:'AFRO'},
   {id:'c-RADIO',      label:'Radio',              kind:'cat', cat:'RADIO'},
   {id:'c-FASHION',    label:'Fashion',            kind:'cat', cat:'FASHION'}
 ];
@@ -841,7 +885,7 @@ function shuffleCurrent(){ if(IS_NARROW()){ buildMobileQueue(); renderMobilePlay
     var cw=cell.clientWidth, ch=cell.clientHeight; if(cw<1||ch<1) return;
     var ar=cw/ch, sc= ar<VIDEO_AR ? (ch*VIDEO_AR)/cw : cw/(ch*VIDEO_AR);
     sc=Math.min(sc,1.05);
-    iframe.style.cssText='position:relative;width:100%;height:100%;border:none;display:block;transform-origin:50% 50%;transform:scale('+sc.toFixed(4)+')';
+    iframe.style.cssText='position:relative;width:100%;height:100%;border:none;display:block;transform-origin:50% 100%;transform:scale('+sc.toFixed(4)+')';
   }
   function packGrid(){
     var cells=grid.querySelectorAll('.pp-wrcell'); var n=cells.length; if(!n) return;
@@ -916,8 +960,11 @@ var PP_FESTIVALS=[
   {name:'Creamfields',  emoji:'\uD83C\uDFA8', where:'Daresbury, UK',       start:'2026-08-27T12:00:00+01:00', dateLabel:'Aug 27\u201330 (20yr)',      url:'https://www.creamfields.com'},
   {name:'Mysteryland',  emoji:'\uD83C\uDF08', where:'Haarlemmermeer, NL',  start:'2026-08-29T12:00:00+02:00', dateLabel:'Aug 29\u201330',          url:'https://www.mysteryland.com'},
   {name:'Burning Man',  emoji:'\uD83D\uDD25', where:'Black Rock City, NV', start:'2026-08-30T00:00:00-07:00', dateLabel:'Aug 30 \u2013 Sep 7',        url:'https://burningman.org'},
+  {name:'iHeartRadio Fest', emoji:'\uD83D\uDCFB', where:'Las Vegas, NV',   start:'2026-09-18T17:00:00-07:00', dateLabel:'Sep 18\u201319',          url:'https://www.iheart.com/music-festival/'},
   {name:'Ultra Japan',  emoji:'\uD83D\uDDFE', where:'Tokyo, Japan',        start:'2026-09-19T13:00:00+09:00', dateLabel:'Sep 19\u201320',          url:'https://ultrajapan.com'},
-  {name:'EDC Orlando',  emoji:'\uD83C\uDFA1', where:'Orlando, FL',         start:'2026-11-06T16:00:00-05:00', dateLabel:'Nov 6\u20138',            url:'https://orlando.electricdaisycarnival.com'}
+  {name:'Metallica \u00B7 Sphere', emoji:'\uD83E\uDD18', where:'Sphere, Las Vegas', start:'2026-10-01T20:00:00-07:00', dateLabel:'From Oct 1',           url:'https://www.thesphere.com'},
+  {name:'EDC Orlando',  emoji:'\uD83C\uDFA1', where:'Orlando, FL',         start:'2026-11-06T16:00:00-05:00', dateLabel:'Nov 6\u20138',            url:'https://orlando.electricdaisycarnival.com'},
+  {name:'F1 Las Vegas GP', emoji:'\uD83C\uDFCE\uFE0F', where:'Las Vegas Strip', start:'2026-11-19T20:00:00-08:00', dateLabel:'Nov 19\u201321',          url:'https://www.f1lasvegasgp.com'}
 ];
 function renderCountdowns(){
   var row=document.getElementById('pp-cd-row'); if(!row) return;

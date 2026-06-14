@@ -10,8 +10,8 @@ A fast, single-page, static site (no framework, no server). See **[CHANGELOG.md]
 
 ## Features
 
-- **70+ live channels** — EDM festivals, DJ sets, retro MTV, rock blocks, 24/7 city cams, scenic **Cercle** sets, **Melodic** techno (Afterlife/Anyma) and **Rave** mixes.
-- **Stations & filters** — tune the wall by category (Festivals, Clubs, Retro, Live Cams, Cercle, Melodic, Rave, …) or fire a curated mix: **🔥 Peak Hours**, **🌌 Immersive**, **📼 Throwback**. Each chip shows a live count. Press **1–9** to jump between stations.
+- **100+ live channels** — EDM festivals, DJ sets, retro MTV, rock blocks, 24/7 city cams, plus deep scenic lanes: **Cercle** & **Anjuna** (official 4K landmark sets), **Melodic** techno (Afterlife/Anyma), **Afro House**, and **Rave** mixes.
+- **Stations & filters** — tune the wall by category (Festivals, Clubs, Cercle, Anjuna, Melodic, Afro House, Rave, Live Cams, …) or fire a curated mix: **🔥 Peak Hours**, **🌌 Immersive**, **📼 Throwback**. Each chip shows a live count. Press **1–9** to jump between stations.
 - **Share / deep-link** — 🔗 on any tile copies a `?ch=<id>` link (or opens the native share sheet); opening it features that channel.
 - **Favorites** — ⭐ any channel; saved on your device, filterable, one tap away.
 - **Channel search** — type to find a channel by name.

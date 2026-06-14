@@ -1,5 +1,25 @@
 # Changelog
 
+## v2.2 — Big scenic-channel expansion + Vegas + fixes
+
+### Channels (70 → 106)
+- **+36 verified high-quality channels**, weighted to the scenic/immersive "Cercle vibe" (real, embeddable, mostly official 4K video with great audio):
+  - **Cercle (+13)** — Ben Böhmer above Cappadocia, Boris Brejcha (Nîmes / Grand Palais / Fontainebleau), Sébastien Léger at the Pyramids, Tale Of Us & Stephan Bodzin at Piz Gloria, Jan Blomqvist at Tossa de Mar, Nina Kraviz at the Eiffel Tower, Maceo Plex on the Hudson, Amelie Lens at the Atomium, and more.
+  - **Anjuna (+17, new category)** — official Anjunadeep / Above & Beyond open-air 4K sets (Ben Böhmer, Jody Wisternoff, Yotto, Eli & Fur, Marsh at Red Rocks, A&B Group Therapy).
+  - **Afro House (+4, new category)** — Black Coffee / Keinemusik–style soulful sets.
+  - **Melodic / Festival (+2)** — another Afterlife set and Dimitri Vegas & Like Mike's Tomorrowland 2025 mainstage.
+- New chips for **Anjuna** and **Afro House**; **🌌 Immersive** station now spans Cercle + Melodic + Anjuna.
+
+### "On The Horizon" — Las Vegas added (11 → 14)
+- **iHeartRadio Music Festival** — Sep 18–19, T-Mobile Arena.
+- **Metallica · Sphere** ("Life Burns Faster") — opens Oct 1.
+- **F1 Las Vegas Grand Prix** — Nov 19–21, Las Vegas Strip.
+- (Most other Sphere/club residencies have already wrapped for 2026; these are the confirmed upcoming marquee Vegas dates.)
+
+### Fixes
+- **YouTube controls were getting clipped in Party Mode.** The full-wall tiles were zoomed ~5% from their *center*, which cropped the top and bottom — and YouTube's volume slider lives at the bottom. The zoom is now anchored to the bottom edge, so the control bar (and volume slider) stays fully visible. Overlay labels also fade out on hover in both the wall and the main grid so they never sit over the player controls.
+- **The archive.org clip wouldn't muted-autoplay** (browsers block unmuted autoplay and archive's player has no reliable mute flag). Replaced it with a real YouTube MTV Spring Break 2000 clip, so it now behaves exactly like every other tile.
+
 ## v2.1 — Channel expansion + ergonomics
 
 ### Channels (49 → 70)
