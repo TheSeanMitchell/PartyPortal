@@ -29,6 +29,7 @@ import urllib.request, urllib.error
 
 # ───────────────────────────── CONFIG ─────────────────────────────
 MAX_ITEMS      = 55
+PER_SOURCE_MAX = 5      # max stories kept from any single outlet (diversity)
 BREAKING_HOURS = 36     # < 36h old  → "hot"
 DAILY_HOURS    = 48     # < 48h old  → kept (today + yesterday)
 FETCH_TIMEOUT  = 12
@@ -66,6 +67,21 @@ RAW_KEYWORDS = [
     "concert tour","tour dates","summer concerts","amphitheater","live show","residency",
     "festival fashion","coachella fashion","rave outfit","festival outfit","festival style",
     "mtv spring break","spring break",
+    # rock 'n' roll / live bands
+    "rock concert","rock festival","rock tour","reunion tour","stadium tour","world tour",
+    "headlining tour","arena tour","farewell tour","greatest hits tour","anniversary tour",
+    "foo fighters","metallica","red hot chili peppers","green day","guns n roses","pearl jam",
+    "the rolling stones","ac/dc","muse","arctic monkeys","blink-182","paramore","kings of leon",
+    "punk","alt rock","classic rock","rock band","headline glastonbury","download festival",
+    # hip-hop / rap live
+    "hip hop festival","rap concert","hip hop concert","rolling loud","rap residency",
+    "drake","travis scott","kendrick lamar","tyler the creator","don toliver","meek mill",
+    # nightlife venues / vegas / ibiza
+    "sphere residency","drai's","hakkasan","omnia","xs nightclub","encore beach club","wet republic",
+    "marquee nightclub","liv nightclub","zouk nightclub","tao nightclub","day club","beach club",
+    "superstar dj","headline set","sunset set","closing set","opening party","season opening",
+    "afterparty","warehouse rave","techno rave","trance family","psytrance","ozora","boom festival",
+    "defected","glitterbox","anjunabeats","anjunadeep","cercle","afterlife","drumcode","elrow",
 ]
 KEYWORDS = set(k.lower() for k in RAW_KEYWORDS)
 
@@ -87,6 +103,10 @@ BLOCKLIST = {
     "palestine","iran","obituary","dies at","has died","passes away","funeral","memorial",
     "drugs","drug bust","police raid","raids","seized","narcotics","crackdown","banned",
     "steam launch","gacha","anime","esports","video game","crypto","nft",
+    "verdict","trial","testimony","deposition","settlement","restraining order","subpoena",
+    "hospitalized","health scare","cancer","rehab","custody","alimony","divorce","tax evasion",
+    "fraud","scam","backlash","slams","slammed","feud","diss track","clap back","apologizes",
+    "misconduct","accuser","accused of","allegations","sexual misconduct","stabbed","gunman",
 }
 BLOCK_PAT = make_pattern(BLOCKLIST)
 
@@ -101,11 +121,17 @@ TIER2 = {  # solid music/culture blogs & city press
     "electronic groove","edm identity","dancing astronaut","festicket","ticketnews",
     "vegas weekly","las vegas review-journal","timeout","attack magazine","mixdown",
     "the line of best fit","clash","diy magazine","brooklyn vegan","spin","paper magazine",
+    "edm sauce","data transmission","decoded magazine","when we dip","mixmag asia","dj times",
+    "the nocturnal times","ravejungle","run the trap","loudwire","ultimate classic rock",
+    "kerrang","revolver","metal injection","hotnewhiphop","xxl","hiphopdx","rap-up",
+    "edm maniac","music festival wizard","ibiza spotlight","electronic vegas","rave jungle",
 }
 NICHE_SOURCES = {  # accepted on-topic even without a generic keyword hit
     "mixmag","dj mag","djmag","resident advisor","edm.com","dancing astronaut","edmtunes",
     "your edm","we rave you","6am","magnetic magazine","magnetic mag","electronic groove",
-    "edm identity","attack magazine","ra",
+    "edm identity","attack magazine","ra","edm sauce","data transmission","decoded magazine",
+    "when we dip","mixmag asia","dj times","the nocturnal times","ravejungle","run the trap",
+    "edm maniac","ibiza spotlight","electronic vegas",
 }
 
 def _name_has(n, s):
@@ -157,11 +183,34 @@ CULTURE_SOURCES = [
     ("Miami",             g("miami+nightlife+OR+miami+beach+party+OR+art+basel+miami+when:3d")),
     # broad music press (site: → high quality; keyword-filtered for relevance)
     ("Billboard Dance",   g("site:billboard.com+dance+OR+electronic+OR+festival+when:2d")),
-    ("Rolling Stone",     g("site:rollingstone.com+festival+OR+electronic+OR+dj+when:2d")),
+    ("Rolling Stone",     g("site:rollingstone.com+festival+OR+electronic+OR+dj+OR+tour+when:2d")),
     ("Pitchfork",         g("site:pitchfork.com+festival+OR+electronic+when:3d")),
-    ("NME",               g("site:nme.com+festival+OR+dance+when:3d")),
+    ("NME",               g("site:nme.com+festival+OR+dance+OR+tour+when:3d")),
     ("DJ Tours",          g("dj+residency+OR+dj+tour+2026+OR+b2b+set+when:2d")),
     ("Festival Fashion",  g("coachella+fashion+OR+festival+outfit+OR+rave+outfit+when:3d")),
+    # more EDM / dance specialists
+    ("EDM Identity",      g("site:edmidentity.com+when:4d")),
+    ("EDM Sauce",         g("site:edmsauce.com+when:4d")),
+    ("Data Transmission", g("site:datatransmission.co+when:5d")),
+    ("Decoded Magazine",  g("site:decodedmagazine.com+when:5d")),
+    ("When We Dip",       g("site:whenwedip.com+when:5d")),
+    ("Mixmag Asia",       g("site:mixmag.asia+when:5d")),
+    ("Attack Magazine",   g("site:attackmagazine.com+when:5d")),
+    ("Ibiza Spotlight",   g("site:ibiza-spotlight.com+when:4d")),
+    ("EDM Maniac",        g("site:edmmaniac.com+when:4d")),
+    # rock 'n' roll / live bands (keyword-filtered to stay party/live-focused)
+    ("Loudwire",          g("site:loudwire.com+tour+OR+festival+OR+reunion+OR+concert+when:3d")),
+    ("Ultimate Classic Rock", g("site:ultimateclassicrock.com+tour+OR+festival+OR+residency+when:4d")),
+    ("Brooklyn Vegan",    g("site:brooklynvegan.com+festival+OR+tour+OR+lineup+when:3d")),
+    ("Consequence",       g("site:consequence.net+festival+OR+tour+OR+lineup+OR+rave+when:2d")),
+    ("Rock Tours",        g("rock+band+tour+2026+OR+stadium+tour+OR+reunion+tour+OR+world+tour+when:2d")),
+    # hip-hop / rap live (Vegas books a lot of rap headliners)
+    ("HipHopDX",          g("site:hiphopdx.com+festival+OR+tour+OR+concert+OR+vegas+when:3d")),
+    ("Rolling Loud / Rap Live", g("rolling+loud+OR+rap+concert+OR+hip+hop+festival+OR+rap+residency+when:3d")),
+    # festivals + nightlife extras
+    ("Music Festival Wizard", g("site:musicfestivalwizard.com+when:3d")),
+    ("Las Vegas Nightlife", g("las+vegas+pool+party+OR+vegas+dayclub+OR+vegas+dj+residency+when:3d")),
+    ("Time Out Clubs",    g("site:timeout.com+nightlife+OR+club+OR+dj+OR+party+when:3d")),
 ]
 
 # ───────────────────────── FETCH + PARSE ───────────────────────────
@@ -253,17 +302,29 @@ def categorize(title):
     t = title.lower()
     if any(w in t for w in ["festival","lineup","headliner","coachella","edc","tomorrowland",
                             "ultra","glastonbury","lollapalooza","bonnaroo","burning man",
-                            "creamfields","lost lands","awakenings","iii points","outside lands"]):
+                            "creamfields","lost lands","awakenings","iii points","outside lands",
+                            "rolling loud","download festival","ozora","boom festival"]):
         return "Festival"
-    if any(w in t for w in ["nightclub","club night","nightlife","rave","ibiza","sphere",
-                            "warehouse","after hours","bourbon street","mardi gras"]):
+    if any(w in t for w in ["sphere","las vegas","vegas","encore beach","wet republic","hakkasan",
+                            "omnia","xs nightclub","drai","marquee","zouk","liv nightclub","tao "]):
+        return "Vegas"
+    if any(w in t for w in ["rock","punk","metal","foo fighters","metallica","pearl jam","green day",
+                            "guns n roses","rolling stones","ac/dc","muse","arctic monkeys","blink-182",
+                            "paramore","kings of leon","band reunites","reunion tour"]):
+        return "Rock"
+    if any(w in t for w in ["hip hop","hip-hop","rap ","rapper","drake","travis scott","kendrick",
+                            "tyler the creator","don toliver","meek mill","2 chainz","nelly"]):
+        return "Hip-Hop"
+    if any(w in t for w in ["nightclub","club night","nightlife","rave","ibiza","warehouse",
+                            "after hours","bourbon street","mardi gras","pool party","day club",
+                            "beach club","afterparty"]):
         return "Nightlife"
-    if any(w in t for w in ["dj","edm","electronic","techno","house music","dance music",
-                            "boiler room","trance","dubstep","hardstyle","drum and bass"]):
+    if any(w in t for w in ["dj","edm","electronic","techno","house music","dance music","trance",
+                            "boiler room","dubstep","hardstyle","drum and bass","psytrance","b2b"]):
         return "EDM"
-    if any(w in t for w in ["fashion","outfit","style","runway","looks"]):
+    if any(w in t for w in ["fashion","outfit","style","runway","looks","swimsuit","bikini"]):
         return "Fashion"
-    if any(w in t for w in ["concert","tour","live show","residency","ticket","amphitheater"]):
+    if any(w in t for w in ["concert","tour","live show","residency","ticket","amphitheater","arena"]):
         return "Concert"
     return "Culture"
 
@@ -298,6 +359,13 @@ _DOMAIN_MAP = {
     "kerrang": "kerrang.com", "magnetic magazine": "magneticmag.com", "6am": "6amgroup.com",
     "djs from mars": "djmag.com", "the nocturnal times": "thenocturnaltimes.com",
     "edm sauce": "edmsauce.com", "data transmission": "datatransmission.co",
+    "decoded magazine": "decodedmagazine.com", "when we dip": "whenwedip.com",
+    "mixmag asia": "mixmag.asia", "attack magazine": "attackmagazine.com",
+    "ibiza spotlight": "ibiza-spotlight.com", "edm maniac": "edmmaniac.com",
+    "ultimate classic rock": "ultimateclassicrock.com", "brooklyn vegan": "brooklynvegan.com",
+    "hiphopdx": "hiphopdx.com", "music festival wizard": "musicfestivalwizard.com",
+    "time out": "timeout.com", "revolver": "revolvermag.com", "metal injection": "metalinjection.net",
+    "xxl": "xxlmag.com", "rap-up": "rap-up.com", "edm identity": "edmidentity.com",
     "attack magazine": "attackmagazine.com", "mixmag asia": "mixmag.asia",
     "the dj list": "thedjlist.com", "ravejungle": "ravejungle.com", "decoded magazine": "decodedmagazine.com",
 }
@@ -334,16 +402,25 @@ def build_item(ts, title, link, src, domain=""):
         "n":     1,
     }
 
+def _base_domain(d):
+    """Collapse regional subdomains (fr.ra.co, de.ra.co → ra.co) so one outlet
+    can't dodge the per-source cap via country editions."""
+    if not d or "." not in d:
+        return d
+    return ".".join(d.split(".")[-2:])
+
 def filter_and_dedup(raw):
     """Filter, then collapse exact AND near-duplicate headlines.
     Near-dupes (Jaccard of significant words >= 0.55) are merged, keeping the
     higher-trust source. Each surviving story carries n = the number of DISTINCT
-    sources that reported it (the 'most-reported' ranking signal)."""
+    sources that reported it (the 'most-reported' ranking signal). A per-source
+    cap keeps any single outlet from flooding the feed (and starving older days)."""
     now = int(time.time())
     max_age = DAILY_HOURS * 3600
     raw.sort(key=lambda x: x[0], reverse=True)
     out, sigs, srcsets = [], [], []
     exact_idx = {}
+    src_count = {}
     for tup in raw:
         ts, title, link, src = tup[0], tup[1], tup[2], tup[3]
         domain = tup[4] if len(tup) > 4 else ""
@@ -352,7 +429,7 @@ def filter_and_dedup(raw):
         it = build_item(ts, title, link, src, domain)
         if not it:
             continue
-        srcid = (it.get("domain") or src or "").lower()
+        srcid = _base_domain((it.get("domain") or src or "").lower())
         h = hashlib.md5(_key(title).encode()).hexdigest()
         if h in exact_idx:
             j = exact_idx[h]
@@ -382,6 +459,10 @@ def filter_and_dedup(raw):
             else:
                 out[dup]["n"] = max(1, len(srcsets[dup]))
             continue
+        # per-source cap: don't let one outlet dominate the feed
+        if src_count.get(srcid, 0) >= PER_SOURCE_MAX:
+            continue
+        src_count[srcid] = src_count.get(srcid, 0) + 1
         exact_idx[h] = len(out)
         out.append(it)
         sigs.append(sg)

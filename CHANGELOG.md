@@ -1,5 +1,21 @@
 # Changelog
 
+## v2.5 — Gold mega-events, news source overhaul + working EARLIER, playlists & random-start
+
+### "On The Horizon" — mega events get the gold treatment
+- Festivals and **headliner** Vegas shows (Deadmau5, Marshmello, Chainsmokers, Odesza, Diplo, Kaskade, Don Toliver, Meek Mill, Tiësto, Martin Garrix, and ~40 more) now render in a **gold, shimmering card** with a ★ and a "Headliner" tag — clearly special vs. the routine nightly events.
+- The standalone **Vegas Nightlife** directory section was **removed** — those events now live in the unified On The Horizon feed, so it was redundant.
+
+### News feed — real fix for EARLIER + source diversity
+- **EARLIER now works like NUZU.** The column was empty because the UI bucketed by a rolling 24-hour window; it now buckets by **calendar day** (your local time), so yesterday's stories show up immediately (and are ranked by how many sources covered them).
+- **Source flooding fixed.** One outlet (Resident Advisor) was filling 34 of 55 slots. Added a **per-source cap** (max 5 per outlet) with **regional-subdomain normalization** (fr/de/es.ra.co all count as one), so no single source dominates — and yesterday's stories stop getting pushed off the list.
+- **Way more sources.** The roster went from ~31 to **48 outlets** spanning EDM, rock, hip-hop, festivals, and nightlife (Loudwire, Ultimate Classic Rock, Brooklyn Vegan, Consequence, HipHopDX, EDM Identity, EDM Sauce, Data Transmission, When We Dip, Ibiza Spotlight, Music Festival Wizard, Time Out, and more).
+- **Tighter on-topic filtering + better categories.** Expanded the keyword/blocklist (drops court/feud/health/politics noise) and added **Vegas, Rock, and Hip-Hop** news categories so the feed mirrors the whole site.
+
+### Channels — playlists + random start (no more stale revisits)
+- Non-live channels start on a **random video** on each load; bumped the Encore Beach Club playlist and added official **playlist** channels that auto-rotate: **Tomorrowland 2025 Live Sets (99 sets)**, Tomorrowland 2022, a Monstercat/NCS bass mix, and UKF Drum & Bass. Playlists also self-heal if any single video gets removed.
+- 126 → **131 channels**.
+
 ## v2.4 — Live Vegas events in "On The Horizon" + clickable event cards, Summer Fashion
 
 ### Vegas events feed (the big one)
