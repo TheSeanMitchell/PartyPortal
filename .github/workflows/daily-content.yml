@@ -35,13 +35,13 @@ jobs:
       - name: Check for changes
         id: changes
         run: |
-          git diff --quiet index.html feed.json 2>/dev/null && echo "changed=false" >> $GITHUB_OUTPUT || echo "changed=true" >> $GITHUB_OUTPUT
+          git diff --quiet index.html feed.json events.json 2>/dev/null && echo "changed=false" >> $GITHUB_OUTPUT || echo "changed=true" >> $GITHUB_OUTPUT
 
       - name: Commit and push updated content
         if: steps.changes.outputs.changed == 'true'
         run: |
           git config user.name  "PartyPortal Bot"
           git config user.email "bot@partyportal.app"
-          git add index.html feed.json
+          git add index.html feed.json events.json
           git commit -m "🎉 Culture feed refresh [$(date -u '+%Y-%m-%d %H:%M UTC')]"
           git push
