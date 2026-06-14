@@ -378,11 +378,11 @@
 </div>
 
 <!-- COUNTDOWN STRIP -->
-<section class="pp-cd-wrap" id="pp-cd-wrap" aria-label="Upcoming festivals">
+<section class="pp-cd-wrap" id="pp-cd-wrap" aria-label="Upcoming festivals and Vegas events">
   <div class="pp-cd-hdr">
     <span class="pp-sec-dot" aria-hidden="true"></span>
     <span class="pp-cd-hdr-title">On The Horizon</span>
-    <span class="pp-cd-hdr-sub">Counting down to the next big drops &mdash; tap for tickets &amp; info</span>
+    <span class="pp-cd-hdr-sub">Festivals &amp; live Vegas nights, soonest first &mdash; tap any card for tickets &amp; info</span>
   </div>
   <div class="pp-cd-row" id="pp-cd-row"></div>
 </section>
@@ -549,6 +549,10 @@ var PP_ALL_FEEDS = [
   {id:'retro-mtv',cat:'RETRO',maxIdx:60,label:'\uD83D\uDCFA Retro MTV',embed:'https://www.youtube.com/embed/8N3NC6gx-wg?list=PLW2jIdqxf7EncdalfB3BAAno6a2kwPWrO'},
   /* FASHION */
   {id:'victorias-secret',cat:'FASHION',maxIdx:20,label:"\uD83E\uDE85 Victoria's Secret Fashion Shows",embed:'https://www.youtube.com/embed/3MWRooknI-U?list=PLKc-8XN3rXSJsmI3N4LTkZlDgTe7MNQIE'},
+  {id:'si-swim-miami24',cat:'FASHION',maxIdx:1,label:'\uD83D\uDC59 SI Swimsuit \u2014 Miami Swim Week 2024',embed:'https://www.youtube.com/embed/ASHR85Ee-qM',url:'https://swimsuit.si.com'},
+  {id:'si-swim-week25',cat:'FASHION',maxIdx:1,label:'\uD83D\uDC59 SI Swimsuit \u2014 Swim Week 2025',embed:'https://www.youtube.com/embed/GZW1ejFYadQ',url:'https://swimsuit.si.com'},
+  {id:'vs-show25',cat:'FASHION',maxIdx:1,label:"\uD83D\uDC59 Victoria's Secret \u2014 The Show 2025 (4K)",embed:'https://www.youtube.com/embed/zapkWrnILwo',url:'https://www.victoriassecret.com'},
+  {id:'vs-swim-volley',cat:'FASHION',maxIdx:1,label:"\uD83D\uDC59 Victoria's Secret \u2014 Swim Special: Volleyball Angels",embed:'https://www.youtube.com/embed/3-CLo1aaHvw',url:'https://www.victoriassecret.com'},
   /* LIVE CAMS */
   {id:'bourbon',cat:'LIVE CAM',maxIdx:1,label:'\uD83C\uDFB7 Bourbon Street \u2014 New Orleans, LA',embed:'https://www.youtube.com/embed/Ksrleaxxxhw'},
   {id:'bellagio',cat:'LIVE CAM',maxIdx:1,label:'\u2728 The Bellagio \u2014 Las Vegas, NV',embed:'https://www.youtube.com/embed/KJuGU7v5oYw'},
@@ -680,7 +684,7 @@ var PP_FILTERS = [
   {id:'c-PSYTRANCE',  label:'\uD83C\uDF44 Psytrance', kind:'cat', cat:'PSYTRANCE'},
   {id:'c-POOL',       label:'\uD83C\uDFD6\uFE0F Pool Party', kind:'cat', cat:'POOL'},
   {id:'c-RADIO',      label:'Radio',              kind:'cat', cat:'RADIO'},
-  {id:'c-FASHION',    label:'Fashion',            kind:'cat', cat:'FASHION'}
+  {id:'c-FASHION',    label:'\uD83D\uDC59 Summer Fashion',            kind:'cat', cat:'FASHION'}
 ];
 
 function getFilterById(id){ for(var i=0;i<PP_FILTERS.length;i++){ if(PP_FILTERS[i].id===id) return PP_FILTERS[i]; } return PP_FILTERS[0]; }
@@ -1003,11 +1007,18 @@ var PP_FESTIVALS=[
   {name:'EDC Orlando',  emoji:'\uD83C\uDFA1', where:'Orlando, FL',         start:'2026-11-06T16:00:00-05:00', dateLabel:'Nov 6\u20138',            url:'https://orlando.electricdaisycarnival.com'},
   {name:'F1 Las Vegas GP', emoji:'\uD83C\uDFCE\uFE0F', where:'Las Vegas Strip', start:'2026-11-19T20:00:00-08:00', dateLabel:'Nov 19\u201321',          url:'https://www.f1lasvegasgp.com'}
 ];
+var PP_VEGAS_EVENTS=[];
 function renderCountdowns(){
   var row=document.getElementById('pp-cd-row'); if(!row) return;
   row.innerHTML='';
   var matchMap={ 'Tomorrowland':'tomorrowland', 'Ultra Europe':'ultra', 'Creamfields':'creamfields', 'EDC Orlando':'electric daisy' };
-  PP_FESTIVALS.forEach(function(ft,i){
+  var _now=Date.now(), _items=[];
+  PP_VEGAS_EVENTS.forEach(function(ev){ if((ev.ts||0)*1000>_now-43200000) _items.push({k:'ev',ts:(ev.ts||0)*1000,ev:ev}); });
+  PP_FESTIVALS.forEach(function(ft,i){ _items.push({k:'fest',ts:new Date(ft.start).getTime(),ft:ft,fi:i}); });
+  _items.sort(function(a,b){ return a.ts-b.ts; });
+  _items.forEach(function(_it){
+    if(_it.k==='ev'){ row.appendChild(buildEventCard(_it.ev)); return; }
+    var ft=_it.ft, i=_it.fi;
     var card=document.createElement('div'); card.className='pp-cd-card';
     var mk=matchMap[ft.name]||null;
     var hasCh=mk && PP_ALL_FEEDS.some(function(f){ return (f.label+' '+f.id).toLowerCase().indexOf(mk)>=0; });
@@ -1045,6 +1056,116 @@ function tickCountdowns(){
   });
 }
 setInterval(tickCountdowns, 1000);
+
+/* ════════ VEGAS / LIVE EVENTS — cards + detail modal (events.json) ════════ */
+function buildEventCard(ev){
+  var card=document.createElement('div'); card.className='pp-cd-card pp-ev-card';
+  var d=new Date((ev.ts||0)*1000);
+  var mon=d.toLocaleDateString('en-US',{month:'short'}).toUpperCase();
+  var day=d.getDate();
+  var wd=d.toLocaleDateString('en-US',{weekday:'short'});
+  var tcls=ev.type==='pool'?'pp-ev-pool':'pp-ev-club';
+  var tlbl=ev.type==='pool'?'Pool':'Club';
+  card.innerHTML='<div class="pp-ev-cardtop"><div class="pp-ev-cal"><span class="pp-ev-cal-m">'+mon+'</span><span class="pp-ev-cal-d">'+day+'</span></div>'
+    +'<div class="pp-ev-cardmeta"><span class="pp-ev-badge '+tcls+'">'+tlbl+'</span><span class="pp-ev-wd">'+escHtml(wd)+'</span></div></div>'
+    +'<div class="pp-ev-cardartist">'+escHtml(ev.artist||'TBA')+'</div>'
+    +'<div class="pp-ev-cardvenue">'+escHtml(ev.venue||'')+'</div>'
+    +'<div class="pp-cd-foot"><span class="pp-ev-cardcity">\uD83D\uDCCD '+escHtml(ev.city||'Las Vegas')+'</span><span class="pp-ev-more">Details \u2197</span></div>';
+  card.style.cursor='pointer';
+  card.addEventListener('click', function(){ openEventModal(ev); });
+  return card;
+}
+function findChannelFor(artist){
+  if(!artist || artist.length<3) return null;
+  var a=artist.toLowerCase();
+  if({'special guest':1,'tba':1,'breakaway brunch':1,'pool party':1,'stadium swim':1}[a]) return null;
+  var hit=null;
+  PP_ALL_FEEDS.forEach(function(f){ if(hit) return; if((f.label||'').toLowerCase().indexOf(a)>=0) hit=f; });
+  return hit;
+}
+function openEventModal(ev){
+  var ov=document.getElementById('pp-ev-modal');
+  if(!ov){
+    ov=document.createElement('div'); ov.id='pp-ev-modal'; ov.className='pp-ev-ov';
+    ov.innerHTML='<div class="pp-ev-box" role="dialog" aria-modal="true"><button class="pp-ev-x" aria-label="Close">\u2715</button><div class="pp-ev-inner"></div></div>';
+    document.body.appendChild(ov);
+    ov.addEventListener('click', function(e){ if(e.target===ov) closeEventModal(); });
+    ov.querySelector('.pp-ev-x').addEventListener('click', closeEventModal);
+  }
+  var ch=findChannelFor(ev.artist);
+  var d=new Date((ev.ts||0)*1000);
+  var dateStr=d.toLocaleDateString('en-US',{weekday:'long',month:'long',day:'numeric'});
+  var when=ev.type==='pool'?'Daytime pool party':'Nightclub';
+  var acc=ev.type==='pool'?'var(--cyan)':'var(--pink)';
+  var initial=(ev.artist||'?').replace(/[^A-Za-z0-9]/g,'').slice(0,2).toUpperCase()||'PP';
+  var yt='https://www.youtube.com/results?search_query='+encodeURIComponent((ev.artist||'')+' dj set live');
+  var info='https://www.google.com/search?q='+encodeURIComponent((ev.artist||'')+' DJ artist');
+  var tcls=ev.type==='pool'?'pp-ev-pool':'pp-ev-club';
+  var tlbl=ev.type==='pool'?'\uD83C\uDFD6\uFE0F Pool Party':'\uD83C\uDF03 Nightclub';
+  var watch = ch
+    ? '<button class="pp-ev-btn pp-ev-watch" data-q="'+escHtml(ev.artist)+'">\u25B8 Watch '+escHtml(ev.artist)+' on the wall</button>'
+    : '<a class="pp-ev-btn pp-ev-watch" href="'+yt+'" target="_blank" rel="noopener">\u25B8 Watch a set on YouTube</a>';
+  ov.querySelector('.pp-ev-inner').innerHTML=
+     '<div class="pp-ev-hd" style="--ev-acc:'+acc+'"><div class="pp-ev-av">'+initial+'</div>'
+    +'<div><div class="pp-ev-artist">'+escHtml(ev.artist||'TBA')+'</div><div class="pp-ev-vn">'+escHtml(ev.venue||'')+' \u00B7 '+escHtml(ev.city||'Las Vegas')+'</div></div></div>'
+    +'<div class="pp-ev-meta"><span class="pp-ev-badge '+tcls+'">'+tlbl+'</span><span class="pp-ev-date">'+escHtml(dateStr)+' \u00B7 '+when+'</span></div>'
+    +'<div class="pp-ev-actions">'
+    +'<a class="pp-ev-btn pp-ev-tix" href="'+ev.url+'" target="_blank" rel="noopener">\uD83C\uDF9F\uFE0F Guest List &amp; Tickets</a>'
+    +watch
+    +'<a class="pp-ev-btn pp-ev-info" href="'+info+'" target="_blank" rel="noopener">\uD83D\uDD0E About the artist</a>'
+    +'</div>'
+    +'<div class="pp-ev-note">Lineup &amp; date via No Cover Nightclubs \u2014 always confirm on the venue\u2019s official page before buying.</div>';
+  var wb=ov.querySelector('.pp-ev-watch[data-q]');
+  if(wb){ wb.addEventListener('click', function(){ var q=wb.getAttribute('data-q'); closeEventModal();
+    var s=document.getElementById('pp-search'); if(s) s.value=q; PP.search=q; PP.filterId='all';
+    var c=document.getElementById('pp-search-clear'); if(c) c.classList.add('pp-show');
+    renderChips(); renderActiveView(true);
+    var fw=document.querySelector('.pp-feeds-wrap'); if(fw) fw.scrollIntoView({behavior:'smooth',block:'start'});
+    toast('Showing '+q+' on the wall'); }); }
+  ov.classList.add('pp-show'); document.body.style.overflow='hidden';
+}
+function closeEventModal(){ var ov=document.getElementById('pp-ev-modal'); if(ov){ ov.classList.remove('pp-show'); document.body.style.overflow=''; } }
+(function(){
+  var c=".pp-ev-cardtop{display:flex;align-items:center;justify-content:space-between;margin-bottom:9px}"
+   +".pp-ev-cal{display:flex;flex-direction:column;align-items:center;line-height:1;background:rgba(255,255,255,.05);border-radius:7px;padding:5px 9px;border:1px solid rgba(255,255,255,.08)}"
+   +".pp-ev-cal-m{font-family:'Space Mono',monospace;font-size:.52em;letter-spacing:.1em;color:var(--pink-l)}"
+   +".pp-ev-cal-d{font-family:'Bebas Neue',sans-serif;font-size:1.3em;color:#fff;margin-top:2px}"
+   +".pp-ev-cardmeta{display:flex;flex-direction:column;align-items:flex-end;gap:5px}"
+   +".pp-ev-wd{font-family:'Space Mono',monospace;font-size:.56em;color:var(--dim);letter-spacing:.06em;text-transform:uppercase}"
+   +".pp-ev-badge{font-family:'Space Mono',monospace;font-size:.5em;font-weight:700;text-transform:uppercase;letter-spacing:.06em;padding:2px 6px;border-radius:8px;white-space:nowrap}"
+   +".pp-ev-club{color:#ff7ab8;background:rgba(214,25,112,.16);border:1px solid rgba(214,25,112,.4)}"
+   +".pp-ev-pool{color:#5fd9ff;background:rgba(0,229,255,.12);border:1px solid rgba(0,229,255,.35)}"
+   +".pp-ev-cardartist{font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:1.14em;color:#fff;text-transform:uppercase;line-height:1.04;letter-spacing:.02em}"
+   +".pp-ev-cardvenue{font-size:.74em;color:var(--purple-l);margin-top:3px}"
+   +".pp-ev-cardcity{font-family:'Space Mono',monospace;font-size:.58em;color:var(--dim)}"
+   +".pp-ev-more{font-family:'Space Mono',monospace;font-size:.58em;color:var(--cyan)}"
+   +".pp-ev-ov{position:fixed;inset:0;background:rgba(4,0,14,.82);-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px);z-index:1000;display:none;align-items:center;justify-content:center;padding:18px}"
+   +".pp-ev-ov.pp-show{display:flex}"
+   +".pp-ev-box{position:relative;width:100%;max-width:440px;background:linear-gradient(165deg,#16021f,#0b0118);border:1px solid rgba(214,25,112,.35);border-radius:16px;padding:24px 22px 20px;box-shadow:0 24px 70px rgba(0,0,0,.6)}"
+   +".pp-ev-x{position:absolute;top:12px;right:12px;background:rgba(255,255,255,.08);border:none;color:#fff;width:30px;height:30px;border-radius:50%;cursor:pointer;font-size:.9em;line-height:1}"
+   +".pp-ev-x:hover{background:rgba(214,25,112,.5)}"
+   +".pp-ev-hd{display:flex;align-items:center;gap:13px;margin-bottom:14px;padding-right:20px}"
+   +".pp-ev-av{width:52px;height:52px;border-radius:50%;background:linear-gradient(135deg,var(--ev-acc,var(--pink)),rgba(144,32,220,.5));display:flex;align-items:center;justify-content:center;font-family:'Bebas Neue',sans-serif;font-size:1.4em;color:#fff;flex-shrink:0;letter-spacing:.02em}"
+   +".pp-ev-artist{font-family:'Bebas Neue',sans-serif;font-size:1.75em;color:#fff;line-height:1;letter-spacing:.02em}"
+   +".pp-ev-vn{font-size:.82em;color:var(--purple-l);margin-top:4px}"
+   +".pp-ev-meta{display:flex;align-items:center;gap:9px;margin-bottom:16px;flex-wrap:wrap}"
+   +".pp-ev-date{font-family:'Space Mono',monospace;font-size:.72em;color:var(--cyan)}"
+   +".pp-ev-actions{display:flex;flex-direction:column;gap:8px}"
+   +".pp-ev-btn{display:block;text-align:center;padding:11px;border-radius:9px;font-family:'Barlow Condensed',sans-serif;font-weight:600;font-size:.96em;letter-spacing:.03em;text-transform:uppercase;text-decoration:none;cursor:pointer;border:none;transition:transform .12s,background .15s}"
+   +".pp-ev-btn:hover{transform:translateY(-1px)}"
+   +".pp-ev-tix{background:linear-gradient(90deg,var(--pink),#ff4d9e);color:#fff}"
+   +".pp-ev-watch{background:rgba(0,229,255,.14);color:var(--cyan);border:1px solid rgba(0,229,255,.4);width:100%}"
+   +".pp-ev-info{background:rgba(255,255,255,.06);color:var(--purple-l);border:1px solid rgba(255,255,255,.1)}"
+   +".pp-ev-note{font-size:.62em;color:var(--dim);text-align:center;margin-top:14px;font-family:'Space Mono',monospace;line-height:1.5}";
+  var s=document.createElement('style'); s.textContent=c; document.head.appendChild(s);
+  function loadEvents(){
+    fetch('./events.json?v='+Date.now()).then(function(r){ return r.ok?r.json():null; })
+      .then(function(d){ if(d&&d.events&&d.events.length){ PP_VEGAS_EVENTS=d.events; if(typeof renderCountdowns==='function') renderCountdowns(); } })
+      .catch(function(){});
+  }
+  loadEvents();
+  document.addEventListener('keydown', function(e){ if(e.key==='Escape'){ var ov=document.getElementById('pp-ev-modal'); if(ov&&ov.classList.contains('pp-show')) closeEventModal(); } });
+})();
 
 /* ════════ KEYBOARD SHORTCUTS + HELP ════════ */
 function toggleHelp(){ var h=document.getElementById('pp-help'); if(h) h.classList.toggle('pp-open'); }

@@ -391,6 +391,93 @@ def filter_and_dedup(raw):
     out.sort(key=lambda x: x.get("ts", 0), reverse=True)
     return out[:MAX_ITEMS]
 
+# ──────────────── VEGAS EVENTS SCRAPER (No Cover Nightclubs) ────────────────
+# Parses event URLs only (slugs carry artist+venue+date), so it survives any
+# page-layout change. Writes events.json for the "On The Horizon" feed.
+import calendar as _cal
+_VG_MONTHS = {m.lower(): i for i, m in enumerate(_cal.month_name) if m}
+_VG_WD = "monday tuesday wednesday thursday friday saturday sunday".split()
+VG_VENUES = {
+    "zouk-nightclub": ("Zouk", "club"), "xs-nightclub": ("XS", "club"),
+    "omnia-nightclub": ("Omnia", "club"), "marquee-nightclub": ("Marquee", "club"),
+    "tao-nightclub": ("Tao", "club"), "hakkasan-nightclub": ("Hakkasan", "club"),
+    "liv-nightclub": ("LIV", "club"), "jewel-nightclub": ("Jewel", "club"),
+    "ebc-at-night": ("EBC At Night", "club"), "ghostbar-nightclub": ("Ghostbar", "club"),
+    "forty-deuce": ("Forty Deuce", "club"),
+    "encore-beach-club": ("Encore Beach Club", "pool"), "marquee-dayclub": ("Marquee Dayclub", "pool"),
+    "tao-beach": ("Tao Beach", "pool"), "tao-beach-dayclub": ("Tao Beach", "pool"),
+    "liquid-pool": ("Liquid Pool", "pool"), "liquid": ("Liquid Pool", "pool"),
+    "palm-tree-beach-club": ("Palm Tree Beach", "pool"), "liv-beach": ("LIV Beach", "pool"),
+    "ayu-dayclub": ("AYU Dayclub", "pool"), "tailgate-beach-club": ("Tailgate Beach", "pool"),
+    "stadium-swim": ("Stadium Swim", "pool"), "omnia-dayclub": ("Omnia Dayclub", "pool"),
+}
+_VG_SLUGS = sorted(VG_VENUES, key=len, reverse=True)
+_VG_DATE_RE = re.compile(r"-(%s)-([a-z]+)-(\d{1,2})-(\d{4})(?:-\d+)?$" % "|".join(_VG_WD))
+_VG_EVENT_RE = re.compile(r"https://nocovernightclubs\.com/events/[a-z0-9\-]+/?")
+VG_CALENDARS = [
+    "https://nocovernightclubs.com/zouk-nightclub-event-calendar/",
+    "https://nocovernightclubs.com/xs-nightclub-event-calendar/",
+    "https://nocovernightclubs.com/omnia-nightclub-las-vegas-event-calendar/",
+    "https://nocovernightclubs.com/marquee-nightclub-las-vegas-event-calendar/",
+    "https://nocovernightclubs.com/tao-nightclub-las-vegas-event-calendar/",
+    "https://nocovernightclubs.com/hakkasan-nightclub-event-calendar/",
+    "https://nocovernightclubs.com/liv-nightclub-event-calendar/",
+    "https://nocovernightclubs.com/jewel-nightclub-event-calendar/",
+    "https://nocovernightclubs.com/encore-beach-club-event-calendar/",
+    "https://nocovernightclubs.com/marquee-dayclub-event-calendar/",
+    "https://nocovernightclubs.com/tao-beach-event-calendar/",
+    "https://nocovernightclubs.com/liquid-pool-event-calendar/",
+    "https://nocovernightclubs.com/palm-tree-beach-club-event-calendar/",
+    "https://nocovernightclubs.com/liv-beach-event-calendar/",
+    "https://nocovernightclubs.com/ayu-dayclub-event-calendar/",
+    "https://nocovernightclubs.com/tailgate-beach-club-event-calendar/",
+]
+def _vg_parse(url):
+    slug = url.rstrip("/").split("/events/")[-1]
+    m = _VG_DATE_RE.search(slug)
+    if not m:
+        return None
+    _wd, mon, day, year = m.groups()
+    if mon not in _VG_MONTHS:
+        return None
+    head = slug[:m.start()]
+    vslug = None
+    for vs in _VG_SLUGS:
+        if head.endswith("-" + vs) or head == vs:
+            vslug = vs
+            break
+    if not vslug:
+        return None
+    artist_slug = head[:-(len(vslug) + 1)] if head.endswith("-" + vslug) else ""
+    if not artist_slug:
+        return None
+    artist = " ".join(w.capitalize() for w in artist_slug.split("-"))
+    vname, vtype = VG_VENUES[vslug]
+    ts = _cal.timegm((int(year), _VG_MONTHS[mon], int(day), 19, 0, 0, 0, 0, 0))
+    return {"artist": artist, "venue": vname, "type": vtype, "city": "Las Vegas",
+            "date": "%04d-%02d-%02d" % (int(year), _VG_MONTHS[mon], int(day)),
+            "ts": ts, "url": url}
+
+def scrape_vegas():
+    found = {}
+    headers = {"User-Agent": "Mozilla/5.0 (compatible; PartyPortalBot/2.3)"}
+    for cal_url in VG_CALENDARS:
+        try:
+            req = urllib.request.Request(cal_url, headers=headers)
+            with urllib.request.urlopen(req, timeout=FETCH_TIMEOUT) as r:
+                html = r.read().decode("utf-8", "ignore")
+        except Exception as e:
+            print(f"  [VG WARN] {cal_url}: {e}")
+            continue
+        for m in _VG_EVENT_RE.finditer(html):
+            ev = _vg_parse(m.group(0))
+            if not ev:
+                continue
+            found[(ev["artist"], ev["venue"], ev["date"])] = ev
+    cutoff = int(time.time()) - 36 * 3600
+    return sorted([e for e in found.values() if e["ts"] >= cutoff], key=lambda x: x["ts"])[:120]
+
+
 def load_prior():
     """Load the previous feed.json (if any) as raw tuples so yesterday's
     stories persist across runs — that's what fills the 'Earlier' column."""
@@ -427,4 +514,16 @@ if __name__ == "__main__":
         print(f"[OK] feed.json written — {len(items)} real items")
     else:
         print("[WARN] No real items passed the filters — feed.json left unchanged (no synthetic data).")
+    # ── Vegas events (No Cover Nightclubs) ──
+    try:
+        print("  Scraping Vegas club & dayclub calendars…")
+        vg = scrape_vegas()
+        if len(vg) >= 8:
+            with open("events.json", "w", encoding="utf-8") as f:
+                json.dump({"updated": int(time.time()), "events": vg}, f, ensure_ascii=False, indent=2)
+            print(f"[OK] events.json written — {len(vg)} Vegas events")
+        else:
+            print(f"[VG] only {len(vg)} events parsed — keeping existing events.json (no overwrite)")
+    except Exception as e:
+        print(f"[VG ERROR] {e} — events.json left unchanged")
     print("[Done]")

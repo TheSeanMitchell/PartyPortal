@@ -1,0 +1,338 @@
+{
+  "updated": 1781417922,
+  "events": [
+    {
+      "artist": "Duke Dumont",
+      "venue": "Zouk",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-06-13",
+      "ts": 1781377200,
+      "url": "https://nocovernightclubs.com/events/duke-dumont-zouk-nightclub-saturday-june-13-2026/"
+    },
+    {
+      "artist": "The Chainsmokers",
+      "venue": "XS",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-06-13",
+      "ts": 1781377200,
+      "url": "https://nocovernightclubs.com/events/the-chainsmokers-xs-nightclub-saturday-june-13-2026/"
+    },
+    {
+      "artist": "Diplo",
+      "venue": "Encore Beach Club",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-06-13",
+      "ts": 1781377200,
+      "url": "https://nocovernightclubs.com/events/diplo-encore-beach-club-saturday-june-13-2026/"
+    },
+    {
+      "artist": "Acraze",
+      "venue": "XS",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-06-14",
+      "ts": 1781463600,
+      "url": "https://nocovernightclubs.com/events/acraze-xs-nightclub-sunday-june-14-2026/"
+    },
+    {
+      "artist": "Valentino Khan",
+      "venue": "EBC At Night",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-06-17",
+      "ts": 1781722800,
+      "url": "https://nocovernightclubs.com/events/valentino-khan-ebc-at-night-wednesday-june-17-2026/"
+    },
+    {
+      "artist": "Ray Volpe",
+      "venue": "Zouk",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-06-19",
+      "ts": 1781895600,
+      "url": "https://nocovernightclubs.com/events/ray-volpe-zouk-nightclub-friday-june-19-2026/"
+    },
+    {
+      "artist": "Gryffin",
+      "venue": "XS",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-06-19",
+      "ts": 1781895600,
+      "url": "https://nocovernightclubs.com/events/gryffin-xs-nightclub-friday-june-19-2026/"
+    },
+    {
+      "artist": "Alex Wann",
+      "venue": "Encore Beach Club",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-06-19",
+      "ts": 1781895600,
+      "url": "https://nocovernightclubs.com/events/alex-wann-encore-beach-club-friday-june-19-2026/"
+    },
+    {
+      "artist": "Hugel",
+      "venue": "XS",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-06-20",
+      "ts": 1781982000,
+      "url": "https://nocovernightclubs.com/events/hugel-xs-nightclub-saturday-june-20-2026/"
+    },
+    {
+      "artist": "The Chainsmokers",
+      "venue": "Encore Beach Club",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-06-20",
+      "ts": 1781982000,
+      "url": "https://nocovernightclubs.com/events/the-chainsmokers-encore-beach-club-saturday-june-20-2026/"
+    },
+    {
+      "artist": "Charly Jordan",
+      "venue": "XS",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-06-21",
+      "ts": 1782068400,
+      "url": "https://nocovernightclubs.com/events/charly-jordan-xs-nightclub-sunday-june-21-2026/"
+    },
+    {
+      "artist": "Bunt",
+      "venue": "EBC At Night",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-06-24",
+      "ts": 1782327600,
+      "url": "https://nocovernightclubs.com/events/bunt-ebc-at-night-wednesday-june-24-2026/"
+    },
+    {
+      "artist": "Ian Asher",
+      "venue": "Zouk",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-06-26",
+      "ts": 1782500400,
+      "url": "https://nocovernightclubs.com/events/ian-asher-zouk-nightclub-friday-june-26-2026-2/"
+    },
+    {
+      "artist": "Loud Luxury",
+      "venue": "XS",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-06-26",
+      "ts": 1782500400,
+      "url": "https://nocovernightclubs.com/events/loud-luxury-xs-nightclub-friday-june-26-2026/"
+    },
+    {
+      "artist": "Vavo",
+      "venue": "Encore Beach Club",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-06-26",
+      "ts": 1782500400,
+      "url": "https://nocovernightclubs.com/events/vavo-encore-beach-club-friday-june-26-2026/"
+    },
+    {
+      "artist": "James Hype",
+      "venue": "Zouk",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-06-27",
+      "ts": 1782586800,
+      "url": "https://nocovernightclubs.com/events/james-hype-zouk-nightclub-saturday-june-27-2026/"
+    },
+    {
+      "artist": "Deadmau5",
+      "venue": "XS",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-06-27",
+      "ts": 1782586800,
+      "url": "https://nocovernightclubs.com/events/deadmau5-xs-nightclub-saturday-june-27-2026/"
+    },
+    {
+      "artist": "Marshmello",
+      "venue": "Encore Beach Club",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-06-27",
+      "ts": 1782586800,
+      "url": "https://nocovernightclubs.com/events/marshmello-encore-beach-club-saturday-june-27-2026/"
+    },
+    {
+      "artist": "Subtronics",
+      "venue": "EBC At Night",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-06-27",
+      "ts": 1782586800,
+      "url": "https://nocovernightclubs.com/events/subtronics-ebc-at-night-saturday-june-27-2026/"
+    },
+    {
+      "artist": "Nick Elliott",
+      "venue": "Encore Beach Club",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-06-28",
+      "ts": 1782673200,
+      "url": "https://nocovernightclubs.com/events/nick-elliott-encore-beach-club-sunday-june-28-2026/"
+    },
+    {
+      "artist": "Meduza",
+      "venue": "Zouk",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-07-03",
+      "ts": 1783105200,
+      "url": "https://nocovernightclubs.com/events/meduza-zouk-nightclub-friday-july-3-2026/"
+    },
+    {
+      "artist": "Its Murph",
+      "venue": "XS",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-07-03",
+      "ts": 1783105200,
+      "url": "https://nocovernightclubs.com/events/its-murph-xs-nightclub-friday-july-3-2026/"
+    },
+    {
+      "artist": "Don Toliver",
+      "venue": "Zouk",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-07-04",
+      "ts": 1783191600,
+      "url": "https://nocovernightclubs.com/events/don-toliver-zouk-nightclub-saturday-july-4-2026/"
+    },
+    {
+      "artist": "Mau P",
+      "venue": "XS",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-07-04",
+      "ts": 1783191600,
+      "url": "https://nocovernightclubs.com/events/mau-p-xs-nightclub-saturday-july-4-2026/"
+    },
+    {
+      "artist": "Loud Luxury",
+      "venue": "XS",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-07-05",
+      "ts": 1783278000,
+      "url": "https://nocovernightclubs.com/events/loud-luxury-xs-nightclub-sunday-july-5-2026/"
+    },
+    {
+      "artist": "2 Chainz",
+      "venue": "Zouk",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-07-09",
+      "ts": 1783623600,
+      "url": "https://nocovernightclubs.com/events/2-chainz-zouk-nightclub-thursday-july-9-2026/"
+    },
+    {
+      "artist": "Kaskade",
+      "venue": "XS",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-07-10",
+      "ts": 1783710000,
+      "url": "https://nocovernightclubs.com/events/kaskade-xs-nightclub-friday-july-10-2026/"
+    },
+    {
+      "artist": "Meek Mill",
+      "venue": "Zouk",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-07-11",
+      "ts": 1783796400,
+      "url": "https://nocovernightclubs.com/events/meek-mill-zouk-nightclub-saturday-july-11-2026/"
+    },
+    {
+      "artist": "Nelly",
+      "venue": "XS",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-07-11",
+      "ts": 1783796400,
+      "url": "https://nocovernightclubs.com/events/nelly-xs-nightclub-saturday-july-11-2026/"
+    },
+    {
+      "artist": "Diplo",
+      "venue": "XS",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-07-12",
+      "ts": 1783882800,
+      "url": "https://nocovernightclubs.com/events/diplo-xs-nightclub-sunday-july-12-2026/"
+    },
+    {
+      "artist": "Gryffin",
+      "venue": "XS",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-07-17",
+      "ts": 1784314800,
+      "url": "https://nocovernightclubs.com/events/gryffin-xs-nightclub-friday-july-17-2026/"
+    },
+    {
+      "artist": "Legado 7",
+      "venue": "Zouk",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-07-18",
+      "ts": 1784401200,
+      "url": "https://nocovernightclubs.com/events/legado-7-zouk-nightclub-saturday-july-18-2026/"
+    },
+    {
+      "artist": "Odesza",
+      "venue": "XS",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-07-18",
+      "ts": 1784401200,
+      "url": "https://nocovernightclubs.com/events/odesza-xs-nightclub-saturday-july-18-2026/"
+    },
+    {
+      "artist": "Bunt",
+      "venue": "XS",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-07-19",
+      "ts": 1784487600,
+      "url": "https://nocovernightclubs.com/events/bunt-xs-nightclub-sunday-july-19-2026/"
+    },
+    {
+      "artist": "Alison Wonderland",
+      "venue": "Zouk",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-07-24",
+      "ts": 1784919600,
+      "url": "https://nocovernightclubs.com/events/alison-wonderland-zouk-nightclub-friday-july-24-2026/"
+    },
+    {
+      "artist": "Rl Grime",
+      "venue": "Zouk",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-07-25",
+      "ts": 1785006000,
+      "url": "https://nocovernightclubs.com/events/rl-grime-zouk-nightclub-saturday-july-25-2026/"
+    },
+    {
+      "artist": "Duke Dumont",
+      "venue": "Zouk",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-07-31",
+      "ts": 1785524400,
+      "url": "https://nocovernightclubs.com/events/duke-dumont-zouk-nightclub-friday-july-31-2026/"
+    }
+  ]
+}

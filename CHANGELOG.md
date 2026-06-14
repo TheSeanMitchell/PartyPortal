@@ -1,5 +1,20 @@
 # Changelog
 
+## v2.4 — Live Vegas events in "On The Horizon" + clickable event cards, Summer Fashion
+
+### Vegas events feed (the big one)
+- **Every Strip club & dayclub event now flows into "On The Horizon"**, merged chronologically with the festival countdowns — one unified upcoming-events feed, soonest first. Real lineups scraped from No Cover Nightclubs (Zouk, XS, Omnia, Marquee, Tao, Hakkasan, LIV, Jewel, Encore Beach Club, Marquee Dayclub, Tao Beach, Liquid, Palm Tree, LIV Beach, AYU, Tailgate + EBC At Night).
+- **Each event is a clickable digital card** → opens a detail modal with the artist, venue, date/time, a **🎟️ Guest List & Tickets** button (straight to the event's No Cover page), a **▸ Watch** button (plays the artist on the wall if we have a matching channel, otherwise opens a YouTube set search), and an **About the artist** link.
+- **Live + self-updating.** `bot.py` now scrapes all 16 venue calendars on every run (3×/day) and writes `events.json`; the GitHub Action commits it. Parsing is done off the event URL slugs (artist + venue + date), so it survives any page redesign. Seeded with 37 real events (Jun 13 – Jul 31, 2026); past events auto-drop, new ones roll in.
+- The **Vegas Nightlife** venue directory from v2.3 stays as a quick "jump to a venue's calendar" strip.
+
+### Summer Fashion
+- The Fashion lane is now **Summer Fashion** and added 4 marquee swim/runway shows: **SI Swimsuit** Miami Swim Week 2024 + Swim Week 2025, **Victoria's Secret** The Show 2025 (4K), and the **VS Swim Special**. (Also fixed a duplicate Victoria's Secret tile.) Picked for being the most iconic, highest-production shows.
+
+### Under the hood
+- `events.json` carries a `city` field, so non-Vegas / nationwide concerts can be dropped in later (a Ticketmaster/Bandsintown key would let the bot pull those automatically).
+- 122 → **126 channels**.
+
 ## v2.3 — Psytrance + Pool Party channels, NUZU-style news, Vegas nightlife, mute toggle
 
 ### New channel types (106 → 122)
