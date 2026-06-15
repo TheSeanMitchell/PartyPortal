@@ -559,25 +559,175 @@ def _vg_parse(url):
             "date": "%04d-%02d-%02d" % (int(year), _VG_MONTHS[mon], int(day)),
             "ts": ts, "url": url}
 
+# concerts.vegas per-venue pages — every major Vegas concert/arena/stadium/theater
+# venue. Same slug-based approach as No Cover (date+artist live in the event URL);
+# the venue + type come from this config, so it survives layout changes. Adding a
+# venue is one line. Each source is fetched independently (try/except) so one
+# failing calendar never takes down the rest — that's the "overlay" redundancy.
+VG_CV_SOURCES = [
+    ("https://concerts.vegas/venue/msg-sphere-las-vegas/", "Sphere", "sphere"),
+    ("https://concerts.vegas/venue/t-mobile-arena-events/", "T-Mobile Arena", "arena"),
+    ("https://concerts.vegas/venue/allegiant-stadium-events/", "Allegiant Stadium", "stadium"),
+    ("https://concerts.vegas/venue/the-colosseum-at-caesars-palace-events/", "The Colosseum at Caesars Palace", "concert"),
+    ("https://concerts.vegas/venue/park-theater-at-park-mgm-events/", "Dolby Live at Park MGM", "concert"),
+    ("https://concerts.vegas/venue/dolby-live-at-park-mgm-tickets/", "Dolby Live at Park MGM", "concert"),
+    ("https://concerts.vegas/venue/mgm-grand-garden-arena-events/", "MGM Grand Garden Arena", "arena"),
+    ("https://concerts.vegas/venue/michelob-ultra-arena-events/", "Michelob Ultra Arena", "arena"),
+    ("https://concerts.vegas/venue/the-theater-at-virgin-hotels-las-vegas-events/", "The Theater at Virgin Hotels", "concert"),
+    ("https://concerts.vegas/venue/24-oxford-at-virgin-hotels-las-vegas/", "24 Oxford at Virgin Hotels", "concert"),
+    ("https://concerts.vegas/venue/resorts-world-theatre/", "Resorts World Theatre", "concert"),
+    ("https://concerts.vegas/venue/bakkt-theater-at-planet-hollywood/", "Bakkt Theater at Planet Hollywood", "concert"),
+    ("https://concerts.vegas/venue/house-of-blues-las-vegas/", "House of Blues", "concert"),
+    ("https://concerts.vegas/venue/encore-theater-at-wynn-las-vegas/", "Encore Theater at Wynn", "concert"),
+    ("https://concerts.vegas/venue/bleaulive-theater-at-fontainebleau/", "BleauLive Theater at Fontainebleau", "concert"),
+    ("https://concerts.vegas/venue/brooklyn-bowl-las-vegas/", "Brooklyn Bowl", "concert"),
+    ("https://concerts.vegas/venue/pearl-concert-theater-at-palms/", "Pearl Theater at Palms", "concert"),
+    ("https://concerts.vegas/sports/", "Las Vegas", "sports"),
+]
+# Optional universal JSON-LD sources (schema.org Event). Point at ANY venue's
+# official events page; the parser reads name/date/venue/tickets automatically.
+VG_JSONLD_SOURCES = [
+    # ("https://www.thesphere.com/calendar", "Sphere", "sphere"),
+]
+_CV_EVENT_RE = re.compile(r"https://concerts\.vegas/event/[a-z0-9\-]+/?")
+_CV_DATE_RE = re.compile(r"-(%s)-([a-z]+)-(\d{1,2})-(\d{4})" % "|".join(_VG_WD))
+_CV_CITIES = ["north-las-vegas", "las-vegas", "henderson", "paradise", "enterprise", "summerlin"]
+_CV_SPORTS = ("vs", "nhl", "nba", "nfl", "ufc", "wnba", "golden-knights", "raiders", "aces", "stanley-cup", "playoff")
+_CV_PER_SRC_MAX = 60   # bound per page so footer "more events" cross-links can't flood
+
+def _cv_parse(url, venue, vtype):
+    slug = url.rstrip("/").split("/event/")[-1]
+    m = _CV_DATE_RE.search(slug)
+    if not m:
+        return None
+    _wd, mon, day, year = m.groups()
+    if mon not in _VG_MONTHS:
+        return None
+    head = slug[:m.start()]            # "<artist>-<city>"
+    raw_head = head
+    city = "Las Vegas"
+    for c in _CV_CITIES:
+        if head.endswith("-" + c):
+            head = head[:-(len(c) + 1)]
+            city = " ".join(w.capitalize() for w in c.split("-"))
+            break
+    if not head:
+        return None
+    t = vtype
+    if any(k in raw_head for k in _CV_SPORTS):
+        t = "sports"
+    artist = " ".join(w.capitalize() for w in head.split("-"))
+    ts = _cal.timegm((int(year), _VG_MONTHS[mon], int(day), 20, 0, 0, 0, 0, 0))
+    return {"artist": artist, "venue": venue, "type": t, "city": city,
+            "date": "%04d-%02d-%02d" % (int(year), _VG_MONTHS[mon], int(day)),
+            "ts": ts, "url": url}
+
+import html as _htmlmod
+_LD_RE = re.compile(r'<script[^>]+application/ld\+json[^>]*>(.*?)</script>', re.S | re.I)
+
+def _jsonld_events(page, default_venue, default_type):
+    """Universal schema.org Event extractor — works on most venue/ticketing pages."""
+    out = []
+    for blk in _LD_RE.finditer(page):
+        txt = _htmlmod.unescape(blk.group(1).strip())
+        try:
+            data = json.loads(txt)
+        except Exception:
+            continue
+        if isinstance(data, dict):
+            items = data.get("@graph") if isinstance(data.get("@graph"), list) else [data]
+        elif isinstance(data, list):
+            items = data
+        else:
+            items = []
+        for it in items:
+            if not isinstance(it, dict):
+                continue
+            typ = it.get("@type", "")
+            if isinstance(typ, list):
+                typ = typ[0] if typ else ""
+            if "Event" not in str(typ):
+                continue
+            name, start = it.get("name"), it.get("startDate")
+            if not name or not start:
+                continue
+            try:
+                d = str(start)[:10]
+                y, mo, da = (int(x) for x in d.split("-"))
+                ts = _cal.timegm((y, mo, da, 20, 0, 0, 0, 0, 0))
+            except Exception:
+                continue
+            loc = it.get("location") or {}
+            if isinstance(loc, list):
+                loc = loc[0] if loc else {}
+            venue = (loc.get("name") if isinstance(loc, dict) else None) or default_venue
+            url = it.get("url") or ""
+            offers = it.get("offers") or {}
+            if isinstance(offers, list):
+                offers = offers[0] if offers else {}
+            if isinstance(offers, dict) and offers.get("url"):
+                url = offers["url"]
+            out.append({"artist": str(name)[:80], "venue": venue, "type": default_type,
+                        "city": "Las Vegas", "date": d, "ts": ts, "url": url or default_venue})
+    return out
+
+
 def scrape_vegas():
+    """Aggregate Vegas events from many calendars. Each source is isolated so a
+    single failure can't break the feed; results are merged + de-duped."""
     found = {}
-    headers = {"User-Agent": "Mozilla/5.0 (compatible; PartyPortalBot/2.3)"}
+    headers = {"User-Agent": "Mozilla/5.0 (compatible; PartyPortalBot/2.7)"}
+
+    def _fetch(u):
+        req = urllib.request.Request(u, headers=headers)
+        with urllib.request.urlopen(req, timeout=FETCH_TIMEOUT) as r:
+            return r.read().decode("utf-8", "ignore")
+
+    # 1) No Cover nightclubs + dayclubs (slug parser)
     for cal_url in VG_CALENDARS:
         try:
-            req = urllib.request.Request(cal_url, headers=headers)
-            with urllib.request.urlopen(req, timeout=FETCH_TIMEOUT) as r:
-                html = r.read().decode("utf-8", "ignore")
+            html = _fetch(cal_url)
         except Exception as e:
             print(f"  [VG WARN] {cal_url}: {e}")
             continue
         for m in _VG_EVENT_RE.finditer(html):
             ev = _vg_parse(m.group(0))
-            if not ev:
-                continue
-            found[(ev["artist"], ev["venue"], ev["date"])] = ev
-    cutoff = int(time.time()) - 36 * 3600
-    return sorted([e for e in found.values() if e["ts"] >= cutoff], key=lambda x: x["ts"])[:120]
+            if ev:
+                found[(ev["artist"], ev["venue"], ev["date"])] = ev
 
+    # 2) concerts.vegas per-venue pages (concerts, arenas, stadium, sphere, sports)
+    for url, venue, vtype in VG_CV_SOURCES:
+        try:
+            html = _fetch(url)
+        except Exception as e:
+            print(f"  [CV WARN] {url}: {e}")
+            continue
+        n = 0
+        seen_urls = set()
+        for m in _CV_EVENT_RE.finditer(html):
+            eu = m.group(0)
+            if eu in seen_urls:
+                continue
+            seen_urls.add(eu)
+            ev = _cv_parse(eu, venue, vtype)
+            if ev:
+                found[(ev["artist"], ev["venue"], ev["date"])] = ev
+                n += 1
+                if n >= _CV_PER_SRC_MAX:
+                    break
+
+    # 3) optional JSON-LD venue sources (universal / future-proof)
+    for url, venue, vtype in VG_JSONLD_SOURCES:
+        try:
+            html = _fetch(url)
+        except Exception as e:
+            print(f"  [LD WARN] {url}: {e}")
+            continue
+        for ev in _jsonld_events(html, venue, vtype):
+            found[(ev["artist"], ev["venue"], ev["date"])] = ev
+
+    cutoff = int(time.time()) - 36 * 3600
+    return sorted([e for e in found.values() if e["ts"] >= cutoff], key=lambda x: x["ts"])[:300]
 
 def load_prior():
     """Load the previous feed.json (if any) as raw tuples so yesterday's

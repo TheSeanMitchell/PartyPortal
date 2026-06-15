@@ -1,5 +1,20 @@
 # Changelog
 
+## v2.7 — Every major Vegas venue in "On The Horizon" + Party Mode parity
+
+### The whole city, not just the clubs
+"On The Horizon" now pulls in **every major Vegas concert venue** alongside the No Cover club/dayclub calendar — Sphere, T-Mobile Arena, Allegiant Stadium, the Colosseum at Caesars, Dolby Live & MGM Grand Garden, the theaters at Virgin Hotels, Resorts World, Planet Hollywood, House of Blues, Brooklyn Bowl, Fontainebleau and more — plus arena **sports** (Golden Knights, etc.). Concerts, residencies, stadium shows, and Sphere nights all render as **gold mega cards** with a 🎟️ **Get Tickets** button; routine club nights stay standard unless a headliner is playing. New event types: `sphere`, `arena`, `stadium`, `concert`, `theater`, `residency`, `sports` — each with its own badge.
+
+### Resilient, future-proof multi-source scraper
+The bot now aggregates from **many calendars at once**, each fetched independently (try/except), so if one source is down the others still fill the feed — the "overlay" redundancy you asked for. Two parsers power it:
+- **Per-venue slug parser** (`concerts.vegas`) — same battle-tested approach as No Cover: the artist + date live in the event URL, so it survives page redesigns. Adding a venue is one line.
+- **Universal JSON-LD parser** — reads schema.org `Event` data (name/date/venue/tickets) from *any* venue's official page. Drop a URL in `VG_JSONLD_SOURCES` and it just works — that's the future-proofing.
+
+All sources merge + de-dupe into `events.json`; seeded now with ~30 real venue events (Kenny Chesney & Backstreet Boys at Sphere, AC/DC & Foo Fighters at Allegiant, Kelly Clarkson at the Colosseum, Summer Walker at T-Mobile, and this week's lineup) on top of the live club calendar — 148 events in total.
+
+### Party Mode — full parity with the main page
+Audited and confirmed Party Mode shares the main page's loved volume system: same click-to-solo / click-again-to-mute toggle, same random-start playlists, same curated channel set. Added a glowing **🔊 Audio** badge on the active tile so it's obvious which wall has sound — matching the main grid's speaker indicator.
+
 ## v2.6 — Autonomous channel agent, EARLIER finally fixed, gold rails, US festivals
 
 ### Channel automation (the road to 999, hands-free)

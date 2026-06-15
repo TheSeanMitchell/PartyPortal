@@ -96,6 +96,8 @@
     .pp-wrlbl{position:absolute;top:6px;left:8px;background:rgba(0,0,0,.72);color:rgba(255,255,255,.88);font-family:'Barlow Condensed',sans-serif;font-size:.63em;font-weight:700;letter-spacing:.07em;text-transform:uppercase;padding:2px 9px;border-radius:10px;border-left:2px solid var(--pink);pointer-events:none;user-select:none;z-index:1}
     .pp-wrcatbadge{position:absolute;bottom:6px;right:8px;background:rgba(0,0,0,.65);color:rgba(180,120,255,.8);font-family:'Barlow Condensed',sans-serif;font-size:.58em;font-weight:700;letter-spacing:.1em;text-transform:uppercase;padding:1px 7px;border-radius:2px;pointer-events:none;user-select:none;z-index:1;transition:opacity .15s}
     .pp-wrcell:hover .pp-wrcatbadge,.pp-wrcell:hover .pp-wrlbl{opacity:0}
+    .pp-wraudio{position:absolute;top:6px;right:8px;display:none;align-items:center;gap:5px;background:rgba(0,229,255,.18);border:1px solid var(--cyan);color:#aef4ff;font-family:'Barlow Condensed',sans-serif;font-size:.6em;font-weight:700;letter-spacing:.09em;text-transform:uppercase;padding:2px 9px;border-radius:10px;z-index:2;box-shadow:0 0 10px rgba(0,229,255,.4);pointer-events:none}
+    .pp-wrcell.pp-active .pp-wraudio{display:flex}
     @media(max-width:900px){#pp-wrgrid{grid-template-columns:repeat(2,1fr);grid-template-rows:repeat(5,1fr)}#pp-wrsub{display:none}}
 
     /* NAV */
@@ -382,7 +384,7 @@
   <div class="pp-cd-hdr">
     <span class="pp-sec-dot" aria-hidden="true"></span>
     <span class="pp-cd-hdr-title">On The Horizon</span>
-    <span class="pp-cd-hdr-sub">Festivals &amp; live Vegas nights, soonest first &mdash; tap any card for tickets &amp; info</span>
+    <span class="pp-cd-hdr-sub">Festivals, Sphere &amp; arena concerts, residencies, sports &amp; Vegas club nights &mdash; soonest first, tap any card for tickets &amp; info</span>
   </div>
   <div class="pp-cd-row" id="pp-cd-row"></div>
 </section>
@@ -945,7 +947,8 @@ function shuffleCurrent(){ if(IS_NARROW()){ buildMobileQueue(); renderMobilePlay
       iframe.setAttribute('allow','autoplay; encrypted-media; fullscreen'); iframe.setAttribute('allowfullscreen',''); iframe.setAttribute('frameborder','0');
       var lbl=document.createElement('div'); lbl.className='pp-wrlbl'; lbl.textContent=feed.label;
       var cat=document.createElement('div'); cat.className='pp-wrcatbadge'; cat.textContent=feed.cat;
-      cell.appendChild(iframe); cell.appendChild(lbl); cell.appendChild(cat);
+      var aud=document.createElement('div'); aud.className='pp-wraudio'; aud.innerHTML='\uD83D\uDD0A Audio';
+      cell.appendChild(iframe); cell.appendChild(lbl); cell.appendChild(cat); cell.appendChild(aud);
       cell.addEventListener('click', function(){
         var already=cell.classList.contains('pp-active');
         grid.querySelectorAll('iframe').forEach(function(f){ ytCommand(f,'mute'); });
@@ -1015,6 +1018,7 @@ function renderCountdowns(){
   PP_VEGAS_EVENTS.forEach(function(ev){ if((ev.ts||0)*1000>_now-43200000) _items.push({k:'ev',ts:(ev.ts||0)*1000,ev:ev}); });
   PP_FESTIVALS.forEach(function(ft,i){ _items.push({k:'fest',ts:new Date(ft.start).getTime(),ft:ft,fi:i}); });
   _items.sort(function(a,b){ return a.ts-b.ts; });
+  if(_items.length>150) _items=_items.slice(0,150);
   _items.forEach(function(_it){
     if(_it.k==='ev'){ row.appendChild(buildEventCard(_it.ev)); return; }
     var ft=_it.ft, i=_it.fi;
@@ -1064,20 +1068,36 @@ function isMega(name){
   for(var i=0;i<PP_HEADLINERS.length;i++){ if(a.indexOf(PP_HEADLINERS[i])>=0) return true; }
   return false;
 }
+// Venue/event type metadata — drives badge label, colour, emoji and modal copy.
+var PP_BIG_TYPES={sphere:1,arena:1,stadium:1,concert:1,theater:1,residency:1,sports:1};
+function evMeta(t){
+  switch(t){
+    case 'pool':     return {cls:'pp-ev-pool',   lbl:'Pool',      emoji:'\uD83C\uDFD6\uFE0F', when:'Daytime pool party', acc:'var(--cyan)'};
+    case 'sphere':   return {cls:'pp-ev-sphere', lbl:'Sphere',    emoji:'\uD83D\uDD2E',       when:'Sphere \u00B7 immersive show', acc:'#b07cff'};
+    case 'arena':    return {cls:'pp-ev-arena',  lbl:'Arena',     emoji:'\uD83C\uDFDF\uFE0F', when:'Arena concert', acc:'#ffd45e'};
+    case 'stadium':  return {cls:'pp-ev-arena',  lbl:'Stadium',   emoji:'\uD83C\uDFC8',       when:'Stadium show', acc:'#ffd45e'};
+    case 'sports':   return {cls:'pp-ev-sports', lbl:'Sports',    emoji:'\uD83C\uDFD2',       when:'Live sports', acc:'#5fd9ff'};
+    case 'theater':  return {cls:'pp-ev-concert',lbl:'Theater',   emoji:'\uD83C\uDFA4',       when:'Live show', acc:'#ff7ab8'};
+    case 'residency':return {cls:'pp-ev-concert',lbl:'Residency', emoji:'\uD83C\uDFA4',       when:'Vegas residency', acc:'#ff7ab8'};
+    case 'concert':  return {cls:'pp-ev-concert',lbl:'Concert',   emoji:'\uD83C\uDFA4',       when:'Live concert', acc:'#ff7ab8'};
+    default:         return {cls:'pp-ev-club',   lbl:'Club',      emoji:'\uD83C\uDF03',       when:'Nightclub', acc:'var(--pink)'};
+  }
+}
+function isMegaEvent(ev){ return !!PP_BIG_TYPES[ev && ev.type] || isMega(ev && ev.artist); }
 function buildEventCard(ev){
-  var mega=isMega(ev.artist);
+  var m=evMeta(ev.type), big=!!PP_BIG_TYPES[ev.type], mega=isMegaEvent(ev);
   var card=document.createElement('div'); card.className='pp-cd-card pp-ev-card'+(mega?' pp-mega':'');
   var d=new Date((ev.ts||0)*1000);
   var mon=d.toLocaleDateString('en-US',{month:'short'}).toUpperCase();
   var day=d.getDate();
   var wd=d.toLocaleDateString('en-US',{weekday:'short'});
-  var tcls=mega?'pp-ev-mega':(ev.type==='pool'?'pp-ev-pool':'pp-ev-club');
-  var tlbl=mega?'Headliner':(ev.type==='pool'?'Pool':'Club');
+  var tcls=big?m.cls:(mega?'pp-ev-mega':m.cls);
+  var tlbl=big?m.lbl:(mega?'Headliner':m.lbl);
   card.innerHTML=(mega?'<span class="pp-mega-star">\u2605</span>':'')
     +'<div class="pp-ev-cardtop"><div class="pp-ev-cal"><span class="pp-ev-cal-m">'+mon+'</span><span class="pp-ev-cal-d">'+day+'</span></div>'
     +'<div class="pp-ev-cardmeta"><span class="pp-ev-badge '+tcls+'">'+tlbl+'</span><span class="pp-ev-wd">'+escHtml(wd)+'</span></div></div>'
     +'<div class="pp-ev-cardartist">'+escHtml(ev.artist||'TBA')+'</div>'
-    +'<div class="pp-ev-cardvenue">'+escHtml(ev.venue||'')+'</div>'
+    +'<div class="pp-ev-cardvenue">'+m.emoji+' '+escHtml(ev.venue||'')+'</div>'
     +'<div class="pp-cd-foot"><span class="pp-ev-cardcity">\uD83D\uDCCD '+escHtml(ev.city||'Las Vegas')+'</span><span class="pp-ev-more">Details \u2197</span></div>';
   card.style.cursor='pointer';
   card.addEventListener('click', function(){ openEventModal(ev); });
@@ -1103,13 +1123,15 @@ function openEventModal(ev){
   var ch=findChannelFor(ev.artist);
   var d=new Date((ev.ts||0)*1000);
   var dateStr=d.toLocaleDateString('en-US',{weekday:'long',month:'long',day:'numeric'});
-  var when=ev.type==='pool'?'Daytime pool party':'Nightclub';
-  var acc=ev.type==='pool'?'var(--cyan)':'var(--pink)';
+  var m=evMeta(ev.type), big=!!PP_BIG_TYPES[ev.type];
+  var when=m.when;
+  var acc=m.acc;
   var initial=(ev.artist||'?').replace(/[^A-Za-z0-9]/g,'').slice(0,2).toUpperCase()||'PP';
-  var yt='https://www.youtube.com/results?search_query='+encodeURIComponent((ev.artist||'')+' dj set live');
-  var info='https://www.google.com/search?q='+encodeURIComponent((ev.artist||'')+' DJ artist');
-  var tcls=ev.type==='pool'?'pp-ev-pool':'pp-ev-club';
-  var tlbl=ev.type==='pool'?'\uD83C\uDFD6\uFE0F Pool Party':'\uD83C\uDF03 Nightclub';
+  var ytq=big?((ev.artist||'')+' live'):((ev.artist||'')+' dj set live');
+  var yt='https://www.youtube.com/results?search_query='+encodeURIComponent(ytq);
+  var info='https://www.google.com/search?q='+encodeURIComponent((ev.artist||'')+(big?' tour':' DJ artist'));
+  var tcls=m.cls;
+  var tlbl=m.emoji+' '+m.lbl;
   var watch = ch
     ? '<button class="pp-ev-btn pp-ev-watch" data-q="'+escHtml(ev.artist)+'">\u25B8 Watch '+escHtml(ev.artist)+' on the wall</button>'
     : '<a class="pp-ev-btn pp-ev-watch" href="'+yt+'" target="_blank" rel="noopener">\u25B8 Watch a set on YouTube</a>';
@@ -1118,11 +1140,11 @@ function openEventModal(ev){
     +'<div><div class="pp-ev-artist">'+escHtml(ev.artist||'TBA')+'</div><div class="pp-ev-vn">'+escHtml(ev.venue||'')+' \u00B7 '+escHtml(ev.city||'Las Vegas')+'</div></div></div>'
     +'<div class="pp-ev-meta"><span class="pp-ev-badge '+tcls+'">'+tlbl+'</span><span class="pp-ev-date">'+escHtml(dateStr)+' \u00B7 '+when+'</span></div>'
     +'<div class="pp-ev-actions">'
-    +'<a class="pp-ev-btn pp-ev-tix" href="'+ev.url+'" target="_blank" rel="noopener">\uD83C\uDF9F\uFE0F Guest List &amp; Tickets</a>'
+    +'<a class="pp-ev-btn pp-ev-tix" href="'+ev.url+'" target="_blank" rel="noopener">\uD83C\uDF9F\uFE0F '+(big?'Get Tickets':'Guest List &amp; Tickets')+'</a>'
     +watch
     +'<a class="pp-ev-btn pp-ev-info" href="'+info+'" target="_blank" rel="noopener">\uD83D\uDD0E About the artist</a>'
     +'</div>'
-    +'<div class="pp-ev-note">Lineup &amp; date via No Cover Nightclubs \u2014 always confirm on the venue\u2019s official page before buying.</div>';
+    +'<div class="pp-ev-note">Date &amp; venue via No Cover Nightclubs &amp; Concerts.Vegas \u2014 always confirm on the venue\u2019s official page before buying.</div>';
   var wb=ov.querySelector('.pp-ev-watch[data-q]');
   if(wb){ wb.addEventListener('click', function(){ var q=wb.getAttribute('data-q'); closeEventModal();
     var s=document.getElementById('pp-search'); if(s) s.value=q; PP.search=q; PP.filterId='all';
@@ -1143,6 +1165,10 @@ function closeEventModal(){ var ov=document.getElementById('pp-ev-modal'); if(ov
    +".pp-ev-badge{font-family:'Space Mono',monospace;font-size:.5em;font-weight:700;text-transform:uppercase;letter-spacing:.06em;padding:2px 6px;border-radius:8px;white-space:nowrap}"
    +".pp-ev-club{color:#ff7ab8;background:rgba(214,25,112,.16);border:1px solid rgba(214,25,112,.4)}"
    +".pp-ev-pool{color:#5fd9ff;background:rgba(0,229,255,.12);border:1px solid rgba(0,229,255,.35)}"
+   +".pp-ev-sphere{color:#cda9ff;background:rgba(176,124,255,.16);border:1px solid rgba(176,124,255,.5)}"
+   +".pp-ev-arena{color:#ffd45e;background:rgba(255,200,70,.15);border:1px solid rgba(255,214,90,.55)}"
+   +".pp-ev-concert{color:#ff9ecb;background:rgba(214,25,112,.16);border:1px solid rgba(214,25,112,.5)}"
+   +".pp-ev-sports{color:#7fe3ff;background:rgba(0,160,255,.14);border:1px solid rgba(0,160,255,.45)}"
    +".pp-ev-cardartist{font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:1.14em;color:#fff;text-transform:uppercase;line-height:1.04;letter-spacing:.02em}"
    +".pp-ev-cardvenue{font-size:.74em;color:var(--purple-l);margin-top:3px}"
    +".pp-ev-cardcity{font-family:'Space Mono',monospace;font-size:.58em;color:var(--dim)}"

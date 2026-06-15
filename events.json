@@ -1,5 +1,6 @@
 {
-  "updated": 1781523857,
+  "updated": 1781496404,
+  "count": 148,
   "events": [
     {
       "artist": "Acraze",
@@ -83,6 +84,15 @@
       "url": "https://nocovernightclubs.com/events/special-guest-marquee-dayclub-monday-june-15-2026/"
     },
     {
+      "artist": "Amble",
+      "venue": "24 Oxford at Virgin Hotels",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-06-15",
+      "ts": 1781578800,
+      "url": "https://concerts.vegas/event/amble-las-vegas-monday-june-15-2026-800-pm/"
+    },
+    {
       "artist": "Luis Torres",
       "venue": "Omnia",
       "type": "club",
@@ -135,6 +145,15 @@
       "date": "2026-06-17",
       "ts": 1781722800,
       "url": "https://nocovernightclubs.com/events/special-guest-palm-tree-beach-club-wednesday-june-17-2026/"
+    },
+    {
+      "artist": "Mary J. Blige",
+      "venue": "Dolby Live at Park MGM",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-06-17",
+      "ts": 1781751600,
+      "url": "https://concerts.vegas/tickets/mary-j-blige/"
     },
     {
       "artist": "Special Guest",
@@ -198,6 +217,24 @@
       "date": "2026-06-18",
       "ts": 1781809200,
       "url": "https://nocovernightclubs.com/events/mikey-francis-palm-tree-beach-club-thursday-june-18-2026/"
+    },
+    {
+      "artist": "Our Lady Peace",
+      "venue": "House of Blues",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-06-18",
+      "ts": 1781838000,
+      "url": "https://concerts.vegas/event/our-lady-peace-las-vegas-thursday-june-18-2026-830-pm/"
+    },
+    {
+      "artist": "Mary J. Blige",
+      "venue": "Dolby Live at Park MGM",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-06-18",
+      "ts": 1781838000,
+      "url": "https://concerts.vegas/tickets/mary-j-blige/"
     },
     {
       "artist": "Ray Volpe",
@@ -326,6 +363,51 @@
       "url": "https://nocovernightclubs.com/events/sommer-ray-liv-beach-friday-june-19-2026/"
     },
     {
+      "artist": "Burning Spear",
+      "venue": "Brooklyn Bowl",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-06-19",
+      "ts": 1781924400,
+      "url": "https://concerts.vegas/event/burning-spear-las-vegas-friday-june-19-2026-700-pm/"
+    },
+    {
+      "artist": "Jeezy",
+      "venue": "Bakkt Theater at Planet Hollywood",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-06-19",
+      "ts": 1781924400,
+      "url": "https://concerts.vegas/event/jeezy-las-vegas-friday-june-19-2026-800-pm/"
+    },
+    {
+      "artist": "New Kids On The Block",
+      "venue": "Dolby Live at Park MGM",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-06-19",
+      "ts": 1781924400,
+      "url": "https://concerts.vegas/event/new-kids-on-the-block-las-vegas-friday-june-19-2026-800-pm/"
+    },
+    {
+      "artist": "Kenny Chesney",
+      "venue": "Sphere",
+      "type": "sphere",
+      "city": "Las Vegas",
+      "date": "2026-06-19",
+      "ts": 1781924400,
+      "url": "https://concerts.vegas/event/kenny-chesney-las-vegas-friday-june-19-2026-800-pm/"
+    },
+    {
+      "artist": "Jordan Davis",
+      "venue": "Sunset Amphitheatre",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-06-19",
+      "ts": 1781924400,
+      "url": "https://concerts.vegas/event/jordan-davis-henderson-friday-june-19-2026-800-pm/"
+    },
+    {
       "artist": "Hugel",
       "venue": "XS",
       "type": "club",
@@ -441,6 +523,60 @@
       "date": "2026-06-20",
       "ts": 1781982000,
       "url": "https://nocovernightclubs.com/events/ayu-afters-ayu-dayclub-saturday-june-20-2026/"
+    },
+    {
+      "artist": "Kenny Chesney",
+      "venue": "Sphere",
+      "type": "sphere",
+      "city": "Las Vegas",
+      "date": "2026-06-20",
+      "ts": 1782010800,
+      "url": "https://concerts.vegas/event/kenny-chesney-las-vegas-saturday-june-20-2026-800-pm/"
+    },
+    {
+      "artist": "New Kids On The Block",
+      "venue": "Dolby Live at Park MGM",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-06-20",
+      "ts": 1782010800,
+      "url": "https://concerts.vegas/event/new-kids-on-the-block-las-vegas-saturday-june-20-2026-800-pm/"
+    },
+    {
+      "artist": "Buckethead",
+      "venue": "24 Oxford at Virgin Hotels",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-06-20",
+      "ts": 1782010800,
+      "url": "https://concerts.vegas/event/buckethead-las-vegas-saturday-june-20-2026-800-pm/"
+    },
+    {
+      "artist": "Rebel Souljahz",
+      "venue": "The Theater at Virgin Hotels",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-06-20",
+      "ts": 1782010800,
+      "url": "https://concerts.vegas/event/rebel-souljahz-las-vegas-saturday-june-20-2026-800-pm/"
+    },
+    {
+      "artist": "Pablo Cruise & Pure Prairie League",
+      "venue": "Westgate International Theater",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-06-20",
+      "ts": 1782010800,
+      "url": "https://concerts.vegas/tickets/pablo-cruise/"
+    },
+    {
+      "artist": "Spazmatics: 80s Experience",
+      "venue": "South Point Showroom",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-06-20",
+      "ts": 1782010800,
+      "url": "https://concerts.vegas/event/spazmatics-80s-immersive-experience-las-vegas-saturday-june-20-2026-1030-pm/"
     },
     {
       "artist": "Charly Jordan",
@@ -776,6 +912,15 @@
       "url": "https://nocovernightclubs.com/events/linksa-liv-beach-friday-june-26-2026/"
     },
     {
+      "artist": "Summer Walker",
+      "venue": "T-Mobile Arena",
+      "type": "arena",
+      "city": "Las Vegas",
+      "date": "2026-06-26",
+      "ts": 1782529200,
+      "url": "https://concerts.vegas/tickets/summer-walker/"
+    },
+    {
       "artist": "James Hype",
       "venue": "Zouk",
       "type": "club",
@@ -1080,6 +1225,114 @@
       "date": "2026-07-02",
       "ts": 1783018800,
       "url": "https://nocovernightclubs.com/events/dj-shr3d-liquid-pool-thursday-july-2-2026/"
+    },
+    {
+      "artist": "Backstreet Boys",
+      "venue": "Sphere",
+      "type": "sphere",
+      "city": "Las Vegas",
+      "date": "2026-07-16",
+      "ts": 1784257200,
+      "url": "https://concerts.vegas/tickets/backstreet-boys/"
+    },
+    {
+      "artist": "Backstreet Boys",
+      "venue": "Sphere",
+      "type": "sphere",
+      "city": "Las Vegas",
+      "date": "2026-07-17",
+      "ts": 1784343600,
+      "url": "https://concerts.vegas/tickets/backstreet-boys/"
+    },
+    {
+      "artist": "Kelly Clarkson",
+      "venue": "The Colosseum at Caesars Palace",
+      "type": "residency",
+      "city": "Las Vegas",
+      "date": "2026-07-17",
+      "ts": 1784343600,
+      "url": "https://concerts.vegas/tickets/kelly-clarkson/"
+    },
+    {
+      "artist": "Backstreet Boys",
+      "venue": "Sphere",
+      "type": "sphere",
+      "city": "Las Vegas",
+      "date": "2026-07-18",
+      "ts": 1784430000,
+      "url": "https://concerts.vegas/tickets/backstreet-boys/"
+    },
+    {
+      "artist": "Kelly Clarkson",
+      "venue": "The Colosseum at Caesars Palace",
+      "type": "residency",
+      "city": "Las Vegas",
+      "date": "2026-07-24",
+      "ts": 1784948400,
+      "url": "https://concerts.vegas/tickets/kelly-clarkson/"
+    },
+    {
+      "artist": "Kelly Clarkson",
+      "venue": "The Colosseum at Caesars Palace",
+      "type": "residency",
+      "city": "Las Vegas",
+      "date": "2026-07-31",
+      "ts": 1785553200,
+      "url": "https://concerts.vegas/tickets/kelly-clarkson/"
+    },
+    {
+      "artist": "AC/DC",
+      "venue": "Allegiant Stadium",
+      "type": "stadium",
+      "city": "Las Vegas",
+      "date": "2026-08-01",
+      "ts": 1785639600,
+      "url": "https://concerts.vegas/tickets/ac-dc/"
+    },
+    {
+      "artist": "Backstreet Boys",
+      "venue": "Sphere",
+      "type": "sphere",
+      "city": "Las Vegas",
+      "date": "2026-08-21",
+      "ts": 1787367600,
+      "url": "https://concerts.vegas/tickets/backstreet-boys/"
+    },
+    {
+      "artist": "Backstreet Boys",
+      "venue": "Sphere",
+      "type": "sphere",
+      "city": "Las Vegas",
+      "date": "2026-08-22",
+      "ts": 1787454000,
+      "url": "https://concerts.vegas/tickets/backstreet-boys/"
+    },
+    {
+      "artist": "Foo Fighters",
+      "venue": "Allegiant Stadium",
+      "type": "stadium",
+      "city": "Las Vegas",
+      "date": "2026-09-26",
+      "ts": 1790478000,
+      "url": "https://concerts.vegas/tickets/foo-fighters/"
+    },
+    {
+      "artist": "Eagles",
+      "venue": "Sphere",
+      "type": "sphere",
+      "city": "Las Vegas",
+      "date": "2026-10-02",
+      "ts": 1790996400,
+      "url": "https://concerts.vegas/tickets/eagles/"
+    },
+    {
+      "artist": "Eagles",
+      "venue": "Sphere",
+      "type": "sphere",
+      "city": "Las Vegas",
+      "date": "2026-10-03",
+      "ts": 1791082800,
+      "url": "https://concerts.vegas/tickets/eagles/"
     }
   ]
 }
