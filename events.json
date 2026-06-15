@@ -1,5 +1,5 @@
 {
-  "updated": 1781542483,
+  "updated": 1781556274,
   "events": [
     {
       "artist": "Emo Nite",
@@ -2297,15 +2297,6 @@
       "url": "https://nocovernightclubs.com/events/angie-vee-tao-nightclub-friday-july-10-2026/"
     },
     {
-      "artist": "Kehlani",
-      "venue": "LIV",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-07-10",
-      "ts": 1783710000,
-      "url": "https://nocovernightclubs.com/events/kehlani-liv-nightclub-friday-july-10-2026/"
-    },
-    {
       "artist": "Dj Cla",
       "venue": "Jewel",
       "type": "club",
@@ -2700,6 +2691,15 @@
       "date": "2026-07-11",
       "ts": 1783800000,
       "url": "https://concerts.vegas/event/barry-manilow-las-vegas-saturday-july-11-2026-700-pm/"
+    },
+    {
+      "artist": "Jeezy",
+      "venue": "Bakkt Theater at Planet Hollywood",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-07-11",
+      "ts": 1783800000,
+      "url": "https://concerts.vegas/event/jeezy-las-vegas-saturday-july-11-2026-800-pm/"
     }
   ]
 }
