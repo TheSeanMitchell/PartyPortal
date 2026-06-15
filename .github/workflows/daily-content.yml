@@ -32,16 +32,21 @@ jobs:
       - name: Run Party Portal bot
         run: python bot.py
 
+      - name: Run channel curation agent
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: python curate.py
+
       - name: Check for changes
         id: changes
         run: |
-          git diff --quiet index.html feed.json events.json 2>/dev/null && echo "changed=false" >> $GITHUB_OUTPUT || echo "changed=true" >> $GITHUB_OUTPUT
+          git diff --quiet index.html feed.json events.json channels.json 2>/dev/null && echo "changed=false" >> $GITHUB_OUTPUT || echo "changed=true" >> $GITHUB_OUTPUT
 
       - name: Commit and push updated content
         if: steps.changes.outputs.changed == 'true'
         run: |
           git config user.name  "PartyPortal Bot"
           git config user.email "bot@partyportal.app"
-          git add index.html feed.json events.json
+          git add index.html feed.json events.json channels.json
           git commit -m "🎉 Culture feed refresh [$(date -u '+%Y-%m-%d %H:%M UTC')]"
           git push
