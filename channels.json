@@ -1,0 +1,1118 @@
+{
+  "updated": 1781492898,
+  "count": 130,
+  "channels": [
+    {
+      "id": "edc",
+      "cat": "FESTIVAL",
+      "maxIdx": 1,
+      "label": "⚡ Electric Daisy Carnival — Las Vegas",
+      "embed": "https://www.youtube.com/embed/VJrd9doSRwA",
+      "url": "https://lasvegas.electricdaisycarnival.com",
+      "origin": "seed"
+    },
+    {
+      "id": "coachella",
+      "cat": "FESTIVAL",
+      "maxIdx": 40,
+      "label": "🌴 Coachella — California",
+      "embed": "https://www.youtube.com/embed/videoseries?list=PLIjqRbAQP0WKzta60mC1aINWniI0OTk8Z",
+      "url": "https://www.coachella.com",
+      "origin": "seed"
+    },
+    {
+      "id": "ultra",
+      "cat": "FESTIVAL",
+      "maxIdx": 40,
+      "label": "🎧 Ultra Music Fest",
+      "embed": "https://www.youtube.com/embed/0psLTNmJM38?list=PLBg1SJiXSxfJ6lee3le9qRtIFLkdFwd8E",
+      "url": "https://ultramusicfestival.com",
+      "origin": "seed"
+    },
+    {
+      "id": "coachella-dj",
+      "cat": "FESTIVAL",
+      "maxIdx": 50,
+      "label": "🌹 Coachella DJ Sets",
+      "embed": "https://www.youtube.com/embed/videoseries?list=PLIjqRbAQP0WIkL5rzNwl19gVHMT0T93NH",
+      "url": "https://www.coachella.com",
+      "origin": "seed"
+    },
+    {
+      "id": "tomorrowland",
+      "cat": "FESTIVAL",
+      "maxIdx": 50,
+      "label": "🌍 Tomorrowland",
+      "embed": "https://www.youtube.com/embed/acExYGsV2SU?list=PLoSIOFPSXQoN-uoi-Bn6R4JA8C4beRJsU",
+      "url": "https://www.tomorrowland.com",
+      "origin": "seed"
+    },
+    {
+      "id": "tomorrowland-winter",
+      "cat": "FESTIVAL",
+      "maxIdx": 30,
+      "label": "❄️ Tomorrowland Winter",
+      "embed": "https://www.youtube.com/embed/gUrIVfzGg9U?list=PLoSIOFPSXQoOx5SBOrejTmvsC6wJhUvl1",
+      "url": "https://www.tomorrowland.com/en/winter",
+      "origin": "seed"
+    },
+    {
+      "id": "tomorrowland-brasil",
+      "cat": "FESTIVAL",
+      "maxIdx": 30,
+      "label": "🇧🇷 Tomorrowland Brasil",
+      "embed": "https://www.youtube.com/embed/hbXhiCyGYx0?list=PLoSIOFPSXQoMwpfuQrKNGXb30FW5cBYJP",
+      "url": "https://www.tomorrowland.com",
+      "origin": "seed"
+    },
+    {
+      "id": "glastonbury",
+      "cat": "FESTIVAL",
+      "maxIdx": 40,
+      "label": "🍾 Glastonbury Classics",
+      "embed": "https://www.youtube.com/embed/4VlAYrOK0RM?list=PLPEH9n2NIpqyLh_f3rTfnCH7F2v0k9MUV",
+      "url": "https://www.glastonburyfestivals.co.uk",
+      "origin": "seed"
+    },
+    {
+      "id": "creamfields",
+      "cat": "FESTIVAL",
+      "maxIdx": 30,
+      "label": "🎨 Creamfields",
+      "embed": "https://www.youtube.com/embed/mrAi6lvPoP0?list=PLThryQTnOzUZhmFS6hxUhlnD8Y7ftxR0u",
+      "url": "https://www.creamfields.com",
+      "origin": "seed"
+    },
+    {
+      "id": "lostlands",
+      "cat": "FESTIVAL",
+      "maxIdx": 30,
+      "label": "🌲 Lost Lands",
+      "embed": "https://www.youtube.com/embed/b29GV8RODIc?list=PLK2KdupVnODMzWyy7LLbKqfldBevub1OX",
+      "url": "https://www.lostlandsfestival.com",
+      "origin": "seed"
+    },
+    {
+      "id": "awakenings",
+      "cat": "FESTIVAL",
+      "maxIdx": 30,
+      "label": "🔊 Awakenings",
+      "embed": "https://www.youtube.com/embed/OWdgrl2W5W0?list=PLx2MVuP_pkQjkUwJVjZ1_NBv4hLXdU31v",
+      "url": "https://www.awakenings.com",
+      "origin": "seed"
+    },
+    {
+      "id": "lucidity",
+      "cat": "FESTIVAL",
+      "maxIdx": 20,
+      "label": "🌙 Lucidity",
+      "embed": "https://www.youtube.com/embed/o9ast9cAnLc?list=PLNE3b80YbdkmIGZM7vmVH6ltftUBEEVhq",
+      "origin": "seed"
+    },
+    {
+      "id": "daytrip",
+      "cat": "FESTIVAL",
+      "maxIdx": 30,
+      "label": "🎵 Day Trip",
+      "embed": "https://www.youtube.com/embed/videoseries?list=PLzrOS24IvDg2er-Tr4zM54y7tB6EWHV8m",
+      "origin": "seed"
+    },
+    {
+      "id": "ushuaia",
+      "cat": "CLUB",
+      "maxIdx": 40,
+      "label": "🏖️ Ushiaïa Ibiza",
+      "embed": "https://www.youtube.com/embed/Ci_T8FG-fVo?list=PLBnY7C_EK6mobzx3NxO0QCtwzTU1dwfrP",
+      "url": "https://www.theushuaiaexperience.com",
+      "origin": "seed"
+    },
+    {
+      "id": "boilerroom-sheffield",
+      "cat": "CLUB",
+      "maxIdx": 50,
+      "label": "🎙️ Boiler Room — Sheffield",
+      "embed": "https://www.youtube.com/embed/KmRqOaS_6FI?list=PLx3QyNMosJdyX8cHLHhynbH50sHiN9Wpa",
+      "origin": "seed"
+    },
+    {
+      "id": "boilerroom-trending",
+      "cat": "CLUB",
+      "maxIdx": 50,
+      "label": "🎙️ Boiler Room Trending",
+      "embed": "https://www.youtube.com/embed/videoseries?list=PLx3QyNMosJdzB-NH7ZdQf_FrOt2Uu2D9T",
+      "origin": "seed"
+    },
+    {
+      "id": "boilerroom-fresh",
+      "cat": "CLUB",
+      "maxIdx": 30,
+      "label": "🎙️ Boiler Room Fresh",
+      "embed": "https://www.youtube.com/embed/videoseries?list=PLx3QyNMosJdzDzBt2XYB-pKrDlJ5Ph7aY",
+      "origin": "seed"
+    },
+    {
+      "id": "prettylights",
+      "cat": "ARTIST",
+      "maxIdx": 1,
+      "label": "💡 Pretty Lights Live",
+      "embed": "https://www.youtube.com/embed/QSw61raIxyM",
+      "origin": "seed"
+    },
+    {
+      "id": "astrix",
+      "cat": "ARTIST",
+      "maxIdx": 1,
+      "label": "🔥 Astrix Live",
+      "embed": "https://www.youtube.com/embed/1GFb-6UHFuE",
+      "origin": "seed"
+    },
+    {
+      "id": "classmatic",
+      "cat": "ARTIST",
+      "maxIdx": 30,
+      "label": "🎼 Classmatic Live",
+      "embed": "https://www.youtube.com/embed/E4r0p5xeWXE?list=PLu_uwpMLoV0meDFttcusIUy0vze9hkyME",
+      "origin": "seed"
+    },
+    {
+      "id": "unity",
+      "cat": "ARTIST",
+      "maxIdx": 20,
+      "label": "🎶 Unity Live",
+      "embed": "https://www.youtube.com/embed/op29bgeM3zI?list=PLvmn9Ssy7H3zRe6XrCYPoUykVso4wmXbg",
+      "origin": "seed"
+    },
+    {
+      "id": "pinkfloyd",
+      "cat": "ARTIST",
+      "maxIdx": 1,
+      "label": "🟣 Pink Floyd Live 1994",
+      "embed": "https://www.youtube.com/embed/MLie88A7SZU",
+      "origin": "seed"
+    },
+    {
+      "id": "muse",
+      "cat": "ARTIST",
+      "maxIdx": 1,
+      "label": "🔵 Muse Live",
+      "embed": "https://www.youtube.com/embed/PQdBUEXxCoo",
+      "origin": "seed"
+    },
+    {
+      "id": "linkinpark",
+      "cat": "ARTIST",
+      "maxIdx": 1,
+      "label": "🟤 Linkin Park Live",
+      "embed": "https://www.youtube.com/embed/7Mxg4VkkRRI",
+      "origin": "seed"
+    },
+    {
+      "id": "incubus",
+      "cat": "ARTIST",
+      "maxIdx": 30,
+      "label": "🟠 Incubus Live",
+      "embed": "https://www.youtube.com/embed/JS-Dpwq1j9I?list=PLNWsysQ4t2gIJm2NEb6TwmJuCYnMBSmLY",
+      "origin": "seed"
+    },
+    {
+      "id": "michaeljackson",
+      "cat": "ARTIST",
+      "maxIdx": 30,
+      "label": "🥊 Michael Jackson",
+      "embed": "https://www.youtube.com/embed/SDDC-QdOR14?list=RDSDDC-QdOR14",
+      "origin": "seed"
+    },
+    {
+      "id": "edm1",
+      "cat": "RADIO",
+      "maxIdx": 80,
+      "label": "🎛️ EDM Radio — Mainstage",
+      "embed": "https://www.youtube.com/embed/amJ8uKUU_fE?list=PLfE0pS819ps4F5UZ8fw5HU0xKZZs_AHkY",
+      "origin": "seed"
+    },
+    {
+      "id": "edm2",
+      "cat": "RADIO",
+      "maxIdx": 60,
+      "label": "🎛️ EDM Radio — Underground",
+      "embed": "https://www.youtube.com/embed/kG0SVvz9e-g?list=PL0vg5Od16vrb8tMmoLZa6Q1eh41iQlY23",
+      "origin": "seed"
+    },
+    {
+      "id": "concerts-4k",
+      "cat": "CONCERT",
+      "maxIdx": 40,
+      "label": "🎬 4K UHD Live Concerts",
+      "embed": "https://www.youtube.com/embed/ldWvm-ZqKaY?list=PLL_UCi3tgYwQddQqOlMsX6ZeubyQtGtcc",
+      "origin": "seed"
+    },
+    {
+      "id": "concerts-live",
+      "cat": "CONCERT",
+      "maxIdx": 50,
+      "label": "🎬 Live Concert Channel",
+      "embed": "https://www.youtube.com/embed/sVNLMOgTKik?list=PL9760EA8B9633FCC0",
+      "origin": "seed"
+    },
+    {
+      "id": "rock-live1",
+      "cat": "ROCK",
+      "maxIdx": 50,
+      "label": "🎸 Rock N’ Roll — Live",
+      "embed": "https://www.youtube.com/embed/N0dbGGvsjf8?list=PLr_3_vOUiFjDDLaRNKmAnqbc-uzgRdfNu",
+      "origin": "seed"
+    },
+    {
+      "id": "rock-live2",
+      "cat": "ROCK",
+      "maxIdx": 50,
+      "label": "🎸 Rock N’ Roll — Encore",
+      "embed": "https://www.youtube.com/embed/Z3OId9eT0lk?list=PL2N_sVGOb3clqyWSLspkp8BAv4FBfBaxH",
+      "origin": "seed"
+    },
+    {
+      "id": "retro-rock1",
+      "cat": "ROCK",
+      "maxIdx": 60,
+      "label": "🎸 Retro Rock — Classics",
+      "embed": "https://www.youtube.com/embed/aWmkuH1k7uA?list=PLplXQ2cg9B_o1X-Knd5wgbAi-YDTSbmy-",
+      "origin": "seed"
+    },
+    {
+      "id": "retro-rock2",
+      "cat": "ROCK",
+      "maxIdx": 50,
+      "label": "🎸 Retro Rock — Deep Cuts",
+      "embed": "https://www.youtube.com/embed/PEWP9nbqG9Q?list=PLTqks9TihZsCRdWT12_r7lKfxLFE4KdjJ",
+      "origin": "seed"
+    },
+    {
+      "id": "mtv-99",
+      "cat": "RETRO",
+      "maxIdx": 1,
+      "label": "📺 MTV Spring Break 1999",
+      "embed": "https://www.youtube.com/embed/YPS4ROQXwdU",
+      "origin": "seed"
+    },
+    {
+      "id": "mtv-2000",
+      "cat": "RETRO",
+      "maxIdx": 1,
+      "label": "📺 MTV Spring Break 2000 — Lit (Cancún)",
+      "embed": "https://www.youtube.com/embed/mCQGUeAZTj4",
+      "origin": "seed"
+    },
+    {
+      "id": "mtv-performances",
+      "cat": "RETRO",
+      "maxIdx": 30,
+      "label": "📺 MTV Spring Break Performances",
+      "embed": "https://www.youtube.com/embed/8gcJCN3ibzI?list=PL7q6J5rVHCG54FeMWL82FUw1e-OG4rFHn",
+      "origin": "seed"
+    },
+    {
+      "id": "mtv-1990",
+      "cat": "RETRO",
+      "maxIdx": 1,
+      "label": "📺 MTV Spring Break 1990",
+      "embed": "https://www.youtube.com/embed/mOpuN38KV24",
+      "origin": "seed"
+    },
+    {
+      "id": "mtv-1996",
+      "cat": "RETRO",
+      "maxIdx": 1,
+      "label": "📺 MTV Spring Break 1996",
+      "embed": "https://www.youtube.com/embed/nG_4BnQg9SM",
+      "origin": "seed"
+    },
+    {
+      "id": "mtv-springbreak",
+      "cat": "RETRO",
+      "maxIdx": 40,
+      "label": "📺 MTV Spring Break",
+      "embed": "https://www.youtube.com/embed/videoseries?list=PLYIZQCa2qFD1NtTuxQvWWlcr8cPJTiAoZ",
+      "origin": "seed"
+    },
+    {
+      "id": "mtv-grind1",
+      "cat": "RETRO",
+      "maxIdx": 30,
+      "label": "📺 MTV The Grind",
+      "embed": "https://www.youtube.com/embed/videoseries?list=PLDuXmMxquAlDYpaVx9b5vUXpU-JWokO41",
+      "origin": "seed"
+    },
+    {
+      "id": "mtv-grind2",
+      "cat": "RETRO",
+      "maxIdx": 20,
+      "label": "📺 MTV The Grind — Vol. II",
+      "embed": "https://www.youtube.com/embed/videoseries?list=PLsYm-8dIbFRvOZhySm8rbD9J2lOHYbp-5",
+      "origin": "seed"
+    },
+    {
+      "id": "retro-mtv",
+      "cat": "RETRO",
+      "maxIdx": 60,
+      "label": "📺 Retro MTV",
+      "embed": "https://www.youtube.com/embed/8N3NC6gx-wg?list=PLW2jIdqxf7EncdalfB3BAAno6a2kwPWrO",
+      "origin": "seed"
+    },
+    {
+      "id": "si-swim-miami24",
+      "cat": "FASHION",
+      "maxIdx": 1,
+      "label": "👙 SI Swimsuit — Miami Swim Week 2024",
+      "embed": "https://www.youtube.com/embed/ASHR85Ee-qM",
+      "url": "https://swimsuit.si.com",
+      "origin": "seed"
+    },
+    {
+      "id": "si-swim-week25",
+      "cat": "FASHION",
+      "maxIdx": 1,
+      "label": "👙 SI Swimsuit — Swim Week 2025",
+      "embed": "https://www.youtube.com/embed/GZW1ejFYadQ",
+      "url": "https://swimsuit.si.com",
+      "origin": "seed"
+    },
+    {
+      "id": "vs-show25",
+      "cat": "FASHION",
+      "maxIdx": 1,
+      "label": "👙 Victoria's Secret — The Show 2025 (4K)",
+      "embed": "https://www.youtube.com/embed/zapkWrnILwo",
+      "url": "https://www.victoriassecret.com",
+      "origin": "seed"
+    },
+    {
+      "id": "vs-swim-volley",
+      "cat": "FASHION",
+      "maxIdx": 1,
+      "label": "👙 Victoria's Secret — Swim Special: Volleyball Angels",
+      "embed": "https://www.youtube.com/embed/3-CLo1aaHvw",
+      "url": "https://www.victoriassecret.com",
+      "origin": "seed"
+    },
+    {
+      "id": "bourbon",
+      "cat": "LIVE CAM",
+      "maxIdx": 1,
+      "label": "🎷 Bourbon Street — New Orleans, LA",
+      "embed": "https://www.youtube.com/embed/Ksrleaxxxhw",
+      "origin": "seed"
+    },
+    {
+      "id": "bellagio",
+      "cat": "LIVE CAM",
+      "maxIdx": 1,
+      "label": "✨ The Bellagio — Las Vegas, NV",
+      "embed": "https://www.youtube.com/embed/KJuGU7v5oYw",
+      "origin": "seed"
+    },
+    {
+      "id": "dublin",
+      "cat": "LIVE CAM",
+      "maxIdx": 1,
+      "label": "🍺 Dublin, Ireland",
+      "embed": "https://www.youtube.com/embed/3nyPER2kzqk",
+      "origin": "seed"
+    },
+    {
+      "id": "timessquare",
+      "cat": "LIVE CAM",
+      "maxIdx": 1,
+      "label": "🗽 Times Square — New York City, NY",
+      "embed": "https://www.youtube.com/embed/z-jYdOIKcTQ",
+      "origin": "seed"
+    },
+    {
+      "id": "hogsbreath",
+      "cat": "LIVE CAM",
+      "maxIdx": 1,
+      "label": "🌅 Hogs Breath — Key West, FL",
+      "embed": "https://www.youtube.com/embed/S605ycm0Vlk",
+      "origin": "seed"
+    },
+    {
+      "id": "cercle-aboveandbeyond",
+      "cat": "CERCLE",
+      "maxIdx": 1,
+      "label": "🏔️ Above & Beyond — Guatapé, Colombia",
+      "embed": "https://www.youtube.com/embed/MEzU1HvBo6Y",
+      "url": "https://www.cercle.io",
+      "origin": "seed"
+    },
+    {
+      "id": "cercle-artbat",
+      "cat": "CERCLE",
+      "maxIdx": 1,
+      "label": "🏛️ ARTBAT — Cercle Odyssey, Paris",
+      "embed": "https://www.youtube.com/embed/4hnJUB_g290",
+      "url": "https://www.cercle.io",
+      "origin": "seed"
+    },
+    {
+      "id": "cercle-monolink",
+      "cat": "CERCLE",
+      "maxIdx": 1,
+      "label": "🎤 Monolink — Cercle Odyssey, Paris",
+      "embed": "https://www.youtube.com/embed/nxuB96ppBLY",
+      "url": "https://www.cercle.io",
+      "origin": "seed"
+    },
+    {
+      "id": "cercle-argy",
+      "cat": "CERCLE",
+      "maxIdx": 1,
+      "label": "❄️ Argy — Jungfraujoch, Switzerland",
+      "embed": "https://www.youtube.com/embed/sL16rh73r-M",
+      "url": "https://www.cercle.io",
+      "origin": "seed"
+    },
+    {
+      "id": "cercle-blackcoffee",
+      "cat": "CERCLE",
+      "maxIdx": 1,
+      "label": "☕ Black Coffee — Salle Wagram, Paris",
+      "embed": "https://www.youtube.com/embed/SGqg_ZzThDU",
+      "url": "https://www.cercle.io",
+      "origin": "seed"
+    },
+    {
+      "id": "cercle-fkj",
+      "cat": "CERCLE",
+      "maxIdx": 1,
+      "label": "🏜️ FKJ — Salar de Uyuni, Bolivia",
+      "embed": "https://www.youtube.com/embed/hENgrbIMiy4",
+      "url": "https://www.cercle.io",
+      "origin": "seed"
+    },
+    {
+      "id": "cercle-disclosure",
+      "cat": "CERCLE",
+      "maxIdx": 1,
+      "label": "✈️ Disclosure b2b Mochakk — Cercle Festival",
+      "embed": "https://www.youtube.com/embed/X6ko4cklXjs",
+      "url": "https://www.cercle.io",
+      "origin": "seed"
+    },
+    {
+      "id": "melodic-afterlife-budapest",
+      "cat": "MELODIC",
+      "maxIdx": 1,
+      "label": "🌌 Afterlife Budapest — Drone 4K",
+      "embed": "https://www.youtube.com/embed/6V94G-E5WdY",
+      "origin": "seed"
+    },
+    {
+      "id": "melodic-best-techno",
+      "cat": "MELODIC",
+      "maxIdx": 1,
+      "label": "🌌 Afterlife — Best of Techno 2026",
+      "embed": "https://www.youtube.com/embed/2XmTkFIzu5g",
+      "origin": "seed"
+    },
+    {
+      "id": "melodic-anyma-friends",
+      "cat": "MELODIC",
+      "maxIdx": 1,
+      "label": "🌌 Anyma & Friends — Afterlife 2026",
+      "embed": "https://www.youtube.com/embed/T963eE4O4-Y",
+      "origin": "seed"
+    },
+    {
+      "id": "melodic-taleofus",
+      "cat": "MELODIC",
+      "maxIdx": 1,
+      "label": "🌌 Melodic Techno — Tale of Us Mix",
+      "embed": "https://www.youtube.com/embed/9GreWp9VdIM",
+      "origin": "seed"
+    },
+    {
+      "id": "melodic-best-anyma",
+      "cat": "MELODIC",
+      "maxIdx": 1,
+      "label": "🌌 Best of Anyma 2025",
+      "embed": "https://www.youtube.com/embed/fhyU-M_W4i8",
+      "origin": "seed"
+    },
+    {
+      "id": "melodic-anyma-ade",
+      "cat": "MELODIC",
+      "maxIdx": 1,
+      "label": "🌌 Anyma — live at ADE 2024",
+      "embed": "https://www.youtube.com/embed/ic0QCu9WLxs",
+      "origin": "seed"
+    },
+    {
+      "id": "melodic-djset2",
+      "cat": "MELODIC",
+      "maxIdx": 1,
+      "label": "🌌 Afterlife — DJ Set II",
+      "embed": "https://www.youtube.com/embed/wg_CIQut4Lo",
+      "origin": "seed"
+    },
+    {
+      "id": "rave-future-mainstage",
+      "cat": "RAVE",
+      "maxIdx": 1,
+      "label": "⚡ Future Rave — Mainstage Mix",
+      "embed": "https://www.youtube.com/embed/M9fCxltDthA",
+      "origin": "seed"
+    },
+    {
+      "id": "rave-future-playlist",
+      "cat": "RAVE",
+      "maxIdx": 30,
+      "label": "⚡ Future Rave 2026 — Nonstop",
+      "embed": "https://www.youtube.com/embed/videoseries?list=PLa1E0oX0lRB9QrXtuQWnrBzbuCemG_aJu",
+      "origin": "seed"
+    },
+    {
+      "id": "rave-hardtrance",
+      "cat": "RAVE",
+      "maxIdx": 1,
+      "label": "⚡ Hard Trance & Techno — Rave Set",
+      "embed": "https://www.youtube.com/embed/v7xC3x_Gr74",
+      "origin": "seed"
+    },
+    {
+      "id": "rave-prog-house",
+      "cat": "RAVE",
+      "maxIdx": 1,
+      "label": "⚡ Progressive House — Euphoric Mix",
+      "embed": "https://www.youtube.com/embed/XJiL7mQb8CM",
+      "origin": "seed"
+    },
+    {
+      "id": "rave-trance-classics",
+      "cat": "RAVE",
+      "maxIdx": 1,
+      "label": "⚡ Trance Classics — 90s Anthems",
+      "embed": "https://www.youtube.com/embed/fS_MwN2uhog",
+      "origin": "seed"
+    },
+    {
+      "id": "rave-bigroom",
+      "cat": "RAVE",
+      "maxIdx": 1,
+      "label": "⚡ Big Room — Festival Mix",
+      "embed": "https://www.youtube.com/embed/mCsyKrcR25k",
+      "origin": "seed"
+    },
+    {
+      "id": "rave-hardrave",
+      "cat": "RAVE",
+      "maxIdx": 1,
+      "label": "⚡ Hard Rave Techno — Visualizer",
+      "embed": "https://www.youtube.com/embed/iOBv88KUJwc",
+      "origin": "seed"
+    },
+    {
+      "id": "cercle-bohmer-cappadocia",
+      "cat": "CERCLE",
+      "maxIdx": 1,
+      "label": "🎈 Ben Böhmer — Cappadocia (balloon)",
+      "embed": "https://www.youtube.com/embed/RvRhUHTV_8k",
+      "url": "https://www.cercle.io",
+      "origin": "seed"
+    },
+    {
+      "id": "cercle-brejcha-nimes",
+      "cat": "CERCLE",
+      "maxIdx": 1,
+      "label": "🏟️ Boris Brejcha — Arènes de Nîmes",
+      "embed": "https://www.youtube.com/embed/1MobY_vR7-g",
+      "url": "https://www.cercle.io",
+      "origin": "seed"
+    },
+    {
+      "id": "cercle-brejcha-palais",
+      "cat": "CERCLE",
+      "maxIdx": 1,
+      "label": "🏛️ Boris Brejcha — Grand Palais, Paris",
+      "embed": "https://www.youtube.com/embed/vqz8c4ZP3Wg",
+      "url": "https://www.cercle.io",
+      "origin": "seed"
+    },
+    {
+      "id": "cercle-brejcha-fontainebleau",
+      "cat": "CERCLE",
+      "maxIdx": 1,
+      "label": "🏰 Boris Brejcha — Fontainebleau",
+      "embed": "https://www.youtube.com/embed/4Rc-NGWEHdU",
+      "url": "https://www.cercle.io",
+      "origin": "seed"
+    },
+    {
+      "id": "cercle-leger-pyramids",
+      "cat": "CERCLE",
+      "maxIdx": 1,
+      "label": "🔺 Sébastien Léger — Pyramids of Giza",
+      "embed": "https://www.youtube.com/embed/DiiKdG4lOug",
+      "url": "https://www.cercle.io",
+      "origin": "seed"
+    },
+    {
+      "id": "cercle-taleofus-pizgloria",
+      "cat": "CERCLE",
+      "maxIdx": 1,
+      "label": "⛰️ Tale Of Us — Piz Gloria, Alps",
+      "embed": "https://www.youtube.com/embed/VMI1p3Au6ik",
+      "url": "https://www.cercle.io",
+      "origin": "seed"
+    },
+    {
+      "id": "cercle-bodzin-pizgloria",
+      "cat": "CERCLE",
+      "maxIdx": 1,
+      "label": "❄️ Stephan Bodzin — Piz Gloria, Alps",
+      "embed": "https://www.youtube.com/embed/xF_QkfZI1mM",
+      "url": "https://www.cercle.io",
+      "origin": "seed"
+    },
+    {
+      "id": "cercle-blomqvist-tossa",
+      "cat": "CERCLE",
+      "maxIdx": 1,
+      "label": "🌊 Jan Blomqvist — Tossa de Mar",
+      "embed": "https://www.youtube.com/embed/w1ElkNNsfm8",
+      "url": "https://www.cercle.io",
+      "origin": "seed"
+    },
+    {
+      "id": "cercle-fritz-chantilly",
+      "cat": "CERCLE",
+      "maxIdx": 1,
+      "label": "🌳 Fritz Kalkbrenner — Chantilly",
+      "embed": "https://www.youtube.com/embed/IaplaO9oU5k",
+      "url": "https://www.cercle.io",
+      "origin": "seed"
+    },
+    {
+      "id": "cercle-paul-la",
+      "cat": "CERCLE",
+      "maxIdx": 1,
+      "label": "🌌 Paul Kalkbrenner — Cercle Odyssey LA",
+      "embed": "https://www.youtube.com/embed/QzGFFvbwpy8",
+      "url": "https://www.cercle.io",
+      "origin": "seed"
+    },
+    {
+      "id": "cercle-nina-eiffel",
+      "cat": "CERCLE",
+      "maxIdx": 1,
+      "label": "🗼 Nina Kraviz — Eiffel Tower, Paris",
+      "embed": "https://www.youtube.com/embed/oFvqo1dil7M",
+      "url": "https://www.cercle.io",
+      "origin": "seed"
+    },
+    {
+      "id": "cercle-maceo-hudson",
+      "cat": "CERCLE",
+      "maxIdx": 1,
+      "label": "🗽 Maceo Plex — Hudson River, NYC",
+      "embed": "https://www.youtube.com/embed/8x13vB2yK30",
+      "url": "https://www.cercle.io",
+      "origin": "seed"
+    },
+    {
+      "id": "cercle-amelie-atomium",
+      "cat": "CERCLE",
+      "maxIdx": 1,
+      "label": "⚛️ Amelie Lens — Atomium, Brussels",
+      "embed": "https://www.youtube.com/embed/1BPiqQaO0zI",
+      "url": "https://www.cercle.io",
+      "origin": "seed"
+    },
+    {
+      "id": "anjuna-bohmer-prague",
+      "cat": "ANJUNA",
+      "maxIdx": 1,
+      "label": "🌅 Ben Böhmer — Anjunadeep O.A. Prague 4K",
+      "embed": "https://www.youtube.com/embed/b9kThoLdDc8",
+      "url": "https://anjunadeep.com",
+      "origin": "seed"
+    },
+    {
+      "id": "anjuna-bohmer-london",
+      "cat": "ANJUNA",
+      "maxIdx": 1,
+      "label": "🌅 Ben Böhmer — Anjunadeep O.A. London 4K",
+      "embed": "https://www.youtube.com/embed/eN0dz0EV8bE",
+      "url": "https://anjunadeep.com",
+      "origin": "seed"
+    },
+    {
+      "id": "anjuna-bohmer-roundhouse",
+      "cat": "ANJUNA",
+      "maxIdx": 1,
+      "label": "🌅 Ben Böhmer — Roundhouse London 4K",
+      "embed": "https://www.youtube.com/embed/guOFgrp7JoI",
+      "url": "https://anjunadeep.com",
+      "origin": "seed"
+    },
+    {
+      "id": "anjuna-deep16",
+      "cat": "ANJUNA",
+      "maxIdx": 1,
+      "label": "🌅 Anjunadeep 16 — Vietnam",
+      "embed": "https://www.youtube.com/embed/a47T2qylqWU",
+      "url": "https://anjunadeep.com",
+      "origin": "seed"
+    },
+    {
+      "id": "anjuna-deep15",
+      "cat": "ANJUNA",
+      "maxIdx": 1,
+      "label": "🌅 Anjunadeep 15 — Iceland",
+      "embed": "https://www.youtube.com/embed/byGPEiHbsnc",
+      "url": "https://anjunadeep.com",
+      "origin": "seed"
+    },
+    {
+      "id": "anjuna-jw-hk",
+      "cat": "ANJUNA",
+      "maxIdx": 1,
+      "label": "🌅 Jody Wisternoff — O.A. Hong Kong 4K",
+      "embed": "https://www.youtube.com/embed/wjPerMAIi1E",
+      "url": "https://anjunadeep.com",
+      "origin": "seed"
+    },
+    {
+      "id": "anjuna-jw-london",
+      "cat": "ANJUNA",
+      "maxIdx": 1,
+      "label": "🌅 Jody Wisternoff — O.A. London 4K",
+      "embed": "https://www.youtube.com/embed/y2W6PYIl_J4",
+      "url": "https://anjunadeep.com",
+      "origin": "seed"
+    },
+    {
+      "id": "anjuna-jw-la",
+      "cat": "ANJUNA",
+      "maxIdx": 1,
+      "label": "🌅 Jody Wisternoff — O.A. Los Angeles 4K",
+      "embed": "https://www.youtube.com/embed/K-Jw37y7RH8",
+      "url": "https://anjunadeep.com",
+      "origin": "seed"
+    },
+    {
+      "id": "anjuna-jw-london25",
+      "cat": "ANJUNA",
+      "maxIdx": 1,
+      "label": "🌅 Jody Wisternoff — O.A. London 2025",
+      "embed": "https://www.youtube.com/embed/-57qj8tWpXc",
+      "url": "https://anjunadeep.com",
+      "origin": "seed"
+    },
+    {
+      "id": "anjuna-jw-mexico",
+      "cat": "ANJUNA",
+      "maxIdx": 1,
+      "label": "🌅 Jody Wisternoff — O.A. Mexico City",
+      "embed": "https://www.youtube.com/embed/Ky8RJkroThs",
+      "url": "https://anjunadeep.com",
+      "origin": "seed"
+    },
+    {
+      "id": "anjuna-yotto-eli",
+      "cat": "ANJUNA",
+      "maxIdx": 1,
+      "label": "🌅 Yotto b2b Eli & Fur — Seattle 4K",
+      "embed": "https://www.youtube.com/embed/65dLci0zbIw",
+      "url": "https://anjunadeep.com",
+      "origin": "seed"
+    },
+    {
+      "id": "anjuna-marsh-redrocks",
+      "cat": "ANJUNA",
+      "maxIdx": 1,
+      "label": "🌅 Marsh — Anjunadeep at Red Rocks",
+      "embed": "https://www.youtube.com/embed/fxN0dD-QA6A",
+      "url": "https://anjunadeep.com",
+      "origin": "seed"
+    },
+    {
+      "id": "anjuna-yotto-london",
+      "cat": "ANJUNA",
+      "maxIdx": 1,
+      "label": "🌅 Yotto — Anjunadeep O.A. London 2025",
+      "embed": "https://www.youtube.com/embed/tYGqfWUjIxY",
+      "url": "https://anjunadeep.com",
+      "origin": "seed"
+    },
+    {
+      "id": "anjuna-ab-gt350",
+      "cat": "ANJUNA",
+      "maxIdx": 1,
+      "label": "🌅 Above & Beyond — Group Therapy 350 4K",
+      "embed": "https://www.youtube.com/embed/XlndmZ-4mc8",
+      "url": "https://anjunadeep.com",
+      "origin": "seed"
+    },
+    {
+      "id": "anjuna-ab-gt450",
+      "cat": "ANJUNA",
+      "maxIdx": 1,
+      "label": "🌅 Above & Beyond — GT 450 Deep Set 4K",
+      "embed": "https://www.youtube.com/embed/IrzO9GqS8BY",
+      "url": "https://anjunadeep.com",
+      "origin": "seed"
+    },
+    {
+      "id": "anjuna-ab-gt350deep",
+      "cat": "ANJUNA",
+      "maxIdx": 1,
+      "label": "🌅 Above & Beyond — GT 350 Deep Set 4K",
+      "embed": "https://www.youtube.com/embed/n5ZhKyOxZns",
+      "url": "https://anjunadeep.com",
+      "origin": "seed"
+    },
+    {
+      "id": "anjuna-ab-gt671",
+      "cat": "ANJUNA",
+      "maxIdx": 1,
+      "label": "🌅 Above & Beyond — Group Therapy 671",
+      "embed": "https://www.youtube.com/embed/5MUBQz0gioU",
+      "url": "https://anjunadeep.com",
+      "origin": "seed"
+    },
+    {
+      "id": "melodic-aeden",
+      "cat": "MELODIC",
+      "maxIdx": 1,
+      "label": "🌌 Afterlife — Aeden 2026 Set",
+      "embed": "https://www.youtube.com/embed/W0dRO6XtHxY",
+      "origin": "seed"
+    },
+    {
+      "id": "afro-blackcoffee1",
+      "cat": "AFRO",
+      "maxIdx": 1,
+      "label": "🥁 Black Coffee & Keinemusik — Mix",
+      "embed": "https://www.youtube.com/embed/wjtWjwCJ-bw",
+      "origin": "seed"
+    },
+    {
+      "id": "afro-cabana",
+      "cat": "AFRO",
+      "maxIdx": 1,
+      "label": "🥁 Afro House — Casabana, Rio",
+      "embed": "https://www.youtube.com/embed/88IHZanUimI",
+      "origin": "seed"
+    },
+    {
+      "id": "afro-blackcoffee2",
+      "cat": "AFRO",
+      "maxIdx": 1,
+      "label": "🥁 Black Coffee — Afro House Concept",
+      "embed": "https://www.youtube.com/embed/nWTmPyESz6I",
+      "origin": "seed"
+    },
+    {
+      "id": "tl-dvlm",
+      "cat": "FESTIVAL",
+      "maxIdx": 1,
+      "label": "🎆 Dimitri Vegas & Like Mike — Tomorrowland 2025",
+      "embed": "https://www.youtube.com/embed/WdWnCTkqIRs",
+      "url": "https://www.tomorrowland.com",
+      "origin": "seed"
+    },
+    {
+      "id": "psy-astrix-ozora23",
+      "cat": "PSYTRANCE",
+      "maxIdx": 1,
+      "label": "🍄 Astrix — Ozora 2023 (Full Set)",
+      "embed": "https://www.youtube.com/embed/1-ccS5614j0",
+      "url": "https://ozorafestival.eu",
+      "origin": "seed"
+    },
+    {
+      "id": "psy-astrix-ozora19",
+      "cat": "PSYTRANCE",
+      "maxIdx": 1,
+      "label": "🍄 Astrix — Ozora 2019 (Full Set)",
+      "embed": "https://www.youtube.com/embed/123Z5KLLiO8",
+      "url": "https://ozorafestival.eu",
+      "origin": "seed"
+    },
+    {
+      "id": "psy-astrix-boom23",
+      "cat": "PSYTRANCE",
+      "maxIdx": 1,
+      "label": "🍄 Astrix — Boom Festival 2023",
+      "embed": "https://www.youtube.com/embed/kdVElRhr4q4",
+      "url": "https://www.boomfestival.org",
+      "origin": "seed"
+    },
+    {
+      "id": "psy-astrix-boom25",
+      "cat": "PSYTRANCE",
+      "maxIdx": 1,
+      "label": "🍄 Astrix — Boom Festival 2025",
+      "embed": "https://www.youtube.com/embed/HS4c4a8OCj4",
+      "url": "https://www.boomfestival.org",
+      "origin": "seed"
+    },
+    {
+      "id": "psy-liquidsoul-ozora25",
+      "cat": "PSYTRANCE",
+      "maxIdx": 1,
+      "label": "🍄 Liquid Soul — Ozora 2025 (Full Set)",
+      "embed": "https://www.youtube.com/embed/1Ye65tC5VgE",
+      "url": "https://ozorafestival.eu",
+      "origin": "seed"
+    },
+    {
+      "id": "psy-ace-ozora25",
+      "cat": "PSYTRANCE",
+      "maxIdx": 1,
+      "label": "🍄 Ace Ventura — Ozora 2025 (night)",
+      "embed": "https://www.youtube.com/embed/j8hAZoXVEgM",
+      "url": "https://ozorafestival.eu",
+      "origin": "seed"
+    },
+    {
+      "id": "psy-ace-ozora24",
+      "cat": "PSYTRANCE",
+      "maxIdx": 1,
+      "label": "🍄 Ace Ventura — Ozora 2024 (Full Set)",
+      "embed": "https://www.youtube.com/embed/MwJZZujSGsw",
+      "url": "https://ozorafestival.eu",
+      "origin": "seed"
+    },
+    {
+      "id": "psy-ace-ozora23",
+      "cat": "PSYTRANCE",
+      "maxIdx": 1,
+      "label": "🍄 Ace Ventura — Ozora 2023 (Full Set)",
+      "embed": "https://www.youtube.com/embed/l82cnAU-8a8",
+      "url": "https://ozorafestival.eu",
+      "origin": "seed"
+    },
+    {
+      "id": "psy-ace-ozora22",
+      "cat": "PSYTRANCE",
+      "maxIdx": 1,
+      "label": "🍄 Ace Ventura — Ozora 2022 (Full Set)",
+      "embed": "https://www.youtube.com/embed/DhsD-gQMlU0",
+      "url": "https://ozorafestival.eu",
+      "origin": "seed"
+    },
+    {
+      "id": "psy-ace-ozora19",
+      "cat": "PSYTRANCE",
+      "maxIdx": 1,
+      "label": "🍄 Ace Ventura — Ozora 2019 (Full Set)",
+      "embed": "https://www.youtube.com/embed/9o5dn0uDiYE",
+      "url": "https://ozorafestival.eu",
+      "origin": "seed"
+    },
+    {
+      "id": "psy-ace-ozora18",
+      "cat": "PSYTRANCE",
+      "maxIdx": 1,
+      "label": "🍄 Ace Ventura — Ozora 2018 (Full Set)",
+      "embed": "https://www.youtube.com/embed/oQ1nYcs-HUs",
+      "url": "https://ozorafestival.eu",
+      "origin": "seed"
+    },
+    {
+      "id": "psy-ace-dub-ozora22",
+      "cat": "PSYTRANCE",
+      "maxIdx": 1,
+      "label": "🍄 Ace Ventura in Dub — Ozora 2022",
+      "embed": "https://www.youtube.com/embed/BAaInTCpsTE",
+      "url": "https://ozorafestival.eu",
+      "origin": "seed"
+    },
+    {
+      "id": "psy-ace-boom22",
+      "cat": "PSYTRANCE",
+      "maxIdx": 1,
+      "label": "🍄 Ace Ventura — Boom 2022 (3hr)",
+      "embed": "https://www.youtube.com/embed/pmgmq9fWz94",
+      "url": "https://www.boomfestival.org",
+      "origin": "seed"
+    },
+    {
+      "id": "pool-userpick",
+      "cat": "POOL",
+      "maxIdx": 1,
+      "label": "🏖️ Poolside DJ Set",
+      "embed": "https://www.youtube.com/embed/_bKZIUr9s4g",
+      "origin": "seed"
+    },
+    {
+      "id": "pool-ushuaia-open25",
+      "cat": "POOL",
+      "maxIdx": 1,
+      "label": "🏖️ Ushuaïa Ibiza — Opening 2025",
+      "embed": "https://www.youtube.com/embed/YGqDwW7Ga6M",
+      "url": "https://www.theushuaiaexperience.com",
+      "origin": "seed"
+    },
+    {
+      "id": "pool-ushuaia-after25",
+      "cat": "POOL",
+      "maxIdx": 1,
+      "label": "🏖️ Ushuaïa Ibiza — 2025 Aftermovie",
+      "embed": "https://www.youtube.com/embed/uDfq8zPUoEk",
+      "url": "https://www.theushuaiaexperience.com",
+      "origin": "seed"
+    },
+    {
+      "id": "pool-ebc-vegas",
+      "cat": "POOL",
+      "maxIdx": 15,
+      "label": "🏖️ Encore Beach Club — Las Vegas",
+      "embed": "https://www.youtube.com/embed/videoseries?list=PL5EACz6_ykI2wAu6PyPu2cJFFGMtNytD_",
+      "url": "https://www.wynnlasvegas.com/nightlife/encore-beach-pool",
+      "origin": "seed"
+    },
+    {
+      "id": "tl-sets-2025",
+      "cat": "FESTIVAL",
+      "maxIdx": 60,
+      "label": "🎆 Tomorrowland 2025 — Live Sets (99 sets)",
+      "embed": "https://www.youtube.com/embed/videoseries?list=PLoSIOFPSXQoN-uoi-Bn6R4JA8C4beRJsU",
+      "url": "https://www.tomorrowland.com",
+      "origin": "seed"
+    },
+    {
+      "id": "tl-sets-2022",
+      "cat": "FESTIVAL",
+      "maxIdx": 40,
+      "label": "🎆 Tomorrowland 2022 — Live Sets",
+      "embed": "https://www.youtube.com/embed/videoseries?list=PLx1R_wLXobRJiWUPdJVtNEVAIc1hr3CxR",
+      "url": "https://www.tomorrowland.com",
+      "origin": "seed"
+    },
+    {
+      "id": "bass-monstercat",
+      "cat": "RAVE",
+      "maxIdx": 25,
+      "label": "🔊 Monstercat & NCS — Bass Mixes",
+      "embed": "https://www.youtube.com/embed/videoseries?list=PLrULcI_7brbjTXEOX0WeylxqTca3uvptI",
+      "origin": "seed"
+    },
+    {
+      "id": "ukf-dnb24",
+      "cat": "RAVE",
+      "maxIdx": 1,
+      "label": "🔊 UKF — Best of Drum & Bass 2024",
+      "embed": "https://www.youtube.com/embed/cCtoa1U_1DE",
+      "origin": "seed"
+    },
+    {
+      "id": "ukf-dnb23",
+      "cat": "RAVE",
+      "maxIdx": 1,
+      "label": "🔊 UKF — Best of Drum & Bass 2023",
+      "embed": "https://www.youtube.com/embed/LeMk0yiSoq4",
+      "origin": "seed"
+    }
+  ]
+}

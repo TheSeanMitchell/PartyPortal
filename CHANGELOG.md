@@ -1,5 +1,25 @@
 # Changelog
 
+## v2.6 — Autonomous channel agent, EARLIER finally fixed, gold rails, US festivals
+
+### Channel automation (the road to 999, hands-free)
+- New **`curate.py`** agent runs in the daily Action. With a `YOUTUBE_API_KEY` it:
+  - **Prunes** dead / private / non-embeddable / **under-2-minute** / low-view videos (kills the 45-second-promo problem) — never touching live cams, radio, or playlists.
+  - **Grows** the catalogue by searching on-theme queries for **long-form** (>20 min), embeddable, popular sets and adding a few new channels per run, deduped, toward a 999 cap.
+- Channels now live in **`channels.json`** so the agent can edit them. `index.html` loads it and **falls back to its built-in list if anything's off**, so the wall can never break. Hard sanity gates + a `.bak` backup protect against bad runs.
+- **To activate:** add a `YOUTUBE_API_KEY` repo secret (free Google Cloud key). Without it the agent no-ops and nothing changes.
+
+### Victoria's Secret short-clip fix
+- Removed the VS playlist that was surfacing 45-second promos. The full **VS 2025 show (4K)**, **VS Swim Special**, and **SI Swimsuit** runways remain — all long-form. (Once the agent is on, this kind of thing gets caught automatically.)
+
+### News — EARLIER actually works now
+- The real bug: the per-source cap I added was keeping each outlet's **5 newest** items (all today), so yesterday got deleted every run. Fixed with a **per-source-per-day** cap (each outlet can fill both days) plus a **balanced two-day selection** — verified yesterday now survives a today-heavy flood.
+- Strengthened the party-positive filter: deaths, shootings, crashes, and court/feud noise are now blocked (the screenshot's Oliver Tree and pool-shooting items are gone).
+
+### Calendar + polish
+- Added 6 major **US festivals** to On The Horizon: Outside Lands, HARD Summer, North Coast, Imagine, Lost Lands, Portola (gold cards, ticket links).
+- Theme/naming pass: retired generic names like "Rock N Roll Channel #2" → "Rock N' Roll — Encore," "Retro Rock — Deep Cuts," "EDM Radio — Underground," etc.
+
 ## v2.5 — Gold mega-events, news source overhaul + working EARLIER, playlists & random-start
 
 ### "On The Horizon" — mega events get the gold treatment

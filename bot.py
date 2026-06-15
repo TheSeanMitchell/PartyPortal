@@ -28,10 +28,11 @@ from xml.etree import ElementTree as ET
 import urllib.request, urllib.error
 
 # ───────────────────────────── CONFIG ─────────────────────────────
-MAX_ITEMS      = 55
-PER_SOURCE_MAX = 5      # max stories kept from any single outlet (diversity)
+MAX_ITEMS      = 60
+PER_SOURCE_MAX = 4      # max stories per outlet PER DAY (diversity, both days)
+PER_DAY_MAX    = 30     # max stories kept per calendar day
 BREAKING_HOURS = 36     # < 36h old  → "hot"
-DAILY_HOURS    = 48     # < 48h old  → kept (today + yesterday)
+DAILY_HOURS    = 50     # < 50h old  → kept (today + yesterday, with margin)
 FETCH_TIMEOUT  = 12
 MAX_WORKERS    = 12
 MIN_TITLE_LEN  = 28
@@ -107,6 +108,9 @@ BLOCKLIST = {
     "hospitalized","health scare","cancer","rehab","custody","alimony","divorce","tax evasion",
     "fraud","scam","backlash","slams","slammed","feud","diss track","clap back","apologizes",
     "misconduct","accuser","accused of","allegations","sexual misconduct","stabbed","gunman",
+    "dies aged","dies at","died at","dies in","died in","found dead","shot dead","has died",
+    "passed away","helicopter crash","plane crash","fatal","shots rang","shots fired","person shot",
+    "people shot","mass shooting","killed in","death of","stabbing","wounded","critical condition",
 }
 BLOCK_PAT = make_pattern(BLOCKLIST)
 
@@ -409,6 +413,11 @@ def _base_domain(d):
         return d
     return ".".join(d.split(".")[-2:])
 
+def _day_key(ts):
+    """Pacific-time calendar day (UTC-7), matching the site's local-day news
+    columns, so 'today' and 'yesterday' line up between bot and page."""
+    return time.strftime("%Y-%m-%d", time.gmtime(int(ts) - 7 * 3600))
+
 def filter_and_dedup(raw):
     """Filter, then collapse exact AND near-duplicate headlines.
     Near-dupes (Jaccard of significant words >= 0.55) are merged, keeping the
@@ -459,18 +468,29 @@ def filter_and_dedup(raw):
             else:
                 out[dup]["n"] = max(1, len(srcsets[dup]))
             continue
-        # per-source cap: don't let one outlet dominate the feed
-        if src_count.get(srcid, 0) >= PER_SOURCE_MAX:
+        # per-source-per-DAY cap: each outlet may contribute to BOTH days,
+        # so yesterday's stories are never starved out by today's flood.
+        ck = (srcid, _day_key(ts))
+        if src_count.get(ck, 0) >= PER_SOURCE_MAX:
             continue
-        src_count[srcid] = src_count.get(srcid, 0) + 1
+        src_count[ck] = src_count.get(ck, 0) + 1
         exact_idx[h] = len(out)
         out.append(it)
         sigs.append(sg)
         srcsets.append(set([srcid]) if srcid else set())
-        if len(out) >= MAX_ITEMS * 2:
+        if len(out) >= MAX_ITEMS * 3:
             break
-    out.sort(key=lambda x: x.get("ts", 0), reverse=True)
-    return out[:MAX_ITEMS]
+    # Keep the two most-recent days, each ranked by # sources then recency and
+    # capped — guarantees TODAY *and* EARLIER both populate (NUZU-style).
+    byday = {}
+    for it in out:
+        byday.setdefault(_day_key(it.get("ts", 0)), []).append(it)
+    final = []
+    for d in sorted(byday.keys(), reverse=True)[:2]:
+        day_items = sorted(byday[d], key=lambda x: (x.get("n", 1), x.get("ts", 0)), reverse=True)
+        final.extend(day_items[:PER_DAY_MAX])
+    final.sort(key=lambda x: x.get("ts", 0), reverse=True)
+    return final[:MAX_ITEMS]
 
 # ──────────────── VEGAS EVENTS SCRAPER (No Cover Nightclubs) ────────────────
 # Parses event URLs only (slugs carry artist+venue+date), so it survives any
