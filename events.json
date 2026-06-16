@@ -1,24 +1,6 @@
 {
-  "updated": 1781626924,
+  "updated": 1781642181,
   "events": [
-    {
-      "artist": "Emo Nite",
-      "venue": "Marquee",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-06-15",
-      "ts": 1781550000,
-      "url": "https://nocovernightclubs.com/events/emo-nite-marquee-nightclub-monday-june-15-2026/"
-    },
-    {
-      "artist": "Special Guest",
-      "venue": "Marquee Dayclub",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-06-15",
-      "ts": 1781550000,
-      "url": "https://nocovernightclubs.com/events/special-guest-marquee-dayclub-monday-june-15-2026/"
-    },
     {
       "artist": "Luis Torres",
       "venue": "Omnia",
@@ -2700,6 +2682,24 @@
       "date": "2026-07-11",
       "ts": 1783800000,
       "url": "https://concerts.vegas/event/barry-manilow-las-vegas-saturday-july-11-2026-700-pm/"
+    },
+    {
+      "artist": "A Boogie Wit Da Hoodie",
+      "venue": "The Theater at Virgin Hotels",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-07-11",
+      "ts": 1783800000,
+      "url": "https://concerts.vegas/event/a-boogie-wit-da-hoodie-las-vegas-saturday-july-11-2026-800-pm/"
+    },
+    {
+      "artist": "A Boogie Wit Da Hoodie",
+      "venue": "24 Oxford at Virgin Hotels",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-07-11",
+      "ts": 1783800000,
+      "url": "https://concerts.vegas/event/a-boogie-wit-da-hoodie-las-vegas-saturday-july-11-2026-800-pm/"
     }
   ]
 }
