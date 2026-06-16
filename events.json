@@ -1,5 +1,5 @@
 {
-  "updated": 1781556274,
+  "updated": 1781607171,
   "events": [
     {
       "artist": "Emo Nite",
@@ -461,15 +461,6 @@
       "url": "https://concerts.vegas/event/new-kids-on-the-block-las-vegas-saturday-june-20-2026-800-pm/"
     },
     {
-      "artist": "Buckethead",
-      "venue": "The Theater at Virgin Hotels",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-06-20",
-      "ts": 1781985600,
-      "url": "https://concerts.vegas/event/buckethead-las-vegas-saturday-june-20-2026-800-pm/"
-    },
-    {
       "artist": "Rebel Souljahz",
       "venue": "The Theater at Virgin Hotels",
       "type": "concert",
@@ -477,15 +468,6 @@
       "date": "2026-06-20",
       "ts": 1781985600,
       "url": "https://concerts.vegas/event/rebel-souljahz-las-vegas-saturday-june-20-2026-800-pm/"
-    },
-    {
-      "artist": "Buckethead",
-      "venue": "24 Oxford at Virgin Hotels",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-06-20",
-      "ts": 1781985600,
-      "url": "https://concerts.vegas/event/buckethead-las-vegas-saturday-june-20-2026-800-pm/"
     },
     {
       "artist": "Rebel Souljahz",
@@ -558,6 +540,15 @@
       "date": "2026-06-21",
       "ts": 1782068400,
       "url": "https://nocovernightclubs.com/events/ritual-sundays-tao-nightclub-sunday-june-21-2026/"
+    },
+    {
+      "artist": "Four Color Zack",
+      "venue": "LIV",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-06-21",
+      "ts": 1782068400,
+      "url": "https://nocovernightclubs.com/events/four-color-zack-liv-nightclub-sunday-june-21-2026/"
     },
     {
       "artist": "Dj Shift",
@@ -1064,6 +1055,15 @@
       "url": "https://nocovernightclubs.com/events/dj-boof-hakkasan-nightclub-saturday-june-27-2026/"
     },
     {
+      "artist": "Gordo",
+      "venue": "LIV",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-06-27",
+      "ts": 1782586800,
+      "url": "https://nocovernightclubs.com/events/gordo-liv-nightclub-saturday-june-27-2026/"
+    },
+    {
       "artist": "Dj Nova",
       "venue": "Jewel",
       "type": "club",
@@ -1206,6 +1206,15 @@
       "date": "2026-06-28",
       "ts": 1782673200,
       "url": "https://nocovernightclubs.com/events/ritual-sundays-tao-nightclub-sunday-june-28-2026/"
+    },
+    {
+      "artist": "Matt Faulk",
+      "venue": "LIV",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-06-28",
+      "ts": 1782673200,
+      "url": "https://nocovernightclubs.com/events/matt-faulk-liv-nightclub-sunday-june-28-2026/"
     },
     {
       "artist": "Nick Elliott",
@@ -1559,6 +1568,15 @@
       "url": "https://nocovernightclubs.com/events/chaes-b-hakkasan-nightclub-friday-july-3-2026/"
     },
     {
+      "artist": "Dabin",
+      "venue": "LIV",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-07-03",
+      "ts": 1783105200,
+      "url": "https://nocovernightclubs.com/events/dabin-liv-nightclub-friday-july-3-2026/"
+    },
+    {
       "artist": "Dj Buza",
       "venue": "Jewel",
       "type": "club",
@@ -1737,6 +1755,15 @@
       "date": "2026-07-04",
       "ts": 1783191600,
       "url": "https://nocovernightclubs.com/events/tyga-hakkasan-nightclub-saturday-july-4-2026/"
+    },
+    {
+      "artist": "Said The Sky",
+      "venue": "LIV",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-07-04",
+      "ts": 1783191600,
+      "url": "https://nocovernightclubs.com/events/said-the-sky-liv-nightclub-saturday-july-4-2026/"
     },
     {
       "artist": "Special Guest",
@@ -1935,6 +1962,15 @@
       "date": "2026-07-05",
       "ts": 1783278000,
       "url": "https://nocovernightclubs.com/events/ritual-sundays-tao-nightclub-sunday-july-5-2026/"
+    },
+    {
+      "artist": "Special Guest",
+      "venue": "LIV",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-07-05",
+      "ts": 1783278000,
+      "url": "https://nocovernightclubs.com/events/special-guest-liv-nightclub-sunday-july-5-2026/"
     },
     {
       "artist": "Dillon Francis",
@@ -2297,6 +2333,15 @@
       "url": "https://nocovernightclubs.com/events/angie-vee-tao-nightclub-friday-july-10-2026/"
     },
     {
+      "artist": "Reggaeton Landia",
+      "venue": "LIV",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-07-10",
+      "ts": 1783710000,
+      "url": "https://nocovernightclubs.com/events/reggaeton-landia-liv-nightclub-friday-july-10-2026/"
+    },
+    {
       "artist": "Dj Cla",
       "venue": "Jewel",
       "type": "club",
@@ -2655,51 +2700,6 @@
       "date": "2026-07-11",
       "ts": 1783800000,
       "url": "https://concerts.vegas/event/barry-manilow-las-vegas-saturday-july-11-2026-700-pm/"
-    },
-    {
-      "artist": "Barry Manilow",
-      "venue": "Michelob Ultra Arena",
-      "type": "arena",
-      "city": "Las Vegas",
-      "date": "2026-07-11",
-      "ts": 1783800000,
-      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-saturday-july-11-2026-700-pm/"
-    },
-    {
-      "artist": "A Boogie Wit Da Hoodie",
-      "venue": "The Theater at Virgin Hotels",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-07-11",
-      "ts": 1783800000,
-      "url": "https://concerts.vegas/event/a-boogie-wit-da-hoodie-las-vegas-saturday-july-11-2026-800-pm/"
-    },
-    {
-      "artist": "A Boogie Wit Da Hoodie",
-      "venue": "24 Oxford at Virgin Hotels",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-07-11",
-      "ts": 1783800000,
-      "url": "https://concerts.vegas/event/a-boogie-wit-da-hoodie-las-vegas-saturday-july-11-2026-800-pm/"
-    },
-    {
-      "artist": "Barry Manilow",
-      "venue": "Resorts World Theatre",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-07-11",
-      "ts": 1783800000,
-      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-saturday-july-11-2026-700-pm/"
-    },
-    {
-      "artist": "Jeezy",
-      "venue": "Bakkt Theater at Planet Hollywood",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-07-11",
-      "ts": 1783800000,
-      "url": "https://concerts.vegas/event/jeezy-las-vegas-saturday-july-11-2026-800-pm/"
     }
   ]
 }
