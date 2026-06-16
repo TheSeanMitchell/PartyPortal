@@ -1,5 +1,5 @@
 {
-  "updated": 1781607171,
+  "updated": 1781626924,
   "events": [
     {
       "artist": "Emo Nite",
@@ -1487,15 +1487,6 @@
       "url": "https://nocovernightclubs.com/events/dj-shr3d-liquid-pool-thursday-july-2-2026/"
     },
     {
-      "artist": "Dj E Rock",
-      "venue": "Sphere",
-      "type": "sphere",
-      "city": "Las Vegas",
-      "date": "2026-07-02",
-      "ts": 1783022400,
-      "url": "https://concerts.vegas/event/dj-e-rock-las-vegas-thursday-july-2-2026-1030-pm/"
-    },
-    {
       "artist": "Micromania Midget Wrestling",
       "venue": "Las Vegas",
       "type": "sports",
@@ -2696,6 +2687,15 @@
       "artist": "Barry Manilow",
       "venue": "Dolby Live at Park MGM",
       "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-07-11",
+      "ts": 1783800000,
+      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-saturday-july-11-2026-700-pm/"
+    },
+    {
+      "artist": "Barry Manilow",
+      "venue": "Michelob Ultra Arena",
+      "type": "arena",
       "city": "Las Vegas",
       "date": "2026-07-11",
       "ts": 1783800000,
