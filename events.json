@@ -1,15 +1,6 @@
 {
-  "updated": 1781707780,
+  "updated": 1781726283,
   "events": [
-    {
-      "artist": "Luis Torres",
-      "venue": "Omnia",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-06-16",
-      "ts": 1781636400,
-      "url": "https://nocovernightclubs.com/events/luis-torres-omnia-nightclub-tuesday-june-16-2026/"
-    },
     {
       "artist": "Lcore",
       "venue": "Marquee",
@@ -2700,6 +2691,15 @@
       "date": "2026-07-11",
       "ts": 1783800000,
       "url": "https://concerts.vegas/event/barry-manilow-las-vegas-saturday-july-11-2026-700-pm/"
+    },
+    {
+      "artist": "Jeezy",
+      "venue": "Bakkt Theater at Planet Hollywood",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-07-11",
+      "ts": 1783800000,
+      "url": "https://concerts.vegas/event/jeezy-las-vegas-saturday-july-11-2026-800-pm/"
     }
   ]
 }
