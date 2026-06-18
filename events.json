@@ -1,5 +1,5 @@
 {
-  "updated": 1781726283,
+  "updated": 1781777035,
   "events": [
     {
       "artist": "Lcore",
@@ -45,15 +45,6 @@
       "date": "2026-06-17",
       "ts": 1781722800,
       "url": "https://nocovernightclubs.com/events/special-guest-palm-tree-beach-club-wednesday-june-17-2026/"
-    },
-    {
-      "artist": "Las Vegas Aviators Vs Round Rock Express",
-      "venue": "Las Vegas",
-      "type": "sports",
-      "city": "Las Vegas",
-      "date": "2026-06-17",
-      "ts": 1781726400,
-      "url": "https://concerts.vegas/event/las-vegas-aviators-vs-round-rock-express-las-vegas-wednesday-june-17-2026-705-pm/"
     },
     {
       "artist": "Special Guest",
@@ -2700,6 +2691,15 @@
       "date": "2026-07-11",
       "ts": 1783800000,
       "url": "https://concerts.vegas/event/jeezy-las-vegas-saturday-july-11-2026-800-pm/"
+    },
+    {
+      "artist": "La Mafia",
+      "venue": "House of Blues",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-07-11",
+      "ts": 1783800000,
+      "url": "https://concerts.vegas/event/la-mafia-las-vegas-saturday-july-11-2026-700-pm/"
     }
   ]
 }
