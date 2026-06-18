@@ -1,51 +1,6 @@
 {
-  "updated": 1781793912,
+  "updated": 1781813559,
   "events": [
-    {
-      "artist": "Lcore",
-      "venue": "Marquee",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-06-17",
-      "ts": 1781722800,
-      "url": "https://nocovernightclubs.com/events/lcore-marquee-nightclub-wednesday-june-17-2026/"
-    },
-    {
-      "artist": "Dj Franzen",
-      "venue": "Hakkasan",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-06-17",
-      "ts": 1781722800,
-      "url": "https://nocovernightclubs.com/events/dj-franzen-hakkasan-nightclub-wednesday-june-17-2026/"
-    },
-    {
-      "artist": "Valentino Khan",
-      "venue": "EBC At Night",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-06-17",
-      "ts": 1781722800,
-      "url": "https://nocovernightclubs.com/events/valentino-khan-ebc-at-night-wednesday-june-17-2026/"
-    },
-    {
-      "artist": "Dj Buza",
-      "venue": "Liquid Pool",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-06-17",
-      "ts": 1781722800,
-      "url": "https://nocovernightclubs.com/events/dj-buza-liquid-pool-wednesday-june-17-2026/"
-    },
-    {
-      "artist": "Special Guest",
-      "venue": "Palm Tree Beach",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-06-17",
-      "ts": 1781722800,
-      "url": "https://nocovernightclubs.com/events/special-guest-palm-tree-beach-club-wednesday-june-17-2026/"
-    },
     {
       "artist": "Special Guest",
       "venue": "Omnia",
@@ -72,15 +27,6 @@
       "date": "2026-06-18",
       "ts": 1781809200,
       "url": "https://nocovernightclubs.com/events/niiko-x-swae-hakkasan-nightclub-thursday-june-18-2026/"
-    },
-    {
-      "artist": "Special Guest",
-      "venue": "Marquee Dayclub",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-06-18",
-      "ts": 1781809200,
-      "url": "https://nocovernightclubs.com/events/special-guest-marquee-dayclub-thursday-june-18-2026/"
     },
     {
       "artist": "Special Guest",
@@ -416,6 +362,15 @@
       "url": "https://concerts.vegas/event/new-kids-on-the-block-las-vegas-saturday-june-20-2026-800-pm/"
     },
     {
+      "artist": "Buckethead",
+      "venue": "The Theater at Virgin Hotels",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-06-20",
+      "ts": 1781985600,
+      "url": "https://concerts.vegas/event/buckethead-las-vegas-saturday-june-20-2026-800-pm/"
+    },
+    {
       "artist": "Rebel Souljahz",
       "venue": "The Theater at Virgin Hotels",
       "type": "concert",
@@ -423,6 +378,15 @@
       "date": "2026-06-20",
       "ts": 1781985600,
       "url": "https://concerts.vegas/event/rebel-souljahz-las-vegas-saturday-june-20-2026-800-pm/"
+    },
+    {
+      "artist": "Buckethead",
+      "venue": "24 Oxford at Virgin Hotels",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-06-20",
+      "ts": 1781985600,
+      "url": "https://concerts.vegas/event/buckethead-las-vegas-saturday-june-20-2026-800-pm/"
     },
     {
       "artist": "Rebel Souljahz",
@@ -2700,6 +2664,42 @@
       "date": "2026-07-11",
       "ts": 1783800000,
       "url": "https://concerts.vegas/event/la-mafia-las-vegas-saturday-july-11-2026-700-pm/"
+    },
+    {
+      "artist": "Barry Manilow",
+      "venue": "Encore Theater at Wynn",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-07-11",
+      "ts": 1783800000,
+      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-saturday-july-11-2026-700-pm/"
+    },
+    {
+      "artist": "Barry Manilow",
+      "venue": "BleauLive Theater at Fontainebleau",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-07-11",
+      "ts": 1783800000,
+      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-saturday-july-11-2026-700-pm/"
+    },
+    {
+      "artist": "Barry Manilow",
+      "venue": "Pearl Theater at Palms",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-07-11",
+      "ts": 1783800000,
+      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-saturday-july-11-2026-700-pm/"
+    },
+    {
+      "artist": "Nba Summer League Day 3",
+      "venue": "Las Vegas",
+      "type": "sports",
+      "city": "Las Vegas",
+      "date": "2026-07-11",
+      "ts": 1783800000,
+      "url": "https://concerts.vegas/event/nba-summer-league-day-3-las-vegas-saturday-july-11-2026-tba/"
     }
   ]
 }
