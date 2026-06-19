@@ -1,60 +1,6 @@
 {
-  "updated": 1781880079,
+  "updated": 1781897084,
   "events": [
-    {
-      "artist": "Special Guest",
-      "venue": "Omnia",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-06-18",
-      "ts": 1781809200,
-      "url": "https://nocovernightclubs.com/events/special-guest-omnia-nightclub-thursday-june-18-2026/"
-    },
-    {
-      "artist": "J Nice",
-      "venue": "Tao",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-06-18",
-      "ts": 1781809200,
-      "url": "https://nocovernightclubs.com/events/j-nice-tao-nightclub-thursday-june-18-2026/"
-    },
-    {
-      "artist": "Niiko X Swae",
-      "venue": "Hakkasan",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-06-18",
-      "ts": 1781809200,
-      "url": "https://nocovernightclubs.com/events/niiko-x-swae-hakkasan-nightclub-thursday-june-18-2026/"
-    },
-    {
-      "artist": "Special Guest",
-      "venue": "Tao Beach",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-06-18",
-      "ts": 1781809200,
-      "url": "https://nocovernightclubs.com/events/special-guest-tao-beach-thursday-june-18-2026/"
-    },
-    {
-      "artist": "Dj Shr3d",
-      "venue": "Liquid Pool",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-06-18",
-      "ts": 1781809200,
-      "url": "https://nocovernightclubs.com/events/dj-shr3d-liquid-pool-thursday-june-18-2026/"
-    },
-    {
-      "artist": "Mikey Francis",
-      "venue": "Palm Tree Beach",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-06-18",
-      "ts": 1781809200,
-      "url": "https://nocovernightclubs.com/events/mikey-francis-palm-tree-beach-club-thursday-june-18-2026/"
-    },
     {
       "artist": "Ray Volpe",
       "venue": "Zouk",
@@ -135,15 +81,6 @@
       "date": "2026-06-19",
       "ts": 1781895600,
       "url": "https://nocovernightclubs.com/events/alex-wann-encore-beach-club-friday-june-19-2026/"
-    },
-    {
-      "artist": "Coco Breezy",
-      "venue": "Marquee Dayclub",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-06-19",
-      "ts": 1781895600,
-      "url": "https://nocovernightclubs.com/events/coco-breezy-marquee-dayclub-friday-june-19-2026/"
     },
     {
       "artist": "Vandelux",
@@ -2700,6 +2637,69 @@
       "date": "2026-07-11",
       "ts": 1783800000,
       "url": "https://concerts.vegas/event/las-vegas-aces-vs-phoenix-mercury-las-vegas-saturday-july-11-2026-100-pm/"
+    },
+    {
+      "artist": "Ufc 329 Mcgregor Vs Holloway 2",
+      "venue": "Las Vegas",
+      "type": "sports",
+      "city": "Las Vegas",
+      "date": "2026-07-11",
+      "ts": 1783800000,
+      "url": "https://concerts.vegas/event/ufc-329-mcgregor-vs-holloway-2-las-vegas-saturday-july-11-2026-200-pm/"
+    },
+    {
+      "artist": "Las Vegas Rockers Arena Football",
+      "venue": "Las Vegas",
+      "type": "sports",
+      "city": "Las Vegas",
+      "date": "2026-07-11",
+      "ts": 1783800000,
+      "url": "https://concerts.vegas/event/las-vegas-rockers-arena-football-las-vegas-saturday-july-11-2026-630-pm/"
+    },
+    {
+      "artist": "Las Vegas Aviators Vs Tacoma Rainiers",
+      "venue": "Las Vegas",
+      "type": "sports",
+      "city": "Las Vegas",
+      "date": "2026-07-11",
+      "ts": 1783800000,
+      "url": "https://concerts.vegas/event/las-vegas-aviators-vs-tacoma-rainiers-las-vegas-saturday-july-11-2026-705-pm/"
+    },
+    {
+      "artist": "Diplo",
+      "venue": "XS",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-07-12",
+      "ts": 1783882800,
+      "url": "https://nocovernightclubs.com/events/diplo-xs-nightclub-sunday-july-12-2026/"
+    },
+    {
+      "artist": "Ritual Sundays",
+      "venue": "Tao",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-07-12",
+      "ts": 1783882800,
+      "url": "https://nocovernightclubs.com/events/ritual-sundays-tao-nightclub-sunday-july-12-2026/"
+    },
+    {
+      "artist": "Simp City",
+      "venue": "LIV",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-07-12",
+      "ts": 1783882800,
+      "url": "https://nocovernightclubs.com/events/simp-city-liv-nightclub-sunday-july-12-2026/"
+    },
+    {
+      "artist": "Crespo",
+      "venue": "Marquee Dayclub",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-07-12",
+      "ts": 1783882800,
+      "url": "https://nocovernightclubs.com/events/crespo-marquee-dayclub-sunday-july-12-2026/"
     }
   ]
 }
