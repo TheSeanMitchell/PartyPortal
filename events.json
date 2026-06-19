@@ -1,5 +1,5 @@
 {
-  "updated": 1781813559,
+  "updated": 1781863901,
   "events": [
     {
       "artist": "Special Guest",
@@ -54,24 +54,6 @@
       "date": "2026-06-18",
       "ts": 1781809200,
       "url": "https://nocovernightclubs.com/events/mikey-francis-palm-tree-beach-club-thursday-june-18-2026/"
-    },
-    {
-      "artist": "Our Lady Peace",
-      "venue": "House of Blues",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-06-18",
-      "ts": 1781812800,
-      "url": "https://concerts.vegas/event/our-lady-peace-las-vegas-thursday-june-18-2026-830-pm/"
-    },
-    {
-      "artist": "Las Vegas Aviators Vs Round Rock Express",
-      "venue": "Las Vegas",
-      "type": "sports",
-      "city": "Las Vegas",
-      "date": "2026-06-18",
-      "ts": 1781812800,
-      "url": "https://concerts.vegas/event/las-vegas-aviators-vs-round-rock-express-las-vegas-thursday-june-18-2026-705-pm/"
     },
     {
       "artist": "Ray Volpe",
@@ -1406,6 +1388,15 @@
       "url": "https://nocovernightclubs.com/events/dj-shr3d-liquid-pool-thursday-july-2-2026/"
     },
     {
+      "artist": "Dj E Rock",
+      "venue": "Sphere",
+      "type": "sphere",
+      "city": "Las Vegas",
+      "date": "2026-07-02",
+      "ts": 1783022400,
+      "url": "https://concerts.vegas/event/dj-e-rock-las-vegas-thursday-july-2-2026-1030-pm/"
+    },
+    {
       "artist": "Micromania Midget Wrestling",
       "venue": "Las Vegas",
       "type": "sports",
@@ -2700,6 +2691,15 @@
       "date": "2026-07-11",
       "ts": 1783800000,
       "url": "https://concerts.vegas/event/nba-summer-league-day-3-las-vegas-saturday-july-11-2026-tba/"
+    },
+    {
+      "artist": "Las Vegas Aces Vs Phoenix Mercury",
+      "venue": "Las Vegas",
+      "type": "sports",
+      "city": "Las Vegas",
+      "date": "2026-07-11",
+      "ts": 1783800000,
+      "url": "https://concerts.vegas/event/las-vegas-aces-vs-phoenix-mercury-las-vegas-saturday-july-11-2026-100-pm/"
     }
   ]
 }
