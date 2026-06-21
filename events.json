@@ -1,5 +1,5 @@
 {
-  "updated": 1781982506,
+  "updated": 1782034494,
   "events": [
     {
       "artist": "Hugel",
@@ -117,87 +117,6 @@
       "date": "2026-06-20",
       "ts": 1781982000,
       "url": "https://nocovernightclubs.com/events/ayu-afters-ayu-dayclub-saturday-june-20-2026/"
-    },
-    {
-      "artist": "New Kids On The Block",
-      "venue": "Dolby Live at Park MGM",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-06-20",
-      "ts": 1781985600,
-      "url": "https://concerts.vegas/event/new-kids-on-the-block-las-vegas-saturday-june-20-2026-800-pm/"
-    },
-    {
-      "artist": "Buckethead",
-      "venue": "The Theater at Virgin Hotels",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-06-20",
-      "ts": 1781985600,
-      "url": "https://concerts.vegas/event/buckethead-las-vegas-saturday-june-20-2026-800-pm/"
-    },
-    {
-      "artist": "Rebel Souljahz",
-      "venue": "The Theater at Virgin Hotels",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-06-20",
-      "ts": 1781985600,
-      "url": "https://concerts.vegas/event/rebel-souljahz-las-vegas-saturday-june-20-2026-800-pm/"
-    },
-    {
-      "artist": "Buckethead",
-      "venue": "24 Oxford at Virgin Hotels",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-06-20",
-      "ts": 1781985600,
-      "url": "https://concerts.vegas/event/buckethead-las-vegas-saturday-june-20-2026-800-pm/"
-    },
-    {
-      "artist": "Rebel Souljahz",
-      "venue": "24 Oxford at Virgin Hotels",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-06-20",
-      "ts": 1781985600,
-      "url": "https://concerts.vegas/event/rebel-souljahz-las-vegas-saturday-june-20-2026-800-pm/"
-    },
-    {
-      "artist": "Jeezy",
-      "venue": "Bakkt Theater at Planet Hollywood",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-06-20",
-      "ts": 1781985600,
-      "url": "https://concerts.vegas/event/jeezy-las-vegas-saturday-june-20-2026-800-pm/"
-    },
-    {
-      "artist": "Bop To The Top",
-      "venue": "Brooklyn Bowl",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-06-20",
-      "ts": 1781985600,
-      "url": "https://concerts.vegas/event/bop-to-the-top-las-vegas-saturday-june-20-2026-800-pm/"
-    },
-    {
-      "artist": "Las Vegas Aviators Vs Round Rock Express",
-      "venue": "Las Vegas",
-      "type": "sports",
-      "city": "Las Vegas",
-      "date": "2026-06-20",
-      "ts": 1781985600,
-      "url": "https://concerts.vegas/event/las-vegas-aviators-vs-round-rock-express-las-vegas-saturday-june-20-2026-705-pm/"
-    },
-    {
-      "artist": "Las Vegas Lights Fc Vs Orange County Sc",
-      "venue": "Las Vegas",
-      "type": "sports",
-      "city": "Las Vegas",
-      "date": "2026-06-20",
-      "ts": 1781985600,
-      "url": "https://concerts.vegas/event/las-vegas-lights-fc-vs-orange-county-sc-las-vegas-saturday-june-20-2026-730-pm/"
     },
     {
       "artist": "Charly Jordan",
@@ -2700,6 +2619,87 @@
       "date": "2026-07-15",
       "ts": 1784142000,
       "url": "https://nocovernightclubs.com/events/dj-buza-liquid-pool-wednesday-july-15-2026/"
+    },
+    {
+      "artist": "Special Guest",
+      "venue": "Palm Tree Beach",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-07-15",
+      "ts": 1784142000,
+      "url": "https://nocovernightclubs.com/events/special-guest-palm-tree-beach-club-wednesday-july-15-2026/"
+    },
+    {
+      "artist": "Mary J Blige",
+      "venue": "Dolby Live at Park MGM",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-07-15",
+      "ts": 1784145600,
+      "url": "https://concerts.vegas/event/mary-j-blige-las-vegas-wednesday-july-15-2026-800-pm/"
+    },
+    {
+      "artist": "Nba Summer League Day 7",
+      "venue": "Las Vegas",
+      "type": "sports",
+      "city": "Las Vegas",
+      "date": "2026-07-15",
+      "ts": 1784145600,
+      "url": "https://concerts.vegas/event/nba-summer-league-day-7-las-vegas-wednesday-july-15-2026-tba/"
+    },
+    {
+      "artist": "Special Guest",
+      "venue": "Zouk",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-07-16",
+      "ts": 1784228400,
+      "url": "https://nocovernightclubs.com/events/special-guest-zouk-nightclub-thursday-july-16-2026/"
+    },
+    {
+      "artist": "Special Guest",
+      "venue": "Omnia",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-07-16",
+      "ts": 1784228400,
+      "url": "https://nocovernightclubs.com/events/special-guest-omnia-nightclub-thursday-july-16-2026/"
+    },
+    {
+      "artist": "Dj Bamboozle",
+      "venue": "Tao",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-07-16",
+      "ts": 1784228400,
+      "url": "https://nocovernightclubs.com/events/dj-bamboozle-tao-nightclub-thursday-july-16-2026/"
+    },
+    {
+      "artist": "V4b",
+      "venue": "Hakkasan",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-07-16",
+      "ts": 1784228400,
+      "url": "https://nocovernightclubs.com/events/v4b-hakkasan-nightclub-thursday-july-16-2026/"
+    },
+    {
+      "artist": "Amiri Paul",
+      "venue": "Marquee Dayclub",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-07-16",
+      "ts": 1784228400,
+      "url": "https://nocovernightclubs.com/events/amiri-paul-marquee-dayclub-thursday-july-16-2026/"
+    },
+    {
+      "artist": "Special Guest",
+      "venue": "Tao Beach",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-07-16",
+      "ts": 1784228400,
+      "url": "https://nocovernightclubs.com/events/special-guest-tao-beach-thursday-july-16-2026/"
     }
   ]
 }
