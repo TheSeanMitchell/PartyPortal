@@ -1,123 +1,6 @@
 {
-  "updated": 1782049621,
+  "updated": 1782069213,
   "events": [
-    {
-      "artist": "Hugel",
-      "venue": "XS",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-06-20",
-      "ts": 1781982000,
-      "url": "https://nocovernightclubs.com/events/hugel-xs-nightclub-saturday-june-20-2026/"
-    },
-    {
-      "artist": "Dj Pauly D",
-      "venue": "Omnia",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-06-20",
-      "ts": 1781982000,
-      "url": "https://nocovernightclubs.com/events/dj-pauly-d-omnia-nightclub-saturday-june-20-2026/"
-    },
-    {
-      "artist": "Bijou",
-      "venue": "Marquee",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-06-20",
-      "ts": 1781982000,
-      "url": "https://nocovernightclubs.com/events/bijou-marquee-nightclub-saturday-june-20-2026/"
-    },
-    {
-      "artist": "Dj Metro",
-      "venue": "Tao",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-06-20",
-      "ts": 1781982000,
-      "url": "https://nocovernightclubs.com/events/dj-metro-tao-nightclub-saturday-june-20-2026/"
-    },
-    {
-      "artist": "Dj Drama",
-      "venue": "Hakkasan",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-06-20",
-      "ts": 1781982000,
-      "url": "https://nocovernightclubs.com/events/dj-drama-hakkasan-nightclub-saturday-june-20-2026/"
-    },
-    {
-      "artist": "Gorgon City",
-      "venue": "LIV",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-06-20",
-      "ts": 1781982000,
-      "url": "https://nocovernightclubs.com/events/gorgon-city-liv-nightclub-saturday-june-20-2026/"
-    },
-    {
-      "artist": "D Miles",
-      "venue": "Jewel",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-06-20",
-      "ts": 1781982000,
-      "url": "https://nocovernightclubs.com/events/d-miles-jewel-nightclub-saturday-june-20-2026/"
-    },
-    {
-      "artist": "The Chainsmokers",
-      "venue": "Encore Beach Club",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-06-20",
-      "ts": 1781982000,
-      "url": "https://nocovernightclubs.com/events/the-chainsmokers-encore-beach-club-saturday-june-20-2026/"
-    },
-    {
-      "artist": "Twinsick",
-      "venue": "Marquee Dayclub",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-06-20",
-      "ts": 1781982000,
-      "url": "https://nocovernightclubs.com/events/twinsick-marquee-dayclub-saturday-june-20-2026/"
-    },
-    {
-      "artist": "Twinsick",
-      "venue": "Tao Beach",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-06-20",
-      "ts": 1781982000,
-      "url": "https://nocovernightclubs.com/events/twinsick-tao-beach-saturday-june-20-2026/"
-    },
-    {
-      "artist": "Alesso",
-      "venue": "Palm Tree Beach",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-06-20",
-      "ts": 1781982000,
-      "url": "https://nocovernightclubs.com/events/alesso-palm-tree-beach-club-saturday-june-20-2026/"
-    },
-    {
-      "artist": "Tiesto",
-      "venue": "LIV Beach",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-06-20",
-      "ts": 1781982000,
-      "url": "https://nocovernightclubs.com/events/tiesto-liv-beach-saturday-june-20-2026/"
-    },
-    {
-      "artist": "Ayu Afters",
-      "venue": "AYU Dayclub",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-06-20",
-      "ts": 1781982000,
-      "url": "https://nocovernightclubs.com/events/ayu-afters-ayu-dayclub-saturday-june-20-2026/"
-    },
     {
       "artist": "Charly Jordan",
       "venue": "XS",
@@ -189,15 +72,6 @@
       "date": "2026-06-21",
       "ts": 1782068400,
       "url": "https://nocovernightclubs.com/events/levi-palm-tree-beach-club-sunday-june-21-2026/"
-    },
-    {
-      "artist": "Kromi",
-      "venue": "LIV Beach",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-06-21",
-      "ts": 1782068400,
-      "url": "https://nocovernightclubs.com/events/kromi-liv-beach-sunday-june-21-2026/"
     },
     {
       "artist": "Las Vegas Aviators Vs Round Rock Express",
@@ -2700,6 +2574,132 @@
       "date": "2026-07-16",
       "ts": 1784228400,
       "url": "https://nocovernightclubs.com/events/special-guest-tao-beach-thursday-july-16-2026/"
+    },
+    {
+      "artist": "Dj Shr3d",
+      "venue": "Liquid Pool",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-07-16",
+      "ts": 1784228400,
+      "url": "https://nocovernightclubs.com/events/dj-shr3d-liquid-pool-thursday-july-16-2026/"
+    },
+    {
+      "artist": "Mikey Francis",
+      "venue": "Palm Tree Beach",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-07-16",
+      "ts": 1784228400,
+      "url": "https://nocovernightclubs.com/events/mikey-francis-palm-tree-beach-club-thursday-july-16-2026/"
+    },
+    {
+      "artist": "Barry Manilow",
+      "venue": "The Colosseum at Caesars Palace",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-07-16",
+      "ts": 1784232000,
+      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-thursday-july-16-2026-700-pm/"
+    },
+    {
+      "artist": "Barry Manilow",
+      "venue": "Dolby Live at Park MGM",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-07-16",
+      "ts": 1784232000,
+      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-thursday-july-16-2026-700-pm/"
+    },
+    {
+      "artist": "Barry Manilow",
+      "venue": "Michelob Ultra Arena",
+      "type": "arena",
+      "city": "Las Vegas",
+      "date": "2026-07-16",
+      "ts": 1784232000,
+      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-thursday-july-16-2026-700-pm/"
+    },
+    {
+      "artist": "Barry Manilow",
+      "venue": "Resorts World Theatre",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-07-16",
+      "ts": 1784232000,
+      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-thursday-july-16-2026-700-pm/"
+    },
+    {
+      "artist": "Barry Manilow",
+      "venue": "Encore Theater at Wynn",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-07-16",
+      "ts": 1784232000,
+      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-thursday-july-16-2026-700-pm/"
+    },
+    {
+      "artist": "Barry Manilow",
+      "venue": "BleauLive Theater at Fontainebleau",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-07-16",
+      "ts": 1784232000,
+      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-thursday-july-16-2026-700-pm/"
+    },
+    {
+      "artist": "Barry Manilow",
+      "venue": "Pearl Theater at Palms",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-07-16",
+      "ts": 1784232000,
+      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-thursday-july-16-2026-700-pm/"
+    },
+    {
+      "artist": "Nba Summer League Day 8",
+      "venue": "Las Vegas",
+      "type": "sports",
+      "city": "Las Vegas",
+      "date": "2026-07-16",
+      "ts": 1784232000,
+      "url": "https://concerts.vegas/event/nba-summer-league-day-8-las-vegas-thursday-july-16-2026-tba/"
+    },
+    {
+      "artist": "Special Guest",
+      "venue": "Zouk",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-07-17",
+      "ts": 1784314800,
+      "url": "https://nocovernightclubs.com/events/special-guest-zouk-nightclub-friday-july-17-2026/"
+    },
+    {
+      "artist": "Gryffin",
+      "venue": "XS",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-07-17",
+      "ts": 1784314800,
+      "url": "https://nocovernightclubs.com/events/gryffin-xs-nightclub-friday-july-17-2026/"
+    },
+    {
+      "artist": "Twinsick",
+      "venue": "Omnia",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-07-17",
+      "ts": 1784314800,
+      "url": "https://nocovernightclubs.com/events/twinsick-omnia-nightclub-friday-july-17-2026/"
+    },
+    {
+      "artist": "Dj Irie",
+      "venue": "Marquee",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-07-17",
+      "ts": 1784314800,
+      "url": "https://nocovernightclubs.com/events/dj-irie-marquee-nightclub-friday-july-17-2026/"
     }
   ]
 }
