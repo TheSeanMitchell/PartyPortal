@@ -1,15 +1,6 @@
 {
-  "updated": 1782145600,
+  "updated": 1782160378,
   "events": [
-    {
-      "artist": "Charly Jordan",
-      "venue": "XS",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-06-21",
-      "ts": 1782068400,
-      "url": "https://nocovernightclubs.com/events/charly-jordan-xs-nightclub-sunday-june-21-2026/"
-    },
     {
       "artist": "Justin Credible",
       "venue": "Marquee",
@@ -2700,6 +2691,15 @@
       "date": "2026-07-17",
       "ts": 1784314800,
       "url": "https://nocovernightclubs.com/events/dj-que-liquid-pool-friday-july-17-2026/"
+    },
+    {
+      "artist": "Dj Stretch",
+      "venue": "Palm Tree Beach",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-07-17",
+      "ts": 1784314800,
+      "url": "https://nocovernightclubs.com/events/dj-stretch-palm-tree-beach-club-friday-july-17-2026/"
     }
   ]
 }
