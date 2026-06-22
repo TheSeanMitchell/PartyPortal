@@ -1,5 +1,5 @@
 {
-  "updated": 1782069213,
+  "updated": 1782127979,
   "events": [
     {
       "artist": "Charly Jordan",
@@ -72,24 +72,6 @@
       "date": "2026-06-21",
       "ts": 1782068400,
       "url": "https://nocovernightclubs.com/events/levi-palm-tree-beach-club-sunday-june-21-2026/"
-    },
-    {
-      "artist": "Las Vegas Aviators Vs Round Rock Express",
-      "venue": "Las Vegas",
-      "type": "sports",
-      "city": "Las Vegas",
-      "date": "2026-06-21",
-      "ts": 1782072000,
-      "url": "https://concerts.vegas/event/las-vegas-aviators-vs-round-rock-express-las-vegas-sunday-june-21-2026-1205-pm/"
-    },
-    {
-      "artist": "Las Vegas Aces Vs Golden State Valkyries",
-      "venue": "Las Vegas",
-      "type": "sports",
-      "city": "Las Vegas",
-      "date": "2026-06-21",
-      "ts": 1782072000,
-      "url": "https://concerts.vegas/event/las-vegas-aces-vs-golden-state-valkyries-las-vegas-sunday-june-21-2026-100-pm/"
     },
     {
       "artist": "Justin Credible",
@@ -567,6 +549,15 @@
       "date": "2026-06-27",
       "ts": 1782586800,
       "url": "https://nocovernightclubs.com/events/subtronics-ebc-at-night-saturday-june-27-2026/"
+    },
+    {
+      "artist": "Mike Posner",
+      "venue": "Marquee Dayclub",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-06-27",
+      "ts": 1782586800,
+      "url": "https://nocovernightclubs.com/events/mike-posner-marquee-dayclub-saturday-june-27-2026/"
     },
     {
       "artist": "Deorro",
@@ -2700,6 +2691,15 @@
       "date": "2026-07-17",
       "ts": 1784314800,
       "url": "https://nocovernightclubs.com/events/dj-irie-marquee-nightclub-friday-july-17-2026/"
+    },
+    {
+      "artist": "Special Guest",
+      "venue": "Tao",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-07-17",
+      "ts": 1784314800,
+      "url": "https://nocovernightclubs.com/events/special-guest-tao-nightclub-friday-july-17-2026/"
     }
   ]
 }
