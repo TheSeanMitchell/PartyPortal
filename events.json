@@ -1,5 +1,5 @@
 {
-  "updated": 1782127979,
+  "updated": 1782145600,
   "events": [
     {
       "artist": "Charly Jordan",
@@ -9,69 +9,6 @@
       "date": "2026-06-21",
       "ts": 1782068400,
       "url": "https://nocovernightclubs.com/events/charly-jordan-xs-nightclub-sunday-june-21-2026/"
-    },
-    {
-      "artist": "Deseo",
-      "venue": "Omnia",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-06-21",
-      "ts": 1782068400,
-      "url": "https://nocovernightclubs.com/events/deseo-omnia-nightclub-sunday-june-21-2026/"
-    },
-    {
-      "artist": "Ritual Sundays",
-      "venue": "Tao",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-06-21",
-      "ts": 1782068400,
-      "url": "https://nocovernightclubs.com/events/ritual-sundays-tao-nightclub-sunday-june-21-2026/"
-    },
-    {
-      "artist": "Four Color Zack",
-      "venue": "LIV",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-06-21",
-      "ts": 1782068400,
-      "url": "https://nocovernightclubs.com/events/four-color-zack-liv-nightclub-sunday-june-21-2026/"
-    },
-    {
-      "artist": "Dj Shift",
-      "venue": "Marquee Dayclub",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-06-21",
-      "ts": 1782068400,
-      "url": "https://nocovernightclubs.com/events/dj-shift-marquee-dayclub-sunday-june-21-2026/"
-    },
-    {
-      "artist": "Dj Sourmilk",
-      "venue": "Tao Beach",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-06-21",
-      "ts": 1782068400,
-      "url": "https://nocovernightclubs.com/events/dj-sourmilk-tao-beach-sunday-june-21-2026/"
-    },
-    {
-      "artist": "Eric Remy",
-      "venue": "Liquid Pool",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-06-21",
-      "ts": 1782068400,
-      "url": "https://nocovernightclubs.com/events/eric-remy-liquid-pool-sunday-june-21-2026/"
-    },
-    {
-      "artist": "Levi",
-      "venue": "Palm Tree Beach",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-06-21",
-      "ts": 1782068400,
-      "url": "https://nocovernightclubs.com/events/levi-palm-tree-beach-club-sunday-june-21-2026/"
     },
     {
       "artist": "Justin Credible",
@@ -2700,6 +2637,69 @@
       "date": "2026-07-17",
       "ts": 1784314800,
       "url": "https://nocovernightclubs.com/events/special-guest-tao-nightclub-friday-july-17-2026/"
+    },
+    {
+      "artist": "Kaysan",
+      "venue": "Hakkasan",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-07-17",
+      "ts": 1784314800,
+      "url": "https://nocovernightclubs.com/events/kaysan-hakkasan-nightclub-friday-july-17-2026/"
+    },
+    {
+      "artist": "Ben Sterling",
+      "venue": "LIV",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-07-17",
+      "ts": 1784314800,
+      "url": "https://nocovernightclubs.com/events/ben-sterling-liv-nightclub-friday-july-17-2026/"
+    },
+    {
+      "artist": "Dj Lucky Lou",
+      "venue": "Jewel",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-07-17",
+      "ts": 1784314800,
+      "url": "https://nocovernightclubs.com/events/dj-lucky-lou-jewel-nightclub-friday-july-17-2026/"
+    },
+    {
+      "artist": "Its Murph",
+      "venue": "Encore Beach Club",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-07-17",
+      "ts": 1784314800,
+      "url": "https://nocovernightclubs.com/events/its-murph-encore-beach-club-friday-july-17-2026/"
+    },
+    {
+      "artist": "Proppa",
+      "venue": "Marquee Dayclub",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-07-17",
+      "ts": 1784314800,
+      "url": "https://nocovernightclubs.com/events/proppa-marquee-dayclub-friday-july-17-2026/"
+    },
+    {
+      "artist": "Bijou",
+      "venue": "Tao Beach",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-07-17",
+      "ts": 1784314800,
+      "url": "https://nocovernightclubs.com/events/bijou-tao-beach-friday-july-17-2026/"
+    },
+    {
+      "artist": "Dj Que",
+      "venue": "Liquid Pool",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-07-17",
+      "ts": 1784314800,
+      "url": "https://nocovernightclubs.com/events/dj-que-liquid-pool-friday-july-17-2026/"
     }
   ]
 }
