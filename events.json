@@ -1,24 +1,6 @@
 {
-  "updated": 1782224703,
+  "updated": 1782244139,
   "events": [
-    {
-      "artist": "Justin Credible",
-      "venue": "Marquee",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-06-22",
-      "ts": 1782154800,
-      "url": "https://nocovernightclubs.com/events/justin-credible-marquee-nightclub-monday-june-22-2026/"
-    },
-    {
-      "artist": "Special Guest",
-      "venue": "Marquee Dayclub",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-06-22",
-      "ts": 1782154800,
-      "url": "https://nocovernightclubs.com/events/special-guest-marquee-dayclub-monday-june-22-2026/"
-    },
     {
       "artist": "Justin Credible",
       "venue": "Omnia",
@@ -2700,6 +2682,24 @@
       "date": "2026-07-17",
       "ts": 1784314800,
       "url": "https://nocovernightclubs.com/events/dj-stretch-palm-tree-beach-club-friday-july-17-2026/"
+    },
+    {
+      "artist": "Sommer Ray",
+      "venue": "LIV Beach",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-07-17",
+      "ts": 1784314800,
+      "url": "https://nocovernightclubs.com/events/sommer-ray-liv-beach-friday-july-17-2026/"
+    },
+    {
+      "artist": "Barry Manilow",
+      "venue": "The Colosseum at Caesars Palace",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-07-17",
+      "ts": 1784318400,
+      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-friday-july-17-2026-800-pm/"
     }
   ]
 }
