@@ -1,5 +1,5 @@
 {
-  "updated": 1782244139,
+  "updated": 1782291225,
   "events": [
     {
       "artist": "Justin Credible",
@@ -9,15 +9,6 @@
       "date": "2026-06-23",
       "ts": 1782241200,
       "url": "https://nocovernightclubs.com/events/justin-credible-omnia-nightclub-tuesday-june-23-2026/"
-    },
-    {
-      "artist": "Las Vegas Aces Vs New York Liberty",
-      "venue": "Las Vegas",
-      "type": "sports",
-      "city": "Las Vegas",
-      "date": "2026-06-23",
-      "ts": 1782244800,
-      "url": "https://concerts.vegas/event/las-vegas-aces-vs-new-york-liberty-las-vegas-tuesday-june-23-2026-700-pm/"
     },
     {
       "artist": "Sintra",
@@ -144,15 +135,6 @@
       "date": "2026-06-25",
       "ts": 1782417600,
       "url": "https://concerts.vegas/event/las-vegas-aces-vs-dallas-wings-las-vegas-thursday-june-25-2026-700-pm/"
-    },
-    {
-      "artist": "Ian Asher",
-      "venue": "Zouk",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-06-26",
-      "ts": 1782500400,
-      "url": "https://nocovernightclubs.com/events/ian-asher-zouk-nightclub-friday-june-26-2026-2/"
     },
     {
       "artist": "Loud Luxury",
@@ -369,15 +351,6 @@
       "date": "2026-06-26",
       "ts": 1782504000,
       "url": "https://concerts.vegas/event/micromania-midget-wrestling-las-vegas-friday-june-26-2026-930-pm/"
-    },
-    {
-      "artist": "James Hype",
-      "venue": "Zouk",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-06-27",
-      "ts": 1782586800,
-      "url": "https://nocovernightclubs.com/events/james-hype-zouk-nightclub-saturday-june-27-2026/"
     },
     {
       "artist": "Deadmau5",
@@ -893,15 +866,6 @@
       "url": "https://concerts.vegas/event/micromania-midget-wrestling-las-vegas-thursday-july-2-2026-930-pm/"
     },
     {
-      "artist": "Meduza",
-      "venue": "Zouk",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-07-03",
-      "ts": 1783105200,
-      "url": "https://nocovernightclubs.com/events/meduza-zouk-nightclub-friday-july-3-2026/"
-    },
-    {
       "artist": "Its Murph",
       "venue": "XS",
       "type": "club",
@@ -1089,15 +1053,6 @@
       "date": "2026-07-03",
       "ts": 1783108800,
       "url": "https://concerts.vegas/event/las-vegas-aces-vs-chicago-sky-las-vegas-friday-july-3-2026-700-pm/"
-    },
-    {
-      "artist": "Don Toliver",
-      "venue": "Zouk",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-07-04",
-      "ts": 1783191600,
-      "url": "https://nocovernightclubs.com/events/don-toliver-zouk-nightclub-saturday-july-4-2026/"
     },
     {
       "artist": "Mau P",
@@ -1514,15 +1469,6 @@
       "url": "https://concerts.vegas/event/micromania-midget-wrestling-las-vegas-wednesday-july-8-2026-1000-pm/"
     },
     {
-      "artist": "2 Chainz",
-      "venue": "Zouk",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-07-09",
-      "ts": 1783623600,
-      "url": "https://nocovernightclubs.com/events/2-chainz-zouk-nightclub-thursday-july-9-2026/"
-    },
-    {
       "artist": "Special Guest",
       "venue": "Omnia",
       "type": "club",
@@ -1674,15 +1620,6 @@
       "date": "2026-07-09",
       "ts": 1783627200,
       "url": "https://concerts.vegas/event/las-vegas-aviators-vs-tacoma-rainiers-las-vegas-thursday-july-9-2026-705-pm/"
-    },
-    {
-      "artist": "Special Guest",
-      "venue": "Zouk",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-07-10",
-      "ts": 1783710000,
-      "url": "https://nocovernightclubs.com/events/special-guest-zouk-nightclub-friday-july-10-2026/"
     },
     {
       "artist": "Kaskade",
@@ -1908,15 +1845,6 @@
       "date": "2026-07-10",
       "ts": 1783713600,
       "url": "https://concerts.vegas/event/las-vegas-aviators-vs-tacoma-rainiers-las-vegas-friday-july-10-2026-705-pm/"
-    },
-    {
-      "artist": "Meek Mill",
-      "venue": "Zouk",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-07-11",
-      "ts": 1783796400,
-      "url": "https://nocovernightclubs.com/events/meek-mill-zouk-nightclub-saturday-july-11-2026/"
     },
     {
       "artist": "Nelly",
@@ -2424,15 +2352,6 @@
     },
     {
       "artist": "Special Guest",
-      "venue": "Zouk",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-07-16",
-      "ts": 1784228400,
-      "url": "https://nocovernightclubs.com/events/special-guest-zouk-nightclub-thursday-july-16-2026/"
-    },
-    {
-      "artist": "Special Guest",
       "venue": "Omnia",
       "type": "club",
       "city": "Las Vegas",
@@ -2567,15 +2486,6 @@
       "url": "https://concerts.vegas/event/nba-summer-league-day-8-las-vegas-thursday-july-16-2026-tba/"
     },
     {
-      "artist": "Special Guest",
-      "venue": "Zouk",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-07-17",
-      "ts": 1784314800,
-      "url": "https://nocovernightclubs.com/events/special-guest-zouk-nightclub-friday-july-17-2026/"
-    },
-    {
       "artist": "Gryffin",
       "venue": "XS",
       "type": "club",
@@ -2700,6 +2610,96 @@
       "date": "2026-07-17",
       "ts": 1784318400,
       "url": "https://concerts.vegas/event/barry-manilow-las-vegas-friday-july-17-2026-800-pm/"
+    },
+    {
+      "artist": "Mary J Blige",
+      "venue": "Dolby Live at Park MGM",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-07-17",
+      "ts": 1784318400,
+      "url": "https://concerts.vegas/event/mary-j-blige-las-vegas-friday-july-17-2026-800-pm/"
+    },
+    {
+      "artist": "Barry Manilow",
+      "venue": "Dolby Live at Park MGM",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-07-17",
+      "ts": 1784318400,
+      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-friday-july-17-2026-800-pm/"
+    },
+    {
+      "artist": "Barry Manilow",
+      "venue": "Michelob Ultra Arena",
+      "type": "arena",
+      "city": "Las Vegas",
+      "date": "2026-07-17",
+      "ts": 1784318400,
+      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-friday-july-17-2026-800-pm/"
+    },
+    {
+      "artist": "Barry Manilow",
+      "venue": "Resorts World Theatre",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-07-17",
+      "ts": 1784318400,
+      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-friday-july-17-2026-800-pm/"
+    },
+    {
+      "artist": "Jeezy",
+      "venue": "Bakkt Theater at Planet Hollywood",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-07-17",
+      "ts": 1784318400,
+      "url": "https://concerts.vegas/event/jeezy-las-vegas-friday-july-17-2026-800-pm/"
+    },
+    {
+      "artist": "Barry Manilow",
+      "venue": "Encore Theater at Wynn",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-07-17",
+      "ts": 1784318400,
+      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-friday-july-17-2026-800-pm/"
+    },
+    {
+      "artist": "Barry Manilow",
+      "venue": "BleauLive Theater at Fontainebleau",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-07-17",
+      "ts": 1784318400,
+      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-friday-july-17-2026-800-pm/"
+    },
+    {
+      "artist": "Barry Manilow",
+      "venue": "Pearl Theater at Palms",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-07-17",
+      "ts": 1784318400,
+      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-friday-july-17-2026-800-pm/"
+    },
+    {
+      "artist": "Nba Summer League Day 9",
+      "venue": "Las Vegas",
+      "type": "sports",
+      "city": "Las Vegas",
+      "date": "2026-07-17",
+      "ts": 1784318400,
+      "url": "https://concerts.vegas/event/nba-summer-league-day-9-las-vegas-friday-july-17-2026-tba/"
+    },
+    {
+      "artist": "Odesza",
+      "venue": "XS",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-07-18",
+      "ts": 1784401200,
+      "url": "https://nocovernightclubs.com/events/odesza-xs-nightclub-saturday-july-18-2026/"
     }
   ]
 }
