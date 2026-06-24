@@ -1,15 +1,6 @@
 {
-  "updated": 1782309892,
+  "updated": 1782329159,
   "events": [
-    {
-      "artist": "Justin Credible",
-      "venue": "Omnia",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-06-23",
-      "ts": 1782241200,
-      "url": "https://nocovernightclubs.com/events/justin-credible-omnia-nightclub-tuesday-june-23-2026/"
-    },
     {
       "artist": "Sintra",
       "venue": "Marquee",
@@ -2700,6 +2691,15 @@
       "date": "2026-07-17",
       "ts": 1784318400,
       "url": "https://concerts.vegas/event/mary-j-blige-las-vegas-friday-july-17-2026-800-pm/"
+    },
+    {
+      "artist": "Barry Manilow",
+      "venue": "Dolby Live at Park MGM",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-07-17",
+      "ts": 1784318400,
+      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-friday-july-17-2026-800-pm/"
     }
   ]
 }
