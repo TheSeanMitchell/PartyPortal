@@ -1,51 +1,6 @@
 {
-  "updated": 1782396115,
+  "updated": 1782416681,
   "events": [
-    {
-      "artist": "Sintra",
-      "venue": "Marquee",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-06-24",
-      "ts": 1782327600,
-      "url": "https://nocovernightclubs.com/events/sintra-marquee-nightclub-wednesday-june-24-2026/"
-    },
-    {
-      "artist": "Dj Franzen",
-      "venue": "Hakkasan",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-06-24",
-      "ts": 1782327600,
-      "url": "https://nocovernightclubs.com/events/dj-franzen-hakkasan-nightclub-wednesday-june-24-2026/"
-    },
-    {
-      "artist": "Bunt",
-      "venue": "EBC At Night",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-06-24",
-      "ts": 1782327600,
-      "url": "https://nocovernightclubs.com/events/bunt-ebc-at-night-wednesday-june-24-2026/"
-    },
-    {
-      "artist": "Dj Buza",
-      "venue": "Liquid Pool",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-06-24",
-      "ts": 1782327600,
-      "url": "https://nocovernightclubs.com/events/dj-buza-liquid-pool-wednesday-june-24-2026/"
-    },
-    {
-      "artist": "Special Guest",
-      "venue": "Palm Tree Beach",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-06-24",
-      "ts": 1782327600,
-      "url": "https://nocovernightclubs.com/events/special-guest-palm-tree-beach-club-wednesday-june-24-2026/"
-    },
     {
       "artist": "Special Guest",
       "venue": "Omnia",
@@ -2696,6 +2651,51 @@
       "artist": "Barry Manilow",
       "venue": "Michelob Ultra Arena",
       "type": "arena",
+      "city": "Las Vegas",
+      "date": "2026-07-17",
+      "ts": 1784318400,
+      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-friday-july-17-2026-800-pm/"
+    },
+    {
+      "artist": "Barry Manilow",
+      "venue": "Resorts World Theatre",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-07-17",
+      "ts": 1784318400,
+      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-friday-july-17-2026-800-pm/"
+    },
+    {
+      "artist": "Jeezy",
+      "venue": "Bakkt Theater at Planet Hollywood",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-07-17",
+      "ts": 1784318400,
+      "url": "https://concerts.vegas/event/jeezy-las-vegas-friday-july-17-2026-800-pm/"
+    },
+    {
+      "artist": "Banda World",
+      "venue": "House of Blues",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-07-17",
+      "ts": 1784318400,
+      "url": "https://concerts.vegas/event/banda-world-las-vegas-friday-july-17-2026-900-pm/"
+    },
+    {
+      "artist": "Barry Manilow",
+      "venue": "Encore Theater at Wynn",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-07-17",
+      "ts": 1784318400,
+      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-friday-july-17-2026-800-pm/"
+    },
+    {
+      "artist": "Barry Manilow",
+      "venue": "BleauLive Theater at Fontainebleau",
+      "type": "concert",
       "city": "Las Vegas",
       "date": "2026-07-17",
       "ts": 1784318400,
