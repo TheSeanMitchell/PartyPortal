@@ -1,5 +1,5 @@
 {
-  "updated": 1782329159,
+  "updated": 1782377185,
   "events": [
     {
       "artist": "Sintra",
@@ -45,15 +45,6 @@
       "date": "2026-06-24",
       "ts": 1782327600,
       "url": "https://nocovernightclubs.com/events/special-guest-palm-tree-beach-club-wednesday-june-24-2026/"
-    },
-    {
-      "artist": "New Kids On The Block",
-      "venue": "Dolby Live at Park MGM",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-06-24",
-      "ts": 1782331200,
-      "url": "https://concerts.vegas/event/new-kids-on-the-block-las-vegas-wednesday-june-24-2026-800-pm/"
     },
     {
       "artist": "Special Guest",
@@ -2696,6 +2687,15 @@
       "artist": "Barry Manilow",
       "venue": "Dolby Live at Park MGM",
       "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-07-17",
+      "ts": 1784318400,
+      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-friday-july-17-2026-800-pm/"
+    },
+    {
+      "artist": "Barry Manilow",
+      "venue": "Michelob Ultra Arena",
+      "type": "arena",
       "city": "Las Vegas",
       "date": "2026-07-17",
       "ts": 1784318400,
