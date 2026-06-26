@@ -1,5 +1,5 @@
 {
-  "updated": 1782463761,
+  "updated": 1782482472,
   "events": [
     {
       "artist": "Special Guest",
@@ -252,15 +252,6 @@
       "date": "2026-06-26",
       "ts": 1782504000,
       "url": "https://concerts.vegas/event/josh-gates-las-vegas-friday-june-26-2026-800-pm/"
-    },
-    {
-      "artist": "Cowboys And Angels A 2000s Country Dance Night",
-      "venue": "Brooklyn Bowl",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-06-26",
-      "ts": 1782504000,
-      "url": "https://concerts.vegas/event/cowboys-and-angels-a-2000s-country-dance-night-las-vegas-friday-june-26-2026-900-pm/"
     },
     {
       "artist": "James Hype",
@@ -2700,6 +2691,15 @@
       "date": "2026-07-18",
       "ts": 1784401200,
       "url": "https://nocovernightclubs.com/events/odesza-xs-nightclub-saturday-july-18-2026/"
+    },
+    {
+      "artist": "Deorro",
+      "venue": "Omnia",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-07-18",
+      "ts": 1784401200,
+      "url": "https://nocovernightclubs.com/events/deorro-omnia-nightclub-saturday-july-18-2026/"
     }
   ]
 }
