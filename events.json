@@ -1,5 +1,5 @@
 {
-  "updated": 1782416681,
+  "updated": 1782463761,
   "events": [
     {
       "artist": "Special Guest",
@@ -63,15 +63,6 @@
       "date": "2026-06-25",
       "ts": 1782414000,
       "url": "https://nocovernightclubs.com/events/dj-mondo-palm-tree-beach-club-thursday-june-25-2026/"
-    },
-    {
-      "artist": "Las Vegas Aces Vs Dallas Wings",
-      "venue": "Las Vegas",
-      "type": "sports",
-      "city": "Las Vegas",
-      "date": "2026-06-25",
-      "ts": 1782417600,
-      "url": "https://concerts.vegas/event/las-vegas-aces-vs-dallas-wings-las-vegas-thursday-june-25-2026-700-pm/"
     },
     {
       "artist": "Ian Asher",
@@ -227,15 +218,6 @@
       "url": "https://concerts.vegas/event/asap-rocky-las-vegas-friday-june-26-2026-730-pm/"
     },
     {
-      "artist": "Armor For Sleep",
-      "venue": "The Theater at Virgin Hotels",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-06-26",
-      "ts": 1782504000,
-      "url": "https://concerts.vegas/event/armor-for-sleep-las-vegas-friday-june-26-2026-800-pm/"
-    },
-    {
       "artist": "Josh Gates",
       "venue": "The Theater at Virgin Hotels",
       "type": "concert",
@@ -243,15 +225,6 @@
       "date": "2026-06-26",
       "ts": 1782504000,
       "url": "https://concerts.vegas/event/josh-gates-las-vegas-friday-june-26-2026-800-pm/"
-    },
-    {
-      "artist": "Armor For Sleep",
-      "venue": "24 Oxford at Virgin Hotels",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-06-26",
-      "ts": 1782504000,
-      "url": "https://concerts.vegas/event/armor-for-sleep-las-vegas-friday-june-26-2026-800-pm/"
     },
     {
       "artist": "Josh Gates",
@@ -288,15 +261,6 @@
       "date": "2026-06-26",
       "ts": 1782504000,
       "url": "https://concerts.vegas/event/cowboys-and-angels-a-2000s-country-dance-night-las-vegas-friday-june-26-2026-900-pm/"
-    },
-    {
-      "artist": "Micromania Midget Wrestling",
-      "venue": "Las Vegas",
-      "type": "sports",
-      "city": "Las Vegas",
-      "date": "2026-06-26",
-      "ts": 1782504000,
-      "url": "https://concerts.vegas/event/micromania-midget-wrestling-las-vegas-friday-june-26-2026-930-pm/"
     },
     {
       "artist": "James Hype",
@@ -2700,6 +2664,42 @@
       "date": "2026-07-17",
       "ts": 1784318400,
       "url": "https://concerts.vegas/event/barry-manilow-las-vegas-friday-july-17-2026-800-pm/"
+    },
+    {
+      "artist": "Barry Manilow",
+      "venue": "Pearl Theater at Palms",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-07-17",
+      "ts": 1784318400,
+      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-friday-july-17-2026-800-pm/"
+    },
+    {
+      "artist": "Nba Summer League Day 9",
+      "venue": "Las Vegas",
+      "type": "sports",
+      "city": "Las Vegas",
+      "date": "2026-07-17",
+      "ts": 1784318400,
+      "url": "https://concerts.vegas/event/nba-summer-league-day-9-las-vegas-friday-july-17-2026-tba/"
+    },
+    {
+      "artist": "Legado 7",
+      "venue": "Zouk",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-07-18",
+      "ts": 1784401200,
+      "url": "https://nocovernightclubs.com/events/legado-7-zouk-nightclub-saturday-july-18-2026/"
+    },
+    {
+      "artist": "Odesza",
+      "venue": "XS",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-07-18",
+      "ts": 1784401200,
+      "url": "https://nocovernightclubs.com/events/odesza-xs-nightclub-saturday-july-18-2026/"
     }
   ]
 }
