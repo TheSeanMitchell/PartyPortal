@@ -1,5 +1,5 @@
 {
-  "updated": 1782587005,
+  "updated": 1782635988,
   "events": [
     {
       "artist": "James Hype",
@@ -135,69 +135,6 @@
       "date": "2026-06-27",
       "ts": 1782586800,
       "url": "https://nocovernightclubs.com/events/ayu-afters-ayu-dayclub-saturday-june-27-2026/"
-    },
-    {
-      "artist": "Rosalia",
-      "venue": "T-Mobile Arena",
-      "type": "arena",
-      "city": "Las Vegas",
-      "date": "2026-06-27",
-      "ts": 1782590400,
-      "url": "https://concerts.vegas/event/rosalia-las-vegas-saturday-june-27-2026-830-pm/"
-    },
-    {
-      "artist": "New Kids On The Block",
-      "venue": "Dolby Live at Park MGM",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-06-27",
-      "ts": 1782590400,
-      "url": "https://concerts.vegas/event/new-kids-on-the-block-las-vegas-saturday-june-27-2026-800-pm/"
-    },
-    {
-      "artist": "Jeezy",
-      "venue": "Bakkt Theater at Planet Hollywood",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-06-27",
-      "ts": 1782590400,
-      "url": "https://concerts.vegas/event/jeezy-las-vegas-saturday-june-27-2026-800-pm/"
-    },
-    {
-      "artist": "Club 90s",
-      "venue": "Brooklyn Bowl",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-06-27",
-      "ts": 1782590400,
-      "url": "https://concerts.vegas/event/club-90s-las-vegas-saturday-june-27-2026-900-pm/"
-    },
-    {
-      "artist": "Vegas Knight Hawks Vs San Antonio Gunslingers",
-      "venue": "Las Vegas",
-      "type": "sports",
-      "city": "Henderson",
-      "date": "2026-06-27",
-      "ts": 1782590400,
-      "url": "https://concerts.vegas/event/vegas-knight-hawks-vs-san-antonio-gunslingers-henderson-saturday-june-27-2026-600-pm/"
-    },
-    {
-      "artist": "Hot Wheels Monster Trucks Live Glow N Fire",
-      "venue": "Las Vegas",
-      "type": "sports",
-      "city": "Las Vegas",
-      "date": "2026-06-27",
-      "ts": 1782590400,
-      "url": "https://concerts.vegas/event/hot-wheels-monster-trucks-live-glow-n-fire-las-vegas-saturday-june-27-2026-630-pm/"
-    },
-    {
-      "artist": "Battle For Vegas",
-      "venue": "Las Vegas",
-      "type": "sports",
-      "city": "Las Vegas",
-      "date": "2026-06-27",
-      "ts": 1782590400,
-      "url": "https://concerts.vegas/event/battle-for-vegas-las-vegas-saturday-june-27-2026-800-pm/"
     },
     {
       "artist": "Deseo",
@@ -2700,6 +2637,69 @@
       "date": "2026-07-19",
       "ts": 1784487600,
       "url": "https://nocovernightclubs.com/events/maroda-liv-nightclub-sunday-july-19-2026/"
+    },
+    {
+      "artist": "Vavo",
+      "venue": "Encore Beach Club",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-07-19",
+      "ts": 1784487600,
+      "url": "https://nocovernightclubs.com/events/vavo-encore-beach-club-sunday-july-19-2026/"
+    },
+    {
+      "artist": "Dj Cla",
+      "venue": "Marquee Dayclub",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-07-19",
+      "ts": 1784487600,
+      "url": "https://nocovernightclubs.com/events/dj-cla-marquee-dayclub-sunday-july-19-2026/"
+    },
+    {
+      "artist": "Eric Remy",
+      "venue": "Liquid Pool",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-07-19",
+      "ts": 1784487600,
+      "url": "https://nocovernightclubs.com/events/eric-remy-liquid-pool-sunday-july-19-2026/"
+    },
+    {
+      "artist": "Special Guest",
+      "venue": "Palm Tree Beach",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-07-19",
+      "ts": 1784487600,
+      "url": "https://nocovernightclubs.com/events/special-guest-palm-tree-beach-club-sunday-july-19-2026/"
+    },
+    {
+      "artist": "Westend",
+      "venue": "LIV Beach",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-07-19",
+      "ts": 1784487600,
+      "url": "https://nocovernightclubs.com/events/westend-liv-beach-sunday-july-19-2026/"
+    },
+    {
+      "artist": "Nba Summer League Day 11",
+      "venue": "Las Vegas",
+      "type": "sports",
+      "city": "Las Vegas",
+      "date": "2026-07-19",
+      "ts": 1784491200,
+      "url": "https://concerts.vegas/event/nba-summer-league-day-11-las-vegas-sunday-july-19-2026-tba/"
+    },
+    {
+      "artist": "Dj Vice",
+      "venue": "Marquee",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-07-20",
+      "ts": 1784574000,
+      "url": "https://nocovernightclubs.com/events/dj-vice-marquee-nightclub-monday-july-20-2026/"
     }
   ]
 }
