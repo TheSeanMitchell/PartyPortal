@@ -1,141 +1,6 @@
 {
-  "updated": 1782652448,
+  "updated": 1782673276,
   "events": [
-    {
-      "artist": "James Hype",
-      "venue": "Zouk",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-06-27",
-      "ts": 1782586800,
-      "url": "https://nocovernightclubs.com/events/james-hype-zouk-nightclub-saturday-june-27-2026/"
-    },
-    {
-      "artist": "Deadmau5",
-      "venue": "XS",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-06-27",
-      "ts": 1782586800,
-      "url": "https://nocovernightclubs.com/events/deadmau5-xs-nightclub-saturday-june-27-2026/"
-    },
-    {
-      "artist": "Dj Pauly D",
-      "venue": "Omnia",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-06-27",
-      "ts": 1782586800,
-      "url": "https://nocovernightclubs.com/events/dj-pauly-d-omnia-nightclub-saturday-june-27-2026/"
-    },
-    {
-      "artist": "Lost Frequencies",
-      "venue": "Marquee",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-06-27",
-      "ts": 1782586800,
-      "url": "https://nocovernightclubs.com/events/lost-frequencies-marquee-nightclub-saturday-june-27-2026/"
-    },
-    {
-      "artist": "Greg Lopez",
-      "venue": "Tao",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-06-27",
-      "ts": 1782586800,
-      "url": "https://nocovernightclubs.com/events/greg-lopez-tao-nightclub-saturday-june-27-2026/"
-    },
-    {
-      "artist": "Dj Boof",
-      "venue": "Hakkasan",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-06-27",
-      "ts": 1782586800,
-      "url": "https://nocovernightclubs.com/events/dj-boof-hakkasan-nightclub-saturday-june-27-2026/"
-    },
-    {
-      "artist": "Gordo",
-      "venue": "LIV",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-06-27",
-      "ts": 1782586800,
-      "url": "https://nocovernightclubs.com/events/gordo-liv-nightclub-saturday-june-27-2026/"
-    },
-    {
-      "artist": "Dj Nova",
-      "venue": "Jewel",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-06-27",
-      "ts": 1782586800,
-      "url": "https://nocovernightclubs.com/events/dj-nova-jewel-nightclub-saturday-june-27-2026/"
-    },
-    {
-      "artist": "Marshmello",
-      "venue": "Encore Beach Club",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-06-27",
-      "ts": 1782586800,
-      "url": "https://nocovernightclubs.com/events/marshmello-encore-beach-club-saturday-june-27-2026/"
-    },
-    {
-      "artist": "Subtronics",
-      "venue": "EBC At Night",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-06-27",
-      "ts": 1782586800,
-      "url": "https://nocovernightclubs.com/events/subtronics-ebc-at-night-saturday-june-27-2026/"
-    },
-    {
-      "artist": "Mike Posner",
-      "venue": "Marquee Dayclub",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-06-27",
-      "ts": 1782586800,
-      "url": "https://nocovernightclubs.com/events/mike-posner-marquee-dayclub-saturday-june-27-2026/"
-    },
-    {
-      "artist": "Deorro",
-      "venue": "Tao Beach",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-06-27",
-      "ts": 1782586800,
-      "url": "https://nocovernightclubs.com/events/deorro-tao-beach-saturday-june-27-2026/"
-    },
-    {
-      "artist": "Tiesto",
-      "venue": "Palm Tree Beach",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-06-27",
-      "ts": 1782586800,
-      "url": "https://nocovernightclubs.com/events/tiesto-palm-tree-beach-club-saturday-june-27-2026/"
-    },
-    {
-      "artist": "Cloonee",
-      "venue": "LIV Beach",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-06-27",
-      "ts": 1782586800,
-      "url": "https://nocovernightclubs.com/events/cloonee-liv-beach-saturday-june-27-2026/"
-    },
-    {
-      "artist": "Ayu Afters",
-      "venue": "AYU Dayclub",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-06-27",
-      "ts": 1782586800,
-      "url": "https://nocovernightclubs.com/events/ayu-afters-ayu-dayclub-saturday-june-27-2026/"
-    },
     {
       "artist": "Deseo",
       "venue": "Omnia",
@@ -216,69 +81,6 @@
       "date": "2026-06-28",
       "ts": 1782673200,
       "url": "https://nocovernightclubs.com/events/special-guest-liv-beach-sunday-june-28-2026/"
-    },
-    {
-      "artist": "Tyga",
-      "venue": "The Colosseum at Caesars Palace",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-06-28",
-      "ts": 1782676800,
-      "url": "https://concerts.vegas/event/tyga-las-vegas-sunday-june-28-2026-1100-am/"
-    },
-    {
-      "artist": "Tyga",
-      "venue": "Dolby Live at Park MGM",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-06-28",
-      "ts": 1782676800,
-      "url": "https://concerts.vegas/event/tyga-las-vegas-sunday-june-28-2026-1100-am/"
-    },
-    {
-      "artist": "Tyga",
-      "venue": "Michelob Ultra Arena",
-      "type": "arena",
-      "city": "Las Vegas",
-      "date": "2026-06-28",
-      "ts": 1782676800,
-      "url": "https://concerts.vegas/event/tyga-las-vegas-sunday-june-28-2026-1100-am/"
-    },
-    {
-      "artist": "Tyga",
-      "venue": "Resorts World Theatre",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-06-28",
-      "ts": 1782676800,
-      "url": "https://concerts.vegas/event/tyga-las-vegas-sunday-june-28-2026-1100-am/"
-    },
-    {
-      "artist": "Tyga",
-      "venue": "Encore Theater at Wynn",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-06-28",
-      "ts": 1782676800,
-      "url": "https://concerts.vegas/event/tyga-las-vegas-sunday-june-28-2026-1100-am/"
-    },
-    {
-      "artist": "Tyga",
-      "venue": "BleauLive Theater at Fontainebleau",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-06-28",
-      "ts": 1782676800,
-      "url": "https://concerts.vegas/event/tyga-las-vegas-sunday-june-28-2026-1100-am/"
-    },
-    {
-      "artist": "Tyga",
-      "venue": "Pearl Theater at Palms",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-06-28",
-      "ts": 1782676800,
-      "url": "https://concerts.vegas/event/tyga-las-vegas-sunday-june-28-2026-1100-am/"
     },
     {
       "artist": "Hot Wheels Monster Trucks Live Glow N Fire",
@@ -2700,6 +2502,204 @@
       "date": "2026-07-20",
       "ts": 1784574000,
       "url": "https://nocovernightclubs.com/events/dj-vice-marquee-nightclub-monday-july-20-2026/"
+    },
+    {
+      "artist": "Special Guest",
+      "venue": "Marquee Dayclub",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-07-20",
+      "ts": 1784574000,
+      "url": "https://nocovernightclubs.com/events/special-guest-marquee-dayclub-monday-july-20-2026/"
+    },
+    {
+      "artist": "Mikey Francis",
+      "venue": "Omnia",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-07-21",
+      "ts": 1784660400,
+      "url": "https://nocovernightclubs.com/events/mikey-francis-omnia-nightclub-tuesday-july-21-2026/"
+    },
+    {
+      "artist": "Las Vegas Aviators Vs El Paso Chihuahuas",
+      "venue": "Las Vegas",
+      "type": "sports",
+      "city": "Las Vegas",
+      "date": "2026-07-21",
+      "ts": 1784664000,
+      "url": "https://concerts.vegas/event/las-vegas-aviators-vs-el-paso-chihuahuas-las-vegas-tuesday-july-21-2026-705-pm/"
+    },
+    {
+      "artist": "Dmtri",
+      "venue": "Marquee",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-07-22",
+      "ts": 1784746800,
+      "url": "https://nocovernightclubs.com/events/dmtri-marquee-nightclub-wednesday-july-22-2026/"
+    },
+    {
+      "artist": "Dj Franzen",
+      "venue": "Hakkasan",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-07-22",
+      "ts": 1784746800,
+      "url": "https://nocovernightclubs.com/events/dj-franzen-hakkasan-nightclub-wednesday-july-22-2026/"
+    },
+    {
+      "artist": "Dillon Francis",
+      "venue": "EBC At Night",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-07-22",
+      "ts": 1784746800,
+      "url": "https://nocovernightclubs.com/events/dillon-francis-ebc-at-night-wednesday-july-22-2026/"
+    },
+    {
+      "artist": "Dj Buza",
+      "venue": "Liquid Pool",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-07-22",
+      "ts": 1784746800,
+      "url": "https://nocovernightclubs.com/events/dj-buza-liquid-pool-wednesday-july-22-2026/"
+    },
+    {
+      "artist": "Special Guest",
+      "venue": "Palm Tree Beach",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-07-22",
+      "ts": 1784746800,
+      "url": "https://nocovernightclubs.com/events/special-guest-palm-tree-beach-club-wednesday-july-22-2026/"
+    },
+    {
+      "artist": "Las Vegas Aviators Vs El Paso Chihuahuas",
+      "venue": "Las Vegas",
+      "type": "sports",
+      "city": "Las Vegas",
+      "date": "2026-07-22",
+      "ts": 1784750400,
+      "url": "https://concerts.vegas/event/las-vegas-aviators-vs-el-paso-chihuahuas-las-vegas-wednesday-july-22-2026-705-pm/"
+    },
+    {
+      "artist": "Micromania Midget Wrestling",
+      "venue": "Las Vegas",
+      "type": "sports",
+      "city": "Las Vegas",
+      "date": "2026-07-22",
+      "ts": 1784750400,
+      "url": "https://concerts.vegas/event/micromania-midget-wrestling-las-vegas-wednesday-july-22-2026-930-pm/"
+    },
+    {
+      "artist": "Special Guest",
+      "venue": "Omnia",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-07-23",
+      "ts": 1784833200,
+      "url": "https://nocovernightclubs.com/events/special-guest-omnia-nightclub-thursday-july-23-2026/"
+    },
+    {
+      "artist": "Justin Credible",
+      "venue": "Tao",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-07-23",
+      "ts": 1784833200,
+      "url": "https://nocovernightclubs.com/events/justin-credible-tao-nightclub-thursday-july-23-2026/"
+    },
+    {
+      "artist": "Niiko X Swae",
+      "venue": "Hakkasan",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-07-23",
+      "ts": 1784833200,
+      "url": "https://nocovernightclubs.com/events/niiko-x-swae-hakkasan-nightclub-thursday-july-23-2026/"
+    },
+    {
+      "artist": "Stephi K",
+      "venue": "Marquee Dayclub",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-07-23",
+      "ts": 1784833200,
+      "url": "https://nocovernightclubs.com/events/stephi-k-marquee-dayclub-thursday-july-23-2026/"
+    },
+    {
+      "artist": "Special Guest",
+      "venue": "Tao Beach",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-07-23",
+      "ts": 1784833200,
+      "url": "https://nocovernightclubs.com/events/special-guest-tao-beach-thursday-july-23-2026/"
+    },
+    {
+      "artist": "Dj Shr3d",
+      "venue": "Liquid Pool",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-07-23",
+      "ts": 1784833200,
+      "url": "https://nocovernightclubs.com/events/dj-shr3d-liquid-pool-thursday-july-23-2026/"
+    },
+    {
+      "artist": "Dj Mondo",
+      "venue": "Palm Tree Beach",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-07-23",
+      "ts": 1784833200,
+      "url": "https://nocovernightclubs.com/events/dj-mondo-palm-tree-beach-club-thursday-july-23-2026/"
+    },
+    {
+      "artist": "Las Vegas Aviators Vs El Paso Chihuahuas",
+      "venue": "Las Vegas",
+      "type": "sports",
+      "city": "Las Vegas",
+      "date": "2026-07-23",
+      "ts": 1784836800,
+      "url": "https://concerts.vegas/event/las-vegas-aviators-vs-el-paso-chihuahuas-las-vegas-thursday-july-23-2026-705-pm/"
+    },
+    {
+      "artist": "Micromania Midget Wrestling",
+      "venue": "Las Vegas",
+      "type": "sports",
+      "city": "Las Vegas",
+      "date": "2026-07-23",
+      "ts": 1784836800,
+      "url": "https://concerts.vegas/event/micromania-midget-wrestling-las-vegas-thursday-july-23-2026-930-pm/"
+    },
+    {
+      "artist": "Alison Wonderland",
+      "venue": "Zouk",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-07-24",
+      "ts": 1784919600,
+      "url": "https://nocovernightclubs.com/events/alison-wonderland-zouk-nightclub-friday-july-24-2026/"
+    },
+    {
+      "artist": "Deadmu5",
+      "venue": "XS",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-07-24",
+      "ts": 1784919600,
+      "url": "https://nocovernightclubs.com/events/deadmu5-xs-nightclub-friday-july-24-2026/"
+    },
+    {
+      "artist": "Niiko X Swae",
+      "venue": "Omnia",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-07-24",
+      "ts": 1784919600,
+      "url": "https://nocovernightclubs.com/events/niiko-x-swae-omnia-nightclub-friday-july-24-2026/"
     }
   ]
 }
