@@ -1,5 +1,5 @@
 {
-  "updated": 1782673276,
+  "updated": 1782728420,
   "events": [
     {
       "artist": "Deseo",
@@ -81,24 +81,6 @@
       "date": "2026-06-28",
       "ts": 1782673200,
       "url": "https://nocovernightclubs.com/events/special-guest-liv-beach-sunday-june-28-2026/"
-    },
-    {
-      "artist": "Hot Wheels Monster Trucks Live Glow N Fire",
-      "venue": "Las Vegas",
-      "type": "sports",
-      "city": "Las Vegas",
-      "date": "2026-06-28",
-      "ts": 1782676800,
-      "url": "https://concerts.vegas/event/hot-wheels-monster-trucks-live-glow-n-fire-las-vegas-sunday-june-28-2026-130-pm/"
-    },
-    {
-      "artist": "Zuffa Boxing 08 De Los Santos Vs Valenzuela",
-      "venue": "Las Vegas",
-      "type": "sports",
-      "city": "Las Vegas",
-      "date": "2026-06-28",
-      "ts": 1782676800,
-      "url": "https://concerts.vegas/event/zuffa-boxing-08-de-los-santos-vs-valenzuela-las-vegas-sunday-june-28-2026-300-pm/"
     },
     {
       "artist": "Dj Sourmilk",
@@ -2700,6 +2682,24 @@
       "date": "2026-07-24",
       "ts": 1784919600,
       "url": "https://nocovernightclubs.com/events/niiko-x-swae-omnia-nightclub-friday-july-24-2026/"
+    },
+    {
+      "artist": "Jonas Blue",
+      "venue": "Marquee",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-07-24",
+      "ts": 1784919600,
+      "url": "https://nocovernightclubs.com/events/jonas-blue-marquee-nightclub-friday-july-24-2026/"
+    },
+    {
+      "artist": "Dj Shift",
+      "venue": "Tao",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-07-24",
+      "ts": 1784919600,
+      "url": "https://nocovernightclubs.com/events/dj-shift-tao-nightclub-friday-july-24-2026/"
     }
   ]
 }
