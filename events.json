@@ -1,5 +1,5 @@
 {
-  "updated": 1782762116,
+  "updated": 1782809732,
   "events": [
     {
       "artist": "Dj Sourmilk",
@@ -315,24 +315,6 @@
       "date": "2026-07-03",
       "ts": 1783108800,
       "url": "https://concerts.vegas/event/don-toliver-las-vegas-friday-july-3-2026-730-pm/"
-    },
-    {
-      "artist": "Huapango Fest Privilegio",
-      "venue": "The Theater at Virgin Hotels",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-07-03",
-      "ts": 1783108800,
-      "url": "https://concerts.vegas/event/huapango-fest-privilegio-las-vegas-friday-july-3-2026-900-pm/"
-    },
-    {
-      "artist": "Huapango Fest Privilegio",
-      "venue": "24 Oxford at Virgin Hotels",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-07-03",
-      "ts": 1783108800,
-      "url": "https://concerts.vegas/event/huapango-fest-privilegio-las-vegas-friday-july-3-2026-900-pm/"
     },
     {
       "artist": "Joyas Prestadas Jenni Rivera Tribute",
@@ -2700,6 +2682,24 @@
       "date": "2026-07-24",
       "ts": 1784919600,
       "url": "https://nocovernightclubs.com/events/sam-feldt-liv-beach-friday-july-24-2026/"
+    },
+    {
+      "artist": "Jeezy",
+      "venue": "Bakkt Theater at Planet Hollywood",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-07-24",
+      "ts": 1784923200,
+      "url": "https://concerts.vegas/event/jeezy-las-vegas-friday-july-24-2026-800-pm/"
+    },
+    {
+      "artist": "Jinjer",
+      "venue": "House of Blues",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-07-24",
+      "ts": 1784923200,
+      "url": "https://concerts.vegas/event/jinjer-las-vegas-friday-july-24-2026-600-pm/"
     }
   ]
 }
