@@ -1,51 +1,6 @@
 {
-  "updated": 1783087332,
+  "updated": 1783106458,
   "events": [
-    {
-      "artist": "Special Guest",
-      "venue": "Omnia",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-07-02",
-      "ts": 1783018800,
-      "url": "https://nocovernightclubs.com/events/special-guest-omnia-nightclub-thursday-july-2-2026/"
-    },
-    {
-      "artist": "Dj E Rock",
-      "venue": "Tao",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-07-02",
-      "ts": 1783018800,
-      "url": "https://nocovernightclubs.com/events/dj-e-rock-tao-nightclub-thursday-july-2-2026/"
-    },
-    {
-      "artist": "Dj Nova",
-      "venue": "Marquee Dayclub",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-07-02",
-      "ts": 1783018800,
-      "url": "https://nocovernightclubs.com/events/dj-nova-marquee-dayclub-thursday-july-2-2026/"
-    },
-    {
-      "artist": "Special Guest",
-      "venue": "Tao Beach",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-07-02",
-      "ts": 1783018800,
-      "url": "https://nocovernightclubs.com/events/special-guest-tao-beach-thursday-july-2-2026/"
-    },
-    {
-      "artist": "Dj Shr3d",
-      "venue": "Liquid Pool",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-07-02",
-      "ts": 1783018800,
-      "url": "https://nocovernightclubs.com/events/dj-shr3d-liquid-pool-thursday-july-2-2026/"
-    },
     {
       "artist": "Meduza",
       "venue": "Zouk",
@@ -452,15 +407,6 @@
       "url": "https://concerts.vegas/event/micromania-midget-wrestling-las-vegas-saturday-july-4-2026-930-pm/"
     },
     {
-      "artist": "Loud Luxury",
-      "venue": "XS",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-07-05",
-      "ts": 1783278000,
-      "url": "https://nocovernightclubs.com/events/loud-luxury-xs-nightclub-sunday-july-5-2026/"
-    },
-    {
       "artist": "Deseo",
       "venue": "Omnia",
       "type": "club",
@@ -504,6 +450,15 @@
       "date": "2026-07-05",
       "ts": 1783278000,
       "url": "https://nocovernightclubs.com/events/party-pupils-marquee-dayclub-sunday-july-5-2026/"
+    },
+    {
+      "artist": "Bigxthaplug",
+      "venue": "Tao Beach",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-07-05",
+      "ts": 1783278000,
+      "url": "https://nocovernightclubs.com/events/bigxthaplug-tao-beach-sunday-july-5-2026/"
     },
     {
       "artist": "Eric Remy",
@@ -1325,15 +1280,6 @@
       "url": "https://concerts.vegas/event/las-vegas-aviators-vs-tacoma-rainiers-las-vegas-saturday-july-11-2026-705-pm/"
     },
     {
-      "artist": "Diplo",
-      "venue": "XS",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-07-12",
-      "ts": 1783882800,
-      "url": "https://nocovernightclubs.com/events/diplo-xs-nightclub-sunday-july-12-2026/"
-    },
-    {
       "artist": "Ritual Sundays",
       "venue": "Tao",
       "type": "club",
@@ -2153,15 +2099,6 @@
       "url": "https://concerts.vegas/event/nba-summer-league-day-10-las-vegas-saturday-july-18-2026-tba/"
     },
     {
-      "artist": "Bunt",
-      "venue": "XS",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-07-19",
-      "ts": 1784487600,
-      "url": "https://nocovernightclubs.com/events/bunt-xs-nightclub-sunday-july-19-2026/"
-    },
-    {
       "artist": "Deseo",
       "venue": "Omnia",
       "type": "club",
@@ -2700,6 +2637,69 @@
       "date": "2026-07-25",
       "ts": 1785006000,
       "url": "https://nocovernightclubs.com/events/elderbrook-palm-tree-beach-club-saturday-july-25-2026/"
+    },
+    {
+      "artist": "50 Cent",
+      "venue": "LIV Beach",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-07-25",
+      "ts": 1785006000,
+      "url": "https://nocovernightclubs.com/events/50-cent-liv-beach-saturday-july-25-2026/"
+    },
+    {
+      "artist": "Ayu Afters",
+      "venue": "AYU Dayclub",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-07-25",
+      "ts": 1785006000,
+      "url": "https://nocovernightclubs.com/events/ayu-afters-ayu-dayclub-saturday-july-25-2026/"
+    },
+    {
+      "artist": "Koe Wetzel And Ole 60",
+      "venue": "The Theater at Virgin Hotels",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-07-25",
+      "ts": 1785009600,
+      "url": "https://concerts.vegas/event/koe-wetzel-and-ole-60-las-vegas-saturday-july-25-2026-645-pm/"
+    },
+    {
+      "artist": "Koe Wetzel And Ole 60",
+      "venue": "24 Oxford at Virgin Hotels",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-07-25",
+      "ts": 1785009600,
+      "url": "https://concerts.vegas/event/koe-wetzel-and-ole-60-las-vegas-saturday-july-25-2026-645-pm/"
+    },
+    {
+      "artist": "Jeezy",
+      "venue": "Bakkt Theater at Planet Hollywood",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-07-25",
+      "ts": 1785009600,
+      "url": "https://concerts.vegas/event/jeezy-las-vegas-saturday-july-25-2026-800-pm/"
+    },
+    {
+      "artist": "One Drop Redemption Tribute To Bob Marley",
+      "venue": "House of Blues",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-07-25",
+      "ts": 1785009600,
+      "url": "https://concerts.vegas/event/one-drop-redemption-tribute-to-bob-marley-las-vegas-saturday-july-25-2026-730-pm/"
+    },
+    {
+      "artist": "Monster Jam",
+      "venue": "Las Vegas",
+      "type": "sports",
+      "city": "Las Vegas",
+      "date": "2026-07-25",
+      "ts": 1785009600,
+      "url": "https://concerts.vegas/event/monster-jam-las-vegas-saturday-july-25-2026-600-pm/"
     }
   ]
 }
