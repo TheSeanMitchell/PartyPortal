@@ -1,5 +1,5 @@
 {
-  "updated": 1783070230,
+  "updated": 1783087332,
   "events": [
     {
       "artist": "Special Guest",
@@ -207,15 +207,6 @@
       "date": "2026-07-03",
       "ts": 1783108800,
       "url": "https://concerts.vegas/event/don-toliver-las-vegas-friday-july-3-2026-730-pm/"
-    },
-    {
-      "artist": "Joyas Prestadas Jenni Rivera Tribute",
-      "venue": "House of Blues",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-07-03",
-      "ts": 1783108800,
-      "url": "https://concerts.vegas/event/joyas-prestadas-jenni-rivera-tribute-las-vegas-friday-july-3-2026-800-pm/"
     },
     {
       "artist": "Las Vegas Aces Vs Chicago Sky",
@@ -2700,6 +2691,15 @@
       "date": "2026-07-25",
       "ts": 1785006000,
       "url": "https://nocovernightclubs.com/events/kid-conrad-liquid-pool-saturday-july-25-2026/"
+    },
+    {
+      "artist": "Elderbrook",
+      "venue": "Palm Tree Beach",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-07-25",
+      "ts": 1785006000,
+      "url": "https://nocovernightclubs.com/events/elderbrook-palm-tree-beach-club-saturday-july-25-2026/"
     }
   ]
 }
