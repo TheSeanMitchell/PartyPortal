@@ -1,5 +1,5 @@
 {
-  "updated": 1783106458,
+  "updated": 1783154149,
   "events": [
     {
       "artist": "Meduza",
@@ -135,42 +135,6 @@
       "date": "2026-07-03",
       "ts": 1783105200,
       "url": "https://nocovernightclubs.com/events/dombresky-liv-beach-friday-july-3-2026/"
-    },
-    {
-      "artist": "Las Vegas Aces Vs Chicago Sky",
-      "venue": "T-Mobile Arena",
-      "type": "sports",
-      "city": "Las Vegas",
-      "date": "2026-07-03",
-      "ts": 1783108800,
-      "url": "https://concerts.vegas/event/las-vegas-aces-vs-chicago-sky-las-vegas-friday-july-3-2026-700-pm/"
-    },
-    {
-      "artist": "New Kids On The Block",
-      "venue": "Dolby Live at Park MGM",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-07-03",
-      "ts": 1783108800,
-      "url": "https://concerts.vegas/event/new-kids-on-the-block-las-vegas-friday-july-3-2026-800-pm/"
-    },
-    {
-      "artist": "Don Toliver",
-      "venue": "MGM Grand Garden Arena",
-      "type": "arena",
-      "city": "Las Vegas",
-      "date": "2026-07-03",
-      "ts": 1783108800,
-      "url": "https://concerts.vegas/event/don-toliver-las-vegas-friday-july-3-2026-730-pm/"
-    },
-    {
-      "artist": "Las Vegas Aces Vs Chicago Sky",
-      "venue": "Las Vegas",
-      "type": "sports",
-      "city": "Las Vegas",
-      "date": "2026-07-03",
-      "ts": 1783108800,
-      "url": "https://concerts.vegas/event/las-vegas-aces-vs-chicago-sky-las-vegas-friday-july-3-2026-700-pm/"
     },
     {
       "artist": "Don Toliver",
@@ -396,15 +360,6 @@
       "date": "2026-07-04",
       "ts": 1783195200,
       "url": "https://concerts.vegas/event/las-vegas-lights-fc-vs-el-paso-locomotive-fc-las-vegas-saturday-july-4-2026-730-pm/"
-    },
-    {
-      "artist": "Micromania Midget Wrestling",
-      "venue": "Las Vegas",
-      "type": "sports",
-      "city": "Las Vegas",
-      "date": "2026-07-04",
-      "ts": 1783195200,
-      "url": "https://concerts.vegas/event/micromania-midget-wrestling-las-vegas-saturday-july-4-2026-930-pm/"
     },
     {
       "artist": "Deseo",
@@ -1305,6 +1260,15 @@
       "date": "2026-07-12",
       "ts": 1783882800,
       "url": "https://nocovernightclubs.com/events/crespo-marquee-dayclub-sunday-july-12-2026/"
+    },
+    {
+      "artist": "Murda Beatz",
+      "venue": "Tao Beach",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-07-12",
+      "ts": 1783882800,
+      "url": "https://nocovernightclubs.com/events/murda-beatz-tao-beach-sunday-july-12-2026/"
     },
     {
       "artist": "Eric Remy",
@@ -2700,6 +2664,42 @@
       "date": "2026-07-25",
       "ts": 1785009600,
       "url": "https://concerts.vegas/event/monster-jam-las-vegas-saturday-july-25-2026-600-pm/"
+    },
+    {
+      "artist": "Vegas Knight Hawks Vs Northern Arizona Wranglers",
+      "venue": "Las Vegas",
+      "type": "sports",
+      "city": "Henderson",
+      "date": "2026-07-25",
+      "ts": 1785009600,
+      "url": "https://concerts.vegas/event/vegas-knight-hawks-vs-northern-arizona-wranglers-henderson-saturday-july-25-2026-600-pm/"
+    },
+    {
+      "artist": "Las Vegas Rockers Arena Football",
+      "venue": "Las Vegas",
+      "type": "sports",
+      "city": "Las Vegas",
+      "date": "2026-07-25",
+      "ts": 1785009600,
+      "url": "https://concerts.vegas/event/las-vegas-rockers-arena-football-las-vegas-saturday-july-25-2026-630-pm/"
+    },
+    {
+      "artist": "Las Vegas Aviators Vs El Paso Chihuahuas",
+      "venue": "Las Vegas",
+      "type": "sports",
+      "city": "Las Vegas",
+      "date": "2026-07-25",
+      "ts": 1785009600,
+      "url": "https://concerts.vegas/event/las-vegas-aviators-vs-el-paso-chihuahuas-las-vegas-saturday-july-25-2026-705-pm/"
+    },
+    {
+      "artist": "Deseo",
+      "venue": "Omnia",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-07-26",
+      "ts": 1785092400,
+      "url": "https://nocovernightclubs.com/events/deseo-omnia-nightclub-sunday-july-26-2026/"
     }
   ]
 }
