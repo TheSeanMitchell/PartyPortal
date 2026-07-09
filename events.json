@@ -1,42 +1,6 @@
 {
-  "updated": 1783607553,
+  "updated": 1783626606,
   "events": [
-    {
-      "artist": "Dj Franzen",
-      "venue": "Hakkasan",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-07-08",
-      "ts": 1783537200,
-      "url": "https://nocovernightclubs.com/events/dj-franzen-hakkasan-nightclub-wednesday-july-8-2026/"
-    },
-    {
-      "artist": "Odd Mob",
-      "venue": "EBC At Night",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-07-08",
-      "ts": 1783537200,
-      "url": "https://nocovernightclubs.com/events/odd-mob-ebc-at-night-wednesday-july-8-2026/"
-    },
-    {
-      "artist": "Dj Buza",
-      "venue": "Liquid Pool",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-07-08",
-      "ts": 1783537200,
-      "url": "https://nocovernightclubs.com/events/dj-buza-liquid-pool-wednesday-july-8-2026/"
-    },
-    {
-      "artist": "Special Guest",
-      "venue": "Palm Tree Beach",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-07-08",
-      "ts": 1783537200,
-      "url": "https://nocovernightclubs.com/events/special-guest-palm-tree-beach-club-wednesday-july-8-2026/"
-    },
     {
       "artist": "2 Chainz",
       "venue": "Zouk",
@@ -117,69 +81,6 @@
       "date": "2026-07-09",
       "ts": 1783623600,
       "url": "https://nocovernightclubs.com/events/dj-mondo-palm-tree-beach-club-thursday-july-9-2026/"
-    },
-    {
-      "artist": "Barry Manilow",
-      "venue": "The Colosseum at Caesars Palace",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-07-09",
-      "ts": 1783627200,
-      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-thursday-july-9-2026-700-pm/"
-    },
-    {
-      "artist": "Barry Manilow",
-      "venue": "Dolby Live at Park MGM",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-07-09",
-      "ts": 1783627200,
-      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-thursday-july-9-2026-700-pm/"
-    },
-    {
-      "artist": "Barry Manilow",
-      "venue": "Michelob Ultra Arena",
-      "type": "arena",
-      "city": "Las Vegas",
-      "date": "2026-07-09",
-      "ts": 1783627200,
-      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-thursday-july-9-2026-700-pm/"
-    },
-    {
-      "artist": "Barry Manilow",
-      "venue": "Resorts World Theatre",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-07-09",
-      "ts": 1783627200,
-      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-thursday-july-9-2026-700-pm/"
-    },
-    {
-      "artist": "Barry Manilow",
-      "venue": "Encore Theater at Wynn",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-07-09",
-      "ts": 1783627200,
-      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-thursday-july-9-2026-700-pm/"
-    },
-    {
-      "artist": "Barry Manilow",
-      "venue": "BleauLive Theater at Fontainebleau",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-07-09",
-      "ts": 1783627200,
-      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-thursday-july-9-2026-700-pm/"
-    },
-    {
-      "artist": "Barry Manilow",
-      "venue": "Pearl Theater at Palms",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-07-09",
-      "ts": 1783627200,
-      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-thursday-july-9-2026-700-pm/"
     },
     {
       "artist": "Las Vegas Aviators Vs Tacoma Rainiers",
@@ -639,6 +540,15 @@
       "date": "2026-07-11",
       "ts": 1783800000,
       "url": "https://concerts.vegas/event/jeezy-las-vegas-saturday-july-11-2026-800-pm/"
+    },
+    {
+      "artist": "La Mafia",
+      "venue": "House of Blues",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-07-11",
+      "ts": 1783800000,
+      "url": "https://concerts.vegas/event/la-mafia-las-vegas-saturday-july-11-2026-700-pm/"
     },
     {
       "artist": "Barry Manilow",
@@ -2700,6 +2610,96 @@
       "date": "2026-08-01",
       "ts": 1785610800,
       "url": "https://nocovernightclubs.com/events/fabolous-hakkasan-nightclub-saturday-august-1-2026/"
+    },
+    {
+      "artist": "Dj Bonics",
+      "venue": "Hakkasan",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-08-01",
+      "ts": 1785610800,
+      "url": "https://nocovernightclubs.com/events/dj-bonics-hakkasan-nightclub-saturday-august-1-2026/"
+    },
+    {
+      "artist": "Sidepiece",
+      "venue": "LIV",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-08-01",
+      "ts": 1785610800,
+      "url": "https://nocovernightclubs.com/events/sidepiece-liv-nightclub-saturday-august-1-2026/"
+    },
+    {
+      "artist": "Dj Shift",
+      "venue": "Jewel",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-08-01",
+      "ts": 1785610800,
+      "url": "https://nocovernightclubs.com/events/dj-shift-jewel-nightclub-saturday-august-1-2026/"
+    },
+    {
+      "artist": "Diplo",
+      "venue": "Encore Beach Club",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-08-01",
+      "ts": 1785610800,
+      "url": "https://nocovernightclubs.com/events/diplo-encore-beach-club-saturday-august-1-2026/"
+    },
+    {
+      "artist": "Diplo",
+      "venue": "EBC At Night",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-08-01",
+      "ts": 1785610800,
+      "url": "https://nocovernightclubs.com/events/diplo-ebc-at-night-saturday-august-1-2026/"
+    },
+    {
+      "artist": "Lost Frequencies",
+      "venue": "Marquee Dayclub",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-08-01",
+      "ts": 1785610800,
+      "url": "https://nocovernightclubs.com/events/lost-frequencies-marquee-dayclub-saturday-august-1-2026/"
+    },
+    {
+      "artist": "Dj Pauly D",
+      "venue": "Tao Beach",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-08-01",
+      "ts": 1785610800,
+      "url": "https://nocovernightclubs.com/events/dj-pauly-d-tao-beach-saturday-august-1-2026/"
+    },
+    {
+      "artist": "Kid Conrad",
+      "venue": "Liquid Pool",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-08-01",
+      "ts": 1785610800,
+      "url": "https://nocovernightclubs.com/events/kid-conrad-liquid-pool-saturday-august-1-2026/"
+    },
+    {
+      "artist": "Alesso",
+      "venue": "Palm Tree Beach",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-08-01",
+      "ts": 1785610800,
+      "url": "https://nocovernightclubs.com/events/alesso-palm-tree-beach-club-saturday-august-1-2026/"
+    },
+    {
+      "artist": "John Summit",
+      "venue": "LIV Beach",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-08-01",
+      "ts": 1785610800,
+      "url": "https://nocovernightclubs.com/events/john-summit-liv-beach-saturday-august-1-2026/"
     }
   ]
 }
