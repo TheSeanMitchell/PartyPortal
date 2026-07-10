@@ -1,87 +1,6 @@
 {
-  "updated": 1783693972,
+  "updated": 1783712220,
   "events": [
-    {
-      "artist": "2 Chainz",
-      "venue": "Zouk",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-07-09",
-      "ts": 1783623600,
-      "url": "https://nocovernightclubs.com/events/2-chainz-zouk-nightclub-thursday-july-9-2026/"
-    },
-    {
-      "artist": "Special Guest",
-      "venue": "Omnia",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-07-09",
-      "ts": 1783623600,
-      "url": "https://nocovernightclubs.com/events/special-guest-omnia-nightclub-thursday-july-9-2026/"
-    },
-    {
-      "artist": "Special Guest",
-      "venue": "Tao",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-07-09",
-      "ts": 1783623600,
-      "url": "https://nocovernightclubs.com/events/special-guest-tao-nightclub-thursday-july-9-2026/"
-    },
-    {
-      "artist": "Chase B",
-      "venue": "Hakkasan",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-07-09",
-      "ts": 1783623600,
-      "url": "https://nocovernightclubs.com/events/chase-b-hakkasan-nightclub-thursday-july-9-2026/"
-    },
-    {
-      "artist": "Latin Night Swim",
-      "venue": "EBC At Night",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-07-09",
-      "ts": 1783623600,
-      "url": "https://nocovernightclubs.com/events/latin-night-swim-ebc-at-night-thursday-july-9-2026/"
-    },
-    {
-      "artist": "Stephi K",
-      "venue": "Marquee Dayclub",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-07-09",
-      "ts": 1783623600,
-      "url": "https://nocovernightclubs.com/events/stephi-k-marquee-dayclub-thursday-july-9-2026/"
-    },
-    {
-      "artist": "Special Guest",
-      "venue": "Tao Beach",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-07-09",
-      "ts": 1783623600,
-      "url": "https://nocovernightclubs.com/events/special-guest-tao-beach-thursday-july-9-2026/"
-    },
-    {
-      "artist": "Dj Shr3d",
-      "venue": "Liquid Pool",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-07-09",
-      "ts": 1783623600,
-      "url": "https://nocovernightclubs.com/events/dj-shr3d-liquid-pool-thursday-july-9-2026/"
-    },
-    {
-      "artist": "Dj Mondo",
-      "venue": "Palm Tree Beach",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-07-09",
-      "ts": 1783623600,
-      "url": "https://nocovernightclubs.com/events/dj-mondo-palm-tree-beach-club-thursday-july-9-2026/"
-    },
     {
       "artist": "Special Guest",
       "venue": "Zouk",
@@ -2700,6 +2619,87 @@
       "date": "2026-08-01",
       "ts": 1785614400,
       "url": "https://concerts.vegas/event/acdc-las-vegas-saturday-august-1-2026-700-pm/"
+    },
+    {
+      "artist": "Bill Burr",
+      "venue": "Dolby Live at Park MGM",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-08-01",
+      "ts": 1785614400,
+      "url": "https://concerts.vegas/event/bill-burr-las-vegas-saturday-august-1-2026-800-pm/"
+    },
+    {
+      "artist": "Golden Boy Boxing Lamont Roach Jr Vs William Zepeda",
+      "venue": "The Theater at Virgin Hotels",
+      "type": "sports",
+      "city": "Las Vegas",
+      "date": "2026-08-01",
+      "ts": 1785614400,
+      "url": "https://concerts.vegas/event/golden-boy-boxing-lamont-roach-jr-vs-william-zepeda-las-vegas-saturday-august-1-2026-215-pm/"
+    },
+    {
+      "artist": "Golden Boy Boxing Lamont Roach Jr Vs William Zepeda",
+      "venue": "24 Oxford at Virgin Hotels",
+      "type": "sports",
+      "city": "Las Vegas",
+      "date": "2026-08-01",
+      "ts": 1785614400,
+      "url": "https://concerts.vegas/event/golden-boy-boxing-lamont-roach-jr-vs-william-zepeda-las-vegas-saturday-august-1-2026-215-pm/"
+    },
+    {
+      "artist": "Jeezy",
+      "venue": "Bakkt Theater at Planet Hollywood",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-08-01",
+      "ts": 1785614400,
+      "url": "https://concerts.vegas/event/jeezy-las-vegas-saturday-august-1-2026-800-pm/"
+    },
+    {
+      "artist": "Golden Boy Boxing Lamont Roach Jr Vs William Zepeda",
+      "venue": "Las Vegas",
+      "type": "sports",
+      "city": "Las Vegas",
+      "date": "2026-08-01",
+      "ts": 1785614400,
+      "url": "https://concerts.vegas/event/golden-boy-boxing-lamont-roach-jr-vs-william-zepeda-las-vegas-saturday-august-1-2026-215-pm/"
+    },
+    {
+      "artist": "Las Vegas Lights Fc Vs Phoenix Rising Fc",
+      "venue": "Las Vegas",
+      "type": "sports",
+      "city": "Las Vegas",
+      "date": "2026-08-01",
+      "ts": 1785614400,
+      "url": "https://concerts.vegas/event/las-vegas-lights-fc-vs-phoenix-rising-fc-las-vegas-saturday-august-1-2026-730-pm/"
+    },
+    {
+      "artist": "Deseo",
+      "venue": "Omnia",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-08-02",
+      "ts": 1785697200,
+      "url": "https://nocovernightclubs.com/events/deseo-omnia-nightclub-sunday-august-2-2026/"
+    },
+    {
+      "artist": "Ritual Sundays",
+      "venue": "Tao",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-08-02",
+      "ts": 1785697200,
+      "url": "https://nocovernightclubs.com/events/ritual-sundays-tao-nightclub-sunday-august-2-2026/"
+    },
+    {
+      "artist": "Layton Giordani",
+      "venue": "LIV",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-08-02",
+      "ts": 1785697200,
+      "url": "https://nocovernightclubs.com/events/layton-giordani-liv-nightclub-sunday-august-2-2026/"
     }
   ]
 }
