@@ -1,5 +1,5 @@
 {
-  "updated": 1783676402,
+  "updated": 1783693972,
   "events": [
     {
       "artist": "2 Chainz",
@@ -297,15 +297,6 @@
       "date": "2026-07-10",
       "ts": 1783713600,
       "url": "https://concerts.vegas/event/barry-manilow-las-vegas-friday-july-10-2026-800-pm/"
-    },
-    {
-      "artist": "Nba Summer League Day 2",
-      "venue": "Las Vegas",
-      "type": "sports",
-      "city": "Las Vegas",
-      "date": "2026-07-10",
-      "ts": 1783713600,
-      "url": "https://concerts.vegas/event/nba-summer-league-day-2-las-vegas-friday-july-10-2026-tba/"
     },
     {
       "artist": "Power Slap 21 Dempster Vs Dubois",
@@ -2700,6 +2691,15 @@
       "date": "2026-08-01",
       "ts": 1785614400,
       "url": "https://concerts.vegas/event/enhypen-las-vegas-saturday-august-1-2026-730-pm/"
+    },
+    {
+      "artist": "Acdc",
+      "venue": "Allegiant Stadium",
+      "type": "stadium",
+      "city": "Las Vegas",
+      "date": "2026-08-01",
+      "ts": 1785614400,
+      "url": "https://concerts.vegas/event/acdc-las-vegas-saturday-august-1-2026-700-pm/"
     }
   ]
 }
