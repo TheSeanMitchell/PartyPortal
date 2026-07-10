@@ -1,5 +1,5 @@
 {
-  "updated": 1783626606,
+  "updated": 1783676402,
   "events": [
     {
       "artist": "2 Chainz",
@@ -81,15 +81,6 @@
       "date": "2026-07-09",
       "ts": 1783623600,
       "url": "https://nocovernightclubs.com/events/dj-mondo-palm-tree-beach-club-thursday-july-9-2026/"
-    },
-    {
-      "artist": "Las Vegas Aviators Vs Tacoma Rainiers",
-      "venue": "Las Vegas",
-      "type": "sports",
-      "city": "Las Vegas",
-      "date": "2026-07-09",
-      "ts": 1783627200,
-      "url": "https://concerts.vegas/event/las-vegas-aviators-vs-tacoma-rainiers-las-vegas-thursday-july-9-2026-705-pm/"
     },
     {
       "artist": "Special Guest",
@@ -2700,6 +2691,15 @@
       "date": "2026-08-01",
       "ts": 1785610800,
       "url": "https://nocovernightclubs.com/events/john-summit-liv-beach-saturday-august-1-2026/"
+    },
+    {
+      "artist": "Enhypen",
+      "venue": "T-Mobile Arena",
+      "type": "arena",
+      "city": "Las Vegas",
+      "date": "2026-08-01",
+      "ts": 1785614400,
+      "url": "https://concerts.vegas/event/enhypen-las-vegas-saturday-august-1-2026-730-pm/"
     }
   ]
 }
