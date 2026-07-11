@@ -1,132 +1,6 @@
 {
-  "updated": 1783776310,
+  "updated": 1783796887,
   "events": [
-    {
-      "artist": "Special Guest",
-      "venue": "Zouk",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-07-10",
-      "ts": 1783710000,
-      "url": "https://nocovernightclubs.com/events/special-guest-zouk-nightclub-friday-july-10-2026/"
-    },
-    {
-      "artist": "Kaskade",
-      "venue": "XS",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-07-10",
-      "ts": 1783710000,
-      "url": "https://nocovernightclubs.com/events/kaskade-xs-nightclub-friday-july-10-2026/"
-    },
-    {
-      "artist": "Tiesto",
-      "venue": "Omnia",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-07-10",
-      "ts": 1783710000,
-      "url": "https://nocovernightclubs.com/events/tiesto-omnia-nightclub-friday-july-10-2026/"
-    },
-    {
-      "artist": "Elderbrook",
-      "venue": "Marquee",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-07-10",
-      "ts": 1783710000,
-      "url": "https://nocovernightclubs.com/events/elderbrook-marquee-nightclub-friday-july-10-2026/"
-    },
-    {
-      "artist": "Angie Vee",
-      "venue": "Tao",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-07-10",
-      "ts": 1783710000,
-      "url": "https://nocovernightclubs.com/events/angie-vee-tao-nightclub-friday-july-10-2026/"
-    },
-    {
-      "artist": "Jon Jones",
-      "venue": "Hakkasan",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-07-10",
-      "ts": 1783710000,
-      "url": "https://nocovernightclubs.com/events/jon-jones-hakkasan-nightclub-friday-july-10-2026/"
-    },
-    {
-      "artist": "Reggaeton Landia",
-      "venue": "LIV",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-07-10",
-      "ts": 1783710000,
-      "url": "https://nocovernightclubs.com/events/reggaeton-landia-liv-nightclub-friday-july-10-2026/"
-    },
-    {
-      "artist": "Dj Cla",
-      "venue": "Jewel",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-07-10",
-      "ts": 1783710000,
-      "url": "https://nocovernightclubs.com/events/dj-cla-jewel-nightclub-friday-july-10-2026/"
-    },
-    {
-      "artist": "Two Friends",
-      "venue": "Encore Beach Club",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-07-10",
-      "ts": 1783710000,
-      "url": "https://nocovernightclubs.com/events/two-friends-encore-beach-club-friday-july-10-2026/"
-    },
-    {
-      "artist": "Omnom",
-      "venue": "Marquee Dayclub",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-07-10",
-      "ts": 1783710000,
-      "url": "https://nocovernightclubs.com/events/omnom-marquee-dayclub-friday-july-10-2026/"
-    },
-    {
-      "artist": "Jonas Blue",
-      "venue": "Tao Beach",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-07-10",
-      "ts": 1783710000,
-      "url": "https://nocovernightclubs.com/events/jonas-blue-tao-beach-friday-july-10-2026/"
-    },
-    {
-      "artist": "Dj Que",
-      "venue": "Liquid Pool",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-07-10",
-      "ts": 1783710000,
-      "url": "https://nocovernightclubs.com/events/dj-que-liquid-pool-friday-july-10-2026/"
-    },
-    {
-      "artist": "Dj Shift",
-      "venue": "Palm Tree Beach",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-07-10",
-      "ts": 1783710000,
-      "url": "https://nocovernightclubs.com/events/dj-shift-palm-tree-beach-club-friday-july-10-2026/"
-    },
-    {
-      "artist": "Sommer Ray",
-      "venue": "LIV Beach",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-07-10",
-      "ts": 1783710000,
-      "url": "https://nocovernightclubs.com/events/sommer-ray-liv-beach-friday-july-10-2026/"
-    },
     {
       "artist": "Meek Mill",
       "venue": "Zouk",
@@ -263,15 +137,6 @@
       "url": "https://concerts.vegas/event/ufc-329-mcgregor-vs-holloway-2-las-vegas-saturday-july-11-2026-200-pm/"
     },
     {
-      "artist": "Barry Manilow",
-      "venue": "The Colosseum at Caesars Palace",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-07-11",
-      "ts": 1783800000,
-      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-saturday-july-11-2026-700-pm/"
-    },
-    {
       "artist": "Mary J Blige",
       "venue": "Dolby Live at Park MGM",
       "type": "concert",
@@ -279,24 +144,6 @@
       "date": "2026-07-11",
       "ts": 1783800000,
       "url": "https://concerts.vegas/event/mary-j-blige-las-vegas-saturday-july-11-2026-800-pm/"
-    },
-    {
-      "artist": "Barry Manilow",
-      "venue": "Dolby Live at Park MGM",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-07-11",
-      "ts": 1783800000,
-      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-saturday-july-11-2026-700-pm/"
-    },
-    {
-      "artist": "Barry Manilow",
-      "venue": "Michelob Ultra Arena",
-      "type": "arena",
-      "city": "Las Vegas",
-      "date": "2026-07-11",
-      "ts": 1783800000,
-      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-saturday-july-11-2026-700-pm/"
     },
     {
       "artist": "A Boogie Wit Da Hoodie",
@@ -317,15 +164,6 @@
       "url": "https://concerts.vegas/event/a-boogie-wit-da-hoodie-las-vegas-saturday-july-11-2026-800-pm/"
     },
     {
-      "artist": "Barry Manilow",
-      "venue": "Resorts World Theatre",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-07-11",
-      "ts": 1783800000,
-      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-saturday-july-11-2026-700-pm/"
-    },
-    {
       "artist": "Jeezy",
       "venue": "Bakkt Theater at Planet Hollywood",
       "type": "concert",
@@ -342,33 +180,6 @@
       "date": "2026-07-11",
       "ts": 1783800000,
       "url": "https://concerts.vegas/event/la-mafia-las-vegas-saturday-july-11-2026-700-pm/"
-    },
-    {
-      "artist": "Barry Manilow",
-      "venue": "Encore Theater at Wynn",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-07-11",
-      "ts": 1783800000,
-      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-saturday-july-11-2026-700-pm/"
-    },
-    {
-      "artist": "Barry Manilow",
-      "venue": "BleauLive Theater at Fontainebleau",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-07-11",
-      "ts": 1783800000,
-      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-saturday-july-11-2026-700-pm/"
-    },
-    {
-      "artist": "Barry Manilow",
-      "venue": "Pearl Theater at Palms",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-07-11",
-      "ts": 1783800000,
-      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-saturday-july-11-2026-700-pm/"
     },
     {
       "artist": "Las Vegas Aces Vs Phoenix Mercury",
@@ -2700,6 +2511,195 @@
       "date": "2026-08-05",
       "ts": 1785956400,
       "url": "https://nocovernightclubs.com/events/odd-mob-ebc-at-night-wednesday-august-5-2026/"
+    },
+    {
+      "artist": "Dj Buza",
+      "venue": "Liquid Pool",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-08-05",
+      "ts": 1785956400,
+      "url": "https://nocovernightclubs.com/events/dj-buza-liquid-pool-wednesday-august-5-2026/"
+    },
+    {
+      "artist": "Special Guest",
+      "venue": "Palm Tree Beach",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-08-05",
+      "ts": 1785956400,
+      "url": "https://nocovernightclubs.com/events/special-guest-palm-tree-beach-club-wednesday-august-5-2026/"
+    },
+    {
+      "artist": "Las Vegas Aviators Vs Tacoma Rainiers",
+      "venue": "Las Vegas",
+      "type": "sports",
+      "city": "Las Vegas",
+      "date": "2026-08-05",
+      "ts": 1785960000,
+      "url": "https://concerts.vegas/event/las-vegas-aviators-vs-tacoma-rainiers-las-vegas-wednesday-august-5-2026-705-pm/"
+    },
+    {
+      "artist": "Las Vegas Lights Fc Vs Oakland Roots Sc",
+      "venue": "Las Vegas",
+      "type": "sports",
+      "city": "Las Vegas",
+      "date": "2026-08-05",
+      "ts": 1785960000,
+      "url": "https://concerts.vegas/event/las-vegas-lights-fc-vs-oakland-roots-sc-las-vegas-wednesday-august-5-2026-730-pm/"
+    },
+    {
+      "artist": "Special Guest",
+      "venue": "Omnia",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-08-06",
+      "ts": 1786042800,
+      "url": "https://nocovernightclubs.com/events/special-guest-omnia-nightclub-thursday-august-6-2026/"
+    },
+    {
+      "artist": "G Minor",
+      "venue": "Tao",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-08-06",
+      "ts": 1786042800,
+      "url": "https://nocovernightclubs.com/events/g-minor-tao-nightclub-thursday-august-6-2026/"
+    },
+    {
+      "artist": "Eric D Lux",
+      "venue": "Hakkasan",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-08-06",
+      "ts": 1786042800,
+      "url": "https://nocovernightclubs.com/events/eric-d-lux-hakkasan-nightclub-thursday-august-6-2026/"
+    },
+    {
+      "artist": "Stephi K",
+      "venue": "Marquee Dayclub",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-08-06",
+      "ts": 1786042800,
+      "url": "https://nocovernightclubs.com/events/stephi-k-marquee-dayclub-thursday-august-6-2026/"
+    },
+    {
+      "artist": "Special Guest",
+      "venue": "Tao Beach",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-08-06",
+      "ts": 1786042800,
+      "url": "https://nocovernightclubs.com/events/special-guest-tao-beach-thursday-august-6-2026/"
+    },
+    {
+      "artist": "Dj Shr3d",
+      "venue": "Liquid Pool",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-08-06",
+      "ts": 1786042800,
+      "url": "https://nocovernightclubs.com/events/dj-shr3d-liquid-pool-thursday-august-6-2026/"
+    },
+    {
+      "artist": "Dj Mondo",
+      "venue": "Palm Tree Beach",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-08-06",
+      "ts": 1786042800,
+      "url": "https://nocovernightclubs.com/events/dj-mondo-palm-tree-beach-club-thursday-august-6-2026/"
+    },
+    {
+      "artist": "Death Cab For Cutie",
+      "venue": "The Theater at Virgin Hotels",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-08-06",
+      "ts": 1786046400,
+      "url": "https://concerts.vegas/event/death-cab-for-cutie-las-vegas-thursday-august-6-2026-800-pm/"
+    },
+    {
+      "artist": "Death Cab For Cutie",
+      "venue": "24 Oxford at Virgin Hotels",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-08-06",
+      "ts": 1786046400,
+      "url": "https://concerts.vegas/event/death-cab-for-cutie-las-vegas-thursday-august-6-2026-800-pm/"
+    },
+    {
+      "artist": "Las Vegas Aviators Vs Tacoma Rainiers",
+      "venue": "Las Vegas",
+      "type": "sports",
+      "city": "Las Vegas",
+      "date": "2026-08-06",
+      "ts": 1786046400,
+      "url": "https://concerts.vegas/event/las-vegas-aviators-vs-tacoma-rainiers-las-vegas-thursday-august-6-2026-705-pm/"
+    },
+    {
+      "artist": "Alison Wonderland",
+      "venue": "Zouk",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-08-07",
+      "ts": 1786129200,
+      "url": "https://nocovernightclubs.com/events/alison-wonderland-zouk-nightclub-friday-august-7-2026/"
+    },
+    {
+      "artist": "Steve Aoki",
+      "venue": "Omnia",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-08-07",
+      "ts": 1786129200,
+      "url": "https://nocovernightclubs.com/events/steve-aoki-omnia-nightclub-friday-august-7-2026/"
+    },
+    {
+      "artist": "Deorro",
+      "venue": "Marquee",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-08-07",
+      "ts": 1786129200,
+      "url": "https://nocovernightclubs.com/events/deorro-marquee-nightclub-friday-august-7-2026/"
+    },
+    {
+      "artist": "Mike Attack",
+      "venue": "Tao",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-08-07",
+      "ts": 1786129200,
+      "url": "https://nocovernightclubs.com/events/mike-attack-tao-nightclub-friday-august-7-2026/"
+    },
+    {
+      "artist": "Yo Yolie",
+      "venue": "Hakkasan",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-08-07",
+      "ts": 1786129200,
+      "url": "https://nocovernightclubs.com/events/yo-yolie-hakkasan-nightclub-friday-august-7-2026/"
+    },
+    {
+      "artist": "Metro Boomin",
+      "venue": "LIV",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-08-07",
+      "ts": 1786129200,
+      "url": "https://nocovernightclubs.com/events/metro-boomin-liv-nightclub-friday-august-7-2026/"
+    },
+    {
+      "artist": "Dj Cla",
+      "venue": "Jewel",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-08-07",
+      "ts": 1786129200,
+      "url": "https://nocovernightclubs.com/events/dj-cla-jewel-nightclub-friday-august-7-2026/"
     }
   ]
 }
