@@ -1,5 +1,5 @@
 {
-  "updated": 1783796887,
+  "updated": 1783844512,
   "events": [
     {
       "artist": "Meek Mill",
@@ -126,96 +126,6 @@
       "date": "2026-07-11",
       "ts": 1783796400,
       "url": "https://nocovernightclubs.com/events/crankdat-liv-beach-saturday-july-11-2026/"
-    },
-    {
-      "artist": "Ufc 329 Mcgregor Vs Holloway 2",
-      "venue": "T-Mobile Arena",
-      "type": "sports",
-      "city": "Las Vegas",
-      "date": "2026-07-11",
-      "ts": 1783800000,
-      "url": "https://concerts.vegas/event/ufc-329-mcgregor-vs-holloway-2-las-vegas-saturday-july-11-2026-200-pm/"
-    },
-    {
-      "artist": "Mary J Blige",
-      "venue": "Dolby Live at Park MGM",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-07-11",
-      "ts": 1783800000,
-      "url": "https://concerts.vegas/event/mary-j-blige-las-vegas-saturday-july-11-2026-800-pm/"
-    },
-    {
-      "artist": "A Boogie Wit Da Hoodie",
-      "venue": "The Theater at Virgin Hotels",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-07-11",
-      "ts": 1783800000,
-      "url": "https://concerts.vegas/event/a-boogie-wit-da-hoodie-las-vegas-saturday-july-11-2026-800-pm/"
-    },
-    {
-      "artist": "A Boogie Wit Da Hoodie",
-      "venue": "24 Oxford at Virgin Hotels",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-07-11",
-      "ts": 1783800000,
-      "url": "https://concerts.vegas/event/a-boogie-wit-da-hoodie-las-vegas-saturday-july-11-2026-800-pm/"
-    },
-    {
-      "artist": "Jeezy",
-      "venue": "Bakkt Theater at Planet Hollywood",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-07-11",
-      "ts": 1783800000,
-      "url": "https://concerts.vegas/event/jeezy-las-vegas-saturday-july-11-2026-800-pm/"
-    },
-    {
-      "artist": "La Mafia",
-      "venue": "House of Blues",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-07-11",
-      "ts": 1783800000,
-      "url": "https://concerts.vegas/event/la-mafia-las-vegas-saturday-july-11-2026-700-pm/"
-    },
-    {
-      "artist": "Las Vegas Aces Vs Phoenix Mercury",
-      "venue": "Las Vegas",
-      "type": "sports",
-      "city": "Las Vegas",
-      "date": "2026-07-11",
-      "ts": 1783800000,
-      "url": "https://concerts.vegas/event/las-vegas-aces-vs-phoenix-mercury-las-vegas-saturday-july-11-2026-100-pm/"
-    },
-    {
-      "artist": "Ufc 329 Mcgregor Vs Holloway 2",
-      "venue": "Las Vegas",
-      "type": "sports",
-      "city": "Las Vegas",
-      "date": "2026-07-11",
-      "ts": 1783800000,
-      "url": "https://concerts.vegas/event/ufc-329-mcgregor-vs-holloway-2-las-vegas-saturday-july-11-2026-200-pm/"
-    },
-    {
-      "artist": "Las Vegas Rockers Arena Football",
-      "venue": "Las Vegas",
-      "type": "sports",
-      "city": "Las Vegas",
-      "date": "2026-07-11",
-      "ts": 1783800000,
-      "url": "https://concerts.vegas/event/las-vegas-rockers-arena-football-las-vegas-saturday-july-11-2026-630-pm/"
-    },
-    {
-      "artist": "Las Vegas Aviators Vs Tacoma Rainiers",
-      "venue": "Las Vegas",
-      "type": "sports",
-      "city": "Las Vegas",
-      "date": "2026-07-11",
-      "ts": 1783800000,
-      "url": "https://concerts.vegas/event/las-vegas-aviators-vs-tacoma-rainiers-las-vegas-saturday-july-11-2026-705-pm/"
     },
     {
       "artist": "Ritual Sundays",
@@ -2700,6 +2610,96 @@
       "date": "2026-08-07",
       "ts": 1786129200,
       "url": "https://nocovernightclubs.com/events/dj-cla-jewel-nightclub-friday-august-7-2026/"
+    },
+    {
+      "artist": "Knolldoll",
+      "venue": "Encore Beach Club",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-08-07",
+      "ts": 1786129200,
+      "url": "https://nocovernightclubs.com/events/knolldoll-encore-beach-club-friday-august-7-2026/"
+    },
+    {
+      "artist": "Gryffin",
+      "venue": "EBC At Night",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-08-07",
+      "ts": 1786129200,
+      "url": "https://nocovernightclubs.com/events/gryffin-ebc-at-night-friday-august-7-2026/"
+    },
+    {
+      "artist": "Me N U",
+      "venue": "Marquee Dayclub",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-08-07",
+      "ts": 1786129200,
+      "url": "https://nocovernightclubs.com/events/me-n-u-marquee-dayclub-friday-august-7-2026/"
+    },
+    {
+      "artist": "Vandelux",
+      "venue": "Tao Beach",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-08-07",
+      "ts": 1786129200,
+      "url": "https://nocovernightclubs.com/events/vandelux-tao-beach-friday-august-7-2026/"
+    },
+    {
+      "artist": "Dj Que",
+      "venue": "Liquid Pool",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-08-07",
+      "ts": 1786129200,
+      "url": "https://nocovernightclubs.com/events/dj-que-liquid-pool-friday-august-7-2026/"
+    },
+    {
+      "artist": "Dj Sourmilk",
+      "venue": "Palm Tree Beach",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-08-07",
+      "ts": 1786129200,
+      "url": "https://nocovernightclubs.com/events/dj-sourmilk-palm-tree-beach-club-friday-august-7-2026/"
+    },
+    {
+      "artist": "Sommer Ray",
+      "venue": "LIV Beach",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-08-07",
+      "ts": 1786129200,
+      "url": "https://nocovernightclubs.com/events/sommer-ray-liv-beach-friday-august-7-2026/"
+    },
+    {
+      "artist": "Karol G",
+      "venue": "Allegiant Stadium",
+      "type": "stadium",
+      "city": "Las Vegas",
+      "date": "2026-08-07",
+      "ts": 1786132800,
+      "url": "https://concerts.vegas/event/karol-g-las-vegas-friday-august-7-2026-700-pm/"
+    },
+    {
+      "artist": "Ekolu",
+      "venue": "The Theater at Virgin Hotels",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-08-07",
+      "ts": 1786132800,
+      "url": "https://concerts.vegas/event/ekolu-las-vegas-friday-august-7-2026-800-pm/"
+    },
+    {
+      "artist": "Ekolu",
+      "venue": "24 Oxford at Virgin Hotels",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-08-07",
+      "ts": 1786132800,
+      "url": "https://concerts.vegas/event/ekolu-las-vegas-friday-august-7-2026-800-pm/"
     }
   ]
 }
