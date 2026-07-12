@@ -1,5 +1,5 @@
 {
-  "updated": 1783844512,
+  "updated": 1783862707,
   "events": [
     {
       "artist": "Meek Mill",
@@ -189,15 +189,6 @@
       "date": "2026-07-12",
       "ts": 1783882800,
       "url": "https://nocovernightclubs.com/events/nic-vans-liv-beach-sunday-july-12-2026/"
-    },
-    {
-      "artist": "Nba Summer League Day 4",
-      "venue": "Las Vegas",
-      "type": "sports",
-      "city": "Las Vegas",
-      "date": "2026-07-12",
-      "ts": 1783886400,
-      "url": "https://concerts.vegas/event/nba-summer-league-day-4-las-vegas-sunday-july-12-2026-tba/"
     },
     {
       "artist": "Las Vegas Aviators Vs Tacoma Rainiers",
@@ -2700,6 +2691,15 @@
       "date": "2026-08-07",
       "ts": 1786132800,
       "url": "https://concerts.vegas/event/ekolu-las-vegas-friday-august-7-2026-800-pm/"
+    },
+    {
+      "artist": "Las Vegas Aviators Vs Tacoma Rainiers",
+      "venue": "Las Vegas",
+      "type": "sports",
+      "city": "Las Vegas",
+      "date": "2026-08-07",
+      "ts": 1786132800,
+      "url": "https://concerts.vegas/event/las-vegas-aviators-vs-tacoma-rainiers-las-vegas-friday-august-7-2026-705-pm/"
     }
   ]
 }
