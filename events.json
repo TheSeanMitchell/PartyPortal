@@ -1,69 +1,6 @@
 {
-  "updated": 1783953587,
+  "updated": 1783970774,
   "events": [
-    {
-      "artist": "Ritual Sundays",
-      "venue": "Tao",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-07-12",
-      "ts": 1783882800,
-      "url": "https://nocovernightclubs.com/events/ritual-sundays-tao-nightclub-sunday-july-12-2026/"
-    },
-    {
-      "artist": "Simp City",
-      "venue": "LIV",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-07-12",
-      "ts": 1783882800,
-      "url": "https://nocovernightclubs.com/events/simp-city-liv-nightclub-sunday-july-12-2026/"
-    },
-    {
-      "artist": "Crespo",
-      "venue": "Marquee Dayclub",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-07-12",
-      "ts": 1783882800,
-      "url": "https://nocovernightclubs.com/events/crespo-marquee-dayclub-sunday-july-12-2026/"
-    },
-    {
-      "artist": "Murda Beatz",
-      "venue": "Tao Beach",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-07-12",
-      "ts": 1783882800,
-      "url": "https://nocovernightclubs.com/events/murda-beatz-tao-beach-sunday-july-12-2026/"
-    },
-    {
-      "artist": "Eric Remy",
-      "venue": "Liquid Pool",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-07-12",
-      "ts": 1783882800,
-      "url": "https://nocovernightclubs.com/events/eric-remy-liquid-pool-sunday-july-12-2026/"
-    },
-    {
-      "artist": "Twinsick",
-      "venue": "Palm Tree Beach",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-07-12",
-      "ts": 1783882800,
-      "url": "https://nocovernightclubs.com/events/twinsick-palm-tree-beach-club-sunday-july-12-2026/"
-    },
-    {
-      "artist": "Nic Vans",
-      "venue": "LIV Beach",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-07-12",
-      "ts": 1783882800,
-      "url": "https://nocovernightclubs.com/events/nic-vans-liv-beach-sunday-july-12-2026/"
-    },
     {
       "artist": "Ohgeesy",
       "venue": "Marquee",
@@ -2522,6 +2459,15 @@
       "url": "https://concerts.vegas/event/ekolu-las-vegas-friday-august-7-2026-800-pm/"
     },
     {
+      "artist": "Emo Night Brooklyn",
+      "venue": "Brooklyn Bowl",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-08-07",
+      "ts": 1786132800,
+      "url": "https://concerts.vegas/event/emo-night-brooklyn-las-vegas-friday-august-7-2026-930-pm/"
+    },
+    {
       "artist": "Las Vegas Aviators Vs Tacoma Rainiers",
       "venue": "Las Vegas",
       "type": "sports",
@@ -2700,6 +2646,60 @@
       "date": "2026-08-09",
       "ts": 1786302000,
       "url": "https://nocovernightclubs.com/events/ritual-sundays-tao-nightclub-sunday-august-9-2026/"
+    },
+    {
+      "artist": "Josh Baker",
+      "venue": "LIV",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-08-09",
+      "ts": 1786302000,
+      "url": "https://nocovernightclubs.com/events/josh-baker-liv-nightclub-sunday-august-9-2026/"
+    },
+    {
+      "artist": "Sullivan King",
+      "venue": "Encore Beach Club",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-08-09",
+      "ts": 1786302000,
+      "url": "https://nocovernightclubs.com/events/sullivan-king-encore-beach-club-sunday-august-9-2026/"
+    },
+    {
+      "artist": "Dj Phenom",
+      "venue": "Marquee Dayclub",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-08-09",
+      "ts": 1786302000,
+      "url": "https://nocovernightclubs.com/events/dj-phenom-marquee-dayclub-sunday-august-9-2026/"
+    },
+    {
+      "artist": "Tyga",
+      "venue": "Tao Beach",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-08-09",
+      "ts": 1786302000,
+      "url": "https://nocovernightclubs.com/events/tyga-tao-beach-sunday-august-9-2026/"
+    },
+    {
+      "artist": "Eric Remy",
+      "venue": "Liquid Pool",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-08-09",
+      "ts": 1786302000,
+      "url": "https://nocovernightclubs.com/events/eric-remy-liquid-pool-sunday-august-9-2026/"
+    },
+    {
+      "artist": "Dj Pauly D",
+      "venue": "Palm Tree Beach",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-08-09",
+      "ts": 1786302000,
+      "url": "https://nocovernightclubs.com/events/dj-pauly-d-palm-tree-beach-club-sunday-august-9-2026/"
     }
   ]
 }
