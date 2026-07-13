@@ -1,5 +1,5 @@
 {
-  "updated": 1783883344,
+  "updated": 1783935146,
   "events": [
     {
       "artist": "Ritual Sundays",
@@ -63,33 +63,6 @@
       "date": "2026-07-12",
       "ts": 1783882800,
       "url": "https://nocovernightclubs.com/events/nic-vans-liv-beach-sunday-july-12-2026/"
-    },
-    {
-      "artist": "Las Vegas Aviators Vs Tacoma Rainiers",
-      "venue": "Las Vegas",
-      "type": "sports",
-      "city": "Las Vegas",
-      "date": "2026-07-12",
-      "ts": 1783886400,
-      "url": "https://concerts.vegas/event/las-vegas-aviators-vs-tacoma-rainiers-las-vegas-sunday-july-12-2026-1205-pm/"
-    },
-    {
-      "artist": "Vegas Knight Hawks Vs San Diego Strike Force",
-      "venue": "Las Vegas",
-      "type": "sports",
-      "city": "Henderson",
-      "date": "2026-07-12",
-      "ts": 1783886400,
-      "url": "https://concerts.vegas/event/vegas-knight-hawks-vs-san-diego-strike-force-henderson-sunday-july-12-2026-430-pm/"
-    },
-    {
-      "artist": "Las Vegas Aces Vs Indiana Fever",
-      "venue": "Las Vegas",
-      "type": "sports",
-      "city": "Las Vegas",
-      "date": "2026-07-12",
-      "ts": 1783886400,
-      "url": "https://concerts.vegas/event/las-vegas-aces-vs-indiana-fever-las-vegas-sunday-july-12-2026-600-pm/"
     },
     {
       "artist": "Ohgeesy",
@@ -2700,6 +2673,33 @@
       "date": "2026-08-08",
       "ts": 1786219200,
       "url": "https://concerts.vegas/event/bini-las-vegas-saturday-august-8-2026-800-pm/"
+    },
+    {
+      "artist": "Eslabon Armado",
+      "venue": "House of Blues",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-08-08",
+      "ts": 1786219200,
+      "url": "https://concerts.vegas/event/eslabon-armado-las-vegas-saturday-august-8-2026-700-pm/"
+    },
+    {
+      "artist": "Las Vegas Aviators Vs Tacoma Rainiers",
+      "venue": "Las Vegas",
+      "type": "sports",
+      "city": "Las Vegas",
+      "date": "2026-08-08",
+      "ts": 1786219200,
+      "url": "https://concerts.vegas/event/las-vegas-aviators-vs-tacoma-rainiers-las-vegas-saturday-august-8-2026-705-pm/"
+    },
+    {
+      "artist": "Deseo",
+      "venue": "Omnia",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-08-09",
+      "ts": 1786302000,
+      "url": "https://nocovernightclubs.com/events/deseo-omnia-nightclub-sunday-august-9-2026/"
     }
   ]
 }
