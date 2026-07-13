@@ -1,5 +1,5 @@
 {
-  "updated": 1783935146,
+  "updated": 1783953587,
   "events": [
     {
       "artist": "Ritual Sundays",
@@ -81,15 +81,6 @@
       "date": "2026-07-13",
       "ts": 1783969200,
       "url": "https://nocovernightclubs.com/events/special-guest-marquee-dayclub-monday-july-13-2026/"
-    },
-    {
-      "artist": "Nba Summer League Day 5",
-      "venue": "Las Vegas",
-      "type": "sports",
-      "city": "Las Vegas",
-      "date": "2026-07-13",
-      "ts": 1783972800,
-      "url": "https://concerts.vegas/event/nba-summer-league-day-5-las-vegas-monday-july-13-2026-tba/"
     },
     {
       "artist": "Tyga",
@@ -2700,6 +2691,15 @@
       "date": "2026-08-09",
       "ts": 1786302000,
       "url": "https://nocovernightclubs.com/events/deseo-omnia-nightclub-sunday-august-9-2026/"
+    },
+    {
+      "artist": "Ritual Sundays",
+      "venue": "Tao",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-08-09",
+      "ts": 1786302000,
+      "url": "https://nocovernightclubs.com/events/ritual-sundays-tao-nightclub-sunday-august-9-2026/"
     }
   ]
 }
