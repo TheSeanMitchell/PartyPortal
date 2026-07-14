@@ -1,24 +1,6 @@
 {
-  "updated": 1784036967,
+  "updated": 1784057032,
   "events": [
-    {
-      "artist": "Ohgeesy",
-      "venue": "Marquee",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-07-13",
-      "ts": 1783969200,
-      "url": "https://nocovernightclubs.com/events/ohgeesy-marquee-nightclub-monday-july-13-2026/"
-    },
-    {
-      "artist": "Special Guest",
-      "venue": "Marquee Dayclub",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-07-13",
-      "ts": 1783969200,
-      "url": "https://nocovernightclubs.com/events/special-guest-marquee-dayclub-monday-july-13-2026/"
-    },
     {
       "artist": "Tyga",
       "venue": "Omnia",
@@ -27,6 +9,15 @@
       "date": "2026-07-14",
       "ts": 1784055600,
       "url": "https://nocovernightclubs.com/events/tyga-omnia-nightclub-tuesday-july-14-2026/"
+    },
+    {
+      "artist": "Nba Summer League Day 6",
+      "venue": "Las Vegas",
+      "type": "sports",
+      "city": "Las Vegas",
+      "date": "2026-07-14",
+      "ts": 1784059200,
+      "url": "https://concerts.vegas/event/nba-summer-league-day-6-las-vegas-tuesday-july-14-2026-100-pm/"
     },
     {
       "artist": "Maxi Meraki",
@@ -89,7 +80,7 @@
       "city": "Las Vegas",
       "date": "2026-07-15",
       "ts": 1784145600,
-      "url": "https://concerts.vegas/event/nba-summer-league-day-7-las-vegas-wednesday-july-15-2026-tba/"
+      "url": "https://concerts.vegas/event/nba-summer-league-day-7-las-vegas-wednesday-july-15-2026-1230-pm/"
     },
     {
       "artist": "Special Guest",
@@ -224,7 +215,7 @@
       "city": "Las Vegas",
       "date": "2026-07-16",
       "ts": 1784232000,
-      "url": "https://concerts.vegas/event/nba-summer-league-day-8-las-vegas-thursday-july-16-2026-tba/"
+      "url": "https://concerts.vegas/event/nba-summer-league-day-8-las-vegas-thursday-july-16-2026-100-pm/"
     },
     {
       "artist": "Gryffin",
@@ -2700,6 +2691,15 @@
       "date": "2026-08-09",
       "ts": 1786302000,
       "url": "https://nocovernightclubs.com/events/sidepiece-liv-beach-sunday-august-9-2026/"
+    },
+    {
+      "artist": "Tyga",
+      "venue": "The Colosseum at Caesars Palace",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-08-09",
+      "ts": 1786305600,
+      "url": "https://concerts.vegas/event/tyga-las-vegas-sunday-august-9-2026-1100-am/"
     }
   ]
 }
