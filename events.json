@@ -1,15 +1,6 @@
 {
-  "updated": 1784123291,
+  "updated": 1784142907,
   "events": [
-    {
-      "artist": "Tyga",
-      "venue": "Omnia",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-07-14",
-      "ts": 1784055600,
-      "url": "https://nocovernightclubs.com/events/tyga-omnia-nightclub-tuesday-july-14-2026/"
-    },
     {
       "artist": "Maxi Meraki",
       "venue": "Marquee",
@@ -2696,6 +2687,15 @@
       "artist": "Tyga",
       "venue": "Dolby Live at Park MGM",
       "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-08-09",
+      "ts": 1786305600,
+      "url": "https://concerts.vegas/event/tyga-las-vegas-sunday-august-9-2026-1100-am/"
+    },
+    {
+      "artist": "Tyga",
+      "venue": "Michelob Ultra Arena",
+      "type": "arena",
       "city": "Las Vegas",
       "date": "2026-08-09",
       "ts": 1786305600,
