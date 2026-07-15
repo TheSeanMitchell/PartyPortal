@@ -1,5 +1,5 @@
 {
-  "updated": 1784057032,
+  "updated": 1784103404,
   "events": [
     {
       "artist": "Tyga",
@@ -9,15 +9,6 @@
       "date": "2026-07-14",
       "ts": 1784055600,
       "url": "https://nocovernightclubs.com/events/tyga-omnia-nightclub-tuesday-july-14-2026/"
-    },
-    {
-      "artist": "Nba Summer League Day 6",
-      "venue": "Las Vegas",
-      "type": "sports",
-      "city": "Las Vegas",
-      "date": "2026-07-14",
-      "ts": 1784059200,
-      "url": "https://concerts.vegas/event/nba-summer-league-day-6-las-vegas-tuesday-july-14-2026-100-pm/"
     },
     {
       "artist": "Maxi Meraki",
@@ -2695,6 +2686,15 @@
     {
       "artist": "Tyga",
       "venue": "The Colosseum at Caesars Palace",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-08-09",
+      "ts": 1786305600,
+      "url": "https://concerts.vegas/event/tyga-las-vegas-sunday-august-9-2026-1100-am/"
+    },
+    {
+      "artist": "Tyga",
+      "venue": "Dolby Live at Park MGM",
       "type": "concert",
       "city": "Las Vegas",
       "date": "2026-08-09",
