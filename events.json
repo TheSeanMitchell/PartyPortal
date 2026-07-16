@@ -1,51 +1,6 @@
 {
-  "updated": 1784210307,
+  "updated": 1784229338,
   "events": [
-    {
-      "artist": "Maxi Meraki",
-      "venue": "Marquee",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-07-15",
-      "ts": 1784142000,
-      "url": "https://nocovernightclubs.com/events/maxi-meraki-marquee-nightclub-wednesday-july-15-2026/"
-    },
-    {
-      "artist": "Dj Franzen",
-      "venue": "Hakkasan",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-07-15",
-      "ts": 1784142000,
-      "url": "https://nocovernightclubs.com/events/dj-franzen-hakkasan-nightclub-wednesday-july-15-2026/"
-    },
-    {
-      "artist": "Charly Jordan",
-      "venue": "EBC At Night",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-07-15",
-      "ts": 1784142000,
-      "url": "https://nocovernightclubs.com/events/charly-jordan-ebc-at-night-wednesday-july-15-2026/"
-    },
-    {
-      "artist": "Dj Buza",
-      "venue": "Liquid Pool",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-07-15",
-      "ts": 1784142000,
-      "url": "https://nocovernightclubs.com/events/dj-buza-liquid-pool-wednesday-july-15-2026/"
-    },
-    {
-      "artist": "Special Guest",
-      "venue": "Palm Tree Beach",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-07-15",
-      "ts": 1784142000,
-      "url": "https://nocovernightclubs.com/events/special-guest-palm-tree-beach-club-wednesday-july-15-2026/"
-    },
     {
       "artist": "Special Guest",
       "venue": "Omnia",
@@ -108,69 +63,6 @@
       "date": "2026-07-16",
       "ts": 1784228400,
       "url": "https://nocovernightclubs.com/events/mikey-francis-palm-tree-beach-club-thursday-july-16-2026/"
-    },
-    {
-      "artist": "Barry Manilow",
-      "venue": "The Colosseum at Caesars Palace",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-07-16",
-      "ts": 1784232000,
-      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-thursday-july-16-2026-700-pm/"
-    },
-    {
-      "artist": "Barry Manilow",
-      "venue": "Dolby Live at Park MGM",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-07-16",
-      "ts": 1784232000,
-      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-thursday-july-16-2026-700-pm/"
-    },
-    {
-      "artist": "Barry Manilow",
-      "venue": "Michelob Ultra Arena",
-      "type": "arena",
-      "city": "Las Vegas",
-      "date": "2026-07-16",
-      "ts": 1784232000,
-      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-thursday-july-16-2026-700-pm/"
-    },
-    {
-      "artist": "Barry Manilow",
-      "venue": "Resorts World Theatre",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-07-16",
-      "ts": 1784232000,
-      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-thursday-july-16-2026-700-pm/"
-    },
-    {
-      "artist": "Barry Manilow",
-      "venue": "Encore Theater at Wynn",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-07-16",
-      "ts": 1784232000,
-      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-thursday-july-16-2026-700-pm/"
-    },
-    {
-      "artist": "Barry Manilow",
-      "venue": "BleauLive Theater at Fontainebleau",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-07-16",
-      "ts": 1784232000,
-      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-thursday-july-16-2026-700-pm/"
-    },
-    {
-      "artist": "Barry Manilow",
-      "venue": "Pearl Theater at Palms",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-07-16",
-      "ts": 1784232000,
-      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-thursday-july-16-2026-700-pm/"
     },
     {
       "artist": "Nba Summer League Day 8",
@@ -1811,15 +1703,6 @@
       "url": "https://nocovernightclubs.com/events/four-color-zack-tao-nightclub-saturday-august-1-2026/"
     },
     {
-      "artist": "Fabolous",
-      "venue": "Hakkasan",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-08-01",
-      "ts": 1785610800,
-      "url": "https://nocovernightclubs.com/events/fabolous-hakkasan-nightclub-saturday-august-1-2026/"
-    },
-    {
       "artist": "Dj Bonics",
       "venue": "Hakkasan",
       "type": "club",
@@ -1827,6 +1710,15 @@
       "date": "2026-08-01",
       "ts": 1785610800,
       "url": "https://nocovernightclubs.com/events/dj-bonics-hakkasan-nightclub-saturday-august-1-2026/"
+    },
+    {
+      "artist": "Fabolous",
+      "venue": "Hakkasan",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-08-01",
+      "ts": 1785610800,
+      "url": "https://nocovernightclubs.com/events/fabolous-hakkasan-nightclub-saturday-august-1-2026/"
     },
     {
       "artist": "Sidepiece",
@@ -2700,6 +2592,114 @@
       "date": "2026-08-09",
       "ts": 1786305600,
       "url": "https://concerts.vegas/event/tyga-las-vegas-sunday-august-9-2026-1100-am/"
+    },
+    {
+      "artist": "Tyga",
+      "venue": "BleauLive Theater at Fontainebleau",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-08-09",
+      "ts": 1786305600,
+      "url": "https://concerts.vegas/event/tyga-las-vegas-sunday-august-9-2026-1100-am/"
+    },
+    {
+      "artist": "Chris Travis",
+      "venue": "Brooklyn Bowl",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-08-09",
+      "ts": 1786305600,
+      "url": "https://concerts.vegas/event/chris-travis-las-vegas-sunday-august-9-2026-700-pm/"
+    },
+    {
+      "artist": "Tyga",
+      "venue": "Pearl Theater at Palms",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-08-09",
+      "ts": 1786305600,
+      "url": "https://concerts.vegas/event/tyga-las-vegas-sunday-august-9-2026-1100-am/"
+    },
+    {
+      "artist": "Las Vegas Aviators Vs Tacoma Rainiers",
+      "venue": "Las Vegas",
+      "type": "sports",
+      "city": "Las Vegas",
+      "date": "2026-08-09",
+      "ts": 1786305600,
+      "url": "https://concerts.vegas/event/las-vegas-aviators-vs-tacoma-rainiers-las-vegas-sunday-august-9-2026-605-pm/"
+    },
+    {
+      "artist": "Dj Five",
+      "venue": "Marquee",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-08-10",
+      "ts": 1786388400,
+      "url": "https://nocovernightclubs.com/events/dj-five-marquee-nightclub-monday-august-10-2026/"
+    },
+    {
+      "artist": "Special Guest",
+      "venue": "Marquee Dayclub",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-08-10",
+      "ts": 1786388400,
+      "url": "https://nocovernightclubs.com/events/special-guest-marquee-dayclub-monday-august-10-2026/"
+    },
+    {
+      "artist": "Tyga",
+      "venue": "Omnia",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-08-11",
+      "ts": 1786474800,
+      "url": "https://nocovernightclubs.com/events/tyga-omnia-nightclub-tuesday-august-11-2026/"
+    },
+    {
+      "artist": "Las Vegas Aces Vs Washington Mystics",
+      "venue": "Las Vegas",
+      "type": "sports",
+      "city": "Las Vegas",
+      "date": "2026-08-11",
+      "ts": 1786478400,
+      "url": "https://concerts.vegas/event/las-vegas-aces-vs-washington-mystics-las-vegas-tuesday-august-11-2026-700-pm/"
+    },
+    {
+      "artist": "Las Vegas Aviators Vs Sacramento River Cats",
+      "venue": "Las Vegas",
+      "type": "sports",
+      "city": "Las Vegas",
+      "date": "2026-08-11",
+      "ts": 1786478400,
+      "url": "https://concerts.vegas/event/las-vegas-aviators-vs-sacramento-river-cats-las-vegas-tuesday-august-11-2026-705-pm/"
+    },
+    {
+      "artist": "Escobar",
+      "venue": "Marquee",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-08-12",
+      "ts": 1786561200,
+      "url": "https://nocovernightclubs.com/events/escobar-marquee-nightclub-wednesday-august-12-2026/"
+    },
+    {
+      "artist": "Dj Franzen",
+      "venue": "Hakkasan",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-08-12",
+      "ts": 1786561200,
+      "url": "https://nocovernightclubs.com/events/dj-franzen-hakkasan-nightclub-wednesday-august-12-2026/"
+    },
+    {
+      "artist": "Acraze",
+      "venue": "EBC At Night",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-08-12",
+      "ts": 1786561200,
+      "url": "https://nocovernightclubs.com/events/acraze-ebc-at-night-wednesday-august-12-2026/"
     }
   ]
 }
