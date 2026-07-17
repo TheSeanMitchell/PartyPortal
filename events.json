@@ -1,69 +1,6 @@
 {
-  "updated": 1784295832,
+  "updated": 1784315673,
   "events": [
-    {
-      "artist": "Special Guest",
-      "venue": "Omnia",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-07-16",
-      "ts": 1784228400,
-      "url": "https://nocovernightclubs.com/events/special-guest-omnia-nightclub-thursday-july-16-2026/"
-    },
-    {
-      "artist": "Dj Bamboozle",
-      "venue": "Tao",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-07-16",
-      "ts": 1784228400,
-      "url": "https://nocovernightclubs.com/events/dj-bamboozle-tao-nightclub-thursday-july-16-2026/"
-    },
-    {
-      "artist": "V4b",
-      "venue": "Hakkasan",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-07-16",
-      "ts": 1784228400,
-      "url": "https://nocovernightclubs.com/events/v4b-hakkasan-nightclub-thursday-july-16-2026/"
-    },
-    {
-      "artist": "Amiri Paul",
-      "venue": "Marquee Dayclub",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-07-16",
-      "ts": 1784228400,
-      "url": "https://nocovernightclubs.com/events/amiri-paul-marquee-dayclub-thursday-july-16-2026/"
-    },
-    {
-      "artist": "Special Guest",
-      "venue": "Tao Beach",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-07-16",
-      "ts": 1784228400,
-      "url": "https://nocovernightclubs.com/events/special-guest-tao-beach-thursday-july-16-2026/"
-    },
-    {
-      "artist": "Dj Shr3d",
-      "venue": "Liquid Pool",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-07-16",
-      "ts": 1784228400,
-      "url": "https://nocovernightclubs.com/events/dj-shr3d-liquid-pool-thursday-july-16-2026/"
-    },
-    {
-      "artist": "Mikey Francis",
-      "venue": "Palm Tree Beach",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-07-16",
-      "ts": 1784228400,
-      "url": "https://nocovernightclubs.com/events/mikey-francis-palm-tree-beach-club-thursday-july-16-2026/"
-    },
     {
       "artist": "Gryffin",
       "venue": "XS",
@@ -182,15 +119,6 @@
       "url": "https://nocovernightclubs.com/events/sommer-ray-liv-beach-friday-july-17-2026/"
     },
     {
-      "artist": "Barry Manilow",
-      "venue": "The Colosseum at Caesars Palace",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-07-17",
-      "ts": 1784318400,
-      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-friday-july-17-2026-800-pm/"
-    },
-    {
       "artist": "Mary J Blige",
       "venue": "Dolby Live at Park MGM",
       "type": "concert",
@@ -200,33 +128,6 @@
       "url": "https://concerts.vegas/event/mary-j-blige-las-vegas-friday-july-17-2026-800-pm/"
     },
     {
-      "artist": "Barry Manilow",
-      "venue": "Dolby Live at Park MGM",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-07-17",
-      "ts": 1784318400,
-      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-friday-july-17-2026-800-pm/"
-    },
-    {
-      "artist": "Barry Manilow",
-      "venue": "Michelob Ultra Arena",
-      "type": "arena",
-      "city": "Las Vegas",
-      "date": "2026-07-17",
-      "ts": 1784318400,
-      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-friday-july-17-2026-800-pm/"
-    },
-    {
-      "artist": "Barry Manilow",
-      "venue": "Resorts World Theatre",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-07-17",
-      "ts": 1784318400,
-      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-friday-july-17-2026-800-pm/"
-    },
-    {
       "artist": "Jeezy",
       "venue": "Bakkt Theater at Planet Hollywood",
       "type": "concert",
@@ -234,33 +135,6 @@
       "date": "2026-07-17",
       "ts": 1784318400,
       "url": "https://concerts.vegas/event/jeezy-las-vegas-friday-july-17-2026-800-pm/"
-    },
-    {
-      "artist": "Barry Manilow",
-      "venue": "Encore Theater at Wynn",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-07-17",
-      "ts": 1784318400,
-      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-friday-july-17-2026-800-pm/"
-    },
-    {
-      "artist": "Barry Manilow",
-      "venue": "BleauLive Theater at Fontainebleau",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-07-17",
-      "ts": 1784318400,
-      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-friday-july-17-2026-800-pm/"
-    },
-    {
-      "artist": "Barry Manilow",
-      "venue": "Pearl Theater at Palms",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-07-17",
-      "ts": 1784318400,
-      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-friday-july-17-2026-800-pm/"
     },
     {
       "artist": "Legado 7",
@@ -2700,6 +2574,132 @@
       "date": "2026-08-12",
       "ts": 1786564800,
       "url": "https://concerts.vegas/event/all-elite-wrestling-dynamite-and-collision-las-vegas-wednesday-august-12-2026-430-pm/"
+    },
+    {
+      "artist": "Las Vegas Aviators Vs Sacramento River Cats",
+      "venue": "Las Vegas",
+      "type": "sports",
+      "city": "Las Vegas",
+      "date": "2026-08-12",
+      "ts": 1786564800,
+      "url": "https://concerts.vegas/event/las-vegas-aviators-vs-sacramento-river-cats-las-vegas-wednesday-august-12-2026-705-pm/"
+    },
+    {
+      "artist": "Special Guest",
+      "venue": "Omnia",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-08-13",
+      "ts": 1786647600,
+      "url": "https://nocovernightclubs.com/events/special-guest-omnia-nightclub-thursday-august-13-2026/"
+    },
+    {
+      "artist": "Dj Shift",
+      "venue": "Tao",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-08-13",
+      "ts": 1786647600,
+      "url": "https://nocovernightclubs.com/events/dj-shift-tao-nightclub-thursday-august-13-2026/"
+    },
+    {
+      "artist": "Dj Pauly D",
+      "venue": "Hakkasan",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-08-13",
+      "ts": 1786647600,
+      "url": "https://nocovernightclubs.com/events/dj-pauly-d-hakkasan-nightclub-thursday-august-13-2026/"
+    },
+    {
+      "artist": "Special Guest",
+      "venue": "Marquee Dayclub",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-08-13",
+      "ts": 1786647600,
+      "url": "https://nocovernightclubs.com/events/special-guest-marquee-dayclub-thursday-august-13-2026/"
+    },
+    {
+      "artist": "Special Guest",
+      "venue": "Tao Beach",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-08-13",
+      "ts": 1786647600,
+      "url": "https://nocovernightclubs.com/events/special-guest-tao-beach-thursday-august-13-2026/"
+    },
+    {
+      "artist": "Dj Shr3d",
+      "venue": "Liquid Pool",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-08-13",
+      "ts": 1786647600,
+      "url": "https://nocovernightclubs.com/events/dj-shr3d-liquid-pool-thursday-august-13-2026/"
+    },
+    {
+      "artist": "Mikey Francis",
+      "venue": "Palm Tree Beach",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-08-13",
+      "ts": 1786647600,
+      "url": "https://nocovernightclubs.com/events/mikey-francis-palm-tree-beach-club-thursday-august-13-2026/"
+    },
+    {
+      "artist": "Nfl Preseason Las Vegas Raiders Vs Arizona Cardinals",
+      "venue": "Allegiant Stadium",
+      "type": "sports",
+      "city": "Las Vegas",
+      "date": "2026-08-13",
+      "ts": 1786651200,
+      "url": "https://concerts.vegas/event/nfl-preseason-las-vegas-raiders-vs-arizona-cardinals-las-vegas-thursday-august-13-2026-500-pm/"
+    },
+    {
+      "artist": "Gigi Perez",
+      "venue": "The Theater at Virgin Hotels",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-08-13",
+      "ts": 1786651200,
+      "url": "https://concerts.vegas/event/gigi-perez-las-vegas-thursday-august-13-2026-800-pm/"
+    },
+    {
+      "artist": "Gigi Perez",
+      "venue": "24 Oxford at Virgin Hotels",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-08-13",
+      "ts": 1786651200,
+      "url": "https://concerts.vegas/event/gigi-perez-las-vegas-thursday-august-13-2026-800-pm/"
+    },
+    {
+      "artist": "Nfl Preseason Las Vegas Raiders Vs Arizona Cardinals",
+      "venue": "Las Vegas",
+      "type": "sports",
+      "city": "Las Vegas",
+      "date": "2026-08-13",
+      "ts": 1786651200,
+      "url": "https://concerts.vegas/event/nfl-preseason-las-vegas-raiders-vs-arizona-cardinals-las-vegas-thursday-august-13-2026-500-pm/"
+    },
+    {
+      "artist": "Run For A Million Cutting Horse Challenge",
+      "venue": "Las Vegas",
+      "type": "sports",
+      "city": "Las Vegas",
+      "date": "2026-08-13",
+      "ts": 1786651200,
+      "url": "https://concerts.vegas/event/run-for-a-million-cutting-horse-challenge-las-vegas-thursday-august-13-2026-600-pm/"
+    },
+    {
+      "artist": "Las Vegas Aces Vs Washington Mystics",
+      "venue": "Las Vegas",
+      "type": "sports",
+      "city": "Las Vegas",
+      "date": "2026-08-13",
+      "ts": 1786651200,
+      "url": "https://concerts.vegas/event/las-vegas-aces-vs-washington-mystics-las-vegas-thursday-august-13-2026-700-pm/"
     }
   ]
 }
