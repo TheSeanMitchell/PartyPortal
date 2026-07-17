@@ -1,5 +1,5 @@
 {
-  "updated": 1784276026,
+  "updated": 1784295832,
   "events": [
     {
       "artist": "Special Guest",
@@ -236,15 +236,6 @@
       "url": "https://concerts.vegas/event/jeezy-las-vegas-friday-july-17-2026-800-pm/"
     },
     {
-      "artist": "Banda World",
-      "venue": "House of Blues",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-07-17",
-      "ts": 1784318400,
-      "url": "https://concerts.vegas/event/banda-world-las-vegas-friday-july-17-2026-900-pm/"
-    },
-    {
       "artist": "Barry Manilow",
       "venue": "Encore Theater at Wynn",
       "type": "concert",
@@ -270,15 +261,6 @@
       "date": "2026-07-17",
       "ts": 1784318400,
       "url": "https://concerts.vegas/event/barry-manilow-las-vegas-friday-july-17-2026-800-pm/"
-    },
-    {
-      "artist": "Nba Summer League Day 9",
-      "venue": "Las Vegas",
-      "type": "sports",
-      "city": "Las Vegas",
-      "date": "2026-07-17",
-      "ts": 1784318400,
-      "url": "https://concerts.vegas/event/nba-summer-league-day-9-las-vegas-friday-july-17-2026-tba/"
     },
     {
       "artist": "Legado 7",
@@ -2700,6 +2682,24 @@
       "date": "2026-08-12",
       "ts": 1786561200,
       "url": "https://nocovernightclubs.com/events/dj-buza-liquid-pool-wednesday-august-12-2026/"
+    },
+    {
+      "artist": "Special Guest",
+      "venue": "Palm Tree Beach",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-08-12",
+      "ts": 1786561200,
+      "url": "https://nocovernightclubs.com/events/special-guest-palm-tree-beach-club-wednesday-august-12-2026/"
+    },
+    {
+      "artist": "All Elite Wrestling Dynamite And Collision",
+      "venue": "Las Vegas",
+      "type": "sports",
+      "city": "Las Vegas",
+      "date": "2026-08-12",
+      "ts": 1786564800,
+      "url": "https://concerts.vegas/event/all-elite-wrestling-dynamite-and-collision-las-vegas-wednesday-august-12-2026-430-pm/"
     }
   ]
 }
