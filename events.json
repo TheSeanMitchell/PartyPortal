@@ -1,5 +1,5 @@
 {
-  "updated": 1784229338,
+  "updated": 1784276026,
   "events": [
     {
       "artist": "Special Guest",
@@ -63,15 +63,6 @@
       "date": "2026-07-16",
       "ts": 1784228400,
       "url": "https://nocovernightclubs.com/events/mikey-francis-palm-tree-beach-club-thursday-july-16-2026/"
-    },
-    {
-      "artist": "Nba Summer League Day 8",
-      "venue": "Las Vegas",
-      "type": "sports",
-      "city": "Las Vegas",
-      "date": "2026-07-16",
-      "ts": 1784232000,
-      "url": "https://concerts.vegas/event/nba-summer-league-day-8-las-vegas-thursday-july-16-2026-100-pm/"
     },
     {
       "artist": "Gryffin",
@@ -2700,6 +2691,15 @@
       "date": "2026-08-12",
       "ts": 1786561200,
       "url": "https://nocovernightclubs.com/events/acraze-ebc-at-night-wednesday-august-12-2026/"
+    },
+    {
+      "artist": "Dj Buza",
+      "venue": "Liquid Pool",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-08-12",
+      "ts": 1786561200,
+      "url": "https://nocovernightclubs.com/events/dj-buza-liquid-pool-wednesday-august-12-2026/"
     }
   ]
 }
