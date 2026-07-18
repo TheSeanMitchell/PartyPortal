@@ -1,5 +1,5 @@
 {
-  "updated": 1784315673,
+  "updated": 1784361342,
   "events": [
     {
       "artist": "Gryffin",
@@ -117,24 +117,6 @@
       "date": "2026-07-17",
       "ts": 1784314800,
       "url": "https://nocovernightclubs.com/events/sommer-ray-liv-beach-friday-july-17-2026/"
-    },
-    {
-      "artist": "Mary J Blige",
-      "venue": "Dolby Live at Park MGM",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-07-17",
-      "ts": 1784318400,
-      "url": "https://concerts.vegas/event/mary-j-blige-las-vegas-friday-july-17-2026-800-pm/"
-    },
-    {
-      "artist": "Jeezy",
-      "venue": "Bakkt Theater at Planet Hollywood",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-07-17",
-      "ts": 1784318400,
-      "url": "https://concerts.vegas/event/jeezy-las-vegas-friday-july-17-2026-800-pm/"
     },
     {
       "artist": "Legado 7",
@@ -2700,6 +2682,24 @@
       "date": "2026-08-13",
       "ts": 1786651200,
       "url": "https://concerts.vegas/event/las-vegas-aces-vs-washington-mystics-las-vegas-thursday-august-13-2026-700-pm/"
+    },
+    {
+      "artist": "Las Vegas Aviators Vs Sacramento River Cats",
+      "venue": "Las Vegas",
+      "type": "sports",
+      "city": "Las Vegas",
+      "date": "2026-08-13",
+      "ts": 1786651200,
+      "url": "https://concerts.vegas/event/las-vegas-aviators-vs-sacramento-river-cats-las-vegas-thursday-august-13-2026-705-pm/"
+    },
+    {
+      "artist": "Special Guest",
+      "venue": "Zouk",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-08-14",
+      "ts": 1786734000,
+      "url": "https://nocovernightclubs.com/events/special-guest-zouk-nightclub-friday-august-14-2026/"
     }
   ]
 }
