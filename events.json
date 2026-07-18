@@ -1,5 +1,5 @@
 {
-  "updated": 1784361342,
+  "updated": 1784380870,
   "events": [
     {
       "artist": "Gryffin",
@@ -317,15 +317,6 @@
       "url": "https://concerts.vegas/event/jeezy-las-vegas-saturday-july-18-2026-800-pm/"
     },
     {
-      "artist": "Planet Funk",
-      "venue": "House of Blues",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-07-18",
-      "ts": 1784404800,
-      "url": "https://concerts.vegas/event/planet-funk-las-vegas-saturday-july-18-2026-900-pm/"
-    },
-    {
       "artist": "Barry Manilow",
       "venue": "Encore Theater at Wynn",
       "type": "concert",
@@ -351,15 +342,6 @@
       "date": "2026-07-18",
       "ts": 1784404800,
       "url": "https://concerts.vegas/event/barry-manilow-las-vegas-saturday-july-18-2026-700-pm/"
-    },
-    {
-      "artist": "Nba Summer League Day 10",
-      "venue": "Las Vegas",
-      "type": "sports",
-      "city": "Las Vegas",
-      "date": "2026-07-18",
-      "ts": 1784404800,
-      "url": "https://concerts.vegas/event/nba-summer-league-day-10-las-vegas-saturday-july-18-2026-tba/"
     },
     {
       "artist": "Deseo",
@@ -2700,6 +2682,24 @@
       "date": "2026-08-14",
       "ts": 1786734000,
       "url": "https://nocovernightclubs.com/events/special-guest-zouk-nightclub-friday-august-14-2026/"
+    },
+    {
+      "artist": "Tiesto",
+      "venue": "Omnia",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-08-14",
+      "ts": 1786734000,
+      "url": "https://nocovernightclubs.com/events/tiesto-omnia-nightclub-friday-august-14-2026/"
+    },
+    {
+      "artist": "Omnom",
+      "venue": "Marquee",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-08-14",
+      "ts": 1786734000,
+      "url": "https://nocovernightclubs.com/events/omnom-marquee-nightclub-friday-august-14-2026/"
     }
   ]
 }
