@@ -1,5 +1,5 @@
 {
-  "updated": 1784449404,
+  "updated": 1784467348,
   "events": [
     {
       "artist": "Legado 7",
@@ -207,15 +207,6 @@
       "date": "2026-07-19",
       "ts": 1784487600,
       "url": "https://nocovernightclubs.com/events/westend-liv-beach-sunday-july-19-2026/"
-    },
-    {
-      "artist": "Nba Summer League Day 11",
-      "venue": "Las Vegas",
-      "type": "sports",
-      "city": "Las Vegas",
-      "date": "2026-07-19",
-      "ts": 1784491200,
-      "url": "https://concerts.vegas/event/nba-summer-league-day-11-las-vegas-sunday-july-19-2026-tba/"
     },
     {
       "artist": "Dj Vice",
@@ -2700,6 +2691,15 @@
       "date": "2026-08-15",
       "ts": 1786820400,
       "url": "https://nocovernightclubs.com/events/the-chainsmokers-encore-beach-club-saturday-august-15-2026/"
+    },
+    {
+      "artist": "Odesza",
+      "venue": "EBC At Night",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-08-15",
+      "ts": 1786820400,
+      "url": "https://nocovernightclubs.com/events/odesza-ebc-at-night-saturday-august-15-2026/"
     }
   ]
 }
