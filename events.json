@@ -1,132 +1,6 @@
 {
-  "updated": 1784467348,
+  "updated": 1784488226,
   "events": [
-    {
-      "artist": "Legado 7",
-      "venue": "Zouk",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-07-18",
-      "ts": 1784401200,
-      "url": "https://nocovernightclubs.com/events/legado-7-zouk-nightclub-saturday-july-18-2026/"
-    },
-    {
-      "artist": "Odesza",
-      "venue": "XS",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-07-18",
-      "ts": 1784401200,
-      "url": "https://nocovernightclubs.com/events/odesza-xs-nightclub-saturday-july-18-2026/"
-    },
-    {
-      "artist": "Deorro",
-      "venue": "Omnia",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-07-18",
-      "ts": 1784401200,
-      "url": "https://nocovernightclubs.com/events/deorro-omnia-nightclub-saturday-july-18-2026/"
-    },
-    {
-      "artist": "Altego",
-      "venue": "Marquee",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-07-18",
-      "ts": 1784401200,
-      "url": "https://nocovernightclubs.com/events/altego-marquee-nightclub-saturday-july-18-2026/"
-    },
-    {
-      "artist": "Joe Maz",
-      "venue": "Tao",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-07-18",
-      "ts": 1784401200,
-      "url": "https://nocovernightclubs.com/events/joe-maz-tao-nightclub-saturday-july-18-2026/"
-    },
-    {
-      "artist": "French Montana",
-      "venue": "Hakkasan",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-07-18",
-      "ts": 1784401200,
-      "url": "https://nocovernightclubs.com/events/french-montana-hakkasan-nightclub-saturday-july-18-2026/"
-    },
-    {
-      "artist": "Layton Giordani",
-      "venue": "LIV",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-07-18",
-      "ts": 1784401200,
-      "url": "https://nocovernightclubs.com/events/layton-giordani-liv-nightclub-saturday-july-18-2026/"
-    },
-    {
-      "artist": "Yo Yolie",
-      "venue": "Jewel",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-07-18",
-      "ts": 1784401200,
-      "url": "https://nocovernightclubs.com/events/yo-yolie-jewel-nightclub-saturday-july-18-2026/"
-    },
-    {
-      "artist": "Marshmello",
-      "venue": "Encore Beach Club",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-07-18",
-      "ts": 1784401200,
-      "url": "https://nocovernightclubs.com/events/marshmello-encore-beach-club-saturday-july-18-2026/"
-    },
-    {
-      "artist": "Dj Pauly D",
-      "venue": "Marquee Dayclub",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-07-18",
-      "ts": 1784401200,
-      "url": "https://nocovernightclubs.com/events/dj-pauly-d-marquee-dayclub-saturday-july-18-2026/"
-    },
-    {
-      "artist": "Tyga",
-      "venue": "Tao Beach",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-07-18",
-      "ts": 1784401200,
-      "url": "https://nocovernightclubs.com/events/tyga-tao-beach-saturday-july-18-2026/"
-    },
-    {
-      "artist": "Kid Conrad",
-      "venue": "Liquid Pool",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-07-18",
-      "ts": 1784401200,
-      "url": "https://nocovernightclubs.com/events/kid-conrad-liquid-pool-saturday-july-18-2026/"
-    },
-    {
-      "artist": "Chris Lake",
-      "venue": "Palm Tree Beach",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-07-18",
-      "ts": 1784401200,
-      "url": "https://nocovernightclubs.com/events/chris-lake-palm-tree-beach-club-saturday-july-18-2026/"
-    },
-    {
-      "artist": "Tiesto",
-      "venue": "LIV Beach",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-07-18",
-      "ts": 1784401200,
-      "url": "https://nocovernightclubs.com/events/tiesto-liv-beach-saturday-july-18-2026/"
-    },
     {
       "artist": "Deseo",
       "venue": "Omnia",
@@ -2700,6 +2574,132 @@
       "date": "2026-08-15",
       "ts": 1786820400,
       "url": "https://nocovernightclubs.com/events/odesza-ebc-at-night-saturday-august-15-2026/"
+    },
+    {
+      "artist": "Dj Pauly D",
+      "venue": "Marquee Dayclub",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-08-15",
+      "ts": 1786820400,
+      "url": "https://nocovernightclubs.com/events/dj-pauly-d-marquee-dayclub-saturday-august-15-2026/"
+    },
+    {
+      "artist": "Kid Conrad",
+      "venue": "Liquid Pool",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-08-15",
+      "ts": 1786820400,
+      "url": "https://nocovernightclubs.com/events/kid-conrad-liquid-pool-saturday-august-15-2026/"
+    },
+    {
+      "artist": "Tiesto",
+      "venue": "Palm Tree Beach",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-08-15",
+      "ts": 1786820400,
+      "url": "https://nocovernightclubs.com/events/tiesto-palm-tree-beach-club-saturday-august-15-2026/"
+    },
+    {
+      "artist": "Disco Lines",
+      "venue": "LIV Beach",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-08-15",
+      "ts": 1786820400,
+      "url": "https://nocovernightclubs.com/events/disco-lines-liv-beach-saturday-august-15-2026/"
+    },
+    {
+      "artist": "Devildriver",
+      "venue": "Brooklyn Bowl",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-08-15",
+      "ts": 1786824000,
+      "url": "https://concerts.vegas/event/devildriver-las-vegas-saturday-august-15-2026-600-pm/"
+    },
+    {
+      "artist": "Las Vegas Aces Vs Minnesota Lynx",
+      "venue": "Las Vegas",
+      "type": "sports",
+      "city": "Las Vegas",
+      "date": "2026-08-15",
+      "ts": 1786824000,
+      "url": "https://concerts.vegas/event/las-vegas-aces-vs-minnesota-lynx-las-vegas-saturday-august-15-2026-500-pm/"
+    },
+    {
+      "artist": "Run For A Million Reining Championship",
+      "venue": "Las Vegas",
+      "type": "sports",
+      "city": "Las Vegas",
+      "date": "2026-08-15",
+      "ts": 1786824000,
+      "url": "https://concerts.vegas/event/run-for-a-million-reining-championship-las-vegas-saturday-august-15-2026-530-pm/"
+    },
+    {
+      "artist": "Las Vegas Aviators Vs Sacramento River Cats",
+      "venue": "Las Vegas",
+      "type": "sports",
+      "city": "Las Vegas",
+      "date": "2026-08-15",
+      "ts": 1786824000,
+      "url": "https://concerts.vegas/event/las-vegas-aviators-vs-sacramento-river-cats-las-vegas-saturday-august-15-2026-705-pm/"
+    },
+    {
+      "artist": "Las Vegas Lights Fc Vs Brooklyn Fc",
+      "venue": "Las Vegas",
+      "type": "sports",
+      "city": "Las Vegas",
+      "date": "2026-08-15",
+      "ts": 1786824000,
+      "url": "https://concerts.vegas/event/las-vegas-lights-fc-vs-brooklyn-fc-las-vegas-saturday-august-15-2026-730-pm/"
+    },
+    {
+      "artist": "Deseo",
+      "venue": "Omnia",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-08-16",
+      "ts": 1786906800,
+      "url": "https://nocovernightclubs.com/events/deseo-omnia-nightclub-sunday-august-16-2026/"
+    },
+    {
+      "artist": "Ritual Sundays",
+      "venue": "Tao",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-08-16",
+      "ts": 1786906800,
+      "url": "https://nocovernightclubs.com/events/ritual-sundays-tao-nightclub-sunday-august-16-2026/"
+    },
+    {
+      "artist": "Ayybo",
+      "venue": "Encore Beach Club",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-08-16",
+      "ts": 1786906800,
+      "url": "https://nocovernightclubs.com/events/ayybo-encore-beach-club-sunday-august-16-2026/"
+    },
+    {
+      "artist": "Dj Buza",
+      "venue": "Marquee Dayclub",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-08-16",
+      "ts": 1786906800,
+      "url": "https://nocovernightclubs.com/events/dj-buza-marquee-dayclub-sunday-august-16-2026/"
+    },
+    {
+      "artist": "Dj Snake",
+      "venue": "Tao Beach",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-08-16",
+      "ts": 1786906800,
+      "url": "https://nocovernightclubs.com/events/dj-snake-tao-beach-sunday-august-16-2026/"
     }
   ]
 }
