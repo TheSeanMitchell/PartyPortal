@@ -1,5 +1,5 @@
 {
-  "updated": 1784401737,
+  "updated": 1784449404,
   "events": [
     {
       "artist": "Legado 7",
@@ -126,42 +126,6 @@
       "date": "2026-07-18",
       "ts": 1784401200,
       "url": "https://nocovernightclubs.com/events/tiesto-liv-beach-saturday-july-18-2026/"
-    },
-    {
-      "artist": "Ed Sheeran Myles Smith Aaron Rowe And Sigrid",
-      "venue": "Allegiant Stadium",
-      "type": "stadium",
-      "city": "Las Vegas",
-      "date": "2026-07-18",
-      "ts": 1784404800,
-      "url": "https://concerts.vegas/event/ed-sheeran-myles-smith-aaron-rowe-and-sigrid-las-vegas-saturday-july-18-2026-530-pm/"
-    },
-    {
-      "artist": "Mary J Blige",
-      "venue": "Dolby Live at Park MGM",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-07-18",
-      "ts": 1784404800,
-      "url": "https://concerts.vegas/event/mary-j-blige-las-vegas-saturday-july-18-2026-800-pm/"
-    },
-    {
-      "artist": "Olivia Dean",
-      "venue": "MGM Grand Garden Arena",
-      "type": "arena",
-      "city": "Las Vegas",
-      "date": "2026-07-18",
-      "ts": 1784404800,
-      "url": "https://concerts.vegas/event/olivia-dean-las-vegas-saturday-july-18-2026-800-pm/"
-    },
-    {
-      "artist": "Jeezy",
-      "venue": "Bakkt Theater at Planet Hollywood",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-07-18",
-      "ts": 1784404800,
-      "url": "https://concerts.vegas/event/jeezy-las-vegas-saturday-july-18-2026-800-pm/"
     },
     {
       "artist": "Deseo",
@@ -1332,15 +1296,6 @@
       "date": "2026-08-01",
       "ts": 1785610800,
       "url": "https://nocovernightclubs.com/events/four-color-zack-tao-nightclub-saturday-august-1-2026/"
-    },
-    {
-      "artist": "Dj Bonics",
-      "venue": "Hakkasan",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-08-01",
-      "ts": 1785610800,
-      "url": "https://nocovernightclubs.com/events/dj-bonics-hakkasan-nightclub-saturday-august-1-2026/"
     },
     {
       "artist": "Fabolous",
@@ -2531,6 +2486,15 @@
       "url": "https://nocovernightclubs.com/events/special-guest-tao-nightclub-friday-august-14-2026/"
     },
     {
+      "artist": "Ne Yo",
+      "venue": "Hakkasan",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-08-14",
+      "ts": 1786734000,
+      "url": "https://nocovernightclubs.com/events/ne-yo-hakkasan-nightclub-friday-august-14-2026/"
+    },
+    {
       "artist": "Layton Giordani",
       "venue": "LIV",
       "type": "club",
@@ -2700,6 +2664,42 @@
       "date": "2026-08-15",
       "ts": 1786820400,
       "url": "https://nocovernightclubs.com/events/dj-precise-tao-nightclub-saturday-august-15-2026/"
+    },
+    {
+      "artist": "Dre Sinatra",
+      "venue": "Hakkasan",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-08-15",
+      "ts": 1786820400,
+      "url": "https://nocovernightclubs.com/events/dre-sinatra-hakkasan-nightclub-saturday-august-15-2026/"
+    },
+    {
+      "artist": "Gorgon City",
+      "venue": "LIV",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-08-15",
+      "ts": 1786820400,
+      "url": "https://nocovernightclubs.com/events/gorgon-city-liv-nightclub-saturday-august-15-2026/"
+    },
+    {
+      "artist": "Mike Attack",
+      "venue": "Jewel",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-08-15",
+      "ts": 1786820400,
+      "url": "https://nocovernightclubs.com/events/mike-attack-jewel-nightclub-saturday-august-15-2026/"
+    },
+    {
+      "artist": "The Chainsmokers",
+      "venue": "Encore Beach Club",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-08-15",
+      "ts": 1786820400,
+      "url": "https://nocovernightclubs.com/events/the-chainsmokers-encore-beach-club-saturday-august-15-2026/"
     }
   ]
 }
