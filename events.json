@@ -1,87 +1,6 @@
 {
-  "updated": 1784556670,
+  "updated": 1784576798,
   "events": [
-    {
-      "artist": "Deseo",
-      "venue": "Omnia",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-07-19",
-      "ts": 1784487600,
-      "url": "https://nocovernightclubs.com/events/deseo-omnia-nightclub-sunday-july-19-2026/"
-    },
-    {
-      "artist": "Ritual Sundays",
-      "venue": "Tao",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-07-19",
-      "ts": 1784487600,
-      "url": "https://nocovernightclubs.com/events/ritual-sundays-tao-nightclub-sunday-july-19-2026/"
-    },
-    {
-      "artist": "Maroda",
-      "venue": "LIV",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-07-19",
-      "ts": 1784487600,
-      "url": "https://nocovernightclubs.com/events/maroda-liv-nightclub-sunday-july-19-2026/"
-    },
-    {
-      "artist": "Vavo",
-      "venue": "Encore Beach Club",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-07-19",
-      "ts": 1784487600,
-      "url": "https://nocovernightclubs.com/events/vavo-encore-beach-club-sunday-july-19-2026/"
-    },
-    {
-      "artist": "Dj Cla",
-      "venue": "Marquee Dayclub",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-07-19",
-      "ts": 1784487600,
-      "url": "https://nocovernightclubs.com/events/dj-cla-marquee-dayclub-sunday-july-19-2026/"
-    },
-    {
-      "artist": "Wiz Khalifa",
-      "venue": "Tao Beach",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-07-19",
-      "ts": 1784487600,
-      "url": "https://nocovernightclubs.com/events/wiz-khalifa-tao-beach-sunday-july-19-2026/"
-    },
-    {
-      "artist": "Eric Remy",
-      "venue": "Liquid Pool",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-07-19",
-      "ts": 1784487600,
-      "url": "https://nocovernightclubs.com/events/eric-remy-liquid-pool-sunday-july-19-2026/"
-    },
-    {
-      "artist": "Special Guest",
-      "venue": "Palm Tree Beach",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-07-19",
-      "ts": 1784487600,
-      "url": "https://nocovernightclubs.com/events/special-guest-palm-tree-beach-club-sunday-july-19-2026/"
-    },
-    {
-      "artist": "Westend",
-      "venue": "LIV Beach",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-07-19",
-      "ts": 1784487600,
-      "url": "https://nocovernightclubs.com/events/westend-liv-beach-sunday-july-19-2026/"
-    },
     {
       "artist": "Dj Vice",
       "venue": "Marquee",
@@ -1901,6 +1820,15 @@
       "url": "https://concerts.vegas/event/eslabon-armado-las-vegas-saturday-august-8-2026-700-pm/"
     },
     {
+      "artist": "House Of Heavy",
+      "venue": "Brooklyn Bowl",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-08-08",
+      "ts": 1786219200,
+      "url": "https://concerts.vegas/event/house-of-heavy-las-vegas-saturday-august-8-2026-900-pm/"
+    },
+    {
       "artist": "Las Vegas Aviators Vs Tacoma Rainiers",
       "venue": "Las Vegas",
       "type": "sports",
@@ -2700,6 +2628,78 @@
       "date": "2026-08-16",
       "ts": 1786906800,
       "url": "https://nocovernightclubs.com/events/dj-snake-tao-beach-sunday-august-16-2026/"
+    },
+    {
+      "artist": "Eric Remy",
+      "venue": "Liquid Pool",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-08-16",
+      "ts": 1786906800,
+      "url": "https://nocovernightclubs.com/events/eric-remy-liquid-pool-sunday-august-16-2026/"
+    },
+    {
+      "artist": "Lost Frequencies",
+      "venue": "Palm Tree Beach",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-08-16",
+      "ts": 1786906800,
+      "url": "https://nocovernightclubs.com/events/lost-frequencies-palm-tree-beach-club-sunday-august-16-2026/"
+    },
+    {
+      "artist": "Nic Vans",
+      "venue": "LIV Beach",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-08-16",
+      "ts": 1786906800,
+      "url": "https://nocovernightclubs.com/events/nic-vans-liv-beach-sunday-august-16-2026/"
+    },
+    {
+      "artist": "Interpol",
+      "venue": "The Theater at Virgin Hotels",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-08-16",
+      "ts": 1786910400,
+      "url": "https://concerts.vegas/event/interpol-las-vegas-sunday-august-16-2026-800-pm/"
+    },
+    {
+      "artist": "Interpol",
+      "venue": "24 Oxford at Virgin Hotels",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-08-16",
+      "ts": 1786910400,
+      "url": "https://concerts.vegas/event/interpol-las-vegas-sunday-august-16-2026-800-pm/"
+    },
+    {
+      "artist": "Las Vegas Aviators Vs Sacramento River Cats",
+      "venue": "Las Vegas",
+      "type": "sports",
+      "city": "Las Vegas",
+      "date": "2026-08-16",
+      "ts": 1786910400,
+      "url": "https://concerts.vegas/event/las-vegas-aviators-vs-sacramento-river-cats-las-vegas-sunday-august-16-2026-605-pm/"
+    },
+    {
+      "artist": "Eric Forbes",
+      "venue": "Marquee Dayclub",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-08-17",
+      "ts": 1786993200,
+      "url": "https://nocovernightclubs.com/events/eric-forbes-marquee-dayclub-monday-august-17-2026/"
+    },
+    {
+      "artist": "Rob Guson",
+      "venue": "Omnia",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-08-18",
+      "ts": 1787079600,
+      "url": "https://nocovernightclubs.com/events/rob-guson-omnia-nightclub-tuesday-august-18-2026/"
     }
   ]
 }
