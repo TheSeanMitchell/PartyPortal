@@ -1,24 +1,6 @@
 {
-  "updated": 1784642272,
+  "updated": 1784662040,
   "events": [
-    {
-      "artist": "Dj Vice",
-      "venue": "Marquee",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-07-20",
-      "ts": 1784574000,
-      "url": "https://nocovernightclubs.com/events/dj-vice-marquee-nightclub-monday-july-20-2026/"
-    },
-    {
-      "artist": "Special Guest",
-      "venue": "Marquee Dayclub",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-07-20",
-      "ts": 1784574000,
-      "url": "https://nocovernightclubs.com/events/special-guest-marquee-dayclub-monday-july-20-2026/"
-    },
     {
       "artist": "Mikey Francis",
       "venue": "Omnia",
@@ -2700,6 +2682,24 @@
       "date": "2026-08-18",
       "ts": 1787079600,
       "url": "https://nocovernightclubs.com/events/rob-guson-omnia-nightclub-tuesday-august-18-2026/"
+    },
+    {
+      "artist": "Nico Bernardini",
+      "venue": "Marquee",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-08-19",
+      "ts": 1787166000,
+      "url": "https://nocovernightclubs.com/events/nico-bernardini-marquee-nightclub-wednesday-august-19-2026/"
+    },
+    {
+      "artist": "Dj Franzen",
+      "venue": "Hakkasan",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-08-19",
+      "ts": 1787166000,
+      "url": "https://nocovernightclubs.com/events/dj-franzen-hakkasan-nightclub-wednesday-august-19-2026/"
     }
   ]
 }
