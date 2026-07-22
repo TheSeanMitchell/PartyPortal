@@ -1,5 +1,5 @@
 {
-  "updated": 1784662040,
+  "updated": 1784709174,
   "events": [
     {
       "artist": "Mikey Francis",
@@ -9,15 +9,6 @@
       "date": "2026-07-21",
       "ts": 1784660400,
       "url": "https://nocovernightclubs.com/events/mikey-francis-omnia-nightclub-tuesday-july-21-2026/"
-    },
-    {
-      "artist": "Las Vegas Aviators Vs El Paso Chihuahuas",
-      "venue": "Las Vegas",
-      "type": "sports",
-      "city": "Las Vegas",
-      "date": "2026-07-21",
-      "ts": 1784664000,
-      "url": "https://concerts.vegas/event/las-vegas-aviators-vs-el-paso-chihuahuas-las-vegas-tuesday-july-21-2026-705-pm/"
     },
     {
       "artist": "Dmtri",
@@ -72,15 +63,6 @@
       "date": "2026-07-22",
       "ts": 1784750400,
       "url": "https://concerts.vegas/event/las-vegas-aviators-vs-el-paso-chihuahuas-las-vegas-wednesday-july-22-2026-705-pm/"
-    },
-    {
-      "artist": "Micromania Midget Wrestling",
-      "venue": "Las Vegas",
-      "type": "sports",
-      "city": "Las Vegas",
-      "date": "2026-07-22",
-      "ts": 1784750400,
-      "url": "https://concerts.vegas/event/micromania-midget-wrestling-las-vegas-wednesday-july-22-2026-930-pm/"
     },
     {
       "artist": "Special Guest",
@@ -2684,6 +2666,15 @@
       "url": "https://nocovernightclubs.com/events/rob-guson-omnia-nightclub-tuesday-august-18-2026/"
     },
     {
+      "artist": "Las Vegas Aces Vs Atlanta Dream",
+      "venue": "Las Vegas",
+      "type": "sports",
+      "city": "Las Vegas",
+      "date": "2026-08-18",
+      "ts": 1787083200,
+      "url": "https://concerts.vegas/event/las-vegas-aces-vs-atlanta-dream-las-vegas-tuesday-august-18-2026-700-pm/"
+    },
+    {
       "artist": "Nico Bernardini",
       "venue": "Marquee",
       "type": "club",
@@ -2700,6 +2691,15 @@
       "date": "2026-08-19",
       "ts": 1787166000,
       "url": "https://nocovernightclubs.com/events/dj-franzen-hakkasan-nightclub-wednesday-august-19-2026/"
+    },
+    {
+      "artist": "Special Guest",
+      "venue": "EBC At Night",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-08-19",
+      "ts": 1787166000,
+      "url": "https://nocovernightclubs.com/events/special-guest-ebc-at-night-wednesday-august-19-2026/"
     }
   ]
 }
