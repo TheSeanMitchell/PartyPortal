@@ -1,15 +1,6 @@
 {
-  "updated": 1784728894,
+  "updated": 1784748287,
   "events": [
-    {
-      "artist": "Mikey Francis",
-      "venue": "Omnia",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-07-21",
-      "ts": 1784660400,
-      "url": "https://nocovernightclubs.com/events/mikey-francis-omnia-nightclub-tuesday-july-21-2026/"
-    },
     {
       "artist": "Dmtri",
       "venue": "Marquee",
@@ -2700,6 +2691,15 @@
       "date": "2026-08-19",
       "ts": 1787166000,
       "url": "https://nocovernightclubs.com/events/special-guest-ebc-at-night-wednesday-august-19-2026/"
+    },
+    {
+      "artist": "Dj Buza",
+      "venue": "Liquid Pool",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-08-19",
+      "ts": 1787166000,
+      "url": "https://nocovernightclubs.com/events/dj-buza-liquid-pool-wednesday-august-19-2026/"
     }
   ]
 }
