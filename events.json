@@ -1,51 +1,6 @@
 {
-  "updated": 1784815608,
+  "updated": 1784834518,
   "events": [
-    {
-      "artist": "Dmtri",
-      "venue": "Marquee",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-07-22",
-      "ts": 1784746800,
-      "url": "https://nocovernightclubs.com/events/dmtri-marquee-nightclub-wednesday-july-22-2026/"
-    },
-    {
-      "artist": "Dj Franzen",
-      "venue": "Hakkasan",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-07-22",
-      "ts": 1784746800,
-      "url": "https://nocovernightclubs.com/events/dj-franzen-hakkasan-nightclub-wednesday-july-22-2026/"
-    },
-    {
-      "artist": "Dillon Francis",
-      "venue": "EBC At Night",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-07-22",
-      "ts": 1784746800,
-      "url": "https://nocovernightclubs.com/events/dillon-francis-ebc-at-night-wednesday-july-22-2026/"
-    },
-    {
-      "artist": "Dj Buza",
-      "venue": "Liquid Pool",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-07-22",
-      "ts": 1784746800,
-      "url": "https://nocovernightclubs.com/events/dj-buza-liquid-pool-wednesday-july-22-2026/"
-    },
-    {
-      "artist": "Special Guest",
-      "venue": "Palm Tree Beach",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-07-22",
-      "ts": 1784746800,
-      "url": "https://nocovernightclubs.com/events/special-guest-palm-tree-beach-club-wednesday-july-22-2026/"
-    },
     {
       "artist": "Special Guest",
       "venue": "Omnia",
@@ -1161,6 +1116,15 @@
       "date": "2026-08-01",
       "ts": 1785614400,
       "url": "https://concerts.vegas/event/jeezy-las-vegas-saturday-august-1-2026-800-pm/"
+    },
+    {
+      "artist": "Red Eye Gin",
+      "venue": "Brooklyn Bowl",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-08-01",
+      "ts": 1785614400,
+      "url": "https://concerts.vegas/event/red-eye-gin-las-vegas-saturday-august-1-2026-700-pm/"
     },
     {
       "artist": "Golden Boy Boxing Lamont Roach Jr Vs William Zepeda",
@@ -2700,6 +2664,42 @@
       "date": "2026-08-20",
       "ts": 1787252400,
       "url": "https://nocovernightclubs.com/events/special-guest-omnia-nightclub-thursday-august-20-2026/"
+    },
+    {
+      "artist": "Dj E Rock",
+      "venue": "Tao",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-08-20",
+      "ts": 1787252400,
+      "url": "https://nocovernightclubs.com/events/dj-e-rock-tao-nightclub-thursday-august-20-2026/"
+    },
+    {
+      "artist": "Dj Five",
+      "venue": "Hakkasan",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-08-20",
+      "ts": 1787252400,
+      "url": "https://nocovernightclubs.com/events/dj-five-hakkasan-nightclub-thursday-august-20-2026/"
+    },
+    {
+      "artist": "Special Guest",
+      "venue": "Marquee Dayclub",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-08-20",
+      "ts": 1787252400,
+      "url": "https://nocovernightclubs.com/events/special-guest-marquee-dayclub-thursday-august-20-2026/"
+    },
+    {
+      "artist": "Special Guest",
+      "venue": "Tao Beach",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-08-20",
+      "ts": 1787252400,
+      "url": "https://nocovernightclubs.com/events/special-guest-tao-beach-thursday-august-20-2026/"
     }
   ]
 }
