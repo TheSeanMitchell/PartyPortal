@@ -1,5 +1,5 @@
 {
-  "updated": 1784748287,
+  "updated": 1784795638,
   "events": [
     {
       "artist": "Dmtri",
@@ -45,15 +45,6 @@
       "date": "2026-07-22",
       "ts": 1784746800,
       "url": "https://nocovernightclubs.com/events/special-guest-palm-tree-beach-club-wednesday-july-22-2026/"
-    },
-    {
-      "artist": "Las Vegas Aviators Vs El Paso Chihuahuas",
-      "venue": "Las Vegas",
-      "type": "sports",
-      "city": "Las Vegas",
-      "date": "2026-07-22",
-      "ts": 1784750400,
-      "url": "https://concerts.vegas/event/las-vegas-aviators-vs-el-paso-chihuahuas-las-vegas-wednesday-july-22-2026-705-pm/"
     },
     {
       "artist": "Special Guest",
@@ -126,15 +117,6 @@
       "date": "2026-07-23",
       "ts": 1784836800,
       "url": "https://concerts.vegas/event/las-vegas-aviators-vs-el-paso-chihuahuas-las-vegas-thursday-july-23-2026-705-pm/"
-    },
-    {
-      "artist": "Micromania Midget Wrestling",
-      "venue": "Las Vegas",
-      "type": "sports",
-      "city": "Las Vegas",
-      "date": "2026-07-23",
-      "ts": 1784836800,
-      "url": "https://concerts.vegas/event/micromania-midget-wrestling-las-vegas-thursday-july-23-2026-930-pm/"
     },
     {
       "artist": "Alison Wonderland",
@@ -2700,6 +2682,24 @@
       "date": "2026-08-19",
       "ts": 1787166000,
       "url": "https://nocovernightclubs.com/events/dj-buza-liquid-pool-wednesday-august-19-2026/"
+    },
+    {
+      "artist": "Special Guest",
+      "venue": "Palm Tree Beach",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-08-19",
+      "ts": 1787166000,
+      "url": "https://nocovernightclubs.com/events/special-guest-palm-tree-beach-club-wednesday-august-19-2026/"
+    },
+    {
+      "artist": "Special Guest",
+      "venue": "Omnia",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-08-20",
+      "ts": 1787252400,
+      "url": "https://nocovernightclubs.com/events/special-guest-omnia-nightclub-thursday-august-20-2026/"
     }
   ]
 }
