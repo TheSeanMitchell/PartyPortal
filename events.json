@@ -1,5 +1,5 @@
 {
-  "updated": 1784834518,
+  "updated": 1784881854,
   "events": [
     {
       "artist": "Special Guest",
@@ -63,15 +63,6 @@
       "date": "2026-07-23",
       "ts": 1784833200,
       "url": "https://nocovernightclubs.com/events/dj-mondo-palm-tree-beach-club-thursday-july-23-2026/"
-    },
-    {
-      "artist": "Las Vegas Aviators Vs El Paso Chihuahuas",
-      "venue": "Las Vegas",
-      "type": "sports",
-      "city": "Las Vegas",
-      "date": "2026-07-23",
-      "ts": 1784836800,
-      "url": "https://concerts.vegas/event/las-vegas-aviators-vs-el-paso-chihuahuas-las-vegas-thursday-july-23-2026-705-pm/"
     },
     {
       "artist": "Alison Wonderland",
@@ -2700,6 +2691,15 @@
       "date": "2026-08-20",
       "ts": 1787252400,
       "url": "https://nocovernightclubs.com/events/special-guest-tao-beach-thursday-august-20-2026/"
+    },
+    {
+      "artist": "Dj Shr3d",
+      "venue": "Liquid Pool",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-08-20",
+      "ts": 1787252400,
+      "url": "https://nocovernightclubs.com/events/dj-shr3d-liquid-pool-thursday-august-20-2026/"
     }
   ]
 }
