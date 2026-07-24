@@ -1,69 +1,6 @@
 {
-  "updated": 1784900991,
+  "updated": 1784921291,
   "events": [
-    {
-      "artist": "Special Guest",
-      "venue": "Omnia",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-07-23",
-      "ts": 1784833200,
-      "url": "https://nocovernightclubs.com/events/special-guest-omnia-nightclub-thursday-july-23-2026/"
-    },
-    {
-      "artist": "Justin Credible",
-      "venue": "Tao",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-07-23",
-      "ts": 1784833200,
-      "url": "https://nocovernightclubs.com/events/justin-credible-tao-nightclub-thursday-july-23-2026/"
-    },
-    {
-      "artist": "Chase B",
-      "venue": "Hakkasan",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-07-23",
-      "ts": 1784833200,
-      "url": "https://nocovernightclubs.com/events/chase-b-hakkasan-nightclub-thursday-july-23-2026/"
-    },
-    {
-      "artist": "Stephi K",
-      "venue": "Marquee Dayclub",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-07-23",
-      "ts": 1784833200,
-      "url": "https://nocovernightclubs.com/events/stephi-k-marquee-dayclub-thursday-july-23-2026/"
-    },
-    {
-      "artist": "Special Guest",
-      "venue": "Tao Beach",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-07-23",
-      "ts": 1784833200,
-      "url": "https://nocovernightclubs.com/events/special-guest-tao-beach-thursday-july-23-2026/"
-    },
-    {
-      "artist": "Dj Shr3d",
-      "venue": "Liquid Pool",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-07-23",
-      "ts": 1784833200,
-      "url": "https://nocovernightclubs.com/events/dj-shr3d-liquid-pool-thursday-july-23-2026/"
-    },
-    {
-      "artist": "Dj Mondo",
-      "venue": "Palm Tree Beach",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-07-23",
-      "ts": 1784833200,
-      "url": "https://nocovernightclubs.com/events/dj-mondo-palm-tree-beach-club-thursday-july-23-2026/"
-    },
     {
       "artist": "Alison Wonderland",
       "venue": "Zouk",
@@ -2700,6 +2637,69 @@
       "date": "2026-08-20",
       "ts": 1787252400,
       "url": "https://nocovernightclubs.com/events/dj-shr3d-liquid-pool-thursday-august-20-2026/"
+    },
+    {
+      "artist": "Dj Mondo",
+      "venue": "Palm Tree Beach",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-08-20",
+      "ts": 1787252400,
+      "url": "https://nocovernightclubs.com/events/dj-mondo-palm-tree-beach-club-thursday-august-20-2026/"
+    },
+    {
+      "artist": "Barry Manilow",
+      "venue": "The Colosseum at Caesars Palace",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-08-20",
+      "ts": 1787256000,
+      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-thursday-august-20-2026-700-pm/"
+    },
+    {
+      "artist": "Barry Manilow",
+      "venue": "Dolby Live at Park MGM",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-08-20",
+      "ts": 1787256000,
+      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-thursday-august-20-2026-700-pm/"
+    },
+    {
+      "artist": "Barry Manilow",
+      "venue": "Michelob Ultra Arena",
+      "type": "arena",
+      "city": "Las Vegas",
+      "date": "2026-08-20",
+      "ts": 1787256000,
+      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-thursday-august-20-2026-700-pm/"
+    },
+    {
+      "artist": "Barry Manilow",
+      "venue": "Resorts World Theatre",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-08-20",
+      "ts": 1787256000,
+      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-thursday-august-20-2026-700-pm/"
+    },
+    {
+      "artist": "Barry Manilow",
+      "venue": "Encore Theater at Wynn",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-08-20",
+      "ts": 1787256000,
+      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-thursday-august-20-2026-700-pm/"
+    },
+    {
+      "artist": "Barry Manilow",
+      "venue": "BleauLive Theater at Fontainebleau",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-08-20",
+      "ts": 1787256000,
+      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-thursday-august-20-2026-700-pm/"
     }
   ]
 }
