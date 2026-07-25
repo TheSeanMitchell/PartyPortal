@@ -1,5 +1,5 @@
 {
-  "updated": 1784966991,
+  "updated": 1784986760,
   "events": [
     {
       "artist": "Alison Wonderland",
@@ -288,15 +288,6 @@
       "date": "2026-07-25",
       "ts": 1785009600,
       "url": "https://concerts.vegas/event/jeezy-las-vegas-saturday-july-25-2026-800-pm/"
-    },
-    {
-      "artist": "One Drop Redemption Tribute To Bob Marley",
-      "venue": "House of Blues",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-07-25",
-      "ts": 1785009600,
-      "url": "https://concerts.vegas/event/one-drop-redemption-tribute-to-bob-marley-las-vegas-saturday-july-25-2026-730-pm/"
     },
     {
       "artist": "Monster Jam",
@@ -2700,6 +2691,15 @@
       "date": "2026-08-21",
       "ts": 1787338800,
       "url": "https://nocovernightclubs.com/events/chris-lake-omnia-nightclub-friday-august-21-2026/"
+    },
+    {
+      "artist": "Levi",
+      "venue": "Marquee",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-08-21",
+      "ts": 1787338800,
+      "url": "https://nocovernightclubs.com/events/levi-marquee-nightclub-friday-august-21-2026/"
     }
   ]
 }
