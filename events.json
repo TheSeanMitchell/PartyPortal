@@ -1,5 +1,5 @@
 {
-  "updated": 1784921291,
+  "updated": 1784966991,
   "events": [
     {
       "artist": "Alison Wonderland",
@@ -126,42 +126,6 @@
       "date": "2026-07-24",
       "ts": 1784919600,
       "url": "https://nocovernightclubs.com/events/sam-feldt-liv-beach-friday-july-24-2026/"
-    },
-    {
-      "artist": "Jeezy",
-      "venue": "Bakkt Theater at Planet Hollywood",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-07-24",
-      "ts": 1784923200,
-      "url": "https://concerts.vegas/event/jeezy-las-vegas-friday-july-24-2026-800-pm/"
-    },
-    {
-      "artist": "Jinjer",
-      "venue": "House of Blues",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-07-24",
-      "ts": 1784923200,
-      "url": "https://concerts.vegas/event/jinjer-las-vegas-friday-july-24-2026-600-pm/"
-    },
-    {
-      "artist": "Monster Jam",
-      "venue": "Las Vegas",
-      "type": "sports",
-      "city": "Las Vegas",
-      "date": "2026-07-24",
-      "ts": 1784923200,
-      "url": "https://concerts.vegas/event/monster-jam-las-vegas-friday-july-24-2026-700-pm/"
-    },
-    {
-      "artist": "Las Vegas Aviators Vs El Paso Chihuahuas",
-      "venue": "Las Vegas",
-      "type": "sports",
-      "city": "Las Vegas",
-      "date": "2026-07-24",
-      "ts": 1784923200,
-      "url": "https://concerts.vegas/event/las-vegas-aviators-vs-el-paso-chihuahuas-las-vegas-friday-july-24-2026-705-pm/"
     },
     {
       "artist": "Rl Grime",
@@ -2700,6 +2664,42 @@
       "date": "2026-08-20",
       "ts": 1787256000,
       "url": "https://concerts.vegas/event/barry-manilow-las-vegas-thursday-august-20-2026-700-pm/"
+    },
+    {
+      "artist": "Barry Manilow",
+      "venue": "Pearl Theater at Palms",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-08-20",
+      "ts": 1787256000,
+      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-thursday-august-20-2026-700-pm/"
+    },
+    {
+      "artist": "Las Vegas Aces Vs Connecticut Sun",
+      "venue": "Las Vegas",
+      "type": "sports",
+      "city": "Las Vegas",
+      "date": "2026-08-20",
+      "ts": 1787256000,
+      "url": "https://concerts.vegas/event/las-vegas-aces-vs-connecticut-sun-las-vegas-thursday-august-20-2026-700-pm/"
+    },
+    {
+      "artist": "Wax Motif",
+      "venue": "Zouk",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-08-21",
+      "ts": 1787338800,
+      "url": "https://nocovernightclubs.com/events/wax-motif-zouk-nightclub-friday-august-21-2026/"
+    },
+    {
+      "artist": "Chris Lake",
+      "venue": "Omnia",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-08-21",
+      "ts": 1787338800,
+      "url": "https://nocovernightclubs.com/events/chris-lake-omnia-nightclub-friday-august-21-2026/"
     }
   ]
 }
