@@ -1,5 +1,5 @@
 {
-  "updated": 1785006617,
+  "updated": 1785054623,
   "events": [
     {
       "artist": "Rl Grime",
@@ -135,78 +135,6 @@
       "date": "2026-07-25",
       "ts": 1785006000,
       "url": "https://nocovernightclubs.com/events/50-cent-liv-beach-saturday-july-25-2026/"
-    },
-    {
-      "artist": "Koe Wetzel And Ole 60",
-      "venue": "The Theater at Virgin Hotels",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-07-25",
-      "ts": 1785009600,
-      "url": "https://concerts.vegas/event/koe-wetzel-and-ole-60-las-vegas-saturday-july-25-2026-645-pm/"
-    },
-    {
-      "artist": "Koe Wetzel And Ole 60",
-      "venue": "24 Oxford at Virgin Hotels",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-07-25",
-      "ts": 1785009600,
-      "url": "https://concerts.vegas/event/koe-wetzel-and-ole-60-las-vegas-saturday-july-25-2026-645-pm/"
-    },
-    {
-      "artist": "Jeezy",
-      "venue": "Bakkt Theater at Planet Hollywood",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-07-25",
-      "ts": 1785009600,
-      "url": "https://concerts.vegas/event/jeezy-las-vegas-saturday-july-25-2026-800-pm/"
-    },
-    {
-      "artist": "One Drop Redemption Tribute To Bob Marley",
-      "venue": "House of Blues",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-07-25",
-      "ts": 1785009600,
-      "url": "https://concerts.vegas/event/one-drop-redemption-tribute-to-bob-marley-las-vegas-saturday-july-25-2026-730-pm/"
-    },
-    {
-      "artist": "Monster Jam",
-      "venue": "Las Vegas",
-      "type": "sports",
-      "city": "Las Vegas",
-      "date": "2026-07-25",
-      "ts": 1785009600,
-      "url": "https://concerts.vegas/event/monster-jam-las-vegas-saturday-july-25-2026-600-pm/"
-    },
-    {
-      "artist": "Vegas Knight Hawks Vs Northern Arizona Wranglers",
-      "venue": "Las Vegas",
-      "type": "sports",
-      "city": "Henderson",
-      "date": "2026-07-25",
-      "ts": 1785009600,
-      "url": "https://concerts.vegas/event/vegas-knight-hawks-vs-northern-arizona-wranglers-henderson-saturday-july-25-2026-600-pm/"
-    },
-    {
-      "artist": "Las Vegas Rockers Arena Football",
-      "venue": "Las Vegas",
-      "type": "sports",
-      "city": "Las Vegas",
-      "date": "2026-07-25",
-      "ts": 1785009600,
-      "url": "https://concerts.vegas/event/las-vegas-rockers-arena-football-las-vegas-saturday-july-25-2026-630-pm/"
-    },
-    {
-      "artist": "Las Vegas Aviators Vs El Paso Chihuahuas",
-      "venue": "Las Vegas",
-      "type": "sports",
-      "city": "Las Vegas",
-      "date": "2026-07-25",
-      "ts": 1785009600,
-      "url": "https://concerts.vegas/event/las-vegas-aviators-vs-el-paso-chihuahuas-las-vegas-saturday-july-25-2026-705-pm/"
     },
     {
       "artist": "Deseo",
@@ -2700,6 +2628,78 @@
       "date": "2026-08-21",
       "ts": 1787342400,
       "url": "https://concerts.vegas/event/barry-manilow-las-vegas-friday-august-21-2026-800-pm/"
+    },
+    {
+      "artist": "Barry Manilow",
+      "venue": "Michelob Ultra Arena",
+      "type": "arena",
+      "city": "Las Vegas",
+      "date": "2026-08-21",
+      "ts": 1787342400,
+      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-friday-august-21-2026-800-pm/"
+    },
+    {
+      "artist": "Barry Manilow",
+      "venue": "Resorts World Theatre",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-08-21",
+      "ts": 1787342400,
+      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-friday-august-21-2026-800-pm/"
+    },
+    {
+      "artist": "Jeezy",
+      "venue": "Bakkt Theater at Planet Hollywood",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-08-21",
+      "ts": 1787342400,
+      "url": "https://concerts.vegas/event/jeezy-las-vegas-friday-august-21-2026-800-pm/"
+    },
+    {
+      "artist": "Barry Manilow",
+      "venue": "Encore Theater at Wynn",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-08-21",
+      "ts": 1787342400,
+      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-friday-august-21-2026-800-pm/"
+    },
+    {
+      "artist": "Barry Manilow",
+      "venue": "BleauLive Theater at Fontainebleau",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-08-21",
+      "ts": 1787342400,
+      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-friday-august-21-2026-800-pm/"
+    },
+    {
+      "artist": "Barry Manilow",
+      "venue": "Pearl Theater at Palms",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-08-21",
+      "ts": 1787342400,
+      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-friday-august-21-2026-800-pm/"
+    },
+    {
+      "artist": "Rl Grime",
+      "venue": "Zouk",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-08-22",
+      "ts": 1787425200,
+      "url": "https://nocovernightclubs.com/events/rl-grime-zouk-nightclub-saturday-august-22-2026/"
+    },
+    {
+      "artist": "Steve Aoki",
+      "venue": "Omnia",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-08-22",
+      "ts": 1787425200,
+      "url": "https://nocovernightclubs.com/events/steve-aoki-omnia-nightclub-saturday-august-22-2026/"
     }
   ]
 }
