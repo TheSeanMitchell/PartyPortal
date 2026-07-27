@@ -2,7 +2,7 @@
    App-shell caching for offline support + faster repeat loads.
    Strategy: navigations & feed.json = network-first (fresh content),
    static assets = cache-first. */
-var CACHE = 'party-portal-v2';   // 2.0: +23 channels, festival expiry fix, dead-embed guard, header squash
+var CACHE = 'party-portal-v3';   // 2.1: real end-of-video rotation, stall watchdog, filters removed
 var SHELL = [
   './',
   'index.html',

@@ -407,16 +407,11 @@
       <span class="pp-feeds-lbl">&#9711; Live Feeds &amp; Party Streams</span>
       <span class="pp-feeds-badge"><span class="pp-dot" aria-hidden="true"></span>LIVE</span>
     </div>
-    <span class="pp-feeds-hint" id="pp-feeds-hint">Showing up to 10 of 153 channels &bull; Click SHUFFLE to change &bull; Party Mode for full wall</span>
+    <span class="pp-feeds-hint" id="pp-feeds-hint">A random draw from 153 channels &bull; SHUFFLE for a new set &bull; Party Mode for the full wall</span>
   </div>
 
-  <div class="pp-toolbar">
-    <div class="pp-chips" id="pp-chips" role="tablist" aria-label="Channel stations and categories"></div>
-    <div class="pp-search-wrap">
-      <input class="pp-search" id="pp-search" type="search" inputmode="search" placeholder="Search channels" aria-label="Search channels" autocomplete="off">
-      <button class="pp-search-clear" id="pp-search-clear" aria-label="Clear search">&#x2715;</button>
-    </div>
-  </div>
+  <!-- Station/category chips and channel search removed by design:
+       the wall is a purely random draw. See ppShuffle + getActivePool. -->
 
   <div class="pp-video-grid" id="pp-video-grid"></div>
   <div class="pp-mplayer" id="pp-mplayer" aria-label="Channel player"></div>
@@ -520,15 +515,119 @@ function ppReplaceDeadTile(iframe){
     }
   } catch(e){}
 }
+/* ══════════════ TILE ROTATION — no dead screens, ever ══════════════
+   THE PROBLEM THIS SOLVES: a 3-minute clip finishes, or a 2-hour set ends, and
+   the tile just sits there frozen on a black end-screen forever. Party Portal
+   is a wall of *live* party feeds; a stopped tile is the whole point failing.
+
+   Why it never worked before: the embeds carry enablejsapi=1, but YouTube only
+   posts state back to the page if you first send it a `listening` handshake.
+   Nobody was sending it, so the page never heard "this video ended". We now:
+
+     1. HANDSHAKE   - tell every iframe we want its events (and re-send
+                      periodically, since a reloaded src resets the channel).
+     2. ENDED       - video finished -> rotate that tile to a fresh channel.
+     3. STALL       - playback time stops advancing for PP_STALL_MS while the
+                      tile is supposed to be playing -> rotate. This catches
+                      frozen / buffering-forever / silently-dead embeds that
+                      never bother to emit an error or an ENDED event.
+     4. ERROR       - unavailable / private / embed-disabled -> replace AND
+                      blacklist for the session (curate.py prunes it later).
+
+   Rotation != blacklisting. A video that simply ENDED is perfectly healthy, so
+   it goes back in the pool; only genuine errors get marked dead.
+   (NUZU deliberately does the opposite - its tiles are 24/7 channels and must
+   never rotate. Same codebase family, opposite requirement.)                */
+var PP_STALL_MS   = 150000;   /* 2.5 min of no progress -> assume frozen */
+var PP_HANDSHAKE_MS = 20000;  /* re-assert the listening handshake */
+var PP_PROGRESS = {};         /* iframe -> {t:lastPlayerTime, at:wallClock} */
+
+function ppFrames(){ return document.querySelectorAll('.pp-inset iframe, .pp-wrcell iframe, #pp-wr-grid iframe'); }
+
+function ppHandshake(iframe){
+  if(!iframe || !iframe.contentWindow) return;
+  try {
+    iframe.contentWindow.postMessage(JSON.stringify(
+      {event:'listening', id: iframe.dataset.ppId || 'pp', channel:'widget'}), '*');
+  } catch(e){}
+}
+function ppHandshakeAll(){ ppFrames().forEach(ppHandshake); }
+
+/* Swap a tile to a different channel WITHOUT marking the old one dead. */
+function ppRotateTile(iframe, reason){
+  try {
+    var inset = iframe.closest ? (iframe.closest('.pp-inset') || iframe.closest('.pp-wrcell')) : null;
+    var onScreen = {};
+    document.querySelectorAll('.pp-inset').forEach(function(el){ onScreen[el.id.replace('pp-inset-','')]=1; });
+    var pool = (typeof getActivePool==='function' ? getActivePool() : PP_ALL_FEEDS)
+                 .filter(function(f){ return !ppIsDead(f.id) && !onScreen[f.id]; });
+    if(!pool.length) pool = PP_ALL_FEEDS.filter(function(f){ return !ppIsDead(f.id); });
+    if(!pool.length) return;
+    var next = pool[Math.floor(Math.random()*pool.length)];
+    delete PP_PROGRESS[iframe.src];
+    iframe.src = getFeedSrc(next);
+    if(inset && inset.id && inset.id.indexOf('pp-inset-')===0){
+      inset.id = 'pp-inset-'+next.id;
+      var lbl = inset.querySelector('.pp-inset-lbl'); if(lbl) lbl.textContent = next.label;
+      var cat = inset.querySelector('.pp-inset-cat'); if(cat) cat.textContent = next.cat;
+    }
+    setTimeout(function(){ ppHandshake(iframe); }, 1200);
+  } catch(e){}
+}
+
+function ppFrameFromSource(src){
+  var frames = ppFrames();
+  for(var i=0;i<frames.length;i++){ if(frames[i].contentWindow === src) return frames[i]; }
+  return null;
+}
+
 window.addEventListener('message', function(e){
   if(!e.data || typeof e.data !== 'string') return;
   var d; try { d = JSON.parse(e.data); } catch(x){ return; }
-  if(d.event !== 'onError' && !(d.event === 'infoDelivery' && d.info && d.info.errorCode)) return;
-  var frames = document.querySelectorAll('.pp-inset iframe, .pp-wrcell iframe');
-  for(var i=0;i<frames.length;i++){
-    if(frames[i].contentWindow === e.source){ ppReplaceDeadTile(frames[i]); break; }
+  var info = d.info || {};
+
+  /* --- hard error: replace AND blacklist --- */
+  if(d.event === 'onError' || (d.event === 'infoDelivery' && info.errorCode)){
+    var bad = ppFrameFromSource(e.source);
+    if(bad) ppReplaceDeadTile(bad);
+    return;
+  }
+
+  var st = (d.event === 'onStateChange') ? d.info
+         : (d.event === 'infoDelivery' && typeof info.playerState !== 'undefined') ? info.playerState
+         : null;
+
+  /* --- video finished: rotate to something fresh --- */
+  if(st === 0){
+    var endedFrame = ppFrameFromSource(e.source);
+    if(endedFrame) ppRotateTile(endedFrame, 'ended');
+    return;
+  }
+
+  /* --- progress tracking for the stall watchdog --- */
+  if(d.event === 'infoDelivery' && typeof info.currentTime === 'number'){
+    var f = ppFrameFromSource(e.source);
+    if(!f) return;
+    var key = f.src, prev = PP_PROGRESS[key];
+    if(!prev || Math.abs(info.currentTime - prev.t) > 0.4){
+      PP_PROGRESS[key] = {t: info.currentTime, at: Date.now()};
+    }
   }
 });
+
+/* Stall watchdog: anything that stopped advancing gets rotated out. */
+setInterval(function(){
+  var now = Date.now();
+  ppFrames().forEach(function(f){
+    var rec = PP_PROGRESS[f.src];
+    if(rec && (now - rec.at) > PP_STALL_MS){ ppRotateTile(f, 'stalled'); }
+  });
+}, 30000);
+
+/* Keep the handshake alive (src changes reset the message channel). */
+setInterval(ppHandshakeAll, PP_HANDSHAKE_MS);
+window.addEventListener('load', function(){ setTimeout(ppHandshakeAll, 1500); });
+document.addEventListener('DOMContentLoaded', function(){ setTimeout(ppHandshakeAll, 2500); });
 
 function ytCommand(iframe, func, args) {
   if (!iframe || !iframe.contentWindow) return;
@@ -752,15 +851,19 @@ function feedMatchesFilter(f, filt){
 function getActivePool(){ /* dead channels filtered at the end of this fn */
   var filt=getFilterById(PP.filterId);
   var q=PP.search.trim().toLowerCase();
+  /* Filtering and search were removed on purpose: every load is a fresh random
+     draw from the WHOLE catalogue, which is what keeps the wall feeling alive.
+     The only thing ever excluded is a channel already proven dead this session. */
   return PP_ALL_FEEDS.filter(function(f){
-    if(typeof ppIsDead==='function' && ppIsDead(f.id)) return false;  /* never re-serve a dead embed */
-    if(!feedMatchesFilter(f, filt)) return false;
-    if(q && (f.label+' '+f.cat).toLowerCase().indexOf(q)<0) return false;
-    return true;
+    return !(typeof ppIsDead==='function' && ppIsDead(f.id));
   });
 }
 
 function renderChips(){
+  /* Chips intentionally removed - the wall is an uncontrolled random draw.
+     Kept as a no-op so existing callers don't throw. */
+  return;
+  /* eslint-disable no-unreachable */
   var wrap=document.getElementById('pp-chips'); if(!wrap) return;
   wrap.innerHTML='';
   PP_FILTERS.forEach(function(filt){
