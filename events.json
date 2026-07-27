@@ -1,5 +1,5 @@
 {
-  "updated": 1785093294,
+  "updated": 1785118730,
   "events": [
     {
       "artist": "Deseo",
@@ -81,24 +81,6 @@
       "date": "2026-07-26",
       "ts": 1785092400,
       "url": "https://nocovernightclubs.com/events/special-guest-liv-beach-sunday-july-26-2026/"
-    },
-    {
-      "artist": "Louie Thesinger",
-      "venue": "House of Blues",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-07-26",
-      "ts": 1785096000,
-      "url": "https://concerts.vegas/event/louie-thesinger-las-vegas-sunday-july-26-2026-700-pm/"
-    },
-    {
-      "artist": "Las Vegas Aviators Vs El Paso Chihuahuas",
-      "venue": "Las Vegas",
-      "type": "sports",
-      "city": "Las Vegas",
-      "date": "2026-07-26",
-      "ts": 1785096000,
-      "url": "https://concerts.vegas/event/las-vegas-aviators-vs-el-paso-chihuahuas-las-vegas-sunday-july-26-2026-605-pm/"
     },
     {
       "artist": "Dj Puffy",
@@ -2700,6 +2682,24 @@
       "date": "2026-08-22",
       "ts": 1787428800,
       "url": "https://concerts.vegas/event/pbc-boxing-rolly-romero-vs-teofimo-lopez-las-vegas-saturday-august-22-2026-tba/"
+    },
+    {
+      "artist": "Deseo",
+      "venue": "Omnia",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-08-23",
+      "ts": 1787511600,
+      "url": "https://nocovernightclubs.com/events/deseo-omnia-nightclub-sunday-august-23-2026/"
+    },
+    {
+      "artist": "Ritual Sundays",
+      "venue": "Tao",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-08-23",
+      "ts": 1787511600,
+      "url": "https://nocovernightclubs.com/events/ritual-sundays-tao-nightclub-sunday-august-23-2026/"
     }
   ]
 }
