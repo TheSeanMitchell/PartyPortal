@@ -33,9 +33,12 @@ API         = "https://www.googleapis.com/youtube/v3/"
 CHAN_FILE   = "channels.json"
 
 # ---- dials ---------------------------------------------------------------
-MIN_SECONDS = 120        # drop anything shorter than 2 minutes
+MIN_SECONDS = 600        # 10 MINUTES. A tile must hold the screen; anything
+                         # shorter dies mid-wall and looks broken. Playlist /
+                         # LIVE CAM / RADIO channels are exempt (they auto-advance
+                         # or run forever) - see _video_id() and NO_PRUNE_CATS.
 MIN_VIEWS   = 5000       # quality floor for a kept/added video
-MAX_ADD     = 8          # new channels added per run (gradual growth)
+MAX_ADD     = 24         # new channels per run (raised: catalogue target is 999)
 TARGET_MAX  = 999        # stop growing once we hit this
 MIN_TOTAL   = 60         # never let the catalogue fall below this
 TIMEOUT     = 20
@@ -43,21 +46,59 @@ TIMEOUT     = 20
 # Growth queries: (search query, category, label prefix). videoDuration=long
 # (>20 min) guarantees full sets, so grown channels are always long-form.
 GROW_QUERIES = [
-    ("Cercle live set full performance",            "CERCLE",    "\U0001F3AC Cercle \u2014"),
+    # ── exotic-location DJ sets (the Cercle/scenic look that defines the wall) ──
+    ("Cercle live set full performance",             "CERCLE",    "\U0001F3AC Cercle \u2014"),
+    ("dj set volcano desert rooftop full",           "CERCLE",    "\U0001F30B Scenic Set \u2014"),
+    ("dj set pyramid temple sunrise full set",       "CERCLE",    "\U0001F3DB\uFE0F Scenic Set \u2014"),
+    ("dj set island beach sunset full 4k",           "CERCLE",    "\U0001F3DD\uFE0F Island Set \u2014"),
     ("Anjunadeep live dj set full",                  "ANJUNA",    "\U0001F30C Anjunadeep \u2014"),
     ("Anjunabeats trance live set full",             "ANJUNA",    "\U0001F30C Anjunabeats \u2014"),
-    ("Tomorrowland mainstage full set 2025",         "FESTIVAL",  "\U0001F386 Tomorrowland \u2014"),
+    ("trance classics full dj set",                  "ANJUNA",    "\U0001F30C Trance \u2014"),
+    # ── festivals & mainstages ──
+    ("Tomorrowland mainstage full set 2026",         "FESTIVAL",  "\U0001F386 Tomorrowland \u2014"),
     ("EDC Las Vegas full dj set kineticfield",       "FESTIVAL",  "\U0001F386 EDC \u2014"),
+    ("Ultra Music Festival mainstage full set",      "FESTIVAL",  "\U0001F3A7 Ultra \u2014"),
+    ("Coachella full set live performance",          "FESTIVAL",  "\U0001F335 Coachella \u2014"),
+    ("Lollapalooza full set live",                   "FESTIVAL",  "\U0001F3B8 Lollapalooza \u2014"),
+    ("Creamfields full dj set live",                 "FESTIVAL",  "\U0001F3A8 Creamfields \u2014"),
+    ("Glastonbury full set live performance",        "FESTIVAL",  "\U0001F37E Glastonbury \u2014"),
+    ("Burning Man playa art car set",                "FESTIVAL",  "\U0001F525 Burning Man \u2014"),
+    # ── psytrance / rave / underground ──
     ("Ozora psytrance full set movie",               "PSYTRANCE", "\U0001F344 Psytrance \u2014"),
     ("Boom Festival psytrance full set",             "PSYTRANCE", "\U0001F344 Boom \u2014"),
     ("Boiler Room techno full set",                  "RAVE",      "\U0001F50A Boiler Room \u2014"),
     ("warehouse techno dj set live",                 "RAVE",      "\U0001F50A Techno \u2014"),
-    ("afro house dj set live mix",                   "AFRO",      "\U0001FA98 Afro House \u2014"),
-    ("melodic techno live set afterlife",            "MELODIC",   "\U0001F4A7 Melodic \u2014"),
-    ("house music sunset dj set 4k",                 "CLUB",      "\U0001F3A7 House \u2014"),
     ("drum and bass live set ukf",                   "RAVE",      "\U0001F50A Drum & Bass \u2014"),
+    ("hardstyle defqon full set live",               "RAVE",      "\u26A1 Hardstyle \u2014"),
+    ("acid house 90s rave documentary footage",      "RAVE",      "\U0001F4FC Rave Archive \u2014"),
+    # ── club / house / afro / melodic ──
+    ("melodic techno live set afterlife",            "MELODIC",   "\U0001F4A7 Melodic \u2014"),
+    ("afro house dj set live mix",                   "AFRO",      "\U0001FA98 Afro House \u2014"),
+    ("house music sunset dj set 4k",                 "CLUB",      "\U0001F3A7 House \u2014"),
+    ("Ibiza club night full dj set",                 "CLUB",      "\U0001F1EA\U0001F1F8 Ibiza \u2014"),
+    ("Las Vegas nightclub dj set full",              "CLUB",      "\U0001F3B0 Vegas Club \u2014"),
+    ("pool party dj set daylife full",               "POOL",      "\U0001F3D6\uFE0F Pool Party \u2014"),
+    # ── concerts & rock ──
     ("classic rock live concert full show",          "ROCK",      "\U0001F3B8 Rock \u2014"),
-    ("trance classics full dj set",                  "ANJUNA",    "\U0001F30C Trance \u2014"),
+    ("full concert live 4k remastered",              "CONCERT",   "\U0001F3A4 Concert \u2014"),
+    ("hip hop live concert full set festival",       "CONCERT",   "\U0001F3A4 Hip-Hop Live \u2014"),
+    ("live aid woodstock full concert archive",      "CONCERT",   "\U0001F4FC Concert Archive \u2014"),
+    # ── fashion / runway ──
+    ("fashion week full runway show 4k",             "FASHION",   "\U0001F457 Runway \u2014"),
+    ("swimwear resort runway show full",             "FASHION",   "\U0001F45B Swim Runway \u2014"),
+    ("miami swim week full show",                    "FASHION",   "\U0001F3D6\uFE0F Swim Week \u2014"),
+    # ── retro MTV era ──
+    ("80s music video compilation continuous",       "RETRO",     "\U0001F4FC 80s \u2014"),
+    ("90s music video compilation continuous",       "RETRO",     "\U0001F4BF 90s \u2014"),
+    ("2000s mtv music video block",                  "RETRO",     "\U0001F4BD 2000s \u2014"),
+    ("mtv spring break archive footage",             "RETRO",     "\U0001F3D6\uFE0F Spring Break \u2014"),
+    ("soul train dance show full episode",           "RETRO",     "\U0001F686 Soul Train \u2014"),
+    # ── live cams / global nightlife ──
+    ("live cam bourbon street new orleans",          "LIVE CAM",  "\U0001F3B7 Live Cam \u2014"),
+    ("live cam times square new york",               "LIVE CAM",  "\U0001F5FD Live Cam \u2014"),
+    ("live cam ibiza beach club",                    "LIVE CAM",  "\U0001F334 Live Cam \u2014"),
+    ("live cam tokyo shibuya night",                 "LIVE CAM",  "\U0001F5FE Live Cam \u2014"),
+    ("live cam miami beach ocean drive",             "LIVE CAM",  "\U0001F3D6\uFE0F Live Cam \u2014"),
 ]
 NO_PRUNE_CATS = {"LIVE CAM", "RADIO"}
 _DUR = re.compile(r"PT(?:(\d+)H)?(?:(\d+)M)?(?:(\d+)S)?")

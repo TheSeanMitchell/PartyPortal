@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <title>PARTY PORTAL — Live Festival Streams, Party Cams &amp; Culture</title>
-  <meta name="description" content="Party Portal: live festival cams, EDM streams, DJ sets and real party-culture news. Your one-stop party destination — 49+ live channels.">
+  <meta name="description" content="Party Portal: live festival cams, EDM streams, DJ sets and real party-culture news. Your one-stop party destination — 153+ live channels.">
   <meta name="theme-color" content="#030009">
   <meta name="color-scheme" content="dark">
   <link rel="canonical" href="https://theseamitchell.github.io/PartyPortal/">
@@ -28,14 +28,14 @@
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Party Portal">
   <meta property="og:title" content="Party Portal — Live Festival Streams &amp; Culture">
-  <meta property="og:description" content="Live festival cams, EDM streams, DJ sets and real party-culture news. 49+ live channels.">
+  <meta property="og:description" content="Live festival cams, EDM streams, DJ sets and real party-culture news. 153+ live channels.">
   <meta property="og:url" content="https://theseamitchell.github.io/PartyPortal/">
   <meta property="og:image" content="https://theseamitchell.github.io/PartyPortal/og-image.png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Party Portal — Live Festival Streams &amp; Culture">
-  <meta name="twitter:description" content="Live festival cams, EDM streams, DJ sets and real party-culture news. 49+ live channels.">
+  <meta name="twitter:description" content="Live festival cams, EDM streams, DJ sets and real party-culture news. 153+ live channels.">
   <meta name="twitter:image" content="https://theseamitchell.github.io/PartyPortal/og-image.png">
 
   <!-- Perf -->
@@ -125,19 +125,30 @@
     @media(max-width:600px){.pp-mode-btn{display:none !important}}
 
     /* HERO */
-    .pp-hero{position:relative;padding:28px 20px 18px;text-align:center;overflow:hidden}
+    .pp-hero{position:relative;padding:12px 20px 8px;text-align:center;overflow:hidden}
     .pp-hero::before{content:'';position:absolute;inset:0;pointer-events:none;background:radial-gradient(ellipse 88% 65% at 50% -5%,rgba(144,32,220,.17),transparent 65%),radial-gradient(ellipse 55% 42% at 8% 110%,rgba(214,25,112,.11),transparent 55%),radial-gradient(ellipse 55% 42% at 92% 110%,rgba(0,229,255,.08),transparent 55%)}
-    .pp-hero-wordmark{font-family:'Bebas Neue',sans-serif;font-size:clamp(2.6em,7.5vw,5.2em);letter-spacing:.18em;line-height:1;background:linear-gradient(108deg,#FF3D90 0%,#BB4FFF 45%,#00E5FF 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:6px}
-    .pp-hero-tag{font-size:clamp(.8em,1.8vw,1em);letter-spacing:.22em;text-transform:uppercase;color:var(--dim);font-weight:600;margin-bottom:12px}
+    .pp-hero-wordmark{font-family:'Bebas Neue',sans-serif;font-size:clamp(2.1em,5.4vw,3.5em);letter-spacing:.16em;line-height:.98;background:linear-gradient(108deg,#FF3D90 0%,#BB4FFF 45%,#00E5FF 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:3px}
+    .pp-hero-tag{font-size:clamp(.68em,1.4vw,.82em);letter-spacing:.2em;text-transform:uppercase;color:var(--dim);font-weight:600;margin-bottom:6px}
     .pp-hero-meta{display:flex;align-items:center;justify-content:center;gap:14px;flex-wrap:wrap}
     .pp-hero-date{font-family:'Space Mono',monospace;font-size:.7em;color:rgba(0,229,255,.5);letter-spacing:.08em}
     .pp-live-badge{display:inline-flex;align-items:center;gap:5px;font-size:.67em;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--pink-l);padding:3px 10px;border:1px solid rgba(214,25,112,.4);border-radius:20px;background:rgba(214,25,112,.1)}
     .pp-dot{width:6px;height:6px;border-radius:50%;background:var(--pink-l);animation:pp-pulse 1.4s ease-in-out infinite}
     @keyframes pp-pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.25;transform:scale(.5)}}
 
+    /* Horizon: ended-event marker (auto-hidden shortly after, see PP_FEST_GRACE_MS) */
+    .pp-cd-ended{font-family:'Barlow Condensed',sans-serif;font-size:.72em;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:rgba(255,255,255,.38)}
+    /* Compact header on phones — more of the calendar above the fold */
+    @media(max-width:600px){
+      .pp-hero{padding:8px 14px 6px}
+      .pp-hero-wordmark{font-size:clamp(1.8em,9vw,2.4em);letter-spacing:.12em;margin-bottom:2px}
+      .pp-hero-tag{font-size:.62em;letter-spacing:.16em;margin-bottom:5px}
+      .pp-hero-meta{gap:8px}
+      .pp-cd-wrap{padding:2px 12px 4px}
+    }
+
     /* COUNTDOWN */
-    .pp-cd-wrap{max-width:1380px;margin:0 auto;padding:6px 18px 4px}
-    .pp-cd-hdr{display:flex;align-items:center;gap:9px;margin-bottom:9px}
+    .pp-cd-wrap{max-width:1380px;margin:0 auto;padding:2px 18px 4px}
+    .pp-cd-hdr{display:flex;align-items:center;gap:9px;margin-bottom:6px}
     .pp-cd-hdr-title{font-family:'Bebas Neue',sans-serif;font-size:.9em;letter-spacing:.18em;color:var(--white)}
     .pp-cd-hdr-sub{font-size:.66em;letter-spacing:.06em;color:var(--dim);margin-left:auto;display:none}
     @media(min-width:700px){.pp-cd-hdr-sub{display:block}}
@@ -375,7 +386,7 @@
   <div class="pp-hero-meta">
     <span class="pp-hero-date" id="pp-date"></span>
     <span class="pp-live-badge"><span class="pp-dot" aria-hidden="true"></span>Streaming Now</span>
-    <span class="pp-live-badge" id="pp-feed-count" style="color:var(--cyan);border-color:rgba(0,229,255,.4);background:rgba(0,229,255,.08)">49 Channels</span>
+    <span class="pp-live-badge" id="pp-feed-count" style="color:var(--cyan);border-color:rgba(0,229,255,.4);background:rgba(0,229,255,.08)">153 Channels</span>
   </div>
 </div>
 
@@ -396,7 +407,7 @@
       <span class="pp-feeds-lbl">&#9711; Live Feeds &amp; Party Streams</span>
       <span class="pp-feeds-badge"><span class="pp-dot" aria-hidden="true"></span>LIVE</span>
     </div>
-    <span class="pp-feeds-hint" id="pp-feeds-hint">Showing 10 of 49 channels &bull; Click SHUFFLE to change &bull; Party Mode for full wall</span>
+    <span class="pp-feeds-hint" id="pp-feeds-hint">Showing up to 10 of 153 channels &bull; Click SHUFFLE to change &bull; Party Mode for full wall</span>
   </div>
 
   <div class="pp-toolbar">
@@ -476,6 +487,48 @@ function ppShuffle(arr) {
   }
   return a;
 }
+
+/* ── Dead-embed guard ─────────────────────────────────────────────────────
+   "Video unavailable" tiles are the worst thing that can be on the wall. Every
+   iframe carries enablejsapi=1, so YouTube posts an onError for unavailable /
+   private / non-embeddable / region-blocked videos. We listen for it, blacklist
+   that channel for the session, and hot-swap a healthy one into the tile. The
+   nightly curate.py pass then prunes it from channels.json for good. */
+var PP_DEAD = (function(){ try { return new Set(JSON.parse(sessionStorage.getItem('pp:dead')||'[]')); } catch(e){ return new Set(); } })();
+function ppMarkDead(id){
+  if(!id || PP_DEAD.has(id)) return;
+  PP_DEAD.add(id);
+  try { sessionStorage.setItem('pp:dead', JSON.stringify(Array.from(PP_DEAD))); } catch(e){}
+}
+function ppIsDead(id){ return PP_DEAD.has(id); }
+function ppReplaceDeadTile(iframe){
+  try {
+    var inset = iframe.closest ? iframe.closest('.pp-inset') : null;
+    var oldId = inset && inset.id ? inset.id.replace('pp-inset-','') : null;
+    ppMarkDead(oldId);
+    var onScreen = {};
+    document.querySelectorAll('.pp-inset').forEach(function(el){ onScreen[el.id.replace('pp-inset-','')]=1; });
+    var pool = getActivePool().filter(function(f){ return !ppIsDead(f.id) && !onScreen[f.id]; });
+    if(!pool.length) pool = PP_ALL_FEEDS.filter(function(f){ return !ppIsDead(f.id) && !onScreen[f.id]; });
+    if(!pool.length){ if(inset) inset.style.display='none'; return; }
+    var repl = pool[Math.floor(Math.random()*pool.length)];
+    iframe.src = getFeedSrc(repl);
+    if(inset){
+      inset.id = 'pp-inset-'+repl.id;
+      var lbl = inset.querySelector('.pp-inset-lbl'); if(lbl) lbl.textContent = repl.label;
+      var cat = inset.querySelector('.pp-inset-cat'); if(cat) cat.textContent = repl.cat;
+    }
+  } catch(e){}
+}
+window.addEventListener('message', function(e){
+  if(!e.data || typeof e.data !== 'string') return;
+  var d; try { d = JSON.parse(e.data); } catch(x){ return; }
+  if(d.event !== 'onError' && !(d.event === 'infoDelivery' && d.info && d.info.errorCode)) return;
+  var frames = document.querySelectorAll('.pp-inset iframe, .pp-wrcell iframe');
+  for(var i=0;i<frames.length;i++){
+    if(frames[i].contentWindow === e.source){ ppReplaceDeadTile(frames[i]); break; }
+  }
+});
 
 function ytCommand(iframe, func, args) {
   if (!iframe || !iframe.contentWindow) return;
@@ -664,6 +717,12 @@ var PP_FILTERS = [
   {id:'st-peak',      label:'\uD83D\uDD25 Peak Hours', kind:'cats', cats:['FESTIVAL','CLUB','RAVE','PSYTRANCE'], cls:'pp-station'},
   {id:'st-immersive', label:'\uD83C\uDF0C Immersive',  kind:'cats', cats:['CERCLE','MELODIC','ANJUNA'], cls:'pp-station'},
   {id:'st-throwback', label:'\uD83D\uDCFC Throwback',  kind:'cats', cats:['RETRO','ROCK'],    cls:'pp-station'},
+  {id:'st-mtv',       label:'\uD83D\uDCFA MTV Era',     kind:'cats', cats:['RETRO'],                     cls:'pp-station'},
+  {id:'st-runway',    label:'\uD83D\uDC59 Runway',      kind:'cats', cats:['FASHION','POOL'],            cls:'pp-station'},
+  {id:'st-global',    label:'\uD83C\uDF0D Global',      kind:'cats', cats:['AFRO','PSYTRANCE','CERCLE'], cls:'pp-station'},
+  {id:'st-afterhours',label:'\uD83C\uDF03 After Hours', kind:'cats', cats:['CLUB','RAVE','MELODIC'],     cls:'pp-station'},
+  {id:'st-liveloud',  label:'\uD83C\uDFA4 Live & Loud', kind:'cats', cats:['CONCERT','ROCK','ARTIST'],   cls:'pp-station'},
+  {id:'st-daylight',  label:'\u2600\uFE0F Daylight',    kind:'cats', cats:['POOL','LIVE CAM'],           cls:'pp-station'},
   {id:'c-FESTIVAL',   label:'Festivals',          kind:'cat', cat:'FESTIVAL'},
   {id:'c-CLUB',       label:'Clubs',              kind:'cat', cat:'CLUB'},
   {id:'c-ARTIST',     label:'Artists',            kind:'cat', cat:'ARTIST'},
@@ -690,10 +749,11 @@ function feedMatchesFilter(f, filt){
   if(filt.kind==='cats') return filt.cats.indexOf(f.cat)>=0;
   return true;
 }
-function getActivePool(){
+function getActivePool(){ /* dead channels filtered at the end of this fn */
   var filt=getFilterById(PP.filterId);
   var q=PP.search.trim().toLowerCase();
   return PP_ALL_FEEDS.filter(function(f){
+    if(typeof ppIsDead==='function' && ppIsDead(f.id)) return false;  /* never re-serve a dead embed */
     if(!feedMatchesFilter(f, filt)) return false;
     if(q && (f.label+' '+f.cat).toLowerCase().indexOf(q)<0) return false;
     return true;
@@ -988,35 +1048,49 @@ function shuffleCurrent(){ if(IS_NARROW()){ buildMobileQueue(); renderMobilePlay
 
 /* ════════ FESTIVAL COUNTDOWNS (real confirmed 2026 dates) ════════ */
 var PP_FESTIVALS=[
-  {name:'Defqon.1',     emoji:'\uD83D\uDD0A', where:'Biddinghuizen, NL',   start:'2026-06-25T12:00:00+02:00', dateLabel:'Jun 25\u201328',          url:'https://www.defqon1.com'},
-  {name:'Ultra Europe', emoji:'\uD83C\uDFA7', where:'Split, Croatia',      start:'2026-07-10T16:00:00+02:00', dateLabel:'Jul 10\u201312',          url:'https://ultraeurope.com'},
-  {name:'Tomorrowland', emoji:'\uD83C\uDF0D', where:'Boom, Belgium',       start:'2026-07-17T16:00:00+02:00', dateLabel:'Jul 17\u201319 & 24\u201326', url:'https://www.tomorrowland.com'},
-  {name:'Lollapalooza', emoji:'\uD83C\uDFB8', where:'Chicago, IL',         start:'2026-07-30T11:00:00-05:00', dateLabel:'Jul 30 \u2013 Aug 2',        url:'https://www.lollapalooza.com'},
-  {name:'Untold',       emoji:'\uD83C\uDFF0', where:'Cluj-Napoca, RO',     start:'2026-08-06T18:00:00+03:00', dateLabel:'Aug 6\u20139',            url:'https://untold.com'},
-  {name:'Sziget',       emoji:'\uD83C\uDFDD\uFE0F', where:'Budapest, HU',  start:'2026-08-11T12:00:00+02:00', dateLabel:'Aug 11\u201316',          url:'https://szigetfestival.com'},
-  {name:'Creamfields',  emoji:'\uD83C\uDFA8', where:'Daresbury, UK',       start:'2026-08-27T12:00:00+01:00', dateLabel:'Aug 27\u201330 (20yr)',      url:'https://www.creamfields.com'},
-  {name:'Mysteryland',  emoji:'\uD83C\uDF08', where:'Haarlemmermeer, NL',  start:'2026-08-29T12:00:00+02:00', dateLabel:'Aug 29\u201330',          url:'https://www.mysteryland.com'},
-  {name:'Burning Man',  emoji:'\uD83D\uDD25', where:'Black Rock City, NV', start:'2026-08-30T00:00:00-07:00', dateLabel:'Aug 30 \u2013 Sep 7',        url:'https://burningman.org'},
-  {name:'iHeartRadio Fest', emoji:'\uD83D\uDCFB', where:'Las Vegas, NV',   start:'2026-09-18T17:00:00-07:00', dateLabel:'Sep 18\u201319',          url:'https://www.iheart.com/music-festival/'},
-  {name:'Ultra Japan',  emoji:'\uD83D\uDDFE', where:'Tokyo, Japan',        start:'2026-09-19T13:00:00+09:00', dateLabel:'Sep 19\u201320',          url:'https://ultrajapan.com'},
-  {name:'Metallica \u00B7 Sphere', emoji:'\uD83E\uDD18', where:'Sphere, Las Vegas', start:'2026-10-01T20:00:00-07:00', dateLabel:'From Oct 1',           url:'https://www.thesphere.com'},
-  {name:'EDC Orlando',  emoji:'\uD83C\uDFA1', where:'Orlando, FL',         start:'2026-11-06T16:00:00-05:00', dateLabel:'Nov 6\u20138',            url:'https://orlando.electricdaisycarnival.com'},
-  {name:'F1 Las Vegas GP', emoji:'\uD83C\uDFCE\uFE0F', where:'Las Vegas Strip', start:'2026-11-19T20:00:00-08:00', dateLabel:'Nov 19\u201321',          url:'https://www.f1lasvegasgp.com'},
-  {name:'Outside Lands', emoji:'\uD83C\uDF09', where:'Golden Gate Park, SF', start:'2026-08-07T12:30:00-07:00', dateLabel:'Aug 7\u20139', url:'https://www.sfoutsidelands.com'},
-  {name:'HARD Summer', emoji:'\uD83D\uDD0A', where:'SoCal, CA', start:'2026-08-01T14:00:00-07:00', dateLabel:'Aug 1\u20132', url:'https://www.hardsummer.com'},
-  {name:'North Coast', emoji:'\uD83C\uDF03', where:'SeatGeek Stadium, Chicago', start:'2026-09-04T14:00:00-05:00', dateLabel:'Sep 4\u20136', url:'https://www.northcoastfestival.com'},
-  {name:'Imagine Fest', emoji:'\uD83E\uDDDC', where:'Atlanta, GA', start:'2026-09-18T14:00:00-04:00', dateLabel:'Sep 18\u201320', url:'https://www.imaginefestival.com'},
-  {name:'Lost Lands', emoji:'\uD83E\uDD96', where:'Legend Valley, OH', start:'2026-09-25T13:00:00-04:00', dateLabel:'Sep 25\u201327', url:'https://www.lostlandsfestival.com'},
-  {name:'Portola', emoji:'\uD83D\uDEA2', where:'Pier 80, SF', start:'2026-09-26T12:00:00-07:00', dateLabel:'Sep 26\u201327', url:'https://www.portolamusicfestival.com'}
+  {name:'Defqon.1',     emoji:'\uD83D\uDD0A', where:'Biddinghuizen, NL',   start:'2026-06-25T12:00:00+02:00', end:'2026-06-28T23:59:00+02:00', dateLabel:'Jun 25\u201328',          url:'https://www.defqon1.com'},
+  {name:'Ultra Europe', emoji:'\uD83C\uDFA7', where:'Split, Croatia',      start:'2026-07-10T16:00:00+02:00', end:'2026-07-12T23:59:00+02:00', dateLabel:'Jul 10\u201312',          url:'https://ultraeurope.com'},
+  {name:'Tomorrowland', emoji:'\uD83C\uDF0D', where:'Boom, Belgium',       start:'2026-07-17T16:00:00+02:00', end:'2026-07-26T23:59:00+02:00', dateLabel:'Jul 17\u201319 & 24\u201326', url:'https://www.tomorrowland.com'},
+  {name:'Lollapalooza', emoji:'\uD83C\uDFB8', where:'Chicago, IL',         start:'2026-07-30T11:00:00-05:00', end:'2026-08-02T23:59:00-05:00', dateLabel:'Jul 30 \u2013 Aug 2',        url:'https://www.lollapalooza.com'},
+  {name:'Untold',       emoji:'\uD83C\uDFF0', where:'Cluj-Napoca, RO',     start:'2026-08-06T18:00:00+03:00', end:'2026-08-09T23:59:00+03:00', dateLabel:'Aug 6\u20139',            url:'https://untold.com'},
+  {name:'Sziget',       emoji:'\uD83C\uDFDD\uFE0F', where:'Budapest, HU',  start:'2026-08-11T12:00:00+02:00', end:'2026-08-16T23:59:00+02:00', dateLabel:'Aug 11\u201316',          url:'https://szigetfestival.com'},
+  {name:'Creamfields',  emoji:'\uD83C\uDFA8', where:'Daresbury, UK',       start:'2026-08-27T12:00:00+01:00', end:'2026-08-30T23:59:00+01:00', dateLabel:'Aug 27\u201330 (20yr)',      url:'https://www.creamfields.com'},
+  {name:'Mysteryland',  emoji:'\uD83C\uDF08', where:'Haarlemmermeer, NL',  start:'2026-08-29T12:00:00+02:00', end:'2026-08-30T23:59:00+02:00', dateLabel:'Aug 29\u201330',          url:'https://www.mysteryland.com'},
+  {name:'Burning Man',  emoji:'\uD83D\uDD25', where:'Black Rock City, NV', start:'2026-08-30T00:00:00-07:00', end:'2026-09-07T23:59:00-07:00', dateLabel:'Aug 30 \u2013 Sep 7',        url:'https://burningman.org'},
+  {name:'iHeartRadio Fest', emoji:'\uD83D\uDCFB', where:'Las Vegas, NV',   start:'2026-09-18T17:00:00-07:00', end:'2026-09-19T23:59:00-07:00', dateLabel:'Sep 18\u201319',          url:'https://www.iheart.com/music-festival/'},
+  {name:'Ultra Japan',  emoji:'\uD83D\uDDFE', where:'Tokyo, Japan',        start:'2026-09-19T13:00:00+09:00', end:'2026-09-20T23:59:00+09:00', dateLabel:'Sep 19\u201320',          url:'https://ultrajapan.com'},
+  {name:'Metallica \u00B7 Sphere', emoji:'\uD83E\uDD18', where:'Sphere, Las Vegas', start:'2026-10-01T20:00:00-07:00', end:'2026-10-31T23:59:00-07:00', dateLabel:'From Oct 1',           url:'https://www.thesphere.com'},
+  {name:'EDC Orlando',  emoji:'\uD83C\uDFA1', where:'Orlando, FL',         start:'2026-11-06T16:00:00-05:00', end:'2026-11-08T23:59:00-05:00', dateLabel:'Nov 6\u20138',            url:'https://orlando.electricdaisycarnival.com'},
+  {name:'F1 Las Vegas GP', emoji:'\uD83C\uDFCE\uFE0F', where:'Las Vegas Strip', start:'2026-11-19T20:00:00-08:00', end:'2026-11-21T23:59:00-08:00', dateLabel:'Nov 19\u201321',          url:'https://www.f1lasvegasgp.com'},
+  {name:'Outside Lands', emoji:'\uD83C\uDF09', where:'Golden Gate Park, SF', start:'2026-08-07T12:30:00-07:00', end:'2026-08-09T23:59:00-07:00', dateLabel:'Aug 7\u20139', url:'https://www.sfoutsidelands.com'},
+  {name:'HARD Summer', emoji:'\uD83D\uDD0A', where:'SoCal, CA', start:'2026-08-01T14:00:00-07:00', end:'2026-08-02T23:59:00-07:00', dateLabel:'Aug 1\u20132', url:'https://www.hardsummer.com'},
+  {name:'North Coast', emoji:'\uD83C\uDF03', where:'SeatGeek Stadium, Chicago', start:'2026-09-04T14:00:00-05:00', end:'2026-09-06T23:59:00-05:00', dateLabel:'Sep 4\u20136', url:'https://www.northcoastfestival.com'},
+  {name:'Imagine Fest', emoji:'\uD83E\uDDDC', where:'Atlanta, GA', start:'2026-09-18T14:00:00-04:00', end:'2026-09-20T23:59:00-04:00', dateLabel:'Sep 18\u201320', url:'https://www.imaginefestival.com'},
+  {name:'Lost Lands', emoji:'\uD83E\uDD96', where:'Legend Valley, OH', start:'2026-09-25T13:00:00-04:00', end:'2026-09-27T23:59:00-04:00', dateLabel:'Sep 25\u201327', url:'https://www.lostlandsfestival.com'},
+  {name:'Portola', emoji:'\uD83D\uDEA2', where:'Pier 80, SF', start:'2026-09-26T12:00:00-07:00', end:'2026-09-27T23:59:00-07:00', dateLabel:'Sep 26\u201327', url:'https://www.portolamusicfestival.com'}
 ];
 var PP_VEGAS_EVENTS=[];
+/* Horizon expiry dials: a festival with no explicit `end` is assumed to run
+   PP_FEST_DEFAULT_MS from its start; it lingers PP_FEST_GRACE_MS after ending
+   and is then removed automatically. */
+var PP_FEST_DEFAULT_MS = 3*24*3600*1000;   /* assume 3-day event if no end date */
+var PP_FEST_GRACE_MS   = 6*3600*1000;      /* keep 6h after it ends, then drop */
 function renderCountdowns(){
   var row=document.getElementById('pp-cd-row'); if(!row) return;
   row.innerHTML='';
   var matchMap={ 'Tomorrowland':'tomorrowland', 'Ultra Europe':'ultra', 'Creamfields':'creamfields', 'EDC Orlando':'electric daisy' };
   var _now=Date.now(), _items=[];
   PP_VEGAS_EVENTS.forEach(function(ev){ if((ev.ts||0)*1000>_now-43200000) _items.push({k:'ev',ts:(ev.ts||0)*1000,ev:ev}); });
-  PP_FESTIVALS.forEach(function(ft,i){ _items.push({k:'fest',ts:new Date(ft.start).getTime(),ft:ft,fi:i}); });
+  /* Multi-day festivals need an EXIT: drop them once their end date (or a
+     sane fallback window past start) has passed, so nothing sits on the
+     horizon forever reading "Happening now". */
+  PP_FESTIVALS.forEach(function(ft,i){
+    var st=new Date(ft.start).getTime();
+    var en=ft.end?new Date(ft.end).getTime():(st+PP_FEST_DEFAULT_MS);
+    if(isNaN(st)) return;
+    if(_now>en+PP_FEST_GRACE_MS) return;      /* finished — hide it */
+    _items.push({k:'fest',ts:st,ft:ft,fi:i,_end:en});
+  });
   _items.sort(function(a,b){ return a.ts-b.ts; });
   if(_items.length>150) _items=_items.slice(0,150);
   _items.forEach(function(_it){
@@ -1049,9 +1123,15 @@ function tickCountdowns(){
   var now=Date.now();
   PP_FESTIVALS.forEach(function(ft,i){
     var el=document.getElementById('pp-cd-t'+i); if(!el) return;
-    var diff=new Date(ft.start).getTime()-now;
+    var st=new Date(ft.start).getTime();
+    var en=ft.end?new Date(ft.end).getTime():(st+PP_FEST_DEFAULT_MS);
+    var diff=st-now;
     if(isNaN(diff)){ el.textContent=''; return; }
-    if(diff<=0){ el.innerHTML='<span class="pp-cd-live">\u25CF Happening now</span>'; return; }
+    if(diff<=0){
+      if(now<=en){ el.innerHTML='<span class="pp-cd-live">\u25CF Happening now</span>'; }
+      else { el.innerHTML='<span class="pp-cd-ended">Ended</span>'; }
+      return;
+    }
     var s=Math.floor(diff/1000), d=Math.floor(s/86400); s-=d*86400;
     var h=Math.floor(s/3600); s-=h*3600; var m=Math.floor(s/60); s-=m*60;
     function seg(v,l){ return '<span class="pp-cd-seg"><b>'+(v<10?'0':'')+v+'</b><span>'+l+'</span></span>'; }

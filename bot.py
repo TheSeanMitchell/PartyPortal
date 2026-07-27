@@ -25,7 +25,7 @@ import os, re, json, time, hashlib, html as htmllib
 from datetime import datetime, timezone
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from xml.etree import ElementTree as ET
-import urllib.request, urllib.error
+import urllib.request, urllib.parse, urllib.error
 
 # ───────────────────────────── CONFIG ─────────────────────────────
 MAX_ITEMS      = 60
@@ -83,6 +83,47 @@ RAW_KEYWORDS = [
     "superstar dj","headline set","sunset set","closing set","opening party","season opening",
     "afterparty","warehouse rave","techno rave","trance family","psytrance","ozora","boom festival",
     "defected","glitterbox","anjunabeats","anjunadeep","cercle","afterlife","drumcode","elrow",
+]
+
+# ── Party Portal 2.0 keyword expansion — deeper party-culture coverage ──
+RAW_KEYWORDS += [
+    # global nightlife capitals & districts
+    "berghain","tresor","fabric london","printworks","ministry of sound","razzmatazz",
+    "hi ibiza","ushuaia ibiza","amnesia","privilege ibiza","eden ibiza","o beach",
+    "space miami","club space","e11even","liv miami","story miami","exchange la",
+    "academy la","sound nightclub","output brooklyn","brooklyn mirage","avant gardner",
+    "webster hall","house of yes","elsewhere brooklyn","smartbar chicago","radius chicago",
+    "concord music hall","stereo montreal","womb tokyo","zouk singapore","green valley brazil",
+    "shibuya nightlife","roppongi","seoul nightlife","bangkok nightlife","tulum party",
+    "papaya playa","zamna tulum","art with me","day zero tulum",
+    # counterculture / scene
+    "underground rave","free party","warehouse rave","illegal rave","squat party",
+    "sound system","dub sound system","block party","street party","carnival",
+    "notting hill carnival","mardi gras","spring break","full moon party","boat party",
+    "silent disco","afterhours","after party","dayclub","day club","pool club",
+    "burner","playa","default world","theme camp","art car","regional burn",
+    # music scenes / genres
+    "hardstyle","hardcore techno","gabber","jungle","breakbeat","uk garage","speed garage",
+    "amapiano","afro house","afrobeats","baile funk","reggaeton","dembow","cumbia",
+    "hyperpop","jersey club","footwork","ghettotech","minimal techno","acid techno",
+    "progressive house","deep house","tech house","organic house","downtempo","psybient",
+    "goa trance","full on psytrance","dark psytrance","forest psy","hi tech psy",
+    # industry / events
+    "residency announcement","tour announcement","lineup announced","phase one lineup",
+    "set times","festival map","ticket presale","general admission","vip table",
+    "bottle service","guest list","promoter","talent buyer","booking agent",
+    "amf","amsterdam dance event","ade","miami music week","winter music conference",
+    "sonar barcelona","time warp","awakenings festival","dekmantel","dour festival",
+    "exit festival","sziget","primavera sound","fuji rock","rock in rio","tomorrowland brasil",
+    "electric zoo","edc mexico","edc japan","beyond wonderland","nocturnal wonderland",
+    "escape halloween","countdown nye","hard summer","framework la","insomniac",
+    "brownies and lemonade","secret project","portola","north coast","imagine festival",
+    # fashion / culture crossovers
+    "festival fashion","rave fashion","runway show","swim week","resort collection",
+    "fashion week","street style","y2k fashion","rave wear","club kid",
+    # retro / MTV lineage
+    "mtv","vh1","music video","music television","trl","yo mtv raps","headbangers ball",
+    "120 minutes","unplugged","soul train","top of the pops","muchmusic","spring break mtv",
 ]
 KEYWORDS = set(k.lower() for k in RAW_KEYWORDS)
 
@@ -198,6 +239,37 @@ CULTURE_SOURCES = [
     ("Data Transmission", g("site:datatransmission.co+when:5d")),
     ("Decoded Magazine",  g("site:decodedmagazine.com+when:5d")),
     ("When We Dip",       g("site:whenwedip.com+when:5d")),
+    # ── Party Portal 2.0 source expansion ──
+    ("Mixmag Asia",       g("site:mixmag.asia+when:4d")),
+    ("DJ Mag North Am",   g("site:djmag.com+north+america+OR+festival+when:3d")),
+    ("Ibiza Spotlight",   g("site:ibiza-spotlight.com+when:4d")),
+    ("Beatportal",        g("site:beatportal.com+when:4d")),
+    ("Attack Magazine",   g("site:attackmagazine.com+when:5d")),
+    ("XLR8R",             g("site:xlr8r.com+when:5d")),
+    ("Rave Jungle",       g("site:ravejungle.com+when:4d")),
+    ("EDM Maniac",        g("site:edmmaniac.com+when:4d")),
+    ("Festival Wizard",   g("site:musicfestivalwizard.com+when:4d")),
+    ("Time Out Nightlife",g("site:timeout.com+nightlife+OR+club+OR+bar+when:3d")),
+    ("Berlin Techno",     g("berghain+OR+tresor+OR+berlin+techno+when:4d")),
+    ("London Clubbing",   g("fabric+london+OR+printworks+OR+london+nightlife+when:3d")),
+    ("Amsterdam / ADE",   g("amsterdam+dance+event+OR+ADE+2026+OR+awakenings+when:4d")),
+    ("Tulum / Mexico",    g("tulum+party+OR+zamna+OR+day+zero+tulum+when:4d")),
+    ("Brazil / LatAm",    g("rock+in+rio+OR+tomorrowland+brasil+OR+baile+funk+when:4d")),
+    ("Asia Nightlife",    g("tokyo+nightlife+OR+seoul+club+OR+zouk+singapore+when:4d")),
+    ("Australia Scene",   g("sydney+nightlife+OR+melbourne+club+OR+australia+festival+when:4d")),
+    ("Amapiano / Afro",   g("amapiano+OR+afro+house+OR+afrobeats+party+when:3d")),
+    ("Psytrance Scene",   g("psytrance+festival+OR+ozora+OR+boom+festival+when:4d")),
+    ("Hardstyle",         g("hardstyle+OR+defqon+OR+qlimax+OR+hardcore+techno+when:4d")),
+    ("Drum & Bass",       g("drum+and+bass+OR+jungle+OR+liquid+dnb+when:3d")),
+    ("Insomniac Events",  g("insomniac+events+OR+beyond+wonderland+OR+escape+halloween+when:4d")),
+    ("Fashion / Runway",  g("swim+week+OR+resort+collection+OR+runway+show+when:3d")),
+    ("Retro MTV",         g("mtv+throwback+OR+music+video+anniversary+OR+90s+nostalgia+when:4d")),
+    ("Counterculture",    g("underground+rave+OR+free+party+OR+sound+system+culture+when:4d")),
+    ("New Orleans Scene", g("frenchmen+street+OR+new+orleans+jazz+OR+mardi+gras+when:4d")),
+    ("Austin / Texas",    g("austin+music+OR+sxsw+OR+texas+festival+when:4d")),
+    ("Denver / Red Rocks",g("red+rocks+OR+denver+nightlife+OR+colorado+festival+when:4d")),
+    ("LA Nightlife",      g("los+angeles+nightlife+OR+hollywood+club+OR+la+warehouse+when:3d")),
+    ("NYC Nightlife",     g("brooklyn+mirage+OR+nyc+nightlife+OR+house+of+yes+when:3d")),
     ("Mixmag Asia",       g("site:mixmag.asia+when:5d")),
     ("Attack Magazine",   g("site:attackmagazine.com+when:5d")),
     ("Ibiza Spotlight",   g("site:ibiza-spotlight.com+when:4d")),
@@ -330,6 +402,28 @@ def categorize(title):
         return "Fashion"
     if any(w in t for w in ["concert","tour","live show","residency","ticket","amphitheater","arena"]):
         return "Concert"
+    # ── Party Portal 2.0: finer-grained tags ──
+    if any(w in t for w in ["techno","warehouse","berghain","tresor","fabric","boiler room",
+                            "underground","acid","industrial techno","hard techno"]):
+        return "Techno"
+    if any(w in t for w in ["psytrance","psy-trance","goa","ozora","boom festival","psybient",
+                            "forest psy","full on"]):
+        return "Psytrance"
+    if any(w in t for w in ["ibiza","amnesia","ushuaia","pacha","dc10","hi ibiza","balearic",
+                            "o beach","privilege"]):
+        return "Ibiza"
+    if any(w in t for w in ["tulum","zamna","day zero","art with me","papaya playa",
+                            "burning man","playa","regional burn","theme camp"]):
+        return "Desert"
+    if any(w in t for w in ["amapiano","afro house","afrobeats","baile funk","reggaeton",
+                            "cumbia","dembow","global"]):
+        return "Global"
+    if any(w in t for w in ["mtv","vh1","music video","trl","retro","throwback","90s","80s",
+                            "y2k","soul train","top of the pops","muchmusic"]):
+        return "Retro"
+    if any(w in t for w in ["pool party","dayclub","day club","beach club","spring break",
+                            "boat party","full moon party","yacht"]):
+        return "Pool"
     return "Culture"
 
 def time_label(age_sec):
@@ -533,6 +627,110 @@ VG_CALENDARS = [
     "https://nocovernightclubs.com/ayu-dayclub-event-calendar/",
     "https://nocovernightclubs.com/tailgate-beach-club-event-calendar/",
 ]
+# ══════════════ GLOBAL EVENT HARVESTER (Party Portal 2.0) ══════════════
+# The horizon calendar used to be ~100% Las Vegas. This widens it to the rest of
+# the Southwest, Los Angeles, the whole US and the world, using the Ticketmaster
+# Discovery API (free tier). It is OPTIONAL and FAIL-SAFE, exactly like
+# curate.py's YouTube key: with no TICKETMASTER_API_KEY set it returns [] and the
+# Vegas scraper's results are used unchanged. Set the GitHub secret to switch on.
+#
+# Add or remove cities in TM_MARKETS below — that is the only dial you need.
+TM_KEY = os.environ.get("TICKETMASTER_API_KEY", "").strip()
+TM_API = "https://app.ticketmaster.com/discovery/v2/events.json"
+TM_PER_MARKET = 12          # events pulled per city per run
+TM_DAYS_AHEAD  = 45         # how far forward to look
+
+# (label, city, countryCode, our event "type")
+TM_MARKETS = [
+    # ── Southwest / desert circuit ──
+    ("Las Vegas",     "Las Vegas",     "US", "club"),
+    ("Phoenix",       "Phoenix",       "US", "club"),
+    ("Scottsdale",    "Scottsdale",    "US", "club"),
+    ("Tucson",        "Tucson",        "US", "concert"),
+    ("Albuquerque",   "Albuquerque",   "US", "concert"),
+    ("Salt Lake City","Salt Lake City","US", "concert"),
+    # ── California ──
+    ("Los Angeles",   "Los Angeles",   "US", "club"),
+    ("Hollywood",     "Hollywood",     "US", "club"),
+    ("San Diego",     "San Diego",     "US", "club"),
+    ("San Francisco", "San Francisco", "US", "concert"),
+    ("Palm Springs",  "Palm Springs",  "US", "pool"),
+    # ── rest of the US ──
+    ("Miami",         "Miami",         "US", "club"),
+    ("New York",      "New York",      "US", "club"),
+    ("Chicago",       "Chicago",       "US", "concert"),
+    ("Austin",        "Austin",        "US", "concert"),
+    ("New Orleans",   "New Orleans",   "US", "club"),
+    ("Denver",        "Denver",        "US", "concert"),
+    ("Atlanta",       "Atlanta",       "US", "club"),
+    ("Nashville",     "Nashville",     "US", "concert"),
+    ("Seattle",       "Seattle",       "US", "concert"),
+    ("Detroit",       "Detroit",       "US", "concert"),
+    ("Dallas",        "Dallas",        "US", "concert"),
+    # ── global nightlife capitals ──
+    ("Ibiza",         "Ibiza",         "ES", "club"),
+    ("Barcelona",     "Barcelona",     "ES", "club"),
+    ("London",        "London",        "GB", "club"),
+    ("Manchester",    "Manchester",    "GB", "club"),
+    ("Berlin",        "Berlin",        "DE", "club"),
+    ("Amsterdam",     "Amsterdam",     "NL", "club"),
+    ("Paris",         "Paris",         "FR", "concert"),
+    ("Tokyo",         "Tokyo",         "JP", "club"),
+    ("Sydney",        "Sydney",        "AU", "concert"),
+    ("Toronto",       "Toronto",       "CA", "concert"),
+    ("Mexico City",   "Mexico City",   "MX", "concert"),
+    ("Sao Paulo",     "Sao Paulo",     "BR", "concert"),
+]
+
+def harvest_global_events():
+    """Return a list of event dicts from Ticketmaster. NEVER raises; [] on any problem."""
+    if not TM_KEY:
+        print("  [TM] no TICKETMASTER_API_KEY set - skipping global events (Vegas only)")
+        return []
+    out, seen = [], set()
+    start = time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())
+    end   = time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime(time.time() + TM_DAYS_AHEAD*86400))
+    for label, city, cc, etype in TM_MARKETS:
+        try:
+            q = urllib.parse.urlencode({
+                "apikey": TM_KEY, "city": city, "countryCode": cc,
+                "classificationName": "music", "size": str(TM_PER_MARKET),
+                "sort": "date,asc", "startDateTime": start, "endDateTime": end,
+            })
+            req = urllib.request.Request(TM_API + "?" + q, headers={"Accept": "application/json"})
+            with urllib.request.urlopen(req, timeout=FETCH_TIMEOUT) as r:
+                data = json.loads(r.read().decode("utf-8", "ignore"))
+            for ev in (data.get("_embedded", {}) or {}).get("events", []) or []:
+                try:
+                    name = (ev.get("name") or "").strip()
+                    dates = ((ev.get("dates") or {}).get("start") or {})
+                    iso = dates.get("dateTime") or dates.get("localDate")
+                    if not name or not iso:
+                        continue
+                    if len(iso) == 10:
+                        ts = _cal.timegm(time.strptime(iso, "%Y-%m-%d")) + 20*3600
+                        datestr = iso
+                    else:
+                        ts = _cal.timegm(time.strptime(iso[:19], "%Y-%m-%dT%H:%M:%S"))
+                        datestr = iso[:10]
+                    venues = ((ev.get("_embedded") or {}).get("venues") or [{}])
+                    venue = (venues[0].get("name") or label).strip()
+                    key = (name.lower(), datestr, venue.lower())
+                    if key in seen:
+                        continue
+                    seen.add(key)
+                    out.append({"artist": name, "venue": venue, "type": etype,
+                                "city": label, "date": datestr, "ts": int(ts),
+                                "url": ev.get("url") or ""})
+                except Exception:
+                    continue
+        except Exception as e:
+            print(f"  [TM] {label}: {e}")
+            continue
+    print(f"  [TM] harvested {len(out)} global events across {len(TM_MARKETS)} markets")
+    return out
+
+
 def _vg_parse(url):
     slug = url.rstrip("/").split("/events/")[-1]
     m = _VG_DATE_RE.search(slug)
@@ -769,6 +967,23 @@ if __name__ == "__main__":
     try:
         print("  Scraping Vegas club & dayclub calendars…")
         vg = scrape_vegas()
+        # Widen the horizon well beyond Las Vegas (no-op without an API key).
+        try:
+            vg = vg + harvest_global_events()
+        except Exception as _ge:
+            print(f"  [TM ERROR] {_ge} - keeping Vegas-only events")
+        # Drop anything already finished, de-dupe, and sort soonest-first so the
+        # calendar rolls forward on its own and never stalls on stale entries.
+        _now_ts = int(time.time())
+        _seen, _clean = set(), []
+        for _e in sorted(vg, key=lambda x: x.get("ts", 0)):
+            if _e.get("ts", 0) < _now_ts - 43200:      # >12h past = expired
+                continue
+            _k = (str(_e.get("artist","")).lower(), _e.get("date",""), str(_e.get("venue","")).lower())
+            if _k in _seen:
+                continue
+            _seen.add(_k); _clean.append(_e)
+        vg = _clean
         if len(vg) >= 8:
             with open("events.json", "w", encoding="utf-8") as f:
                 json.dump({"updated": int(time.time()), "events": vg}, f, ensure_ascii=False, indent=2)
