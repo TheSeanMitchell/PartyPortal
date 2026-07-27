@@ -1,5 +1,5 @@
 {
-  "updated": 1785163726,
+  "updated": 1785181383,
   "events": [
     {
       "artist": "Dj Puffy",
@@ -2619,6 +2619,87 @@
       "date": "2026-08-23",
       "ts": 1787511600,
       "url": "https://nocovernightclubs.com/events/ritual-sundays-tao-nightclub-sunday-august-23-2026/"
+    },
+    {
+      "artist": "Levity",
+      "venue": "LIV",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-08-23",
+      "ts": 1787511600,
+      "url": "https://nocovernightclubs.com/events/levity-liv-nightclub-sunday-august-23-2026/"
+    },
+    {
+      "artist": "Loud Luxury",
+      "venue": "Encore Beach Club",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-08-23",
+      "ts": 1787511600,
+      "url": "https://nocovernightclubs.com/events/loud-luxury-encore-beach-club-sunday-august-23-2026/"
+    },
+    {
+      "artist": "Dj Cutswell",
+      "venue": "Marquee Dayclub",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-08-23",
+      "ts": 1787511600,
+      "url": "https://nocovernightclubs.com/events/dj-cutswell-marquee-dayclub-sunday-august-23-2026/"
+    },
+    {
+      "artist": "Eric Remy",
+      "venue": "Liquid Pool",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-08-23",
+      "ts": 1787511600,
+      "url": "https://nocovernightclubs.com/events/eric-remy-liquid-pool-sunday-august-23-2026/"
+    },
+    {
+      "artist": "Justin Credible",
+      "venue": "Marquee",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-08-24",
+      "ts": 1787598000,
+      "url": "https://nocovernightclubs.com/events/justin-credible-marquee-nightclub-monday-august-24-2026/"
+    },
+    {
+      "artist": "Special Guest",
+      "venue": "Marquee Dayclub",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-08-24",
+      "ts": 1787598000,
+      "url": "https://nocovernightclubs.com/events/special-guest-marquee-dayclub-monday-august-24-2026/"
+    },
+    {
+      "artist": "Mikey Francis",
+      "venue": "Omnia",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-08-25",
+      "ts": 1787684400,
+      "url": "https://nocovernightclubs.com/events/mikey-francis-omnia-nightclub-tuesday-august-25-2026/"
+    },
+    {
+      "artist": "Las Vegas Aviators Vs Sugar Land Space Cowboys",
+      "venue": "Las Vegas",
+      "type": "sports",
+      "city": "Las Vegas",
+      "date": "2026-08-25",
+      "ts": 1787688000,
+      "url": "https://concerts.vegas/event/las-vegas-aviators-vs-sugar-land-space-cowboys-las-vegas-tuesday-august-25-2026-705-pm/"
+    },
+    {
+      "artist": "Mele",
+      "venue": "Marquee",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-08-26",
+      "ts": 1787770800,
+      "url": "https://nocovernightclubs.com/events/mele-marquee-nightclub-wednesday-august-26-2026/"
     }
   ]
 }
