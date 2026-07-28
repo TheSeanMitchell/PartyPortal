@@ -1,24 +1,6 @@
 {
-  "updated": 1785185716,
+  "updated": 1785228270,
   "events": [
-    {
-      "artist": "Dj Puffy",
-      "venue": "Marquee",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-07-27",
-      "ts": 1785178800,
-      "url": "https://nocovernightclubs.com/events/dj-puffy-marquee-nightclub-monday-july-27-2026/"
-    },
-    {
-      "artist": "Special Guest",
-      "venue": "Marquee Dayclub",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-07-27",
-      "ts": 1785178800,
-      "url": "https://nocovernightclubs.com/events/special-guest-marquee-dayclub-monday-july-27-2026/"
-    },
     {
       "artist": "Rob Guson",
       "venue": "Omnia",
@@ -1892,6 +1874,15 @@
       "url": "https://nocovernightclubs.com/events/ritual-sundays-tao-nightclub-sunday-august-16-2026/"
     },
     {
+      "artist": "Mark Eteson",
+      "venue": "LIV",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-08-16",
+      "ts": 1786906800,
+      "url": "https://nocovernightclubs.com/events/mark-eteson-liv-nightclub-sunday-august-16-2026/"
+    },
+    {
       "artist": "Ayybo",
       "venue": "Encore Beach Club",
       "type": "pool",
@@ -2691,15 +2682,6 @@
       "date": "2026-08-25",
       "ts": 1787688000,
       "url": "https://concerts.vegas/event/las-vegas-aviators-vs-sugar-land-space-cowboys-las-vegas-tuesday-august-25-2026-705-pm/"
-    },
-    {
-      "artist": "Mele",
-      "venue": "Marquee",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-08-26",
-      "ts": 1787770800,
-      "url": "https://nocovernightclubs.com/events/mele-marquee-nightclub-wednesday-august-26-2026/"
     }
   ]
 }
