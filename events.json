@@ -1,5 +1,5 @@
 {
-  "updated": 1785334963,
+  "updated": 1785353097,
   "events": [
     {
       "artist": "Chris Garcia",
@@ -2691,6 +2691,15 @@
       "date": "2026-08-26",
       "ts": 1787770800,
       "url": "https://nocovernightclubs.com/events/its-murph-ebc-at-night-wednesday-august-26-2026/"
+    },
+    {
+      "artist": "Dj Buza",
+      "venue": "Liquid Pool",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-08-26",
+      "ts": 1787770800,
+      "url": "https://nocovernightclubs.com/events/dj-buza-liquid-pool-wednesday-august-26-2026/"
     }
   ]
 }
