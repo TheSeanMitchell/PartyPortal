@@ -1,5 +1,5 @@
 {
-  "updated": 1785420970,
+  "updated": 1785440482,
   "events": [
     {
       "artist": "Special Guest",
@@ -2655,6 +2655,51 @@
       "date": "2026-08-26",
       "ts": 1787770800,
       "url": "https://nocovernightclubs.com/events/special-guest-palm-tree-beach-club-wednesday-august-26-2026/"
+    },
+    {
+      "artist": "Las Vegas Aviators Vs Sugar Land Space Cowboys",
+      "venue": "Las Vegas",
+      "type": "sports",
+      "city": "Las Vegas",
+      "date": "2026-08-26",
+      "ts": 1787774400,
+      "url": "https://concerts.vegas/event/las-vegas-aviators-vs-sugar-land-space-cowboys-las-vegas-wednesday-august-26-2026-705-pm/"
+    },
+    {
+      "artist": "Special Guest",
+      "venue": "Omnia",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-08-27",
+      "ts": 1787857200,
+      "url": "https://nocovernightclubs.com/events/special-guest-omnia-nightclub-thursday-august-27-2026/"
+    },
+    {
+      "artist": "Dj Five",
+      "venue": "Tao",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-08-27",
+      "ts": 1787857200,
+      "url": "https://nocovernightclubs.com/events/dj-five-tao-nightclub-thursday-august-27-2026/"
+    },
+    {
+      "artist": "P Lov",
+      "venue": "Hakkasan",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-08-27",
+      "ts": 1787857200,
+      "url": "https://nocovernightclubs.com/events/p-lov-hakkasan-nightclub-thursday-august-27-2026/"
+    },
+    {
+      "artist": "Special Guest",
+      "venue": "Marquee Dayclub",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-08-27",
+      "ts": 1787857200,
+      "url": "https://nocovernightclubs.com/events/special-guest-marquee-dayclub-thursday-august-27-2026/"
     }
   ]
 }
