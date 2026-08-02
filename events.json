@@ -1,5 +1,5 @@
 {
-  "updated": 1785678017,
+  "updated": 1785698319,
   "events": [
     {
       "artist": "Deseo",
@@ -2655,6 +2655,51 @@
       "date": "2026-08-29",
       "ts": 1788030000,
       "url": "https://nocovernightclubs.com/events/the-chainsmokers-encore-beach-club-saturday-august-29-2026/"
+    },
+    {
+      "artist": "Diplo",
+      "venue": "EBC At Night",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-08-29",
+      "ts": 1788030000,
+      "url": "https://nocovernightclubs.com/events/diplo-ebc-at-night-saturday-august-29-2026/"
+    },
+    {
+      "artist": "Timmy Trumpet",
+      "venue": "Marquee Dayclub",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-08-29",
+      "ts": 1788030000,
+      "url": "https://nocovernightclubs.com/events/timmy-trumpet-marquee-dayclub-saturday-august-29-2026/"
+    },
+    {
+      "artist": "Dj Pauly D",
+      "venue": "Tao Beach",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-08-29",
+      "ts": 1788030000,
+      "url": "https://nocovernightclubs.com/events/dj-pauly-d-tao-beach-saturday-august-29-2026/"
+    },
+    {
+      "artist": "Kid Conrad",
+      "venue": "Liquid Pool",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-08-29",
+      "ts": 1788030000,
+      "url": "https://nocovernightclubs.com/events/kid-conrad-liquid-pool-saturday-august-29-2026/"
+    },
+    {
+      "artist": "Chris Lake",
+      "venue": "Palm Tree Beach",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-08-29",
+      "ts": 1788030000,
+      "url": "https://nocovernightclubs.com/events/chris-lake-palm-tree-beach-club-saturday-august-29-2026/"
     }
   ]
 }
