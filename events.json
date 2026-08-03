@@ -1,96 +1,6 @@
 {
-  "updated": 1785698319,
+  "updated": 1785750980,
   "events": [
-    {
-      "artist": "Deseo",
-      "venue": "Omnia",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-08-02",
-      "ts": 1785697200,
-      "url": "https://nocovernightclubs.com/events/deseo-omnia-nightclub-sunday-august-2-2026/"
-    },
-    {
-      "artist": "Ritual Sundays",
-      "venue": "Tao",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-08-02",
-      "ts": 1785697200,
-      "url": "https://nocovernightclubs.com/events/ritual-sundays-tao-nightclub-sunday-august-2-2026/"
-    },
-    {
-      "artist": "Layton Giordani",
-      "venue": "LIV",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-08-02",
-      "ts": 1785697200,
-      "url": "https://nocovernightclubs.com/events/layton-giordani-liv-nightclub-sunday-august-2-2026/"
-    },
-    {
-      "artist": "Acraze",
-      "venue": "Encore Beach Club",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-08-02",
-      "ts": 1785697200,
-      "url": "https://nocovernightclubs.com/events/acraze-encore-beach-club-sunday-august-2-2026/"
-    },
-    {
-      "artist": "Dj Shift",
-      "venue": "Marquee Dayclub",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-08-02",
-      "ts": 1785697200,
-      "url": "https://nocovernightclubs.com/events/dj-shift-marquee-dayclub-sunday-august-2-2026/"
-    },
-    {
-      "artist": "Bigxthaplug",
-      "venue": "Tao Beach",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-08-02",
-      "ts": 1785697200,
-      "url": "https://nocovernightclubs.com/events/bigxthaplug-tao-beach-sunday-august-2-2026/"
-    },
-    {
-      "artist": "Eric Remy",
-      "venue": "Liquid Pool",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-08-02",
-      "ts": 1785697200,
-      "url": "https://nocovernightclubs.com/events/eric-remy-liquid-pool-sunday-august-2-2026/"
-    },
-    {
-      "artist": "Dj Vice",
-      "venue": "Palm Tree Beach",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-08-02",
-      "ts": 1785697200,
-      "url": "https://nocovernightclubs.com/events/dj-vice-palm-tree-beach-club-sunday-august-2-2026/"
-    },
-    {
-      "artist": "Kromi",
-      "venue": "LIV Beach",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-08-02",
-      "ts": 1785697200,
-      "url": "https://nocovernightclubs.com/events/kromi-liv-beach-sunday-august-2-2026/"
-    },
-    {
-      "artist": "The Beths And Beach Bunny",
-      "venue": "House of Blues",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-08-02",
-      "ts": 1785700800,
-      "url": "https://concerts.vegas/event/the-beths-and-beach-bunny-las-vegas-sunday-august-2-2026-730-pm/"
-    },
     {
       "artist": "Special Guest",
       "venue": "Marquee Dayclub",
@@ -1280,6 +1190,15 @@
       "url": "https://nocovernightclubs.com/events/dj-pauly-d-marquee-dayclub-saturday-august-15-2026/"
     },
     {
+      "artist": "Illenium",
+      "venue": "Tao Beach",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-08-15",
+      "ts": 1786820400,
+      "url": "https://nocovernightclubs.com/events/illenium-tao-beach-saturday-august-15-2026/"
+    },
+    {
       "artist": "Kid Conrad",
       "venue": "Liquid Pool",
       "type": "pool",
@@ -1955,6 +1874,15 @@
       "url": "https://nocovernightclubs.com/events/louis-the-child-marquee-dayclub-saturday-august-22-2026/"
     },
     {
+      "artist": "Afrojack",
+      "venue": "Tao Beach",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-08-22",
+      "ts": 1787425200,
+      "url": "https://nocovernightclubs.com/events/afrojack-tao-beach-saturday-august-22-2026/"
+    },
+    {
       "artist": "Kid Conrad",
       "venue": "Liquid Pool",
       "type": "pool",
@@ -2133,6 +2061,15 @@
       "date": "2026-08-23",
       "ts": 1787511600,
       "url": "https://nocovernightclubs.com/events/dj-cutswell-marquee-dayclub-sunday-august-23-2026/"
+    },
+    {
+      "artist": "Wiz Khalifa",
+      "venue": "Tao Beach",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-08-23",
+      "ts": 1787511600,
+      "url": "https://nocovernightclubs.com/events/wiz-khalifa-tao-beach-sunday-august-23-2026/"
     },
     {
       "artist": "Eric Remy",
@@ -2700,6 +2637,24 @@
       "date": "2026-08-29",
       "ts": 1788030000,
       "url": "https://nocovernightclubs.com/events/chris-lake-palm-tree-beach-club-saturday-august-29-2026/"
+    },
+    {
+      "artist": "Tiesto",
+      "venue": "LIV Beach",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-08-29",
+      "ts": 1788030000,
+      "url": "https://nocovernightclubs.com/events/tiesto-liv-beach-saturday-august-29-2026/"
+    },
+    {
+      "artist": "Players Era Volleyball Showcase 2 Day Pass",
+      "venue": "T-Mobile Arena",
+      "type": "arena",
+      "city": "Las Vegas",
+      "date": "2026-08-29",
+      "ts": 1788033600,
+      "url": "https://concerts.vegas/event/players-era-volleyball-showcase-2-day-pass-las-vegas-saturday-august-29-2026-tba/"
     }
   ]
 }
