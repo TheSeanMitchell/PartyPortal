@@ -1,5 +1,5 @@
 {
-  "updated": 1785768691,
+  "updated": 1785786348,
   "events": [
     {
       "artist": "Special Guest",
@@ -2655,6 +2655,42 @@
       "date": "2026-08-29",
       "ts": 1788033600,
       "url": "https://concerts.vegas/event/players-era-volleyball-showcase-2-day-pass-las-vegas-saturday-august-29-2026-tba/"
+    },
+    {
+      "artist": "Players Era Volleyball Showcase Tcu Vs Texas And Nebraska Vs Unlv",
+      "venue": "T-Mobile Arena",
+      "type": "sports",
+      "city": "Las Vegas",
+      "date": "2026-08-29",
+      "ts": 1788033600,
+      "url": "https://concerts.vegas/event/players-era-volleyball-showcase-tcu-vs-texas-and-nebraska-vs-unlv-las-vegas-saturday-august-29-2026-500-pm/"
+    },
+    {
+      "artist": "Unlv Rebels Vs Memphis Tigers",
+      "venue": "Allegiant Stadium",
+      "type": "sports",
+      "city": "Las Vegas",
+      "date": "2026-08-29",
+      "ts": 1788033600,
+      "url": "https://concerts.vegas/event/unlv-rebels-vs-memphis-tigers-las-vegas-saturday-august-29-2026-700-pm/"
+    },
+    {
+      "artist": "Barry Manilow",
+      "venue": "The Colosseum at Caesars Palace",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-08-29",
+      "ts": 1788033600,
+      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-saturday-august-29-2026-700-pm/"
+    },
+    {
+      "artist": "Mary J Blige",
+      "venue": "Dolby Live at Park MGM",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-08-29",
+      "ts": 1788033600,
+      "url": "https://concerts.vegas/event/mary-j-blige-las-vegas-saturday-august-29-2026-800-pm/"
     }
   ]
 }
