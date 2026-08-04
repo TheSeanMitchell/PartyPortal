@@ -1,15 +1,6 @@
 {
-  "updated": 1785786348,
+  "updated": 1785833293,
   "events": [
-    {
-      "artist": "Special Guest",
-      "venue": "Marquee Dayclub",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-08-03",
-      "ts": 1785783600,
-      "url": "https://nocovernightclubs.com/events/special-guest-marquee-dayclub-monday-august-3-2026/"
-    },
     {
       "artist": "Justin Credible",
       "venue": "Omnia",
@@ -2691,6 +2682,15 @@
       "date": "2026-08-29",
       "ts": 1788033600,
       "url": "https://concerts.vegas/event/mary-j-blige-las-vegas-saturday-august-29-2026-800-pm/"
+    },
+    {
+      "artist": "Barry Manilow",
+      "venue": "Dolby Live at Park MGM",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-08-29",
+      "ts": 1788033600,
+      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-saturday-august-29-2026-700-pm/"
     }
   ]
 }
