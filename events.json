@@ -1,5 +1,5 @@
 {
-  "updated": 1785939722,
+  "updated": 1785959001,
   "events": [
     {
       "artist": "Lema",
@@ -2648,15 +2648,6 @@
       "url": "https://nocovernightclubs.com/events/tiesto-liv-beach-saturday-august-29-2026/"
     },
     {
-      "artist": "Players Era Volleyball Showcase 2 Day Pass",
-      "venue": "T-Mobile Arena",
-      "type": "arena",
-      "city": "Las Vegas",
-      "date": "2026-08-29",
-      "ts": 1788033600,
-      "url": "https://concerts.vegas/event/players-era-volleyball-showcase-2-day-pass-las-vegas-saturday-august-29-2026-tba/"
-    },
-    {
       "artist": "Players Era Volleyball Showcase Tcu Vs Texas And Nebraska Vs Unlv",
       "venue": "T-Mobile Arena",
       "type": "sports",
@@ -2696,6 +2687,15 @@
       "artist": "Barry Manilow",
       "venue": "Dolby Live at Park MGM",
       "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-08-29",
+      "ts": 1788033600,
+      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-saturday-august-29-2026-700-pm/"
+    },
+    {
+      "artist": "Barry Manilow",
+      "venue": "Michelob Ultra Arena",
+      "type": "arena",
       "city": "Las Vegas",
       "date": "2026-08-29",
       "ts": 1788033600,
