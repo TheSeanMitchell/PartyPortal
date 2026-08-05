@@ -1,5 +1,5 @@
 {
-  "updated": 1785919494,
+  "updated": 1785939722,
   "events": [
     {
       "artist": "Lema",
@@ -306,6 +306,15 @@
       "date": "2026-08-07",
       "ts": 1786132800,
       "url": "https://concerts.vegas/event/ekolu-las-vegas-friday-august-7-2026-800-pm/"
+    },
+    {
+      "artist": "Emo Night Brooklyn Las Vegas House Of Blues",
+      "venue": "House of Blues",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-08-07",
+      "ts": 1786132800,
+      "url": "https://concerts.vegas/event/emo-night-brooklyn-las-vegas-house-of-blues-las-vegas-friday-august-7-2026-9-30-pm/"
     },
     {
       "artist": "Emo Night Brooklyn",
@@ -1217,13 +1226,13 @@
       "url": "https://concerts.vegas/event/las-vegas-aces-vs-minnesota-lynx-las-vegas-saturday-august-15-2026-500-pm/"
     },
     {
-      "artist": "Run For A Million Reining Championship",
+      "artist": "Run For A Million Reining Championship Las Vegas Arena At South Point Hotel And Casino",
       "venue": "Las Vegas",
       "type": "sports",
       "city": "Las Vegas",
       "date": "2026-08-15",
       "ts": 1786824000,
-      "url": "https://concerts.vegas/event/run-for-a-million-reining-championship-las-vegas-saturday-august-15-2026-530-pm/"
+      "url": "https://concerts.vegas/event/run-for-a-million-reining-championship-las-vegas-arena-at-south-point-hotel-and-casino-saturday-august-15-2026-5-30-pm/"
     },
     {
       "artist": "Las Vegas Aviators Vs Sacramento River Cats",
@@ -1748,6 +1757,15 @@
       "url": "https://concerts.vegas/event/barry-manilow-las-vegas-friday-august-21-2026-800-pm/"
     },
     {
+      "artist": "Club 90s Ariana Grande Night Tribute Las Vegas Brooklyn Bowl",
+      "venue": "Brooklyn Bowl",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-08-21",
+      "ts": 1787342400,
+      "url": "https://concerts.vegas/event/club-90s-ariana-grande-night-tribute-las-vegas-brooklyn-bowl-las-vegas-friday-august-21-2026-9-00-pm/"
+    },
+    {
       "artist": "Barry Manilow",
       "venue": "Pearl Theater at Palms",
       "type": "concert",
@@ -1971,6 +1989,15 @@
       "date": "2026-08-22",
       "ts": 1787428800,
       "url": "https://concerts.vegas/event/barry-manilow-las-vegas-saturday-august-22-2026-700-pm/"
+    },
+    {
+      "artist": "Club 90s 2000s Night Las Vegas Brooklyn Bowl",
+      "venue": "Brooklyn Bowl",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-08-22",
+      "ts": 1787428800,
+      "url": "https://concerts.vegas/event/club-90s-2000s-night-las-vegas-brooklyn-bowl-las-vegas-saturday-august-22-2026-9-00-pm/"
     },
     {
       "artist": "Barry Manilow",
@@ -2673,33 +2700,6 @@
       "date": "2026-08-29",
       "ts": 1788033600,
       "url": "https://concerts.vegas/event/barry-manilow-las-vegas-saturday-august-29-2026-700-pm/"
-    },
-    {
-      "artist": "Barry Manilow",
-      "venue": "Michelob Ultra Arena",
-      "type": "arena",
-      "city": "Las Vegas",
-      "date": "2026-08-29",
-      "ts": 1788033600,
-      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-saturday-august-29-2026-700-pm/"
-    },
-    {
-      "artist": "Nonpoint",
-      "venue": "The Theater at Virgin Hotels",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-08-29",
-      "ts": 1788033600,
-      "url": "https://concerts.vegas/event/nonpoint-las-vegas-saturday-august-29-2026-700-pm/"
-    },
-    {
-      "artist": "Nate Jackson",
-      "venue": "The Theater at Virgin Hotels",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-08-29",
-      "ts": 1788033600,
-      "url": "https://concerts.vegas/event/nate-jackson-las-vegas-saturday-august-29-2026-800-pm/"
     }
   ]
 }
