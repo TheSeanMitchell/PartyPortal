@@ -1,69 +1,6 @@
 {
-  "updated": 1785959001,
+  "updated": 1786005972,
   "events": [
-    {
-      "artist": "Lema",
-      "venue": "Marquee",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-08-05",
-      "ts": 1785956400,
-      "url": "https://nocovernightclubs.com/events/lema-marquee-nightclub-wednesday-august-5-2026/"
-    },
-    {
-      "artist": "Dj Franzen",
-      "venue": "Hakkasan",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-08-05",
-      "ts": 1785956400,
-      "url": "https://nocovernightclubs.com/events/dj-franzen-hakkasan-nightclub-wednesday-august-5-2026/"
-    },
-    {
-      "artist": "Odd Mob",
-      "venue": "EBC At Night",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-08-05",
-      "ts": 1785956400,
-      "url": "https://nocovernightclubs.com/events/odd-mob-ebc-at-night-wednesday-august-5-2026/"
-    },
-    {
-      "artist": "Dj Buza",
-      "venue": "Liquid Pool",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-08-05",
-      "ts": 1785956400,
-      "url": "https://nocovernightclubs.com/events/dj-buza-liquid-pool-wednesday-august-5-2026/"
-    },
-    {
-      "artist": "Special Guest",
-      "venue": "Palm Tree Beach",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-08-05",
-      "ts": 1785956400,
-      "url": "https://nocovernightclubs.com/events/special-guest-palm-tree-beach-club-wednesday-august-5-2026/"
-    },
-    {
-      "artist": "Las Vegas Aviators Vs Tacoma Rainiers",
-      "venue": "Las Vegas",
-      "type": "sports",
-      "city": "Las Vegas",
-      "date": "2026-08-05",
-      "ts": 1785960000,
-      "url": "https://concerts.vegas/event/las-vegas-aviators-vs-tacoma-rainiers-las-vegas-wednesday-august-5-2026-705-pm/"
-    },
-    {
-      "artist": "Las Vegas Lights Fc Vs Oakland Roots Sc",
-      "venue": "Las Vegas",
-      "type": "sports",
-      "city": "Las Vegas",
-      "date": "2026-08-05",
-      "ts": 1785960000,
-      "url": "https://concerts.vegas/event/las-vegas-lights-fc-vs-oakland-roots-sc-las-vegas-wednesday-august-5-2026-730-pm/"
-    },
     {
       "artist": "Special Guest",
       "venue": "Omnia",
@@ -2696,6 +2633,51 @@
       "artist": "Barry Manilow",
       "venue": "Michelob Ultra Arena",
       "type": "arena",
+      "city": "Las Vegas",
+      "date": "2026-08-29",
+      "ts": 1788033600,
+      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-saturday-august-29-2026-700-pm/"
+    },
+    {
+      "artist": "Nonpoint",
+      "venue": "The Theater at Virgin Hotels",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-08-29",
+      "ts": 1788033600,
+      "url": "https://concerts.vegas/event/nonpoint-las-vegas-saturday-august-29-2026-700-pm/"
+    },
+    {
+      "artist": "Nate Jackson",
+      "venue": "The Theater at Virgin Hotels",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-08-29",
+      "ts": 1788033600,
+      "url": "https://concerts.vegas/event/nate-jackson-las-vegas-saturday-august-29-2026-800-pm/"
+    },
+    {
+      "artist": "Nonpoint",
+      "venue": "24 Oxford at Virgin Hotels",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-08-29",
+      "ts": 1788033600,
+      "url": "https://concerts.vegas/event/nonpoint-las-vegas-saturday-august-29-2026-700-pm/"
+    },
+    {
+      "artist": "Nate Jackson",
+      "venue": "24 Oxford at Virgin Hotels",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-08-29",
+      "ts": 1788033600,
+      "url": "https://concerts.vegas/event/nate-jackson-las-vegas-saturday-august-29-2026-800-pm/"
+    },
+    {
+      "artist": "Barry Manilow",
+      "venue": "Resorts World Theatre",
+      "type": "concert",
       "city": "Las Vegas",
       "date": "2026-08-29",
       "ts": 1788033600,
