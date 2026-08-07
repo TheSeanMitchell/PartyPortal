@@ -1,5 +1,5 @@
 {
-  "updated": 1786108522,
+  "updated": 1786129472,
   "events": [
     {
       "artist": "Alison Wonderland",
@@ -549,6 +549,24 @@
       "date": "2026-08-11",
       "ts": 1786474800,
       "url": "https://nocovernightclubs.com/events/tyga-omnia-nightclub-tuesday-august-11-2026/"
+    },
+    {
+      "artist": "Las Vegas Raiders Training Camp Las Vegas Allegiant Stadium",
+      "venue": "Allegiant Stadium",
+      "type": "sports",
+      "city": "Las Vegas",
+      "date": "2026-08-11",
+      "ts": 1786478400,
+      "url": "https://concerts.vegas/event/las-vegas-raiders-training-camp-las-vegas-allegiant-stadium-tuesday-august-11-2026-5-30-pm/"
+    },
+    {
+      "artist": "Las Vegas Raiders Training Camp Las Vegas Allegiant Stadium",
+      "venue": "Las Vegas",
+      "type": "sports",
+      "city": "Las Vegas",
+      "date": "2026-08-11",
+      "ts": 1786478400,
+      "url": "https://concerts.vegas/event/las-vegas-raiders-training-camp-las-vegas-allegiant-stadium-tuesday-august-11-2026-5-30-pm/"
     },
     {
       "artist": "Las Vegas Aces Vs Washington Mystics",
@@ -2360,6 +2378,15 @@
       "url": "https://concerts.vegas/event/barry-manilow-las-vegas-friday-august-28-2026-800-pm/"
     },
     {
+      "artist": "Club 90s Off Campus Night Las Vegas Brooklyn Bowl",
+      "venue": "Brooklyn Bowl",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-08-28",
+      "ts": 1787947200,
+      "url": "https://concerts.vegas/event/club-90s-off-campus-night-las-vegas-brooklyn-bowl-las-vegas-friday-august-28-2026-9-00-pm/"
+    },
+    {
       "artist": "Barry Manilow",
       "venue": "Pearl Theater at Palms",
       "type": "concert",
@@ -2646,6 +2673,15 @@
       "date": "2026-08-29",
       "ts": 1788033600,
       "url": "https://concerts.vegas/event/barry-manilow-las-vegas-saturday-august-29-2026-700-pm/"
+    },
+    {
+      "artist": "Club 90s Michael Jackson Night Las Vegas Brooklyn Bowl",
+      "venue": "Brooklyn Bowl",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-08-29",
+      "ts": 1788033600,
+      "url": "https://concerts.vegas/event/club-90s-michael-jackson-night-las-vegas-brooklyn-bowl-las-vegas-saturday-august-29-2026-9-00-pm/"
     },
     {
       "artist": "Barry Manilow",
