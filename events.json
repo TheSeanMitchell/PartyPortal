@@ -1,5 +1,5 @@
 {
-  "updated": 1786026347,
+  "updated": 1786061246,
   "events": [
     {
       "artist": "Special Guest",
@@ -2018,6 +2018,15 @@
       "url": "https://nocovernightclubs.com/events/eric-remy-liquid-pool-sunday-august-23-2026/"
     },
     {
+      "artist": "R3hab",
+      "venue": "Omnia Dayclub",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-08-23",
+      "ts": 1787511600,
+      "url": "https://nocovernightclubs.com/events/r3hab-omnia-dayclub-sunday-august-23-2026/"
+    },
+    {
       "artist": "Justin Credible",
       "venue": "Marquee",
       "type": "club",
@@ -2682,6 +2691,15 @@
       "date": "2026-08-29",
       "ts": 1788033600,
       "url": "https://concerts.vegas/event/barry-manilow-las-vegas-saturday-august-29-2026-700-pm/"
+    },
+    {
+      "artist": "5 Seconds Of Summer",
+      "venue": "Bakkt Theater at Planet Hollywood",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-08-29",
+      "ts": 1788033600,
+      "url": "https://concerts.vegas/event/5-seconds-of-summer-las-vegas-saturday-august-29-2026-800-pm/"
     }
   ]
 }
