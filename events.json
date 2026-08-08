@@ -1,5 +1,5 @@
 {
-  "updated": 1786193932,
+  "updated": 1786214746,
   "events": [
     {
       "artist": "Bolo",
@@ -137,33 +137,6 @@
       "url": "https://concerts.vegas/event/kali-uchis-and-mariah-the-scientist-las-vegas-saturday-august-8-2026-700-pm/"
     },
     {
-      "artist": "Sam Comroe Las Vegas Laugh Factory At Horseshoe",
-      "venue": "T-Mobile Arena",
-      "type": "arena",
-      "city": "Las Vegas",
-      "date": "2026-08-08",
-      "ts": 1786219200,
-      "url": "https://concerts.vegas/event/sam-comroe-las-vegas-laugh-factory-at-horseshoe-las-vegas-saturday-august-8-2026-6-30-pm/"
-    },
-    {
-      "artist": "Sam Comroe Las Vegas Laugh Factory At Horseshoe",
-      "venue": "Allegiant Stadium",
-      "type": "stadium",
-      "city": "Las Vegas",
-      "date": "2026-08-08",
-      "ts": 1786219200,
-      "url": "https://concerts.vegas/event/sam-comroe-las-vegas-laugh-factory-at-horseshoe-las-vegas-saturday-august-8-2026-6-30-pm/"
-    },
-    {
-      "artist": "Sam Comroe Las Vegas Laugh Factory At Horseshoe",
-      "venue": "MGM Grand Garden Arena",
-      "type": "arena",
-      "city": "Las Vegas",
-      "date": "2026-08-08",
-      "ts": 1786219200,
-      "url": "https://concerts.vegas/event/sam-comroe-las-vegas-laugh-factory-at-horseshoe-las-vegas-saturday-august-8-2026-6-30-pm/"
-    },
-    {
       "artist": "Bini",
       "venue": "Bakkt Theater at Planet Hollywood",
       "type": "concert",
@@ -182,15 +155,6 @@
       "url": "https://concerts.vegas/event/eslabon-armado-las-vegas-saturday-august-8-2026-700-pm/"
     },
     {
-      "artist": "Sam Comroe Las Vegas Laugh Factory At Horseshoe",
-      "venue": "House of Blues",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-08-08",
-      "ts": 1786219200,
-      "url": "https://concerts.vegas/event/sam-comroe-las-vegas-laugh-factory-at-horseshoe-las-vegas-saturday-august-8-2026-6-30-pm/"
-    },
-    {
       "artist": "House Of Heavy",
       "venue": "Brooklyn Bowl",
       "type": "concert",
@@ -198,15 +162,6 @@
       "date": "2026-08-08",
       "ts": 1786219200,
       "url": "https://concerts.vegas/event/house-of-heavy-las-vegas-saturday-august-8-2026-900-pm/"
-    },
-    {
-      "artist": "Sam Comroe Las Vegas Laugh Factory At Horseshoe",
-      "venue": "Brooklyn Bowl",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-08-08",
-      "ts": 1786219200,
-      "url": "https://concerts.vegas/event/sam-comroe-las-vegas-laugh-factory-at-horseshoe-las-vegas-saturday-august-8-2026-6-30-pm/"
     },
     {
       "artist": "Las Vegas Aviators Vs Tacoma Rainiers",
@@ -2414,6 +2369,15 @@
       "url": "https://nocovernightclubs.com/events/tiesto-liv-beach-saturday-august-29-2026/"
     },
     {
+      "artist": "Players Era Volleyball Showcase 2 Day Pass Las Vegas T Mobile Arena",
+      "venue": "T-Mobile Arena",
+      "type": "arena",
+      "city": "Las Vegas",
+      "date": "2026-08-29",
+      "ts": 1788033600,
+      "url": "https://concerts.vegas/event/players-era-volleyball-showcase-2-day-pass-las-vegas-t-mobile-arena-saturday-august-29-2026-tba/"
+    },
+    {
       "artist": "Players Era Volleyball Showcase Tcu Vs Texas And Nebraska Vs Unlv",
       "venue": "T-Mobile Arena",
       "type": "sports",
@@ -2567,6 +2531,15 @@
       "url": "https://concerts.vegas/event/barry-manilow-las-vegas-saturday-august-29-2026-700-pm/"
     },
     {
+      "artist": "Players Era Volleyball Showcase 2 Day Pass Las Vegas T Mobile Arena",
+      "venue": "Las Vegas",
+      "type": "sports",
+      "city": "Las Vegas",
+      "date": "2026-08-29",
+      "ts": 1788033600,
+      "url": "https://concerts.vegas/event/players-era-volleyball-showcase-2-day-pass-las-vegas-t-mobile-arena-saturday-august-29-2026-tba/"
+    },
+    {
       "artist": "Players Era Volleyball Showcase Tcu Vs Texas And Nebraska Vs Unlv",
       "venue": "Las Vegas",
       "type": "sports",
@@ -2655,6 +2628,78 @@
       "date": "2026-08-30",
       "ts": 1788116400,
       "url": "https://nocovernightclubs.com/events/murda-beatz-tao-beach-sunday-august-30-2026/"
+    },
+    {
+      "artist": "Eric Remy",
+      "venue": "Liquid Pool",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-08-30",
+      "ts": 1788116400,
+      "url": "https://nocovernightclubs.com/events/eric-remy-liquid-pool-sunday-august-30-2026/"
+    },
+    {
+      "artist": "Reggaetonlandia",
+      "venue": "Omnia Dayclub",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-08-30",
+      "ts": 1788116400,
+      "url": "https://nocovernightclubs.com/events/reggaetonlandia-omnia-dayclub-saturday-august-30-2026/"
+    },
+    {
+      "artist": "Players Era Volleyball Showcase Tcu Vs Unlv And Texas Vs Nebraska",
+      "venue": "T-Mobile Arena",
+      "type": "sports",
+      "city": "Las Vegas",
+      "date": "2026-08-30",
+      "ts": 1788120000,
+      "url": "https://concerts.vegas/event/players-era-volleyball-showcase-tcu-vs-unlv-and-texas-vs-nebraska-las-vegas-sunday-august-30-2026-1230-pm/"
+    },
+    {
+      "artist": "Players Era Volleyball Showcase Tcu Vs Unlv And Texas Vs Nebraska",
+      "venue": "Las Vegas",
+      "type": "sports",
+      "city": "Las Vegas",
+      "date": "2026-08-30",
+      "ts": 1788120000,
+      "url": "https://concerts.vegas/event/players-era-volleyball-showcase-tcu-vs-unlv-and-texas-vs-nebraska-las-vegas-sunday-august-30-2026-1230-pm/"
+    },
+    {
+      "artist": "Las Vegas Aviators Vs Sugar Land Space Cowboys",
+      "venue": "Las Vegas",
+      "type": "sports",
+      "city": "Las Vegas",
+      "date": "2026-08-30",
+      "ts": 1788120000,
+      "url": "https://concerts.vegas/event/las-vegas-aviators-vs-sugar-land-space-cowboys-las-vegas-sunday-august-30-2026-605-pm/"
+    },
+    {
+      "artist": "Dj Sourmilk",
+      "venue": "Marquee",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-08-31",
+      "ts": 1788202800,
+      "url": "https://nocovernightclubs.com/events/dj-sourmilk-marquee-nightclub-monday-august-31-2026/"
+    },
+    {
+      "artist": "Dj Buza",
+      "venue": "Marquee Dayclub",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-08-31",
+      "ts": 1788202800,
+      "url": "https://nocovernightclubs.com/events/dj-buza-marquee-dayclub-monday-august-31-2026/"
+    },
+    {
+      "artist": "Dj Buza",
+      "venue": "Liquid Pool",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-09-02",
+      "ts": 1788375600,
+      "url": "https://nocovernightclubs.com/events/dj-buza-liquid-pool-wednesday-september-2-2026/"
     }
   ]
 }
