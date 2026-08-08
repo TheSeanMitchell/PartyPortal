@@ -1,5 +1,5 @@
 {
-  "updated": 1786172494,
+  "updated": 1786193932,
   "events": [
     {
       "artist": "Bolo",
@@ -2628,6 +2628,33 @@
       "date": "2026-08-30",
       "ts": 1788116400,
       "url": "https://nocovernightclubs.com/events/chasewest-liv-nightclub-sunday-august-30-2026/"
+    },
+    {
+      "artist": "Bob Moses",
+      "venue": "Encore Beach Club",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-08-30",
+      "ts": 1788116400,
+      "url": "https://nocovernightclubs.com/events/bob-moses-encore-beach-club-sunday-august-30-2026/"
+    },
+    {
+      "artist": "Crespo",
+      "venue": "Marquee Dayclub",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-08-30",
+      "ts": 1788116400,
+      "url": "https://nocovernightclubs.com/events/crespo-marquee-dayclub-sunday-august-30-2026/"
+    },
+    {
+      "artist": "Murda Beatz",
+      "venue": "Tao Beach",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-08-30",
+      "ts": 1788116400,
+      "url": "https://nocovernightclubs.com/events/murda-beatz-tao-beach-sunday-august-30-2026/"
     }
   ]
 }
