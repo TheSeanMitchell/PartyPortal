@@ -1,5 +1,5 @@
 {
-  "updated": 1786259057,
+  "updated": 1786280531,
   "events": [
     {
       "artist": "Deseo",
@@ -2587,6 +2587,69 @@
     {
       "artist": "Donny Osmond",
       "venue": "The Colosseum at Caesars Palace",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-02",
+      "ts": 1788379200,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-wednesday-september-2-2026-730-pm/"
+    },
+    {
+      "artist": "Mary J Blige",
+      "venue": "Dolby Live at Park MGM",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-02",
+      "ts": 1788379200,
+      "url": "https://concerts.vegas/event/mary-j-blige-las-vegas-wednesday-september-2-2026-800-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "Dolby Live at Park MGM",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-02",
+      "ts": 1788379200,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-wednesday-september-2-2026-730-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "Michelob Ultra Arena",
+      "type": "arena",
+      "city": "Las Vegas",
+      "date": "2026-09-02",
+      "ts": 1788379200,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-wednesday-september-2-2026-730-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "Resorts World Theatre",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-02",
+      "ts": 1788379200,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-wednesday-september-2-2026-730-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "Encore Theater at Wynn",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-02",
+      "ts": 1788379200,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-wednesday-september-2-2026-730-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "BleauLive Theater at Fontainebleau",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-02",
+      "ts": 1788379200,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-wednesday-september-2-2026-730-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "Pearl Theater at Palms",
       "type": "concert",
       "city": "Las Vegas",
       "date": "2026-09-02",
