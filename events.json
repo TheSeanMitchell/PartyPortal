@@ -1,5 +1,5 @@
 {
-  "updated": 1786280531,
+  "updated": 1786301352,
   "events": [
     {
       "artist": "Deseo",
@@ -83,69 +83,6 @@
       "url": "https://nocovernightclubs.com/events/sidepiece-liv-beach-sunday-august-9-2026/"
     },
     {
-      "artist": "Sam Comroe Las Vegas Laugh Factory At Horseshoe",
-      "venue": "T-Mobile Arena",
-      "type": "arena",
-      "city": "Las Vegas",
-      "date": "2026-08-09",
-      "ts": 1786305600,
-      "url": "https://concerts.vegas/event/sam-comroe-las-vegas-laugh-factory-at-horseshoe-las-vegas-sunday-august-9-2026-6-30-pm/"
-    },
-    {
-      "artist": "Sam Comroe Las Vegas Laugh Factory At Horseshoe",
-      "venue": "Allegiant Stadium",
-      "type": "stadium",
-      "city": "Las Vegas",
-      "date": "2026-08-09",
-      "ts": 1786305600,
-      "url": "https://concerts.vegas/event/sam-comroe-las-vegas-laugh-factory-at-horseshoe-las-vegas-sunday-august-9-2026-6-30-pm/"
-    },
-    {
-      "artist": "Tyga",
-      "venue": "The Colosseum at Caesars Palace",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-08-09",
-      "ts": 1786305600,
-      "url": "https://concerts.vegas/event/tyga-las-vegas-sunday-august-9-2026-1100-am/"
-    },
-    {
-      "artist": "Tyga",
-      "venue": "Dolby Live at Park MGM",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-08-09",
-      "ts": 1786305600,
-      "url": "https://concerts.vegas/event/tyga-las-vegas-sunday-august-9-2026-1100-am/"
-    },
-    {
-      "artist": "Sam Comroe Las Vegas Laugh Factory At Horseshoe",
-      "venue": "MGM Grand Garden Arena",
-      "type": "arena",
-      "city": "Las Vegas",
-      "date": "2026-08-09",
-      "ts": 1786305600,
-      "url": "https://concerts.vegas/event/sam-comroe-las-vegas-laugh-factory-at-horseshoe-las-vegas-sunday-august-9-2026-6-30-pm/"
-    },
-    {
-      "artist": "Tyga",
-      "venue": "Michelob Ultra Arena",
-      "type": "arena",
-      "city": "Las Vegas",
-      "date": "2026-08-09",
-      "ts": 1786305600,
-      "url": "https://concerts.vegas/event/tyga-las-vegas-sunday-august-9-2026-1100-am/"
-    },
-    {
-      "artist": "Tyga",
-      "venue": "Resorts World Theatre",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-08-09",
-      "ts": 1786305600,
-      "url": "https://concerts.vegas/event/tyga-las-vegas-sunday-august-9-2026-1100-am/"
-    },
-    {
       "artist": "John Cameron Mitchell",
       "venue": "House of Blues",
       "type": "concert",
@@ -155,33 +92,6 @@
       "url": "https://concerts.vegas/event/john-cameron-mitchell-las-vegas-sunday-august-9-2026-600-pm/"
     },
     {
-      "artist": "Sam Comroe Las Vegas Laugh Factory At Horseshoe",
-      "venue": "House of Blues",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-08-09",
-      "ts": 1786305600,
-      "url": "https://concerts.vegas/event/sam-comroe-las-vegas-laugh-factory-at-horseshoe-las-vegas-sunday-august-9-2026-6-30-pm/"
-    },
-    {
-      "artist": "Tyga",
-      "venue": "Encore Theater at Wynn",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-08-09",
-      "ts": 1786305600,
-      "url": "https://concerts.vegas/event/tyga-las-vegas-sunday-august-9-2026-1100-am/"
-    },
-    {
-      "artist": "Tyga",
-      "venue": "BleauLive Theater at Fontainebleau",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-08-09",
-      "ts": 1786305600,
-      "url": "https://concerts.vegas/event/tyga-las-vegas-sunday-august-9-2026-1100-am/"
-    },
-    {
       "artist": "Chris Travis",
       "venue": "Brooklyn Bowl",
       "type": "concert",
@@ -189,24 +99,6 @@
       "date": "2026-08-09",
       "ts": 1786305600,
       "url": "https://concerts.vegas/event/chris-travis-las-vegas-sunday-august-9-2026-700-pm/"
-    },
-    {
-      "artist": "Sam Comroe Las Vegas Laugh Factory At Horseshoe",
-      "venue": "Brooklyn Bowl",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-08-09",
-      "ts": 1786305600,
-      "url": "https://concerts.vegas/event/sam-comroe-las-vegas-laugh-factory-at-horseshoe-las-vegas-sunday-august-9-2026-6-30-pm/"
-    },
-    {
-      "artist": "Tyga",
-      "venue": "Pearl Theater at Palms",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-08-09",
-      "ts": 1786305600,
-      "url": "https://concerts.vegas/event/tyga-las-vegas-sunday-august-9-2026-1100-am/"
     },
     {
       "artist": "Las Vegas Aviators Vs Tacoma Rainiers",
@@ -2655,6 +2547,159 @@
       "date": "2026-09-02",
       "ts": 1788379200,
       "url": "https://concerts.vegas/event/donny-osmond-las-vegas-wednesday-september-2-2026-730-pm/"
+    },
+    {
+      "artist": "Stephi K",
+      "venue": "Marquee Dayclub",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-09-03",
+      "ts": 1788462000,
+      "url": "https://nocovernightclubs.com/events/stephi-k-marquee-dayclub-thursday-september-3-2026/"
+    },
+    {
+      "artist": "Special Guest",
+      "venue": "Tao Beach",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-09-03",
+      "ts": 1788462000,
+      "url": "https://nocovernightclubs.com/events/special-guest-tao-beach-thursday-september-3-2026/"
+    },
+    {
+      "artist": "Dj Shr3d",
+      "venue": "Liquid Pool",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-09-03",
+      "ts": 1788462000,
+      "url": "https://nocovernightclubs.com/events/dj-shr3d-liquid-pool-thursday-september-3-2026/"
+    },
+    {
+      "artist": "Dj Mondo",
+      "venue": "Palm Tree Beach",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-09-03",
+      "ts": 1788462000,
+      "url": "https://nocovernightclubs.com/events/dj-mondo-palm-tree-beach-club-thursday-september-3-2026/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "The Colosseum at Caesars Palace",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-03",
+      "ts": 1788465600,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-thursday-september-3-2026-730-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "Dolby Live at Park MGM",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-03",
+      "ts": 1788465600,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-thursday-september-3-2026-730-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "Michelob Ultra Arena",
+      "type": "arena",
+      "city": "Las Vegas",
+      "date": "2026-09-03",
+      "ts": 1788465600,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-thursday-september-3-2026-730-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "Resorts World Theatre",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-03",
+      "ts": 1788465600,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-thursday-september-3-2026-730-pm/"
+    },
+    {
+      "artist": "Kamelot",
+      "venue": "House of Blues",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-03",
+      "ts": 1788465600,
+      "url": "https://concerts.vegas/event/kamelot-las-vegas-thursday-september-3-2026-600-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "Encore Theater at Wynn",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-03",
+      "ts": 1788465600,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-thursday-september-3-2026-730-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "BleauLive Theater at Fontainebleau",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-03",
+      "ts": 1788465600,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-thursday-september-3-2026-730-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "Pearl Theater at Palms",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-03",
+      "ts": 1788465600,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-thursday-september-3-2026-730-pm/"
+    },
+    {
+      "artist": "Close Friends Only",
+      "venue": "Marquee Dayclub",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-09-04",
+      "ts": 1788548400,
+      "url": "https://nocovernightclubs.com/events/close-friends-only-marquee-dayclub-friday-september-4-2026/"
+    },
+    {
+      "artist": "Cedric Gervais",
+      "venue": "Tao Beach",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-09-04",
+      "ts": 1788548400,
+      "url": "https://nocovernightclubs.com/events/cedric-gervais-tao-beach-friday-september-4-2026/"
+    },
+    {
+      "artist": "Dj Que",
+      "venue": "Liquid Pool",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-09-04",
+      "ts": 1788548400,
+      "url": "https://nocovernightclubs.com/events/dj-que-liquid-pool-friday-september-4-2026/"
+    },
+    {
+      "artist": "Dj Five",
+      "venue": "Palm Tree Beach",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-09-04",
+      "ts": 1788548400,
+      "url": "https://nocovernightclubs.com/events/dj-five-palm-tree-beach-club-friday-september-4-2026/"
+    },
+    {
+      "artist": "Sidepiece",
+      "venue": "LIV Beach",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-09-04",
+      "ts": 1788548400,
+      "url": "https://nocovernightclubs.com/events/sidepiece-liv-beach-friday-september-4-2026/"
     }
   ]
 }
