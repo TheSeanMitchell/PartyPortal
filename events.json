@@ -1,24 +1,6 @@
 {
-  "updated": 1786388645,
+  "updated": 1786432573,
   "events": [
-    {
-      "artist": "Dj Five",
-      "venue": "Marquee",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-08-10",
-      "ts": 1786388400,
-      "url": "https://nocovernightclubs.com/events/dj-five-marquee-nightclub-monday-august-10-2026/"
-    },
-    {
-      "artist": "Special Guest",
-      "venue": "Marquee Dayclub",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-08-10",
-      "ts": 1786388400,
-      "url": "https://nocovernightclubs.com/events/special-guest-marquee-dayclub-monday-august-10-2026/"
-    },
     {
       "artist": "Tyga",
       "venue": "Omnia",
@@ -567,15 +549,6 @@
       "date": "2026-08-15",
       "ts": 1786824000,
       "url": "https://concerts.vegas/event/las-vegas-aces-vs-minnesota-lynx-las-vegas-saturday-august-15-2026-500-pm/"
-    },
-    {
-      "artist": "Run For A Million Reining Championship Las Vegas Arena At South Point Hotel And Casino",
-      "venue": "Las Vegas",
-      "type": "sports",
-      "city": "Las Vegas",
-      "date": "2026-08-15",
-      "ts": 1786824000,
-      "url": "https://concerts.vegas/event/run-for-a-million-reining-championship-las-vegas-arena-at-south-point-hotel-and-casino-saturday-august-15-2026-5-30-pm/"
     },
     {
       "artist": "Las Vegas Aviators Vs Sacramento River Cats",
@@ -2700,6 +2673,15 @@
       "date": "2026-09-04",
       "ts": 1788552000,
       "url": "https://concerts.vegas/event/tyga-las-vegas-friday-september-4-2026-1030-pm/"
+    },
+    {
+      "artist": "Old Dominion",
+      "venue": "Bakkt Theater at Planet Hollywood",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-04",
+      "ts": 1788552000,
+      "url": "https://concerts.vegas/event/old-dominion-las-vegas-friday-september-4-2026-800-pm/"
     }
   ]
 }
