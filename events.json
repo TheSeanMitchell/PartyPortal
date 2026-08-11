@@ -1,5 +1,5 @@
 {
-  "updated": 1786454296,
+  "updated": 1786475360,
   "events": [
     {
       "artist": "Tyga",
@@ -9,24 +9,6 @@
       "date": "2026-08-11",
       "ts": 1786474800,
       "url": "https://nocovernightclubs.com/events/tyga-omnia-nightclub-tuesday-august-11-2026/"
-    },
-    {
-      "artist": "Las Vegas Raiders Training Camp Las Vegas Allegiant Stadium",
-      "venue": "Allegiant Stadium",
-      "type": "sports",
-      "city": "Las Vegas",
-      "date": "2026-08-11",
-      "ts": 1786478400,
-      "url": "https://concerts.vegas/event/las-vegas-raiders-training-camp-las-vegas-allegiant-stadium-tuesday-august-11-2026-5-30-pm/"
-    },
-    {
-      "artist": "Las Vegas Raiders Training Camp Las Vegas Allegiant Stadium",
-      "venue": "Las Vegas",
-      "type": "sports",
-      "city": "Las Vegas",
-      "date": "2026-08-11",
-      "ts": 1786478400,
-      "url": "https://concerts.vegas/event/las-vegas-raiders-training-camp-las-vegas-allegiant-stadium-tuesday-august-11-2026-5-30-pm/"
     },
     {
       "artist": "Las Vegas Aces Vs Washington Mystics",
@@ -45,6 +27,15 @@
       "date": "2026-08-11",
       "ts": 1786478400,
       "url": "https://concerts.vegas/event/las-vegas-aviators-vs-sacramento-river-cats-las-vegas-tuesday-august-11-2026-705-pm/"
+    },
+    {
+      "artist": "Escobar",
+      "venue": "Marquee",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-08-12",
+      "ts": 1786561200,
+      "url": "https://nocovernightclubs.com/events/escobar-marquee-nightclub-wednesday-august-12-2026/"
     },
     {
       "artist": "Dj Franzen",
@@ -81,6 +72,15 @@
       "date": "2026-08-12",
       "ts": 1786561200,
       "url": "https://nocovernightclubs.com/events/special-guest-palm-tree-beach-club-wednesday-august-12-2026/"
+    },
+    {
+      "artist": "All Elite Wrestling Dynamite And Collision Las Vegas Pearl Concert Theater At Palms Casino Resort",
+      "venue": "Las Vegas",
+      "type": "sports",
+      "city": "Las Vegas",
+      "date": "2026-08-12",
+      "ts": 1786564800,
+      "url": "https://concerts.vegas/event/all-elite-wrestling-dynamite-and-collision-las-vegas-pearl-concert-theater-at-palms-casino-resort-wednesday-august-12-2026-4-30-pm/"
     },
     {
       "artist": "Las Vegas Aviators Vs Sacramento River Cats",
@@ -234,6 +234,15 @@
       "date": "2026-08-14",
       "ts": 1786734000,
       "url": "https://nocovernightclubs.com/events/tiesto-omnia-nightclub-friday-august-14-2026/"
+    },
+    {
+      "artist": "Omnom",
+      "venue": "Marquee",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-08-14",
+      "ts": 1786734000,
+      "url": "https://nocovernightclubs.com/events/omnom-marquee-nightclub-friday-august-14-2026/"
     },
     {
       "artist": "Special Guest",
@@ -405,6 +414,15 @@
       "date": "2026-08-15",
       "ts": 1786820400,
       "url": "https://nocovernightclubs.com/events/alesso-omnia-nightclub-saturday-august-15-2026/"
+    },
+    {
+      "artist": "Jigitz",
+      "venue": "Marquee",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-08-15",
+      "ts": 1786820400,
+      "url": "https://nocovernightclubs.com/events/jigitz-marquee-nightclub-saturday-august-15-2026/"
     },
     {
       "artist": "Dj Precise",
@@ -650,6 +668,15 @@
       "url": "https://concerts.vegas/event/las-vegas-aviators-vs-sacramento-river-cats-las-vegas-sunday-august-16-2026-605-pm/"
     },
     {
+      "artist": "Dj Vice",
+      "venue": "Marquee",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-08-17",
+      "ts": 1786993200,
+      "url": "https://nocovernightclubs.com/events/dj-vice-marquee-nightclub-monday-august-17-2026/"
+    },
+    {
       "artist": "Eric Forbes",
       "venue": "Marquee Dayclub",
       "type": "pool",
@@ -675,6 +702,15 @@
       "date": "2026-08-18",
       "ts": 1787083200,
       "url": "https://concerts.vegas/event/las-vegas-aces-vs-atlanta-dream-las-vegas-tuesday-august-18-2026-700-pm/"
+    },
+    {
+      "artist": "Nico Bernardini",
+      "venue": "Marquee",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-08-19",
+      "ts": 1787166000,
+      "url": "https://nocovernightclubs.com/events/nico-bernardini-marquee-nightclub-wednesday-august-19-2026/"
     },
     {
       "artist": "Dj Franzen",
@@ -864,6 +900,15 @@
       "date": "2026-08-21",
       "ts": 1787338800,
       "url": "https://nocovernightclubs.com/events/chris-lake-omnia-nightclub-friday-august-21-2026/"
+    },
+    {
+      "artist": "Levi",
+      "venue": "Marquee",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-08-21",
+      "ts": 1787338800,
+      "url": "https://nocovernightclubs.com/events/levi-marquee-nightclub-friday-august-21-2026/"
     },
     {
       "artist": "Al Tamar",
@@ -1062,6 +1107,15 @@
       "date": "2026-08-22",
       "ts": 1787425200,
       "url": "https://nocovernightclubs.com/events/steve-aoki-omnia-nightclub-saturday-august-22-2026/"
+    },
+    {
+      "artist": "Angrybaby",
+      "venue": "Marquee",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-08-22",
+      "ts": 1787425200,
+      "url": "https://nocovernightclubs.com/events/angrybaby-marquee-nightclub-saturday-august-22-2026/"
     },
     {
       "artist": "Dj Cutswell",
@@ -1352,6 +1406,15 @@
       "url": "https://nocovernightclubs.com/events/r3hab-omnia-dayclub-sunday-august-23-2026/"
     },
     {
+      "artist": "Justin Credible",
+      "venue": "Marquee",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-08-24",
+      "ts": 1787598000,
+      "url": "https://nocovernightclubs.com/events/justin-credible-marquee-nightclub-monday-august-24-2026/"
+    },
+    {
       "artist": "Special Guest",
       "venue": "Marquee Dayclub",
       "type": "pool",
@@ -1377,6 +1440,15 @@
       "date": "2026-08-25",
       "ts": 1787688000,
       "url": "https://concerts.vegas/event/las-vegas-aviators-vs-sugar-land-space-cowboys-las-vegas-tuesday-august-25-2026-705-pm/"
+    },
+    {
+      "artist": "Mele",
+      "venue": "Marquee",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-08-26",
+      "ts": 1787770800,
+      "url": "https://nocovernightclubs.com/events/mele-marquee-nightclub-wednesday-august-26-2026/"
     },
     {
       "artist": "Dj Franzen",
@@ -1595,6 +1667,15 @@
       "url": "https://nocovernightclubs.com/events/deorro-omnia-nightclub-friday-august-28-2026/"
     },
     {
+      "artist": "Special Guest",
+      "venue": "Marquee",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-08-28",
+      "ts": 1787943600,
+      "url": "https://nocovernightclubs.com/events/special-guest-marquee-nightclub-friday-august-28-2026/"
+    },
+    {
       "artist": "Greg Lopez",
       "venue": "Tao",
       "type": "club",
@@ -1800,6 +1881,15 @@
       "date": "2026-08-29",
       "ts": 1788030000,
       "url": "https://nocovernightclubs.com/events/twinsick-omnia-nightclub-saturday-august-29-2026/"
+    },
+    {
+      "artist": "Jigitz",
+      "venue": "Marquee",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-08-29",
+      "ts": 1788030000,
+      "url": "https://nocovernightclubs.com/events/jigitz-marquee-nightclub-saturday-august-29-2026/"
     },
     {
       "artist": "Crespo",
@@ -2207,6 +2297,15 @@
       "url": "https://concerts.vegas/event/las-vegas-aviators-vs-sugar-land-space-cowboys-las-vegas-sunday-august-30-2026-605-pm/"
     },
     {
+      "artist": "Dj Sourmilk",
+      "venue": "Marquee",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-08-31",
+      "ts": 1788202800,
+      "url": "https://nocovernightclubs.com/events/dj-sourmilk-marquee-nightclub-monday-august-31-2026/"
+    },
+    {
       "artist": "Dj Buza",
       "venue": "Marquee Dayclub",
       "type": "pool",
@@ -2601,96 +2700,6 @@
       "date": "2026-09-04",
       "ts": 1788552000,
       "url": "https://concerts.vegas/event/kenny-babyface-edmonds-las-vegas-friday-september-4-2026-800-pm/"
-    },
-    {
-      "artist": "Tyga",
-      "venue": "Encore Theater at Wynn",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-09-04",
-      "ts": 1788552000,
-      "url": "https://concerts.vegas/event/tyga-las-vegas-friday-september-4-2026-1030-pm/"
-    },
-    {
-      "artist": "Donny Osmond",
-      "venue": "BleauLive Theater at Fontainebleau",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-09-04",
-      "ts": 1788552000,
-      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-friday-september-4-2026-730-pm/"
-    },
-    {
-      "artist": "Kenny Babyface Edmonds",
-      "venue": "BleauLive Theater at Fontainebleau",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-09-04",
-      "ts": 1788552000,
-      "url": "https://concerts.vegas/event/kenny-babyface-edmonds-las-vegas-friday-september-4-2026-800-pm/"
-    },
-    {
-      "artist": "Tyga",
-      "venue": "BleauLive Theater at Fontainebleau",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-09-04",
-      "ts": 1788552000,
-      "url": "https://concerts.vegas/event/tyga-las-vegas-friday-september-4-2026-1030-pm/"
-    },
-    {
-      "artist": "Donny Osmond",
-      "venue": "Pearl Theater at Palms",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-09-04",
-      "ts": 1788552000,
-      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-friday-september-4-2026-730-pm/"
-    },
-    {
-      "artist": "Kenny Babyface Edmonds",
-      "venue": "Pearl Theater at Palms",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-09-04",
-      "ts": 1788552000,
-      "url": "https://concerts.vegas/event/kenny-babyface-edmonds-las-vegas-friday-september-4-2026-800-pm/"
-    },
-    {
-      "artist": "Tyga",
-      "venue": "Pearl Theater at Palms",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-09-04",
-      "ts": 1788552000,
-      "url": "https://concerts.vegas/event/tyga-las-vegas-friday-september-4-2026-1030-pm/"
-    },
-    {
-      "artist": "Dj Pauly D",
-      "venue": "Marquee Dayclub",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-09-05",
-      "ts": 1788634800,
-      "url": "https://nocovernightclubs.com/events/dj-pauly-d-marquee-dayclub-saturday-september-5-2026/"
-    },
-    {
-      "artist": "Chris Lake",
-      "venue": "Tao Beach",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-09-05",
-      "ts": 1788634800,
-      "url": "https://nocovernightclubs.com/events/chris-lake-tao-beach-saturday-september-5-2026/"
-    },
-    {
-      "artist": "Kid Conrad",
-      "venue": "Liquid Pool",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-09-05",
-      "ts": 1788634800,
-      "url": "https://nocovernightclubs.com/events/kid-conrad-liquid-pool-saturday-september-5-2026/"
     }
   ]
 }
