@@ -1,33 +1,6 @@
 {
-  "updated": 1786475360,
+  "updated": 1786520428,
   "events": [
-    {
-      "artist": "Tyga",
-      "venue": "Omnia",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-08-11",
-      "ts": 1786474800,
-      "url": "https://nocovernightclubs.com/events/tyga-omnia-nightclub-tuesday-august-11-2026/"
-    },
-    {
-      "artist": "Las Vegas Aces Vs Washington Mystics",
-      "venue": "Las Vegas",
-      "type": "sports",
-      "city": "Las Vegas",
-      "date": "2026-08-11",
-      "ts": 1786478400,
-      "url": "https://concerts.vegas/event/las-vegas-aces-vs-washington-mystics-las-vegas-tuesday-august-11-2026-700-pm/"
-    },
-    {
-      "artist": "Las Vegas Aviators Vs Sacramento River Cats",
-      "venue": "Las Vegas",
-      "type": "sports",
-      "city": "Las Vegas",
-      "date": "2026-08-11",
-      "ts": 1786478400,
-      "url": "https://concerts.vegas/event/las-vegas-aviators-vs-sacramento-river-cats-las-vegas-tuesday-august-11-2026-705-pm/"
-    },
     {
       "artist": "Escobar",
       "venue": "Marquee",
@@ -2695,6 +2668,33 @@
     {
       "artist": "Kenny Babyface Edmonds",
       "venue": "Encore Theater at Wynn",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-04",
+      "ts": 1788552000,
+      "url": "https://concerts.vegas/event/kenny-babyface-edmonds-las-vegas-friday-september-4-2026-800-pm/"
+    },
+    {
+      "artist": "Tyga",
+      "venue": "Encore Theater at Wynn",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-04",
+      "ts": 1788552000,
+      "url": "https://concerts.vegas/event/tyga-las-vegas-friday-september-4-2026-1030-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "BleauLive Theater at Fontainebleau",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-04",
+      "ts": 1788552000,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-friday-september-4-2026-730-pm/"
+    },
+    {
+      "artist": "Kenny Babyface Edmonds",
+      "venue": "BleauLive Theater at Fontainebleau",
       "type": "concert",
       "city": "Las Vegas",
       "date": "2026-09-04",
