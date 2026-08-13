@@ -1,69 +1,6 @@
 {
-  "updated": 1786561717,
+  "updated": 1786606945,
   "events": [
-    {
-      "artist": "Escobar",
-      "venue": "Marquee",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-08-12",
-      "ts": 1786561200,
-      "url": "https://nocovernightclubs.com/events/escobar-marquee-nightclub-wednesday-august-12-2026/"
-    },
-    {
-      "artist": "Dj Franzen",
-      "venue": "Hakkasan",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-08-12",
-      "ts": 1786561200,
-      "url": "https://nocovernightclubs.com/events/dj-franzen-hakkasan-nightclub-wednesday-august-12-2026/"
-    },
-    {
-      "artist": "Acraze",
-      "venue": "EBC At Night",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-08-12",
-      "ts": 1786561200,
-      "url": "https://nocovernightclubs.com/events/acraze-ebc-at-night-wednesday-august-12-2026/"
-    },
-    {
-      "artist": "Dj Buza",
-      "venue": "Liquid Pool",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-08-12",
-      "ts": 1786561200,
-      "url": "https://nocovernightclubs.com/events/dj-buza-liquid-pool-wednesday-august-12-2026/"
-    },
-    {
-      "artist": "Special Guest",
-      "venue": "Palm Tree Beach",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-08-12",
-      "ts": 1786561200,
-      "url": "https://nocovernightclubs.com/events/special-guest-palm-tree-beach-club-wednesday-august-12-2026/"
-    },
-    {
-      "artist": "All Elite Wrestling Dynamite And Collision Las Vegas Pearl Concert Theater At Palms Casino Resort",
-      "venue": "Las Vegas",
-      "type": "sports",
-      "city": "Las Vegas",
-      "date": "2026-08-12",
-      "ts": 1786564800,
-      "url": "https://concerts.vegas/event/all-elite-wrestling-dynamite-and-collision-las-vegas-pearl-concert-theater-at-palms-casino-resort-wednesday-august-12-2026-4-30-pm/"
-    },
-    {
-      "artist": "Las Vegas Aviators Vs Sacramento River Cats",
-      "venue": "Las Vegas",
-      "type": "sports",
-      "city": "Las Vegas",
-      "date": "2026-08-12",
-      "ts": 1786564800,
-      "url": "https://concerts.vegas/event/las-vegas-aviators-vs-sacramento-river-cats-las-vegas-wednesday-august-12-2026-705-pm/"
-    },
     {
       "artist": "Special Guest",
       "venue": "Omnia",
@@ -2700,6 +2637,51 @@
       "date": "2026-09-04",
       "ts": 1788552000,
       "url": "https://concerts.vegas/event/kenny-babyface-edmonds-las-vegas-friday-september-4-2026-800-pm/"
+    },
+    {
+      "artist": "Tyga",
+      "venue": "BleauLive Theater at Fontainebleau",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-04",
+      "ts": 1788552000,
+      "url": "https://concerts.vegas/event/tyga-las-vegas-friday-september-4-2026-1030-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "Pearl Theater at Palms",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-04",
+      "ts": 1788552000,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-friday-september-4-2026-730-pm/"
+    },
+    {
+      "artist": "Kenny Babyface Edmonds",
+      "venue": "Pearl Theater at Palms",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-04",
+      "ts": 1788552000,
+      "url": "https://concerts.vegas/event/kenny-babyface-edmonds-las-vegas-friday-september-4-2026-800-pm/"
+    },
+    {
+      "artist": "Tyga",
+      "venue": "Pearl Theater at Palms",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-04",
+      "ts": 1788552000,
+      "url": "https://concerts.vegas/event/tyga-las-vegas-friday-september-4-2026-1030-pm/"
+    },
+    {
+      "artist": "Dj Pauly D",
+      "venue": "Marquee Dayclub",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-09-05",
+      "ts": 1788634800,
+      "url": "https://nocovernightclubs.com/events/dj-pauly-d-marquee-dayclub-saturday-september-5-2026/"
     }
   ]
 }
