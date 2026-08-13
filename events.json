@@ -1,5 +1,5 @@
 {
-  "updated": 1786627429,
+  "updated": 1786648147,
   "events": [
     {
       "artist": "Special Guest",
@@ -657,6 +657,15 @@
       "date": "2026-08-19",
       "ts": 1787166000,
       "url": "https://nocovernightclubs.com/events/special-guest-palm-tree-beach-club-wednesday-august-19-2026/"
+    },
+    {
+      "artist": "Tuff N Uff 156 Bittencourt Vs Guerrero Las Vegas Sahara Theater At Sahara Hotel And Casino",
+      "venue": "Las Vegas",
+      "type": "sports",
+      "city": "Las Vegas",
+      "date": "2026-08-19",
+      "ts": 1787169600,
+      "url": "https://concerts.vegas/event/tuff-n-uff-156-bittencourt-vs-guerrero-las-vegas-sahara-theater-at-sahara-hotel-and-casino-wednesday-august-19-2026-5-30-pm/"
     },
     {
       "artist": "Special Guest",
@@ -2682,6 +2691,15 @@
       "date": "2026-09-05",
       "ts": 1788634800,
       "url": "https://nocovernightclubs.com/events/dj-pauly-d-marquee-dayclub-saturday-september-5-2026/"
+    },
+    {
+      "artist": "Chris Lake",
+      "venue": "Tao Beach",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-09-05",
+      "ts": 1788634800,
+      "url": "https://nocovernightclubs.com/events/chris-lake-tao-beach-saturday-september-5-2026/"
     }
   ]
 }
