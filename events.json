@@ -1,5 +1,5 @@
 {
-  "updated": 1786693221,
+  "updated": 1786713504,
   "events": [
     {
       "artist": "Special Guest",
@@ -153,15 +153,6 @@
       "date": "2026-08-14",
       "ts": 1786737600,
       "url": "https://concerts.vegas/event/whiskey-myers-las-vegas-friday-august-14-2026-800-pm/"
-    },
-    {
-      "artist": "The Sword And Red Fang",
-      "venue": "House of Blues",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-08-14",
-      "ts": 1786737600,
-      "url": "https://concerts.vegas/event/the-sword-and-red-fang-las-vegas-friday-august-14-2026-730-pm/"
     },
     {
       "artist": "Run For A Million Cow Horse Challenge",
@@ -2664,6 +2655,15 @@
       "date": "2026-09-05",
       "ts": 1788638400,
       "url": "https://concerts.vegas/event/donny-osmond-las-vegas-saturday-september-5-2026-730-pm/"
+    },
+    {
+      "artist": "Kenny Babyface Edmonds",
+      "venue": "Michelob Ultra Arena",
+      "type": "arena",
+      "city": "Las Vegas",
+      "date": "2026-09-05",
+      "ts": 1788638400,
+      "url": "https://concerts.vegas/event/kenny-babyface-edmonds-las-vegas-saturday-september-5-2026-800-pm/"
     }
   ]
 }
