@@ -1,5 +1,5 @@
 {
-  "updated": 1786713504,
+  "updated": 1786734085,
   "events": [
     {
       "artist": "Special Guest",
@@ -2664,6 +2664,42 @@
       "date": "2026-09-05",
       "ts": 1788638400,
       "url": "https://concerts.vegas/event/kenny-babyface-edmonds-las-vegas-saturday-september-5-2026-800-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "Resorts World Theatre",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-05",
+      "ts": 1788638400,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-saturday-september-5-2026-730-pm/"
+    },
+    {
+      "artist": "Kenny Babyface Edmonds",
+      "venue": "Resorts World Theatre",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-05",
+      "ts": 1788638400,
+      "url": "https://concerts.vegas/event/kenny-babyface-edmonds-las-vegas-saturday-september-5-2026-800-pm/"
+    },
+    {
+      "artist": "Old Dominion",
+      "venue": "Bakkt Theater at Planet Hollywood",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-05",
+      "ts": 1788638400,
+      "url": "https://concerts.vegas/event/old-dominion-las-vegas-saturday-september-5-2026-800-pm/"
+    },
+    {
+      "artist": "Powerman 5000",
+      "venue": "House of Blues",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-05",
+      "ts": 1788638400,
+      "url": "https://concerts.vegas/event/powerman-5000-las-vegas-saturday-september-5-2026-730-pm/"
     }
   ]
 }
