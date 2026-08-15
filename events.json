@@ -1,5 +1,5 @@
 {
-  "updated": 1786798081,
+  "updated": 1786819008,
   "events": [
     {
       "artist": "Dj Diesel",
@@ -297,6 +297,15 @@
       "date": "2026-08-18",
       "ts": 1787079600,
       "url": "https://nocovernightclubs.com/events/rob-guson-omnia-nightclub-tuesday-august-18-2026/"
+    },
+    {
+      "artist": "Dana Whites Contender Series 72 Fazil Vs Brito Las Vegas Ufc Apex",
+      "venue": "Las Vegas",
+      "type": "sports",
+      "city": "Las Vegas",
+      "date": "2026-08-18",
+      "ts": 1787083200,
+      "url": "https://concerts.vegas/event/dana-whites-contender-series-72-fazil-vs-brito-las-vegas-ufc-apex-tuesday-august-18-2026-4-00-pm/"
     },
     {
       "artist": "Las Vegas Aces Vs Atlanta Dream",
@@ -1044,6 +1053,15 @@
       "date": "2026-08-25",
       "ts": 1787684400,
       "url": "https://nocovernightclubs.com/events/mikey-francis-omnia-nightclub-tuesday-august-25-2026/"
+    },
+    {
+      "artist": "Dana Whites Contender Series 73 Mir Vs Apodaca Las Vegas Ufc Apex",
+      "venue": "Las Vegas",
+      "type": "sports",
+      "city": "Las Vegas",
+      "date": "2026-08-25",
+      "ts": 1787688000,
+      "url": "https://concerts.vegas/event/dana-whites-contender-series-73-mir-vs-apodaca-las-vegas-ufc-apex-tuesday-august-25-2026-4-00-pm/"
     },
     {
       "artist": "Las Vegas Aviators Vs Sugar Land Space Cowboys",
@@ -1928,6 +1946,15 @@
       "url": "https://nocovernightclubs.com/events/dj-buza-marquee-dayclub-monday-august-31-2026/"
     },
     {
+      "artist": "Dana Whites Contender Series 74 Las Vegas Ufc Apex",
+      "venue": "Las Vegas",
+      "type": "sports",
+      "city": "Las Vegas",
+      "date": "2026-09-01",
+      "ts": 1788292800,
+      "url": "https://concerts.vegas/event/dana-whites-contender-series-74-las-vegas-ufc-apex-tuesday-september-1-2026-4-00-pm/"
+    },
+    {
       "artist": "Dj Buza",
       "venue": "Liquid Pool",
       "type": "pool",
@@ -2655,6 +2682,24 @@
       "date": "2026-09-06",
       "ts": 1788724800,
       "url": "https://concerts.vegas/event/usher-and-chris-brown-las-vegas-sunday-september-6-2026-700-pm/"
+    },
+    {
+      "artist": "Mary J Blige",
+      "venue": "Dolby Live at Park MGM",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-06",
+      "ts": 1788724800,
+      "url": "https://concerts.vegas/event/mary-j-blige-las-vegas-sunday-september-6-2026-800-pm/"
+    },
+    {
+      "artist": "Rehash",
+      "venue": "The Theater at Virgin Hotels",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-06",
+      "ts": 1788724800,
+      "url": "https://concerts.vegas/event/rehash-las-vegas-sunday-september-6-2026-800-pm/"
     }
   ]
 }
