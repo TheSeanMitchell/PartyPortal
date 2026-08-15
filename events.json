@@ -1,5 +1,5 @@
 {
-  "updated": 1786734085,
+  "updated": 1786776405,
   "events": [
     {
       "artist": "Special Guest",
@@ -65,15 +65,6 @@
       "url": "https://nocovernightclubs.com/events/dj-lucky-lou-jewel-nightclub-friday-august-14-2026/"
     },
     {
-      "artist": "Gryffin",
-      "venue": "Encore Beach Club",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-08-14",
-      "ts": 1786734000,
-      "url": "https://nocovernightclubs.com/events/gryffin-encore-beach-club-friday-august-14-2026/"
-    },
-    {
       "artist": "Subtronics",
       "venue": "EBC At Night",
       "type": "club",
@@ -126,51 +117,6 @@
       "date": "2026-08-14",
       "ts": 1786734000,
       "url": "https://nocovernightclubs.com/events/fia-liv-beach-friday-august-14-2026/"
-    },
-    {
-      "artist": "Benson Boone",
-      "venue": "T-Mobile Arena",
-      "type": "arena",
-      "city": "Las Vegas",
-      "date": "2026-08-14",
-      "ts": 1786737600,
-      "url": "https://concerts.vegas/event/benson-boone-las-vegas-friday-august-14-2026-800-pm/"
-    },
-    {
-      "artist": "Ne Yo And Akon",
-      "venue": "MGM Grand Garden Arena",
-      "type": "arena",
-      "city": "Las Vegas",
-      "date": "2026-08-14",
-      "ts": 1786737600,
-      "url": "https://concerts.vegas/event/ne-yo-and-akon-las-vegas-friday-august-14-2026-800-pm/"
-    },
-    {
-      "artist": "Whiskey Myers",
-      "venue": "Bakkt Theater at Planet Hollywood",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-08-14",
-      "ts": 1786737600,
-      "url": "https://concerts.vegas/event/whiskey-myers-las-vegas-friday-august-14-2026-800-pm/"
-    },
-    {
-      "artist": "Run For A Million Cow Horse Challenge",
-      "venue": "Las Vegas",
-      "type": "sports",
-      "city": "Las Vegas",
-      "date": "2026-08-14",
-      "ts": 1786737600,
-      "url": "https://concerts.vegas/event/run-for-a-million-cow-horse-challenge-las-vegas-friday-august-14-2026-600-pm/"
-    },
-    {
-      "artist": "Las Vegas Aviators Vs Sacramento River Cats",
-      "venue": "Las Vegas",
-      "type": "sports",
-      "city": "Las Vegas",
-      "date": "2026-08-14",
-      "ts": 1786737600,
-      "url": "https://concerts.vegas/event/las-vegas-aviators-vs-sacramento-river-cats-las-vegas-friday-august-14-2026-705-pm/"
     },
     {
       "artist": "Dj Diesel",
@@ -2700,6 +2646,60 @@
       "date": "2026-09-05",
       "ts": 1788638400,
       "url": "https://concerts.vegas/event/powerman-5000-las-vegas-saturday-september-5-2026-730-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "Encore Theater at Wynn",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-05",
+      "ts": 1788638400,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-saturday-september-5-2026-730-pm/"
+    },
+    {
+      "artist": "Kenny Babyface Edmonds",
+      "venue": "Encore Theater at Wynn",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-05",
+      "ts": 1788638400,
+      "url": "https://concerts.vegas/event/kenny-babyface-edmonds-las-vegas-saturday-september-5-2026-800-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "BleauLive Theater at Fontainebleau",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-05",
+      "ts": 1788638400,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-saturday-september-5-2026-730-pm/"
+    },
+    {
+      "artist": "Kenny Babyface Edmonds",
+      "venue": "BleauLive Theater at Fontainebleau",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-05",
+      "ts": 1788638400,
+      "url": "https://concerts.vegas/event/kenny-babyface-edmonds-las-vegas-saturday-september-5-2026-800-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "Pearl Theater at Palms",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-05",
+      "ts": 1788638400,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-saturday-september-5-2026-730-pm/"
+    },
+    {
+      "artist": "Kenny Babyface Edmonds",
+      "venue": "Pearl Theater at Palms",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-05",
+      "ts": 1788638400,
+      "url": "https://concerts.vegas/event/kenny-babyface-edmonds-las-vegas-saturday-september-5-2026-800-pm/"
     }
   ]
 }
