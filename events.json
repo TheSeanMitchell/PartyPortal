@@ -1,5 +1,5 @@
 {
-  "updated": 1786819008,
+  "updated": 1786863013,
   "events": [
     {
       "artist": "Dj Diesel",
@@ -65,15 +65,6 @@
       "url": "https://nocovernightclubs.com/events/mike-attack-jewel-nightclub-saturday-august-15-2026/"
     },
     {
-      "artist": "The Chainsmokers",
-      "venue": "Encore Beach Club",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-08-15",
-      "ts": 1786820400,
-      "url": "https://nocovernightclubs.com/events/the-chainsmokers-encore-beach-club-saturday-august-15-2026/"
-    },
-    {
       "artist": "Odesza",
       "venue": "EBC At Night",
       "type": "club",
@@ -126,42 +117,6 @@
       "date": "2026-08-15",
       "ts": 1786820400,
       "url": "https://nocovernightclubs.com/events/disco-lines-liv-beach-saturday-august-15-2026/"
-    },
-    {
-      "artist": "Devildriver",
-      "venue": "Brooklyn Bowl",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-08-15",
-      "ts": 1786824000,
-      "url": "https://concerts.vegas/event/devildriver-las-vegas-saturday-august-15-2026-600-pm/"
-    },
-    {
-      "artist": "Las Vegas Aces Vs Minnesota Lynx",
-      "venue": "Las Vegas",
-      "type": "sports",
-      "city": "Las Vegas",
-      "date": "2026-08-15",
-      "ts": 1786824000,
-      "url": "https://concerts.vegas/event/las-vegas-aces-vs-minnesota-lynx-las-vegas-saturday-august-15-2026-500-pm/"
-    },
-    {
-      "artist": "Las Vegas Aviators Vs Sacramento River Cats",
-      "venue": "Las Vegas",
-      "type": "sports",
-      "city": "Las Vegas",
-      "date": "2026-08-15",
-      "ts": 1786824000,
-      "url": "https://concerts.vegas/event/las-vegas-aviators-vs-sacramento-river-cats-las-vegas-saturday-august-15-2026-705-pm/"
-    },
-    {
-      "artist": "Las Vegas Lights Fc Vs Brooklyn Fc",
-      "venue": "Las Vegas",
-      "type": "sports",
-      "city": "Las Vegas",
-      "date": "2026-08-15",
-      "ts": 1786824000,
-      "url": "https://concerts.vegas/event/las-vegas-lights-fc-vs-brooklyn-fc-las-vegas-saturday-august-15-2026-730-pm/"
     },
     {
       "artist": "Deseo",
@@ -2700,6 +2655,51 @@
       "date": "2026-09-06",
       "ts": 1788724800,
       "url": "https://concerts.vegas/event/rehash-las-vegas-sunday-september-6-2026-800-pm/"
+    },
+    {
+      "artist": "Rehash",
+      "venue": "24 Oxford at Virgin Hotels",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-06",
+      "ts": 1788724800,
+      "url": "https://concerts.vegas/event/rehash-las-vegas-sunday-september-6-2026-800-pm/"
+    },
+    {
+      "artist": "Screeching Weasel",
+      "venue": "House of Blues",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-06",
+      "ts": 1788724800,
+      "url": "https://concerts.vegas/event/screeching-weasel-las-vegas-sunday-september-6-2026-630-pm/"
+    },
+    {
+      "artist": "Special Guest",
+      "venue": "Marquee Dayclub",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-09-07",
+      "ts": 1788807600,
+      "url": "https://nocovernightclubs.com/events/special-guest-marquee-dayclub-monday-september-7-2026/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "The Colosseum at Caesars Palace",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-08",
+      "ts": 1788897600,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-tuesday-september-8-2026-730-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "Dolby Live at Park MGM",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-08",
+      "ts": 1788897600,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-tuesday-september-8-2026-730-pm/"
     }
   ]
 }
