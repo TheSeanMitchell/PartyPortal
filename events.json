@@ -1,114 +1,6 @@
 {
-  "updated": 1786905365,
+  "updated": 1786950324,
   "events": [
-    {
-      "artist": "Deseo",
-      "venue": "Omnia",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-08-16",
-      "ts": 1786906800,
-      "url": "https://nocovernightclubs.com/events/deseo-omnia-nightclub-sunday-august-16-2026/"
-    },
-    {
-      "artist": "Ritual Sundays",
-      "venue": "Tao",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-08-16",
-      "ts": 1786906800,
-      "url": "https://nocovernightclubs.com/events/ritual-sundays-tao-nightclub-sunday-august-16-2026/"
-    },
-    {
-      "artist": "Mark Eteson",
-      "venue": "LIV",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-08-16",
-      "ts": 1786906800,
-      "url": "https://nocovernightclubs.com/events/mark-eteson-liv-nightclub-sunday-august-16-2026/"
-    },
-    {
-      "artist": "Ayybo",
-      "venue": "Encore Beach Club",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-08-16",
-      "ts": 1786906800,
-      "url": "https://nocovernightclubs.com/events/ayybo-encore-beach-club-sunday-august-16-2026/"
-    },
-    {
-      "artist": "Dj Buza",
-      "venue": "Marquee Dayclub",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-08-16",
-      "ts": 1786906800,
-      "url": "https://nocovernightclubs.com/events/dj-buza-marquee-dayclub-sunday-august-16-2026/"
-    },
-    {
-      "artist": "Dj Snake",
-      "venue": "Tao Beach",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-08-16",
-      "ts": 1786906800,
-      "url": "https://nocovernightclubs.com/events/dj-snake-tao-beach-sunday-august-16-2026/"
-    },
-    {
-      "artist": "Eric Remy",
-      "venue": "Liquid Pool",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-08-16",
-      "ts": 1786906800,
-      "url": "https://nocovernightclubs.com/events/eric-remy-liquid-pool-sunday-august-16-2026/"
-    },
-    {
-      "artist": "Lost Frequencies",
-      "venue": "Palm Tree Beach",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-08-16",
-      "ts": 1786906800,
-      "url": "https://nocovernightclubs.com/events/lost-frequencies-palm-tree-beach-club-sunday-august-16-2026/"
-    },
-    {
-      "artist": "Nic Vans",
-      "venue": "LIV Beach",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-08-16",
-      "ts": 1786906800,
-      "url": "https://nocovernightclubs.com/events/nic-vans-liv-beach-sunday-august-16-2026/"
-    },
-    {
-      "artist": "Interpol",
-      "venue": "The Theater at Virgin Hotels",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-08-16",
-      "ts": 1786910400,
-      "url": "https://concerts.vegas/event/interpol-las-vegas-sunday-august-16-2026-800-pm/"
-    },
-    {
-      "artist": "Interpol",
-      "venue": "24 Oxford at Virgin Hotels",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-08-16",
-      "ts": 1786910400,
-      "url": "https://concerts.vegas/event/interpol-las-vegas-sunday-august-16-2026-800-pm/"
-    },
-    {
-      "artist": "Las Vegas Aviators Vs Sacramento River Cats",
-      "venue": "Las Vegas",
-      "type": "sports",
-      "city": "Las Vegas",
-      "date": "2026-08-16",
-      "ts": 1786910400,
-      "url": "https://concerts.vegas/event/las-vegas-aviators-vs-sacramento-river-cats-las-vegas-sunday-august-16-2026-605-pm/"
-    },
     {
       "artist": "Dj Vice",
       "venue": "Marquee",
@@ -2700,6 +2592,51 @@
       "date": "2026-09-09",
       "ts": 1788984000,
       "url": "https://concerts.vegas/event/donny-osmond-las-vegas-wednesday-september-9-2026-730-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "Encore Theater at Wynn",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-09",
+      "ts": 1788984000,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-wednesday-september-9-2026-730-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "BleauLive Theater at Fontainebleau",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-09",
+      "ts": 1788984000,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-wednesday-september-9-2026-730-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "Pearl Theater at Palms",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-09",
+      "ts": 1788984000,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-wednesday-september-9-2026-730-pm/"
+    },
+    {
+      "artist": "Las Vegas Aviators Vs Sacramento River Cats",
+      "venue": "Las Vegas",
+      "type": "sports",
+      "city": "Las Vegas",
+      "date": "2026-09-09",
+      "ts": 1788984000,
+      "url": "https://concerts.vegas/event/las-vegas-aviators-vs-sacramento-river-cats-las-vegas-wednesday-september-9-2026-705-pm/"
+    },
+    {
+      "artist": "Special Guest",
+      "venue": "Marquee Dayclub",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-09-10",
+      "ts": 1789066800,
+      "url": "https://nocovernightclubs.com/events/special-guest-marquee-dayclub-thursday-september-10-2026/"
     }
   ]
 }
