@@ -1,5 +1,5 @@
 {
-  "updated": 1786950324,
+  "updated": 1786971252,
   "events": [
     {
       "artist": "Dj Vice",
@@ -2637,6 +2637,24 @@
       "date": "2026-09-10",
       "ts": 1789066800,
       "url": "https://nocovernightclubs.com/events/special-guest-marquee-dayclub-thursday-september-10-2026/"
+    },
+    {
+      "artist": "Special Guest",
+      "venue": "Tao Beach",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-09-10",
+      "ts": 1789066800,
+      "url": "https://nocovernightclubs.com/events/special-guest-tao-beach-thursday-september-10-2026/"
+    },
+    {
+      "artist": "Dj Shr3d",
+      "venue": "Liquid Pool",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-09-10",
+      "ts": 1789066800,
+      "url": "https://nocovernightclubs.com/events/dj-shr3d-liquid-pool-thursday-september-10-2026/"
     }
   ]
 }
