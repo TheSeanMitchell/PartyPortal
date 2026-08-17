@@ -1,5 +1,5 @@
 {
-  "updated": 1786971252,
+  "updated": 1786992420,
   "events": [
     {
       "artist": "Dj Vice",
@@ -2655,6 +2655,51 @@
       "date": "2026-09-10",
       "ts": 1789066800,
       "url": "https://nocovernightclubs.com/events/dj-shr3d-liquid-pool-thursday-september-10-2026/"
+    },
+    {
+      "artist": "Mikey Francis",
+      "venue": "Palm Tree Beach",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-09-10",
+      "ts": 1789066800,
+      "url": "https://nocovernightclubs.com/events/mikey-francis-palm-tree-beach-club-thursday-september-10-2026/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "The Colosseum at Caesars Palace",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-10",
+      "ts": 1789070400,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-thursday-september-10-2026-730-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "Dolby Live at Park MGM",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-10",
+      "ts": 1789070400,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-thursday-september-10-2026-730-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "Michelob Ultra Arena",
+      "type": "arena",
+      "city": "Las Vegas",
+      "date": "2026-09-10",
+      "ts": 1789070400,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-thursday-september-10-2026-730-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "Resorts World Theatre",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-10",
+      "ts": 1789070400,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-thursday-september-10-2026-730-pm/"
     }
   ]
 }
