@@ -1,5 +1,5 @@
 {
-  "updated": 1787057770,
+  "updated": 1787078705,
   "events": [
     {
       "artist": "Rob Guson",
@@ -2691,6 +2691,15 @@
       "date": "2026-09-10",
       "ts": 1789070400,
       "url": "https://concerts.vegas/event/deep-purple-las-vegas-thursday-september-10-2026-800-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "Encore Theater at Wynn",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-10",
+      "ts": 1789070400,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-thursday-september-10-2026-730-pm/"
     }
   ]
 }
