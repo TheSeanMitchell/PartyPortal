@@ -1,5 +1,5 @@
 {
-  "updated": 1786992420,
+  "updated": 1787036018,
   "events": [
     {
       "artist": "Dj Vice",
@@ -18,15 +18,6 @@
       "date": "2026-08-17",
       "ts": 1786993200,
       "url": "https://nocovernightclubs.com/events/eric-forbes-marquee-dayclub-monday-august-17-2026/"
-    },
-    {
-      "artist": "Rob Guson",
-      "venue": "Omnia",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-08-18",
-      "ts": 1787079600,
-      "url": "https://nocovernightclubs.com/events/rob-guson-omnia-nightclub-tuesday-august-18-2026/"
     },
     {
       "artist": "Dana Whites Contender Series 72 Fazil Vs Brito Las Vegas Ufc Apex",
@@ -99,15 +90,6 @@
       "date": "2026-08-19",
       "ts": 1787169600,
       "url": "https://concerts.vegas/event/tuff-n-uff-156-bittencourt-vs-guerrero-las-vegas-sahara-theater-at-sahara-hotel-and-casino-wednesday-august-19-2026-5-30-pm/"
-    },
-    {
-      "artist": "Special Guest",
-      "venue": "Omnia",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-08-20",
-      "ts": 1787252400,
-      "url": "https://nocovernightclubs.com/events/special-guest-omnia-nightclub-thursday-august-20-2026/"
     },
     {
       "artist": "Dj E Rock",
@@ -243,15 +225,6 @@
       "date": "2026-08-21",
       "ts": 1787338800,
       "url": "https://nocovernightclubs.com/events/wax-motif-zouk-nightclub-friday-august-21-2026/"
-    },
-    {
-      "artist": "Chris Lake",
-      "venue": "Omnia",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-08-21",
-      "ts": 1787338800,
-      "url": "https://nocovernightclubs.com/events/chris-lake-omnia-nightclub-friday-august-21-2026/"
     },
     {
       "artist": "Levi",
@@ -450,15 +423,6 @@
       "date": "2026-08-22",
       "ts": 1787425200,
       "url": "https://nocovernightclubs.com/events/rl-grime-zouk-nightclub-saturday-august-22-2026/"
-    },
-    {
-      "artist": "Steve Aoki",
-      "venue": "Omnia",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-08-22",
-      "ts": 1787425200,
-      "url": "https://nocovernightclubs.com/events/steve-aoki-omnia-nightclub-saturday-august-22-2026/"
     },
     {
       "artist": "Angrybaby",
@@ -686,15 +650,6 @@
       "url": "https://concerts.vegas/event/pbc-boxing-rolly-romero-vs-teofimo-lopez-las-vegas-saturday-august-22-2026-tba/"
     },
     {
-      "artist": "Deseo",
-      "venue": "Omnia",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-08-23",
-      "ts": 1787511600,
-      "url": "https://nocovernightclubs.com/events/deseo-omnia-nightclub-sunday-august-23-2026/"
-    },
-    {
       "artist": "Ritual Sundays",
       "venue": "Tao",
       "type": "club",
@@ -776,15 +731,6 @@
       "url": "https://nocovernightclubs.com/events/special-guest-marquee-dayclub-monday-august-24-2026/"
     },
     {
-      "artist": "Mikey Francis",
-      "venue": "Omnia",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-08-25",
-      "ts": 1787684400,
-      "url": "https://nocovernightclubs.com/events/mikey-francis-omnia-nightclub-tuesday-august-25-2026/"
-    },
-    {
       "artist": "Dana Whites Contender Series 73 Mir Vs Apodaca Las Vegas Ufc Apex",
       "venue": "Las Vegas",
       "type": "sports",
@@ -855,15 +801,6 @@
       "date": "2026-08-26",
       "ts": 1787774400,
       "url": "https://concerts.vegas/event/las-vegas-aviators-vs-sugar-land-space-cowboys-las-vegas-wednesday-august-26-2026-705-pm/"
-    },
-    {
-      "artist": "Special Guest",
-      "venue": "Omnia",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-08-27",
-      "ts": 1787857200,
-      "url": "https://nocovernightclubs.com/events/special-guest-omnia-nightclub-thursday-august-27-2026/"
     },
     {
       "artist": "Dj Five",
@@ -1017,15 +954,6 @@
       "date": "2026-08-28",
       "ts": 1787943600,
       "url": "https://nocovernightclubs.com/events/ray-volpe-zouk-nightclub-friday-august-28-2026/"
-    },
-    {
-      "artist": "Deorro",
-      "venue": "Omnia",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-08-28",
-      "ts": 1787943600,
-      "url": "https://nocovernightclubs.com/events/deorro-omnia-nightclub-friday-august-28-2026/"
     },
     {
       "artist": "Special Guest",
@@ -1233,15 +1161,6 @@
       "date": "2026-08-29",
       "ts": 1788030000,
       "url": "https://nocovernightclubs.com/events/ian-asher-zouk-nightclub-saturday-august-29-2026/"
-    },
-    {
-      "artist": "Twinsick",
-      "venue": "Omnia",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-08-29",
-      "ts": 1788030000,
-      "url": "https://nocovernightclubs.com/events/twinsick-omnia-nightclub-saturday-august-29-2026/"
     },
     {
       "artist": "Jigitz",
@@ -1557,15 +1476,6 @@
       "date": "2026-08-29",
       "ts": 1788033600,
       "url": "https://concerts.vegas/event/las-vegas-lights-fc-vs-charleston-battery-las-vegas-saturday-august-29-2026-730-pm/"
-    },
-    {
-      "artist": "Deseo",
-      "venue": "Omnia",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-08-30",
-      "ts": 1788116400,
-      "url": "https://nocovernightclubs.com/events/deseo-omnia-nightclub-sunday-august-30-2026/"
     },
     {
       "artist": "Ritual Sundays",
@@ -2700,6 +2610,96 @@
       "date": "2026-09-10",
       "ts": 1789070400,
       "url": "https://concerts.vegas/event/donny-osmond-las-vegas-thursday-september-10-2026-730-pm/"
+    },
+    {
+      "artist": "Deep Purple",
+      "venue": "Bakkt Theater at Planet Hollywood",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-10",
+      "ts": 1789070400,
+      "url": "https://concerts.vegas/event/deep-purple-las-vegas-thursday-september-10-2026-800-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "Encore Theater at Wynn",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-10",
+      "ts": 1789070400,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-thursday-september-10-2026-730-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "BleauLive Theater at Fontainebleau",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-10",
+      "ts": 1789070400,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-thursday-september-10-2026-730-pm/"
+    },
+    {
+      "artist": "Stabbing Westward",
+      "venue": "Brooklyn Bowl",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-10",
+      "ts": 1789070400,
+      "url": "https://concerts.vegas/event/stabbing-westward-las-vegas-thursday-september-10-2026-700-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "Pearl Theater at Palms",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-10",
+      "ts": 1789070400,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-thursday-september-10-2026-730-pm/"
+    },
+    {
+      "artist": "Las Vegas Aviators Vs Sacramento River Cats",
+      "venue": "Las Vegas",
+      "type": "sports",
+      "city": "Las Vegas",
+      "date": "2026-09-10",
+      "ts": 1789070400,
+      "url": "https://concerts.vegas/event/las-vegas-aviators-vs-sacramento-river-cats-las-vegas-thursday-september-10-2026-705-pm/"
+    },
+    {
+      "artist": "Yo Yolie",
+      "venue": "Marquee Dayclub",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-09-11",
+      "ts": 1789153200,
+      "url": "https://nocovernightclubs.com/events/yo-yolie-marquee-dayclub-friday-september-11-2026/"
+    },
+    {
+      "artist": "Lavern",
+      "venue": "Tao Beach",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-09-11",
+      "ts": 1789153200,
+      "url": "https://nocovernightclubs.com/events/lavern-tao-beach-friday-september-11-2026/"
+    },
+    {
+      "artist": "Dj Que",
+      "venue": "Liquid Pool",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-09-11",
+      "ts": 1789153200,
+      "url": "https://nocovernightclubs.com/events/dj-que-liquid-pool-friday-september-11-2026/"
+    },
+    {
+      "artist": "Mike Attack",
+      "venue": "Palm Tree Beach",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-09-11",
+      "ts": 1789153200,
+      "url": "https://nocovernightclubs.com/events/mike-attack-palm-tree-beach-club-friday-september-11-2026/"
     }
   ]
 }
