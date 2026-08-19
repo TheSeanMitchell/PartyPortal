@@ -1,5 +1,5 @@
 {
-  "updated": 1787078705,
+  "updated": 1787122414,
   "events": [
     {
       "artist": "Rob Guson",
@@ -9,24 +9,6 @@
       "date": "2026-08-18",
       "ts": 1787079600,
       "url": "https://nocovernightclubs.com/events/rob-guson-omnia-nightclub-tuesday-august-18-2026/"
-    },
-    {
-      "artist": "Dana Whites Contender Series 72 Fazil Vs Brito Las Vegas Ufc Apex",
-      "venue": "Las Vegas",
-      "type": "sports",
-      "city": "Las Vegas",
-      "date": "2026-08-18",
-      "ts": 1787083200,
-      "url": "https://concerts.vegas/event/dana-whites-contender-series-72-fazil-vs-brito-las-vegas-ufc-apex-tuesday-august-18-2026-4-00-pm/"
-    },
-    {
-      "artist": "Las Vegas Aces Vs Atlanta Dream",
-      "venue": "Las Vegas",
-      "type": "sports",
-      "city": "Las Vegas",
-      "date": "2026-08-18",
-      "ts": 1787083200,
-      "url": "https://concerts.vegas/event/las-vegas-aces-vs-atlanta-dream-las-vegas-tuesday-august-18-2026-700-pm/"
     },
     {
       "artist": "Nico Bernardini",
@@ -2700,6 +2682,24 @@
       "date": "2026-09-10",
       "ts": 1789070400,
       "url": "https://concerts.vegas/event/donny-osmond-las-vegas-thursday-september-10-2026-730-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "BleauLive Theater at Fontainebleau",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-10",
+      "ts": 1789070400,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-thursday-september-10-2026-730-pm/"
+    },
+    {
+      "artist": "Stabbing Westward",
+      "venue": "Brooklyn Bowl",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-10",
+      "ts": 1789070400,
+      "url": "https://concerts.vegas/event/stabbing-westward-las-vegas-thursday-september-10-2026-700-pm/"
     }
   ]
 }
