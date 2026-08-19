@@ -1,15 +1,6 @@
 {
-  "updated": 1787122414,
+  "updated": 1787144236,
   "events": [
-    {
-      "artist": "Rob Guson",
-      "venue": "Omnia",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-08-18",
-      "ts": 1787079600,
-      "url": "https://nocovernightclubs.com/events/rob-guson-omnia-nightclub-tuesday-august-18-2026/"
-    },
     {
       "artist": "Nico Bernardini",
       "venue": "Marquee",
@@ -45,15 +36,6 @@
       "date": "2026-08-19",
       "ts": 1787166000,
       "url": "https://nocovernightclubs.com/events/dj-buza-liquid-pool-wednesday-august-19-2026/"
-    },
-    {
-      "artist": "Special Guest",
-      "venue": "Palm Tree Beach",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-08-19",
-      "ts": 1787166000,
-      "url": "https://nocovernightclubs.com/events/special-guest-palm-tree-beach-club-wednesday-august-19-2026/"
     },
     {
       "artist": "Tuff N Uff 156 Bittencourt Vs Guerrero Las Vegas Sahara Theater At Sahara Hotel And Casino",
@@ -117,15 +99,6 @@
       "date": "2026-08-20",
       "ts": 1787252400,
       "url": "https://nocovernightclubs.com/events/dj-shr3d-liquid-pool-thursday-august-20-2026/"
-    },
-    {
-      "artist": "Dj Mondo",
-      "venue": "Palm Tree Beach",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-08-20",
-      "ts": 1787252400,
-      "url": "https://nocovernightclubs.com/events/dj-mondo-palm-tree-beach-club-thursday-august-20-2026/"
     },
     {
       "artist": "Barry Manilow",
@@ -306,15 +279,6 @@
       "date": "2026-08-21",
       "ts": 1787338800,
       "url": "https://nocovernightclubs.com/events/dj-que-liquid-pool-friday-august-21-2026/"
-    },
-    {
-      "artist": "Eric D Lux",
-      "venue": "Palm Tree Beach",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-08-21",
-      "ts": 1787338800,
-      "url": "https://nocovernightclubs.com/events/eric-d-lux-palm-tree-beach-club-friday-august-21-2026/"
     },
     {
       "artist": "Devault",
@@ -515,15 +479,6 @@
       "url": "https://nocovernightclubs.com/events/kid-conrad-liquid-pool-saturday-august-22-2026/"
     },
     {
-      "artist": "Zedd",
-      "venue": "Palm Tree Beach",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-08-22",
-      "ts": 1787425200,
-      "url": "https://nocovernightclubs.com/events/zedd-palm-tree-beach-club-saturday-august-22-2026/"
-    },
-    {
       "artist": "Sidepiece",
       "venue": "LIV Beach",
       "type": "pool",
@@ -713,15 +668,6 @@
       "url": "https://nocovernightclubs.com/events/eric-remy-liquid-pool-sunday-august-23-2026/"
     },
     {
-      "artist": "R3hab",
-      "venue": "Omnia Dayclub",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-08-23",
-      "ts": 1787511600,
-      "url": "https://nocovernightclubs.com/events/r3hab-omnia-dayclub-sunday-august-23-2026/"
-    },
-    {
       "artist": "Justin Credible",
       "venue": "Marquee",
       "type": "club",
@@ -803,15 +749,6 @@
       "url": "https://nocovernightclubs.com/events/dj-buza-liquid-pool-wednesday-august-26-2026/"
     },
     {
-      "artist": "Special Guest",
-      "venue": "Palm Tree Beach",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-08-26",
-      "ts": 1787770800,
-      "url": "https://nocovernightclubs.com/events/special-guest-palm-tree-beach-club-wednesday-august-26-2026/"
-    },
-    {
       "artist": "Las Vegas Aviators Vs Sugar Land Space Cowboys",
       "venue": "Las Vegas",
       "type": "sports",
@@ -873,15 +810,6 @@
       "date": "2026-08-27",
       "ts": 1787857200,
       "url": "https://nocovernightclubs.com/events/dj-shr3d-liquid-pool-thursday-august-27-2026/"
-    },
-    {
-      "artist": "Ross",
-      "venue": "Palm Tree Beach",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-08-27",
-      "ts": 1787857200,
-      "url": "https://nocovernightclubs.com/events/ross-palm-tree-beach-club-thursday-august-27-2026/"
     },
     {
       "artist": "Nfl Preseason Las Vegas Raiders Vs San Francisco 49ers",
@@ -1080,15 +1008,6 @@
       "date": "2026-08-28",
       "ts": 1787943600,
       "url": "https://nocovernightclubs.com/events/dj-que-liquid-pool-friday-august-28-2026/"
-    },
-    {
-      "artist": "Four Color Zack",
-      "venue": "Palm Tree Beach",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-08-28",
-      "ts": 1787943600,
-      "url": "https://nocovernightclubs.com/events/four-color-zack-palm-tree-beach-club-friday-august-28-2026/"
     },
     {
       "artist": "Barry Manilow",
@@ -1296,15 +1215,6 @@
       "date": "2026-08-29",
       "ts": 1788030000,
       "url": "https://nocovernightclubs.com/events/kid-conrad-liquid-pool-saturday-august-29-2026/"
-    },
-    {
-      "artist": "Chris Lake",
-      "venue": "Palm Tree Beach",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-08-29",
-      "ts": 1788030000,
-      "url": "https://nocovernightclubs.com/events/chris-lake-palm-tree-beach-club-saturday-august-29-2026/"
     },
     {
       "artist": "Tiesto",
@@ -1586,15 +1496,6 @@
       "url": "https://nocovernightclubs.com/events/eric-remy-liquid-pool-sunday-august-30-2026/"
     },
     {
-      "artist": "Reggaetonlandia",
-      "venue": "Omnia Dayclub",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-08-30",
-      "ts": 1788116400,
-      "url": "https://nocovernightclubs.com/events/reggaetonlandia-omnia-dayclub-saturday-august-30-2026/"
-    },
-    {
       "artist": "Players Era Volleyball Showcase Tcu Vs Unlv And Texas Vs Nebraska",
       "venue": "T-Mobile Arena",
       "type": "sports",
@@ -1656,15 +1557,6 @@
       "date": "2026-09-02",
       "ts": 1788375600,
       "url": "https://nocovernightclubs.com/events/dj-buza-liquid-pool-wednesday-september-2-2026/"
-    },
-    {
-      "artist": "Special Guest",
-      "venue": "Palm Tree Beach",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-09-02",
-      "ts": 1788375600,
-      "url": "https://nocovernightclubs.com/events/special-guest-palm-tree-beach-club-wednesday-september-2-2026/"
     },
     {
       "artist": "Donny Osmond",
@@ -1766,15 +1658,6 @@
       "url": "https://nocovernightclubs.com/events/dj-shr3d-liquid-pool-thursday-september-3-2026/"
     },
     {
-      "artist": "Dj Mondo",
-      "venue": "Palm Tree Beach",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-09-03",
-      "ts": 1788462000,
-      "url": "https://nocovernightclubs.com/events/dj-mondo-palm-tree-beach-club-thursday-september-3-2026/"
-    },
-    {
       "artist": "Donny Osmond",
       "venue": "The Colosseum at Caesars Palace",
       "type": "concert",
@@ -1872,15 +1755,6 @@
       "date": "2026-09-04",
       "ts": 1788548400,
       "url": "https://nocovernightclubs.com/events/dj-que-liquid-pool-friday-september-4-2026/"
-    },
-    {
-      "artist": "Dj Five",
-      "venue": "Palm Tree Beach",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-09-04",
-      "ts": 1788548400,
-      "url": "https://nocovernightclubs.com/events/dj-five-palm-tree-beach-club-friday-september-4-2026/"
     },
     {
       "artist": "Sidepiece",
@@ -2126,15 +2000,6 @@
       "url": "https://nocovernightclubs.com/events/kid-conrad-liquid-pool-saturday-september-5-2026/"
     },
     {
-      "artist": "Martin Garrix",
-      "venue": "Palm Tree Beach",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-09-05",
-      "ts": 1788634800,
-      "url": "https://nocovernightclubs.com/events/martin-garrix-palm-tree-beach-club-saturday-september-5-2026/"
-    },
-    {
       "artist": "Dom Dolla",
       "venue": "LIV Beach",
       "type": "pool",
@@ -2342,15 +2207,6 @@
       "url": "https://nocovernightclubs.com/events/eric-remy-liquid-pool-sunday-september-6-2026-2/"
     },
     {
-      "artist": "Blondish",
-      "venue": "Palm Tree Beach",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-09-06",
-      "ts": 1788721200,
-      "url": "https://nocovernightclubs.com/events/blondish-palm-tree-beach-club-sunday-september-6-2026/"
-    },
-    {
       "artist": "Disclosure",
       "venue": "LIV Beach",
       "type": "pool",
@@ -2513,15 +2369,6 @@
       "url": "https://nocovernightclubs.com/events/dj-buza-liquid-pool-wednesday-september-9-2026/"
     },
     {
-      "artist": "Dj Lucky Lou",
-      "venue": "Palm Tree Beach",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-09-09",
-      "ts": 1788980400,
-      "url": "https://nocovernightclubs.com/events/dj-lucky-lou-palm-tree-beach-club-wednesday-september-9-2026/"
-    },
-    {
       "artist": "Donny Osmond",
       "venue": "The Colosseum at Caesars Palace",
       "type": "concert",
@@ -2621,15 +2468,6 @@
       "url": "https://nocovernightclubs.com/events/dj-shr3d-liquid-pool-thursday-september-10-2026/"
     },
     {
-      "artist": "Mikey Francis",
-      "venue": "Palm Tree Beach",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-09-10",
-      "ts": 1789066800,
-      "url": "https://nocovernightclubs.com/events/mikey-francis-palm-tree-beach-club-thursday-september-10-2026/"
-    },
-    {
       "artist": "Donny Osmond",
       "venue": "The Colosseum at Caesars Palace",
       "type": "concert",
@@ -2700,6 +2538,168 @@
       "date": "2026-09-10",
       "ts": 1789070400,
       "url": "https://concerts.vegas/event/stabbing-westward-las-vegas-thursday-september-10-2026-700-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "Pearl Theater at Palms",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-10",
+      "ts": 1789070400,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-thursday-september-10-2026-730-pm/"
+    },
+    {
+      "artist": "Las Vegas Aviators Vs Sacramento River Cats",
+      "venue": "Las Vegas",
+      "type": "sports",
+      "city": "Las Vegas",
+      "date": "2026-09-10",
+      "ts": 1789070400,
+      "url": "https://concerts.vegas/event/las-vegas-aviators-vs-sacramento-river-cats-las-vegas-thursday-september-10-2026-705-pm/"
+    },
+    {
+      "artist": "Yo Yolie",
+      "venue": "Marquee Dayclub",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-09-11",
+      "ts": 1789153200,
+      "url": "https://nocovernightclubs.com/events/yo-yolie-marquee-dayclub-friday-september-11-2026/"
+    },
+    {
+      "artist": "Lavern",
+      "venue": "Tao Beach",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-09-11",
+      "ts": 1789153200,
+      "url": "https://nocovernightclubs.com/events/lavern-tao-beach-friday-september-11-2026/"
+    },
+    {
+      "artist": "Dj Que",
+      "venue": "Liquid Pool",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-09-11",
+      "ts": 1789153200,
+      "url": "https://nocovernightclubs.com/events/dj-que-liquid-pool-friday-september-11-2026/"
+    },
+    {
+      "artist": "Layton Giordani",
+      "venue": "LIV Beach",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-09-11",
+      "ts": 1789153200,
+      "url": "https://nocovernightclubs.com/events/layton-giordani-liv-beach-friday-september-11-2026/"
+    },
+    {
+      "artist": "Mana",
+      "venue": "T-Mobile Arena",
+      "type": "arena",
+      "city": "Las Vegas",
+      "date": "2026-09-11",
+      "ts": 1789156800,
+      "url": "https://concerts.vegas/event/mana-las-vegas-friday-september-11-2026-900-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "The Colosseum at Caesars Palace",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-11",
+      "ts": 1789156800,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-friday-september-11-2026-730-pm/"
+    },
+    {
+      "artist": "Marco Antonio Solis",
+      "venue": "Dolby Live at Park MGM",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-11",
+      "ts": 1789156800,
+      "url": "https://concerts.vegas/event/marco-antonio-solis-las-vegas-friday-september-11-2026-800-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "Dolby Live at Park MGM",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-11",
+      "ts": 1789156800,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-friday-september-11-2026-730-pm/"
+    },
+    {
+      "artist": "Triplemania 34",
+      "venue": "MGM Grand Garden Arena",
+      "type": "arena",
+      "city": "Las Vegas",
+      "date": "2026-09-11",
+      "ts": 1789156800,
+      "url": "https://concerts.vegas/event/triplemania-34-las-vegas-friday-september-11-2026-700-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "Michelob Ultra Arena",
+      "type": "arena",
+      "city": "Las Vegas",
+      "date": "2026-09-11",
+      "ts": 1789156800,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-friday-september-11-2026-730-pm/"
+    },
+    {
+      "artist": "Katchafire",
+      "venue": "The Theater at Virgin Hotels",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-11",
+      "ts": 1789156800,
+      "url": "https://concerts.vegas/event/katchafire-las-vegas-friday-september-11-2026-800-pm/"
+    },
+    {
+      "artist": "Katchafire",
+      "venue": "24 Oxford at Virgin Hotels",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-11",
+      "ts": 1789156800,
+      "url": "https://concerts.vegas/event/katchafire-las-vegas-friday-september-11-2026-800-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "Resorts World Theatre",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-11",
+      "ts": 1789156800,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-friday-september-11-2026-730-pm/"
+    },
+    {
+      "artist": "Godsmack",
+      "venue": "Bakkt Theater at Planet Hollywood",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-11",
+      "ts": 1789156800,
+      "url": "https://concerts.vegas/event/godsmack-las-vegas-friday-september-11-2026-800-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "Encore Theater at Wynn",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-11",
+      "ts": 1789156800,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-friday-september-11-2026-730-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "BleauLive Theater at Fontainebleau",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-11",
+      "ts": 1789156800,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-friday-september-11-2026-730-pm/"
     }
   ]
 }
