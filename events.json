@@ -1,51 +1,6 @@
 {
-  "updated": 1787208887,
+  "updated": 1787230744,
   "events": [
-    {
-      "artist": "Nico Bernardini",
-      "venue": "Marquee",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-08-19",
-      "ts": 1787166000,
-      "url": "https://nocovernightclubs.com/events/nico-bernardini-marquee-nightclub-wednesday-august-19-2026/"
-    },
-    {
-      "artist": "Dj Franzen",
-      "venue": "Hakkasan",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-08-19",
-      "ts": 1787166000,
-      "url": "https://nocovernightclubs.com/events/dj-franzen-hakkasan-nightclub-wednesday-august-19-2026/"
-    },
-    {
-      "artist": "Special Guest",
-      "venue": "EBC At Night",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-08-19",
-      "ts": 1787166000,
-      "url": "https://nocovernightclubs.com/events/special-guest-ebc-at-night-wednesday-august-19-2026/"
-    },
-    {
-      "artist": "Dj Buza",
-      "venue": "Liquid Pool",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-08-19",
-      "ts": 1787166000,
-      "url": "https://nocovernightclubs.com/events/dj-buza-liquid-pool-wednesday-august-19-2026/"
-    },
-    {
-      "artist": "Special Guest",
-      "venue": "Palm Tree Beach",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-08-19",
-      "ts": 1787166000,
-      "url": "https://nocovernightclubs.com/events/special-guest-palm-tree-beach-club-wednesday-august-19-2026/"
-    },
     {
       "artist": "Special Guest",
       "venue": "Omnia",
@@ -2700,6 +2655,33 @@
       "date": "2026-09-10",
       "ts": 1789070400,
       "url": "https://concerts.vegas/event/las-vegas-aviators-vs-sacramento-river-cats-las-vegas-thursday-september-10-2026-705-pm/"
+    },
+    {
+      "artist": "Yo Yolie",
+      "venue": "Marquee Dayclub",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-09-11",
+      "ts": 1789153200,
+      "url": "https://nocovernightclubs.com/events/yo-yolie-marquee-dayclub-friday-september-11-2026/"
+    },
+    {
+      "artist": "Lavern",
+      "venue": "Tao Beach",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-09-11",
+      "ts": 1789153200,
+      "url": "https://nocovernightclubs.com/events/lavern-tao-beach-friday-september-11-2026/"
+    },
+    {
+      "artist": "Dj Que",
+      "venue": "Liquid Pool",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-09-11",
+      "ts": 1789153200,
+      "url": "https://nocovernightclubs.com/events/dj-que-liquid-pool-friday-september-11-2026/"
     }
   ]
 }
