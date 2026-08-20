@@ -1,5 +1,5 @@
 {
-  "updated": 1787164915,
+  "updated": 1787208887,
   "events": [
     {
       "artist": "Nico Bernardini",
@@ -45,15 +45,6 @@
       "date": "2026-08-19",
       "ts": 1787166000,
       "url": "https://nocovernightclubs.com/events/special-guest-palm-tree-beach-club-wednesday-august-19-2026/"
-    },
-    {
-      "artist": "Tuff N Uff 156 Bittencourt Vs Guerrero Las Vegas Sahara Theater At Sahara Hotel And Casino",
-      "venue": "Las Vegas",
-      "type": "sports",
-      "city": "Las Vegas",
-      "date": "2026-08-19",
-      "ts": 1787169600,
-      "url": "https://concerts.vegas/event/tuff-n-uff-156-bittencourt-vs-guerrero-las-vegas-sahara-theater-at-sahara-hotel-and-casino-wednesday-august-19-2026-5-30-pm/"
     },
     {
       "artist": "Special Guest",
@@ -2700,6 +2691,15 @@
       "date": "2026-09-10",
       "ts": 1789070400,
       "url": "https://concerts.vegas/event/donny-osmond-las-vegas-thursday-september-10-2026-730-pm/"
+    },
+    {
+      "artist": "Las Vegas Aviators Vs Sacramento River Cats",
+      "venue": "Las Vegas",
+      "type": "sports",
+      "city": "Las Vegas",
+      "date": "2026-09-10",
+      "ts": 1789070400,
+      "url": "https://concerts.vegas/event/las-vegas-aviators-vs-sacramento-river-cats-las-vegas-thursday-september-10-2026-705-pm/"
     }
   ]
 }
