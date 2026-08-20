@@ -1,5 +1,5 @@
 {
-  "updated": 1787230744,
+  "updated": 1787251679,
   "events": [
     {
       "artist": "Special Guest",
@@ -2682,6 +2682,24 @@
       "date": "2026-09-11",
       "ts": 1789153200,
       "url": "https://nocovernightclubs.com/events/dj-que-liquid-pool-friday-september-11-2026/"
+    },
+    {
+      "artist": "Mike Attack",
+      "venue": "Palm Tree Beach",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-09-11",
+      "ts": 1789153200,
+      "url": "https://nocovernightclubs.com/events/mike-attack-palm-tree-beach-club-friday-september-11-2026/"
+    },
+    {
+      "artist": "Layton Giordani",
+      "venue": "LIV Beach",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-09-11",
+      "ts": 1789153200,
+      "url": "https://nocovernightclubs.com/events/layton-giordani-liv-beach-friday-september-11-2026/"
     }
   ]
 }
