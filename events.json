@@ -1,69 +1,6 @@
 {
-  "updated": 1787295375,
+  "updated": 1787317052,
   "events": [
-    {
-      "artist": "Special Guest",
-      "venue": "Omnia",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-08-20",
-      "ts": 1787252400,
-      "url": "https://nocovernightclubs.com/events/special-guest-omnia-nightclub-thursday-august-20-2026/"
-    },
-    {
-      "artist": "Dj E Rock",
-      "venue": "Tao",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-08-20",
-      "ts": 1787252400,
-      "url": "https://nocovernightclubs.com/events/dj-e-rock-tao-nightclub-thursday-august-20-2026/"
-    },
-    {
-      "artist": "Dj Five",
-      "venue": "Hakkasan",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-08-20",
-      "ts": 1787252400,
-      "url": "https://nocovernightclubs.com/events/dj-five-hakkasan-nightclub-thursday-august-20-2026/"
-    },
-    {
-      "artist": "Special Guest",
-      "venue": "Marquee Dayclub",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-08-20",
-      "ts": 1787252400,
-      "url": "https://nocovernightclubs.com/events/special-guest-marquee-dayclub-thursday-august-20-2026/"
-    },
-    {
-      "artist": "Special Guest",
-      "venue": "Tao Beach",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-08-20",
-      "ts": 1787252400,
-      "url": "https://nocovernightclubs.com/events/special-guest-tao-beach-thursday-august-20-2026/"
-    },
-    {
-      "artist": "Dj Shr3d",
-      "venue": "Liquid Pool",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-08-20",
-      "ts": 1787252400,
-      "url": "https://nocovernightclubs.com/events/dj-shr3d-liquid-pool-thursday-august-20-2026/"
-    },
-    {
-      "artist": "Dj Mondo",
-      "venue": "Palm Tree Beach",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-08-20",
-      "ts": 1787252400,
-      "url": "https://nocovernightclubs.com/events/dj-mondo-palm-tree-beach-club-thursday-august-20-2026/"
-    },
     {
       "artist": "Wax Motif",
       "venue": "Zouk",
@@ -2700,6 +2637,33 @@
       "date": "2026-09-11",
       "ts": 1789156800,
       "url": "https://concerts.vegas/event/godsmack-las-vegas-friday-september-11-2026-800-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "Encore Theater at Wynn",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-11",
+      "ts": 1789156800,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-friday-september-11-2026-730-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "BleauLive Theater at Fontainebleau",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-11",
+      "ts": 1789156800,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-friday-september-11-2026-730-pm/"
+    },
+    {
+      "artist": "Artemas",
+      "venue": "Brooklyn Bowl",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-11",
+      "ts": 1789156800,
+      "url": "https://concerts.vegas/event/artemas-las-vegas-friday-september-11-2026-700-pm/"
     }
   ]
 }
