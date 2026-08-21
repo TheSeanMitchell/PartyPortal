@@ -1,5 +1,5 @@
 {
-  "updated": 1787251679,
+  "updated": 1787295375,
   "events": [
     {
       "artist": "Special Guest",
@@ -63,78 +63,6 @@
       "date": "2026-08-20",
       "ts": 1787252400,
       "url": "https://nocovernightclubs.com/events/dj-mondo-palm-tree-beach-club-thursday-august-20-2026/"
-    },
-    {
-      "artist": "Barry Manilow",
-      "venue": "The Colosseum at Caesars Palace",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-08-20",
-      "ts": 1787256000,
-      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-thursday-august-20-2026-700-pm/"
-    },
-    {
-      "artist": "Barry Manilow",
-      "venue": "Dolby Live at Park MGM",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-08-20",
-      "ts": 1787256000,
-      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-thursday-august-20-2026-700-pm/"
-    },
-    {
-      "artist": "Barry Manilow",
-      "venue": "Michelob Ultra Arena",
-      "type": "arena",
-      "city": "Las Vegas",
-      "date": "2026-08-20",
-      "ts": 1787256000,
-      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-thursday-august-20-2026-700-pm/"
-    },
-    {
-      "artist": "Barry Manilow",
-      "venue": "Resorts World Theatre",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-08-20",
-      "ts": 1787256000,
-      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-thursday-august-20-2026-700-pm/"
-    },
-    {
-      "artist": "Barry Manilow",
-      "venue": "Encore Theater at Wynn",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-08-20",
-      "ts": 1787256000,
-      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-thursday-august-20-2026-700-pm/"
-    },
-    {
-      "artist": "Barry Manilow",
-      "venue": "BleauLive Theater at Fontainebleau",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-08-20",
-      "ts": 1787256000,
-      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-thursday-august-20-2026-700-pm/"
-    },
-    {
-      "artist": "Barry Manilow",
-      "venue": "Pearl Theater at Palms",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-08-20",
-      "ts": 1787256000,
-      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-thursday-august-20-2026-700-pm/"
-    },
-    {
-      "artist": "Las Vegas Aces Vs Connecticut Sun",
-      "venue": "Las Vegas",
-      "type": "sports",
-      "city": "Las Vegas",
-      "date": "2026-08-20",
-      "ts": 1787256000,
-      "url": "https://concerts.vegas/event/las-vegas-aces-vs-connecticut-sun-las-vegas-thursday-august-20-2026-700-pm/"
     },
     {
       "artist": "Wax Motif",
@@ -324,15 +252,6 @@
       "date": "2026-08-21",
       "ts": 1787342400,
       "url": "https://concerts.vegas/event/barry-manilow-las-vegas-friday-august-21-2026-800-pm/"
-    },
-    {
-      "artist": "Club 90s Ariana Grande Night Tribute Las Vegas Brooklyn Bowl",
-      "venue": "Brooklyn Bowl",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-08-21",
-      "ts": 1787342400,
-      "url": "https://concerts.vegas/event/club-90s-ariana-grande-night-tribute-las-vegas-brooklyn-bowl-las-vegas-friday-august-21-2026-9-00-pm/"
     },
     {
       "artist": "Barry Manilow",
@@ -558,15 +477,6 @@
       "date": "2026-08-22",
       "ts": 1787428800,
       "url": "https://concerts.vegas/event/barry-manilow-las-vegas-saturday-august-22-2026-700-pm/"
-    },
-    {
-      "artist": "Club 90s 2000s Night Las Vegas Brooklyn Bowl",
-      "venue": "Brooklyn Bowl",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-08-22",
-      "ts": 1787428800,
-      "url": "https://concerts.vegas/event/club-90s-2000s-night-las-vegas-brooklyn-bowl-las-vegas-saturday-august-22-2026-9-00-pm/"
     },
     {
       "artist": "Barry Manilow",
@@ -2700,6 +2610,96 @@
       "date": "2026-09-11",
       "ts": 1789153200,
       "url": "https://nocovernightclubs.com/events/layton-giordani-liv-beach-friday-september-11-2026/"
+    },
+    {
+      "artist": "Mana",
+      "venue": "T-Mobile Arena",
+      "type": "arena",
+      "city": "Las Vegas",
+      "date": "2026-09-11",
+      "ts": 1789156800,
+      "url": "https://concerts.vegas/event/mana-las-vegas-friday-september-11-2026-900-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "The Colosseum at Caesars Palace",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-11",
+      "ts": 1789156800,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-friday-september-11-2026-730-pm/"
+    },
+    {
+      "artist": "Marco Antonio Solis",
+      "venue": "Dolby Live at Park MGM",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-11",
+      "ts": 1789156800,
+      "url": "https://concerts.vegas/event/marco-antonio-solis-las-vegas-friday-september-11-2026-800-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "Dolby Live at Park MGM",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-11",
+      "ts": 1789156800,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-friday-september-11-2026-730-pm/"
+    },
+    {
+      "artist": "Triplemania 34",
+      "venue": "MGM Grand Garden Arena",
+      "type": "arena",
+      "city": "Las Vegas",
+      "date": "2026-09-11",
+      "ts": 1789156800,
+      "url": "https://concerts.vegas/event/triplemania-34-las-vegas-friday-september-11-2026-700-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "Michelob Ultra Arena",
+      "type": "arena",
+      "city": "Las Vegas",
+      "date": "2026-09-11",
+      "ts": 1789156800,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-friday-september-11-2026-730-pm/"
+    },
+    {
+      "artist": "Katchafire",
+      "venue": "The Theater at Virgin Hotels",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-11",
+      "ts": 1789156800,
+      "url": "https://concerts.vegas/event/katchafire-las-vegas-friday-september-11-2026-800-pm/"
+    },
+    {
+      "artist": "Katchafire",
+      "venue": "24 Oxford at Virgin Hotels",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-11",
+      "ts": 1789156800,
+      "url": "https://concerts.vegas/event/katchafire-las-vegas-friday-september-11-2026-800-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "Resorts World Theatre",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-11",
+      "ts": 1789156800,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-friday-september-11-2026-730-pm/"
+    },
+    {
+      "artist": "Godsmack",
+      "venue": "Bakkt Theater at Planet Hollywood",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-11",
+      "ts": 1789156800,
+      "url": "https://concerts.vegas/event/godsmack-las-vegas-friday-september-11-2026-800-pm/"
     }
   ]
 }
