@@ -1,5 +1,5 @@
 {
-  "updated": 1787402948,
+  "updated": 1787423866,
   "events": [
     {
       "artist": "Rl Grime",
@@ -2612,15 +2612,6 @@
       "url": "https://concerts.vegas/event/donny-osmond-las-vegas-saturday-september-12-2026-730-pm/"
     },
     {
-      "artist": "Ryan Garcia Vs Conor Benn",
-      "venue": "Las Vegas",
-      "type": "sports",
-      "city": "Las Vegas",
-      "date": "2026-09-12",
-      "ts": 1789243200,
-      "url": "https://concerts.vegas/event/ryan-garcia-vs-conor-benn-las-vegas-saturday-september-12-2026-tba/"
-    },
-    {
       "artist": "Las Vegas Raiders Season Tickets Includes Tickets To All Regular Season Home Games",
       "venue": "Las Vegas",
       "type": "sports",
@@ -2628,6 +2619,15 @@
       "date": "2026-09-12",
       "ts": 1789243200,
       "url": "https://concerts.vegas/event/las-vegas-raiders-season-tickets-includes-tickets-to-all-regular-season-home-games-las-vegas-saturday-september-12-2026-tba/"
+    },
+    {
+      "artist": "Ryan Garcia Vs Conor Benn",
+      "venue": "Las Vegas",
+      "type": "sports",
+      "city": "Las Vegas",
+      "date": "2026-09-12",
+      "ts": 1789243200,
+      "url": "https://concerts.vegas/event/ryan-garcia-vs-conor-benn-las-vegas-saturday-september-12-2026-tba/"
     },
     {
       "artist": "Las Vegas Aviators Vs Sacramento River Cats",
@@ -2655,6 +2655,51 @@
       "date": "2026-09-13",
       "ts": 1789326000,
       "url": "https://nocovernightclubs.com/events/justin-credible-tao-beach-sunday-september-13-2026/"
+    },
+    {
+      "artist": "Eric Remy",
+      "venue": "Liquid Pool",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-09-13",
+      "ts": 1789326000,
+      "url": "https://nocovernightclubs.com/events/eric-remy-liquid-pool-sunday-september-13-2026/"
+    },
+    {
+      "artist": "Street Mob Takeover",
+      "venue": "Omnia Dayclub",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-09-13",
+      "ts": 1789326000,
+      "url": "https://nocovernightclubs.com/events/street-mob-takeover-omnia-dayclub-saturday-september-13-2026/"
+    },
+    {
+      "artist": "Reggaeton Landia",
+      "venue": "LIV Beach",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-09-13",
+      "ts": 1789326000,
+      "url": "https://nocovernightclubs.com/events/reggaeton-landia-liv-beach-sunday-september-13-2026/"
+    },
+    {
+      "artist": "Chuy Lizarraga Julio Preciado And Luis Angel Las Vegas T Mobile Arena",
+      "venue": "T-Mobile Arena",
+      "type": "arena",
+      "city": "Las Vegas",
+      "date": "2026-09-13",
+      "ts": 1789329600,
+      "url": "https://concerts.vegas/event/chuy-lizarraga-julio-preciado-and-luis-angel-las-vegas-t-mobile-arena-sunday-september-13-2026-8-00-pm/"
+    },
+    {
+      "artist": "Las Vegas Raiders Vs Miami Dolphins",
+      "venue": "Allegiant Stadium",
+      "type": "sports",
+      "city": "Las Vegas",
+      "date": "2026-09-13",
+      "ts": 1789329600,
+      "url": "https://concerts.vegas/event/las-vegas-raiders-vs-miami-dolphins-las-vegas-sunday-september-13-2026-125-pm/"
     }
   ]
 }
