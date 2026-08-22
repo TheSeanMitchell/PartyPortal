@@ -1,123 +1,6 @@
 {
-  "updated": 1787381329,
+  "updated": 1787402948,
   "events": [
-    {
-      "artist": "Wax Motif",
-      "venue": "Zouk",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-08-21",
-      "ts": 1787338800,
-      "url": "https://nocovernightclubs.com/events/wax-motif-zouk-nightclub-friday-august-21-2026/"
-    },
-    {
-      "artist": "Chris Lake",
-      "venue": "Omnia",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-08-21",
-      "ts": 1787338800,
-      "url": "https://nocovernightclubs.com/events/chris-lake-omnia-nightclub-friday-august-21-2026/"
-    },
-    {
-      "artist": "Levi",
-      "venue": "Marquee",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-08-21",
-      "ts": 1787338800,
-      "url": "https://nocovernightclubs.com/events/levi-marquee-nightclub-friday-august-21-2026/"
-    },
-    {
-      "artist": "Al Tamar",
-      "venue": "Tao",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-08-21",
-      "ts": 1787338800,
-      "url": "https://nocovernightclubs.com/events/al-tamar-tao-nightclub-friday-august-21-2026/"
-    },
-    {
-      "artist": "Murda Beatz",
-      "venue": "Hakkasan",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-08-21",
-      "ts": 1787338800,
-      "url": "https://nocovernightclubs.com/events/murda-beatz-hakkasan-nightclub-friday-august-21-2026/"
-    },
-    {
-      "artist": "Matroda",
-      "venue": "LIV",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-08-21",
-      "ts": 1787338800,
-      "url": "https://nocovernightclubs.com/events/matroda-liv-nightclub-friday-august-21-2026/"
-    },
-    {
-      "artist": "D Miles",
-      "venue": "Jewel",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-08-21",
-      "ts": 1787338800,
-      "url": "https://nocovernightclubs.com/events/d-miles-jewel-nightclub-friday-august-21-2026/"
-    },
-    {
-      "artist": "The Chainsmokers",
-      "venue": "EBC At Night",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-08-21",
-      "ts": 1787338800,
-      "url": "https://nocovernightclubs.com/events/the-chainsmokers-ebc-at-night-friday-august-21-2026/"
-    },
-    {
-      "artist": "Bontan",
-      "venue": "Marquee Dayclub",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-08-21",
-      "ts": 1787338800,
-      "url": "https://nocovernightclubs.com/events/bontan-marquee-dayclub-friday-august-21-2026/"
-    },
-    {
-      "artist": "Laidback Luke",
-      "venue": "Tao Beach",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-08-21",
-      "ts": 1787338800,
-      "url": "https://nocovernightclubs.com/events/laidback-luke-tao-beach-friday-august-21-2026/"
-    },
-    {
-      "artist": "Dj Que",
-      "venue": "Liquid Pool",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-08-21",
-      "ts": 1787338800,
-      "url": "https://nocovernightclubs.com/events/dj-que-liquid-pool-friday-august-21-2026/"
-    },
-    {
-      "artist": "Eric D Lux",
-      "venue": "Palm Tree Beach",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-08-21",
-      "ts": 1787338800,
-      "url": "https://nocovernightclubs.com/events/eric-d-lux-palm-tree-beach-club-friday-august-21-2026/"
-    },
-    {
-      "artist": "Devault",
-      "venue": "LIV Beach",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-08-21",
-      "ts": 1787338800,
-      "url": "https://nocovernightclubs.com/events/devault-liv-beach-friday-august-21-2026/"
-    },
     {
       "artist": "Rl Grime",
       "venue": "Zouk",
@@ -2700,6 +2583,78 @@
       "date": "2026-09-12",
       "ts": 1789243200,
       "url": "https://concerts.vegas/event/grupo-duelo-las-vegas-saturday-september-12-2026-830-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "Encore Theater at Wynn",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-12",
+      "ts": 1789243200,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-saturday-september-12-2026-730-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "BleauLive Theater at Fontainebleau",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-12",
+      "ts": 1789243200,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-saturday-september-12-2026-730-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "Pearl Theater at Palms",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-12",
+      "ts": 1789243200,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-saturday-september-12-2026-730-pm/"
+    },
+    {
+      "artist": "Ryan Garcia Vs Conor Benn",
+      "venue": "Las Vegas",
+      "type": "sports",
+      "city": "Las Vegas",
+      "date": "2026-09-12",
+      "ts": 1789243200,
+      "url": "https://concerts.vegas/event/ryan-garcia-vs-conor-benn-las-vegas-saturday-september-12-2026-tba/"
+    },
+    {
+      "artist": "Las Vegas Raiders Season Tickets Includes Tickets To All Regular Season Home Games",
+      "venue": "Las Vegas",
+      "type": "sports",
+      "city": "Las Vegas",
+      "date": "2026-09-12",
+      "ts": 1789243200,
+      "url": "https://concerts.vegas/event/las-vegas-raiders-season-tickets-includes-tickets-to-all-regular-season-home-games-las-vegas-saturday-september-12-2026-tba/"
+    },
+    {
+      "artist": "Las Vegas Aviators Vs Sacramento River Cats",
+      "venue": "Las Vegas",
+      "type": "sports",
+      "city": "Las Vegas",
+      "date": "2026-09-12",
+      "ts": 1789243200,
+      "url": "https://concerts.vegas/event/las-vegas-aviators-vs-sacramento-river-cats-las-vegas-saturday-september-12-2026-705-pm/"
+    },
+    {
+      "artist": "Beatbreaker",
+      "venue": "Marquee Dayclub",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-09-13",
+      "ts": 1789326000,
+      "url": "https://nocovernightclubs.com/events/beatbreaker-marquee-dayclub-sunday-september-13-2026/"
+    },
+    {
+      "artist": "Justin Credible",
+      "venue": "Tao Beach",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-09-13",
+      "ts": 1789326000,
+      "url": "https://nocovernightclubs.com/events/justin-credible-tao-beach-sunday-september-13-2026/"
     }
   ]
 }
