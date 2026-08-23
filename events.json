@@ -1,5 +1,5 @@
 {
-  "updated": 1787423866,
+  "updated": 1787467798,
   "events": [
     {
       "artist": "Rl Grime",
@@ -65,15 +65,6 @@
       "url": "https://nocovernightclubs.com/events/yo-yolie-jewel-nightclub-saturday-august-22-2026/"
     },
     {
-      "artist": "Marshmello",
-      "venue": "Encore Beach Club",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-08-22",
-      "ts": 1787425200,
-      "url": "https://nocovernightclubs.com/events/marshmello-encore-beach-club-saturday-august-22-2026/"
-    },
-    {
       "artist": "Kaskade",
       "venue": "EBC At Night",
       "type": "club",
@@ -135,51 +126,6 @@
       "date": "2026-08-22",
       "ts": 1787425200,
       "url": "https://nocovernightclubs.com/events/neon-vibra-tailgate-beach-club-saturday-august-22-2026/"
-    },
-    {
-      "artist": "Pbc Boxing Rolly Romero Vs Teofimo Lopez",
-      "venue": "T-Mobile Arena",
-      "type": "sports",
-      "city": "Las Vegas",
-      "date": "2026-08-22",
-      "ts": 1787428800,
-      "url": "https://concerts.vegas/event/pbc-boxing-rolly-romero-vs-teofimo-lopez-las-vegas-saturday-august-22-2026-tba/"
-    },
-    {
-      "artist": "Guns N Roses And The Black Crowes",
-      "venue": "Allegiant Stadium",
-      "type": "stadium",
-      "city": "Las Vegas",
-      "date": "2026-08-22",
-      "ts": 1787428800,
-      "url": "https://concerts.vegas/event/guns-n-roses-and-the-black-crowes-las-vegas-saturday-august-22-2026-625-pm/"
-    },
-    {
-      "artist": "Jeezy",
-      "venue": "Bakkt Theater at Planet Hollywood",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-08-22",
-      "ts": 1787428800,
-      "url": "https://concerts.vegas/event/jeezy-las-vegas-saturday-august-22-2026-800-pm/"
-    },
-    {
-      "artist": "Hatebreed",
-      "venue": "House of Blues",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-08-22",
-      "ts": 1787428800,
-      "url": "https://concerts.vegas/event/hatebreed-las-vegas-saturday-august-22-2026-445-pm/"
-    },
-    {
-      "artist": "Pbc Boxing Rolly Romero Vs Teofimo Lopez",
-      "venue": "Las Vegas",
-      "type": "sports",
-      "city": "Las Vegas",
-      "date": "2026-08-22",
-      "ts": 1787428800,
-      "url": "https://concerts.vegas/event/pbc-boxing-rolly-romero-vs-teofimo-lopez-las-vegas-saturday-august-22-2026-tba/"
     },
     {
       "artist": "Deseo",
@@ -2700,6 +2646,60 @@
       "date": "2026-09-13",
       "ts": 1789329600,
       "url": "https://concerts.vegas/event/las-vegas-raiders-vs-miami-dolphins-las-vegas-sunday-september-13-2026-125-pm/"
+    },
+    {
+      "artist": "Soda Stereo",
+      "venue": "Dolby Live at Park MGM",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-13",
+      "ts": 1789329600,
+      "url": "https://concerts.vegas/event/soda-stereo-las-vegas-sunday-september-13-2026-800-pm/"
+    },
+    {
+      "artist": "Palomazo Norteno",
+      "venue": "MGM Grand Garden Arena",
+      "type": "arena",
+      "city": "Las Vegas",
+      "date": "2026-09-13",
+      "ts": 1789329600,
+      "url": "https://concerts.vegas/event/palomazo-norteno-las-vegas-sunday-september-13-2026-800-pm/"
+    },
+    {
+      "artist": "The Alan Parsons Live Project",
+      "venue": "The Theater at Virgin Hotels",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-13",
+      "ts": 1789329600,
+      "url": "https://concerts.vegas/event/the-alan-parsons-live-project-las-vegas-sunday-september-13-2026-730-pm/"
+    },
+    {
+      "artist": "The Alan Parsons Live Project",
+      "venue": "24 Oxford at Virgin Hotels",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-13",
+      "ts": 1789329600,
+      "url": "https://concerts.vegas/event/the-alan-parsons-live-project-las-vegas-sunday-september-13-2026-730-pm/"
+    },
+    {
+      "artist": "Los Tucanes De Tijuana",
+      "venue": "Bakkt Theater at Planet Hollywood",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-13",
+      "ts": 1789329600,
+      "url": "https://concerts.vegas/event/los-tucanes-de-tijuana-las-vegas-sunday-september-13-2026-800-pm/"
+    },
+    {
+      "artist": "Las Vegas Aviators Vs Sacramento River Cats",
+      "venue": "Las Vegas",
+      "type": "sports",
+      "city": "Las Vegas",
+      "date": "2026-09-13",
+      "ts": 1789329600,
+      "url": "https://concerts.vegas/event/las-vegas-aviators-vs-sacramento-river-cats-las-vegas-sunday-september-13-2026-1205-pm/"
     }
   ]
 }
