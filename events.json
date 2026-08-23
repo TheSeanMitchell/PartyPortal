@@ -1,132 +1,6 @@
 {
-  "updated": 1787467798,
+  "updated": 1787489405,
   "events": [
-    {
-      "artist": "Rl Grime",
-      "venue": "Zouk",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-08-22",
-      "ts": 1787425200,
-      "url": "https://nocovernightclubs.com/events/rl-grime-zouk-nightclub-saturday-august-22-2026/"
-    },
-    {
-      "artist": "Steve Aoki",
-      "venue": "Omnia",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-08-22",
-      "ts": 1787425200,
-      "url": "https://nocovernightclubs.com/events/steve-aoki-omnia-nightclub-saturday-august-22-2026/"
-    },
-    {
-      "artist": "Angrybaby",
-      "venue": "Marquee",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-08-22",
-      "ts": 1787425200,
-      "url": "https://nocovernightclubs.com/events/angrybaby-marquee-nightclub-saturday-august-22-2026/"
-    },
-    {
-      "artist": "Dj Cutswell",
-      "venue": "Tao",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-08-22",
-      "ts": 1787425200,
-      "url": "https://nocovernightclubs.com/events/dj-cutswell-tao-nightclub-saturday-august-22-2026/"
-    },
-    {
-      "artist": "Ohgeesy",
-      "venue": "Hakkasan",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-08-22",
-      "ts": 1787425200,
-      "url": "https://nocovernightclubs.com/events/ohgeesy-hakkasan-nightclub-saturday-august-22-2026/"
-    },
-    {
-      "artist": "Ty Dolla Ign",
-      "venue": "LIV",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-08-22",
-      "ts": 1787425200,
-      "url": "https://nocovernightclubs.com/events/ty-dolla-ign-liv-nightclub-saturday-august-22-2026/"
-    },
-    {
-      "artist": "Yo Yolie",
-      "venue": "Jewel",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-08-22",
-      "ts": 1787425200,
-      "url": "https://nocovernightclubs.com/events/yo-yolie-jewel-nightclub-saturday-august-22-2026/"
-    },
-    {
-      "artist": "Kaskade",
-      "venue": "EBC At Night",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-08-22",
-      "ts": 1787425200,
-      "url": "https://nocovernightclubs.com/events/kaskade-ebc-at-night-saturday-august-22-2026/"
-    },
-    {
-      "artist": "Louis The Child",
-      "venue": "Marquee Dayclub",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-08-22",
-      "ts": 1787425200,
-      "url": "https://nocovernightclubs.com/events/louis-the-child-marquee-dayclub-saturday-august-22-2026/"
-    },
-    {
-      "artist": "Afrojack",
-      "venue": "Tao Beach",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-08-22",
-      "ts": 1787425200,
-      "url": "https://nocovernightclubs.com/events/afrojack-tao-beach-saturday-august-22-2026/"
-    },
-    {
-      "artist": "Kid Conrad",
-      "venue": "Liquid Pool",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-08-22",
-      "ts": 1787425200,
-      "url": "https://nocovernightclubs.com/events/kid-conrad-liquid-pool-saturday-august-22-2026/"
-    },
-    {
-      "artist": "Zedd",
-      "venue": "Palm Tree Beach",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-08-22",
-      "ts": 1787425200,
-      "url": "https://nocovernightclubs.com/events/zedd-palm-tree-beach-club-saturday-august-22-2026/"
-    },
-    {
-      "artist": "Sidepiece",
-      "venue": "LIV Beach",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-08-22",
-      "ts": 1787425200,
-      "url": "https://nocovernightclubs.com/events/sidepiece-liv-beach-saturday-august-22-2026/"
-    },
-    {
-      "artist": "Neon Vibra",
-      "venue": "Tailgate Beach",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-08-22",
-      "ts": 1787425200,
-      "url": "https://nocovernightclubs.com/events/neon-vibra-tailgate-beach-club-saturday-august-22-2026/"
-    },
     {
       "artist": "Deseo",
       "venue": "Omnia",
@@ -2700,6 +2574,78 @@
       "date": "2026-09-13",
       "ts": 1789329600,
       "url": "https://concerts.vegas/event/las-vegas-aviators-vs-sacramento-river-cats-las-vegas-sunday-september-13-2026-1205-pm/"
+    },
+    {
+      "artist": "Las Vegas Raiders Vs Miami Dolphins",
+      "venue": "Las Vegas",
+      "type": "sports",
+      "city": "Las Vegas",
+      "date": "2026-09-13",
+      "ts": 1789329600,
+      "url": "https://concerts.vegas/event/las-vegas-raiders-vs-miami-dolphins-las-vegas-sunday-september-13-2026-125-pm/"
+    },
+    {
+      "artist": "Special Guest",
+      "venue": "Marquee Dayclub",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-09-14",
+      "ts": 1789412400,
+      "url": "https://nocovernightclubs.com/events/special-guest-marquee-dayclub-monday-september-14-2026/"
+    },
+    {
+      "artist": "Alejandro Fernandez",
+      "venue": "MGM Grand Garden Arena",
+      "type": "arena",
+      "city": "Las Vegas",
+      "date": "2026-09-15",
+      "ts": 1789502400,
+      "url": "https://concerts.vegas/event/alejandro-fernandez-las-vegas-tuesday-september-15-2026-800-pm/"
+    },
+    {
+      "artist": "Dana Whites Contender Series 76 Las Vegas Ufc Apex",
+      "venue": "Las Vegas",
+      "type": "sports",
+      "city": "Las Vegas",
+      "date": "2026-09-15",
+      "ts": 1789502400,
+      "url": "https://concerts.vegas/event/dana-whites-contender-series-76-las-vegas-ufc-apex-tuesday-september-15-2026-4-00-pm/"
+    },
+    {
+      "artist": "Dj Buza",
+      "venue": "Liquid Pool",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-09-16",
+      "ts": 1789585200,
+      "url": "https://nocovernightclubs.com/events/dj-buza-liquid-pool-wednesday-september-16-2026/"
+    },
+    {
+      "artist": "Dj Paradice",
+      "venue": "Palm Tree Beach",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-09-16",
+      "ts": 1789585200,
+      "url": "https://nocovernightclubs.com/events/dj-paradice-palm-tree-beach-club-wednesday-september-16-2026/"
+    },
+    {
+      "artist": "Foreigner",
+      "venue": "The Colosseum at Caesars Palace",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-16",
+      "ts": 1789588800,
+      "url": "https://concerts.vegas/event/foreigner-las-vegas-wednesday-september-16-2026-800-pm/"
+    },
+    {
+      "artist": "Foreigner",
+      "venue": "Dolby Live at Park MGM",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-16",
+      "ts": 1789588800,
+      "url": "https://concerts.vegas/event/foreigner-las-vegas-wednesday-september-16-2026-800-pm/"
     }
   ]
 }
