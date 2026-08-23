@@ -1,5 +1,5 @@
 {
-  "updated": 1787489405,
+  "updated": 1787510198,
   "events": [
     {
       "artist": "Deseo",
@@ -1766,6 +1766,15 @@
       "url": "https://concerts.vegas/event/screeching-weasel-las-vegas-sunday-september-6-2026-630-pm/"
     },
     {
+      "artist": "Bop To The Top Las Vegas Brooklyn Bowl",
+      "venue": "Brooklyn Bowl",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-06",
+      "ts": 1788724800,
+      "url": "https://concerts.vegas/event/bop-to-the-top-las-vegas-brooklyn-bowl-las-vegas-sunday-september-6-2026-8-00-pm/"
+    },
+    {
       "artist": "Special Guest",
       "venue": "Marquee Dayclub",
       "type": "pool",
@@ -2432,15 +2441,6 @@
       "url": "https://concerts.vegas/event/donny-osmond-las-vegas-saturday-september-12-2026-730-pm/"
     },
     {
-      "artist": "Las Vegas Raiders Season Tickets Includes Tickets To All Regular Season Home Games",
-      "venue": "Las Vegas",
-      "type": "sports",
-      "city": "Las Vegas",
-      "date": "2026-09-12",
-      "ts": 1789243200,
-      "url": "https://concerts.vegas/event/las-vegas-raiders-season-tickets-includes-tickets-to-all-regular-season-home-games-las-vegas-saturday-september-12-2026-tba/"
-    },
-    {
       "artist": "Ryan Garcia Vs Conor Benn",
       "venue": "Las Vegas",
       "type": "sports",
@@ -2448,6 +2448,15 @@
       "date": "2026-09-12",
       "ts": 1789243200,
       "url": "https://concerts.vegas/event/ryan-garcia-vs-conor-benn-las-vegas-saturday-september-12-2026-tba/"
+    },
+    {
+      "artist": "Las Vegas Raiders Season Tickets Includes Tickets To All Regular Season Home Games",
+      "venue": "Las Vegas",
+      "type": "sports",
+      "city": "Las Vegas",
+      "date": "2026-09-12",
+      "ts": 1789243200,
+      "url": "https://concerts.vegas/event/las-vegas-raiders-season-tickets-includes-tickets-to-all-regular-season-home-games-las-vegas-saturday-september-12-2026-tba/"
     },
     {
       "artist": "Las Vegas Aviators Vs Sacramento River Cats",
@@ -2641,6 +2650,51 @@
     {
       "artist": "Foreigner",
       "venue": "Dolby Live at Park MGM",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-16",
+      "ts": 1789588800,
+      "url": "https://concerts.vegas/event/foreigner-las-vegas-wednesday-september-16-2026-800-pm/"
+    },
+    {
+      "artist": "Foreigner",
+      "venue": "Michelob Ultra Arena",
+      "type": "arena",
+      "city": "Las Vegas",
+      "date": "2026-09-16",
+      "ts": 1789588800,
+      "url": "https://concerts.vegas/event/foreigner-las-vegas-wednesday-september-16-2026-800-pm/"
+    },
+    {
+      "artist": "Foreigner",
+      "venue": "Resorts World Theatre",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-16",
+      "ts": 1789588800,
+      "url": "https://concerts.vegas/event/foreigner-las-vegas-wednesday-september-16-2026-800-pm/"
+    },
+    {
+      "artist": "Santana",
+      "venue": "House of Blues",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-16",
+      "ts": 1789588800,
+      "url": "https://concerts.vegas/event/santana-las-vegas-wednesday-september-16-2026-700-pm/"
+    },
+    {
+      "artist": "Foreigner",
+      "venue": "Encore Theater at Wynn",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-16",
+      "ts": 1789588800,
+      "url": "https://concerts.vegas/event/foreigner-las-vegas-wednesday-september-16-2026-800-pm/"
+    },
+    {
+      "artist": "Foreigner",
+      "venue": "BleauLive Theater at Fontainebleau",
       "type": "concert",
       "city": "Las Vegas",
       "date": "2026-09-16",
