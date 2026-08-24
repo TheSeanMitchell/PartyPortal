@@ -1,5 +1,5 @@
 {
-  "updated": 1787555283,
+  "updated": 1787576426,
   "events": [
     {
       "artist": "Justin Credible",
@@ -2369,15 +2369,6 @@
       "url": "https://concerts.vegas/event/donny-osmond-las-vegas-saturday-september-12-2026-730-pm/"
     },
     {
-      "artist": "Ryan Garcia Vs Conor Benn",
-      "venue": "Las Vegas",
-      "type": "sports",
-      "city": "Las Vegas",
-      "date": "2026-09-12",
-      "ts": 1789243200,
-      "url": "https://concerts.vegas/event/ryan-garcia-vs-conor-benn-las-vegas-saturday-september-12-2026-tba/"
-    },
-    {
       "artist": "Las Vegas Raiders Season Tickets Includes Tickets To All Regular Season Home Games",
       "venue": "Las Vegas",
       "type": "sports",
@@ -2385,6 +2376,15 @@
       "date": "2026-09-12",
       "ts": 1789243200,
       "url": "https://concerts.vegas/event/las-vegas-raiders-season-tickets-includes-tickets-to-all-regular-season-home-games-las-vegas-saturday-september-12-2026-tba/"
+    },
+    {
+      "artist": "Ryan Garcia Vs Conor Benn",
+      "venue": "Las Vegas",
+      "type": "sports",
+      "city": "Las Vegas",
+      "date": "2026-09-12",
+      "ts": 1789243200,
+      "url": "https://concerts.vegas/event/ryan-garcia-vs-conor-benn-las-vegas-saturday-september-12-2026-tba/"
     },
     {
       "artist": "Las Vegas Aviators Vs Sacramento River Cats",
@@ -2646,6 +2646,24 @@
       "date": "2026-09-17",
       "ts": 1789671600,
       "url": "https://nocovernightclubs.com/events/special-guest-marquee-dayclub-thursday-september-17-2026/"
+    },
+    {
+      "artist": "Special Guest",
+      "venue": "Tao Beach",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-09-17",
+      "ts": 1789671600,
+      "url": "https://nocovernightclubs.com/events/special-guest-tao-beach-thursday-september-17-2026/"
+    },
+    {
+      "artist": "Dj Shr3d",
+      "venue": "Liquid Pool",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-09-17",
+      "ts": 1789671600,
+      "url": "https://nocovernightclubs.com/events/dj-shr3d-liquid-pool-thursday-september-17-2026/"
     }
   ]
 }
