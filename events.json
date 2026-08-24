@@ -1,5 +1,5 @@
 {
-  "updated": 1787576426,
+  "updated": 1787597307,
   "events": [
     {
       "artist": "Justin Credible",
@@ -2664,6 +2664,42 @@
       "date": "2026-09-17",
       "ts": 1789671600,
       "url": "https://nocovernightclubs.com/events/dj-shr3d-liquid-pool-thursday-september-17-2026/"
+    },
+    {
+      "artist": "Dj Mondo",
+      "venue": "Palm Tree Beach",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-09-17",
+      "ts": 1789671600,
+      "url": "https://nocovernightclubs.com/events/dj-mondo-palm-tree-beach-club-thursday-september-17-2026/"
+    },
+    {
+      "artist": "Barry Manilow",
+      "venue": "The Colosseum at Caesars Palace",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-17",
+      "ts": 1789675200,
+      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-thursday-september-17-2026-700-pm/"
+    },
+    {
+      "artist": "Scorpions",
+      "venue": "The Colosseum at Caesars Palace",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-17",
+      "ts": 1789675200,
+      "url": "https://concerts.vegas/event/scorpions-las-vegas-thursday-september-17-2026-800-pm/"
+    },
+    {
+      "artist": "Barry Manilow",
+      "venue": "Dolby Live at Park MGM",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-17",
+      "ts": 1789675200,
+      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-thursday-september-17-2026-700-pm/"
     }
   ]
 }
