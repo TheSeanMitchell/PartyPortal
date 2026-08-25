@@ -1,5 +1,5 @@
 {
-  "updated": 1787662600,
+  "updated": 1787683644,
   "events": [
     {
       "artist": "Mikey Francis",
@@ -54,15 +54,6 @@
       "date": "2026-08-26",
       "ts": 1787770800,
       "url": "https://nocovernightclubs.com/events/its-murph-ebc-at-night-wednesday-august-26-2026/"
-    },
-    {
-      "artist": "Dj Buza",
-      "venue": "Liquid Pool",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-08-26",
-      "ts": 1787770800,
-      "url": "https://nocovernightclubs.com/events/dj-buza-liquid-pool-wednesday-august-26-2026/"
     },
     {
       "artist": "Special Guest",
@@ -126,15 +117,6 @@
       "date": "2026-08-27",
       "ts": 1787857200,
       "url": "https://nocovernightclubs.com/events/special-guest-tao-beach-thursday-august-27-2026/"
-    },
-    {
-      "artist": "Dj Shr3d",
-      "venue": "Liquid Pool",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-08-27",
-      "ts": 1787857200,
-      "url": "https://nocovernightclubs.com/events/dj-shr3d-liquid-pool-thursday-august-27-2026/"
     },
     {
       "artist": "Ross",
@@ -333,15 +315,6 @@
       "date": "2026-08-28",
       "ts": 1787943600,
       "url": "https://nocovernightclubs.com/events/laszewo-tao-beach-friday-august-28-2026/"
-    },
-    {
-      "artist": "Dj Que",
-      "venue": "Liquid Pool",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-08-28",
-      "ts": 1787943600,
-      "url": "https://nocovernightclubs.com/events/dj-que-liquid-pool-friday-august-28-2026/"
     },
     {
       "artist": "Four Color Zack",
@@ -549,15 +522,6 @@
       "date": "2026-08-29",
       "ts": 1788030000,
       "url": "https://nocovernightclubs.com/events/dj-pauly-d-tao-beach-saturday-august-29-2026/"
-    },
-    {
-      "artist": "Kid Conrad",
-      "venue": "Liquid Pool",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-08-29",
-      "ts": 1788030000,
-      "url": "https://nocovernightclubs.com/events/kid-conrad-liquid-pool-saturday-august-29-2026/"
     },
     {
       "artist": "Chris Lake",
@@ -839,15 +803,6 @@
       "url": "https://nocovernightclubs.com/events/murda-beatz-tao-beach-sunday-august-30-2026/"
     },
     {
-      "artist": "Eric Remy",
-      "venue": "Liquid Pool",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-08-30",
-      "ts": 1788116400,
-      "url": "https://nocovernightclubs.com/events/eric-remy-liquid-pool-sunday-august-30-2026/"
-    },
-    {
       "artist": "Reggaetonlandia",
       "venue": "Omnia Dayclub",
       "type": "pool",
@@ -909,15 +864,6 @@
       "date": "2026-09-01",
       "ts": 1788292800,
       "url": "https://concerts.vegas/event/dana-whites-contender-series-74-las-vegas-ufc-apex-tuesday-september-1-2026-4-00-pm/"
-    },
-    {
-      "artist": "Dj Buza",
-      "venue": "Liquid Pool",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-09-02",
-      "ts": 1788375600,
-      "url": "https://nocovernightclubs.com/events/dj-buza-liquid-pool-wednesday-september-2-2026/"
     },
     {
       "artist": "Special Guest",
@@ -1019,15 +965,6 @@
       "url": "https://nocovernightclubs.com/events/special-guest-tao-beach-thursday-september-3-2026/"
     },
     {
-      "artist": "Dj Shr3d",
-      "venue": "Liquid Pool",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-09-03",
-      "ts": 1788462000,
-      "url": "https://nocovernightclubs.com/events/dj-shr3d-liquid-pool-thursday-september-3-2026/"
-    },
-    {
       "artist": "Dj Mondo",
       "venue": "Palm Tree Beach",
       "type": "pool",
@@ -1125,15 +1062,6 @@
       "date": "2026-09-04",
       "ts": 1788548400,
       "url": "https://nocovernightclubs.com/events/cedric-gervais-tao-beach-friday-september-4-2026/"
-    },
-    {
-      "artist": "Dj Que",
-      "venue": "Liquid Pool",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-09-04",
-      "ts": 1788548400,
-      "url": "https://nocovernightclubs.com/events/dj-que-liquid-pool-friday-september-4-2026/"
     },
     {
       "artist": "Dj Five",
@@ -1379,15 +1307,6 @@
       "url": "https://nocovernightclubs.com/events/chris-lake-tao-beach-saturday-september-5-2026/"
     },
     {
-      "artist": "Kid Conrad",
-      "venue": "Liquid Pool",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-09-05",
-      "ts": 1788634800,
-      "url": "https://nocovernightclubs.com/events/kid-conrad-liquid-pool-saturday-september-5-2026/"
-    },
-    {
       "artist": "Martin Garrix",
       "venue": "Palm Tree Beach",
       "type": "pool",
@@ -1595,15 +1514,6 @@
       "url": "https://nocovernightclubs.com/events/steve-aoki-tao-beach-sunday-september-6-2026/"
     },
     {
-      "artist": "Eric Remy",
-      "venue": "Liquid Pool",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-09-06",
-      "ts": 1788721200,
-      "url": "https://nocovernightclubs.com/events/eric-remy-liquid-pool-sunday-september-6-2026-2/"
-    },
-    {
       "artist": "Blondish",
       "venue": "Palm Tree Beach",
       "type": "pool",
@@ -1775,15 +1685,6 @@
       "url": "https://concerts.vegas/event/las-vegas-aviators-vs-sacramento-river-cats-las-vegas-tuesday-september-8-2026-705-pm/"
     },
     {
-      "artist": "Dj Buza",
-      "venue": "Liquid Pool",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-09-09",
-      "ts": 1788980400,
-      "url": "https://nocovernightclubs.com/events/dj-buza-liquid-pool-wednesday-september-9-2026/"
-    },
-    {
       "artist": "Dj Lucky Lou",
       "venue": "Palm Tree Beach",
       "type": "pool",
@@ -1881,15 +1782,6 @@
       "date": "2026-09-10",
       "ts": 1789066800,
       "url": "https://nocovernightclubs.com/events/special-guest-tao-beach-thursday-september-10-2026/"
-    },
-    {
-      "artist": "Dj Shr3d",
-      "venue": "Liquid Pool",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-09-10",
-      "ts": 1789066800,
-      "url": "https://nocovernightclubs.com/events/dj-shr3d-liquid-pool-thursday-september-10-2026/"
     },
     {
       "artist": "Mikey Francis",
@@ -2007,15 +1899,6 @@
       "date": "2026-09-11",
       "ts": 1789153200,
       "url": "https://nocovernightclubs.com/events/lavern-tao-beach-friday-september-11-2026/"
-    },
-    {
-      "artist": "Dj Que",
-      "venue": "Liquid Pool",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-09-11",
-      "ts": 1789153200,
-      "url": "https://nocovernightclubs.com/events/dj-que-liquid-pool-friday-september-11-2026/"
     },
     {
       "artist": "Mike Attack",
@@ -2196,15 +2079,6 @@
       "date": "2026-09-12",
       "ts": 1789239600,
       "url": "https://nocovernightclubs.com/events/martin-garrix-tao-beach-saturday-september-12-2026/"
-    },
-    {
-      "artist": "Kid Conrad",
-      "venue": "Liquid Pool",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-09-12",
-      "ts": 1789239600,
-      "url": "https://nocovernightclubs.com/events/kid-conrad-liquid-pool-saturday-september-12-2026/"
     },
     {
       "artist": "Kygo",
@@ -2396,15 +2270,6 @@
       "url": "https://nocovernightclubs.com/events/justin-credible-tao-beach-sunday-september-13-2026/"
     },
     {
-      "artist": "Eric Remy",
-      "venue": "Liquid Pool",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-09-13",
-      "ts": 1789326000,
-      "url": "https://nocovernightclubs.com/events/eric-remy-liquid-pool-sunday-september-13-2026/"
-    },
-    {
       "artist": "Street Mob Takeover",
       "venue": "Omnia Dayclub",
       "type": "pool",
@@ -2531,15 +2396,6 @@
       "url": "https://concerts.vegas/event/dana-whites-contender-series-76-las-vegas-ufc-apex-tuesday-september-15-2026-4-00-pm/"
     },
     {
-      "artist": "Dj Buza",
-      "venue": "Liquid Pool",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-09-16",
-      "ts": 1789585200,
-      "url": "https://nocovernightclubs.com/events/dj-buza-liquid-pool-wednesday-september-16-2026/"
-    },
-    {
       "artist": "Dj Paradice",
       "venue": "Palm Tree Beach",
       "type": "pool",
@@ -2639,15 +2495,6 @@
       "url": "https://nocovernightclubs.com/events/special-guest-tao-beach-thursday-september-17-2026/"
     },
     {
-      "artist": "Dj Shr3d",
-      "venue": "Liquid Pool",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-09-17",
-      "ts": 1789671600,
-      "url": "https://nocovernightclubs.com/events/dj-shr3d-liquid-pool-thursday-september-17-2026/"
-    },
-    {
       "artist": "Dj Mondo",
       "venue": "Palm Tree Beach",
       "type": "pool",
@@ -2691,6 +2538,168 @@
       "date": "2026-09-17",
       "ts": 1789675200,
       "url": "https://concerts.vegas/event/scorpions-las-vegas-thursday-september-17-2026-800-pm/"
+    },
+    {
+      "artist": "Barry Manilow",
+      "venue": "Michelob Ultra Arena",
+      "type": "arena",
+      "city": "Las Vegas",
+      "date": "2026-09-17",
+      "ts": 1789675200,
+      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-thursday-september-17-2026-700-pm/"
+    },
+    {
+      "artist": "Scorpions",
+      "venue": "Michelob Ultra Arena",
+      "type": "arena",
+      "city": "Las Vegas",
+      "date": "2026-09-17",
+      "ts": 1789675200,
+      "url": "https://concerts.vegas/event/scorpions-las-vegas-thursday-september-17-2026-800-pm/"
+    },
+    {
+      "artist": "Barry Manilow",
+      "venue": "Resorts World Theatre",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-17",
+      "ts": 1789675200,
+      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-thursday-september-17-2026-700-pm/"
+    },
+    {
+      "artist": "Scorpions",
+      "venue": "Resorts World Theatre",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-17",
+      "ts": 1789675200,
+      "url": "https://concerts.vegas/event/scorpions-las-vegas-thursday-september-17-2026-800-pm/"
+    },
+    {
+      "artist": "Scorpions",
+      "venue": "Bakkt Theater at Planet Hollywood",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-17",
+      "ts": 1789675200,
+      "url": "https://concerts.vegas/event/scorpions-las-vegas-thursday-september-17-2026-800-pm/"
+    },
+    {
+      "artist": "Santana",
+      "venue": "House of Blues",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-17",
+      "ts": 1789675200,
+      "url": "https://concerts.vegas/event/santana-las-vegas-thursday-september-17-2026-700-pm/"
+    },
+    {
+      "artist": "Barry Manilow",
+      "venue": "Encore Theater at Wynn",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-17",
+      "ts": 1789675200,
+      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-thursday-september-17-2026-700-pm/"
+    },
+    {
+      "artist": "Scorpions",
+      "venue": "Encore Theater at Wynn",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-17",
+      "ts": 1789675200,
+      "url": "https://concerts.vegas/event/scorpions-las-vegas-thursday-september-17-2026-800-pm/"
+    },
+    {
+      "artist": "Barry Manilow",
+      "venue": "BleauLive Theater at Fontainebleau",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-17",
+      "ts": 1789675200,
+      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-thursday-september-17-2026-700-pm/"
+    },
+    {
+      "artist": "Scorpions",
+      "venue": "BleauLive Theater at Fontainebleau",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-17",
+      "ts": 1789675200,
+      "url": "https://concerts.vegas/event/scorpions-las-vegas-thursday-september-17-2026-800-pm/"
+    },
+    {
+      "artist": "Barry Manilow",
+      "venue": "Pearl Theater at Palms",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-17",
+      "ts": 1789675200,
+      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-thursday-september-17-2026-700-pm/"
+    },
+    {
+      "artist": "Scorpions",
+      "venue": "Pearl Theater at Palms",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-17",
+      "ts": 1789675200,
+      "url": "https://concerts.vegas/event/scorpions-las-vegas-thursday-september-17-2026-800-pm/"
+    },
+    {
+      "artist": "Mike Attack",
+      "venue": "Marquee Dayclub",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-09-18",
+      "ts": 1789758000,
+      "url": "https://nocovernightclubs.com/events/mike-attack-marquee-dayclub-friday-september-18-2026/"
+    },
+    {
+      "artist": "Nimino",
+      "venue": "Tao Beach",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-09-18",
+      "ts": 1789758000,
+      "url": "https://nocovernightclubs.com/events/nimino-tao-beach-friday-september-18-2026/"
+    },
+    {
+      "artist": "Dj E Rock",
+      "venue": "Palm Tree Beach",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-09-18",
+      "ts": 1789758000,
+      "url": "https://nocovernightclubs.com/events/dj-e-rock-palm-tree-beach-club-friday-september-18-2026/"
+    },
+    {
+      "artist": "Iheartradio Music Festival Bts Cardi B Snoop Dogg And Muse 2 Day Pass",
+      "venue": "T-Mobile Arena",
+      "type": "arena",
+      "city": "Las Vegas",
+      "date": "2026-09-18",
+      "ts": 1789761600,
+      "url": "https://concerts.vegas/event/iheartradio-music-festival-bts-cardi-b-snoop-dogg-and-muse-2-day-pass-las-vegas-friday-september-18-2026-tba/"
+    },
+    {
+      "artist": "Iheartradio Music Festival Bts Cardi B Goo Goo Dolls And Kenny Chesney Friday",
+      "venue": "T-Mobile Arena",
+      "type": "arena",
+      "city": "Las Vegas",
+      "date": "2026-09-18",
+      "ts": 1789761600,
+      "url": "https://concerts.vegas/event/iheartradio-music-festival-bts-cardi-b-goo-goo-dolls-and-kenny-chesney-friday-las-vegas-friday-september-18-2026-730-pm/"
+    },
+    {
+      "artist": "Usher And Chris Brown",
+      "venue": "Allegiant Stadium",
+      "type": "stadium",
+      "city": "Las Vegas",
+      "date": "2026-09-18",
+      "ts": 1789761600,
+      "url": "https://concerts.vegas/event/usher-and-chris-brown-las-vegas-friday-september-18-2026-700-pm/"
     }
   ]
 }
