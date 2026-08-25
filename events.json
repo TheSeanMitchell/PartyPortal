@@ -1,5 +1,5 @@
 {
-  "updated": 1787597307,
+  "updated": 1787641042,
   "events": [
     {
       "artist": "Justin Credible",
@@ -587,15 +587,6 @@
       "url": "https://nocovernightclubs.com/events/chris-lake-palm-tree-beach-club-saturday-august-29-2026/"
     },
     {
-      "artist": "Tiesto",
-      "venue": "LIV Beach",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-08-29",
-      "ts": 1788030000,
-      "url": "https://nocovernightclubs.com/events/tiesto-liv-beach-saturday-august-29-2026/"
-    },
-    {
       "artist": "Players Era Volleyball Showcase 2 Day Pass Las Vegas T Mobile Arena",
       "venue": "T-Mobile Arena",
       "type": "arena",
@@ -1163,15 +1154,6 @@
       "url": "https://nocovernightclubs.com/events/dj-five-palm-tree-beach-club-friday-september-4-2026/"
     },
     {
-      "artist": "Sidepiece",
-      "venue": "LIV Beach",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-09-04",
-      "ts": 1788548400,
-      "url": "https://nocovernightclubs.com/events/sidepiece-liv-beach-friday-september-4-2026/"
-    },
-    {
       "artist": "Donny Osmond",
       "venue": "The Colosseum at Caesars Palace",
       "type": "concert",
@@ -1415,15 +1397,6 @@
       "url": "https://nocovernightclubs.com/events/martin-garrix-palm-tree-beach-club-saturday-september-5-2026/"
     },
     {
-      "artist": "Dom Dolla",
-      "venue": "LIV Beach",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-09-05",
-      "ts": 1788634800,
-      "url": "https://nocovernightclubs.com/events/dom-dolla-liv-beach-saturday-september-5-2026/"
-    },
-    {
       "artist": "Usher And Chris Brown",
       "venue": "Allegiant Stadium",
       "type": "stadium",
@@ -1629,15 +1602,6 @@
       "date": "2026-09-06",
       "ts": 1788721200,
       "url": "https://nocovernightclubs.com/events/blondish-palm-tree-beach-club-sunday-september-6-2026/"
-    },
-    {
-      "artist": "Disclosure",
-      "venue": "LIV Beach",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-09-06",
-      "ts": 1788721200,
-      "url": "https://nocovernightclubs.com/events/disclosure-liv-beach-sunday-september-6-2026/"
     },
     {
       "artist": "J Cole",
@@ -2045,15 +2009,6 @@
       "url": "https://nocovernightclubs.com/events/mike-attack-palm-tree-beach-club-friday-september-11-2026/"
     },
     {
-      "artist": "Layton Giordani",
-      "venue": "LIV Beach",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-09-11",
-      "ts": 1789153200,
-      "url": "https://nocovernightclubs.com/events/layton-giordani-liv-beach-friday-september-11-2026/"
-    },
-    {
       "artist": "Mana",
       "venue": "T-Mobile Arena",
       "type": "arena",
@@ -2234,15 +2189,6 @@
       "url": "https://nocovernightclubs.com/events/kygo-palm-tree-beach-club-saturday-september-12-2026/"
     },
     {
-      "artist": "Dom Dolla",
-      "venue": "LIV Beach",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-09-12",
-      "ts": 1789239600,
-      "url": "https://nocovernightclubs.com/events/dom-dolla-liv-beach-saturday-september-12-2026/"
-    },
-    {
       "artist": "Ryan Garcia Vs Conor Benn",
       "venue": "T-Mobile Arena",
       "type": "sports",
@@ -2369,15 +2315,6 @@
       "url": "https://concerts.vegas/event/donny-osmond-las-vegas-saturday-september-12-2026-730-pm/"
     },
     {
-      "artist": "Las Vegas Raiders Season Tickets Includes Tickets To All Regular Season Home Games",
-      "venue": "Las Vegas",
-      "type": "sports",
-      "city": "Las Vegas",
-      "date": "2026-09-12",
-      "ts": 1789243200,
-      "url": "https://concerts.vegas/event/las-vegas-raiders-season-tickets-includes-tickets-to-all-regular-season-home-games-las-vegas-saturday-september-12-2026-tba/"
-    },
-    {
       "artist": "Ryan Garcia Vs Conor Benn",
       "venue": "Las Vegas",
       "type": "sports",
@@ -2385,6 +2322,15 @@
       "date": "2026-09-12",
       "ts": 1789243200,
       "url": "https://concerts.vegas/event/ryan-garcia-vs-conor-benn-las-vegas-saturday-september-12-2026-tba/"
+    },
+    {
+      "artist": "Las Vegas Raiders Season Tickets Includes Tickets To All Regular Season Home Games",
+      "venue": "Las Vegas",
+      "type": "sports",
+      "city": "Las Vegas",
+      "date": "2026-09-12",
+      "ts": 1789243200,
+      "url": "https://concerts.vegas/event/las-vegas-raiders-season-tickets-includes-tickets-to-all-regular-season-home-games-las-vegas-saturday-september-12-2026-tba/"
     },
     {
       "artist": "Las Vegas Aviators Vs Sacramento River Cats",
@@ -2430,15 +2376,6 @@
       "date": "2026-09-13",
       "ts": 1789326000,
       "url": "https://nocovernightclubs.com/events/street-mob-takeover-omnia-dayclub-saturday-september-13-2026/"
-    },
-    {
-      "artist": "Reggaeton Landia",
-      "venue": "LIV Beach",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-09-13",
-      "ts": 1789326000,
-      "url": "https://nocovernightclubs.com/events/reggaeton-landia-liv-beach-sunday-september-13-2026/"
     },
     {
       "artist": "Chuy Lizarraga Julio Preciado And Luis Angel Las Vegas T Mobile Arena",
@@ -2700,6 +2637,69 @@
       "date": "2026-09-17",
       "ts": 1789675200,
       "url": "https://concerts.vegas/event/barry-manilow-las-vegas-thursday-september-17-2026-700-pm/"
+    },
+    {
+      "artist": "Scorpions",
+      "venue": "Dolby Live at Park MGM",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-17",
+      "ts": 1789675200,
+      "url": "https://concerts.vegas/event/scorpions-las-vegas-thursday-september-17-2026-800-pm/"
+    },
+    {
+      "artist": "Barry Manilow",
+      "venue": "Michelob Ultra Arena",
+      "type": "arena",
+      "city": "Las Vegas",
+      "date": "2026-09-17",
+      "ts": 1789675200,
+      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-thursday-september-17-2026-700-pm/"
+    },
+    {
+      "artist": "Scorpions",
+      "venue": "Michelob Ultra Arena",
+      "type": "arena",
+      "city": "Las Vegas",
+      "date": "2026-09-17",
+      "ts": 1789675200,
+      "url": "https://concerts.vegas/event/scorpions-las-vegas-thursday-september-17-2026-800-pm/"
+    },
+    {
+      "artist": "Barry Manilow",
+      "venue": "Resorts World Theatre",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-17",
+      "ts": 1789675200,
+      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-thursday-september-17-2026-700-pm/"
+    },
+    {
+      "artist": "Scorpions",
+      "venue": "Resorts World Theatre",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-17",
+      "ts": 1789675200,
+      "url": "https://concerts.vegas/event/scorpions-las-vegas-thursday-september-17-2026-800-pm/"
+    },
+    {
+      "artist": "Scorpions",
+      "venue": "Bakkt Theater at Planet Hollywood",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-17",
+      "ts": 1789675200,
+      "url": "https://concerts.vegas/event/scorpions-las-vegas-thursday-september-17-2026-800-pm/"
+    },
+    {
+      "artist": "Santana",
+      "venue": "House of Blues",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-17",
+      "ts": 1789675200,
+      "url": "https://concerts.vegas/event/santana-las-vegas-thursday-september-17-2026-700-pm/"
     }
   ]
 }
