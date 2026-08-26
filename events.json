@@ -1,15 +1,6 @@
 {
-  "updated": 1787727478,
+  "updated": 1787749373,
   "events": [
-    {
-      "artist": "Mikey Francis",
-      "venue": "Omnia",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-08-25",
-      "ts": 1787684400,
-      "url": "https://nocovernightclubs.com/events/mikey-francis-omnia-nightclub-tuesday-august-25-2026/"
-    },
     {
       "artist": "Mele",
       "venue": "Marquee",
@@ -2700,6 +2691,15 @@
       "date": "2026-09-17",
       "ts": 1789675200,
       "url": "https://concerts.vegas/event/scorpions-las-vegas-thursday-september-17-2026-800-pm/"
+    },
+    {
+      "artist": "Santana",
+      "venue": "House of Blues",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-17",
+      "ts": 1789675200,
+      "url": "https://concerts.vegas/event/santana-las-vegas-thursday-september-17-2026-700-pm/"
     }
   ]
 }
