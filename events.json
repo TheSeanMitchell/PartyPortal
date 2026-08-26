@@ -1,5 +1,5 @@
 {
-  "updated": 1787749373,
+  "updated": 1787773995,
   "events": [
     {
       "artist": "Mele",
@@ -2297,6 +2297,15 @@
       "url": "https://concerts.vegas/event/donny-osmond-las-vegas-saturday-september-12-2026-730-pm/"
     },
     {
+      "artist": "Club 90s 2000s Night Las Vegas Brooklyn Bowl",
+      "venue": "Brooklyn Bowl",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-12",
+      "ts": 1789243200,
+      "url": "https://concerts.vegas/event/club-90s-2000s-night-las-vegas-brooklyn-bowl-las-vegas-saturday-september-12-2026-9-00-pm/"
+    },
+    {
       "artist": "Donny Osmond",
       "venue": "Pearl Theater at Palms",
       "type": "concert",
@@ -2306,15 +2315,6 @@
       "url": "https://concerts.vegas/event/donny-osmond-las-vegas-saturday-september-12-2026-730-pm/"
     },
     {
-      "artist": "Las Vegas Raiders Season Tickets Includes Tickets To All Regular Season Home Games",
-      "venue": "Las Vegas",
-      "type": "sports",
-      "city": "Las Vegas",
-      "date": "2026-09-12",
-      "ts": 1789243200,
-      "url": "https://concerts.vegas/event/las-vegas-raiders-season-tickets-includes-tickets-to-all-regular-season-home-games-las-vegas-saturday-september-12-2026-tba/"
-    },
-    {
       "artist": "Ryan Garcia Vs Conor Benn",
       "venue": "Las Vegas",
       "type": "sports",
@@ -2322,6 +2322,15 @@
       "date": "2026-09-12",
       "ts": 1789243200,
       "url": "https://concerts.vegas/event/ryan-garcia-vs-conor-benn-las-vegas-saturday-september-12-2026-tba/"
+    },
+    {
+      "artist": "Las Vegas Raiders Season Tickets Includes Tickets To All Regular Season Home Games",
+      "venue": "Las Vegas",
+      "type": "sports",
+      "city": "Las Vegas",
+      "date": "2026-09-12",
+      "ts": 1789243200,
+      "url": "https://concerts.vegas/event/las-vegas-raiders-season-tickets-includes-tickets-to-all-regular-season-home-games-las-vegas-saturday-september-12-2026-tba/"
     },
     {
       "artist": "Las Vegas Aviators Vs Sacramento River Cats",
@@ -2691,15 +2700,6 @@
       "date": "2026-09-17",
       "ts": 1789675200,
       "url": "https://concerts.vegas/event/scorpions-las-vegas-thursday-september-17-2026-800-pm/"
-    },
-    {
-      "artist": "Santana",
-      "venue": "House of Blues",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-09-17",
-      "ts": 1789675200,
-      "url": "https://concerts.vegas/event/santana-las-vegas-thursday-september-17-2026-700-pm/"
     }
   ]
 }
