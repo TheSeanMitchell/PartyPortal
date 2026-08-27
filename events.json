@@ -1,60 +1,6 @@
 {
-  "updated": 1787773995,
+  "updated": 1787851896,
   "events": [
-    {
-      "artist": "Mele",
-      "venue": "Marquee",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-08-26",
-      "ts": 1787770800,
-      "url": "https://nocovernightclubs.com/events/mele-marquee-nightclub-wednesday-august-26-2026/"
-    },
-    {
-      "artist": "Dj Franzen",
-      "venue": "Hakkasan",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-08-26",
-      "ts": 1787770800,
-      "url": "https://nocovernightclubs.com/events/dj-franzen-hakkasan-nightclub-wednesday-august-26-2026/"
-    },
-    {
-      "artist": "Its Murph",
-      "venue": "EBC At Night",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-08-26",
-      "ts": 1787770800,
-      "url": "https://nocovernightclubs.com/events/its-murph-ebc-at-night-wednesday-august-26-2026/"
-    },
-    {
-      "artist": "Dj Buza",
-      "venue": "Liquid Pool",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-08-26",
-      "ts": 1787770800,
-      "url": "https://nocovernightclubs.com/events/dj-buza-liquid-pool-wednesday-august-26-2026/"
-    },
-    {
-      "artist": "Special Guest",
-      "venue": "Palm Tree Beach",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-08-26",
-      "ts": 1787770800,
-      "url": "https://nocovernightclubs.com/events/special-guest-palm-tree-beach-club-wednesday-august-26-2026/"
-    },
-    {
-      "artist": "Las Vegas Aviators Vs Sugar Land Space Cowboys",
-      "venue": "Las Vegas",
-      "type": "sports",
-      "city": "Las Vegas",
-      "date": "2026-08-26",
-      "ts": 1787774400,
-      "url": "https://concerts.vegas/event/las-vegas-aviators-vs-sugar-land-space-cowboys-las-vegas-wednesday-august-26-2026-705-pm/"
-    },
     {
       "artist": "Special Guest",
       "venue": "Omnia",
@@ -126,69 +72,6 @@
       "date": "2026-08-27",
       "ts": 1787860800,
       "url": "https://concerts.vegas/event/nfl-preseason-las-vegas-raiders-vs-san-francisco-49ers-las-vegas-thursday-august-27-2026-500-pm/"
-    },
-    {
-      "artist": "Barry Manilow",
-      "venue": "The Colosseum at Caesars Palace",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-08-27",
-      "ts": 1787860800,
-      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-thursday-august-27-2026-700-pm/"
-    },
-    {
-      "artist": "Barry Manilow",
-      "venue": "Dolby Live at Park MGM",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-08-27",
-      "ts": 1787860800,
-      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-thursday-august-27-2026-700-pm/"
-    },
-    {
-      "artist": "Barry Manilow",
-      "venue": "Michelob Ultra Arena",
-      "type": "arena",
-      "city": "Las Vegas",
-      "date": "2026-08-27",
-      "ts": 1787860800,
-      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-thursday-august-27-2026-700-pm/"
-    },
-    {
-      "artist": "Barry Manilow",
-      "venue": "Resorts World Theatre",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-08-27",
-      "ts": 1787860800,
-      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-thursday-august-27-2026-700-pm/"
-    },
-    {
-      "artist": "Barry Manilow",
-      "venue": "Encore Theater at Wynn",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-08-27",
-      "ts": 1787860800,
-      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-thursday-august-27-2026-700-pm/"
-    },
-    {
-      "artist": "Barry Manilow",
-      "venue": "BleauLive Theater at Fontainebleau",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-08-27",
-      "ts": 1787860800,
-      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-thursday-august-27-2026-700-pm/"
-    },
-    {
-      "artist": "Barry Manilow",
-      "venue": "Pearl Theater at Palms",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-08-27",
-      "ts": 1787860800,
-      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-thursday-august-27-2026-700-pm/"
     },
     {
       "artist": "Nfl Preseason Las Vegas Raiders Vs San Francisco 49ers",
@@ -326,15 +209,6 @@
       "url": "https://nocovernightclubs.com/events/four-color-zack-palm-tree-beach-club-friday-august-28-2026/"
     },
     {
-      "artist": "Barry Manilow",
-      "venue": "The Colosseum at Caesars Palace",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-08-28",
-      "ts": 1787947200,
-      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-friday-august-28-2026-800-pm/"
-    },
-    {
       "artist": "Mary J Blige",
       "venue": "Dolby Live at Park MGM",
       "type": "concert",
@@ -344,51 +218,6 @@
       "url": "https://concerts.vegas/event/mary-j-blige-las-vegas-friday-august-28-2026-800-pm/"
     },
     {
-      "artist": "Barry Manilow",
-      "venue": "Dolby Live at Park MGM",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-08-28",
-      "ts": 1787947200,
-      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-friday-august-28-2026-800-pm/"
-    },
-    {
-      "artist": "Barry Manilow",
-      "venue": "Michelob Ultra Arena",
-      "type": "arena",
-      "city": "Las Vegas",
-      "date": "2026-08-28",
-      "ts": 1787947200,
-      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-friday-august-28-2026-800-pm/"
-    },
-    {
-      "artist": "Barry Manilow",
-      "venue": "Resorts World Theatre",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-08-28",
-      "ts": 1787947200,
-      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-friday-august-28-2026-800-pm/"
-    },
-    {
-      "artist": "Barry Manilow",
-      "venue": "Encore Theater at Wynn",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-08-28",
-      "ts": 1787947200,
-      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-friday-august-28-2026-800-pm/"
-    },
-    {
-      "artist": "Barry Manilow",
-      "venue": "BleauLive Theater at Fontainebleau",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-08-28",
-      "ts": 1787947200,
-      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-friday-august-28-2026-800-pm/"
-    },
-    {
       "artist": "Club 90s Off Campus Night Las Vegas Brooklyn Bowl",
       "venue": "Brooklyn Bowl",
       "type": "concert",
@@ -396,15 +225,6 @@
       "date": "2026-08-28",
       "ts": 1787947200,
       "url": "https://concerts.vegas/event/club-90s-off-campus-night-las-vegas-brooklyn-bowl-las-vegas-friday-august-28-2026-9-00-pm/"
-    },
-    {
-      "artist": "Barry Manilow",
-      "venue": "Pearl Theater at Palms",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-08-28",
-      "ts": 1787947200,
-      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-friday-august-28-2026-800-pm/"
     },
     {
       "artist": "Las Vegas Aces Vs Toronto Tempo",
@@ -1289,6 +1109,15 @@
       "url": "https://concerts.vegas/event/tyga-las-vegas-friday-september-4-2026-1030-pm/"
     },
     {
+      "artist": "House Of Heavy Las Vegas Brooklyn Bowl",
+      "venue": "Brooklyn Bowl",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-04",
+      "ts": 1788552000,
+      "url": "https://concerts.vegas/event/house-of-heavy-las-vegas-brooklyn-bowl-las-vegas-friday-september-4-2026-9-30-pm/"
+    },
+    {
       "artist": "Donny Osmond",
       "venue": "Pearl Theater at Palms",
       "type": "concert",
@@ -1359,6 +1188,15 @@
       "date": "2026-09-05",
       "ts": 1788634800,
       "url": "https://nocovernightclubs.com/events/dom-dolla-liv-beach-saturday-september-5-2026/"
+    },
+    {
+      "artist": "Eric Bellinger",
+      "venue": "Tailgate Beach",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-09-05",
+      "ts": 1788634800,
+      "url": "https://nocovernightclubs.com/events/eric-bellinger-tailgate-beach-club-saturday-september-5-2026/"
     },
     {
       "artist": "Usher And Chris Brown",
@@ -1505,6 +1343,15 @@
       "url": "https://concerts.vegas/event/kenny-babyface-edmonds-las-vegas-saturday-september-5-2026-800-pm/"
     },
     {
+      "artist": "Emo Night Brooklyn Las Vegas Brooklyn Bowl",
+      "venue": "Brooklyn Bowl",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-05",
+      "ts": 1788638400,
+      "url": "https://concerts.vegas/event/emo-night-brooklyn-las-vegas-brooklyn-bowl-las-vegas-saturday-september-5-2026-9-30-pm/"
+    },
+    {
       "artist": "Donny Osmond",
       "venue": "Pearl Theater at Palms",
       "type": "concert",
@@ -1575,6 +1422,15 @@
       "date": "2026-09-06",
       "ts": 1788721200,
       "url": "https://nocovernightclubs.com/events/disclosure-liv-beach-sunday-september-6-2026/"
+    },
+    {
+      "artist": "Mario",
+      "venue": "Tailgate Beach",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-09-06",
+      "ts": 1788721200,
+      "url": "https://nocovernightclubs.com/events/mario-tailgate-beach-club-sunday-september-6-2026/"
     },
     {
       "artist": "J Cole",
@@ -2315,15 +2171,6 @@
       "url": "https://concerts.vegas/event/donny-osmond-las-vegas-saturday-september-12-2026-730-pm/"
     },
     {
-      "artist": "Ryan Garcia Vs Conor Benn",
-      "venue": "Las Vegas",
-      "type": "sports",
-      "city": "Las Vegas",
-      "date": "2026-09-12",
-      "ts": 1789243200,
-      "url": "https://concerts.vegas/event/ryan-garcia-vs-conor-benn-las-vegas-saturday-september-12-2026-tba/"
-    },
-    {
       "artist": "Las Vegas Raiders Season Tickets Includes Tickets To All Regular Season Home Games",
       "venue": "Las Vegas",
       "type": "sports",
@@ -2331,6 +2178,15 @@
       "date": "2026-09-12",
       "ts": 1789243200,
       "url": "https://concerts.vegas/event/las-vegas-raiders-season-tickets-includes-tickets-to-all-regular-season-home-games-las-vegas-saturday-september-12-2026-tba/"
+    },
+    {
+      "artist": "Ryan Garcia Vs Conor Benn",
+      "venue": "Las Vegas",
+      "type": "sports",
+      "city": "Las Vegas",
+      "date": "2026-09-12",
+      "ts": 1789243200,
+      "url": "https://concerts.vegas/event/ryan-garcia-vs-conor-benn-las-vegas-saturday-september-12-2026-tba/"
     },
     {
       "artist": "Las Vegas Aviators Vs Sacramento River Cats",
@@ -2700,6 +2556,150 @@
       "date": "2026-09-17",
       "ts": 1789675200,
       "url": "https://concerts.vegas/event/scorpions-las-vegas-thursday-september-17-2026-800-pm/"
+    },
+    {
+      "artist": "Santana",
+      "venue": "House of Blues",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-17",
+      "ts": 1789675200,
+      "url": "https://concerts.vegas/event/santana-las-vegas-thursday-september-17-2026-700-pm/"
+    },
+    {
+      "artist": "Barry Manilow",
+      "venue": "Encore Theater at Wynn",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-17",
+      "ts": 1789675200,
+      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-thursday-september-17-2026-700-pm/"
+    },
+    {
+      "artist": "Scorpions",
+      "venue": "Encore Theater at Wynn",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-17",
+      "ts": 1789675200,
+      "url": "https://concerts.vegas/event/scorpions-las-vegas-thursday-september-17-2026-800-pm/"
+    },
+    {
+      "artist": "Barry Manilow",
+      "venue": "BleauLive Theater at Fontainebleau",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-17",
+      "ts": 1789675200,
+      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-thursday-september-17-2026-700-pm/"
+    },
+    {
+      "artist": "Scorpions",
+      "venue": "BleauLive Theater at Fontainebleau",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-17",
+      "ts": 1789675200,
+      "url": "https://concerts.vegas/event/scorpions-las-vegas-thursday-september-17-2026-800-pm/"
+    },
+    {
+      "artist": "Barry Manilow",
+      "venue": "Pearl Theater at Palms",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-17",
+      "ts": 1789675200,
+      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-thursday-september-17-2026-700-pm/"
+    },
+    {
+      "artist": "Scorpions",
+      "venue": "Pearl Theater at Palms",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-17",
+      "ts": 1789675200,
+      "url": "https://concerts.vegas/event/scorpions-las-vegas-thursday-september-17-2026-800-pm/"
+    },
+    {
+      "artist": "Mike Attack",
+      "venue": "Marquee Dayclub",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-09-18",
+      "ts": 1789758000,
+      "url": "https://nocovernightclubs.com/events/mike-attack-marquee-dayclub-friday-september-18-2026/"
+    },
+    {
+      "artist": "Nimino",
+      "venue": "Tao Beach",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-09-18",
+      "ts": 1789758000,
+      "url": "https://nocovernightclubs.com/events/nimino-tao-beach-friday-september-18-2026/"
+    },
+    {
+      "artist": "Dj Que",
+      "venue": "Liquid Pool",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-09-18",
+      "ts": 1789758000,
+      "url": "https://nocovernightclubs.com/events/dj-que-liquid-pool-friday-september-18-2026/"
+    },
+    {
+      "artist": "Dj E Rock",
+      "venue": "Palm Tree Beach",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-09-18",
+      "ts": 1789758000,
+      "url": "https://nocovernightclubs.com/events/dj-e-rock-palm-tree-beach-club-friday-september-18-2026/"
+    },
+    {
+      "artist": "Iheartradio Music Festival Bts Cardi B Snoop Dogg And Muse 2 Day Pass",
+      "venue": "T-Mobile Arena",
+      "type": "arena",
+      "city": "Las Vegas",
+      "date": "2026-09-18",
+      "ts": 1789761600,
+      "url": "https://concerts.vegas/event/iheartradio-music-festival-bts-cardi-b-snoop-dogg-and-muse-2-day-pass-las-vegas-friday-september-18-2026-tba/"
+    },
+    {
+      "artist": "Iheartradio Music Festival Bts Cardi B Goo Goo Dolls And Kenny Chesney Friday",
+      "venue": "T-Mobile Arena",
+      "type": "arena",
+      "city": "Las Vegas",
+      "date": "2026-09-18",
+      "ts": 1789761600,
+      "url": "https://concerts.vegas/event/iheartradio-music-festival-bts-cardi-b-goo-goo-dolls-and-kenny-chesney-friday-las-vegas-friday-september-18-2026-730-pm/"
+    },
+    {
+      "artist": "Usher And Chris Brown",
+      "venue": "Allegiant Stadium",
+      "type": "stadium",
+      "city": "Las Vegas",
+      "date": "2026-09-18",
+      "ts": 1789761600,
+      "url": "https://concerts.vegas/event/usher-and-chris-brown-las-vegas-friday-september-18-2026-700-pm/"
+    },
+    {
+      "artist": "Barry Manilow",
+      "venue": "The Colosseum at Caesars Palace",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-18",
+      "ts": 1789761600,
+      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-friday-september-18-2026-800-pm/"
+    },
+    {
+      "artist": "Tyga Las Vegas Hakkasan Mgm Casino",
+      "venue": "The Colosseum at Caesars Palace",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-18",
+      "ts": 1789761600,
+      "url": "https://concerts.vegas/event/tyga-las-vegas-hakkasan-mgm-casino-friday-september-18-2026-10-30-pm/"
     }
   ]
 }
