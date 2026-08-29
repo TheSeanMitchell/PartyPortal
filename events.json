@@ -1,5 +1,5 @@
 {
-  "updated": 1788006794,
+  "updated": 1788036322,
   "events": [
     {
       "artist": "Ian Asher",
@@ -2650,6 +2650,42 @@
     {
       "artist": "Scorpions",
       "venue": "Resorts World Theatre",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-19",
+      "ts": 1789848000,
+      "url": "https://concerts.vegas/event/scorpions-las-vegas-saturday-september-19-2026-800-pm/"
+    },
+    {
+      "artist": "Scorpions",
+      "venue": "Bakkt Theater at Planet Hollywood",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-19",
+      "ts": 1789848000,
+      "url": "https://concerts.vegas/event/scorpions-las-vegas-saturday-september-19-2026-800-pm/"
+    },
+    {
+      "artist": "Santana",
+      "venue": "House of Blues",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-19",
+      "ts": 1789848000,
+      "url": "https://concerts.vegas/event/santana-las-vegas-saturday-september-19-2026-700-pm/"
+    },
+    {
+      "artist": "Barry Manilow",
+      "venue": "Encore Theater at Wynn",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-19",
+      "ts": 1789848000,
+      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-saturday-september-19-2026-700-pm/"
+    },
+    {
+      "artist": "Scorpions",
+      "venue": "Encore Theater at Wynn",
       "type": "concert",
       "city": "Las Vegas",
       "date": "2026-09-19",
