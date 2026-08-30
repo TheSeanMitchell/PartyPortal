@@ -1,5 +1,5 @@
 {
-  "updated": 1788107206,
+  "updated": 1788123036,
   "events": [
     {
       "artist": "Deseo",
@@ -72,24 +72,6 @@
       "date": "2026-08-30",
       "ts": 1788116400,
       "url": "https://nocovernightclubs.com/events/reggaetonlandia-omnia-dayclub-saturday-august-30-2026/"
-    },
-    {
-      "artist": "Players Era Volleyball Showcase Tcu Vs Unlv And Texas Vs Nebraska",
-      "venue": "T-Mobile Arena",
-      "type": "sports",
-      "city": "Las Vegas",
-      "date": "2026-08-30",
-      "ts": 1788120000,
-      "url": "https://concerts.vegas/event/players-era-volleyball-showcase-tcu-vs-unlv-and-texas-vs-nebraska-las-vegas-sunday-august-30-2026-1230-pm/"
-    },
-    {
-      "artist": "Players Era Volleyball Showcase Tcu Vs Unlv And Texas Vs Nebraska",
-      "venue": "Las Vegas",
-      "type": "sports",
-      "city": "Las Vegas",
-      "date": "2026-08-30",
-      "ts": 1788120000,
-      "url": "https://concerts.vegas/event/players-era-volleyball-showcase-tcu-vs-unlv-and-texas-vs-nebraska-las-vegas-sunday-august-30-2026-1230-pm/"
     },
     {
       "artist": "Las Vegas Aviators Vs Sugar Land Space Cowboys",
@@ -2678,6 +2660,33 @@
       "artist": "Scorpions",
       "venue": "Michelob Ultra Arena",
       "type": "arena",
+      "city": "Las Vegas",
+      "date": "2026-09-22",
+      "ts": 1790107200,
+      "url": "https://concerts.vegas/event/scorpions-las-vegas-tuesday-september-22-2026-800-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "Resorts World Theatre",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-22",
+      "ts": 1790107200,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-tuesday-september-22-2026-730-pm/"
+    },
+    {
+      "artist": "Scorpions",
+      "venue": "Resorts World Theatre",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-22",
+      "ts": 1790107200,
+      "url": "https://concerts.vegas/event/scorpions-las-vegas-tuesday-september-22-2026-800-pm/"
+    },
+    {
+      "artist": "Scorpions",
+      "venue": "Bakkt Theater at Planet Hollywood",
+      "type": "concert",
       "city": "Las Vegas",
       "date": "2026-09-22",
       "ts": 1790107200,
