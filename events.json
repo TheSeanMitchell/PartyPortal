@@ -1,5 +1,5 @@
 {
-  "updated": 1788089962,
+  "updated": 1788107206,
   "events": [
     {
       "artist": "Deseo",
@@ -1613,15 +1613,6 @@
       "url": "https://concerts.vegas/event/donny-osmond-las-vegas-saturday-september-12-2026-730-pm/"
     },
     {
-      "artist": "Las Vegas Raiders Season Tickets Includes Tickets To All Regular Season Home Games",
-      "venue": "Las Vegas",
-      "type": "sports",
-      "city": "Las Vegas",
-      "date": "2026-09-12",
-      "ts": 1789243200,
-      "url": "https://concerts.vegas/event/las-vegas-raiders-season-tickets-includes-tickets-to-all-regular-season-home-games-las-vegas-saturday-september-12-2026-tba/"
-    },
-    {
       "artist": "Ryan Garcia Vs Conor Benn",
       "venue": "Las Vegas",
       "type": "sports",
@@ -1629,6 +1620,15 @@
       "date": "2026-09-12",
       "ts": 1789243200,
       "url": "https://concerts.vegas/event/ryan-garcia-vs-conor-benn-las-vegas-saturday-september-12-2026-tba/"
+    },
+    {
+      "artist": "Las Vegas Raiders Season Tickets Includes Tickets To All Regular Season Home Games",
+      "venue": "Las Vegas",
+      "type": "sports",
+      "city": "Las Vegas",
+      "date": "2026-09-12",
+      "ts": 1789243200,
+      "url": "https://concerts.vegas/event/las-vegas-raiders-season-tickets-includes-tickets-to-all-regular-season-home-games-las-vegas-saturday-september-12-2026-tba/"
     },
     {
       "artist": "Las Vegas Aviators Vs Sacramento River Cats",
@@ -2642,6 +2642,42 @@
       "artist": "Scorpions",
       "venue": "The Colosseum at Caesars Palace",
       "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-22",
+      "ts": 1790107200,
+      "url": "https://concerts.vegas/event/scorpions-las-vegas-tuesday-september-22-2026-800-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "Dolby Live at Park MGM",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-22",
+      "ts": 1790107200,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-tuesday-september-22-2026-730-pm/"
+    },
+    {
+      "artist": "Scorpions",
+      "venue": "Dolby Live at Park MGM",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-22",
+      "ts": 1790107200,
+      "url": "https://concerts.vegas/event/scorpions-las-vegas-tuesday-september-22-2026-800-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "Michelob Ultra Arena",
+      "type": "arena",
+      "city": "Las Vegas",
+      "date": "2026-09-22",
+      "ts": 1790107200,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-tuesday-september-22-2026-730-pm/"
+    },
+    {
+      "artist": "Scorpions",
+      "venue": "Michelob Ultra Arena",
+      "type": "arena",
       "city": "Las Vegas",
       "date": "2026-09-22",
       "ts": 1790107200,
