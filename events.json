@@ -1,5 +1,5 @@
 {
-  "updated": 1788182118,
+  "updated": 1788216087,
   "events": [
     {
       "artist": "Dj Sourmilk",
@@ -2664,6 +2664,42 @@
       "date": "2026-09-22",
       "ts": 1790107200,
       "url": "https://concerts.vegas/event/donny-osmond-las-vegas-tuesday-september-22-2026-730-pm/"
+    },
+    {
+      "artist": "Scorpions",
+      "venue": "Pearl Theater at Palms",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-22",
+      "ts": 1790107200,
+      "url": "https://concerts.vegas/event/scorpions-las-vegas-tuesday-september-22-2026-800-pm/"
+    },
+    {
+      "artist": "Amateur Olympia Las Vegas Womens Prejudging Las Vegas Pearl Concert Theater At Palms Casino Resort",
+      "venue": "Las Vegas",
+      "type": "sports",
+      "city": "Las Vegas",
+      "date": "2026-09-22",
+      "ts": 1790107200,
+      "url": "https://concerts.vegas/event/amateur-olympia-las-vegas-womens-prejudging-las-vegas-pearl-concert-theater-at-palms-casino-resort-tuesday-september-22-2026-8-00-am/"
+    },
+    {
+      "artist": "Dana Whites Contender Series 77 Las Vegas Ufc Apex",
+      "venue": "Las Vegas",
+      "type": "sports",
+      "city": "Las Vegas",
+      "date": "2026-09-22",
+      "ts": 1790107200,
+      "url": "https://concerts.vegas/event/dana-whites-contender-series-77-las-vegas-ufc-apex-tuesday-september-22-2026-4-00-pm/"
+    },
+    {
+      "artist": "Las Vegas Aces Vs Los Angeles Sparks",
+      "venue": "Las Vegas",
+      "type": "sports",
+      "city": "Las Vegas",
+      "date": "2026-09-22",
+      "ts": 1790107200,
+      "url": "https://concerts.vegas/event/las-vegas-aces-vs-los-angeles-sparks-las-vegas-tuesday-september-22-2026-700-pm/"
     }
   ]
 }
