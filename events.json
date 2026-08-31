@@ -1,87 +1,6 @@
 {
-  "updated": 1788123036,
+  "updated": 1788182118,
   "events": [
-    {
-      "artist": "Deseo",
-      "venue": "Omnia",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-08-30",
-      "ts": 1788116400,
-      "url": "https://nocovernightclubs.com/events/deseo-omnia-nightclub-sunday-august-30-2026/"
-    },
-    {
-      "artist": "Ritual Sundays",
-      "venue": "Tao",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-08-30",
-      "ts": 1788116400,
-      "url": "https://nocovernightclubs.com/events/ritual-sundays-tao-nightclub-sunday-august-30-2026/"
-    },
-    {
-      "artist": "Chasewest",
-      "venue": "LIV",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-08-30",
-      "ts": 1788116400,
-      "url": "https://nocovernightclubs.com/events/chasewest-liv-nightclub-sunday-august-30-2026/"
-    },
-    {
-      "artist": "Bob Moses",
-      "venue": "Encore Beach Club",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-08-30",
-      "ts": 1788116400,
-      "url": "https://nocovernightclubs.com/events/bob-moses-encore-beach-club-sunday-august-30-2026/"
-    },
-    {
-      "artist": "Crespo",
-      "venue": "Marquee Dayclub",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-08-30",
-      "ts": 1788116400,
-      "url": "https://nocovernightclubs.com/events/crespo-marquee-dayclub-sunday-august-30-2026/"
-    },
-    {
-      "artist": "Murda Beatz",
-      "venue": "Tao Beach",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-08-30",
-      "ts": 1788116400,
-      "url": "https://nocovernightclubs.com/events/murda-beatz-tao-beach-sunday-august-30-2026/"
-    },
-    {
-      "artist": "Eric Remy",
-      "venue": "Liquid Pool",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-08-30",
-      "ts": 1788116400,
-      "url": "https://nocovernightclubs.com/events/eric-remy-liquid-pool-sunday-august-30-2026/"
-    },
-    {
-      "artist": "Reggaetonlandia",
-      "venue": "Omnia Dayclub",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-08-30",
-      "ts": 1788116400,
-      "url": "https://nocovernightclubs.com/events/reggaetonlandia-omnia-dayclub-saturday-august-30-2026/"
-    },
-    {
-      "artist": "Las Vegas Aviators Vs Sugar Land Space Cowboys",
-      "venue": "Las Vegas",
-      "type": "sports",
-      "city": "Las Vegas",
-      "date": "2026-08-30",
-      "ts": 1788120000,
-      "url": "https://concerts.vegas/event/las-vegas-aviators-vs-sugar-land-space-cowboys-las-vegas-sunday-august-30-2026-605-pm/"
-    },
     {
       "artist": "Dj Sourmilk",
       "venue": "Marquee",
@@ -2691,6 +2610,60 @@
       "date": "2026-09-22",
       "ts": 1790107200,
       "url": "https://concerts.vegas/event/scorpions-las-vegas-tuesday-september-22-2026-800-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "Encore Theater at Wynn",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-22",
+      "ts": 1790107200,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-tuesday-september-22-2026-730-pm/"
+    },
+    {
+      "artist": "Scorpions",
+      "venue": "Encore Theater at Wynn",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-22",
+      "ts": 1790107200,
+      "url": "https://concerts.vegas/event/scorpions-las-vegas-tuesday-september-22-2026-800-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "BleauLive Theater at Fontainebleau",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-22",
+      "ts": 1790107200,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-tuesday-september-22-2026-730-pm/"
+    },
+    {
+      "artist": "Scorpions",
+      "venue": "BleauLive Theater at Fontainebleau",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-22",
+      "ts": 1790107200,
+      "url": "https://concerts.vegas/event/scorpions-las-vegas-tuesday-september-22-2026-800-pm/"
+    },
+    {
+      "artist": "The Midnight",
+      "venue": "Brooklyn Bowl",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-22",
+      "ts": 1790107200,
+      "url": "https://concerts.vegas/event/the-midnight-las-vegas-tuesday-september-22-2026-700-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "Pearl Theater at Palms",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-22",
+      "ts": 1790107200,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-tuesday-september-22-2026-730-pm/"
     }
   ]
 }
