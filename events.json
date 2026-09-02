@@ -1,24 +1,6 @@
 {
-  "updated": 1788295920,
+  "updated": 1788346772,
   "events": [
-    {
-      "artist": "Luis Torres",
-      "venue": "Omnia",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-09-01",
-      "ts": 1788289200,
-      "url": "https://nocovernightclubs.com/events/luis-torres-omnia-nightclub-tuesday-september-1-2026/"
-    },
-    {
-      "artist": "Dana Whites Contender Series 74 Las Vegas Ufc Apex",
-      "venue": "Las Vegas",
-      "type": "sports",
-      "city": "Las Vegas",
-      "date": "2026-09-01",
-      "ts": 1788292800,
-      "url": "https://concerts.vegas/event/dana-whites-contender-series-74-las-vegas-ufc-apex-tuesday-september-1-2026-4-00-pm/"
-    },
     {
       "artist": "Dj Hills",
       "venue": "Marquee",
@@ -2700,6 +2682,24 @@
       "date": "2026-09-18",
       "ts": 1789758000,
       "url": "https://nocovernightclubs.com/events/dj-e-rock-palm-tree-beach-club-friday-september-18-2026/"
+    },
+    {
+      "artist": "Iheartradio Music Festival Bts Cardi B Snoop Dogg And Muse 2 Day Pass",
+      "venue": "T-Mobile Arena",
+      "type": "arena",
+      "city": "Las Vegas",
+      "date": "2026-09-18",
+      "ts": 1789761600,
+      "url": "https://concerts.vegas/event/iheartradio-music-festival-bts-cardi-b-snoop-dogg-and-muse-2-day-pass-las-vegas-friday-september-18-2026-tba/"
+    },
+    {
+      "artist": "Iheartradio Music Festival Bts Cardi B Goo Goo Dolls And Kenny Chesney Friday",
+      "venue": "T-Mobile Arena",
+      "type": "arena",
+      "city": "Las Vegas",
+      "date": "2026-09-18",
+      "ts": 1789761600,
+      "url": "https://concerts.vegas/event/iheartradio-music-festival-bts-cardi-b-goo-goo-dolls-and-kenny-chesney-friday-las-vegas-friday-september-18-2026-730-pm/"
     }
   ]
 }
