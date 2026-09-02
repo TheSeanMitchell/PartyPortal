@@ -1,5 +1,5 @@
 {
-  "updated": 1788366056,
+  "updated": 1788382307,
   "events": [
     {
       "artist": "Dj Hills",
@@ -2009,15 +2009,6 @@
       "url": "https://concerts.vegas/event/donny-osmond-las-vegas-saturday-september-12-2026-730-pm/"
     },
     {
-      "artist": "Las Vegas Raiders Season Tickets Includes Tickets To All Regular Season Home Games",
-      "venue": "Las Vegas",
-      "type": "sports",
-      "city": "Las Vegas",
-      "date": "2026-09-12",
-      "ts": 1789243200,
-      "url": "https://concerts.vegas/event/las-vegas-raiders-season-tickets-includes-tickets-to-all-regular-season-home-games-las-vegas-saturday-september-12-2026-tba/"
-    },
-    {
       "artist": "Ryan Garcia Vs Conor Benn",
       "venue": "Las Vegas",
       "type": "sports",
@@ -2025,6 +2016,15 @@
       "date": "2026-09-12",
       "ts": 1789243200,
       "url": "https://concerts.vegas/event/ryan-garcia-vs-conor-benn-las-vegas-saturday-september-12-2026-tba/"
+    },
+    {
+      "artist": "Las Vegas Raiders Season Tickets Includes Tickets To All Regular Season Home Games",
+      "venue": "Las Vegas",
+      "type": "sports",
+      "city": "Las Vegas",
+      "date": "2026-09-12",
+      "ts": 1789243200,
+      "url": "https://concerts.vegas/event/las-vegas-raiders-season-tickets-includes-tickets-to-all-regular-season-home-games-las-vegas-saturday-september-12-2026-tba/"
     },
     {
       "artist": "Las Vegas Aviators Vs Sacramento River Cats",
@@ -2684,6 +2684,15 @@
       "url": "https://nocovernightclubs.com/events/dj-e-rock-palm-tree-beach-club-friday-september-18-2026/"
     },
     {
+      "artist": "Irv G",
+      "venue": "LIV Beach",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-09-18",
+      "ts": 1789758000,
+      "url": "https://nocovernightclubs.com/events/irv-g-liv-beach-friday-september-18-2026/"
+    },
+    {
       "artist": "Iheartradio Music Festival Bts Cardi B Snoop Dogg And Muse 2 Day Pass",
       "venue": "T-Mobile Arena",
       "type": "arena",
@@ -2691,15 +2700,6 @@
       "date": "2026-09-18",
       "ts": 1789761600,
       "url": "https://concerts.vegas/event/iheartradio-music-festival-bts-cardi-b-snoop-dogg-and-muse-2-day-pass-las-vegas-friday-september-18-2026-tba/"
-    },
-    {
-      "artist": "Iheartradio Music Festival Bts Cardi B Goo Goo Dolls And Kenny Chesney Friday",
-      "venue": "T-Mobile Arena",
-      "type": "arena",
-      "city": "Las Vegas",
-      "date": "2026-09-18",
-      "ts": 1789761600,
-      "url": "https://concerts.vegas/event/iheartradio-music-festival-bts-cardi-b-goo-goo-dolls-and-kenny-chesney-friday-las-vegas-friday-september-18-2026-730-pm/"
     }
   ]
 }
