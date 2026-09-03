@@ -1,5 +1,5 @@
 {
-  "updated": 1788451899,
+  "updated": 1788468503,
   "events": [
     {
       "artist": "Mathame",
@@ -2669,6 +2669,24 @@
       "artist": "Tyga Las Vegas Hakkasan Mgm Casino",
       "venue": "Michelob Ultra Arena",
       "type": "arena",
+      "city": "Las Vegas",
+      "date": "2026-09-18",
+      "ts": 1789761600,
+      "url": "https://concerts.vegas/event/tyga-las-vegas-hakkasan-mgm-casino-friday-september-18-2026-10-30-pm/"
+    },
+    {
+      "artist": "Barry Manilow",
+      "venue": "Resorts World Theatre",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-18",
+      "ts": 1789761600,
+      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-friday-september-18-2026-800-pm/"
+    },
+    {
+      "artist": "Tyga Las Vegas Hakkasan Mgm Casino",
+      "venue": "Resorts World Theatre",
+      "type": "concert",
       "city": "Las Vegas",
       "date": "2026-09-18",
       "ts": 1789761600,
