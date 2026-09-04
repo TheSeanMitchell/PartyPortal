@@ -1,5 +1,5 @@
 {
-  "updated": 1788537953,
+  "updated": 1788554189,
   "events": [
     {
       "artist": "Alison Wonderland",
@@ -146,15 +146,6 @@
       "url": "https://concerts.vegas/event/kenny-babyface-edmonds-las-vegas-friday-september-4-2026-800-pm/"
     },
     {
-      "artist": "Tyga",
-      "venue": "The Colosseum at Caesars Palace",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-09-04",
-      "ts": 1788552000,
-      "url": "https://concerts.vegas/event/tyga-las-vegas-friday-september-4-2026-1030-pm/"
-    },
-    {
       "artist": "Donny Osmond",
       "venue": "Dolby Live at Park MGM",
       "type": "concert",
@@ -171,15 +162,6 @@
       "date": "2026-09-04",
       "ts": 1788552000,
       "url": "https://concerts.vegas/event/kenny-babyface-edmonds-las-vegas-friday-september-4-2026-800-pm/"
-    },
-    {
-      "artist": "Tyga",
-      "venue": "Dolby Live at Park MGM",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-09-04",
-      "ts": 1788552000,
-      "url": "https://concerts.vegas/event/tyga-las-vegas-friday-september-4-2026-1030-pm/"
     },
     {
       "artist": "Donny Osmond",
@@ -200,15 +182,6 @@
       "url": "https://concerts.vegas/event/kenny-babyface-edmonds-las-vegas-friday-september-4-2026-800-pm/"
     },
     {
-      "artist": "Tyga",
-      "venue": "Michelob Ultra Arena",
-      "type": "arena",
-      "city": "Las Vegas",
-      "date": "2026-09-04",
-      "ts": 1788552000,
-      "url": "https://concerts.vegas/event/tyga-las-vegas-friday-september-4-2026-1030-pm/"
-    },
-    {
       "artist": "Donny Osmond",
       "venue": "Resorts World Theatre",
       "type": "concert",
@@ -225,15 +198,6 @@
       "date": "2026-09-04",
       "ts": 1788552000,
       "url": "https://concerts.vegas/event/kenny-babyface-edmonds-las-vegas-friday-september-4-2026-800-pm/"
-    },
-    {
-      "artist": "Tyga",
-      "venue": "Resorts World Theatre",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-09-04",
-      "ts": 1788552000,
-      "url": "https://concerts.vegas/event/tyga-las-vegas-friday-september-4-2026-1030-pm/"
     },
     {
       "artist": "Old Dominion",
@@ -272,15 +236,6 @@
       "url": "https://concerts.vegas/event/kenny-babyface-edmonds-las-vegas-friday-september-4-2026-800-pm/"
     },
     {
-      "artist": "Tyga",
-      "venue": "Encore Theater at Wynn",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-09-04",
-      "ts": 1788552000,
-      "url": "https://concerts.vegas/event/tyga-las-vegas-friday-september-4-2026-1030-pm/"
-    },
-    {
       "artist": "Donny Osmond",
       "venue": "BleauLive Theater at Fontainebleau",
       "type": "concert",
@@ -297,15 +252,6 @@
       "date": "2026-09-04",
       "ts": 1788552000,
       "url": "https://concerts.vegas/event/kenny-babyface-edmonds-las-vegas-friday-september-4-2026-800-pm/"
-    },
-    {
-      "artist": "Tyga",
-      "venue": "BleauLive Theater at Fontainebleau",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-09-04",
-      "ts": 1788552000,
-      "url": "https://concerts.vegas/event/tyga-las-vegas-friday-september-4-2026-1030-pm/"
     },
     {
       "artist": "House Of Heavy Las Vegas Brooklyn Bowl",
@@ -333,15 +279,6 @@
       "date": "2026-09-04",
       "ts": 1788552000,
       "url": "https://concerts.vegas/event/kenny-babyface-edmonds-las-vegas-friday-september-4-2026-800-pm/"
-    },
-    {
-      "artist": "Tyga",
-      "venue": "Pearl Theater at Palms",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-09-04",
-      "ts": 1788552000,
-      "url": "https://concerts.vegas/event/tyga-las-vegas-friday-september-4-2026-1030-pm/"
     },
     {
       "artist": "J Cole",
@@ -1739,15 +1676,6 @@
       "url": "https://concerts.vegas/event/donny-osmond-las-vegas-saturday-september-12-2026-730-pm/"
     },
     {
-      "artist": "Ryan Garcia Vs Conor Benn",
-      "venue": "Las Vegas",
-      "type": "sports",
-      "city": "Las Vegas",
-      "date": "2026-09-12",
-      "ts": 1789243200,
-      "url": "https://concerts.vegas/event/ryan-garcia-vs-conor-benn-las-vegas-saturday-september-12-2026-tba/"
-    },
-    {
       "artist": "Las Vegas Raiders Season Tickets Includes Tickets To All Regular Season Home Games",
       "venue": "Las Vegas",
       "type": "sports",
@@ -1755,6 +1683,15 @@
       "date": "2026-09-12",
       "ts": 1789243200,
       "url": "https://concerts.vegas/event/las-vegas-raiders-season-tickets-includes-tickets-to-all-regular-season-home-games-las-vegas-saturday-september-12-2026-tba/"
+    },
+    {
+      "artist": "Ryan Garcia Vs Conor Benn",
+      "venue": "Las Vegas",
+      "type": "sports",
+      "city": "Las Vegas",
+      "date": "2026-09-12",
+      "ts": 1789243200,
+      "url": "https://concerts.vegas/event/ryan-garcia-vs-conor-benn-las-vegas-saturday-september-12-2026-tba/"
     },
     {
       "artist": "Las Vegas Aviators Vs Sacramento River Cats",
@@ -2162,15 +2099,6 @@
       "url": "https://concerts.vegas/event/barry-manilow-las-vegas-thursday-september-17-2026-700-pm/"
     },
     {
-      "artist": "Scorpions",
-      "venue": "The Colosseum at Caesars Palace",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-09-17",
-      "ts": 1789675200,
-      "url": "https://concerts.vegas/event/scorpions-las-vegas-thursday-september-17-2026-800-pm/"
-    },
-    {
       "artist": "Barry Manilow",
       "venue": "Dolby Live at Park MGM",
       "type": "concert",
@@ -2178,15 +2106,6 @@
       "date": "2026-09-17",
       "ts": 1789675200,
       "url": "https://concerts.vegas/event/barry-manilow-las-vegas-thursday-september-17-2026-700-pm/"
-    },
-    {
-      "artist": "Scorpions",
-      "venue": "Dolby Live at Park MGM",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-09-17",
-      "ts": 1789675200,
-      "url": "https://concerts.vegas/event/scorpions-las-vegas-thursday-september-17-2026-800-pm/"
     },
     {
       "artist": "Barry Manilow",
@@ -2198,15 +2117,6 @@
       "url": "https://concerts.vegas/event/barry-manilow-las-vegas-thursday-september-17-2026-700-pm/"
     },
     {
-      "artist": "Scorpions",
-      "venue": "Michelob Ultra Arena",
-      "type": "arena",
-      "city": "Las Vegas",
-      "date": "2026-09-17",
-      "ts": 1789675200,
-      "url": "https://concerts.vegas/event/scorpions-las-vegas-thursday-september-17-2026-800-pm/"
-    },
-    {
       "artist": "Barry Manilow",
       "venue": "Resorts World Theatre",
       "type": "concert",
@@ -2214,15 +2124,6 @@
       "date": "2026-09-17",
       "ts": 1789675200,
       "url": "https://concerts.vegas/event/barry-manilow-las-vegas-thursday-september-17-2026-700-pm/"
-    },
-    {
-      "artist": "Scorpions",
-      "venue": "Resorts World Theatre",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-09-17",
-      "ts": 1789675200,
-      "url": "https://concerts.vegas/event/scorpions-las-vegas-thursday-september-17-2026-800-pm/"
     },
     {
       "artist": "Scorpions",
@@ -2252,15 +2153,6 @@
       "url": "https://concerts.vegas/event/barry-manilow-las-vegas-thursday-september-17-2026-700-pm/"
     },
     {
-      "artist": "Scorpions",
-      "venue": "Encore Theater at Wynn",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-09-17",
-      "ts": 1789675200,
-      "url": "https://concerts.vegas/event/scorpions-las-vegas-thursday-september-17-2026-800-pm/"
-    },
-    {
       "artist": "Barry Manilow",
       "venue": "BleauLive Theater at Fontainebleau",
       "type": "concert",
@@ -2270,15 +2162,6 @@
       "url": "https://concerts.vegas/event/barry-manilow-las-vegas-thursday-september-17-2026-700-pm/"
     },
     {
-      "artist": "Scorpions",
-      "venue": "BleauLive Theater at Fontainebleau",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-09-17",
-      "ts": 1789675200,
-      "url": "https://concerts.vegas/event/scorpions-las-vegas-thursday-september-17-2026-800-pm/"
-    },
-    {
       "artist": "Barry Manilow",
       "venue": "Pearl Theater at Palms",
       "type": "concert",
@@ -2286,15 +2169,6 @@
       "date": "2026-09-17",
       "ts": 1789675200,
       "url": "https://concerts.vegas/event/barry-manilow-las-vegas-thursday-september-17-2026-700-pm/"
-    },
-    {
-      "artist": "Scorpions",
-      "venue": "Pearl Theater at Palms",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-09-17",
-      "ts": 1789675200,
-      "url": "https://concerts.vegas/event/scorpions-las-vegas-thursday-september-17-2026-800-pm/"
     },
     {
       "artist": "Rl Grime",
@@ -2664,6 +2538,168 @@
       "date": "2026-09-19",
       "ts": 1789844400,
       "url": "https://nocovernightclubs.com/events/murda-beatz-hakkasan-nightclub-saturday-september-19-2026/"
+    },
+    {
+      "artist": "Sidepiece",
+      "venue": "LIV",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-09-19",
+      "ts": 1789844400,
+      "url": "https://nocovernightclubs.com/events/sidepiece-liv-nightclub-wednesday-september-19-2026/"
+    },
+    {
+      "artist": "Dj Shift",
+      "venue": "Jewel",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-09-19",
+      "ts": 1789844400,
+      "url": "https://nocovernightclubs.com/events/dj-shift-jewel-nightclub-saturday-september-19-2026/"
+    },
+    {
+      "artist": "The Chainsmokers",
+      "venue": "Encore Beach Club",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-09-19",
+      "ts": 1789844400,
+      "url": "https://nocovernightclubs.com/events/the-chainsmokers-encore-beach-club-saturday-september-19-2026/"
+    },
+    {
+      "artist": "Marshmello",
+      "venue": "EBC At Night",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-09-19",
+      "ts": 1789844400,
+      "url": "https://nocovernightclubs.com/events/marshmello-ebc-at-night-saturday-september-19-2026/"
+    },
+    {
+      "artist": "Lavern",
+      "venue": "Marquee Dayclub",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-09-19",
+      "ts": 1789844400,
+      "url": "https://nocovernightclubs.com/events/lavern-marquee-dayclub-saturday-september-19-2026/"
+    },
+    {
+      "artist": "Kid Conrad",
+      "venue": "Liquid Pool",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-09-19",
+      "ts": 1789844400,
+      "url": "https://nocovernightclubs.com/events/kid-conrad-liquid-pool-saturday-september-19-2026/"
+    },
+    {
+      "artist": "Blondish",
+      "venue": "Palm Tree Beach",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-09-19",
+      "ts": 1789844400,
+      "url": "https://nocovernightclubs.com/events/blondish-palm-tree-beach-club-saturday-september-19-2026/"
+    },
+    {
+      "artist": "Tiesto",
+      "venue": "LIV Beach",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-09-19",
+      "ts": 1789844400,
+      "url": "https://nocovernightclubs.com/events/tiesto-liv-beach-saturday-september-19-2026/"
+    },
+    {
+      "artist": "Iheartradio Music Festival Benson Boone Snoop Dogg Major Lazer And Lainey Wilson Saturday",
+      "venue": "T-Mobile Arena",
+      "type": "arena",
+      "city": "Las Vegas",
+      "date": "2026-09-19",
+      "ts": 1789848000,
+      "url": "https://concerts.vegas/event/iheartradio-music-festival-benson-boone-snoop-dogg-major-lazer-and-lainey-wilson-saturday-las-vegas-saturday-september-19-2026-730-pm/"
+    },
+    {
+      "artist": "Barry Manilow",
+      "venue": "The Colosseum at Caesars Palace",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-19",
+      "ts": 1789848000,
+      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-saturday-september-19-2026-700-pm/"
+    },
+    {
+      "artist": "Sammy Hagar",
+      "venue": "Dolby Live at Park MGM",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-19",
+      "ts": 1789848000,
+      "url": "https://concerts.vegas/event/sammy-hagar-las-vegas-saturday-september-19-2026-800-pm/"
+    },
+    {
+      "artist": "Barry Manilow",
+      "venue": "Dolby Live at Park MGM",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-19",
+      "ts": 1789848000,
+      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-saturday-september-19-2026-700-pm/"
+    },
+    {
+      "artist": "Barry Manilow",
+      "venue": "Michelob Ultra Arena",
+      "type": "arena",
+      "city": "Las Vegas",
+      "date": "2026-09-19",
+      "ts": 1789848000,
+      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-saturday-september-19-2026-700-pm/"
+    },
+    {
+      "artist": "Anthony Hamilton And Musiq Soulchild",
+      "venue": "The Theater at Virgin Hotels",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-19",
+      "ts": 1789848000,
+      "url": "https://concerts.vegas/event/anthony-hamilton-and-musiq-soulchild-las-vegas-saturday-september-19-2026-800-pm/"
+    },
+    {
+      "artist": "Anthony Hamilton And Musiq Soulchild",
+      "venue": "24 Oxford at Virgin Hotels",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-19",
+      "ts": 1789848000,
+      "url": "https://concerts.vegas/event/anthony-hamilton-and-musiq-soulchild-las-vegas-saturday-september-19-2026-800-pm/"
+    },
+    {
+      "artist": "Barry Manilow",
+      "venue": "Resorts World Theatre",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-19",
+      "ts": 1789848000,
+      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-saturday-september-19-2026-700-pm/"
+    },
+    {
+      "artist": "Scorpions",
+      "venue": "Bakkt Theater at Planet Hollywood",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-19",
+      "ts": 1789848000,
+      "url": "https://concerts.vegas/event/scorpions-las-vegas-saturday-september-19-2026-800-pm/"
+    },
+    {
+      "artist": "Santana",
+      "venue": "House of Blues",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-19",
+      "ts": 1789848000,
+      "url": "https://concerts.vegas/event/santana-las-vegas-saturday-september-19-2026-700-pm/"
     }
   ]
 }
