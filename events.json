@@ -1,5 +1,5 @@
 {
-  "updated": 1788707773,
+  "updated": 1788725686,
   "events": [
     {
       "artist": "Deseo",
@@ -2646,6 +2646,51 @@
       "date": "2026-09-24",
       "ts": 1790280000,
       "url": "https://concerts.vegas/event/nhl-preseason-vegas-golden-knights-vs-utah-mammoth-las-vegas-thursday-september-24-2026-tba/"
+    },
+    {
+      "artist": "Barry Manilow",
+      "venue": "The Colosseum at Caesars Palace",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-24",
+      "ts": 1790280000,
+      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-thursday-september-24-2026-700-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "The Colosseum at Caesars Palace",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-24",
+      "ts": 1790280000,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-thursday-september-24-2026-730-pm/"
+    },
+    {
+      "artist": "Barry Manilow",
+      "venue": "Dolby Live at Park MGM",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-24",
+      "ts": 1790280000,
+      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-thursday-september-24-2026-700-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "Dolby Live at Park MGM",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-24",
+      "ts": 1790280000,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-thursday-september-24-2026-730-pm/"
+    },
+    {
+      "artist": "Barry Manilow",
+      "venue": "Michelob Ultra Arena",
+      "type": "arena",
+      "city": "Las Vegas",
+      "date": "2026-09-24",
+      "ts": 1790280000,
+      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-thursday-september-24-2026-700-pm/"
     }
   ]
 }
