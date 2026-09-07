@@ -1,5 +1,5 @@
 {
-  "updated": 1788782768,
+  "updated": 1788816141,
   "events": [
     {
       "artist": "Dj Pauly D",
@@ -2646,6 +2646,51 @@
       "date": "2026-09-24",
       "ts": 1790280000,
       "url": "https://concerts.vegas/event/2026-pcl-playoffs-game-3-if-necessary-las-vegas-thursday-september-24-2026-705-pm/"
+    },
+    {
+      "artist": "Special Guest",
+      "venue": "Zouk",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-09-25",
+      "ts": 1790362800,
+      "url": "https://nocovernightclubs.com/events/special-guest-zouk-nightclub-friday-september-25-2026/"
+    },
+    {
+      "artist": "Tiesto",
+      "venue": "Omnia",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-09-25",
+      "ts": 1790362800,
+      "url": "https://nocovernightclubs.com/events/tiesto-omnia-nightclub-friday-september-25-2026/"
+    },
+    {
+      "artist": "Twinsick",
+      "venue": "Marquee",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-09-25",
+      "ts": 1790362800,
+      "url": "https://nocovernightclubs.com/events/twinsick-marquee-nightclub-friday-september-25-2026/"
+    },
+    {
+      "artist": "Dj Boof",
+      "venue": "Hakkasan",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-09-25",
+      "ts": 1790362800,
+      "url": "https://nocovernightclubs.com/events/dj-boof-hakkasan-nightclub-friday-september-25-2026/"
+    },
+    {
+      "artist": "Cloone",
+      "venue": "LIV",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-09-25",
+      "ts": 1790362800,
+      "url": "https://nocovernightclubs.com/events/cloone-liv-nightclub-friday-september-25-2026/"
     }
   ]
 }
