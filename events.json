@@ -1,5 +1,5 @@
 {
-  "updated": 1788884633,
+  "updated": 1788901100,
   "events": [
     {
       "artist": "Rob Guson",
@@ -2691,6 +2691,15 @@
       "date": "2026-09-26",
       "ts": 1790449200,
       "url": "https://nocovernightclubs.com/events/illenium-marquee-nightclub-saturday-september-26-2026/"
+    },
+    {
+      "artist": "Four Color Zack",
+      "venue": "Tao",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-09-26",
+      "ts": 1790449200,
+      "url": "https://nocovernightclubs.com/events/four-color-zack-tao-nightclub-saturday-september-26-2026/"
     }
   ]
 }
