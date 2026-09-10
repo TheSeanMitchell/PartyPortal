@@ -1,5 +1,5 @@
 {
-  "updated": 1789056628,
+  "updated": 1789072901,
   "events": [
     {
       "artist": "Bolo",
@@ -2682,6 +2682,24 @@
       "date": "2026-09-26",
       "ts": 1790452800,
       "url": "https://concerts.vegas/event/barry-manilow-las-vegas-saturday-september-26-2026-700-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "Michelob Ultra Arena",
+      "type": "arena",
+      "city": "Las Vegas",
+      "date": "2026-09-26",
+      "ts": 1790452800,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-saturday-september-26-2026-730-pm/"
+    },
+    {
+      "artist": "Dominic Fike",
+      "venue": "The Theater at Virgin Hotels",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-09-26",
+      "ts": 1790452800,
+      "url": "https://concerts.vegas/event/dominic-fike-las-vegas-saturday-september-26-2026-800-pm/"
     }
   ]
 }
