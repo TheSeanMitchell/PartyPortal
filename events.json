@@ -1,5 +1,5 @@
 {
-  "updated": 1789124271,
+  "updated": 1789143234,
   "events": [
     {
       "artist": "Special Guest",
@@ -387,15 +387,6 @@
       "date": "2026-09-12",
       "ts": 1789243200,
       "url": "https://concerts.vegas/event/ryan-garcia-vs-conor-benn-las-vegas-saturday-september-12-2026-tba/"
-    },
-    {
-      "artist": "Las Vegas Raiders Season Tickets Includes Tickets To All Regular Season Home Games",
-      "venue": "Allegiant Stadium",
-      "type": "sports",
-      "city": "Las Vegas",
-      "date": "2026-09-12",
-      "ts": 1789243200,
-      "url": "https://concerts.vegas/event/las-vegas-raiders-season-tickets-includes-tickets-to-all-regular-season-home-games-las-vegas-saturday-september-12-2026-tba/"
     },
     {
       "artist": "Donny Osmond",
@@ -2664,6 +2655,15 @@
       "date": "2026-09-27",
       "ts": 1790535600,
       "url": "https://nocovernightclubs.com/events/deseo-omnia-nightclub-sunday-september-27-2026/"
+    },
+    {
+      "artist": "Ritual Sunday",
+      "venue": "Tao",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-09-27",
+      "ts": 1790535600,
+      "url": "https://nocovernightclubs.com/events/ritual-sunday-tao-nightclub-sunday-september-27-2026/"
     }
   ]
 }
