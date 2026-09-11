@@ -1,5 +1,5 @@
 {
-  "updated": 1789143234,
+  "updated": 1789159611,
   "events": [
     {
       "artist": "Special Guest",
@@ -2664,6 +2664,42 @@
       "date": "2026-09-27",
       "ts": 1790535600,
       "url": "https://nocovernightclubs.com/events/ritual-sunday-tao-nightclub-sunday-september-27-2026/"
+    },
+    {
+      "artist": "Linska",
+      "venue": "LIV",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-09-27",
+      "ts": 1790535600,
+      "url": "https://nocovernightclubs.com/events/linska-liv-nightclub-sunday-september-27-2026/"
+    },
+    {
+      "artist": "Al Tamar",
+      "venue": "Marquee Dayclub",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-09-27",
+      "ts": 1790535600,
+      "url": "https://nocovernightclubs.com/events/al-tamar-marquee-dayclub-sunday-september-27-2026/"
+    },
+    {
+      "artist": "Dj Sourmilk",
+      "venue": "Tao Beach",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-09-27",
+      "ts": 1790535600,
+      "url": "https://nocovernightclubs.com/events/dj-sourmilk-tao-beach-sunday-september-27-2026/"
+    },
+    {
+      "artist": "Eric Remy",
+      "venue": "Liquid Pool",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-09-27",
+      "ts": 1790535600,
+      "url": "https://nocovernightclubs.com/events/eric-remy-liquid-pool-sunday-september-27-2026/"
     }
   ]
 }
