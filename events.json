@@ -1,5 +1,5 @@
 {
-  "updated": 1789208768,
+  "updated": 1789226442,
   "events": [
     {
       "artist": "Hermanos Espinoza",
@@ -126,15 +126,6 @@
       "date": "2026-09-12",
       "ts": 1789239600,
       "url": "https://nocovernightclubs.com/events/dom-dolla-liv-beach-saturday-september-12-2026/"
-    },
-    {
-      "artist": "Ryan Garcia Vs Conor Benn",
-      "venue": "T-Mobile Arena",
-      "type": "sports",
-      "city": "Las Vegas",
-      "date": "2026-09-12",
-      "ts": 1789243200,
-      "url": "https://concerts.vegas/event/ryan-garcia-vs-conor-benn-las-vegas-saturday-september-12-2026-tba/"
     },
     {
       "artist": "Donny Osmond",
@@ -2655,6 +2646,15 @@
       "date": "2026-09-30",
       "ts": 1790798400,
       "url": "https://concerts.vegas/event/donny-osmond-las-vegas-wednesday-september-30-2026-730-pm/"
+    },
+    {
+      "artist": "Special Guest",
+      "venue": "Marquee Dayclub",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-10-01",
+      "ts": 1790881200,
+      "url": "https://nocovernightclubs.com/events/special-guest-marquee-dayclub-thursday-october-1-2026/"
     }
   ]
 }
