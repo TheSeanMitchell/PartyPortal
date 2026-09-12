@@ -1,5 +1,5 @@
 {
-  "updated": 1789226442,
+  "updated": 1789244659,
   "events": [
     {
       "artist": "Hermanos Espinoza",
@@ -2655,6 +2655,51 @@
       "date": "2026-10-01",
       "ts": 1790881200,
       "url": "https://nocovernightclubs.com/events/special-guest-marquee-dayclub-thursday-october-1-2026/"
+    },
+    {
+      "artist": "Special Guest",
+      "venue": "Tao Beach",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-10-01",
+      "ts": 1790881200,
+      "url": "https://nocovernightclubs.com/events/special-guest-tao-beach-thursday-october-1-2026/"
+    },
+    {
+      "artist": "Special Guest",
+      "venue": "Liquid Pool",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-10-01",
+      "ts": 1790881200,
+      "url": "https://nocovernightclubs.com/events/special-guest-liquid-pool-thursday-october-1-2026/"
+    },
+    {
+      "artist": "Chasewest",
+      "venue": "LIV Beach",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-10-01",
+      "ts": 1790881200,
+      "url": "https://nocovernightclubs.com/events/chasewest-liv-beach-thursday-october-1-2026/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "The Colosseum at Caesars Palace",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-10-01",
+      "ts": 1790884800,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-thursday-october-1-2026-730-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "Dolby Live at Park MGM",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-10-01",
+      "ts": 1790884800,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-thursday-october-1-2026-730-pm/"
     }
   ]
 }
