@@ -1,231 +1,6 @@
 {
-  "updated": 1789244659,
+  "updated": 1789298932,
   "events": [
-    {
-      "artist": "Hermanos Espinoza",
-      "venue": "Zouk",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-09-12",
-      "ts": 1789239600,
-      "url": "https://nocovernightclubs.com/events/hermanos-espinoza-zouk-nightclub-saturday-september-12-2026/"
-    },
-    {
-      "artist": "Alesso",
-      "venue": "Omnia",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-09-12",
-      "ts": 1789239600,
-      "url": "https://nocovernightclubs.com/events/alesso-omnia-nightclub-saturday-september-12-2026/"
-    },
-    {
-      "artist": "Mustard",
-      "venue": "Marquee",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-09-12",
-      "ts": 1789239600,
-      "url": "https://nocovernightclubs.com/events/mustard-marquee-nightclub-saturday-september-12-2026/"
-    },
-    {
-      "artist": "Angie Vee",
-      "venue": "Tao",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-09-12",
-      "ts": 1789239600,
-      "url": "https://nocovernightclubs.com/events/angie-vee-tao-nightclub-saturday-september-12-2026/"
-    },
-    {
-      "artist": "Chencho Corleone",
-      "venue": "Hakkasan",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-09-12",
-      "ts": 1789239600,
-      "url": "https://nocovernightclubs.com/events/chencho-corleone-hakkasan-nightclub-saturday-september-12-2026/"
-    },
-    {
-      "artist": "Special Guest",
-      "venue": "LIV",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-09-12",
-      "ts": 1789239600,
-      "url": "https://nocovernightclubs.com/events/special-guest-liv-nightclub-saturday-september-12-2026/"
-    },
-    {
-      "artist": "D Miles",
-      "venue": "Jewel",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-09-12",
-      "ts": 1789239600,
-      "url": "https://nocovernightclubs.com/events/d-miles-jewel-nightclub-saturday-september-12-2026/"
-    },
-    {
-      "artist": "The Chainsmokers",
-      "venue": "Encore Beach Club",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-09-12",
-      "ts": 1789239600,
-      "url": "https://nocovernightclubs.com/events/the-chainsmokers-encore-beach-club-saturday-september-12-2026/"
-    },
-    {
-      "artist": "Huge",
-      "venue": "EBC At Night",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-09-12",
-      "ts": 1789239600,
-      "url": "https://nocovernightclubs.com/events/huge-ebc-at-night-saturday-september-12-2026/"
-    },
-    {
-      "artist": "Afrojack",
-      "venue": "Marquee Dayclub",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-09-12",
-      "ts": 1789239600,
-      "url": "https://nocovernightclubs.com/events/afrojack-marquee-dayclub-saturday-september-12-2026/"
-    },
-    {
-      "artist": "Martin Garrix",
-      "venue": "Tao Beach",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-09-12",
-      "ts": 1789239600,
-      "url": "https://nocovernightclubs.com/events/martin-garrix-tao-beach-saturday-september-12-2026/"
-    },
-    {
-      "artist": "Kid Conrad",
-      "venue": "Liquid Pool",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-09-12",
-      "ts": 1789239600,
-      "url": "https://nocovernightclubs.com/events/kid-conrad-liquid-pool-saturday-september-12-2026/"
-    },
-    {
-      "artist": "Kygo",
-      "venue": "Palm Tree Beach",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-09-12",
-      "ts": 1789239600,
-      "url": "https://nocovernightclubs.com/events/kygo-palm-tree-beach-club-saturday-september-12-2026/"
-    },
-    {
-      "artist": "Dom Dolla",
-      "venue": "LIV Beach",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-09-12",
-      "ts": 1789239600,
-      "url": "https://nocovernightclubs.com/events/dom-dolla-liv-beach-saturday-september-12-2026/"
-    },
-    {
-      "artist": "Donny Osmond",
-      "venue": "The Colosseum at Caesars Palace",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-09-12",
-      "ts": 1789243200,
-      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-saturday-september-12-2026-730-pm/"
-    },
-    {
-      "artist": "Marco Antonio Solis",
-      "venue": "Dolby Live at Park MGM",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-09-12",
-      "ts": 1789243200,
-      "url": "https://concerts.vegas/event/marco-antonio-solis-las-vegas-saturday-september-12-2026-800-pm/"
-    },
-    {
-      "artist": "Donny Osmond",
-      "venue": "Dolby Live at Park MGM",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-09-12",
-      "ts": 1789243200,
-      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-saturday-september-12-2026-730-pm/"
-    },
-    {
-      "artist": "Donny Osmond",
-      "venue": "Michelob Ultra Arena",
-      "type": "arena",
-      "city": "Las Vegas",
-      "date": "2026-09-12",
-      "ts": 1789243200,
-      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-saturday-september-12-2026-730-pm/"
-    },
-    {
-      "artist": "Donny Osmond",
-      "venue": "Resorts World Theatre",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-09-12",
-      "ts": 1789243200,
-      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-saturday-september-12-2026-730-pm/"
-    },
-    {
-      "artist": "Los Angeles Azules",
-      "venue": "Bakkt Theater at Planet Hollywood",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-09-12",
-      "ts": 1789243200,
-      "url": "https://concerts.vegas/event/los-angeles-azules-las-vegas-saturday-september-12-2026-800-pm/"
-    },
-    {
-      "artist": "Grupo Duelo",
-      "venue": "House of Blues",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-09-12",
-      "ts": 1789243200,
-      "url": "https://concerts.vegas/event/grupo-duelo-las-vegas-saturday-september-12-2026-830-pm/"
-    },
-    {
-      "artist": "Donny Osmond",
-      "venue": "Encore Theater at Wynn",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-09-12",
-      "ts": 1789243200,
-      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-saturday-september-12-2026-730-pm/"
-    },
-    {
-      "artist": "Donny Osmond",
-      "venue": "BleauLive Theater at Fontainebleau",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-09-12",
-      "ts": 1789243200,
-      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-saturday-september-12-2026-730-pm/"
-    },
-    {
-      "artist": "Club 90s 2000s Night Las Vegas Brooklyn Bowl",
-      "venue": "Brooklyn Bowl",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-09-12",
-      "ts": 1789243200,
-      "url": "https://concerts.vegas/event/club-90s-2000s-night-las-vegas-brooklyn-bowl-las-vegas-saturday-september-12-2026-9-00-pm/"
-    },
-    {
-      "artist": "Donny Osmond",
-      "venue": "Pearl Theater at Palms",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-09-12",
-      "ts": 1789243200,
-      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-saturday-september-12-2026-730-pm/"
-    },
     {
       "artist": "Deseo",
       "venue": "Omnia",
@@ -1010,15 +785,6 @@
       "url": "https://nocovernightclubs.com/events/snoop-dogg-hakkasan-nightclub-saturday-september-19-2026/"
     },
     {
-      "artist": "Murda Beatz",
-      "venue": "Hakkasan",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-09-19",
-      "ts": 1789844400,
-      "url": "https://nocovernightclubs.com/events/murda-beatz-hakkasan-nightclub-saturday-september-19-2026/"
-    },
-    {
       "artist": "Sidepiece",
       "venue": "LIV",
       "type": "club",
@@ -1062,6 +828,15 @@
       "date": "2026-09-19",
       "ts": 1789844400,
       "url": "https://nocovernightclubs.com/events/lavern-marquee-dayclub-saturday-september-19-2026/"
+    },
+    {
+      "artist": "Don Diablo",
+      "venue": "Tao Beach",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-09-19",
+      "ts": 1789844400,
+      "url": "https://nocovernightclubs.com/events/don-diablo-tao-beach-saturday-september-19-2026/"
     },
     {
       "artist": "Kid Conrad",
@@ -2700,6 +2475,186 @@
       "date": "2026-10-01",
       "ts": 1790884800,
       "url": "https://concerts.vegas/event/donny-osmond-las-vegas-thursday-october-1-2026-730-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "Michelob Ultra Arena",
+      "type": "arena",
+      "city": "Las Vegas",
+      "date": "2026-10-01",
+      "ts": 1790884800,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-thursday-october-1-2026-730-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "Resorts World Theatre",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-10-01",
+      "ts": 1790884800,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-thursday-october-1-2026-730-pm/"
+    },
+    {
+      "artist": "Scorpions",
+      "venue": "Bakkt Theater at Planet Hollywood",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-10-01",
+      "ts": 1790884800,
+      "url": "https://concerts.vegas/event/scorpions-las-vegas-thursday-october-1-2026-800-pm/"
+    },
+    {
+      "artist": "The Home Team",
+      "venue": "House of Blues",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-10-01",
+      "ts": 1790884800,
+      "url": "https://concerts.vegas/event/the-home-team-las-vegas-thursday-october-1-2026-730-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "Encore Theater at Wynn",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-10-01",
+      "ts": 1790884800,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-thursday-october-1-2026-730-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "BleauLive Theater at Fontainebleau",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-10-01",
+      "ts": 1790884800,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-thursday-october-1-2026-730-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "Pearl Theater at Palms",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-10-01",
+      "ts": 1790884800,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-thursday-october-1-2026-730-pm/"
+    },
+    {
+      "artist": "Spydatek",
+      "venue": "Marquee Dayclub",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-10-02",
+      "ts": 1790967600,
+      "url": "https://nocovernightclubs.com/events/spydatek-marquee-dayclub-friday-october-2-2026/"
+    },
+    {
+      "artist": "Special Guest",
+      "venue": "Liquid Pool",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-10-02",
+      "ts": 1790967600,
+      "url": "https://nocovernightclubs.com/events/special-guest-liquid-pool-friday-october-2-2026/"
+    },
+    {
+      "artist": "Sam Feldt",
+      "venue": "LIV Beach",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-10-02",
+      "ts": 1790967600,
+      "url": "https://nocovernightclubs.com/events/sam-feldt-liv-beach-friday-october-2-2026/"
+    },
+    {
+      "artist": "Vegas Golden Knights Vs Anaheim Ducks",
+      "venue": "T-Mobile Arena",
+      "type": "sports",
+      "city": "Las Vegas",
+      "date": "2026-10-02",
+      "ts": 1790971200,
+      "url": "https://concerts.vegas/event/vegas-golden-knights-vs-anaheim-ducks-las-vegas-friday-october-2-2026-700-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "The Colosseum at Caesars Palace",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-10-02",
+      "ts": 1790971200,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-friday-october-2-2026-730-pm/"
+    },
+    {
+      "artist": "New Kids On The Block",
+      "venue": "Dolby Live at Park MGM",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-10-02",
+      "ts": 1790971200,
+      "url": "https://concerts.vegas/event/new-kids-on-the-block-las-vegas-friday-october-2-2026-800-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "Dolby Live at Park MGM",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-10-02",
+      "ts": 1790971200,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-friday-october-2-2026-730-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "Michelob Ultra Arena",
+      "type": "arena",
+      "city": "Las Vegas",
+      "date": "2026-10-02",
+      "ts": 1790971200,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-friday-october-2-2026-730-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "Resorts World Theatre",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-10-02",
+      "ts": 1790971200,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-friday-october-2-2026-730-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "Encore Theater at Wynn",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-10-02",
+      "ts": 1790971200,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-friday-october-2-2026-730-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "BleauLive Theater at Fontainebleau",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-10-02",
+      "ts": 1790971200,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-friday-october-2-2026-730-pm/"
+    },
+    {
+      "artist": "Toadies And Local H",
+      "venue": "Brooklyn Bowl",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-10-02",
+      "ts": 1790971200,
+      "url": "https://concerts.vegas/event/toadies-and-local-h-las-vegas-friday-october-2-2026-700-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "Pearl Theater at Palms",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-10-02",
+      "ts": 1790971200,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-friday-october-2-2026-730-pm/"
     }
   ]
 }
