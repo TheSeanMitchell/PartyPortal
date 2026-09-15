@@ -1,5 +1,5 @@
 {
-  "updated": 1789471685,
+  "updated": 1789490452,
   "events": [
     {
       "artist": "Justin Credible",
@@ -2691,6 +2691,15 @@
       "date": "2026-10-07",
       "ts": 1791399600,
       "url": "https://nocovernightclubs.com/events/special-guest-liquid-pool-wednesday-october-7-2026/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "The Colosseum at Caesars Palace",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-10-07",
+      "ts": 1791403200,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-wednesday-october-7-2026-730-pm/"
     }
   ]
 }
