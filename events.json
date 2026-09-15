@@ -1,5 +1,5 @@
 {
-  "updated": 1789490452,
+  "updated": 1789506348,
   "events": [
     {
       "artist": "Justin Credible",
@@ -2342,6 +2342,15 @@
       "url": "https://concerts.vegas/event/donny-osmond-las-vegas-friday-october-2-2026-730-pm/"
     },
     {
+      "artist": "Cumbiatron Las Vegas House Of Blues",
+      "venue": "House of Blues",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-10-02",
+      "ts": 1790971200,
+      "url": "https://concerts.vegas/event/cumbiatron-las-vegas-house-of-blues-las-vegas-friday-october-2-2026-9-00-pm/"
+    },
+    {
       "artist": "Donny Osmond",
       "venue": "Encore Theater at Wynn",
       "type": "concert",
@@ -2691,15 +2700,6 @@
       "date": "2026-10-07",
       "ts": 1791399600,
       "url": "https://nocovernightclubs.com/events/special-guest-liquid-pool-wednesday-october-7-2026/"
-    },
-    {
-      "artist": "Donny Osmond",
-      "venue": "The Colosseum at Caesars Palace",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-07",
-      "ts": 1791403200,
-      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-wednesday-october-7-2026-730-pm/"
     }
   ]
 }
