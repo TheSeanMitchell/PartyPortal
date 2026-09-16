@@ -1,5 +1,5 @@
 {
-  "updated": 1789576449,
+  "updated": 1789592854,
   "events": [
     {
       "artist": "Close Friends Only",
@@ -2459,6 +2459,15 @@
       "url": "https://concerts.vegas/event/donny-osmond-las-vegas-saturday-october-3-2026-730-pm/"
     },
     {
+      "artist": "Emo Night Brooklyn Las Vegas Brooklyn Bowl",
+      "venue": "Brooklyn Bowl",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-10-03",
+      "ts": 1791057600,
+      "url": "https://concerts.vegas/event/emo-night-brooklyn-las-vegas-brooklyn-bowl-las-vegas-saturday-october-3-2026-9-30-pm/"
+    },
+    {
       "artist": "Donny Osmond",
       "venue": "Pearl Theater at Palms",
       "type": "concert",
@@ -2691,15 +2700,6 @@
       "date": "2026-10-07",
       "ts": 1791403200,
       "url": "https://concerts.vegas/event/donny-osmond-las-vegas-wednesday-october-7-2026-730-pm/"
-    },
-    {
-      "artist": "Special Guest",
-      "venue": "Marquee Dayclub",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-10-08",
-      "ts": 1791486000,
-      "url": "https://nocovernightclubs.com/events/special-guest-marquee-dayclub-thursday-october-8-2026/"
     }
   ]
 }
