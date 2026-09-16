@@ -1,24 +1,6 @@
 {
-  "updated": 1789506348,
+  "updated": 1789557244,
   "events": [
-    {
-      "artist": "Justin Credible",
-      "venue": "Omnia",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-09-15",
-      "ts": 1789498800,
-      "url": "https://nocovernightclubs.com/events/justin-credible-omnia-nightclub-tuesday-september-15-2026/"
-    },
-    {
-      "artist": "Alejandro Fernandez",
-      "venue": "MGM Grand Garden Arena",
-      "type": "arena",
-      "city": "Las Vegas",
-      "date": "2026-09-15",
-      "ts": 1789502400,
-      "url": "https://concerts.vegas/event/alejandro-fernandez-las-vegas-tuesday-september-15-2026-800-pm/"
-    },
     {
       "artist": "Close Friends Only",
       "venue": "Marquee",
@@ -596,15 +578,6 @@
       "url": "https://concerts.vegas/event/iheartradio-music-festival-benson-boone-snoop-dogg-major-lazer-and-lainey-wilson-saturday-las-vegas-saturday-september-19-2026-730-pm/"
     },
     {
-      "artist": "Barry Manilow Las Vegas International Westgate Theater At Westgate Las Vegas Resort And Casino",
-      "venue": "The Colosseum at Caesars Palace",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-09-19",
-      "ts": 1789848000,
-      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-international-westgate-theater-at-westgate-las-vegas-resort-and-casino-saturday-september-19-2026-7-00-pm/"
-    },
-    {
       "artist": "Sammy Hagar",
       "venue": "Dolby Live at Park MGM",
       "type": "concert",
@@ -612,24 +585,6 @@
       "date": "2026-09-19",
       "ts": 1789848000,
       "url": "https://concerts.vegas/event/sammy-hagar-las-vegas-saturday-september-19-2026-800-pm/"
-    },
-    {
-      "artist": "Barry Manilow Las Vegas International Westgate Theater At Westgate Las Vegas Resort And Casino",
-      "venue": "Dolby Live at Park MGM",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-09-19",
-      "ts": 1789848000,
-      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-international-westgate-theater-at-westgate-las-vegas-resort-and-casino-saturday-september-19-2026-7-00-pm/"
-    },
-    {
-      "artist": "Barry Manilow Las Vegas International Westgate Theater At Westgate Las Vegas Resort And Casino",
-      "venue": "Michelob Ultra Arena",
-      "type": "arena",
-      "city": "Las Vegas",
-      "date": "2026-09-19",
-      "ts": 1789848000,
-      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-international-westgate-theater-at-westgate-las-vegas-resort-and-casino-saturday-september-19-2026-7-00-pm/"
     },
     {
       "artist": "Anthony Hamilton And Musiq Soulchild",
@@ -650,15 +605,6 @@
       "url": "https://concerts.vegas/event/anthony-hamilton-and-musiq-soulchild-las-vegas-saturday-september-19-2026-800-pm/"
     },
     {
-      "artist": "Barry Manilow Las Vegas International Westgate Theater At Westgate Las Vegas Resort And Casino",
-      "venue": "Resorts World Theatre",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-09-19",
-      "ts": 1789848000,
-      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-international-westgate-theater-at-westgate-las-vegas-resort-and-casino-saturday-september-19-2026-7-00-pm/"
-    },
-    {
       "artist": "Scorpions",
       "venue": "Bakkt Theater at Planet Hollywood",
       "type": "concert",
@@ -677,24 +623,6 @@
       "url": "https://concerts.vegas/event/santana-las-vegas-saturday-september-19-2026-700-pm/"
     },
     {
-      "artist": "Barry Manilow Las Vegas International Westgate Theater At Westgate Las Vegas Resort And Casino",
-      "venue": "Encore Theater at Wynn",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-09-19",
-      "ts": 1789848000,
-      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-international-westgate-theater-at-westgate-las-vegas-resort-and-casino-saturday-september-19-2026-7-00-pm/"
-    },
-    {
-      "artist": "Barry Manilow Las Vegas International Westgate Theater At Westgate Las Vegas Resort And Casino",
-      "venue": "BleauLive Theater at Fontainebleau",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-09-19",
-      "ts": 1789848000,
-      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-international-westgate-theater-at-westgate-las-vegas-resort-and-casino-saturday-september-19-2026-7-00-pm/"
-    },
-    {
       "artist": "Starbomb",
       "venue": "Brooklyn Bowl",
       "type": "concert",
@@ -702,15 +630,6 @@
       "date": "2026-09-19",
       "ts": 1789848000,
       "url": "https://concerts.vegas/event/starbomb-las-vegas-saturday-september-19-2026-700-pm/"
-    },
-    {
-      "artist": "Barry Manilow Las Vegas International Westgate Theater At Westgate Las Vegas Resort And Casino",
-      "venue": "Pearl Theater at Palms",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-09-19",
-      "ts": 1789848000,
-      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-international-westgate-theater-at-westgate-las-vegas-resort-and-casino-saturday-september-19-2026-7-00-pm/"
     },
     {
       "artist": "Deseo",
@@ -2700,6 +2619,87 @@
       "date": "2026-10-07",
       "ts": 1791399600,
       "url": "https://nocovernightclubs.com/events/special-guest-liquid-pool-wednesday-october-7-2026/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "The Colosseum at Caesars Palace",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-10-07",
+      "ts": 1791403200,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-wednesday-october-7-2026-730-pm/"
+    },
+    {
+      "artist": "New Kids On The Block",
+      "venue": "Dolby Live at Park MGM",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-10-07",
+      "ts": 1791403200,
+      "url": "https://concerts.vegas/event/new-kids-on-the-block-las-vegas-wednesday-october-7-2026-800-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "Dolby Live at Park MGM",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-10-07",
+      "ts": 1791403200,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-wednesday-october-7-2026-730-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "Michelob Ultra Arena",
+      "type": "arena",
+      "city": "Las Vegas",
+      "date": "2026-10-07",
+      "ts": 1791403200,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-wednesday-october-7-2026-730-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "Resorts World Theatre",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-10-07",
+      "ts": 1791403200,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-wednesday-october-7-2026-730-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "Encore Theater at Wynn",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-10-07",
+      "ts": 1791403200,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-wednesday-october-7-2026-730-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "BleauLive Theater at Fontainebleau",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-10-07",
+      "ts": 1791403200,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-wednesday-october-7-2026-730-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "Pearl Theater at Palms",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-10-07",
+      "ts": 1791403200,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-wednesday-october-7-2026-730-pm/"
+    },
+    {
+      "artist": "Special Guest",
+      "venue": "Marquee Dayclub",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-10-08",
+      "ts": 1791486000,
+      "url": "https://nocovernightclubs.com/events/special-guest-marquee-dayclub-thursday-october-8-2026/"
     }
   ]
 }
