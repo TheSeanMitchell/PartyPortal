@@ -1,123 +1,6 @@
 {
-  "updated": 1789592854,
+  "updated": 1789644152,
   "events": [
-    {
-      "artist": "Close Friends Only",
-      "venue": "Marquee",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-09-16",
-      "ts": 1789585200,
-      "url": "https://nocovernightclubs.com/events/close-friends-only-marquee-nightclub-wednesday-september-16-2026/"
-    },
-    {
-      "artist": "Dj Franzen",
-      "venue": "Hakkasan",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-09-16",
-      "ts": 1789585200,
-      "url": "https://nocovernightclubs.com/events/dj-franzen-hakkasan-nightclub-wednesday-september-16-2026/"
-    },
-    {
-      "artist": "Nyjah",
-      "venue": "EBC At Night",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-09-16",
-      "ts": 1789585200,
-      "url": "https://nocovernightclubs.com/events/nyjah-ebc-at-night-wednesday-september-16-2026/"
-    },
-    {
-      "artist": "Dj Buza",
-      "venue": "Liquid Pool",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-09-16",
-      "ts": 1789585200,
-      "url": "https://nocovernightclubs.com/events/dj-buza-liquid-pool-wednesday-september-16-2026/"
-    },
-    {
-      "artist": "Dj Paradice",
-      "venue": "Palm Tree Beach",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-09-16",
-      "ts": 1789585200,
-      "url": "https://nocovernightclubs.com/events/dj-paradice-palm-tree-beach-club-wednesday-september-16-2026/"
-    },
-    {
-      "artist": "Foreigner",
-      "venue": "The Colosseum at Caesars Palace",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-09-16",
-      "ts": 1789588800,
-      "url": "https://concerts.vegas/event/foreigner-las-vegas-wednesday-september-16-2026-800-pm/"
-    },
-    {
-      "artist": "Foreigner",
-      "venue": "Dolby Live at Park MGM",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-09-16",
-      "ts": 1789588800,
-      "url": "https://concerts.vegas/event/foreigner-las-vegas-wednesday-september-16-2026-800-pm/"
-    },
-    {
-      "artist": "Foreigner",
-      "venue": "Michelob Ultra Arena",
-      "type": "arena",
-      "city": "Las Vegas",
-      "date": "2026-09-16",
-      "ts": 1789588800,
-      "url": "https://concerts.vegas/event/foreigner-las-vegas-wednesday-september-16-2026-800-pm/"
-    },
-    {
-      "artist": "Foreigner",
-      "venue": "Resorts World Theatre",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-09-16",
-      "ts": 1789588800,
-      "url": "https://concerts.vegas/event/foreigner-las-vegas-wednesday-september-16-2026-800-pm/"
-    },
-    {
-      "artist": "Santana",
-      "venue": "House of Blues",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-09-16",
-      "ts": 1789588800,
-      "url": "https://concerts.vegas/event/santana-las-vegas-wednesday-september-16-2026-700-pm/"
-    },
-    {
-      "artist": "Foreigner",
-      "venue": "Encore Theater at Wynn",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-09-16",
-      "ts": 1789588800,
-      "url": "https://concerts.vegas/event/foreigner-las-vegas-wednesday-september-16-2026-800-pm/"
-    },
-    {
-      "artist": "Foreigner",
-      "venue": "BleauLive Theater at Fontainebleau",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-09-16",
-      "ts": 1789588800,
-      "url": "https://concerts.vegas/event/foreigner-las-vegas-wednesday-september-16-2026-800-pm/"
-    },
-    {
-      "artist": "Foreigner",
-      "venue": "Pearl Theater at Palms",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-09-16",
-      "ts": 1789588800,
-      "url": "https://concerts.vegas/event/foreigner-las-vegas-wednesday-september-16-2026-800-pm/"
-    },
     {
       "artist": "Special Guest",
       "venue": "Omnia",
@@ -2700,6 +2583,105 @@
       "date": "2026-10-07",
       "ts": 1791403200,
       "url": "https://concerts.vegas/event/donny-osmond-las-vegas-wednesday-october-7-2026-730-pm/"
+    },
+    {
+      "artist": "Special Guest",
+      "venue": "Marquee Dayclub",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-10-08",
+      "ts": 1791486000,
+      "url": "https://nocovernightclubs.com/events/special-guest-marquee-dayclub-thursday-october-8-2026/"
+    },
+    {
+      "artist": "Special Guest",
+      "venue": "Tao Beach",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-10-08",
+      "ts": 1791486000,
+      "url": "https://nocovernightclubs.com/events/special-guest-tao-beach-thursday-october-8-2026/"
+    },
+    {
+      "artist": "Special Guest",
+      "venue": "Liquid Pool",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-10-08",
+      "ts": 1791486000,
+      "url": "https://nocovernightclubs.com/events/special-guest-liquid-pool-thursday-october-8-2026/"
+    },
+    {
+      "artist": "Westend",
+      "venue": "LIV Beach",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-10-08",
+      "ts": 1791486000,
+      "url": "https://nocovernightclubs.com/events/westend-liv-beach-thursday-october-8-2026/"
+    },
+    {
+      "artist": "Vegas Golden Knights Vs Toronto Maple Leafs",
+      "venue": "T-Mobile Arena",
+      "type": "sports",
+      "city": "Las Vegas",
+      "date": "2026-10-08",
+      "ts": 1791489600,
+      "url": "https://concerts.vegas/event/vegas-golden-knights-vs-toronto-maple-leafs-las-vegas-thursday-october-8-2026-700-pm/"
+    },
+    {
+      "artist": "Barry Manilow",
+      "venue": "The Colosseum at Caesars Palace",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-10-08",
+      "ts": 1791489600,
+      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-thursday-october-8-2026-700-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "The Colosseum at Caesars Palace",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-10-08",
+      "ts": 1791489600,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-thursday-october-8-2026-730-pm/"
+    },
+    {
+      "artist": "Barry Manilow",
+      "venue": "Dolby Live at Park MGM",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-10-08",
+      "ts": 1791489600,
+      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-thursday-october-8-2026-700-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "Dolby Live at Park MGM",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-10-08",
+      "ts": 1791489600,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-thursday-october-8-2026-730-pm/"
+    },
+    {
+      "artist": "Barry Manilow",
+      "venue": "Michelob Ultra Arena",
+      "type": "arena",
+      "city": "Las Vegas",
+      "date": "2026-10-08",
+      "ts": 1791489600,
+      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-thursday-october-8-2026-700-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "Michelob Ultra Arena",
+      "type": "arena",
+      "city": "Las Vegas",
+      "date": "2026-10-08",
+      "ts": 1791489600,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-thursday-october-8-2026-730-pm/"
     }
   ]
 }
