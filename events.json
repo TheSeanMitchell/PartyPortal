@@ -1,5 +1,5 @@
 {
-  "updated": 1789644152,
+  "updated": 1789663169,
   "events": [
     {
       "artist": "Special Guest",
@@ -2682,6 +2682,24 @@
       "date": "2026-10-08",
       "ts": 1791489600,
       "url": "https://concerts.vegas/event/donny-osmond-las-vegas-thursday-october-8-2026-730-pm/"
+    },
+    {
+      "artist": "Legends Of Gospel The Clark Sisters Fred Hammond And Deitrick Haddon Las Vegas The Theater At Virgin Hotels",
+      "venue": "The Theater at Virgin Hotels",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-10-08",
+      "ts": 1791489600,
+      "url": "https://concerts.vegas/event/legends-of-gospel-the-clark-sisters-fred-hammond-and-deitrick-haddon-las-vegas-the-theater-at-virgin-hotels-las-vegas-thursday-october-8-2026-8-00-pm/"
+    },
+    {
+      "artist": "Legends Of Gospel The Clark Sisters Fred Hammond And Deitrick Haddon Las Vegas The Theater At Virgin Hotels",
+      "venue": "24 Oxford at Virgin Hotels",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-10-08",
+      "ts": 1791489600,
+      "url": "https://concerts.vegas/event/legends-of-gospel-the-clark-sisters-fred-hammond-and-deitrick-haddon-las-vegas-the-theater-at-virgin-hotels-las-vegas-thursday-october-8-2026-8-00-pm/"
     }
   ]
 }
