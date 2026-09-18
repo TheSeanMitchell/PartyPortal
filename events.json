@@ -1,5 +1,5 @@
 {
-  "updated": 1789747845,
+  "updated": 1789764141,
   "events": [
     {
       "artist": "Rl Grime",
@@ -146,15 +146,6 @@
       "url": "https://concerts.vegas/event/usher-and-chris-brown-las-vegas-friday-september-18-2026-700-pm/"
     },
     {
-      "artist": "Tyga Las Vegas Hakkasan Mgm Casino",
-      "venue": "The Colosseum at Caesars Palace",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-09-18",
-      "ts": 1789761600,
-      "url": "https://concerts.vegas/event/tyga-las-vegas-hakkasan-mgm-casino-friday-september-18-2026-10-30-pm/"
-    },
-    {
       "artist": "Sammy Hagar",
       "venue": "Dolby Live at Park MGM",
       "type": "concert",
@@ -164,15 +155,6 @@
       "url": "https://concerts.vegas/event/sammy-hagar-las-vegas-friday-september-18-2026-800-pm/"
     },
     {
-      "artist": "Tyga Las Vegas Hakkasan Mgm Casino",
-      "venue": "Dolby Live at Park MGM",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-09-18",
-      "ts": 1789761600,
-      "url": "https://concerts.vegas/event/tyga-las-vegas-hakkasan-mgm-casino-friday-september-18-2026-10-30-pm/"
-    },
-    {
       "artist": "Weird Al Yankovic",
       "venue": "MGM Grand Garden Arena",
       "type": "arena",
@@ -180,51 +162,6 @@
       "date": "2026-09-18",
       "ts": 1789761600,
       "url": "https://concerts.vegas/event/weird-al-yankovic-las-vegas-friday-september-18-2026-800-pm/"
-    },
-    {
-      "artist": "Tyga Las Vegas Hakkasan Mgm Casino",
-      "venue": "Michelob Ultra Arena",
-      "type": "arena",
-      "city": "Las Vegas",
-      "date": "2026-09-18",
-      "ts": 1789761600,
-      "url": "https://concerts.vegas/event/tyga-las-vegas-hakkasan-mgm-casino-friday-september-18-2026-10-30-pm/"
-    },
-    {
-      "artist": "Tyga Las Vegas Hakkasan Mgm Casino",
-      "venue": "Resorts World Theatre",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-09-18",
-      "ts": 1789761600,
-      "url": "https://concerts.vegas/event/tyga-las-vegas-hakkasan-mgm-casino-friday-september-18-2026-10-30-pm/"
-    },
-    {
-      "artist": "Tyga Las Vegas Hakkasan Mgm Casino",
-      "venue": "Encore Theater at Wynn",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-09-18",
-      "ts": 1789761600,
-      "url": "https://concerts.vegas/event/tyga-las-vegas-hakkasan-mgm-casino-friday-september-18-2026-10-30-pm/"
-    },
-    {
-      "artist": "Tyga Las Vegas Hakkasan Mgm Casino",
-      "venue": "BleauLive Theater at Fontainebleau",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-09-18",
-      "ts": 1789761600,
-      "url": "https://concerts.vegas/event/tyga-las-vegas-hakkasan-mgm-casino-friday-september-18-2026-10-30-pm/"
-    },
-    {
-      "artist": "Tyga Las Vegas Hakkasan Mgm Casino",
-      "venue": "Pearl Theater at Palms",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-09-18",
-      "ts": 1789761600,
-      "url": "https://concerts.vegas/event/tyga-las-vegas-hakkasan-mgm-casino-friday-september-18-2026-10-30-pm/"
     },
     {
       "artist": "James Hype",
@@ -2655,6 +2592,105 @@
       "date": "2026-10-08",
       "ts": 1791489600,
       "url": "https://concerts.vegas/event/donny-osmond-las-vegas-thursday-october-8-2026-730-pm/"
+    },
+    {
+      "artist": "Barry Manilow",
+      "venue": "Pearl Theater at Palms",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-10-08",
+      "ts": 1791489600,
+      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-thursday-october-8-2026-700-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "Pearl Theater at Palms",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-10-08",
+      "ts": 1791489600,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-thursday-october-8-2026-730-pm/"
+    },
+    {
+      "artist": "Escobar",
+      "venue": "Marquee Dayclub",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-10-09",
+      "ts": 1791572400,
+      "url": "https://nocovernightclubs.com/events/escobar-marquee-dayclub-friday-october-9-2026/"
+    },
+    {
+      "artist": "Special Guest",
+      "venue": "Liquid Pool",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-10-09",
+      "ts": 1791572400,
+      "url": "https://nocovernightclubs.com/events/special-guest-liquid-pool-friday-october-9-2026/"
+    },
+    {
+      "artist": "Beltran",
+      "venue": "LIV Beach",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-10-09",
+      "ts": 1791572400,
+      "url": "https://nocovernightclubs.com/events/beltran-liv-beach-friday-october-9-2026/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "The Colosseum at Caesars Palace",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-10-09",
+      "ts": 1791576000,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-friday-october-9-2026-730-pm/"
+    },
+    {
+      "artist": "Barry Manilow",
+      "venue": "The Colosseum at Caesars Palace",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-10-09",
+      "ts": 1791576000,
+      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-friday-october-9-2026-800-pm/"
+    },
+    {
+      "artist": "New Kids On The Block",
+      "venue": "Dolby Live at Park MGM",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-10-09",
+      "ts": 1791576000,
+      "url": "https://concerts.vegas/event/new-kids-on-the-block-las-vegas-friday-october-9-2026-800-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "Dolby Live at Park MGM",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-10-09",
+      "ts": 1791576000,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-friday-october-9-2026-730-pm/"
+    },
+    {
+      "artist": "Barry Manilow",
+      "venue": "Dolby Live at Park MGM",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-10-09",
+      "ts": 1791576000,
+      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-friday-october-9-2026-800-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "Michelob Ultra Arena",
+      "type": "arena",
+      "city": "Las Vegas",
+      "date": "2026-10-09",
+      "ts": 1791576000,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-friday-october-9-2026-730-pm/"
     }
   ]
 }
