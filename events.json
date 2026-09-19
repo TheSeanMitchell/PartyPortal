@@ -1,168 +1,6 @@
 {
-  "updated": 1789764141,
+  "updated": 1789814340,
   "events": [
-    {
-      "artist": "Rl Grime",
-      "venue": "Zouk",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-09-18",
-      "ts": 1789758000,
-      "url": "https://nocovernightclubs.com/events/rl-grime-zouk-nightclub-friday-september-18-2026/"
-    },
-    {
-      "artist": "Alesso",
-      "venue": "Omnia",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-09-18",
-      "ts": 1789758000,
-      "url": "https://nocovernightclubs.com/events/alesso-omnia-nightclub-friday-september-18-2026/"
-    },
-    {
-      "artist": "Kyle Cook",
-      "venue": "Marquee",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-09-18",
-      "ts": 1789758000,
-      "url": "https://nocovernightclubs.com/events/kyle-cook-marquee-nightclub-friday-september-18-2026/"
-    },
-    {
-      "artist": "Dj Eu",
-      "venue": "Tao",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-09-18",
-      "ts": 1789758000,
-      "url": "https://nocovernightclubs.com/events/dj-eu-tao-nightclub-friday-september-18-2026/"
-    },
-    {
-      "artist": "Tyga",
-      "venue": "Hakkasan",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-09-18",
-      "ts": 1789758000,
-      "url": "https://nocovernightclubs.com/events/tyga-hakkasan-nightclub-friday-september-18-2026/"
-    },
-    {
-      "artist": "Dombresky",
-      "venue": "LIV",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-09-18",
-      "ts": 1789758000,
-      "url": "https://nocovernightclubs.com/events/dombresky-liv-nightclub-friday-september-18-2026/"
-    },
-    {
-      "artist": "Dj Paradice",
-      "venue": "Jewel",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-09-18",
-      "ts": 1789758000,
-      "url": "https://nocovernightclubs.com/events/dj-paradice-jewel-nightclub-friday-september-18-2026/"
-    },
-    {
-      "artist": "Sofi Tukker",
-      "venue": "Encore Beach Club",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-09-18",
-      "ts": 1789758000,
-      "url": "https://nocovernightclubs.com/events/sofi-tukker-encore-beach-club-friday-september-18-2026/"
-    },
-    {
-      "artist": "Loud Luxury",
-      "venue": "EBC At Night",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-09-18",
-      "ts": 1789758000,
-      "url": "https://nocovernightclubs.com/events/loud-luxury-ebc-at-night-friday-september-18-2026/"
-    },
-    {
-      "artist": "Mike Attack",
-      "venue": "Marquee Dayclub",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-09-18",
-      "ts": 1789758000,
-      "url": "https://nocovernightclubs.com/events/mike-attack-marquee-dayclub-friday-september-18-2026/"
-    },
-    {
-      "artist": "Nimino",
-      "venue": "Tao Beach",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-09-18",
-      "ts": 1789758000,
-      "url": "https://nocovernightclubs.com/events/nimino-tao-beach-friday-september-18-2026/"
-    },
-    {
-      "artist": "Dj Que",
-      "venue": "Liquid Pool",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-09-18",
-      "ts": 1789758000,
-      "url": "https://nocovernightclubs.com/events/dj-que-liquid-pool-friday-september-18-2026/"
-    },
-    {
-      "artist": "Dj E Rock",
-      "venue": "Palm Tree Beach",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-09-18",
-      "ts": 1789758000,
-      "url": "https://nocovernightclubs.com/events/dj-e-rock-palm-tree-beach-club-friday-september-18-2026/"
-    },
-    {
-      "artist": "Irv G",
-      "venue": "LIV Beach",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-09-18",
-      "ts": 1789758000,
-      "url": "https://nocovernightclubs.com/events/irv-g-liv-beach-friday-september-18-2026/"
-    },
-    {
-      "artist": "Iheartradio Music Festival Bts Cardi B Goo Goo Dolls And Kenny Chesney Friday",
-      "venue": "T-Mobile Arena",
-      "type": "arena",
-      "city": "Las Vegas",
-      "date": "2026-09-18",
-      "ts": 1789761600,
-      "url": "https://concerts.vegas/event/iheartradio-music-festival-bts-cardi-b-goo-goo-dolls-and-kenny-chesney-friday-las-vegas-friday-september-18-2026-730-pm/"
-    },
-    {
-      "artist": "Usher And Chris Brown",
-      "venue": "Allegiant Stadium",
-      "type": "stadium",
-      "city": "Las Vegas",
-      "date": "2026-09-18",
-      "ts": 1789761600,
-      "url": "https://concerts.vegas/event/usher-and-chris-brown-las-vegas-friday-september-18-2026-700-pm/"
-    },
-    {
-      "artist": "Sammy Hagar",
-      "venue": "Dolby Live at Park MGM",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-09-18",
-      "ts": 1789761600,
-      "url": "https://concerts.vegas/event/sammy-hagar-las-vegas-friday-september-18-2026-800-pm/"
-    },
-    {
-      "artist": "Weird Al Yankovic",
-      "venue": "MGM Grand Garden Arena",
-      "type": "arena",
-      "city": "Las Vegas",
-      "date": "2026-09-18",
-      "ts": 1789761600,
-      "url": "https://concerts.vegas/event/weird-al-yankovic-las-vegas-friday-september-18-2026-800-pm/"
-    },
     {
       "artist": "James Hype",
       "venue": "Zouk",
@@ -2691,6 +2529,132 @@
       "date": "2026-10-09",
       "ts": 1791576000,
       "url": "https://concerts.vegas/event/donny-osmond-las-vegas-friday-october-9-2026-730-pm/"
+    },
+    {
+      "artist": "Barry Manilow",
+      "venue": "Michelob Ultra Arena",
+      "type": "arena",
+      "city": "Las Vegas",
+      "date": "2026-10-09",
+      "ts": 1791576000,
+      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-friday-october-9-2026-800-pm/"
+    },
+    {
+      "artist": "Legends Of Gospel The Clark Sisters Fred Hammond And Deitrick Haddon Las Vegas The Theater At Virgin Hotels",
+      "venue": "The Theater at Virgin Hotels",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-10-09",
+      "ts": 1791576000,
+      "url": "https://concerts.vegas/event/legends-of-gospel-the-clark-sisters-fred-hammond-and-deitrick-haddon-las-vegas-the-theater-at-virgin-hotels-las-vegas-friday-october-9-2026-8-00-pm/"
+    },
+    {
+      "artist": "Legends Of Gospel The Clark Sisters Fred Hammond And Deitrick Haddon Las Vegas The Theater At Virgin Hotels",
+      "venue": "24 Oxford at Virgin Hotels",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-10-09",
+      "ts": 1791576000,
+      "url": "https://concerts.vegas/event/legends-of-gospel-the-clark-sisters-fred-hammond-and-deitrick-haddon-las-vegas-the-theater-at-virgin-hotels-las-vegas-friday-october-9-2026-8-00-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "Resorts World Theatre",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-10-09",
+      "ts": 1791576000,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-friday-october-9-2026-730-pm/"
+    },
+    {
+      "artist": "Barry Manilow",
+      "venue": "Resorts World Theatre",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-10-09",
+      "ts": 1791576000,
+      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-friday-october-9-2026-800-pm/"
+    },
+    {
+      "artist": "Empire Of The Sun",
+      "venue": "Bakkt Theater at Planet Hollywood",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-10-09",
+      "ts": 1791576000,
+      "url": "https://concerts.vegas/event/empire-of-the-sun-las-vegas-friday-october-9-2026-800-pm/"
+    },
+    {
+      "artist": "Loathe",
+      "venue": "House of Blues",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-10-09",
+      "ts": 1791576000,
+      "url": "https://concerts.vegas/event/loathe-las-vegas-friday-october-9-2026-630-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "Encore Theater at Wynn",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-10-09",
+      "ts": 1791576000,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-friday-october-9-2026-730-pm/"
+    },
+    {
+      "artist": "Barry Manilow",
+      "venue": "Encore Theater at Wynn",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-10-09",
+      "ts": 1791576000,
+      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-friday-october-9-2026-800-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "BleauLive Theater at Fontainebleau",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-10-09",
+      "ts": 1791576000,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-friday-october-9-2026-730-pm/"
+    },
+    {
+      "artist": "Barry Manilow",
+      "venue": "BleauLive Theater at Fontainebleau",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-10-09",
+      "ts": 1791576000,
+      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-friday-october-9-2026-800-pm/"
+    },
+    {
+      "artist": "Dinosaur Jr And Stef Chura",
+      "venue": "Brooklyn Bowl",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-10-09",
+      "ts": 1791576000,
+      "url": "https://concerts.vegas/event/dinosaur-jr-and-stef-chura-las-vegas-friday-october-9-2026-700-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "Pearl Theater at Palms",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-10-09",
+      "ts": 1791576000,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-friday-october-9-2026-730-pm/"
+    },
+    {
+      "artist": "Barry Manilow",
+      "venue": "Pearl Theater at Palms",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-10-09",
+      "ts": 1791576000,
+      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-friday-october-9-2026-800-pm/"
     }
   ]
 }
