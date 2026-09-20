@@ -1,5 +1,5 @@
 {
-  "updated": 1789902133,
+  "updated": 1789919296,
   "events": [
     {
       "artist": "Deseo",
@@ -18,15 +18,6 @@
       "date": "2026-09-20",
       "ts": 1789930800,
       "url": "https://nocovernightclubs.com/events/ritual-sunday-tao-nightclub-sunday-september-20-2026/"
-    },
-    {
-      "artist": "Ayybo",
-      "venue": "Encore Beach Club",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-09-20",
-      "ts": 1789930800,
-      "url": "https://nocovernightclubs.com/events/ayybo-encore-beach-club-sunday-september-20-2026/"
     },
     {
       "artist": "Brooke Evers",
@@ -2646,6 +2637,15 @@
       "date": "2026-10-10",
       "ts": 1791662400,
       "url": "https://concerts.vegas/event/barry-manilow-las-vegas-saturday-october-10-2026-700-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "Encore Theater at Wynn",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-10-10",
+      "ts": 1791662400,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-saturday-october-10-2026-730-pm/"
     }
   ]
 }
