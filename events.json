@@ -1,5 +1,5 @@
 {
-  "updated": 1789919296,
+  "updated": 1789936526,
   "events": [
     {
       "artist": "Deseo",
@@ -2641,6 +2641,51 @@
     {
       "artist": "Donny Osmond",
       "venue": "Encore Theater at Wynn",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-10-10",
+      "ts": 1791662400,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-saturday-october-10-2026-730-pm/"
+    },
+    {
+      "artist": "Barry Manilow",
+      "venue": "BleauLive Theater at Fontainebleau",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-10-10",
+      "ts": 1791662400,
+      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-saturday-october-10-2026-700-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "BleauLive Theater at Fontainebleau",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-10-10",
+      "ts": 1791662400,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-saturday-october-10-2026-730-pm/"
+    },
+    {
+      "artist": "Esdeekid Las Vegas Brooklyn Bowl",
+      "venue": "Brooklyn Bowl",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-10-10",
+      "ts": 1791662400,
+      "url": "https://concerts.vegas/event/esdeekid-las-vegas-brooklyn-bowl-las-vegas-saturday-october-10-2026-7-00-pm/"
+    },
+    {
+      "artist": "Barry Manilow",
+      "venue": "Pearl Theater at Palms",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-10-10",
+      "ts": 1791662400,
+      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-saturday-october-10-2026-700-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "Pearl Theater at Palms",
       "type": "concert",
       "city": "Las Vegas",
       "date": "2026-10-10",
