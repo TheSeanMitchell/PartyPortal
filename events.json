@@ -1,96 +1,6 @@
 {
-  "updated": 1789936526,
+  "updated": 1789993757,
   "events": [
-    {
-      "artist": "Deseo",
-      "venue": "Omnia",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-09-20",
-      "ts": 1789930800,
-      "url": "https://nocovernightclubs.com/events/deseo-omnia-nightclub-sunday-september-20-2026/"
-    },
-    {
-      "artist": "Ritual Sunday",
-      "venue": "Tao",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-09-20",
-      "ts": 1789930800,
-      "url": "https://nocovernightclubs.com/events/ritual-sunday-tao-nightclub-sunday-september-20-2026/"
-    },
-    {
-      "artist": "Brooke Evers",
-      "venue": "Marquee Dayclub",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-09-20",
-      "ts": 1789930800,
-      "url": "https://nocovernightclubs.com/events/brooke-evers-marquee-dayclub-sunday-september-20-2026/"
-    },
-    {
-      "artist": "Mike Attack",
-      "venue": "Tao Beach",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-09-20",
-      "ts": 1789930800,
-      "url": "https://nocovernightclubs.com/events/mike-attack-tao-beach-sunday-september-20-2026/"
-    },
-    {
-      "artist": "Eric Remy",
-      "venue": "Liquid Pool",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-09-20",
-      "ts": 1789930800,
-      "url": "https://nocovernightclubs.com/events/eric-remy-liquid-pool-sunday-september-20-2026/"
-    },
-    {
-      "artist": "Dj Shift",
-      "venue": "Omnia Dayclub",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-09-20",
-      "ts": 1789930800,
-      "url": "https://nocovernightclubs.com/events/dj-shift-omnia-dayclub-saturday-september-20-2026/"
-    },
-    {
-      "artist": "Geoff Tates Operation Mindcrime",
-      "venue": "The Theater at Virgin Hotels",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-09-20",
-      "ts": 1789934400,
-      "url": "https://concerts.vegas/event/geoff-tates-operation-mindcrime-las-vegas-sunday-september-20-2026-730-pm/"
-    },
-    {
-      "artist": "Geoff Tates Operation Mindcrime",
-      "venue": "24 Oxford at Virgin Hotels",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-09-20",
-      "ts": 1789934400,
-      "url": "https://concerts.vegas/event/geoff-tates-operation-mindcrime-las-vegas-sunday-september-20-2026-730-pm/"
-    },
-    {
-      "artist": "Santana",
-      "venue": "House of Blues",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-09-20",
-      "ts": 1789934400,
-      "url": "https://concerts.vegas/event/santana-las-vegas-sunday-september-20-2026-700-pm/"
-    },
-    {
-      "artist": "Get The Led Out Tribute Band",
-      "venue": "Brooklyn Bowl",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-09-20",
-      "ts": 1789934400,
-      "url": "https://concerts.vegas/event/get-the-led-out-tribute-band-las-vegas-sunday-september-20-2026-630-pm/"
-    },
     {
       "artist": "Dj Vice",
       "venue": "Marquee",
@@ -2691,6 +2601,69 @@
       "date": "2026-10-10",
       "ts": 1791662400,
       "url": "https://concerts.vegas/event/donny-osmond-las-vegas-saturday-october-10-2026-730-pm/"
+    },
+    {
+      "artist": "Dj Konflikt",
+      "venue": "Marquee Dayclub",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-10-11",
+      "ts": 1791745200,
+      "url": "https://nocovernightclubs.com/events/dj-konflikt-marquee-dayclub-sunday-october-11-2026/"
+    },
+    {
+      "artist": "Special Guest",
+      "venue": "Liquid Pool",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-10-11",
+      "ts": 1791745200,
+      "url": "https://nocovernightclubs.com/events/special-guest-liquid-pool-sunday-october-11-2026/"
+    },
+    {
+      "artist": "Cloonee",
+      "venue": "LIV Beach",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-10-11",
+      "ts": 1791745200,
+      "url": "https://nocovernightclubs.com/events/cloonee-liv-beach-sunday-october-11-2026/"
+    },
+    {
+      "artist": "Nba Preseason Los Angeles Lakers Vs Golden State Warriors",
+      "venue": "T-Mobile Arena",
+      "type": "sports",
+      "city": "Las Vegas",
+      "date": "2026-10-13",
+      "ts": 1791921600,
+      "url": "https://concerts.vegas/event/nba-preseason-los-angeles-lakers-vs-golden-state-warriors-las-vegas-tuesday-october-13-2026-700-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "The Colosseum at Caesars Palace",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-10-13",
+      "ts": 1791921600,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-tuesday-october-13-2026-730-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "Dolby Live at Park MGM",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-10-13",
+      "ts": 1791921600,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-tuesday-october-13-2026-730-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "Michelob Ultra Arena",
+      "type": "arena",
+      "city": "Las Vegas",
+      "date": "2026-10-13",
+      "ts": 1791921600,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-tuesday-october-13-2026-730-pm/"
     }
   ]
 }
