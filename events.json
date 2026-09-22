@@ -1,5 +1,5 @@
 {
-  "updated": 1790075895,
+  "updated": 1790095234,
   "events": [
     {
       "artist": "Mikey Francis",
@@ -2686,6 +2686,15 @@
     {
       "artist": "Donny Osmond",
       "venue": "BleauLive Theater at Fontainebleau",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-10-13",
+      "ts": 1791921600,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-tuesday-october-13-2026-730-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "Pearl Theater at Palms",
       "type": "concert",
       "city": "Las Vegas",
       "date": "2026-10-13",
