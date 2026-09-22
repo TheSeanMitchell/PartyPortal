@@ -1,24 +1,6 @@
 {
-  "updated": 1790027532,
+  "updated": 1790075895,
   "events": [
-    {
-      "artist": "Dj Vice",
-      "venue": "Marquee",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-09-21",
-      "ts": 1790017200,
-      "url": "https://nocovernightclubs.com/events/dj-vice-marquee-nightclub-monday-september-21-2026/"
-    },
-    {
-      "artist": "Eric Forbes",
-      "venue": "Marquee Dayclub",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-09-21",
-      "ts": 1790017200,
-      "url": "https://nocovernightclubs.com/events/eric-forbes-marquee-dayclub-monday-september-21-2026/"
-    },
     {
       "artist": "Mikey Francis",
       "venue": "Omnia",
@@ -2695,6 +2677,15 @@
     {
       "artist": "Donny Osmond",
       "venue": "Encore Theater at Wynn",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-10-13",
+      "ts": 1791921600,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-tuesday-october-13-2026-730-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "BleauLive Theater at Fontainebleau",
       "type": "concert",
       "city": "Las Vegas",
       "date": "2026-10-13",
