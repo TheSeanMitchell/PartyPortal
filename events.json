@@ -1,5 +1,5 @@
 {
-  "updated": 1790181236,
+  "updated": 1790198443,
   "events": [
     {
       "artist": "Chris Garcia",
@@ -369,15 +369,6 @@
       "date": "2026-09-24",
       "ts": 1790280000,
       "url": "https://concerts.vegas/event/donny-osmond-las-vegas-thursday-september-24-2026-730-pm/"
-    },
-    {
-      "artist": "Special Guest",
-      "venue": "Zouk",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-09-25",
-      "ts": 1790362800,
-      "url": "https://nocovernightclubs.com/events/special-guest-zouk-nightclub-friday-september-25-2026/"
     },
     {
       "artist": "Tiesto",
@@ -2691,6 +2682,15 @@
       "date": "2026-10-14",
       "ts": 1792008000,
       "url": "https://concerts.vegas/event/new-kids-on-the-block-las-vegas-wednesday-october-14-2026-800-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "Dolby Live at Park MGM",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-10-14",
+      "ts": 1792008000,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-wednesday-october-14-2026-730-pm/"
     }
   ]
 }
