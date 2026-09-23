@@ -1,96 +1,6 @@
 {
-  "updated": 1790111196,
+  "updated": 1790161916,
   "events": [
-    {
-      "artist": "Mikey Francis",
-      "venue": "Omnia",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-09-22",
-      "ts": 1790103600,
-      "url": "https://nocovernightclubs.com/events/mikey-francis-omnia-nightclub-tuesday-september-22-2026/"
-    },
-    {
-      "artist": "Donny Osmond",
-      "venue": "The Colosseum at Caesars Palace",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-09-22",
-      "ts": 1790107200,
-      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-tuesday-september-22-2026-730-pm/"
-    },
-    {
-      "artist": "Donny Osmond",
-      "venue": "Dolby Live at Park MGM",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-09-22",
-      "ts": 1790107200,
-      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-tuesday-september-22-2026-730-pm/"
-    },
-    {
-      "artist": "Donny Osmond",
-      "venue": "Michelob Ultra Arena",
-      "type": "arena",
-      "city": "Las Vegas",
-      "date": "2026-09-22",
-      "ts": 1790107200,
-      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-tuesday-september-22-2026-730-pm/"
-    },
-    {
-      "artist": "Donny Osmond",
-      "venue": "Resorts World Theatre",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-09-22",
-      "ts": 1790107200,
-      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-tuesday-september-22-2026-730-pm/"
-    },
-    {
-      "artist": "Scorpions",
-      "venue": "Bakkt Theater at Planet Hollywood",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-09-22",
-      "ts": 1790107200,
-      "url": "https://concerts.vegas/event/scorpions-las-vegas-tuesday-september-22-2026-800-pm/"
-    },
-    {
-      "artist": "Donny Osmond",
-      "venue": "Encore Theater at Wynn",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-09-22",
-      "ts": 1790107200,
-      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-tuesday-september-22-2026-730-pm/"
-    },
-    {
-      "artist": "Donny Osmond",
-      "venue": "BleauLive Theater at Fontainebleau",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-09-22",
-      "ts": 1790107200,
-      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-tuesday-september-22-2026-730-pm/"
-    },
-    {
-      "artist": "The Midnight",
-      "venue": "Brooklyn Bowl",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-09-22",
-      "ts": 1790107200,
-      "url": "https://concerts.vegas/event/the-midnight-las-vegas-tuesday-september-22-2026-700-pm/"
-    },
-    {
-      "artist": "Donny Osmond",
-      "venue": "Pearl Theater at Palms",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-09-22",
-      "ts": 1790107200,
-      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-tuesday-september-22-2026-730-pm/"
-    },
     {
       "artist": "Chris Garcia",
       "venue": "Marquee",
@@ -1163,15 +1073,6 @@
       "url": "https://nocovernightclubs.com/events/special-guest-marquee-dayclub-monday-september-28-2026/"
     },
     {
-      "artist": "2026 2027 Vegas Golden Knights Season Tickets Includes Tickets To All Regular Season Home Games Las Vegas T Mobile Arena",
-      "venue": "T-Mobile Arena",
-      "type": "sports",
-      "city": "Las Vegas",
-      "date": "2026-09-28",
-      "ts": 1790625600,
-      "url": "https://concerts.vegas/event/2026-2027-vegas-golden-knights-season-tickets-includes-tickets-to-all-regular-season-home-games-las-vegas-t-mobile-arena-monday-september-28-2026-tba/"
-    },
-    {
       "artist": "Cannons",
       "venue": "House of Blues",
       "type": "concert",
@@ -1343,6 +1244,15 @@
       "url": "https://nocovernightclubs.com/events/special-guest-liquid-pool-thursday-october-1-2026/"
     },
     {
+      "artist": "Dj Mondo",
+      "venue": "Palm Tree Beach",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-10-01",
+      "ts": 1790881200,
+      "url": "https://nocovernightclubs.com/events/dj-mondo-palm-tree-beach-club-thursday-october-1-2026/"
+    },
+    {
       "artist": "Chasewest",
       "venue": "LIV Beach",
       "type": "pool",
@@ -1449,6 +1359,15 @@
       "date": "2026-10-02",
       "ts": 1790967600,
       "url": "https://nocovernightclubs.com/events/special-guest-liquid-pool-friday-october-2-2026/"
+    },
+    {
+      "artist": "Dj Five",
+      "venue": "Palm Tree Beach",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-10-02",
+      "ts": 1790967600,
+      "url": "https://nocovernightclubs.com/events/dj-five-palm-tree-beach-club-friday-october-2-2026/"
     },
     {
       "artist": "Sam Feldt",
@@ -1748,6 +1667,15 @@
       "url": "https://nocovernightclubs.com/events/special-guest-liquid-pool-sunday-october-4-2026/"
     },
     {
+      "artist": "Bijou",
+      "venue": "Palm Tree Beach",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-10-04",
+      "ts": 1791140400,
+      "url": "https://nocovernightclubs.com/events/bijou-palm-tree-beach-club-sunday-october-4-2026/"
+    },
+    {
       "artist": "Devault",
       "venue": "LIV Beach",
       "type": "pool",
@@ -1883,6 +1811,15 @@
       "url": "https://nocovernightclubs.com/events/special-guest-liquid-pool-wednesday-october-7-2026/"
     },
     {
+      "artist": "D Miles",
+      "venue": "Palm Tree Beach",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-10-07",
+      "ts": 1791399600,
+      "url": "https://nocovernightclubs.com/events/d-miles-palm-tree-beach-club-wednesday-october-7-2026/"
+    },
+    {
       "artist": "Donny Osmond",
       "venue": "The Colosseum at Caesars Palace",
       "type": "concert",
@@ -1980,6 +1917,15 @@
       "date": "2026-10-08",
       "ts": 1791486000,
       "url": "https://nocovernightclubs.com/events/special-guest-liquid-pool-thursday-october-8-2026/"
+    },
+    {
+      "artist": "Mikey Francis",
+      "venue": "Palm Tree Beach",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-10-08",
+      "ts": 1791486000,
+      "url": "https://nocovernightclubs.com/events/mikey-francis-palm-tree-beach-club-thursday-october-8-2026/"
     },
     {
       "artist": "Westend",
@@ -2160,6 +2106,15 @@
       "date": "2026-10-09",
       "ts": 1791572400,
       "url": "https://nocovernightclubs.com/events/special-guest-liquid-pool-friday-october-9-2026/"
+    },
+    {
+      "artist": "Dj Sourmilk",
+      "venue": "Palm Tree Beach",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-10-09",
+      "ts": 1791572400,
+      "url": "https://nocovernightclubs.com/events/dj-sourmilk-palm-tree-beach-club-friday-october-9-2026/"
     },
     {
       "artist": "Beltran",
@@ -2603,6 +2558,15 @@
       "url": "https://nocovernightclubs.com/events/special-guest-liquid-pool-sunday-october-11-2026/"
     },
     {
+      "artist": "Mikey Francis",
+      "venue": "Palm Tree Beach",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-10-11",
+      "ts": 1791745200,
+      "url": "https://nocovernightclubs.com/events/mikey-francis-palm-tree-beach-club-sunday-october-11-2026/"
+    },
+    {
       "artist": "Cloonee",
       "venue": "LIV Beach",
       "type": "pool",
@@ -2700,6 +2664,33 @@
       "date": "2026-10-13",
       "ts": 1791921600,
       "url": "https://concerts.vegas/event/donny-osmond-las-vegas-tuesday-october-13-2026-730-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "The Colosseum at Caesars Palace",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-10-14",
+      "ts": 1792008000,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-wednesday-october-14-2026-730-pm/"
+    },
+    {
+      "artist": "Lionel Richie",
+      "venue": "The Colosseum at Caesars Palace",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-10-14",
+      "ts": 1792008000,
+      "url": "https://concerts.vegas/event/lionel-richie-las-vegas-wednesday-october-14-2026-800-pm/"
+    },
+    {
+      "artist": "New Kids On The Block",
+      "venue": "Dolby Live at Park MGM",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-10-14",
+      "ts": 1792008000,
+      "url": "https://concerts.vegas/event/new-kids-on-the-block-las-vegas-wednesday-october-14-2026-800-pm/"
     }
   ]
 }
