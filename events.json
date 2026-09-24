@@ -1,5 +1,5 @@
 {
-  "updated": 1790249265,
+  "updated": 1790268800,
   "events": [
     {
       "artist": "Special Guest",
@@ -2682,6 +2682,24 @@
       "date": "2026-10-15",
       "ts": 1792090800,
       "url": "https://nocovernightclubs.com/events/riordan-liv-beach-thursday-october-15-2026/"
+    },
+    {
+      "artist": "Vegas Golden Knights Vs Calgary Flames",
+      "venue": "T-Mobile Arena",
+      "type": "sports",
+      "city": "Las Vegas",
+      "date": "2026-10-15",
+      "ts": 1792094400,
+      "url": "https://concerts.vegas/event/vegas-golden-knights-vs-calgary-flames-las-vegas-thursday-october-15-2026-700-pm/"
+    },
+    {
+      "artist": "Barry Manilow",
+      "venue": "The Colosseum at Caesars Palace",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-10-15",
+      "ts": 1792094400,
+      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-thursday-october-15-2026-700-pm/"
     }
   ]
 }
