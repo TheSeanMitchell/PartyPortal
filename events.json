@@ -1,5 +1,5 @@
 {
-  "updated": 1790355406,
+  "updated": 1790371291,
   "events": [
     {
       "artist": "Tiesto",
@@ -2682,6 +2682,15 @@
       "date": "2026-10-16",
       "ts": 1792180800,
       "url": "https://concerts.vegas/event/donny-osmond-las-vegas-friday-october-16-2026-730-pm/"
+    },
+    {
+      "artist": "Lionel Richie",
+      "venue": "Dolby Live at Park MGM",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-10-16",
+      "ts": 1792180800,
+      "url": "https://concerts.vegas/event/lionel-richie-las-vegas-friday-october-16-2026-800-pm/"
     }
   ]
 }
