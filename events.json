@@ -1,5 +1,5 @@
 {
-  "updated": 1790336007,
+  "updated": 1790355406,
   "events": [
     {
       "artist": "Tiesto",
@@ -2655,6 +2655,33 @@
       "date": "2026-10-16",
       "ts": 1792180800,
       "url": "https://concerts.vegas/event/lionel-richie-las-vegas-friday-october-16-2026-800-pm/"
+    },
+    {
+      "artist": "Barry Manilow",
+      "venue": "The Colosseum at Caesars Palace",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-10-16",
+      "ts": 1792180800,
+      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-friday-october-16-2026-800-pm/"
+    },
+    {
+      "artist": "New Kids On The Block",
+      "venue": "Dolby Live at Park MGM",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-10-16",
+      "ts": 1792180800,
+      "url": "https://concerts.vegas/event/new-kids-on-the-block-las-vegas-friday-october-16-2026-800-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "Dolby Live at Park MGM",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-10-16",
+      "ts": 1792180800,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-friday-october-16-2026-730-pm/"
     }
   ]
 }
