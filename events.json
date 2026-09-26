@@ -1,5 +1,5 @@
 {
-  "updated": 1790438926,
+  "updated": 1790456024,
   "events": [
     {
       "artist": "Special Guest",
@@ -2673,6 +2673,33 @@
       "date": "2026-10-17",
       "ts": 1792267200,
       "url": "https://concerts.vegas/event/donny-osmond-las-vegas-saturday-october-17-2026-730-pm/"
+    },
+    {
+      "artist": "Lionel Richie Las Vegas Encore Theatre At Wynn",
+      "venue": "The Colosseum at Caesars Palace",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-10-17",
+      "ts": 1792267200,
+      "url": "https://concerts.vegas/event/lionel-richie-las-vegas-encore-theatre-at-wynn-las-vegas-saturday-october-17-2026-8-00-pm/"
+    },
+    {
+      "artist": "New Kids On The Block",
+      "venue": "Dolby Live at Park MGM",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-10-17",
+      "ts": 1792267200,
+      "url": "https://concerts.vegas/event/new-kids-on-the-block-las-vegas-saturday-october-17-2026-800-pm/"
+    },
+    {
+      "artist": "Barry Manilow",
+      "venue": "Dolby Live at Park MGM",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-10-17",
+      "ts": 1792267200,
+      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-saturday-october-17-2026-700-pm/"
     }
   ]
 }
