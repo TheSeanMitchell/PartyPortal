@@ -1,5 +1,5 @@
 {
-  "updated": 1790527487,
+  "updated": 1790543405,
   "events": [
     {
       "artist": "Deseo",
@@ -2668,6 +2668,24 @@
     {
       "artist": "Treaty Oak Revival",
       "venue": "The Theater at Virgin Hotels",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-10-23",
+      "ts": 1792785600,
+      "url": "https://concerts.vegas/event/treaty-oak-revival-las-vegas-friday-october-23-2026-800-pm/"
+    },
+    {
+      "artist": "Little Miss Nasty Burlesque Show Las Vegas 24 Oxford At Virgin Hotels",
+      "venue": "The Theater at Virgin Hotels",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-10-23",
+      "ts": 1792785600,
+      "url": "https://concerts.vegas/event/little-miss-nasty-burlesque-show-las-vegas-24-oxford-at-virgin-hotels-las-vegas-friday-october-23-2026-8-00-pm/"
+    },
+    {
+      "artist": "Treaty Oak Revival",
+      "venue": "24 Oxford at Virgin Hotels",
       "type": "concert",
       "city": "Las Vegas",
       "date": "2026-10-23",
