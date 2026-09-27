@@ -1,5 +1,5 @@
 {
-  "updated": 1790509594,
+  "updated": 1790527487,
   "events": [
     {
       "artist": "Deseo",
@@ -1352,15 +1352,6 @@
       "url": "https://nocovernightclubs.com/events/special-guest-marquee-dayclub-saturday-october-10-2026/"
     },
     {
-      "artist": "Elderbrook",
-      "venue": "Tao Beach",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-10-10",
-      "ts": 1791658800,
-      "url": "https://nocovernightclubs.com/events/elderbrook-tao-beach-saturday-october-10-2026/"
-    },
-    {
       "artist": "Special Guest",
       "venue": "Liquid Pool",
       "type": "pool",
@@ -2646,6 +2637,42 @@
       "date": "2026-10-23",
       "ts": 1792782000,
       "url": "https://nocovernightclubs.com/events/dj-cla-marquee-dayclub-friday-october-23-2026/"
+    },
+    {
+      "artist": "Weezer The Shins And Silversun Pickups",
+      "venue": "T-Mobile Arena",
+      "type": "arena",
+      "city": "Las Vegas",
+      "date": "2026-10-23",
+      "ts": 1792785600,
+      "url": "https://concerts.vegas/event/weezer-the-shins-and-silversun-pickups-las-vegas-friday-october-23-2026-700-pm/"
+    },
+    {
+      "artist": "Mary J Blige",
+      "venue": "Dolby Live at Park MGM",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-10-23",
+      "ts": 1792785600,
+      "url": "https://concerts.vegas/event/mary-j-blige-las-vegas-friday-october-23-2026-800-pm/"
+    },
+    {
+      "artist": "Charli Xcx",
+      "venue": "MGM Grand Garden Arena",
+      "type": "arena",
+      "city": "Las Vegas",
+      "date": "2026-10-23",
+      "ts": 1792785600,
+      "url": "https://concerts.vegas/event/charli-xcx-las-vegas-friday-october-23-2026-800-pm/"
+    },
+    {
+      "artist": "Treaty Oak Revival",
+      "venue": "The Theater at Virgin Hotels",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-10-23",
+      "ts": 1792785600,
+      "url": "https://concerts.vegas/event/treaty-oak-revival-las-vegas-friday-october-23-2026-800-pm/"
     }
   ]
 }
