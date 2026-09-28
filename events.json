@@ -1,5 +1,5 @@
 {
-  "updated": 1790602026,
+  "updated": 1790636771,
   "events": [
     {
       "artist": "Eric D Lux",
@@ -2655,6 +2655,51 @@
       "date": "2026-10-23",
       "ts": 1792785600,
       "url": "https://concerts.vegas/event/little-miss-nasty-burlesque-show-las-vegas-24-oxford-at-virgin-hotels-las-vegas-friday-october-23-2026-8-00-pm/"
+    },
+    {
+      "artist": "Artms",
+      "venue": "House of Blues",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-10-23",
+      "ts": 1792785600,
+      "url": "https://concerts.vegas/event/artms-las-vegas-friday-october-23-2026-600-pm/"
+    },
+    {
+      "artist": "The Iron Maidens Las Vegas Brooklyn Bowl",
+      "venue": "Brooklyn Bowl",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-10-23",
+      "ts": 1792785600,
+      "url": "https://concerts.vegas/event/the-iron-maidens-las-vegas-brooklyn-bowl-las-vegas-friday-october-23-2026-7-30-pm/"
+    },
+    {
+      "artist": "Laidback Luke",
+      "venue": "Marquee Dayclub",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-10-24",
+      "ts": 1792868400,
+      "url": "https://nocovernightclubs.com/events/laidback-luke-marquee-dayclub-saturday-october-24-2026/"
+    },
+    {
+      "artist": "Mary J Blige",
+      "venue": "Dolby Live at Park MGM",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-10-24",
+      "ts": 1792872000,
+      "url": "https://concerts.vegas/event/mary-j-blige-las-vegas-saturday-october-24-2026-800-pm/"
+    },
+    {
+      "artist": "Tucker Wetmore",
+      "venue": "The Theater at Virgin Hotels",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-10-24",
+      "ts": 1792872000,
+      "url": "https://concerts.vegas/event/tucker-wetmore-las-vegas-saturday-october-24-2026-700-pm/"
     }
   ]
 }
