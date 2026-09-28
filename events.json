@@ -1,96 +1,6 @@
 {
-  "updated": 1790543405,
+  "updated": 1790602026,
   "events": [
-    {
-      "artist": "Deseo",
-      "venue": "Omnia",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-09-27",
-      "ts": 1790535600,
-      "url": "https://nocovernightclubs.com/events/deseo-omnia-nightclub-sunday-september-27-2026/"
-    },
-    {
-      "artist": "Ritual Sunday",
-      "venue": "Tao",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-09-27",
-      "ts": 1790535600,
-      "url": "https://nocovernightclubs.com/events/ritual-sunday-tao-nightclub-sunday-september-27-2026/"
-    },
-    {
-      "artist": "Linska",
-      "venue": "LIV",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-09-27",
-      "ts": 1790535600,
-      "url": "https://nocovernightclubs.com/events/linska-liv-nightclub-sunday-september-27-2026/"
-    },
-    {
-      "artist": "Al Tamar",
-      "venue": "Marquee Dayclub",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-09-27",
-      "ts": 1790535600,
-      "url": "https://nocovernightclubs.com/events/al-tamar-marquee-dayclub-sunday-september-27-2026/"
-    },
-    {
-      "artist": "Dj Sourmilk",
-      "venue": "Tao Beach",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-09-27",
-      "ts": 1790535600,
-      "url": "https://nocovernightclubs.com/events/dj-sourmilk-tao-beach-sunday-september-27-2026/"
-    },
-    {
-      "artist": "Eric Remy",
-      "venue": "Liquid Pool",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-09-27",
-      "ts": 1790535600,
-      "url": "https://nocovernightclubs.com/events/eric-remy-liquid-pool-sunday-september-27-2026/"
-    },
-    {
-      "artist": "Dj Stretch",
-      "venue": "Omnia Dayclub",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-09-27",
-      "ts": 1790535600,
-      "url": "https://nocovernightclubs.com/events/dj-stretch-omnia-dayclub-saturday-september-27-2026/"
-    },
-    {
-      "artist": "Special Guest",
-      "venue": "LIV Beach",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-09-27",
-      "ts": 1790535600,
-      "url": "https://nocovernightclubs.com/events/special-guest-liv-beach-sunday-september-27-2026/"
-    },
-    {
-      "artist": "Santana",
-      "venue": "House of Blues",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-09-27",
-      "ts": 1790539200,
-      "url": "https://concerts.vegas/event/santana-las-vegas-sunday-september-27-2026-700-pm/"
-    },
-    {
-      "artist": "Oleander Las Vegas Brooklyn Bowl",
-      "venue": "Brooklyn Bowl",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-09-27",
-      "ts": 1790539200,
-      "url": "https://concerts.vegas/event/oleander-las-vegas-brooklyn-bowl-las-vegas-sunday-september-27-2026-6-30-pm/"
-    },
     {
       "artist": "Eric D Lux",
       "venue": "Marquee",
@@ -387,6 +297,15 @@
       "date": "2026-10-02",
       "ts": 1790967600,
       "url": "https://nocovernightclubs.com/events/spydatek-marquee-dayclub-friday-october-2-2026/"
+    },
+    {
+      "artist": "Kyle Cooke",
+      "venue": "Tao Beach",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-10-02",
+      "ts": 1790967600,
+      "url": "https://nocovernightclubs.com/events/kyle-cooke-tao-beach-friday-october-2-2026/"
     },
     {
       "artist": "Special Guest",
@@ -693,6 +612,15 @@
       "date": "2026-10-04",
       "ts": 1791140400,
       "url": "https://nocovernightclubs.com/events/brooke-evers-marquee-dayclub-sunday-october-4-2026/"
+    },
+    {
+      "artist": "Dj E Rock",
+      "venue": "Tao Beach",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-10-04",
+      "ts": 1791140400,
+      "url": "https://nocovernightclubs.com/events/dj-e-rock-tao-beach-sunday-october-4-2026/"
     },
     {
       "artist": "Special Guest",
@@ -1136,6 +1064,15 @@
       "url": "https://nocovernightclubs.com/events/escobar-marquee-dayclub-friday-october-9-2026/"
     },
     {
+      "artist": "Bradeazy",
+      "venue": "Tao Beach",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-10-09",
+      "ts": 1791572400,
+      "url": "https://nocovernightclubs.com/events/bradeazy-tao-beach-friday-october-9-2026/"
+    },
+    {
       "artist": "Special Guest",
       "venue": "Liquid Pool",
       "type": "pool",
@@ -1350,6 +1287,15 @@
       "date": "2026-10-10",
       "ts": 1791658800,
       "url": "https://nocovernightclubs.com/events/special-guest-marquee-dayclub-saturday-october-10-2026/"
+    },
+    {
+      "artist": "Louis The Child",
+      "venue": "Tao Beach",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-10-10",
+      "ts": 1791658800,
+      "url": "https://nocovernightclubs.com/events/louis-the-child-tao-beach-saturday-october-10-2026/"
     },
     {
       "artist": "Special Guest",
@@ -1575,6 +1521,15 @@
       "date": "2026-10-11",
       "ts": 1791745200,
       "url": "https://nocovernightclubs.com/events/dj-konflikt-marquee-dayclub-sunday-october-11-2026/"
+    },
+    {
+      "artist": "Justin Credible",
+      "venue": "Tao Beach",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-10-11",
+      "ts": 1791745200,
+      "url": "https://nocovernightclubs.com/events/justin-credible-tao-beach-sunday-october-11-2026/"
     },
     {
       "artist": "Special Guest",
@@ -2691,6 +2646,15 @@
       "date": "2026-10-23",
       "ts": 1792785600,
       "url": "https://concerts.vegas/event/treaty-oak-revival-las-vegas-friday-october-23-2026-800-pm/"
+    },
+    {
+      "artist": "Little Miss Nasty Burlesque Show Las Vegas 24 Oxford At Virgin Hotels",
+      "venue": "24 Oxford at Virgin Hotels",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-10-23",
+      "ts": 1792785600,
+      "url": "https://concerts.vegas/event/little-miss-nasty-burlesque-show-las-vegas-24-oxford-at-virgin-hotels-las-vegas-friday-october-23-2026-8-00-pm/"
     }
   ]
 }
