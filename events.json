@@ -1,33 +1,6 @@
 {
-  "updated": 1790636771,
+  "updated": 1790685074,
   "events": [
-    {
-      "artist": "Eric D Lux",
-      "venue": "Marquee",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-09-28",
-      "ts": 1790622000,
-      "url": "https://nocovernightclubs.com/events/eric-d-lux-marquee-nightclub-monday-september-28-2026/"
-    },
-    {
-      "artist": "Special Guest",
-      "venue": "Marquee Dayclub",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-09-28",
-      "ts": 1790622000,
-      "url": "https://nocovernightclubs.com/events/special-guest-marquee-dayclub-monday-september-28-2026/"
-    },
-    {
-      "artist": "Cannons",
-      "venue": "House of Blues",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-09-28",
-      "ts": 1790625600,
-      "url": "https://concerts.vegas/event/cannons-las-vegas-monday-september-28-2026-830-pm/"
-    },
     {
       "artist": "Vegas Golden Knights Vs Chicago Blackhawks",
       "venue": "T-Mobile Arena",
@@ -2695,6 +2668,24 @@
     {
       "artist": "Tucker Wetmore",
       "venue": "The Theater at Virgin Hotels",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-10-24",
+      "ts": 1792872000,
+      "url": "https://concerts.vegas/event/tucker-wetmore-las-vegas-saturday-october-24-2026-700-pm/"
+    },
+    {
+      "artist": "Samantha Fish",
+      "venue": "The Theater at Virgin Hotels",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-10-24",
+      "ts": 1792872000,
+      "url": "https://concerts.vegas/event/samantha-fish-las-vegas-saturday-october-24-2026-800-pm/"
+    },
+    {
+      "artist": "Tucker Wetmore",
+      "venue": "24 Oxford at Virgin Hotels",
       "type": "concert",
       "city": "Las Vegas",
       "date": "2026-10-24",
