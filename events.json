@@ -1,51 +1,6 @@
 {
-  "updated": 1790719517,
+  "updated": 1790770561,
   "events": [
-    {
-      "artist": "Vegas Golden Knights Vs Chicago Blackhawks",
-      "venue": "T-Mobile Arena",
-      "type": "sports",
-      "city": "Las Vegas",
-      "date": "2026-09-29",
-      "ts": 1790712000,
-      "url": "https://concerts.vegas/event/vegas-golden-knights-vs-chicago-blackhawks-las-vegas-tuesday-september-29-2026-730-pm/"
-    },
-    {
-      "artist": "Mind Enterprises",
-      "venue": "The Theater at Virgin Hotels",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-09-29",
-      "ts": 1790712000,
-      "url": "https://concerts.vegas/event/mind-enterprises-las-vegas-tuesday-september-29-2026-800-pm/"
-    },
-    {
-      "artist": "Mind Enterprises",
-      "venue": "24 Oxford at Virgin Hotels",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-09-29",
-      "ts": 1790712000,
-      "url": "https://concerts.vegas/event/mind-enterprises-las-vegas-tuesday-september-29-2026-800-pm/"
-    },
-    {
-      "artist": "Scorpions",
-      "venue": "Bakkt Theater at Planet Hollywood",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-09-29",
-      "ts": 1790712000,
-      "url": "https://concerts.vegas/event/scorpions-las-vegas-tuesday-september-29-2026-800-pm/"
-    },
-    {
-      "artist": "President Band",
-      "venue": "Brooklyn Bowl",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-09-29",
-      "ts": 1790712000,
-      "url": "https://concerts.vegas/event/president-band-las-vegas-tuesday-september-29-2026-600-pm/"
-    },
     {
       "artist": "Lcore",
       "venue": "Marquee",
@@ -2000,15 +1955,6 @@
       "url": "https://concerts.vegas/event/donny-osmond-las-vegas-friday-october-16-2026-730-pm/"
     },
     {
-      "artist": "Lionel Richie",
-      "venue": "The Colosseum at Caesars Palace",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-16",
-      "ts": 1792180800,
-      "url": "https://concerts.vegas/event/lionel-richie-las-vegas-friday-october-16-2026-800-pm/"
-    },
-    {
       "artist": "Barry Manilow",
       "venue": "The Colosseum at Caesars Palace",
       "type": "concert",
@@ -2016,6 +1962,15 @@
       "date": "2026-10-16",
       "ts": 1792180800,
       "url": "https://concerts.vegas/event/barry-manilow-las-vegas-friday-october-16-2026-800-pm/"
+    },
+    {
+      "artist": "Lionel Richie",
+      "venue": "The Colosseum at Caesars Palace",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-10-16",
+      "ts": 1792180800,
+      "url": "https://concerts.vegas/event/lionel-richie-las-vegas-friday-october-16-2026-800-pm/"
     },
     {
       "artist": "New Kids On The Block",
@@ -2036,15 +1991,6 @@
       "url": "https://concerts.vegas/event/donny-osmond-las-vegas-friday-october-16-2026-730-pm/"
     },
     {
-      "artist": "Lionel Richie",
-      "venue": "Dolby Live at Park MGM",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-16",
-      "ts": 1792180800,
-      "url": "https://concerts.vegas/event/lionel-richie-las-vegas-friday-october-16-2026-800-pm/"
-    },
-    {
       "artist": "Barry Manilow",
       "venue": "Dolby Live at Park MGM",
       "type": "concert",
@@ -2052,6 +1998,15 @@
       "date": "2026-10-16",
       "ts": 1792180800,
       "url": "https://concerts.vegas/event/barry-manilow-las-vegas-friday-october-16-2026-800-pm/"
+    },
+    {
+      "artist": "Lionel Richie",
+      "venue": "Dolby Live at Park MGM",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-10-16",
+      "ts": 1792180800,
+      "url": "https://concerts.vegas/event/lionel-richie-las-vegas-friday-october-16-2026-800-pm/"
     },
     {
       "artist": "Donny Osmond",
@@ -2063,15 +2018,6 @@
       "url": "https://concerts.vegas/event/donny-osmond-las-vegas-friday-october-16-2026-730-pm/"
     },
     {
-      "artist": "Lionel Richie",
-      "venue": "Michelob Ultra Arena",
-      "type": "arena",
-      "city": "Las Vegas",
-      "date": "2026-10-16",
-      "ts": 1792180800,
-      "url": "https://concerts.vegas/event/lionel-richie-las-vegas-friday-october-16-2026-800-pm/"
-    },
-    {
       "artist": "Barry Manilow",
       "venue": "Michelob Ultra Arena",
       "type": "arena",
@@ -2079,6 +2025,15 @@
       "date": "2026-10-16",
       "ts": 1792180800,
       "url": "https://concerts.vegas/event/barry-manilow-las-vegas-friday-october-16-2026-800-pm/"
+    },
+    {
+      "artist": "Lionel Richie",
+      "venue": "Michelob Ultra Arena",
+      "type": "arena",
+      "city": "Las Vegas",
+      "date": "2026-10-16",
+      "ts": 1792180800,
+      "url": "https://concerts.vegas/event/lionel-richie-las-vegas-friday-october-16-2026-800-pm/"
     },
     {
       "artist": "Dj Meredith Marks Las Vegas 24 Oxford At Virgin Hotels",
@@ -2108,15 +2063,6 @@
       "url": "https://concerts.vegas/event/donny-osmond-las-vegas-friday-october-16-2026-730-pm/"
     },
     {
-      "artist": "Lionel Richie",
-      "venue": "Resorts World Theatre",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-16",
-      "ts": 1792180800,
-      "url": "https://concerts.vegas/event/lionel-richie-las-vegas-friday-october-16-2026-800-pm/"
-    },
-    {
       "artist": "Barry Manilow",
       "venue": "Resorts World Theatre",
       "type": "concert",
@@ -2124,6 +2070,15 @@
       "date": "2026-10-16",
       "ts": 1792180800,
       "url": "https://concerts.vegas/event/barry-manilow-las-vegas-friday-october-16-2026-800-pm/"
+    },
+    {
+      "artist": "Lionel Richie",
+      "venue": "Resorts World Theatre",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-10-16",
+      "ts": 1792180800,
+      "url": "https://concerts.vegas/event/lionel-richie-las-vegas-friday-october-16-2026-800-pm/"
     },
     {
       "artist": "Donny Osmond",
@@ -2135,15 +2090,6 @@
       "url": "https://concerts.vegas/event/donny-osmond-las-vegas-friday-october-16-2026-730-pm/"
     },
     {
-      "artist": "Lionel Richie",
-      "venue": "Encore Theater at Wynn",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-16",
-      "ts": 1792180800,
-      "url": "https://concerts.vegas/event/lionel-richie-las-vegas-friday-october-16-2026-800-pm/"
-    },
-    {
       "artist": "Barry Manilow",
       "venue": "Encore Theater at Wynn",
       "type": "concert",
@@ -2151,6 +2097,15 @@
       "date": "2026-10-16",
       "ts": 1792180800,
       "url": "https://concerts.vegas/event/barry-manilow-las-vegas-friday-october-16-2026-800-pm/"
+    },
+    {
+      "artist": "Lionel Richie",
+      "venue": "Encore Theater at Wynn",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-10-16",
+      "ts": 1792180800,
+      "url": "https://concerts.vegas/event/lionel-richie-las-vegas-friday-october-16-2026-800-pm/"
     },
     {
       "artist": "Donny Osmond",
@@ -2162,15 +2117,6 @@
       "url": "https://concerts.vegas/event/donny-osmond-las-vegas-friday-october-16-2026-730-pm/"
     },
     {
-      "artist": "Lionel Richie",
-      "venue": "BleauLive Theater at Fontainebleau",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-16",
-      "ts": 1792180800,
-      "url": "https://concerts.vegas/event/lionel-richie-las-vegas-friday-october-16-2026-800-pm/"
-    },
-    {
       "artist": "Barry Manilow",
       "venue": "BleauLive Theater at Fontainebleau",
       "type": "concert",
@@ -2178,6 +2124,15 @@
       "date": "2026-10-16",
       "ts": 1792180800,
       "url": "https://concerts.vegas/event/barry-manilow-las-vegas-friday-october-16-2026-800-pm/"
+    },
+    {
+      "artist": "Lionel Richie",
+      "venue": "BleauLive Theater at Fontainebleau",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-10-16",
+      "ts": 1792180800,
+      "url": "https://concerts.vegas/event/lionel-richie-las-vegas-friday-october-16-2026-800-pm/"
     },
     {
       "artist": "Easy Star All Stars Las Vegas Brooklyn Bowl",
@@ -2198,15 +2153,6 @@
       "url": "https://concerts.vegas/event/donny-osmond-las-vegas-friday-october-16-2026-730-pm/"
     },
     {
-      "artist": "Lionel Richie",
-      "venue": "Pearl Theater at Palms",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-16",
-      "ts": 1792180800,
-      "url": "https://concerts.vegas/event/lionel-richie-las-vegas-friday-october-16-2026-800-pm/"
-    },
-    {
       "artist": "Barry Manilow",
       "venue": "Pearl Theater at Palms",
       "type": "concert",
@@ -2214,6 +2160,15 @@
       "date": "2026-10-16",
       "ts": 1792180800,
       "url": "https://concerts.vegas/event/barry-manilow-las-vegas-friday-october-16-2026-800-pm/"
+    },
+    {
+      "artist": "Lionel Richie",
+      "venue": "Pearl Theater at Palms",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-10-16",
+      "ts": 1792180800,
+      "url": "https://concerts.vegas/event/lionel-richie-las-vegas-friday-october-16-2026-800-pm/"
     },
     {
       "artist": "Bijou",
@@ -2700,6 +2655,42 @@
       "date": "2026-10-24",
       "ts": 1792872000,
       "url": "https://concerts.vegas/event/samantha-fish-las-vegas-saturday-october-24-2026-800-pm/"
+    },
+    {
+      "artist": "Dead Poet Society And Honey Revenge Las Vegas House Of Blues",
+      "venue": "House of Blues",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-10-24",
+      "ts": 1792872000,
+      "url": "https://concerts.vegas/event/dead-poet-society-and-honey-revenge-las-vegas-house-of-blues-las-vegas-saturday-october-24-2026-6-00-pm/"
+    },
+    {
+      "artist": "Club 90s Thrillerween Michael Jackson Night Las Vegas Brooklyn Bowl",
+      "venue": "Brooklyn Bowl",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-10-24",
+      "ts": 1792872000,
+      "url": "https://concerts.vegas/event/club-90s-thrillerween-michael-jackson-night-las-vegas-brooklyn-bowl-las-vegas-saturday-october-24-2026-9-00-pm/"
+    },
+    {
+      "artist": "Dj Shift",
+      "venue": "Marquee Dayclub",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-10-25",
+      "ts": 1792954800,
+      "url": "https://nocovernightclubs.com/events/dj-shift-marquee-dayclub-sunday-october-25-2026/"
+    },
+    {
+      "artist": "Las Vegas Raiders Vs Los Angeles Rams",
+      "venue": "Allegiant Stadium",
+      "type": "sports",
+      "city": "Las Vegas",
+      "date": "2026-10-25",
+      "ts": 1792958400,
+      "url": "https://concerts.vegas/event/las-vegas-raiders-vs-los-angeles-rams-las-vegas-sunday-october-25-2026-125-pm/"
     }
   ]
 }
