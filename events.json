@@ -1,95 +1,50 @@
 {
-  "updated": 1790805885,
+  "updated": 1790859028,
   "events": [
     {
-      "artist": "Lcore",
-      "venue": "Marquee",
+      "artist": "Bolo",
+      "venue": "Zouk",
       "type": "club",
       "city": "Las Vegas",
-      "date": "2026-09-30",
-      "ts": 1790794800,
-      "url": "https://nocovernightclubs.com/events/lcore-marquee-nightclub-wednesday-september-30-2026/"
+      "date": "2026-10-01",
+      "ts": 1790881200,
+      "url": "https://nocovernightclubs.com/events/bolo-zouk-nightclub-thursday-october-01-2026/"
     },
     {
-      "artist": "Dj Franzen",
+      "artist": "Special Guest",
+      "venue": "Omnia",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-10-01",
+      "ts": 1790881200,
+      "url": "https://nocovernightclubs.com/events/special-guest-omnia-nightclub-thursday-october-1-2026/"
+    },
+    {
+      "artist": "Joe Maz",
+      "venue": "Tao",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-10-01",
+      "ts": 1790881200,
+      "url": "https://nocovernightclubs.com/events/joe-maz-tao-nightclub-thursday-october-1-2026/"
+    },
+    {
+      "artist": "Murda Beatz",
       "venue": "Hakkasan",
       "type": "club",
       "city": "Las Vegas",
-      "date": "2026-09-30",
-      "ts": 1790794800,
-      "url": "https://nocovernightclubs.com/events/dj-franzen-hakkasan-nightclub-wednesday-september-30-2026/"
+      "date": "2026-10-01",
+      "ts": 1790881200,
+      "url": "https://nocovernightclubs.com/events/murda-beatz-hakkasan-nightclub-thursday-october-1-2026/"
     },
     {
-      "artist": "Valentino Kahn",
-      "venue": "EBC At Night",
+      "artist": "Cassian",
+      "venue": "LIV",
       "type": "club",
       "city": "Las Vegas",
-      "date": "2026-09-30",
-      "ts": 1790794800,
-      "url": "https://nocovernightclubs.com/events/valentino-kahn-ebc-at-night-wednesday-september-30-2026/"
-    },
-    {
-      "artist": "Donny Osmond",
-      "venue": "The Colosseum at Caesars Palace",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-09-30",
-      "ts": 1790798400,
-      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-wednesday-september-30-2026-730-pm/"
-    },
-    {
-      "artist": "Donny Osmond",
-      "venue": "Dolby Live at Park MGM",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-09-30",
-      "ts": 1790798400,
-      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-wednesday-september-30-2026-730-pm/"
-    },
-    {
-      "artist": "Donny Osmond",
-      "venue": "Michelob Ultra Arena",
-      "type": "arena",
-      "city": "Las Vegas",
-      "date": "2026-09-30",
-      "ts": 1790798400,
-      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-wednesday-september-30-2026-730-pm/"
-    },
-    {
-      "artist": "Donny Osmond",
-      "venue": "Resorts World Theatre",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-09-30",
-      "ts": 1790798400,
-      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-wednesday-september-30-2026-730-pm/"
-    },
-    {
-      "artist": "Donny Osmond",
-      "venue": "Encore Theater at Wynn",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-09-30",
-      "ts": 1790798400,
-      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-wednesday-september-30-2026-730-pm/"
-    },
-    {
-      "artist": "Donny Osmond",
-      "venue": "BleauLive Theater at Fontainebleau",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-09-30",
-      "ts": 1790798400,
-      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-wednesday-september-30-2026-730-pm/"
-    },
-    {
-      "artist": "Donny Osmond",
-      "venue": "Pearl Theater at Palms",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-09-30",
-      "ts": 1790798400,
-      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-wednesday-september-30-2026-730-pm/"
+      "date": "2026-10-01",
+      "ts": 1790881200,
+      "url": "https://nocovernightclubs.com/events/cassian-liv-nightclub-thursday-october-1-2026/"
     },
     {
       "artist": "Special Guest",
@@ -137,6 +92,24 @@
       "url": "https://nocovernightclubs.com/events/chasewest-liv-beach-thursday-october-1-2026/"
     },
     {
+      "artist": "Candlelight Tribute To Michael Jackson Las Vegas The Industrial Event Space",
+      "venue": "T-Mobile Arena",
+      "type": "arena",
+      "city": "Las Vegas",
+      "date": "2026-10-01",
+      "ts": 1790884800,
+      "url": "https://concerts.vegas/event/candlelight-tribute-to-michael-jackson-las-vegas-the-industrial-event-space-thursday-october-1-2026-6-00-pm/"
+    },
+    {
+      "artist": "Candlelight Tribute To Michael Jackson Las Vegas The Industrial Event Space",
+      "venue": "Allegiant Stadium",
+      "type": "stadium",
+      "city": "Las Vegas",
+      "date": "2026-10-01",
+      "ts": 1790884800,
+      "url": "https://concerts.vegas/event/candlelight-tribute-to-michael-jackson-las-vegas-the-industrial-event-space-thursday-october-1-2026-6-00-pm/"
+    },
+    {
       "artist": "Donny Osmond",
       "venue": "The Colosseum at Caesars Palace",
       "type": "concert",
@@ -153,6 +126,15 @@
       "date": "2026-10-01",
       "ts": 1790884800,
       "url": "https://concerts.vegas/event/donny-osmond-las-vegas-thursday-october-1-2026-730-pm/"
+    },
+    {
+      "artist": "Candlelight Tribute To Michael Jackson Las Vegas The Industrial Event Space",
+      "venue": "MGM Grand Garden Arena",
+      "type": "arena",
+      "city": "Las Vegas",
+      "date": "2026-10-01",
+      "ts": 1790884800,
+      "url": "https://concerts.vegas/event/candlelight-tribute-to-michael-jackson-las-vegas-the-industrial-event-space-thursday-october-1-2026-6-00-pm/"
     },
     {
       "artist": "Donny Osmond",
@@ -182,13 +164,13 @@
       "url": "https://concerts.vegas/event/scorpions-las-vegas-thursday-october-1-2026-800-pm/"
     },
     {
-      "artist": "The Home Team",
+      "artist": "Candlelight Tribute To Michael Jackson Las Vegas The Industrial Event Space",
       "venue": "House of Blues",
       "type": "concert",
       "city": "Las Vegas",
       "date": "2026-10-01",
       "ts": 1790884800,
-      "url": "https://concerts.vegas/event/the-home-team-las-vegas-thursday-october-1-2026-730-pm/"
+      "url": "https://concerts.vegas/event/candlelight-tribute-to-michael-jackson-las-vegas-the-industrial-event-space-thursday-october-1-2026-6-00-pm/"
     },
     {
       "artist": "Donny Osmond",
@@ -209,6 +191,15 @@
       "url": "https://concerts.vegas/event/donny-osmond-las-vegas-thursday-october-1-2026-730-pm/"
     },
     {
+      "artist": "Candlelight Tribute To Michael Jackson Las Vegas The Industrial Event Space",
+      "venue": "Brooklyn Bowl",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-10-01",
+      "ts": 1790884800,
+      "url": "https://concerts.vegas/event/candlelight-tribute-to-michael-jackson-las-vegas-the-industrial-event-space-thursday-october-1-2026-6-00-pm/"
+    },
+    {
       "artist": "Donny Osmond",
       "venue": "Pearl Theater at Palms",
       "type": "concert",
@@ -216,6 +207,87 @@
       "date": "2026-10-01",
       "ts": 1790884800,
       "url": "https://concerts.vegas/event/donny-osmond-las-vegas-thursday-october-1-2026-730-pm/"
+    },
+    {
+      "artist": "Mathame",
+      "venue": "Zouk",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-10-02",
+      "ts": 1790967600,
+      "url": "https://nocovernightclubs.com/events/mathame-zouk-nightclub-friday-october-2-2026/"
+    },
+    {
+      "artist": "Tiesto",
+      "venue": "Omnia",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-10-02",
+      "ts": 1790967600,
+      "url": "https://nocovernightclubs.com/events/tiesto-omnia-nightclub-friday-october-2-2026/"
+    },
+    {
+      "artist": "Timmy Trumpet",
+      "venue": "Marquee",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-10-02",
+      "ts": 1790967600,
+      "url": "https://nocovernightclubs.com/events/timmy-trumpet-marquee-nightclub-friday-october-2-2026/"
+    },
+    {
+      "artist": "Dj Two4our",
+      "venue": "Tao",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-10-02",
+      "ts": 1790967600,
+      "url": "https://nocovernightclubs.com/events/dj-two4our-tao-nightclub-friday-october-2-2026/"
+    },
+    {
+      "artist": "Eric D Lux",
+      "venue": "Hakkasan",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-10-02",
+      "ts": 1790967600,
+      "url": "https://nocovernightclubs.com/events/eric-d-lux-hakkasan-nightclub-friday-october-2-2026/"
+    },
+    {
+      "artist": "Matroda",
+      "venue": "LIV",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-10-02",
+      "ts": 1790967600,
+      "url": "https://nocovernightclubs.com/events/matroda-liv-nightclub-friday-october-2-2026/"
+    },
+    {
+      "artist": "Eric Remy",
+      "venue": "Jewel",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-10-02",
+      "ts": 1790967600,
+      "url": "https://nocovernightclubs.com/events/eric-remy-jewel-nightclub-friday-october-2-2026/"
+    },
+    {
+      "artist": "Gryffin",
+      "venue": "Encore Beach Club",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-10-02",
+      "ts": 1790967600,
+      "url": "https://nocovernightclubs.com/events/gryffin-encore-beach-club-friday-october-2-2026/"
+    },
+    {
+      "artist": "Kaskade",
+      "venue": "EBC At Night",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-10-02",
+      "ts": 1790967600,
+      "url": "https://nocovernightclubs.com/events/kaskade-ebc-at-night-friday-october-2-2026/"
     },
     {
       "artist": "Spydatek",
@@ -360,6 +432,87 @@
       "date": "2026-10-02",
       "ts": 1790971200,
       "url": "https://concerts.vegas/event/donny-osmond-las-vegas-friday-october-2-2026-730-pm/"
+    },
+    {
+      "artist": "Ray Volpe",
+      "venue": "Zouk",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-10-03",
+      "ts": 1791054000,
+      "url": "https://nocovernightclubs.com/events/ray-volpe-zouk-nightclub-saturday-october-3-2026/"
+    },
+    {
+      "artist": "Steve Aoki",
+      "venue": "Omnia",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-10-03",
+      "ts": 1791054000,
+      "url": "https://nocovernightclubs.com/events/steve-aoki-omnia-nightclub-saturday-october-3-2026/"
+    },
+    {
+      "artist": "Cedric Gervais",
+      "venue": "Marquee",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-10-03",
+      "ts": 1791054000,
+      "url": "https://nocovernightclubs.com/events/cedric-gervais-marquee-nightclub-saturday-october-3-2026/"
+    },
+    {
+      "artist": "Dj Mos",
+      "venue": "Tao",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-10-03",
+      "ts": 1791054000,
+      "url": "https://nocovernightclubs.com/events/dj-mos-tao-nightclub-saturday-october-3-2026/"
+    },
+    {
+      "artist": "Wiz Khalifa",
+      "venue": "Hakkasan",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-10-03",
+      "ts": 1791054000,
+      "url": "https://nocovernightclubs.com/events/wiz-khalifa-hakkasan-nightclub-saturday-october-3-2026/"
+    },
+    {
+      "artist": "Metro Boomin",
+      "venue": "LIV",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-10-03",
+      "ts": 1791054000,
+      "url": "https://nocovernightclubs.com/events/metro-boomin-liv-nightclub-saturday-october-3-2026/"
+    },
+    {
+      "artist": "Dj Cla",
+      "venue": "Jewel",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-10-03",
+      "ts": 1791054000,
+      "url": "https://nocovernightclubs.com/events/dj-cla-jewel-nightclub-saturday-october-3-2026/"
+    },
+    {
+      "artist": "The Chainsmokers",
+      "venue": "Encore Beach Club",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-10-03",
+      "ts": 1791054000,
+      "url": "https://nocovernightclubs.com/events/the-chainsmokers-encore-beach-club-saturday-october-3-2026/"
+    },
+    {
+      "artist": "Marshmello",
+      "venue": "EBC At Night",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-10-03",
+      "ts": 1791054000,
+      "url": "https://nocovernightclubs.com/events/marshmello-ebc-at-night-saturday-october-3-2026/"
     },
     {
       "artist": "Twinsick",
@@ -533,6 +686,24 @@
       "url": "https://concerts.vegas/event/donny-osmond-las-vegas-saturday-october-3-2026-730-pm/"
     },
     {
+      "artist": "Deseo",
+      "venue": "Omnia",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-10-04",
+      "ts": 1791140400,
+      "url": "https://nocovernightclubs.com/events/deseo-omnia-nightclub-sunday-october-4-2026/"
+    },
+    {
+      "artist": "Ritual Sunday",
+      "venue": "Tao",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-10-04",
+      "ts": 1791140400,
+      "url": "https://nocovernightclubs.com/events/ritual-sunday-tao-nightclub-sunday-october-4-2026/"
+    },
+    {
       "artist": "Brooke Evers",
       "venue": "Marquee Dayclub",
       "type": "pool",
@@ -623,6 +794,15 @@
       "url": "https://concerts.vegas/event/roger-clyne-and-the-peacemakers-las-vegas-sunday-october-4-2026-600-pm/"
     },
     {
+      "artist": "Crespo",
+      "venue": "Marquee",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-10-05",
+      "ts": 1791226800,
+      "url": "https://nocovernightclubs.com/events/crespo-marquee-nightclub-monday-october-5-2026/"
+    },
+    {
       "artist": "Snarky Puppy",
       "venue": "Brooklyn Bowl",
       "type": "concert",
@@ -630,6 +810,15 @@
       "date": "2026-10-05",
       "ts": 1791230400,
       "url": "https://concerts.vegas/event/snarky-puppy-las-vegas-monday-october-5-2026-730-pm/"
+    },
+    {
+      "artist": "Luis Torres",
+      "venue": "Omnia",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-10-06",
+      "ts": 1791313200,
+      "url": "https://nocovernightclubs.com/events/luis-torres-omnia-nightclub-tuesday-october-6-2026/"
     },
     {
       "artist": "Donny Osmond",
@@ -693,6 +882,42 @@
       "date": "2026-10-06",
       "ts": 1791316800,
       "url": "https://concerts.vegas/event/donny-osmond-las-vegas-tuesday-october-6-2026-730-pm/"
+    },
+    {
+      "artist": "Lema",
+      "venue": "Marquee",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-10-07",
+      "ts": 1791399600,
+      "url": "https://nocovernightclubs.com/events/lema-marquee-nightclub-wednesday-october-7-2026/"
+    },
+    {
+      "artist": "Dj Franzen",
+      "venue": "Hakkasan",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-10-07",
+      "ts": 1791399600,
+      "url": "https://nocovernightclubs.com/events/dj-franzen-hakkasan-nightclub-wednesday-october-7-2026/"
+    },
+    {
+      "artist": "Eli Brown",
+      "venue": "LIV",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-10-07",
+      "ts": 1791399600,
+      "url": "https://nocovernightclubs.com/events/eli-brown-liv-nightclub-wednesday-october-7-2026/"
+    },
+    {
+      "artist": "Alex Monopoly",
+      "venue": "EBC At Night",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-10-07",
+      "ts": 1791399600,
+      "url": "https://nocovernightclubs.com/events/alex-monopoly-ebc-at-night-wednesday-october-7-2026/"
     },
     {
       "artist": "Special Guest",
@@ -783,6 +1008,60 @@
       "date": "2026-10-07",
       "ts": 1791403200,
       "url": "https://concerts.vegas/event/donny-osmond-las-vegas-wednesday-october-7-2026-730-pm/"
+    },
+    {
+      "artist": "Rl Grime",
+      "venue": "Zouk",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-10-08",
+      "ts": 1791486000,
+      "url": "https://nocovernightclubs.com/events/rl-grime-zouk-nightclub-thursday-october-8-2026/"
+    },
+    {
+      "artist": "Special Guest",
+      "venue": "Omnia",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-10-08",
+      "ts": 1791486000,
+      "url": "https://nocovernightclubs.com/events/special-guest-omnia-nightclub-thursday-october-8-2026/"
+    },
+    {
+      "artist": "Dj Shift",
+      "venue": "Tao",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-10-08",
+      "ts": 1791486000,
+      "url": "https://nocovernightclubs.com/events/dj-shift-tao-nightclub-thursday-october-8-2026/"
+    },
+    {
+      "artist": "Dj Bonics",
+      "venue": "Hakkasan",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-10-08",
+      "ts": 1791486000,
+      "url": "https://nocovernightclubs.com/events/dj-bonics-hakkasan-nightclub-thursday-october-8-2026/"
+    },
+    {
+      "artist": "Max Styler",
+      "venue": "LIV",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-10-08",
+      "ts": 1791486000,
+      "url": "https://nocovernightclubs.com/events/max-styler-liv-nightclub-thursday-october-8-2026/"
+    },
+    {
+      "artist": "Its Murph",
+      "venue": "EBC At Night",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-10-08",
+      "ts": 1791486000,
+      "url": "https://nocovernightclubs.com/events/its-murph-ebc-at-night-thursday-october-8-2026/"
     },
     {
       "artist": "Special Guest",
@@ -981,6 +1260,87 @@
       "date": "2026-10-08",
       "ts": 1791489600,
       "url": "https://concerts.vegas/event/donny-osmond-las-vegas-thursday-october-8-2026-730-pm/"
+    },
+    {
+      "artist": "Wax Motif",
+      "venue": "Zouk",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-10-09",
+      "ts": 1791572400,
+      "url": "https://nocovernightclubs.com/events/wax-motif-zouk-nightclub-friday-october-9-2026/"
+    },
+    {
+      "artist": "Steve Aoki",
+      "venue": "Omnia",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-10-09",
+      "ts": 1791572400,
+      "url": "https://nocovernightclubs.com/events/steve-aoki-omnia-nightclub-friday-october-9-2026/"
+    },
+    {
+      "artist": "Deorro",
+      "venue": "Marquee",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-10-09",
+      "ts": 1791572400,
+      "url": "https://nocovernightclubs.com/events/deorro-marquee-nightclub-friday-october-9-2026/"
+    },
+    {
+      "artist": "Greg Lopez",
+      "venue": "Tao",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-10-09",
+      "ts": 1791572400,
+      "url": "https://nocovernightclubs.com/events/greg-lopez-tao-nightclub-friday-october-9-2026/"
+    },
+    {
+      "artist": "Chase B",
+      "venue": "Hakkasan",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-10-09",
+      "ts": 1791572400,
+      "url": "https://nocovernightclubs.com/events/chase-b-hakkasan-nightclub-friday-october-9-2026/"
+    },
+    {
+      "artist": "Dom Dolla",
+      "venue": "LIV",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-10-09",
+      "ts": 1791572400,
+      "url": "https://nocovernightclubs.com/events/dom-dolla-liv-nightclub-friday-october-9-2026/"
+    },
+    {
+      "artist": "Dj Buza",
+      "venue": "Jewel",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-10-09",
+      "ts": 1791572400,
+      "url": "https://nocovernightclubs.com/events/dj-buza-jewel-nightclub-friday-october-9-2026/"
+    },
+    {
+      "artist": "Subtronics",
+      "venue": "Encore Beach Club",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-10-09",
+      "ts": 1791572400,
+      "url": "https://nocovernightclubs.com/events/subtronics-encore-beach-club-friday-october-9-2026/"
+    },
+    {
+      "artist": "Sofi Tukker",
+      "venue": "EBC At Night",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-10-09",
+      "ts": 1791572400,
+      "url": "https://nocovernightclubs.com/events/sofi-tukker-ebc-at-night-friday-october-9-2026/"
     },
     {
       "artist": "Escobar",
@@ -1206,6 +1566,78 @@
       "date": "2026-10-09",
       "ts": 1791576000,
       "url": "https://concerts.vegas/event/barry-manilow-las-vegas-friday-october-9-2026-800-pm/"
+    },
+    {
+      "artist": "Alison Wonderland",
+      "venue": "Zouk",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-10-10",
+      "ts": 1791658800,
+      "url": "https://nocovernightclubs.com/events/alison-wonderland-zouk-nightclub-saturday-october-10-2026/"
+    },
+    {
+      "artist": "Dj Pauly D",
+      "venue": "Omnia",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-10-10",
+      "ts": 1791658800,
+      "url": "https://nocovernightclubs.com/events/dj-pauly-d-omnia-nightclub-saturday-october-10-2026/"
+    },
+    {
+      "artist": "Twinsick",
+      "venue": "Marquee",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-10-10",
+      "ts": 1791658800,
+      "url": "https://nocovernightclubs.com/events/twinsick-marquee-nightclub-saturday-october-10-2026/"
+    },
+    {
+      "artist": "Dj Konflikt",
+      "venue": "Tao",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-10-10",
+      "ts": 1791658800,
+      "url": "https://nocovernightclubs.com/events/dj-konflikt-tao-nightclub-saturday-october-10-2026/"
+    },
+    {
+      "artist": "Dod",
+      "venue": "LIV",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-10-10",
+      "ts": 1791658800,
+      "url": "https://nocovernightclubs.com/events/dod-liv-nightclub-friday-october-10-2026/"
+    },
+    {
+      "artist": "Yo Yolie",
+      "venue": "Jewel",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-10-10",
+      "ts": 1791658800,
+      "url": "https://nocovernightclubs.com/events/yo-yolie-jewel-nightclub-saturday-october-10-2026/"
+    },
+    {
+      "artist": "Two Friends",
+      "venue": "Encore Beach Club",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-10-10",
+      "ts": 1791658800,
+      "url": "https://nocovernightclubs.com/events/two-friends-encore-beach-club-saturday-october-10-2026/"
+    },
+    {
+      "artist": "Loud Luxury",
+      "venue": "EBC At Night",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-10-10",
+      "ts": 1791658800,
+      "url": "https://nocovernightclubs.com/events/loud-luxury-ebc-at-night-saturday-october-10-2026/"
     },
     {
       "artist": "Special Guest",
@@ -1442,6 +1874,42 @@
       "url": "https://concerts.vegas/event/donny-osmond-las-vegas-saturday-october-10-2026-730-pm/"
     },
     {
+      "artist": "Deseo",
+      "venue": "Omnia",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-10-11",
+      "ts": 1791745200,
+      "url": "https://nocovernightclubs.com/events/deseo-omnia-nightclub-sunday-october-11-2026/"
+    },
+    {
+      "artist": "Ritual Sunday",
+      "venue": "Tao",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-10-11",
+      "ts": 1791745200,
+      "url": "https://nocovernightclubs.com/events/ritual-sunday-tao-nightclub-sunday-october-11-2026/"
+    },
+    {
+      "artist": "Prospa",
+      "venue": "LIV",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-10-11",
+      "ts": 1791745200,
+      "url": "https://nocovernightclubs.com/events/prospa-liv-nightclub-sunday-october-11-2026/"
+    },
+    {
+      "artist": "Bunt",
+      "venue": "Encore Beach Club",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-10-11",
+      "ts": 1791745200,
+      "url": "https://nocovernightclubs.com/events/bunt-encore-beach-club-sunday-october-11-2026/"
+    },
+    {
       "artist": "Dj Konflikt",
       "venue": "Marquee Dayclub",
       "type": "pool",
@@ -1485,6 +1953,24 @@
       "date": "2026-10-11",
       "ts": 1791745200,
       "url": "https://nocovernightclubs.com/events/cloonee-liv-beach-sunday-october-11-2026/"
+    },
+    {
+      "artist": "Murda Beatz",
+      "venue": "Marquee",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-10-12",
+      "ts": 1791831600,
+      "url": "https://nocovernightclubs.com/events/murda-beatz-marquee-nightclub-monday-october-12-2026/"
+    },
+    {
+      "artist": "Justin Credible",
+      "venue": "Omnia",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-10-13",
+      "ts": 1791918000,
+      "url": "https://nocovernightclubs.com/events/justin-credible-omnia-nightclub-tuesday-october-13-2026/"
     },
     {
       "artist": "Nba Preseason Los Angeles Lakers Vs Golden State Warriors",
@@ -1575,6 +2061,33 @@
       "date": "2026-10-13",
       "ts": 1791921600,
       "url": "https://concerts.vegas/event/donny-osmond-las-vegas-tuesday-october-13-2026-730-pm/"
+    },
+    {
+      "artist": "Lincoln Jesser",
+      "venue": "Marquee",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-10-14",
+      "ts": 1792004400,
+      "url": "https://nocovernightclubs.com/events/lincoln-jesser-marquee-nightclub-wednesday-october-14-2026/"
+    },
+    {
+      "artist": "Dj Franzen",
+      "venue": "Hakkasan",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-10-14",
+      "ts": 1792004400,
+      "url": "https://nocovernightclubs.com/events/dj-franzen-hakkasan-nightclub-wednesday-october-14-2026/"
+    },
+    {
+      "artist": "Bunt",
+      "venue": "EBC At Night",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-10-14",
+      "ts": 1792004400,
+      "url": "https://nocovernightclubs.com/events/bunt-ebc-at-night-wednesday-october-14-2026/"
     },
     {
       "artist": "Donny Osmond",
@@ -1737,6 +2250,60 @@
       "date": "2026-10-14",
       "ts": 1792008000,
       "url": "https://concerts.vegas/event/lionel-richie-las-vegas-wednesday-october-14-2026-800-pm/"
+    },
+    {
+      "artist": "Level Up",
+      "venue": "Zouk",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-10-15",
+      "ts": 1792090800,
+      "url": "https://nocovernightclubs.com/events/level-up-zouk-nightclub-thursday-october-15-2026/"
+    },
+    {
+      "artist": "Special Guest",
+      "venue": "Omnia",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-10-15",
+      "ts": 1792090800,
+      "url": "https://nocovernightclubs.com/events/special-guest-omnia-nightclub-thursday-october-15-2026/"
+    },
+    {
+      "artist": "J Nice",
+      "venue": "Tao",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-10-15",
+      "ts": 1792090800,
+      "url": "https://nocovernightclubs.com/events/j-nice-tao-nightclub-thursday-october-15-2026/"
+    },
+    {
+      "artist": "Dj Tay James",
+      "venue": "Hakkasan",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-10-15",
+      "ts": 1792090800,
+      "url": "https://nocovernightclubs.com/events/dj-tay-james-hakkasan-nightclub-thursday-october-15-2026/"
+    },
+    {
+      "artist": "Beltran",
+      "venue": "LIV",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-10-15",
+      "ts": 1792090800,
+      "url": "https://nocovernightclubs.com/events/beltran-liv-nightclub-thursday-october-15-2026/"
+    },
+    {
+      "artist": "Odd Mob",
+      "venue": "EBC At Night",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-10-15",
+      "ts": 1792090800,
+      "url": "https://nocovernightclubs.com/events/odd-mob-ebc-at-night-thursday-october-15-2026/"
     },
     {
       "artist": "Special Guest",
@@ -1910,6 +2477,87 @@
       "url": "https://concerts.vegas/event/donny-osmond-las-vegas-thursday-october-15-2026-730-pm/"
     },
     {
+      "artist": "San Pacho",
+      "venue": "Zouk",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-10-16",
+      "ts": 1792177200,
+      "url": "https://nocovernightclubs.com/events/san-pacho-zouk-nightclub-friday-october-16-2026/"
+    },
+    {
+      "artist": "Steve Aoki",
+      "venue": "Omnia",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-10-16",
+      "ts": 1792177200,
+      "url": "https://nocovernightclubs.com/events/steve-aoki-omnia-nightclub-friday-october-16-2026/"
+    },
+    {
+      "artist": "Deorro",
+      "venue": "Marquee",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-10-16",
+      "ts": 1792177200,
+      "url": "https://nocovernightclubs.com/events/deorro-marquee-nightclub-friday-october-16-2026/"
+    },
+    {
+      "artist": "Dj Cla",
+      "venue": "Tao",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-10-16",
+      "ts": 1792177200,
+      "url": "https://nocovernightclubs.com/events/dj-cla-tao-nightclub-friday-october-16-2026/"
+    },
+    {
+      "artist": "Dj Five",
+      "venue": "Hakkasan",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-10-16",
+      "ts": 1792177200,
+      "url": "https://nocovernightclubs.com/events/dj-five-hakkasan-nightclub-friday-october-16-2026/"
+    },
+    {
+      "artist": "Tiesto",
+      "venue": "LIV",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-10-16",
+      "ts": 1792177200,
+      "url": "https://nocovernightclubs.com/events/tiesto-liv-nightclub-friday-october-16-2026/"
+    },
+    {
+      "artist": "Dj Lucky Lou",
+      "venue": "Jewel",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-10-16",
+      "ts": 1792177200,
+      "url": "https://nocovernightclubs.com/events/dj-lucky-lou-jewel-nightclub-friday-october-16-2026/"
+    },
+    {
+      "artist": "Gryffin",
+      "venue": "Encore Beach Club",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-10-16",
+      "ts": 1792177200,
+      "url": "https://nocovernightclubs.com/events/gryffin-encore-beach-club-friday-october-16-2026/"
+    },
+    {
+      "artist": "Deadmau5",
+      "venue": "EBC At Night",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-10-16",
+      "ts": 1792177200,
+      "url": "https://nocovernightclubs.com/events/deadmau5-ebc-at-night-friday-october-16-2026/"
+    },
+    {
       "artist": "15grams",
       "venue": "Marquee Dayclub",
       "type": "pool",
@@ -2052,645 +2700,6 @@
       "date": "2026-10-16",
       "ts": 1792180800,
       "url": "https://concerts.vegas/event/dj-meredith-marks-las-vegas-24-oxford-at-virgin-hotels-las-vegas-friday-october-16-2026-9-00-pm/"
-    },
-    {
-      "artist": "Donny Osmond",
-      "venue": "Resorts World Theatre",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-16",
-      "ts": 1792180800,
-      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-friday-october-16-2026-730-pm/"
-    },
-    {
-      "artist": "Lionel Richie",
-      "venue": "Resorts World Theatre",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-16",
-      "ts": 1792180800,
-      "url": "https://concerts.vegas/event/lionel-richie-las-vegas-friday-october-16-2026-800-pm/"
-    },
-    {
-      "artist": "Barry Manilow",
-      "venue": "Resorts World Theatre",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-16",
-      "ts": 1792180800,
-      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-friday-october-16-2026-800-pm/"
-    },
-    {
-      "artist": "Donny Osmond",
-      "venue": "Encore Theater at Wynn",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-16",
-      "ts": 1792180800,
-      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-friday-october-16-2026-730-pm/"
-    },
-    {
-      "artist": "Lionel Richie",
-      "venue": "Encore Theater at Wynn",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-16",
-      "ts": 1792180800,
-      "url": "https://concerts.vegas/event/lionel-richie-las-vegas-friday-october-16-2026-800-pm/"
-    },
-    {
-      "artist": "Barry Manilow",
-      "venue": "Encore Theater at Wynn",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-16",
-      "ts": 1792180800,
-      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-friday-october-16-2026-800-pm/"
-    },
-    {
-      "artist": "Donny Osmond",
-      "venue": "BleauLive Theater at Fontainebleau",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-16",
-      "ts": 1792180800,
-      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-friday-october-16-2026-730-pm/"
-    },
-    {
-      "artist": "Lionel Richie",
-      "venue": "BleauLive Theater at Fontainebleau",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-16",
-      "ts": 1792180800,
-      "url": "https://concerts.vegas/event/lionel-richie-las-vegas-friday-october-16-2026-800-pm/"
-    },
-    {
-      "artist": "Barry Manilow",
-      "venue": "BleauLive Theater at Fontainebleau",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-16",
-      "ts": 1792180800,
-      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-friday-october-16-2026-800-pm/"
-    },
-    {
-      "artist": "Easy Star All Stars Las Vegas Brooklyn Bowl",
-      "venue": "Brooklyn Bowl",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-16",
-      "ts": 1792180800,
-      "url": "https://concerts.vegas/event/easy-star-all-stars-las-vegas-brooklyn-bowl-las-vegas-friday-october-16-2026-7-30-pm/"
-    },
-    {
-      "artist": "Donny Osmond",
-      "venue": "Pearl Theater at Palms",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-16",
-      "ts": 1792180800,
-      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-friday-october-16-2026-730-pm/"
-    },
-    {
-      "artist": "Lionel Richie",
-      "venue": "Pearl Theater at Palms",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-16",
-      "ts": 1792180800,
-      "url": "https://concerts.vegas/event/lionel-richie-las-vegas-friday-october-16-2026-800-pm/"
-    },
-    {
-      "artist": "Barry Manilow",
-      "venue": "Pearl Theater at Palms",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-16",
-      "ts": 1792180800,
-      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-friday-october-16-2026-800-pm/"
-    },
-    {
-      "artist": "Bijou",
-      "venue": "Marquee Dayclub",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-10-17",
-      "ts": 1792263600,
-      "url": "https://nocovernightclubs.com/events/bijou-marquee-dayclub-saturday-october-17-2026/"
-    },
-    {
-      "artist": "Telykast",
-      "venue": "Palm Tree Beach",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-10-17",
-      "ts": 1792263600,
-      "url": "https://nocovernightclubs.com/events/telykast-palm-tree-beach-club-saturday-october-17-2026/"
-    },
-    {
-      "artist": "Sidepiece",
-      "venue": "LIV Beach",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-10-17",
-      "ts": 1792263600,
-      "url": "https://nocovernightclubs.com/events/sidepiece-liv-beach-saturday-october-17-2026/"
-    },
-    {
-      "artist": "Vegas Golden Knights Vs Pittsburgh Penguins",
-      "venue": "T-Mobile Arena",
-      "type": "sports",
-      "city": "Las Vegas",
-      "date": "2026-10-17",
-      "ts": 1792267200,
-      "url": "https://concerts.vegas/event/vegas-golden-knights-vs-pittsburgh-penguins-las-vegas-saturday-october-17-2026-700-pm/"
-    },
-    {
-      "artist": "Barry Manilow",
-      "venue": "The Colosseum at Caesars Palace",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-17",
-      "ts": 1792267200,
-      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-saturday-october-17-2026-700-pm/"
-    },
-    {
-      "artist": "Donny Osmond",
-      "venue": "The Colosseum at Caesars Palace",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-17",
-      "ts": 1792267200,
-      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-saturday-october-17-2026-730-pm/"
-    },
-    {
-      "artist": "Lionel Richie Las Vegas Encore Theatre At Wynn",
-      "venue": "The Colosseum at Caesars Palace",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-17",
-      "ts": 1792267200,
-      "url": "https://concerts.vegas/event/lionel-richie-las-vegas-encore-theatre-at-wynn-las-vegas-saturday-october-17-2026-8-00-pm/"
-    },
-    {
-      "artist": "New Kids On The Block",
-      "venue": "Dolby Live at Park MGM",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-17",
-      "ts": 1792267200,
-      "url": "https://concerts.vegas/event/new-kids-on-the-block-las-vegas-saturday-october-17-2026-800-pm/"
-    },
-    {
-      "artist": "Barry Manilow",
-      "venue": "Dolby Live at Park MGM",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-17",
-      "ts": 1792267200,
-      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-saturday-october-17-2026-700-pm/"
-    },
-    {
-      "artist": "Donny Osmond",
-      "venue": "Dolby Live at Park MGM",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-17",
-      "ts": 1792267200,
-      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-saturday-october-17-2026-730-pm/"
-    },
-    {
-      "artist": "Lionel Richie Las Vegas Encore Theatre At Wynn",
-      "venue": "Dolby Live at Park MGM",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-17",
-      "ts": 1792267200,
-      "url": "https://concerts.vegas/event/lionel-richie-las-vegas-encore-theatre-at-wynn-las-vegas-saturday-october-17-2026-8-00-pm/"
-    },
-    {
-      "artist": "Barry Manilow",
-      "venue": "Michelob Ultra Arena",
-      "type": "arena",
-      "city": "Las Vegas",
-      "date": "2026-10-17",
-      "ts": 1792267200,
-      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-saturday-october-17-2026-700-pm/"
-    },
-    {
-      "artist": "Donny Osmond",
-      "venue": "Michelob Ultra Arena",
-      "type": "arena",
-      "city": "Las Vegas",
-      "date": "2026-10-17",
-      "ts": 1792267200,
-      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-saturday-october-17-2026-730-pm/"
-    },
-    {
-      "artist": "Lionel Richie Las Vegas Encore Theatre At Wynn",
-      "venue": "Michelob Ultra Arena",
-      "type": "arena",
-      "city": "Las Vegas",
-      "date": "2026-10-17",
-      "ts": 1792267200,
-      "url": "https://concerts.vegas/event/lionel-richie-las-vegas-encore-theatre-at-wynn-las-vegas-saturday-october-17-2026-8-00-pm/"
-    },
-    {
-      "artist": "Barry Manilow",
-      "venue": "Resorts World Theatre",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-17",
-      "ts": 1792267200,
-      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-saturday-october-17-2026-700-pm/"
-    },
-    {
-      "artist": "Donny Osmond",
-      "venue": "Resorts World Theatre",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-17",
-      "ts": 1792267200,
-      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-saturday-october-17-2026-730-pm/"
-    },
-    {
-      "artist": "Lionel Richie Las Vegas Encore Theatre At Wynn",
-      "venue": "Resorts World Theatre",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-17",
-      "ts": 1792267200,
-      "url": "https://concerts.vegas/event/lionel-richie-las-vegas-encore-theatre-at-wynn-las-vegas-saturday-october-17-2026-8-00-pm/"
-    },
-    {
-      "artist": "Mico",
-      "venue": "House of Blues",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-17",
-      "ts": 1792267200,
-      "url": "https://concerts.vegas/event/mico-las-vegas-saturday-october-17-2026-730-pm/"
-    },
-    {
-      "artist": "Barry Manilow",
-      "venue": "Encore Theater at Wynn",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-17",
-      "ts": 1792267200,
-      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-saturday-october-17-2026-700-pm/"
-    },
-    {
-      "artist": "Donny Osmond",
-      "venue": "Encore Theater at Wynn",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-17",
-      "ts": 1792267200,
-      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-saturday-october-17-2026-730-pm/"
-    },
-    {
-      "artist": "Lionel Richie Las Vegas Encore Theatre At Wynn",
-      "venue": "Encore Theater at Wynn",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-17",
-      "ts": 1792267200,
-      "url": "https://concerts.vegas/event/lionel-richie-las-vegas-encore-theatre-at-wynn-las-vegas-saturday-october-17-2026-8-00-pm/"
-    },
-    {
-      "artist": "Barry Manilow",
-      "venue": "BleauLive Theater at Fontainebleau",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-17",
-      "ts": 1792267200,
-      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-saturday-october-17-2026-700-pm/"
-    },
-    {
-      "artist": "Donny Osmond",
-      "venue": "BleauLive Theater at Fontainebleau",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-17",
-      "ts": 1792267200,
-      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-saturday-october-17-2026-730-pm/"
-    },
-    {
-      "artist": "Lionel Richie Las Vegas Encore Theatre At Wynn",
-      "venue": "BleauLive Theater at Fontainebleau",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-17",
-      "ts": 1792267200,
-      "url": "https://concerts.vegas/event/lionel-richie-las-vegas-encore-theatre-at-wynn-las-vegas-saturday-october-17-2026-8-00-pm/"
-    },
-    {
-      "artist": "Schoolboy Q Las Vegas Brooklyn Bowl",
-      "venue": "Brooklyn Bowl",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-17",
-      "ts": 1792267200,
-      "url": "https://concerts.vegas/event/schoolboy-q-las-vegas-brooklyn-bowl-las-vegas-saturday-october-17-2026-7-00-pm/"
-    },
-    {
-      "artist": "Barry Manilow",
-      "venue": "Pearl Theater at Palms",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-17",
-      "ts": 1792267200,
-      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-saturday-october-17-2026-700-pm/"
-    },
-    {
-      "artist": "Donny Osmond",
-      "venue": "Pearl Theater at Palms",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-17",
-      "ts": 1792267200,
-      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-saturday-october-17-2026-730-pm/"
-    },
-    {
-      "artist": "Lionel Richie Las Vegas Encore Theatre At Wynn",
-      "venue": "Pearl Theater at Palms",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-17",
-      "ts": 1792267200,
-      "url": "https://concerts.vegas/event/lionel-richie-las-vegas-encore-theatre-at-wynn-las-vegas-saturday-october-17-2026-8-00-pm/"
-    },
-    {
-      "artist": "Dj Spider",
-      "venue": "Marquee Dayclub",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-10-18",
-      "ts": 1792350000,
-      "url": "https://nocovernightclubs.com/events/dj-spider-marquee-dayclub-sunday-october-18-2026/"
-    },
-    {
-      "artist": "Luis Torres",
-      "venue": "Palm Tree Beach",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-10-18",
-      "ts": 1792350000,
-      "url": "https://nocovernightclubs.com/events/luis-torres-palm-tree-beach-club-sunday-october-18-2026/"
-    },
-    {
-      "artist": "Las Vegas Raiders Vs Buffalo Bills",
-      "venue": "Allegiant Stadium",
-      "type": "sports",
-      "city": "Las Vegas",
-      "date": "2026-10-18",
-      "ts": 1792353600,
-      "url": "https://concerts.vegas/event/las-vegas-raiders-vs-buffalo-bills-las-vegas-sunday-october-18-2026-125-pm/"
-    },
-    {
-      "artist": "Countess Luann De Lesseps",
-      "venue": "House of Blues",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-18",
-      "ts": 1792353600,
-      "url": "https://concerts.vegas/event/countess-luann-de-lesseps-las-vegas-sunday-october-18-2026-700-pm/"
-    },
-    {
-      "artist": "D Miles",
-      "venue": "Marquee Dayclub",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-10-19",
-      "ts": 1792436400,
-      "url": "https://nocovernightclubs.com/events/d-miles-marquee-dayclub-monday-october-19-2026/"
-    },
-    {
-      "artist": "Free Throw And Microwave",
-      "venue": "House of Blues",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-19",
-      "ts": 1792440000,
-      "url": "https://concerts.vegas/event/free-throw-and-microwave-las-vegas-monday-october-19-2026-600-pm/"
-    },
-    {
-      "artist": "Vegas Golden Knights Vs Tampa Bay Lightning",
-      "venue": "T-Mobile Arena",
-      "type": "sports",
-      "city": "Las Vegas",
-      "date": "2026-10-20",
-      "ts": 1792526400,
-      "url": "https://concerts.vegas/event/vegas-golden-knights-vs-tampa-bay-lightning-las-vegas-tuesday-october-20-2026-730-pm/"
-    },
-    {
-      "artist": "Boy Harsher",
-      "venue": "House of Blues",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-20",
-      "ts": 1792526400,
-      "url": "https://concerts.vegas/event/boy-harsher-las-vegas-tuesday-october-20-2026-700-pm/"
-    },
-    {
-      "artist": "Deltron 3030",
-      "venue": "House of Blues",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-21",
-      "ts": 1792612800,
-      "url": "https://concerts.vegas/event/deltron-3030-las-vegas-wednesday-october-21-2026-700-pm/"
-    },
-    {
-      "artist": "Greg Lopez",
-      "venue": "Marquee Dayclub",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-10-22",
-      "ts": 1792695600,
-      "url": "https://nocovernightclubs.com/events/greg-lopez-marquee-dayclub-thursday-october-22-2026/"
-    },
-    {
-      "artist": "Dj Cla",
-      "venue": "Marquee Dayclub",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-10-23",
-      "ts": 1792782000,
-      "url": "https://nocovernightclubs.com/events/dj-cla-marquee-dayclub-friday-october-23-2026/"
-    },
-    {
-      "artist": "Weezer The Shins And Silversun Pickups",
-      "venue": "T-Mobile Arena",
-      "type": "arena",
-      "city": "Las Vegas",
-      "date": "2026-10-23",
-      "ts": 1792785600,
-      "url": "https://concerts.vegas/event/weezer-the-shins-and-silversun-pickups-las-vegas-friday-october-23-2026-700-pm/"
-    },
-    {
-      "artist": "Mary J Blige",
-      "venue": "Dolby Live at Park MGM",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-23",
-      "ts": 1792785600,
-      "url": "https://concerts.vegas/event/mary-j-blige-las-vegas-friday-october-23-2026-800-pm/"
-    },
-    {
-      "artist": "Charli Xcx",
-      "venue": "MGM Grand Garden Arena",
-      "type": "arena",
-      "city": "Las Vegas",
-      "date": "2026-10-23",
-      "ts": 1792785600,
-      "url": "https://concerts.vegas/event/charli-xcx-las-vegas-friday-october-23-2026-800-pm/"
-    },
-    {
-      "artist": "Treaty Oak Revival",
-      "venue": "The Theater at Virgin Hotels",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-23",
-      "ts": 1792785600,
-      "url": "https://concerts.vegas/event/treaty-oak-revival-las-vegas-friday-october-23-2026-800-pm/"
-    },
-    {
-      "artist": "Little Miss Nasty Burlesque Show Las Vegas 24 Oxford At Virgin Hotels",
-      "venue": "The Theater at Virgin Hotels",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-23",
-      "ts": 1792785600,
-      "url": "https://concerts.vegas/event/little-miss-nasty-burlesque-show-las-vegas-24-oxford-at-virgin-hotels-las-vegas-friday-october-23-2026-8-00-pm/"
-    },
-    {
-      "artist": "Treaty Oak Revival",
-      "venue": "24 Oxford at Virgin Hotels",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-23",
-      "ts": 1792785600,
-      "url": "https://concerts.vegas/event/treaty-oak-revival-las-vegas-friday-october-23-2026-800-pm/"
-    },
-    {
-      "artist": "Little Miss Nasty Burlesque Show Las Vegas 24 Oxford At Virgin Hotels",
-      "venue": "24 Oxford at Virgin Hotels",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-23",
-      "ts": 1792785600,
-      "url": "https://concerts.vegas/event/little-miss-nasty-burlesque-show-las-vegas-24-oxford-at-virgin-hotels-las-vegas-friday-october-23-2026-8-00-pm/"
-    },
-    {
-      "artist": "Artms",
-      "venue": "House of Blues",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-23",
-      "ts": 1792785600,
-      "url": "https://concerts.vegas/event/artms-las-vegas-friday-october-23-2026-600-pm/"
-    },
-    {
-      "artist": "The Iron Maidens Las Vegas Brooklyn Bowl",
-      "venue": "Brooklyn Bowl",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-23",
-      "ts": 1792785600,
-      "url": "https://concerts.vegas/event/the-iron-maidens-las-vegas-brooklyn-bowl-las-vegas-friday-october-23-2026-7-30-pm/"
-    },
-    {
-      "artist": "Laidback Luke",
-      "venue": "Marquee Dayclub",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-10-24",
-      "ts": 1792868400,
-      "url": "https://nocovernightclubs.com/events/laidback-luke-marquee-dayclub-saturday-october-24-2026/"
-    },
-    {
-      "artist": "Mary J Blige",
-      "venue": "Dolby Live at Park MGM",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-24",
-      "ts": 1792872000,
-      "url": "https://concerts.vegas/event/mary-j-blige-las-vegas-saturday-october-24-2026-800-pm/"
-    },
-    {
-      "artist": "Tucker Wetmore",
-      "venue": "The Theater at Virgin Hotels",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-24",
-      "ts": 1792872000,
-      "url": "https://concerts.vegas/event/tucker-wetmore-las-vegas-saturday-october-24-2026-700-pm/"
-    },
-    {
-      "artist": "Samantha Fish",
-      "venue": "The Theater at Virgin Hotels",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-24",
-      "ts": 1792872000,
-      "url": "https://concerts.vegas/event/samantha-fish-las-vegas-saturday-october-24-2026-800-pm/"
-    },
-    {
-      "artist": "Tucker Wetmore",
-      "venue": "24 Oxford at Virgin Hotels",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-24",
-      "ts": 1792872000,
-      "url": "https://concerts.vegas/event/tucker-wetmore-las-vegas-saturday-october-24-2026-700-pm/"
-    },
-    {
-      "artist": "Samantha Fish",
-      "venue": "24 Oxford at Virgin Hotels",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-24",
-      "ts": 1792872000,
-      "url": "https://concerts.vegas/event/samantha-fish-las-vegas-saturday-october-24-2026-800-pm/"
-    },
-    {
-      "artist": "Dead Poet Society And Honey Revenge Las Vegas House Of Blues",
-      "venue": "House of Blues",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-24",
-      "ts": 1792872000,
-      "url": "https://concerts.vegas/event/dead-poet-society-and-honey-revenge-las-vegas-house-of-blues-las-vegas-saturday-october-24-2026-6-00-pm/"
-    },
-    {
-      "artist": "Club 90s Thrillerween Michael Jackson Night Las Vegas Brooklyn Bowl",
-      "venue": "Brooklyn Bowl",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-24",
-      "ts": 1792872000,
-      "url": "https://concerts.vegas/event/club-90s-thrillerween-michael-jackson-night-las-vegas-brooklyn-bowl-las-vegas-saturday-october-24-2026-9-00-pm/"
-    },
-    {
-      "artist": "Dj Shift",
-      "venue": "Marquee Dayclub",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-10-25",
-      "ts": 1792954800,
-      "url": "https://nocovernightclubs.com/events/dj-shift-marquee-dayclub-sunday-october-25-2026/"
-    },
-    {
-      "artist": "Las Vegas Raiders Vs Los Angeles Rams",
-      "venue": "Allegiant Stadium",
-      "type": "sports",
-      "city": "Las Vegas",
-      "date": "2026-10-25",
-      "ts": 1792958400,
-      "url": "https://concerts.vegas/event/las-vegas-raiders-vs-los-angeles-rams-las-vegas-sunday-october-25-2026-125-pm/"
     }
   ]
 }
