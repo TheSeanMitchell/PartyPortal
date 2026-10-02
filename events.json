@@ -1,213 +1,6 @@
 {
-  "updated": 1790893921,
+  "updated": 1790943303,
   "events": [
-    {
-      "artist": "Bolo",
-      "venue": "Zouk",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-10-01",
-      "ts": 1790881200,
-      "url": "https://nocovernightclubs.com/events/bolo-zouk-nightclub-thursday-october-01-2026/"
-    },
-    {
-      "artist": "Special Guest",
-      "venue": "Omnia",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-10-01",
-      "ts": 1790881200,
-      "url": "https://nocovernightclubs.com/events/special-guest-omnia-nightclub-thursday-october-1-2026/"
-    },
-    {
-      "artist": "Joe Maz",
-      "venue": "Tao",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-10-01",
-      "ts": 1790881200,
-      "url": "https://nocovernightclubs.com/events/joe-maz-tao-nightclub-thursday-october-1-2026/"
-    },
-    {
-      "artist": "Murda Beatz",
-      "venue": "Hakkasan",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-10-01",
-      "ts": 1790881200,
-      "url": "https://nocovernightclubs.com/events/murda-beatz-hakkasan-nightclub-thursday-october-1-2026/"
-    },
-    {
-      "artist": "Cassian",
-      "venue": "LIV",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-10-01",
-      "ts": 1790881200,
-      "url": "https://nocovernightclubs.com/events/cassian-liv-nightclub-thursday-october-1-2026/"
-    },
-    {
-      "artist": "Special Guest",
-      "venue": "Marquee Dayclub",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-10-01",
-      "ts": 1790881200,
-      "url": "https://nocovernightclubs.com/events/special-guest-marquee-dayclub-thursday-october-1-2026/"
-    },
-    {
-      "artist": "Special Guest",
-      "venue": "Tao Beach",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-10-01",
-      "ts": 1790881200,
-      "url": "https://nocovernightclubs.com/events/special-guest-tao-beach-thursday-october-1-2026/"
-    },
-    {
-      "artist": "Special Guest",
-      "venue": "Liquid Pool",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-10-01",
-      "ts": 1790881200,
-      "url": "https://nocovernightclubs.com/events/special-guest-liquid-pool-thursday-october-1-2026/"
-    },
-    {
-      "artist": "Dj Mondo",
-      "venue": "Palm Tree Beach",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-10-01",
-      "ts": 1790881200,
-      "url": "https://nocovernightclubs.com/events/dj-mondo-palm-tree-beach-club-thursday-october-1-2026/"
-    },
-    {
-      "artist": "Chasewest",
-      "venue": "LIV Beach",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-10-01",
-      "ts": 1790881200,
-      "url": "https://nocovernightclubs.com/events/chasewest-liv-beach-thursday-october-1-2026/"
-    },
-    {
-      "artist": "Candlelight Tribute To Michael Jackson Las Vegas The Industrial Event Space",
-      "venue": "T-Mobile Arena",
-      "type": "arena",
-      "city": "Las Vegas",
-      "date": "2026-10-01",
-      "ts": 1790884800,
-      "url": "https://concerts.vegas/event/candlelight-tribute-to-michael-jackson-las-vegas-the-industrial-event-space-thursday-october-1-2026-6-00-pm/"
-    },
-    {
-      "artist": "Candlelight Tribute To Michael Jackson Las Vegas The Industrial Event Space",
-      "venue": "Allegiant Stadium",
-      "type": "stadium",
-      "city": "Las Vegas",
-      "date": "2026-10-01",
-      "ts": 1790884800,
-      "url": "https://concerts.vegas/event/candlelight-tribute-to-michael-jackson-las-vegas-the-industrial-event-space-thursday-october-1-2026-6-00-pm/"
-    },
-    {
-      "artist": "Donny Osmond",
-      "venue": "The Colosseum at Caesars Palace",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-01",
-      "ts": 1790884800,
-      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-thursday-october-1-2026-730-pm/"
-    },
-    {
-      "artist": "Donny Osmond",
-      "venue": "Dolby Live at Park MGM",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-01",
-      "ts": 1790884800,
-      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-thursday-october-1-2026-730-pm/"
-    },
-    {
-      "artist": "Candlelight Tribute To Michael Jackson Las Vegas The Industrial Event Space",
-      "venue": "MGM Grand Garden Arena",
-      "type": "arena",
-      "city": "Las Vegas",
-      "date": "2026-10-01",
-      "ts": 1790884800,
-      "url": "https://concerts.vegas/event/candlelight-tribute-to-michael-jackson-las-vegas-the-industrial-event-space-thursday-october-1-2026-6-00-pm/"
-    },
-    {
-      "artist": "Donny Osmond",
-      "venue": "Michelob Ultra Arena",
-      "type": "arena",
-      "city": "Las Vegas",
-      "date": "2026-10-01",
-      "ts": 1790884800,
-      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-thursday-october-1-2026-730-pm/"
-    },
-    {
-      "artist": "Donny Osmond",
-      "venue": "Resorts World Theatre",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-01",
-      "ts": 1790884800,
-      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-thursday-october-1-2026-730-pm/"
-    },
-    {
-      "artist": "Scorpions",
-      "venue": "Bakkt Theater at Planet Hollywood",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-01",
-      "ts": 1790884800,
-      "url": "https://concerts.vegas/event/scorpions-las-vegas-thursday-october-1-2026-800-pm/"
-    },
-    {
-      "artist": "Candlelight Tribute To Michael Jackson Las Vegas The Industrial Event Space",
-      "venue": "House of Blues",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-01",
-      "ts": 1790884800,
-      "url": "https://concerts.vegas/event/candlelight-tribute-to-michael-jackson-las-vegas-the-industrial-event-space-thursday-october-1-2026-6-00-pm/"
-    },
-    {
-      "artist": "Donny Osmond",
-      "venue": "Encore Theater at Wynn",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-01",
-      "ts": 1790884800,
-      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-thursday-october-1-2026-730-pm/"
-    },
-    {
-      "artist": "Donny Osmond",
-      "venue": "BleauLive Theater at Fontainebleau",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-01",
-      "ts": 1790884800,
-      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-thursday-october-1-2026-730-pm/"
-    },
-    {
-      "artist": "Candlelight Tribute To Michael Jackson Las Vegas The Industrial Event Space",
-      "venue": "Brooklyn Bowl",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-01",
-      "ts": 1790884800,
-      "url": "https://concerts.vegas/event/candlelight-tribute-to-michael-jackson-las-vegas-the-industrial-event-space-thursday-october-1-2026-6-00-pm/"
-    },
-    {
-      "artist": "Donny Osmond",
-      "venue": "Pearl Theater at Palms",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-01",
-      "ts": 1790884800,
-      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-thursday-october-1-2026-730-pm/"
-    },
     {
       "artist": "Mathame",
       "venue": "Zouk",
@@ -2603,15 +2396,6 @@
       "url": "https://concerts.vegas/event/donny-osmond-las-vegas-friday-october-16-2026-730-pm/"
     },
     {
-      "artist": "Barry Manilow",
-      "venue": "The Colosseum at Caesars Palace",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-16",
-      "ts": 1792180800,
-      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-friday-october-16-2026-800-pm/"
-    },
-    {
       "artist": "Lionel Richie",
       "venue": "The Colosseum at Caesars Palace",
       "type": "concert",
@@ -2619,6 +2403,15 @@
       "date": "2026-10-16",
       "ts": 1792180800,
       "url": "https://concerts.vegas/event/lionel-richie-las-vegas-friday-october-16-2026-800-pm/"
+    },
+    {
+      "artist": "Barry Manilow",
+      "venue": "The Colosseum at Caesars Palace",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-10-16",
+      "ts": 1792180800,
+      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-friday-october-16-2026-800-pm/"
     },
     {
       "artist": "New Kids On The Block",
@@ -2639,15 +2432,6 @@
       "url": "https://concerts.vegas/event/donny-osmond-las-vegas-friday-october-16-2026-730-pm/"
     },
     {
-      "artist": "Barry Manilow",
-      "venue": "Dolby Live at Park MGM",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-16",
-      "ts": 1792180800,
-      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-friday-october-16-2026-800-pm/"
-    },
-    {
       "artist": "Lionel Richie",
       "venue": "Dolby Live at Park MGM",
       "type": "concert",
@@ -2655,6 +2439,15 @@
       "date": "2026-10-16",
       "ts": 1792180800,
       "url": "https://concerts.vegas/event/lionel-richie-las-vegas-friday-october-16-2026-800-pm/"
+    },
+    {
+      "artist": "Barry Manilow",
+      "venue": "Dolby Live at Park MGM",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-10-16",
+      "ts": 1792180800,
+      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-friday-october-16-2026-800-pm/"
     },
     {
       "artist": "Donny Osmond",
@@ -2666,15 +2459,6 @@
       "url": "https://concerts.vegas/event/donny-osmond-las-vegas-friday-october-16-2026-730-pm/"
     },
     {
-      "artist": "Barry Manilow",
-      "venue": "Michelob Ultra Arena",
-      "type": "arena",
-      "city": "Las Vegas",
-      "date": "2026-10-16",
-      "ts": 1792180800,
-      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-friday-october-16-2026-800-pm/"
-    },
-    {
       "artist": "Lionel Richie",
       "venue": "Michelob Ultra Arena",
       "type": "arena",
@@ -2682,6 +2466,15 @@
       "date": "2026-10-16",
       "ts": 1792180800,
       "url": "https://concerts.vegas/event/lionel-richie-las-vegas-friday-october-16-2026-800-pm/"
+    },
+    {
+      "artist": "Barry Manilow",
+      "venue": "Michelob Ultra Arena",
+      "type": "arena",
+      "city": "Las Vegas",
+      "date": "2026-10-16",
+      "ts": 1792180800,
+      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-friday-october-16-2026-800-pm/"
     },
     {
       "artist": "Dj Meredith Marks Las Vegas 24 Oxford At Virgin Hotels",
@@ -2700,6 +2493,159 @@
       "date": "2026-10-16",
       "ts": 1792180800,
       "url": "https://concerts.vegas/event/dj-meredith-marks-las-vegas-24-oxford-at-virgin-hotels-las-vegas-friday-october-16-2026-9-00-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "Resorts World Theatre",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-10-16",
+      "ts": 1792180800,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-friday-october-16-2026-730-pm/"
+    },
+    {
+      "artist": "Lionel Richie",
+      "venue": "Resorts World Theatre",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-10-16",
+      "ts": 1792180800,
+      "url": "https://concerts.vegas/event/lionel-richie-las-vegas-friday-october-16-2026-800-pm/"
+    },
+    {
+      "artist": "Barry Manilow",
+      "venue": "Resorts World Theatre",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-10-16",
+      "ts": 1792180800,
+      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-friday-october-16-2026-800-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "Encore Theater at Wynn",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-10-16",
+      "ts": 1792180800,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-friday-october-16-2026-730-pm/"
+    },
+    {
+      "artist": "Lionel Richie",
+      "venue": "Encore Theater at Wynn",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-10-16",
+      "ts": 1792180800,
+      "url": "https://concerts.vegas/event/lionel-richie-las-vegas-friday-october-16-2026-800-pm/"
+    },
+    {
+      "artist": "Barry Manilow",
+      "venue": "Encore Theater at Wynn",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-10-16",
+      "ts": 1792180800,
+      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-friday-october-16-2026-800-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "BleauLive Theater at Fontainebleau",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-10-16",
+      "ts": 1792180800,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-friday-october-16-2026-730-pm/"
+    },
+    {
+      "artist": "Lionel Richie",
+      "venue": "BleauLive Theater at Fontainebleau",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-10-16",
+      "ts": 1792180800,
+      "url": "https://concerts.vegas/event/lionel-richie-las-vegas-friday-october-16-2026-800-pm/"
+    },
+    {
+      "artist": "Barry Manilow",
+      "venue": "BleauLive Theater at Fontainebleau",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-10-16",
+      "ts": 1792180800,
+      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-friday-october-16-2026-800-pm/"
+    },
+    {
+      "artist": "Easy Star All Stars Las Vegas Brooklyn Bowl",
+      "venue": "Brooklyn Bowl",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-10-16",
+      "ts": 1792180800,
+      "url": "https://concerts.vegas/event/easy-star-all-stars-las-vegas-brooklyn-bowl-las-vegas-friday-october-16-2026-7-30-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "Pearl Theater at Palms",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-10-16",
+      "ts": 1792180800,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-friday-october-16-2026-730-pm/"
+    },
+    {
+      "artist": "Lionel Richie",
+      "venue": "Pearl Theater at Palms",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-10-16",
+      "ts": 1792180800,
+      "url": "https://concerts.vegas/event/lionel-richie-las-vegas-friday-october-16-2026-800-pm/"
+    },
+    {
+      "artist": "Barry Manilow",
+      "venue": "Pearl Theater at Palms",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-10-16",
+      "ts": 1792180800,
+      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-friday-october-16-2026-800-pm/"
+    },
+    {
+      "artist": "Special Guest",
+      "venue": "Zouk",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-10-17",
+      "ts": 1792263600,
+      "url": "https://nocovernightclubs.com/events/special-guest-zouk-nightclub-saturday-october-17-2026/"
+    },
+    {
+      "artist": "Zedd",
+      "venue": "Omnia",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-10-17",
+      "ts": 1792263600,
+      "url": "https://nocovernightclubs.com/events/zedd-omnia-nightclub-saturday-october-17-2026/"
+    },
+    {
+      "artist": "Danny Avila",
+      "venue": "Marquee",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-10-17",
+      "ts": 1792263600,
+      "url": "https://nocovernightclubs.com/events/danny-avila-marquee-nightclub-saturday-october-17-2026/"
+    },
+    {
+      "artist": "Spydatek",
+      "venue": "Tao",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-10-17",
+      "ts": 1792263600,
+      "url": "https://nocovernightclubs.com/events/spydatek-tao-nightclub-saturday-october-17-2026/"
     }
   ]
 }
