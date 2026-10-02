@@ -1,5 +1,5 @@
 {
-  "updated": 1790943303,
+  "updated": 1790978504,
   "events": [
     {
       "artist": "Mathame",
@@ -317,6 +317,15 @@
       "url": "https://nocovernightclubs.com/events/twinsick-marquee-dayclub-saturday-october-3-2026/"
     },
     {
+      "artist": "Louis The Child",
+      "venue": "Tao Beach",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-10-03",
+      "ts": 1791054000,
+      "url": "https://nocovernightclubs.com/events/louis-the-child-tao-beach-saturday-october-3-2026/"
+    },
+    {
       "artist": "Special Guest",
       "venue": "Liquid Pool",
       "type": "pool",
@@ -522,15 +531,6 @@
       "date": "2026-10-04",
       "ts": 1791140400,
       "url": "https://nocovernightclubs.com/events/special-guest-liquid-pool-sunday-october-4-2026/"
-    },
-    {
-      "artist": "Bijou",
-      "venue": "Palm Tree Beach",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-10-04",
-      "ts": 1791140400,
-      "url": "https://nocovernightclubs.com/events/bijou-palm-tree-beach-club-sunday-october-4-2026/"
     },
     {
       "artist": "Devault",
@@ -1730,15 +1730,6 @@
       "url": "https://nocovernightclubs.com/events/special-guest-liquid-pool-sunday-october-11-2026/"
     },
     {
-      "artist": "Mikey Francis",
-      "venue": "Palm Tree Beach",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-10-11",
-      "ts": 1791745200,
-      "url": "https://nocovernightclubs.com/events/mikey-francis-palm-tree-beach-club-sunday-october-11-2026/"
-    },
-    {
       "artist": "Cloonee",
       "venue": "LIV Beach",
       "type": "pool",
@@ -2646,6 +2637,60 @@
       "date": "2026-10-17",
       "ts": 1792263600,
       "url": "https://nocovernightclubs.com/events/spydatek-tao-nightclub-saturday-october-17-2026/"
+    },
+    {
+      "artist": "Ohgeezy",
+      "venue": "Hakkasan",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-10-17",
+      "ts": 1792263600,
+      "url": "https://nocovernightclubs.com/events/ohgeezy-hakkasan-nightclub-saturday-october-17-2026/"
+    },
+    {
+      "artist": "Cloonee",
+      "venue": "LIV",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-10-17",
+      "ts": 1792263600,
+      "url": "https://nocovernightclubs.com/events/cloonee-liv-nightclub-saturday-october-17-2026/"
+    },
+    {
+      "artist": "Dj Shift",
+      "venue": "Jewel",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-10-17",
+      "ts": 1792263600,
+      "url": "https://nocovernightclubs.com/events/dj-shift-jewel-nightclub-friday-october-17-2026/"
+    },
+    {
+      "artist": "Diplo",
+      "venue": "Encore Beach Club",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-10-17",
+      "ts": 1792263600,
+      "url": "https://nocovernightclubs.com/events/diplo-encore-beach-club-saturday-october-17-2026/"
+    },
+    {
+      "artist": "The Chainsmokers",
+      "venue": "EBC At Night",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-10-17",
+      "ts": 1792263600,
+      "url": "https://nocovernightclubs.com/events/the-chainsmokers-ebc-at-night-saturday-october-17-2026/"
+    },
+    {
+      "artist": "Bijou",
+      "venue": "Marquee Dayclub",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-10-17",
+      "ts": 1792263600,
+      "url": "https://nocovernightclubs.com/events/bijou-marquee-dayclub-saturday-october-17-2026/"
     }
   ]
 }
