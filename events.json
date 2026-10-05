@@ -1,78 +1,6 @@
 {
-  "updated": 1791148051,
+  "updated": 1791209436,
   "events": [
-    {
-      "artist": "Deseo",
-      "venue": "Omnia",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-10-04",
-      "ts": 1791140400,
-      "url": "https://nocovernightclubs.com/events/deseo-omnia-nightclub-sunday-october-4-2026/"
-    },
-    {
-      "artist": "Ritual Sunday",
-      "venue": "Tao",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-10-04",
-      "ts": 1791140400,
-      "url": "https://nocovernightclubs.com/events/ritual-sunday-tao-nightclub-sunday-october-4-2026/"
-    },
-    {
-      "artist": "Brooke Evers",
-      "venue": "Marquee Dayclub",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-10-04",
-      "ts": 1791140400,
-      "url": "https://nocovernightclubs.com/events/brooke-evers-marquee-dayclub-sunday-october-4-2026/"
-    },
-    {
-      "artist": "Dj E Rock",
-      "venue": "Tao Beach",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-10-04",
-      "ts": 1791140400,
-      "url": "https://nocovernightclubs.com/events/dj-e-rock-tao-beach-sunday-october-4-2026/"
-    },
-    {
-      "artist": "Special Guest",
-      "venue": "Liquid Pool",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-10-04",
-      "ts": 1791140400,
-      "url": "https://nocovernightclubs.com/events/special-guest-liquid-pool-sunday-october-4-2026/"
-    },
-    {
-      "artist": "Devault",
-      "venue": "LIV Beach",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-10-04",
-      "ts": 1791140400,
-      "url": "https://nocovernightclubs.com/events/devault-liv-beach-sunday-october-4-2026/"
-    },
-    {
-      "artist": "Jeff Dunham",
-      "venue": "Bakkt Theater at Planet Hollywood",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-04",
-      "ts": 1791144000,
-      "url": "https://concerts.vegas/event/jeff-dunham-las-vegas-sunday-october-4-2026-700-pm/"
-    },
-    {
-      "artist": "Roger Clyne And The Peacemakers",
-      "venue": "Brooklyn Bowl",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-04",
-      "ts": 1791144000,
-      "url": "https://concerts.vegas/event/roger-clyne-and-the-peacemakers-las-vegas-sunday-october-4-2026-600-pm/"
-    },
     {
       "artist": "Crespo",
       "venue": "Marquee",
@@ -2691,6 +2619,51 @@
       "date": "2026-10-23",
       "ts": 1792785600,
       "url": "https://concerts.vegas/event/weezer-the-shins-and-silversun-pickups-las-vegas-friday-october-23-2026-700-pm/"
+    },
+    {
+      "artist": "Mary J Blige",
+      "venue": "Dolby Live at Park MGM",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-10-23",
+      "ts": 1792785600,
+      "url": "https://concerts.vegas/event/mary-j-blige-las-vegas-friday-october-23-2026-800-pm/"
+    },
+    {
+      "artist": "Charli Xcx",
+      "venue": "MGM Grand Garden Arena",
+      "type": "arena",
+      "city": "Las Vegas",
+      "date": "2026-10-23",
+      "ts": 1792785600,
+      "url": "https://concerts.vegas/event/charli-xcx-las-vegas-friday-october-23-2026-800-pm/"
+    },
+    {
+      "artist": "Little Miss Nasty Burlesque Show Las Vegas 24 Oxford At Virgin Hotels",
+      "venue": "The Theater at Virgin Hotels",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-10-23",
+      "ts": 1792785600,
+      "url": "https://concerts.vegas/event/little-miss-nasty-burlesque-show-las-vegas-24-oxford-at-virgin-hotels-las-vegas-friday-october-23-2026-8-00-pm/"
+    },
+    {
+      "artist": "Treaty Oak Revival",
+      "venue": "The Theater at Virgin Hotels",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-10-23",
+      "ts": 1792785600,
+      "url": "https://concerts.vegas/event/treaty-oak-revival-las-vegas-friday-october-23-2026-800-pm/"
+    },
+    {
+      "artist": "Little Miss Nasty Burlesque Show Las Vegas 24 Oxford At Virgin Hotels",
+      "venue": "24 Oxford at Virgin Hotels",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-10-23",
+      "ts": 1792785600,
+      "url": "https://concerts.vegas/event/little-miss-nasty-burlesque-show-las-vegas-24-oxford-at-virgin-hotels-las-vegas-friday-october-23-2026-8-00-pm/"
     }
   ]
 }
