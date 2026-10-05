@@ -1,5 +1,5 @@
 {
-  "updated": 1791209436,
+  "updated": 1791244593,
   "events": [
     {
       "artist": "Crespo",
@@ -2664,6 +2664,42 @@
       "date": "2026-10-23",
       "ts": 1792785600,
       "url": "https://concerts.vegas/event/little-miss-nasty-burlesque-show-las-vegas-24-oxford-at-virgin-hotels-las-vegas-friday-october-23-2026-8-00-pm/"
+    },
+    {
+      "artist": "Treaty Oak Revival",
+      "venue": "24 Oxford at Virgin Hotels",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-10-23",
+      "ts": 1792785600,
+      "url": "https://concerts.vegas/event/treaty-oak-revival-las-vegas-friday-october-23-2026-800-pm/"
+    },
+    {
+      "artist": "Artms",
+      "venue": "House of Blues",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-10-23",
+      "ts": 1792785600,
+      "url": "https://concerts.vegas/event/artms-las-vegas-friday-october-23-2026-600-pm/"
+    },
+    {
+      "artist": "The Iron Maidens Las Vegas Brooklyn Bowl",
+      "venue": "Brooklyn Bowl",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-10-23",
+      "ts": 1792785600,
+      "url": "https://concerts.vegas/event/the-iron-maidens-las-vegas-brooklyn-bowl-las-vegas-friday-october-23-2026-7-30-pm/"
+    },
+    {
+      "artist": "James Hype",
+      "venue": "Zouk",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-10-24",
+      "ts": 1792868400,
+      "url": "https://nocovernightclubs.com/events/james-hype-zouk-nightclub-saturday-october-24-2026/"
     }
   ]
 }
