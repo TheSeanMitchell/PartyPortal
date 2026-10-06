@@ -1,24 +1,6 @@
 {
-  "updated": 1791244593,
+  "updated": 1791292023,
   "events": [
-    {
-      "artist": "Crespo",
-      "venue": "Marquee",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-10-05",
-      "ts": 1791226800,
-      "url": "https://nocovernightclubs.com/events/crespo-marquee-nightclub-monday-october-5-2026/"
-    },
-    {
-      "artist": "Snarky Puppy",
-      "venue": "Brooklyn Bowl",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-05",
-      "ts": 1791230400,
-      "url": "https://concerts.vegas/event/snarky-puppy-las-vegas-monday-october-5-2026-730-pm/"
-    },
     {
       "artist": "Luis Torres",
       "venue": "Omnia",
@@ -810,6 +792,15 @@
       "date": "2026-10-10",
       "ts": 1791658800,
       "url": "https://nocovernightclubs.com/events/dj-konflikt-tao-nightclub-saturday-october-10-2026/"
+    },
+    {
+      "artist": "Moneybagg Yo",
+      "venue": "Hakkasan",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-10-10",
+      "ts": 1791658800,
+      "url": "https://nocovernightclubs.com/events/moneybagg-yo-hakkasan-nightclub-saturday-october-10-2026/"
     },
     {
       "artist": "Dod",
@@ -2700,6 +2691,15 @@
       "date": "2026-10-24",
       "ts": 1792868400,
       "url": "https://nocovernightclubs.com/events/james-hype-zouk-nightclub-saturday-october-24-2026/"
+    },
+    {
+      "artist": "Zedd",
+      "venue": "Omnia",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-10-24",
+      "ts": 1792868400,
+      "url": "https://nocovernightclubs.com/events/zedd-omnia-nightclub-saturday-october-24-2026/"
     }
   ]
 }
