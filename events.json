@@ -1,5 +1,5 @@
 {
-  "updated": 1791464933,
+  "updated": 1791500986,
   "events": [
     {
       "artist": "Rl Grime",
@@ -2682,6 +2682,24 @@
       "date": "2026-10-28",
       "ts": 1793214000,
       "url": "https://nocovernightclubs.com/events/club-de-combat-marquee-nightclub-wednesday-october-28-2026/"
+    },
+    {
+      "artist": "Dj Franzen",
+      "venue": "Hakkasan",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-10-28",
+      "ts": 1793214000,
+      "url": "https://nocovernightclubs.com/events/dj-franzen-hakkasan-nightclub-wednesday-october-28-2026/"
+    },
+    {
+      "artist": "Special Guest",
+      "venue": "EBC At Night",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-10-28",
+      "ts": 1793214000,
+      "url": "https://nocovernightclubs.com/events/special-guest-ebc-at-night-wednesday-october-28-2026/"
     }
   ]
 }
