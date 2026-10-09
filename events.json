@@ -1,5 +1,5 @@
 {
-  "updated": 1791550549,
+  "updated": 1791584935,
   "events": [
     {
       "artist": "Wax Motif",
@@ -2655,6 +2655,51 @@
       "date": "2026-10-29",
       "ts": 1793304000,
       "url": "https://concerts.vegas/event/donny-osmond-las-vegas-thursday-october-29-2026-730-pm/"
+    },
+    {
+      "artist": "Chief Keef",
+      "venue": "Brooklyn Bowl",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-10-29",
+      "ts": 1793304000,
+      "url": "https://concerts.vegas/event/chief-keef-las-vegas-thursday-october-29-2026-730-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "Pearl Theater at Palms",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-10-29",
+      "ts": 1793304000,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-thursday-october-29-2026-730-pm/"
+    },
+    {
+      "artist": "Special Guest",
+      "venue": "Zouk",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-10-30",
+      "ts": 1793386800,
+      "url": "https://nocovernightclubs.com/events/special-guest-zouk-nightclub-friday-october-30-2026/"
+    },
+    {
+      "artist": "Tiesto",
+      "venue": "Omnia",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-10-30",
+      "ts": 1793386800,
+      "url": "https://nocovernightclubs.com/events/tiesto-omnia-nightclub-friday-october-30-2026/"
+    },
+    {
+      "artist": "Illenium",
+      "venue": "Marquee",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-10-30",
+      "ts": 1793386800,
+      "url": "https://nocovernightclubs.com/events/illenium-marquee-nightclub-friday-october-30-2026/"
     }
   ]
 }
