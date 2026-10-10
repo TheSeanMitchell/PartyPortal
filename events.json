@@ -1,5 +1,5 @@
 {
-  "updated": 1791634416,
+  "updated": 1791667519,
   "events": [
     {
       "artist": "Alison Wonderland",
@@ -146,15 +146,6 @@
       "url": "https://concerts.vegas/event/unlv-rebels-vs-north-dakota-state-bison-las-vegas-saturday-october-10-2026-400-pm/"
     },
     {
-      "artist": "Barry Manilow",
-      "venue": "The Colosseum at Caesars Palace",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-10",
-      "ts": 1791662400,
-      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-saturday-october-10-2026-700-pm/"
-    },
-    {
       "artist": "Donny Osmond",
       "venue": "The Colosseum at Caesars Palace",
       "type": "concert",
@@ -173,15 +164,6 @@
       "url": "https://concerts.vegas/event/new-kids-on-the-block-las-vegas-saturday-october-10-2026-800-pm/"
     },
     {
-      "artist": "Barry Manilow",
-      "venue": "Dolby Live at Park MGM",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-10",
-      "ts": 1791662400,
-      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-saturday-october-10-2026-700-pm/"
-    },
-    {
       "artist": "Donny Osmond",
       "venue": "Dolby Live at Park MGM",
       "type": "concert",
@@ -189,15 +171,6 @@
       "date": "2026-10-10",
       "ts": 1791662400,
       "url": "https://concerts.vegas/event/donny-osmond-las-vegas-saturday-october-10-2026-730-pm/"
-    },
-    {
-      "artist": "Barry Manilow",
-      "venue": "Michelob Ultra Arena",
-      "type": "arena",
-      "city": "Las Vegas",
-      "date": "2026-10-10",
-      "ts": 1791662400,
-      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-saturday-october-10-2026-700-pm/"
     },
     {
       "artist": "Donny Osmond",
@@ -227,15 +200,6 @@
       "url": "https://concerts.vegas/event/high-watah-las-vegas-24-oxford-at-virgin-hotels-las-vegas-saturday-october-10-2026-8-00-pm/"
     },
     {
-      "artist": "Barry Manilow",
-      "venue": "Resorts World Theatre",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-10",
-      "ts": 1791662400,
-      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-saturday-october-10-2026-700-pm/"
-    },
-    {
       "artist": "Donny Osmond",
       "venue": "Resorts World Theatre",
       "type": "concert",
@@ -254,15 +218,6 @@
       "url": "https://concerts.vegas/event/madeon-las-vegas-saturday-october-10-2026-800-pm/"
     },
     {
-      "artist": "Barry Manilow",
-      "venue": "Encore Theater at Wynn",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-10",
-      "ts": 1791662400,
-      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-saturday-october-10-2026-700-pm/"
-    },
-    {
       "artist": "Donny Osmond",
       "venue": "Encore Theater at Wynn",
       "type": "concert",
@@ -270,15 +225,6 @@
       "date": "2026-10-10",
       "ts": 1791662400,
       "url": "https://concerts.vegas/event/donny-osmond-las-vegas-saturday-october-10-2026-730-pm/"
-    },
-    {
-      "artist": "Barry Manilow",
-      "venue": "BleauLive Theater at Fontainebleau",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-10",
-      "ts": 1791662400,
-      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-saturday-october-10-2026-700-pm/"
     },
     {
       "artist": "Donny Osmond",
@@ -297,15 +243,6 @@
       "date": "2026-10-10",
       "ts": 1791662400,
       "url": "https://concerts.vegas/event/esdeekid-las-vegas-brooklyn-bowl-las-vegas-saturday-october-10-2026-7-00-pm/"
-    },
-    {
-      "artist": "Barry Manilow",
-      "venue": "Pearl Theater at Palms",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-10",
-      "ts": 1791662400,
-      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-saturday-october-10-2026-700-pm/"
     },
     {
       "artist": "Donny Osmond",
@@ -2655,6 +2592,114 @@
       "date": "2026-10-31",
       "ts": 1793473200,
       "url": "https://nocovernightclubs.com/events/phoreyz-jewel-nightclub-saturday-october-31-2026/"
+    },
+    {
+      "artist": "The Chainsmokers",
+      "venue": "EBC At Night",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-10-31",
+      "ts": 1793473200,
+      "url": "https://nocovernightclubs.com/events/the-chainsmokers-ebc-at-night-saturday-october-31-2026/"
+    },
+    {
+      "artist": "Martin Garrix",
+      "venue": "Marquee Dayclub",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-10-31",
+      "ts": 1793473200,
+      "url": "https://nocovernightclubs.com/events/martin-garrix-marquee-dayclub-saturday-october-31-2026/"
+    },
+    {
+      "artist": "Doja Cat",
+      "venue": "T-Mobile Arena",
+      "type": "arena",
+      "city": "Las Vegas",
+      "date": "2026-10-31",
+      "ts": 1793476800,
+      "url": "https://concerts.vegas/event/doja-cat-las-vegas-saturday-october-31-2026-730-pm/"
+    },
+    {
+      "artist": "Unlv Rebels Vs Northern Illinois Huskies",
+      "venue": "Allegiant Stadium",
+      "type": "sports",
+      "city": "Las Vegas",
+      "date": "2026-10-31",
+      "ts": 1793476800,
+      "url": "https://concerts.vegas/event/unlv-rebels-vs-northern-illinois-huskies-las-vegas-saturday-october-31-2026-730-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "The Colosseum at Caesars Palace",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-10-31",
+      "ts": 1793476800,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-saturday-october-31-2026-730-pm/"
+    },
+    {
+      "artist": "Jodeci",
+      "venue": "The Colosseum at Caesars Palace",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-10-31",
+      "ts": 1793476800,
+      "url": "https://concerts.vegas/event/jodeci-las-vegas-saturday-october-31-2026-800-pm/"
+    },
+    {
+      "artist": "Mary J Blige",
+      "venue": "Dolby Live at Park MGM",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-10-31",
+      "ts": 1793476800,
+      "url": "https://concerts.vegas/event/mary-j-blige-las-vegas-saturday-october-31-2026-800-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "Dolby Live at Park MGM",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-10-31",
+      "ts": 1793476800,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-saturday-october-31-2026-730-pm/"
+    },
+    {
+      "artist": "Jodeci",
+      "venue": "Dolby Live at Park MGM",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-10-31",
+      "ts": 1793476800,
+      "url": "https://concerts.vegas/event/jodeci-las-vegas-saturday-october-31-2026-800-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "Michelob Ultra Arena",
+      "type": "arena",
+      "city": "Las Vegas",
+      "date": "2026-10-31",
+      "ts": 1793476800,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-saturday-october-31-2026-730-pm/"
+    },
+    {
+      "artist": "Jodeci",
+      "venue": "Michelob Ultra Arena",
+      "type": "arena",
+      "city": "Las Vegas",
+      "date": "2026-10-31",
+      "ts": 1793476800,
+      "url": "https://concerts.vegas/event/jodeci-las-vegas-saturday-october-31-2026-800-pm/"
+    },
+    {
+      "artist": "Sin City Halloween Ball Las Vegas The Theater At Virgin Hotels",
+      "venue": "The Theater at Virgin Hotels",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-10-31",
+      "ts": 1793476800,
+      "url": "https://concerts.vegas/event/sin-city-halloween-ball-las-vegas-the-theater-at-virgin-hotels-las-vegas-saturday-october-31-2026-9-00-pm/"
     }
   ]
 }
