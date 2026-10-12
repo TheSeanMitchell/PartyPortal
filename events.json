@@ -1,78 +1,6 @@
 {
-  "updated": 1791754946,
+  "updated": 1791817177,
   "events": [
-    {
-      "artist": "Deseo",
-      "venue": "Omnia",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-10-11",
-      "ts": 1791745200,
-      "url": "https://nocovernightclubs.com/events/deseo-omnia-nightclub-sunday-october-11-2026/"
-    },
-    {
-      "artist": "Ritual Sunday",
-      "venue": "Tao",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-10-11",
-      "ts": 1791745200,
-      "url": "https://nocovernightclubs.com/events/ritual-sunday-tao-nightclub-sunday-october-11-2026/"
-    },
-    {
-      "artist": "Prospa",
-      "venue": "LIV",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-10-11",
-      "ts": 1791745200,
-      "url": "https://nocovernightclubs.com/events/prospa-liv-nightclub-sunday-october-11-2026/"
-    },
-    {
-      "artist": "Bunt",
-      "venue": "Encore Beach Club",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-10-11",
-      "ts": 1791745200,
-      "url": "https://nocovernightclubs.com/events/bunt-encore-beach-club-sunday-october-11-2026/"
-    },
-    {
-      "artist": "Dj Konflikt",
-      "venue": "Marquee Dayclub",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-10-11",
-      "ts": 1791745200,
-      "url": "https://nocovernightclubs.com/events/dj-konflikt-marquee-dayclub-sunday-october-11-2026/"
-    },
-    {
-      "artist": "Justin Credible",
-      "venue": "Tao Beach",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-10-11",
-      "ts": 1791745200,
-      "url": "https://nocovernightclubs.com/events/justin-credible-tao-beach-sunday-october-11-2026/"
-    },
-    {
-      "artist": "Special Guest",
-      "venue": "Liquid Pool",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-10-11",
-      "ts": 1791745200,
-      "url": "https://nocovernightclubs.com/events/special-guest-liquid-pool-sunday-october-11-2026/"
-    },
-    {
-      "artist": "Cloonee",
-      "venue": "LIV Beach",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-10-11",
-      "ts": 1791745200,
-      "url": "https://nocovernightclubs.com/events/cloonee-liv-beach-sunday-october-11-2026/"
-    },
     {
       "artist": "Murda Beatz",
       "venue": "Marquee",
@@ -2700,6 +2628,42 @@
       "date": "2026-11-04",
       "ts": 1793822400,
       "url": "https://concerts.vegas/event/donny-osmond-las-vegas-wednesday-november-4-2026-730-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "BleauLive Theater at Fontainebleau",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-11-04",
+      "ts": 1793822400,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-wednesday-november-4-2026-730-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "Pearl Theater at Palms",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-11-04",
+      "ts": 1793822400,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-wednesday-november-4-2026-730-pm/"
+    },
+    {
+      "artist": "Special Guest",
+      "venue": "Marquee Dayclub",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-11-05",
+      "ts": 1793905200,
+      "url": "https://nocovernightclubs.com/events/special-guest-marquee-dayclub-thursday-november-5-2026/"
+    },
+    {
+      "artist": "Barry Manilow",
+      "venue": "The Colosseum at Caesars Palace",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-11-05",
+      "ts": 1793908800,
+      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-thursday-november-5-2026-700-pm/"
     }
   ]
 }
