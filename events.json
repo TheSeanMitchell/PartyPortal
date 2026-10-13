@@ -1,5 +1,5 @@
 {
-  "updated": 1791899724,
+  "updated": 1791930512,
   "events": [
     {
       "artist": "Justin Credible",
@@ -1964,6 +1964,15 @@
       "url": "https://nocovernightclubs.com/events/notd-marquee-dayclub-friday-october-30-2026/"
     },
     {
+      "artist": "Simp City Las Vegas Tao Nightclub Venetian Casino",
+      "venue": "Sphere",
+      "type": "sphere",
+      "city": "Las Vegas",
+      "date": "2026-10-30",
+      "ts": 1793390400,
+      "url": "https://concerts.vegas/event/simp-city-las-vegas-tao-nightclub-venetian-casino-friday-october-30-2026-10-30-pm/"
+    },
+    {
       "artist": "Vegas Golden Knights Vs New Jersey Devils",
       "venue": "T-Mobile Arena",
       "type": "sports",
@@ -2691,15 +2700,6 @@
       "date": "2026-11-05",
       "ts": 1793908800,
       "url": "https://concerts.vegas/event/barry-manilow-las-vegas-thursday-november-5-2026-700-pm/"
-    },
-    {
-      "artist": "Donny Osmond",
-      "venue": "Pearl Theater at Palms",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-11-05",
-      "ts": 1793908800,
-      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-thursday-november-5-2026-730-pm/"
     }
   ]
 }
