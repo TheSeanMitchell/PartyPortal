@@ -1,5 +1,5 @@
 {
-  "updated": 1791996910,
+  "updated": 1792013307,
   "events": [
     {
       "artist": "Lincoln Jesser",
@@ -1053,6 +1053,15 @@
       "date": "2026-10-22",
       "ts": 1792695600,
       "url": "https://nocovernightclubs.com/events/greg-lopez-marquee-dayclub-thursday-october-22-2026/"
+    },
+    {
+      "artist": "Dj E Rock Las Vegas Tao Nightclub Venetian Casino",
+      "venue": "Sphere",
+      "type": "sphere",
+      "city": "Las Vegas",
+      "date": "2026-10-22",
+      "ts": 1792699200,
+      "url": "https://concerts.vegas/event/dj-e-rock-las-vegas-tao-nightclub-venetian-casino-thursday-october-22-2026-10-30-pm/"
     },
     {
       "artist": "Noizu",
@@ -2686,15 +2695,6 @@
     {
       "artist": "Brand New",
       "venue": "The Theater at Virgin Hotels",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-11-06",
-      "ts": 1793995200,
-      "url": "https://concerts.vegas/event/brand-new-las-vegas-friday-november-6-2026-800-pm/"
-    },
-    {
-      "artist": "Brand New",
-      "venue": "24 Oxford at Virgin Hotels",
       "type": "concert",
       "city": "Las Vegas",
       "date": "2026-11-06",
