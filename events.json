@@ -1,105 +1,6 @@
 {
-  "updated": 1791930512,
+  "updated": 1791977568,
   "events": [
-    {
-      "artist": "Justin Credible",
-      "venue": "Omnia",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-10-13",
-      "ts": 1791918000,
-      "url": "https://nocovernightclubs.com/events/justin-credible-omnia-nightclub-tuesday-october-13-2026/"
-    },
-    {
-      "artist": "Nba Preseason Los Angeles Lakers Vs Golden State Warriors",
-      "venue": "T-Mobile Arena",
-      "type": "sports",
-      "city": "Las Vegas",
-      "date": "2026-10-13",
-      "ts": 1791921600,
-      "url": "https://concerts.vegas/event/nba-preseason-los-angeles-lakers-vs-golden-state-warriors-las-vegas-tuesday-october-13-2026-700-pm/"
-    },
-    {
-      "artist": "Donny Osmond",
-      "venue": "The Colosseum at Caesars Palace",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-13",
-      "ts": 1791921600,
-      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-tuesday-october-13-2026-730-pm/"
-    },
-    {
-      "artist": "Donny Osmond",
-      "venue": "Dolby Live at Park MGM",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-13",
-      "ts": 1791921600,
-      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-tuesday-october-13-2026-730-pm/"
-    },
-    {
-      "artist": "Donny Osmond",
-      "venue": "Michelob Ultra Arena",
-      "type": "arena",
-      "city": "Las Vegas",
-      "date": "2026-10-13",
-      "ts": 1791921600,
-      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-tuesday-october-13-2026-730-pm/"
-    },
-    {
-      "artist": "Beat Band Las Vegas The Theater At Virgin Hotels",
-      "venue": "The Theater at Virgin Hotels",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-13",
-      "ts": 1791921600,
-      "url": "https://concerts.vegas/event/beat-band-las-vegas-the-theater-at-virgin-hotels-las-vegas-tuesday-october-13-2026-7-30-pm/"
-    },
-    {
-      "artist": "Beat Band Las Vegas The Theater At Virgin Hotels",
-      "venue": "24 Oxford at Virgin Hotels",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-13",
-      "ts": 1791921600,
-      "url": "https://concerts.vegas/event/beat-band-las-vegas-the-theater-at-virgin-hotels-las-vegas-tuesday-october-13-2026-7-30-pm/"
-    },
-    {
-      "artist": "Donny Osmond",
-      "venue": "Resorts World Theatre",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-13",
-      "ts": 1791921600,
-      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-tuesday-october-13-2026-730-pm/"
-    },
-    {
-      "artist": "Donny Osmond",
-      "venue": "Encore Theater at Wynn",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-13",
-      "ts": 1791921600,
-      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-tuesday-october-13-2026-730-pm/"
-    },
-    {
-      "artist": "Donny Osmond",
-      "venue": "BleauLive Theater at Fontainebleau",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-13",
-      "ts": 1791921600,
-      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-tuesday-october-13-2026-730-pm/"
-    },
-    {
-      "artist": "Donny Osmond",
-      "venue": "Pearl Theater at Palms",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-13",
-      "ts": 1791921600,
-      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-tuesday-october-13-2026-730-pm/"
-    },
     {
       "artist": "Lincoln Jesser",
       "venue": "Marquee",
@@ -2700,6 +2601,105 @@
       "date": "2026-11-05",
       "ts": 1793908800,
       "url": "https://concerts.vegas/event/barry-manilow-las-vegas-thursday-november-5-2026-700-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "Pearl Theater at Palms",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-11-05",
+      "ts": 1793908800,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-thursday-november-5-2026-730-pm/"
+    },
+    {
+      "artist": "Leroy Fish",
+      "venue": "Marquee Dayclub",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-11-06",
+      "ts": 1793991600,
+      "url": "https://nocovernightclubs.com/events/leroy-fish-marquee-dayclub-friday-november-6-2026/"
+    },
+    {
+      "artist": "Pbr Teams Championship",
+      "venue": "T-Mobile Arena",
+      "type": "arena",
+      "city": "Las Vegas",
+      "date": "2026-11-06",
+      "ts": 1793995200,
+      "url": "https://concerts.vegas/event/pbr-teams-championship-las-vegas-friday-november-6-2026-745-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "The Colosseum at Caesars Palace",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-11-06",
+      "ts": 1793995200,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-friday-november-6-2026-730-pm/"
+    },
+    {
+      "artist": "Barry Manilow",
+      "venue": "The Colosseum at Caesars Palace",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-11-06",
+      "ts": 1793995200,
+      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-friday-november-6-2026-800-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "Dolby Live at Park MGM",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-11-06",
+      "ts": 1793995200,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-friday-november-6-2026-730-pm/"
+    },
+    {
+      "artist": "Barry Manilow",
+      "venue": "Dolby Live at Park MGM",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-11-06",
+      "ts": 1793995200,
+      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-friday-november-6-2026-800-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "Michelob Ultra Arena",
+      "type": "arena",
+      "city": "Las Vegas",
+      "date": "2026-11-06",
+      "ts": 1793995200,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-friday-november-6-2026-730-pm/"
+    },
+    {
+      "artist": "Barry Manilow",
+      "venue": "Michelob Ultra Arena",
+      "type": "arena",
+      "city": "Las Vegas",
+      "date": "2026-11-06",
+      "ts": 1793995200,
+      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-friday-november-6-2026-800-pm/"
+    },
+    {
+      "artist": "Brand New",
+      "venue": "The Theater at Virgin Hotels",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-11-06",
+      "ts": 1793995200,
+      "url": "https://concerts.vegas/event/brand-new-las-vegas-friday-november-6-2026-800-pm/"
+    },
+    {
+      "artist": "Brand New",
+      "venue": "24 Oxford at Virgin Hotels",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-11-06",
+      "ts": 1793995200,
+      "url": "https://concerts.vegas/event/brand-new-las-vegas-friday-november-6-2026-800-pm/"
     }
   ]
 }
