@@ -1,132 +1,6 @@
 {
-  "updated": 1792013307,
+  "updated": 1792062657,
   "events": [
-    {
-      "artist": "Lincoln Jesser",
-      "venue": "Marquee",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-10-14",
-      "ts": 1792004400,
-      "url": "https://nocovernightclubs.com/events/lincoln-jesser-marquee-nightclub-wednesday-october-14-2026/"
-    },
-    {
-      "artist": "Dj Franzen",
-      "venue": "Hakkasan",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-10-14",
-      "ts": 1792004400,
-      "url": "https://nocovernightclubs.com/events/dj-franzen-hakkasan-nightclub-wednesday-october-14-2026/"
-    },
-    {
-      "artist": "Bunt",
-      "venue": "EBC At Night",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-10-14",
-      "ts": 1792004400,
-      "url": "https://nocovernightclubs.com/events/bunt-ebc-at-night-wednesday-october-14-2026/"
-    },
-    {
-      "artist": "Donny Osmond",
-      "venue": "The Colosseum at Caesars Palace",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-14",
-      "ts": 1792008000,
-      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-wednesday-october-14-2026-730-pm/"
-    },
-    {
-      "artist": "New Kids On The Block",
-      "venue": "Dolby Live at Park MGM",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-14",
-      "ts": 1792008000,
-      "url": "https://concerts.vegas/event/new-kids-on-the-block-las-vegas-wednesday-october-14-2026-800-pm/"
-    },
-    {
-      "artist": "Donny Osmond",
-      "venue": "Dolby Live at Park MGM",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-14",
-      "ts": 1792008000,
-      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-wednesday-october-14-2026-730-pm/"
-    },
-    {
-      "artist": "Donny Osmond",
-      "venue": "Michelob Ultra Arena",
-      "type": "arena",
-      "city": "Las Vegas",
-      "date": "2026-10-14",
-      "ts": 1792008000,
-      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-wednesday-october-14-2026-730-pm/"
-    },
-    {
-      "artist": "Akeem Ali",
-      "venue": "The Theater at Virgin Hotels",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-14",
-      "ts": 1792008000,
-      "url": "https://concerts.vegas/event/akeem-ali-las-vegas-wednesday-october-14-2026-800-pm/"
-    },
-    {
-      "artist": "Akeem Ali",
-      "venue": "24 Oxford at Virgin Hotels",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-14",
-      "ts": 1792008000,
-      "url": "https://concerts.vegas/event/akeem-ali-las-vegas-wednesday-october-14-2026-800-pm/"
-    },
-    {
-      "artist": "Donny Osmond",
-      "venue": "Resorts World Theatre",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-14",
-      "ts": 1792008000,
-      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-wednesday-october-14-2026-730-pm/"
-    },
-    {
-      "artist": "Pouya",
-      "venue": "House of Blues",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-14",
-      "ts": 1792008000,
-      "url": "https://concerts.vegas/event/pouya-las-vegas-wednesday-october-14-2026-730-pm/"
-    },
-    {
-      "artist": "Donny Osmond",
-      "venue": "Encore Theater at Wynn",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-14",
-      "ts": 1792008000,
-      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-wednesday-october-14-2026-730-pm/"
-    },
-    {
-      "artist": "Donny Osmond",
-      "venue": "BleauLive Theater at Fontainebleau",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-14",
-      "ts": 1792008000,
-      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-wednesday-october-14-2026-730-pm/"
-    },
-    {
-      "artist": "Donny Osmond",
-      "venue": "Pearl Theater at Palms",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-14",
-      "ts": 1792008000,
-      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-wednesday-october-14-2026-730-pm/"
-    },
     {
       "artist": "Level Up",
       "venue": "Zouk",
@@ -2700,6 +2574,132 @@
       "date": "2026-11-06",
       "ts": 1793995200,
       "url": "https://concerts.vegas/event/brand-new-las-vegas-friday-november-6-2026-800-pm/"
+    },
+    {
+      "artist": "Brand New",
+      "venue": "24 Oxford at Virgin Hotels",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-11-06",
+      "ts": 1793995200,
+      "url": "https://concerts.vegas/event/brand-new-las-vegas-friday-november-6-2026-800-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "Resorts World Theatre",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-11-06",
+      "ts": 1793995200,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-friday-november-6-2026-730-pm/"
+    },
+    {
+      "artist": "Barry Manilow",
+      "venue": "Resorts World Theatre",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-11-06",
+      "ts": 1793995200,
+      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-friday-november-6-2026-800-pm/"
+    },
+    {
+      "artist": "Jeezy Las Vegas Ph Live At Planet Hollywood",
+      "venue": "Bakkt Theater at Planet Hollywood",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-11-06",
+      "ts": 1793995200,
+      "url": "https://concerts.vegas/event/jeezy-las-vegas-ph-live-at-planet-hollywood-friday-november-6-2026-8-00-pm/"
+    },
+    {
+      "artist": "Kevonstage",
+      "venue": "House of Blues",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-11-06",
+      "ts": 1793995200,
+      "url": "https://concerts.vegas/event/kevonstage-las-vegas-friday-november-6-2026-730-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "Encore Theater at Wynn",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-11-06",
+      "ts": 1793995200,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-friday-november-6-2026-730-pm/"
+    },
+    {
+      "artist": "Barry Manilow",
+      "venue": "Encore Theater at Wynn",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-11-06",
+      "ts": 1793995200,
+      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-friday-november-6-2026-800-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "BleauLive Theater at Fontainebleau",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-11-06",
+      "ts": 1793995200,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-friday-november-6-2026-730-pm/"
+    },
+    {
+      "artist": "Barry Manilow",
+      "venue": "BleauLive Theater at Fontainebleau",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-11-06",
+      "ts": 1793995200,
+      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-friday-november-6-2026-800-pm/"
+    },
+    {
+      "artist": "Rival Sons",
+      "venue": "Brooklyn Bowl",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-11-06",
+      "ts": 1793995200,
+      "url": "https://concerts.vegas/event/rival-sons-las-vegas-friday-november-6-2026-700-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "Pearl Theater at Palms",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-11-06",
+      "ts": 1793995200,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-friday-november-6-2026-730-pm/"
+    },
+    {
+      "artist": "Barry Manilow",
+      "venue": "Pearl Theater at Palms",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-11-06",
+      "ts": 1793995200,
+      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-friday-november-6-2026-800-pm/"
+    },
+    {
+      "artist": "Timmy Trumpet",
+      "venue": "Marquee Dayclub",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-11-07",
+      "ts": 1794078000,
+      "url": "https://nocovernightclubs.com/events/timmy-trumpet-marquee-dayclub-saturday-november-7-2026/"
+    },
+    {
+      "artist": "Pbr Teams Championship",
+      "venue": "T-Mobile Arena",
+      "type": "arena",
+      "city": "Las Vegas",
+      "date": "2026-11-07",
+      "ts": 1794081600,
+      "url": "https://concerts.vegas/event/pbr-teams-championship-las-vegas-saturday-november-7-2026-445-pm/"
     }
   ]
 }
