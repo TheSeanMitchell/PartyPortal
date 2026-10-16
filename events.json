@@ -1,5 +1,5 @@
 {
-  "updated": 1792148734,
+  "updated": 1792167864,
   "events": [
     {
       "artist": "San Pacho",
@@ -2682,6 +2682,15 @@
       "date": "2026-11-08",
       "ts": 1794168000,
       "url": "https://concerts.vegas/event/jeff-dunham-las-vegas-sunday-november-8-2026-700-pm/"
+    },
+    {
+      "artist": "Santana",
+      "venue": "House of Blues",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-11-08",
+      "ts": 1794168000,
+      "url": "https://concerts.vegas/event/santana-las-vegas-sunday-november-8-2026-700-pm/"
     }
   ]
 }
