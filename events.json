@@ -1,5 +1,5 @@
 {
-  "updated": 1792167864,
+  "updated": 1792183631,
   "events": [
     {
       "artist": "San Pacho",
@@ -180,24 +180,6 @@
       "date": "2026-10-16",
       "ts": 1792180800,
       "url": "https://concerts.vegas/event/barry-manilow-las-vegas-friday-october-16-2026-800-pm/"
-    },
-    {
-      "artist": "Dj Meredith Marks Las Vegas 24 Oxford At Virgin Hotels",
-      "venue": "The Theater at Virgin Hotels",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-16",
-      "ts": 1792180800,
-      "url": "https://concerts.vegas/event/dj-meredith-marks-las-vegas-24-oxford-at-virgin-hotels-las-vegas-friday-october-16-2026-9-00-pm/"
-    },
-    {
-      "artist": "Dj Meredith Marks Las Vegas 24 Oxford At Virgin Hotels",
-      "venue": "24 Oxford at Virgin Hotels",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-16",
-      "ts": 1792180800,
-      "url": "https://concerts.vegas/event/dj-meredith-marks-las-vegas-24-oxford-at-virgin-hotels-las-vegas-friday-october-16-2026-9-00-pm/"
     },
     {
       "artist": "Donny Osmond",
@@ -954,6 +936,15 @@
       "date": "2026-10-24",
       "ts": 1792868400,
       "url": "https://nocovernightclubs.com/events/special-guest-jewel-nightclub-saturday-october-24-2026/"
+    },
+    {
+      "artist": "Loud Luxury",
+      "venue": "Encore Beach Club",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-10-24",
+      "ts": 1792868400,
+      "url": "https://nocovernightclubs.com/events/loud-luxury-encore-beach-club-saturday-october-24-2026/"
     },
     {
       "artist": "The Chainsmokers",
@@ -2691,6 +2682,24 @@
       "date": "2026-11-08",
       "ts": 1794168000,
       "url": "https://concerts.vegas/event/santana-las-vegas-sunday-november-8-2026-700-pm/"
+    },
+    {
+      "artist": "Eric Forbes",
+      "venue": "Marquee Dayclub",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-11-09",
+      "ts": 1794250800,
+      "url": "https://nocovernightclubs.com/events/eric-forbes-marquee-dayclub-monday-november-9-2026/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "The Colosseum at Caesars Palace",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-11-10",
+      "ts": 1794340800,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-tuesday-november-10-2026-730-pm/"
     }
   ]
 }
