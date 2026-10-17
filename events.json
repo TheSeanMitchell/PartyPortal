@@ -1,5 +1,5 @@
 {
-  "updated": 1792250322,
+  "updated": 1792268591,
   "events": [
     {
       "artist": "Special Guest",
@@ -2669,6 +2669,33 @@
       "artist": "Barry Manilow",
       "venue": "Dolby Live at Park MGM",
       "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-11-12",
+      "ts": 1794513600,
+      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-thursday-november-12-2026-700-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "Dolby Live at Park MGM",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-11-12",
+      "ts": 1794513600,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-thursday-november-12-2026-730-pm/"
+    },
+    {
+      "artist": "Latin Grammy Awards Las Vegas Mgm Grand Garden Arena",
+      "venue": "MGM Grand Garden Arena",
+      "type": "arena",
+      "city": "Las Vegas",
+      "date": "2026-11-12",
+      "ts": 1794513600,
+      "url": "https://concerts.vegas/event/latin-grammy-awards-las-vegas-mgm-grand-garden-arena-thursday-november-12-2026-5-00-pm/"
+    },
+    {
+      "artist": "Barry Manilow",
+      "venue": "Michelob Ultra Arena",
+      "type": "arena",
       "city": "Las Vegas",
       "date": "2026-11-12",
       "ts": 1794513600,
