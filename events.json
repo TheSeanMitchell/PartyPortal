@@ -1,5 +1,5 @@
 {
-  "updated": 1792413804,
+  "updated": 1792447882,
   "events": [
     {
       "artist": "Eric D Lux",
@@ -2691,6 +2691,15 @@
       "date": "2026-11-13",
       "ts": 1794600000,
       "url": "https://concerts.vegas/event/gary-numan-las-vegas-friday-november-13-2026-730-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "Encore Theater at Wynn",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-11-13",
+      "ts": 1794600000,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-friday-november-13-2026-730-pm/"
     }
   ]
 }
