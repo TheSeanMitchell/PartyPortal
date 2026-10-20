@@ -1,33 +1,6 @@
 {
-  "updated": 1792447882,
+  "updated": 1792494900,
   "events": [
-    {
-      "artist": "Eric D Lux",
-      "venue": "Marquee",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-10-19",
-      "ts": 1792436400,
-      "url": "https://nocovernightclubs.com/events/eric-d-lux-marquee-nightclub-monday-october-19-2026/"
-    },
-    {
-      "artist": "D Miles",
-      "venue": "Marquee Dayclub",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-10-19",
-      "ts": 1792436400,
-      "url": "https://nocovernightclubs.com/events/d-miles-marquee-dayclub-monday-october-19-2026/"
-    },
-    {
-      "artist": "Free Throw And Microwave",
-      "venue": "House of Blues",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-19",
-      "ts": 1792440000,
-      "url": "https://concerts.vegas/event/free-throw-and-microwave-las-vegas-monday-october-19-2026-600-pm/"
-    },
     {
       "artist": "Mikey Francis",
       "venue": "Omnia",
@@ -459,15 +432,6 @@
       "date": "2026-10-25",
       "ts": 1792954800,
       "url": "https://nocovernightclubs.com/events/deseo-omnia-nightclub-sunday-october-25-2026/"
-    },
-    {
-      "artist": "Ritual Sunday",
-      "venue": "Tao",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-10-25",
-      "ts": 1792954800,
-      "url": "https://nocovernightclubs.com/events/ritual-sunday-tao-nightclub-sunday-october-25-2026/"
     },
     {
       "artist": "Special Guest",
@@ -2700,6 +2664,33 @@
       "date": "2026-11-13",
       "ts": 1794600000,
       "url": "https://concerts.vegas/event/donny-osmond-las-vegas-friday-november-13-2026-730-pm/"
+    },
+    {
+      "artist": "Kenny Babyface Edmonds",
+      "venue": "Encore Theater at Wynn",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-11-13",
+      "ts": 1794600000,
+      "url": "https://concerts.vegas/event/kenny-babyface-edmonds-las-vegas-friday-november-13-2026-800-pm/"
+    },
+    {
+      "artist": "Barry Manilow",
+      "venue": "Encore Theater at Wynn",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-11-13",
+      "ts": 1794600000,
+      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-friday-november-13-2026-800-pm/"
+    },
+    {
+      "artist": "Lionel Richie Las Vegas Encore Theatre At Wynn",
+      "venue": "Encore Theater at Wynn",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-11-13",
+      "ts": 1794600000,
+      "url": "https://concerts.vegas/event/lionel-richie-las-vegas-encore-theatre-at-wynn-las-vegas-friday-november-13-2026-8-00-pm/"
     }
   ]
 }
