@@ -1,42 +1,6 @@
 {
-  "updated": 1792618051,
+  "updated": 1792668635,
   "events": [
-    {
-      "artist": "Lema",
-      "venue": "Marquee",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-10-21",
-      "ts": 1792609200,
-      "url": "https://nocovernightclubs.com/events/lema-marquee-nightclub-wednesday-october-21-2026/"
-    },
-    {
-      "artist": "Dj Franzen",
-      "venue": "Hakkasan",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-10-21",
-      "ts": 1792609200,
-      "url": "https://nocovernightclubs.com/events/dj-franzen-hakkasan-nightclub-wednesday-october-21-2026/"
-    },
-    {
-      "artist": "Acraze",
-      "venue": "EBC At Night",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-10-21",
-      "ts": 1792609200,
-      "url": "https://nocovernightclubs.com/events/acraze-ebc-at-night-wednesday-october-21-2026/"
-    },
-    {
-      "artist": "Deltron 3030",
-      "venue": "House of Blues",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-21",
-      "ts": 1792612800,
-      "url": "https://concerts.vegas/event/deltron-3030-las-vegas-wednesday-october-21-2026-700-pm/"
-    },
     {
       "artist": "Special Guest",
       "venue": "Omnia",
@@ -396,15 +360,6 @@
       "date": "2026-10-25",
       "ts": 1792954800,
       "url": "https://nocovernightclubs.com/events/deseo-omnia-nightclub-sunday-october-25-2026/"
-    },
-    {
-      "artist": "Special Guest",
-      "venue": "LIV",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-10-25",
-      "ts": 1792954800,
-      "url": "https://nocovernightclubs.com/events/special-guest-liv-nightclub-sunday-october-25-2026/"
     },
     {
       "artist": "Dj Shift",
@@ -2700,6 +2655,51 @@
       "date": "2026-11-13",
       "ts": 1794600000,
       "url": "https://concerts.vegas/event/state-champs-las-vegas-friday-november-13-2026-600-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "Pearl Theater at Palms",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-11-13",
+      "ts": 1794600000,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-friday-november-13-2026-730-pm/"
+    },
+    {
+      "artist": "Kenny Babyface Edmonds",
+      "venue": "Pearl Theater at Palms",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-11-13",
+      "ts": 1794600000,
+      "url": "https://concerts.vegas/event/kenny-babyface-edmonds-las-vegas-friday-november-13-2026-800-pm/"
+    },
+    {
+      "artist": "Lionel Richie Las Vegas Encore Theatre At Wynn",
+      "venue": "Pearl Theater at Palms",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-11-13",
+      "ts": 1794600000,
+      "url": "https://concerts.vegas/event/lionel-richie-las-vegas-encore-theatre-at-wynn-las-vegas-friday-november-13-2026-8-00-pm/"
+    },
+    {
+      "artist": "Barry Manilow",
+      "venue": "Pearl Theater at Palms",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-11-13",
+      "ts": 1794600000,
+      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-friday-november-13-2026-800-pm/"
+    },
+    {
+      "artist": "Levi",
+      "venue": "Marquee Dayclub",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-11-14",
+      "ts": 1794682800,
+      "url": "https://nocovernightclubs.com/events/levi-marquee-dayclub-saturday-november-14-2026/"
     }
   ]
 }
