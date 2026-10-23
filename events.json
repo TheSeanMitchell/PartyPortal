@@ -1,5 +1,5 @@
 {
-  "updated": 1792754410,
+  "updated": 1792774186,
   "events": [
     {
       "artist": "Noizu",
@@ -2691,6 +2691,15 @@
       "date": "2026-11-14",
       "ts": 1794686400,
       "url": "https://concerts.vegas/event/kill-tony-las-vegas-saturday-november-14-2026-700-pm/"
+    },
+    {
+      "artist": "Barry Manilow",
+      "venue": "Dolby Live at Park MGM",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-11-14",
+      "ts": 1794686400,
+      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-saturday-november-14-2026-700-pm/"
     }
   ]
 }
