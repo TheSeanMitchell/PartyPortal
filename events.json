@@ -1,42 +1,6 @@
 {
-  "updated": 1792704181,
+  "updated": 1792754410,
   "events": [
-    {
-      "artist": "Special Guest",
-      "venue": "Omnia",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-10-22",
-      "ts": 1792695600,
-      "url": "https://nocovernightclubs.com/events/special-guest-omnia-nightclub-thursday-october-22-2026/"
-    },
-    {
-      "artist": "Dj E Rock",
-      "venue": "Tao",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-10-22",
-      "ts": 1792695600,
-      "url": "https://nocovernightclubs.com/events/dj-e-rock-tao-nightclub-thursday-october-22-2026/"
-    },
-    {
-      "artist": "Dj Vice",
-      "venue": "Hakkasan",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-10-22",
-      "ts": 1792695600,
-      "url": "https://nocovernightclubs.com/events/dj-vice-hakkasan-nightclub-thursday-october-22-2026/"
-    },
-    {
-      "artist": "Greg Lopez",
-      "venue": "Marquee Dayclub",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-10-22",
-      "ts": 1792695600,
-      "url": "https://nocovernightclubs.com/events/greg-lopez-marquee-dayclub-thursday-october-22-2026/"
-    },
     {
       "artist": "Noizu",
       "venue": "Zouk",
@@ -155,15 +119,6 @@
       "url": "https://concerts.vegas/event/treaty-oak-revival-las-vegas-friday-october-23-2026-800-pm/"
     },
     {
-      "artist": "Little Miss Nasty Burlesque Show Las Vegas 24 Oxford At Virgin Hotels",
-      "venue": "The Theater at Virgin Hotels",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-23",
-      "ts": 1792785600,
-      "url": "https://concerts.vegas/event/little-miss-nasty-burlesque-show-las-vegas-24-oxford-at-virgin-hotels-las-vegas-friday-october-23-2026-8-00-pm/"
-    },
-    {
       "artist": "Treaty Oak Revival",
       "venue": "24 Oxford at Virgin Hotels",
       "type": "concert",
@@ -171,15 +126,6 @@
       "date": "2026-10-23",
       "ts": 1792785600,
       "url": "https://concerts.vegas/event/treaty-oak-revival-las-vegas-friday-october-23-2026-800-pm/"
-    },
-    {
-      "artist": "Little Miss Nasty Burlesque Show Las Vegas 24 Oxford At Virgin Hotels",
-      "venue": "24 Oxford at Virgin Hotels",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-23",
-      "ts": 1792785600,
-      "url": "https://concerts.vegas/event/little-miss-nasty-burlesque-show-las-vegas-24-oxford-at-virgin-hotels-las-vegas-friday-october-23-2026-8-00-pm/"
     },
     {
       "artist": "Artms",
@@ -648,15 +594,6 @@
       "date": "2026-10-29",
       "ts": 1793300400,
       "url": "https://nocovernightclubs.com/events/benny-benassi-hakkasan-nightclub-thursday-october-29-2026/"
-    },
-    {
-      "artist": "Altura",
-      "venue": "EBC At Night",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-10-29",
-      "ts": 1793300400,
-      "url": "https://nocovernightclubs.com/events/altura-ebc-at-night-thursday-october-29-2026/"
     },
     {
       "artist": "Special Guest",
@@ -2700,6 +2637,60 @@
       "date": "2026-11-14",
       "ts": 1794682800,
       "url": "https://nocovernightclubs.com/events/levi-marquee-dayclub-saturday-november-14-2026/"
+    },
+    {
+      "artist": "Teddy Swims",
+      "venue": "T-Mobile Arena",
+      "type": "arena",
+      "city": "Las Vegas",
+      "date": "2026-11-14",
+      "ts": 1794686400,
+      "url": "https://concerts.vegas/event/teddy-swims-las-vegas-saturday-november-14-2026-700-pm/"
+    },
+    {
+      "artist": "Barry Manilow",
+      "venue": "The Colosseum at Caesars Palace",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-11-14",
+      "ts": 1794686400,
+      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-saturday-november-14-2026-700-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "The Colosseum at Caesars Palace",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-11-14",
+      "ts": 1794686400,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-saturday-november-14-2026-730-pm/"
+    },
+    {
+      "artist": "Lionel Richie Las Vegas Encore Theatre At Wynn",
+      "venue": "The Colosseum at Caesars Palace",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-11-14",
+      "ts": 1794686400,
+      "url": "https://concerts.vegas/event/lionel-richie-las-vegas-encore-theatre-at-wynn-las-vegas-saturday-november-14-2026-8-00-pm/"
+    },
+    {
+      "artist": "Kenny Babyface Edmonds",
+      "venue": "The Colosseum at Caesars Palace",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-11-14",
+      "ts": 1794686400,
+      "url": "https://concerts.vegas/event/kenny-babyface-edmonds-las-vegas-saturday-november-14-2026-800-pm/"
+    },
+    {
+      "artist": "Kill Tony",
+      "venue": "Dolby Live at Park MGM",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-11-14",
+      "ts": 1794686400,
+      "url": "https://concerts.vegas/event/kill-tony-las-vegas-saturday-november-14-2026-700-pm/"
     }
   ]
 }
