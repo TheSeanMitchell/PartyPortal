@@ -1,5 +1,5 @@
 {
-  "updated": 1792838391,
+  "updated": 1792856531,
   "events": [
     {
       "artist": "James Hype",
@@ -144,15 +144,6 @@
       "date": "2026-10-24",
       "ts": 1792872000,
       "url": "https://concerts.vegas/event/dead-poet-society-and-honey-revenge-las-vegas-house-of-blues-las-vegas-saturday-october-24-2026-6-00-pm/"
-    },
-    {
-      "artist": "Club 90s Thrillerween Michael Jackson Night Las Vegas Brooklyn Bowl",
-      "venue": "Brooklyn Bowl",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-24",
-      "ts": 1792872000,
-      "url": "https://concerts.vegas/event/club-90s-thrillerween-michael-jackson-night-las-vegas-brooklyn-bowl-las-vegas-saturday-october-24-2026-9-00-pm/"
     },
     {
       "artist": "Deseo",
@@ -2691,6 +2682,15 @@
       "date": "2026-11-14",
       "ts": 1794686400,
       "url": "https://concerts.vegas/event/barry-manilow-las-vegas-saturday-november-14-2026-700-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "Encore Theater at Wynn",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-11-14",
+      "ts": 1794686400,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-saturday-november-14-2026-730-pm/"
     }
   ]
 }
