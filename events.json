@@ -1,150 +1,6 @@
 {
-  "updated": 1792873865,
+  "updated": 1792926250,
   "events": [
-    {
-      "artist": "James Hype",
-      "venue": "Zouk",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-10-24",
-      "ts": 1792868400,
-      "url": "https://nocovernightclubs.com/events/james-hype-zouk-nightclub-saturday-october-24-2026/"
-    },
-    {
-      "artist": "Zedd",
-      "venue": "Omnia",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-10-24",
-      "ts": 1792868400,
-      "url": "https://nocovernightclubs.com/events/zedd-omnia-nightclub-saturday-october-24-2026/"
-    },
-    {
-      "artist": "Jonas Blue",
-      "venue": "Marquee",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-10-24",
-      "ts": 1792868400,
-      "url": "https://nocovernightclubs.com/events/jonas-blue-marquee-nightclub-saturday-october-24-2026/"
-    },
-    {
-      "artist": "Special Guest",
-      "venue": "Tao",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-10-24",
-      "ts": 1792868400,
-      "url": "https://nocovernightclubs.com/events/special-guest-tao-nightclub-saturday-october-24-2026/"
-    },
-    {
-      "artist": "Ohgeezy",
-      "venue": "Hakkasan",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-10-24",
-      "ts": 1792868400,
-      "url": "https://nocovernightclubs.com/events/ohgeezy-hakkasan-nightclub-saturday-october-24-2026/"
-    },
-    {
-      "artist": "Nic Vans",
-      "venue": "LIV",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-10-24",
-      "ts": 1792868400,
-      "url": "https://nocovernightclubs.com/events/nic-vans-liv-nightclub-saturday-october-24-2026/"
-    },
-    {
-      "artist": "Special Guest",
-      "venue": "Jewel",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-10-24",
-      "ts": 1792868400,
-      "url": "https://nocovernightclubs.com/events/special-guest-jewel-nightclub-saturday-october-24-2026/"
-    },
-    {
-      "artist": "Loud Luxury",
-      "venue": "Encore Beach Club",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-10-24",
-      "ts": 1792868400,
-      "url": "https://nocovernightclubs.com/events/loud-luxury-encore-beach-club-saturday-october-24-2026/"
-    },
-    {
-      "artist": "The Chainsmokers",
-      "venue": "EBC At Night",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-10-24",
-      "ts": 1792868400,
-      "url": "https://nocovernightclubs.com/events/the-chainsmokers-ebc-at-night-saturday-october-24-2026/"
-    },
-    {
-      "artist": "Laidback Luke",
-      "venue": "Marquee Dayclub",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-10-24",
-      "ts": 1792868400,
-      "url": "https://nocovernightclubs.com/events/laidback-luke-marquee-dayclub-saturday-october-24-2026/"
-    },
-    {
-      "artist": "Mary J Blige",
-      "venue": "Dolby Live at Park MGM",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-24",
-      "ts": 1792872000,
-      "url": "https://concerts.vegas/event/mary-j-blige-las-vegas-saturday-october-24-2026-800-pm/"
-    },
-    {
-      "artist": "Tucker Wetmore",
-      "venue": "The Theater at Virgin Hotels",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-24",
-      "ts": 1792872000,
-      "url": "https://concerts.vegas/event/tucker-wetmore-las-vegas-saturday-october-24-2026-700-pm/"
-    },
-    {
-      "artist": "Samantha Fish",
-      "venue": "The Theater at Virgin Hotels",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-24",
-      "ts": 1792872000,
-      "url": "https://concerts.vegas/event/samantha-fish-las-vegas-saturday-october-24-2026-800-pm/"
-    },
-    {
-      "artist": "Tucker Wetmore",
-      "venue": "24 Oxford at Virgin Hotels",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-24",
-      "ts": 1792872000,
-      "url": "https://concerts.vegas/event/tucker-wetmore-las-vegas-saturday-october-24-2026-700-pm/"
-    },
-    {
-      "artist": "Samantha Fish",
-      "venue": "24 Oxford at Virgin Hotels",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-24",
-      "ts": 1792872000,
-      "url": "https://concerts.vegas/event/samantha-fish-las-vegas-saturday-october-24-2026-800-pm/"
-    },
-    {
-      "artist": "Dead Poet Society And Honey Revenge Las Vegas House Of Blues",
-      "venue": "House of Blues",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-24",
-      "ts": 1792872000,
-      "url": "https://concerts.vegas/event/dead-poet-society-and-honey-revenge-las-vegas-house-of-blues-las-vegas-saturday-october-24-2026-6-00-pm/"
-    },
     {
       "artist": "Deseo",
       "venue": "Omnia",
@@ -2695,6 +2551,141 @@
     {
       "artist": "Donny Osmond",
       "venue": "Resorts World Theatre",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-11-14",
+      "ts": 1794686400,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-saturday-november-14-2026-730-pm/"
+    },
+    {
+      "artist": "Kenny Babyface Edmonds",
+      "venue": "Resorts World Theatre",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-11-14",
+      "ts": 1794686400,
+      "url": "https://concerts.vegas/event/kenny-babyface-edmonds-las-vegas-saturday-november-14-2026-800-pm/"
+    },
+    {
+      "artist": "Lionel Richie Las Vegas Encore Theatre At Wynn",
+      "venue": "Resorts World Theatre",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-11-14",
+      "ts": 1794686400,
+      "url": "https://concerts.vegas/event/lionel-richie-las-vegas-encore-theatre-at-wynn-las-vegas-saturday-november-14-2026-8-00-pm/"
+    },
+    {
+      "artist": "Jeezy Las Vegas Ph Live At Planet Hollywood",
+      "venue": "Bakkt Theater at Planet Hollywood",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-11-14",
+      "ts": 1794686400,
+      "url": "https://concerts.vegas/event/jeezy-las-vegas-ph-live-at-planet-hollywood-saturday-november-14-2026-8-00-pm/"
+    },
+    {
+      "artist": "Santana",
+      "venue": "House of Blues",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-11-14",
+      "ts": 1794686400,
+      "url": "https://concerts.vegas/event/santana-las-vegas-saturday-november-14-2026-700-pm/"
+    },
+    {
+      "artist": "Barry Manilow",
+      "venue": "Encore Theater at Wynn",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-11-14",
+      "ts": 1794686400,
+      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-saturday-november-14-2026-700-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "Encore Theater at Wynn",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-11-14",
+      "ts": 1794686400,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-saturday-november-14-2026-730-pm/"
+    },
+    {
+      "artist": "Kenny Babyface Edmonds",
+      "venue": "Encore Theater at Wynn",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-11-14",
+      "ts": 1794686400,
+      "url": "https://concerts.vegas/event/kenny-babyface-edmonds-las-vegas-saturday-november-14-2026-800-pm/"
+    },
+    {
+      "artist": "Lionel Richie Las Vegas Encore Theatre At Wynn",
+      "venue": "Encore Theater at Wynn",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-11-14",
+      "ts": 1794686400,
+      "url": "https://concerts.vegas/event/lionel-richie-las-vegas-encore-theatre-at-wynn-las-vegas-saturday-november-14-2026-8-00-pm/"
+    },
+    {
+      "artist": "Barry Manilow",
+      "venue": "BleauLive Theater at Fontainebleau",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-11-14",
+      "ts": 1794686400,
+      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-saturday-november-14-2026-700-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "BleauLive Theater at Fontainebleau",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-11-14",
+      "ts": 1794686400,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-saturday-november-14-2026-730-pm/"
+    },
+    {
+      "artist": "Kenny Babyface Edmonds",
+      "venue": "BleauLive Theater at Fontainebleau",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-11-14",
+      "ts": 1794686400,
+      "url": "https://concerts.vegas/event/kenny-babyface-edmonds-las-vegas-saturday-november-14-2026-800-pm/"
+    },
+    {
+      "artist": "Lionel Richie Las Vegas Encore Theatre At Wynn",
+      "venue": "BleauLive Theater at Fontainebleau",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-11-14",
+      "ts": 1794686400,
+      "url": "https://concerts.vegas/event/lionel-richie-las-vegas-encore-theatre-at-wynn-las-vegas-saturday-november-14-2026-8-00-pm/"
+    },
+    {
+      "artist": "Gwar",
+      "venue": "Brooklyn Bowl",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-11-14",
+      "ts": 1794686400,
+      "url": "https://concerts.vegas/event/gwar-las-vegas-saturday-november-14-2026-600-pm/"
+    },
+    {
+      "artist": "Barry Manilow",
+      "venue": "Pearl Theater at Palms",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-11-14",
+      "ts": 1794686400,
+      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-saturday-november-14-2026-700-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "Pearl Theater at Palms",
       "type": "concert",
       "city": "Las Vegas",
       "date": "2026-11-14",
