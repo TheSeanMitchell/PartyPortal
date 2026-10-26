@@ -1,5 +1,5 @@
 {
-  "updated": 1793018217,
+  "updated": 1793053826,
   "events": [
     {
       "artist": "Justin Credible",
@@ -2691,6 +2691,15 @@
       "date": "2026-11-15",
       "ts": 1794772800,
       "url": "https://concerts.vegas/event/santana-las-vegas-sunday-november-15-2026-700-pm/"
+    },
+    {
+      "artist": "Buzzcocks",
+      "venue": "Brooklyn Bowl",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-11-15",
+      "ts": 1794772800,
+      "url": "https://concerts.vegas/event/buzzcocks-las-vegas-sunday-november-15-2026-600-pm/"
     }
   ]
 }
