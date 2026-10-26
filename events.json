@@ -1,42 +1,6 @@
 {
-  "updated": 1792960759,
+  "updated": 1793018217,
   "events": [
-    {
-      "artist": "Deseo",
-      "venue": "Omnia",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-10-25",
-      "ts": 1792954800,
-      "url": "https://nocovernightclubs.com/events/deseo-omnia-nightclub-sunday-october-25-2026/"
-    },
-    {
-      "artist": "Dj Shift",
-      "venue": "Marquee Dayclub",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-10-25",
-      "ts": 1792954800,
-      "url": "https://nocovernightclubs.com/events/dj-shift-marquee-dayclub-sunday-october-25-2026/"
-    },
-    {
-      "artist": "Taste Of Chaos Hollywood Undead And In This Moment",
-      "venue": "The Theater at Virgin Hotels",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-25",
-      "ts": 1792958400,
-      "url": "https://concerts.vegas/event/taste-of-chaos-hollywood-undead-and-in-this-moment-las-vegas-sunday-october-25-2026-600-pm/"
-    },
-    {
-      "artist": "Taste Of Chaos Hollywood Undead And In This Moment",
-      "venue": "24 Oxford at Virgin Hotels",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-25",
-      "ts": 1792958400,
-      "url": "https://concerts.vegas/event/taste-of-chaos-hollywood-undead-and-in-this-moment-las-vegas-sunday-october-25-2026-600-pm/"
-    },
     {
       "artist": "Justin Credible",
       "venue": "Marquee",
@@ -468,15 +432,6 @@
       "date": "2026-10-30",
       "ts": 1793386800,
       "url": "https://nocovernightclubs.com/events/notd-marquee-dayclub-friday-october-30-2026/"
-    },
-    {
-      "artist": "Simp City Las Vegas Tao Nightclub Venetian Casino",
-      "venue": "Sphere",
-      "type": "sphere",
-      "city": "Las Vegas",
-      "date": "2026-10-30",
-      "ts": 1793390400,
-      "url": "https://concerts.vegas/event/simp-city-las-vegas-tao-nightclub-venetian-casino-friday-october-30-2026-10-30-pm/"
     },
     {
       "artist": "Vegas Golden Knights Vs New Jersey Devils",
@@ -2700,6 +2655,42 @@
       "date": "2026-11-14",
       "ts": 1794686400,
       "url": "https://concerts.vegas/event/lionel-richie-las-vegas-encore-theatre-at-wynn-las-vegas-saturday-november-14-2026-8-00-pm/"
+    },
+    {
+      "artist": "Dj Konflikt",
+      "venue": "Marquee Dayclub",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-11-15",
+      "ts": 1794769200,
+      "url": "https://nocovernightclubs.com/events/dj-konflikt-marquee-dayclub-sunday-november-15-2026/"
+    },
+    {
+      "artist": "Vegas Golden Knights Vs Vancouver Canucks",
+      "venue": "T-Mobile Arena",
+      "type": "sports",
+      "city": "Las Vegas",
+      "date": "2026-11-15",
+      "ts": 1794772800,
+      "url": "https://concerts.vegas/event/vegas-golden-knights-vs-vancouver-canucks-las-vegas-sunday-november-15-2026-600-pm/"
+    },
+    {
+      "artist": "Las Vegas Raiders Vs Seattle Seahawks",
+      "venue": "Allegiant Stadium",
+      "type": "sports",
+      "city": "Las Vegas",
+      "date": "2026-11-15",
+      "ts": 1794772800,
+      "url": "https://concerts.vegas/event/las-vegas-raiders-vs-seattle-seahawks-las-vegas-sunday-november-15-2026-105-pm/"
+    },
+    {
+      "artist": "Santana",
+      "venue": "House of Blues",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-11-15",
+      "ts": 1794772800,
+      "url": "https://concerts.vegas/event/santana-las-vegas-sunday-november-15-2026-700-pm/"
     }
   ]
 }
