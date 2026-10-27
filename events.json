@@ -1,5 +1,5 @@
 {
-  "updated": 1793102024,
+  "updated": 1793123277,
   "events": [
     {
       "artist": "Alesso",
@@ -2691,6 +2691,15 @@
       "date": "2026-11-17",
       "ts": 1794945600,
       "url": "https://concerts.vegas/event/vegas-golden-knights-vs-dallas-stars-las-vegas-tuesday-november-17-2026-700-pm/"
+    },
+    {
+      "artist": "Special Guest",
+      "venue": "Marquee Dayclub",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-11-19",
+      "ts": 1795114800,
+      "url": "https://nocovernightclubs.com/events/special-guest-marquee-dayclub-thursday-november-19-2026/"
     }
   ]
 }
