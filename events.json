@@ -1,5 +1,5 @@
 {
-  "updated": 1793123277,
+  "updated": 1793138423,
   "events": [
     {
       "artist": "Alesso",
@@ -414,6 +414,15 @@
       "date": "2026-10-30",
       "ts": 1793386800,
       "url": "https://nocovernightclubs.com/events/notd-marquee-dayclub-friday-october-30-2026/"
+    },
+    {
+      "artist": "Partyton",
+      "venue": "Tailgate Beach",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-10-30",
+      "ts": 1793386800,
+      "url": "https://nocovernightclubs.com/events/partyton-tailgate-beach-club-friday-october-30-2026/"
     },
     {
       "artist": "Vegas Golden Knights Vs New Jersey Devils",
@@ -2054,15 +2063,6 @@
       "url": "https://concerts.vegas/event/kenny-babyface-edmonds-las-vegas-friday-november-13-2026-800-pm/"
     },
     {
-      "artist": "Barry Manilow",
-      "venue": "The Colosseum at Caesars Palace",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-11-13",
-      "ts": 1794600000,
-      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-friday-november-13-2026-800-pm/"
-    },
-    {
       "artist": "Lionel Richie Las Vegas Encore Theatre At Wynn",
       "venue": "The Colosseum at Caesars Palace",
       "type": "concert",
@@ -2070,6 +2070,15 @@
       "date": "2026-11-13",
       "ts": 1794600000,
       "url": "https://concerts.vegas/event/lionel-richie-las-vegas-encore-theatre-at-wynn-las-vegas-friday-november-13-2026-8-00-pm/"
+    },
+    {
+      "artist": "Barry Manilow",
+      "venue": "The Colosseum at Caesars Palace",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-11-13",
+      "ts": 1794600000,
+      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-friday-november-13-2026-800-pm/"
     },
     {
       "artist": "Kill Tony",
@@ -2099,15 +2108,6 @@
       "url": "https://concerts.vegas/event/kenny-babyface-edmonds-las-vegas-friday-november-13-2026-800-pm/"
     },
     {
-      "artist": "Barry Manilow",
-      "venue": "Dolby Live at Park MGM",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-11-13",
-      "ts": 1794600000,
-      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-friday-november-13-2026-800-pm/"
-    },
-    {
       "artist": "Lionel Richie Las Vegas Encore Theatre At Wynn",
       "venue": "Dolby Live at Park MGM",
       "type": "concert",
@@ -2115,6 +2115,15 @@
       "date": "2026-11-13",
       "ts": 1794600000,
       "url": "https://concerts.vegas/event/lionel-richie-las-vegas-encore-theatre-at-wynn-las-vegas-friday-november-13-2026-8-00-pm/"
+    },
+    {
+      "artist": "Barry Manilow",
+      "venue": "Dolby Live at Park MGM",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-11-13",
+      "ts": 1794600000,
+      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-friday-november-13-2026-800-pm/"
     },
     {
       "artist": "Donny Osmond",
@@ -2135,15 +2144,6 @@
       "url": "https://concerts.vegas/event/kenny-babyface-edmonds-las-vegas-friday-november-13-2026-800-pm/"
     },
     {
-      "artist": "Barry Manilow",
-      "venue": "Michelob Ultra Arena",
-      "type": "arena",
-      "city": "Las Vegas",
-      "date": "2026-11-13",
-      "ts": 1794600000,
-      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-friday-november-13-2026-800-pm/"
-    },
-    {
       "artist": "Lionel Richie Las Vegas Encore Theatre At Wynn",
       "venue": "Michelob Ultra Arena",
       "type": "arena",
@@ -2151,6 +2151,15 @@
       "date": "2026-11-13",
       "ts": 1794600000,
       "url": "https://concerts.vegas/event/lionel-richie-las-vegas-encore-theatre-at-wynn-las-vegas-friday-november-13-2026-8-00-pm/"
+    },
+    {
+      "artist": "Barry Manilow",
+      "venue": "Michelob Ultra Arena",
+      "type": "arena",
+      "city": "Las Vegas",
+      "date": "2026-11-13",
+      "ts": 1794600000,
+      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-friday-november-13-2026-800-pm/"
     },
     {
       "artist": "Donny Osmond",
@@ -2171,15 +2180,6 @@
       "url": "https://concerts.vegas/event/kenny-babyface-edmonds-las-vegas-friday-november-13-2026-800-pm/"
     },
     {
-      "artist": "Barry Manilow",
-      "venue": "Resorts World Theatre",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-11-13",
-      "ts": 1794600000,
-      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-friday-november-13-2026-800-pm/"
-    },
-    {
       "artist": "Lionel Richie Las Vegas Encore Theatre At Wynn",
       "venue": "Resorts World Theatre",
       "type": "concert",
@@ -2187,6 +2187,15 @@
       "date": "2026-11-13",
       "ts": 1794600000,
       "url": "https://concerts.vegas/event/lionel-richie-las-vegas-encore-theatre-at-wynn-las-vegas-friday-november-13-2026-8-00-pm/"
+    },
+    {
+      "artist": "Barry Manilow",
+      "venue": "Resorts World Theatre",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-11-13",
+      "ts": 1794600000,
+      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-friday-november-13-2026-800-pm/"
     },
     {
       "artist": "Jeezy Las Vegas Ph Live At Planet Hollywood",
@@ -2225,15 +2234,6 @@
       "url": "https://concerts.vegas/event/kenny-babyface-edmonds-las-vegas-friday-november-13-2026-800-pm/"
     },
     {
-      "artist": "Barry Manilow",
-      "venue": "Encore Theater at Wynn",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-11-13",
-      "ts": 1794600000,
-      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-friday-november-13-2026-800-pm/"
-    },
-    {
       "artist": "Lionel Richie Las Vegas Encore Theatre At Wynn",
       "venue": "Encore Theater at Wynn",
       "type": "concert",
@@ -2241,6 +2241,15 @@
       "date": "2026-11-13",
       "ts": 1794600000,
       "url": "https://concerts.vegas/event/lionel-richie-las-vegas-encore-theatre-at-wynn-las-vegas-friday-november-13-2026-8-00-pm/"
+    },
+    {
+      "artist": "Barry Manilow",
+      "venue": "Encore Theater at Wynn",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-11-13",
+      "ts": 1794600000,
+      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-friday-november-13-2026-800-pm/"
     },
     {
       "artist": "Donny Osmond",
@@ -2261,15 +2270,6 @@
       "url": "https://concerts.vegas/event/kenny-babyface-edmonds-las-vegas-friday-november-13-2026-800-pm/"
     },
     {
-      "artist": "Barry Manilow",
-      "venue": "BleauLive Theater at Fontainebleau",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-11-13",
-      "ts": 1794600000,
-      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-friday-november-13-2026-800-pm/"
-    },
-    {
       "artist": "Lionel Richie Las Vegas Encore Theatre At Wynn",
       "venue": "BleauLive Theater at Fontainebleau",
       "type": "concert",
@@ -2277,6 +2277,15 @@
       "date": "2026-11-13",
       "ts": 1794600000,
       "url": "https://concerts.vegas/event/lionel-richie-las-vegas-encore-theatre-at-wynn-las-vegas-friday-november-13-2026-8-00-pm/"
+    },
+    {
+      "artist": "Barry Manilow",
+      "venue": "BleauLive Theater at Fontainebleau",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-11-13",
+      "ts": 1794600000,
+      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-friday-november-13-2026-800-pm/"
     },
     {
       "artist": "State Champs",
@@ -2306,15 +2315,6 @@
       "url": "https://concerts.vegas/event/kenny-babyface-edmonds-las-vegas-friday-november-13-2026-800-pm/"
     },
     {
-      "artist": "Barry Manilow",
-      "venue": "Pearl Theater at Palms",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-11-13",
-      "ts": 1794600000,
-      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-friday-november-13-2026-800-pm/"
-    },
-    {
       "artist": "Lionel Richie Las Vegas Encore Theatre At Wynn",
       "venue": "Pearl Theater at Palms",
       "type": "concert",
@@ -2322,6 +2322,15 @@
       "date": "2026-11-13",
       "ts": 1794600000,
       "url": "https://concerts.vegas/event/lionel-richie-las-vegas-encore-theatre-at-wynn-las-vegas-friday-november-13-2026-8-00-pm/"
+    },
+    {
+      "artist": "Barry Manilow",
+      "venue": "Pearl Theater at Palms",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-11-13",
+      "ts": 1794600000,
+      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-friday-november-13-2026-800-pm/"
     },
     {
       "artist": "Levi",
@@ -2360,15 +2369,6 @@
       "url": "https://concerts.vegas/event/donny-osmond-las-vegas-saturday-november-14-2026-730-pm/"
     },
     {
-      "artist": "Kenny Babyface Edmonds",
-      "venue": "The Colosseum at Caesars Palace",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-11-14",
-      "ts": 1794686400,
-      "url": "https://concerts.vegas/event/kenny-babyface-edmonds-las-vegas-saturday-november-14-2026-800-pm/"
-    },
-    {
       "artist": "Lionel Richie Las Vegas Encore Theatre At Wynn",
       "venue": "The Colosseum at Caesars Palace",
       "type": "concert",
@@ -2376,6 +2376,15 @@
       "date": "2026-11-14",
       "ts": 1794686400,
       "url": "https://concerts.vegas/event/lionel-richie-las-vegas-encore-theatre-at-wynn-las-vegas-saturday-november-14-2026-8-00-pm/"
+    },
+    {
+      "artist": "Kenny Babyface Edmonds",
+      "venue": "The Colosseum at Caesars Palace",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-11-14",
+      "ts": 1794686400,
+      "url": "https://concerts.vegas/event/kenny-babyface-edmonds-las-vegas-saturday-november-14-2026-800-pm/"
     },
     {
       "artist": "Kill Tony",
@@ -2405,15 +2414,6 @@
       "url": "https://concerts.vegas/event/donny-osmond-las-vegas-saturday-november-14-2026-730-pm/"
     },
     {
-      "artist": "Kenny Babyface Edmonds",
-      "venue": "Dolby Live at Park MGM",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-11-14",
-      "ts": 1794686400,
-      "url": "https://concerts.vegas/event/kenny-babyface-edmonds-las-vegas-saturday-november-14-2026-800-pm/"
-    },
-    {
       "artist": "Lionel Richie Las Vegas Encore Theatre At Wynn",
       "venue": "Dolby Live at Park MGM",
       "type": "concert",
@@ -2421,6 +2421,15 @@
       "date": "2026-11-14",
       "ts": 1794686400,
       "url": "https://concerts.vegas/event/lionel-richie-las-vegas-encore-theatre-at-wynn-las-vegas-saturday-november-14-2026-8-00-pm/"
+    },
+    {
+      "artist": "Kenny Babyface Edmonds",
+      "venue": "Dolby Live at Park MGM",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-11-14",
+      "ts": 1794686400,
+      "url": "https://concerts.vegas/event/kenny-babyface-edmonds-las-vegas-saturday-november-14-2026-800-pm/"
     },
     {
       "artist": "Katseye",
@@ -2450,15 +2459,6 @@
       "url": "https://concerts.vegas/event/donny-osmond-las-vegas-saturday-november-14-2026-730-pm/"
     },
     {
-      "artist": "Kenny Babyface Edmonds",
-      "venue": "Michelob Ultra Arena",
-      "type": "arena",
-      "city": "Las Vegas",
-      "date": "2026-11-14",
-      "ts": 1794686400,
-      "url": "https://concerts.vegas/event/kenny-babyface-edmonds-las-vegas-saturday-november-14-2026-800-pm/"
-    },
-    {
       "artist": "Lionel Richie Las Vegas Encore Theatre At Wynn",
       "venue": "Michelob Ultra Arena",
       "type": "arena",
@@ -2466,6 +2466,15 @@
       "date": "2026-11-14",
       "ts": 1794686400,
       "url": "https://concerts.vegas/event/lionel-richie-las-vegas-encore-theatre-at-wynn-las-vegas-saturday-november-14-2026-8-00-pm/"
+    },
+    {
+      "artist": "Kenny Babyface Edmonds",
+      "venue": "Michelob Ultra Arena",
+      "type": "arena",
+      "city": "Las Vegas",
+      "date": "2026-11-14",
+      "ts": 1794686400,
+      "url": "https://concerts.vegas/event/kenny-babyface-edmonds-las-vegas-saturday-november-14-2026-800-pm/"
     },
     {
       "artist": "Barry Manilow",
@@ -2486,15 +2495,6 @@
       "url": "https://concerts.vegas/event/donny-osmond-las-vegas-saturday-november-14-2026-730-pm/"
     },
     {
-      "artist": "Kenny Babyface Edmonds",
-      "venue": "Resorts World Theatre",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-11-14",
-      "ts": 1794686400,
-      "url": "https://concerts.vegas/event/kenny-babyface-edmonds-las-vegas-saturday-november-14-2026-800-pm/"
-    },
-    {
       "artist": "Lionel Richie Las Vegas Encore Theatre At Wynn",
       "venue": "Resorts World Theatre",
       "type": "concert",
@@ -2502,6 +2502,15 @@
       "date": "2026-11-14",
       "ts": 1794686400,
       "url": "https://concerts.vegas/event/lionel-richie-las-vegas-encore-theatre-at-wynn-las-vegas-saturday-november-14-2026-8-00-pm/"
+    },
+    {
+      "artist": "Kenny Babyface Edmonds",
+      "venue": "Resorts World Theatre",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-11-14",
+      "ts": 1794686400,
+      "url": "https://concerts.vegas/event/kenny-babyface-edmonds-las-vegas-saturday-november-14-2026-800-pm/"
     },
     {
       "artist": "Jeezy Las Vegas Ph Live At Planet Hollywood",
@@ -2540,15 +2549,6 @@
       "url": "https://concerts.vegas/event/donny-osmond-las-vegas-saturday-november-14-2026-730-pm/"
     },
     {
-      "artist": "Kenny Babyface Edmonds",
-      "venue": "Encore Theater at Wynn",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-11-14",
-      "ts": 1794686400,
-      "url": "https://concerts.vegas/event/kenny-babyface-edmonds-las-vegas-saturday-november-14-2026-800-pm/"
-    },
-    {
       "artist": "Lionel Richie Las Vegas Encore Theatre At Wynn",
       "venue": "Encore Theater at Wynn",
       "type": "concert",
@@ -2556,6 +2556,15 @@
       "date": "2026-11-14",
       "ts": 1794686400,
       "url": "https://concerts.vegas/event/lionel-richie-las-vegas-encore-theatre-at-wynn-las-vegas-saturday-november-14-2026-8-00-pm/"
+    },
+    {
+      "artist": "Kenny Babyface Edmonds",
+      "venue": "Encore Theater at Wynn",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-11-14",
+      "ts": 1794686400,
+      "url": "https://concerts.vegas/event/kenny-babyface-edmonds-las-vegas-saturday-november-14-2026-800-pm/"
     },
     {
       "artist": "Barry Manilow",
@@ -2576,15 +2585,6 @@
       "url": "https://concerts.vegas/event/donny-osmond-las-vegas-saturday-november-14-2026-730-pm/"
     },
     {
-      "artist": "Kenny Babyface Edmonds",
-      "venue": "BleauLive Theater at Fontainebleau",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-11-14",
-      "ts": 1794686400,
-      "url": "https://concerts.vegas/event/kenny-babyface-edmonds-las-vegas-saturday-november-14-2026-800-pm/"
-    },
-    {
       "artist": "Lionel Richie Las Vegas Encore Theatre At Wynn",
       "venue": "BleauLive Theater at Fontainebleau",
       "type": "concert",
@@ -2592,6 +2592,15 @@
       "date": "2026-11-14",
       "ts": 1794686400,
       "url": "https://concerts.vegas/event/lionel-richie-las-vegas-encore-theatre-at-wynn-las-vegas-saturday-november-14-2026-8-00-pm/"
+    },
+    {
+      "artist": "Kenny Babyface Edmonds",
+      "venue": "BleauLive Theater at Fontainebleau",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-11-14",
+      "ts": 1794686400,
+      "url": "https://concerts.vegas/event/kenny-babyface-edmonds-las-vegas-saturday-november-14-2026-800-pm/"
     },
     {
       "artist": "Gwar",
@@ -2621,15 +2630,6 @@
       "url": "https://concerts.vegas/event/donny-osmond-las-vegas-saturday-november-14-2026-730-pm/"
     },
     {
-      "artist": "Kenny Babyface Edmonds",
-      "venue": "Pearl Theater at Palms",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-11-14",
-      "ts": 1794686400,
-      "url": "https://concerts.vegas/event/kenny-babyface-edmonds-las-vegas-saturday-november-14-2026-800-pm/"
-    },
-    {
       "artist": "Lionel Richie Las Vegas Encore Theatre At Wynn",
       "venue": "Pearl Theater at Palms",
       "type": "concert",
@@ -2637,6 +2637,15 @@
       "date": "2026-11-14",
       "ts": 1794686400,
       "url": "https://concerts.vegas/event/lionel-richie-las-vegas-encore-theatre-at-wynn-las-vegas-saturday-november-14-2026-8-00-pm/"
+    },
+    {
+      "artist": "Kenny Babyface Edmonds",
+      "venue": "Pearl Theater at Palms",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-11-14",
+      "ts": 1794686400,
+      "url": "https://concerts.vegas/event/kenny-babyface-edmonds-las-vegas-saturday-november-14-2026-800-pm/"
     },
     {
       "artist": "Dj Konflikt",
@@ -2691,15 +2700,6 @@
       "date": "2026-11-17",
       "ts": 1794945600,
       "url": "https://concerts.vegas/event/vegas-golden-knights-vs-dallas-stars-las-vegas-tuesday-november-17-2026-700-pm/"
-    },
-    {
-      "artist": "Special Guest",
-      "venue": "Marquee Dayclub",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-11-19",
-      "ts": 1795114800,
-      "url": "https://nocovernightclubs.com/events/special-guest-marquee-dayclub-thursday-november-19-2026/"
     }
   ]
 }
