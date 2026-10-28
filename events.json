@@ -1,96 +1,6 @@
 {
-  "updated": 1793138423,
+  "updated": 1793190557,
   "events": [
-    {
-      "artist": "Alesso",
-      "venue": "Omnia",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-10-27",
-      "ts": 1793127600,
-      "url": "https://nocovernightclubs.com/events/alesso-omnia-nightclub-tuesday-october-27-2026/"
-    },
-    {
-      "artist": "Vegas Golden Knights Vs Ottawa Senators",
-      "venue": "T-Mobile Arena",
-      "type": "sports",
-      "city": "Las Vegas",
-      "date": "2026-10-27",
-      "ts": 1793131200,
-      "url": "https://concerts.vegas/event/vegas-golden-knights-vs-ottawa-senators-las-vegas-tuesday-october-27-2026-700-pm/"
-    },
-    {
-      "artist": "Donny Osmond",
-      "venue": "The Colosseum at Caesars Palace",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-27",
-      "ts": 1793131200,
-      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-tuesday-october-27-2026-730-pm/"
-    },
-    {
-      "artist": "Donny Osmond",
-      "venue": "Dolby Live at Park MGM",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-27",
-      "ts": 1793131200,
-      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-tuesday-october-27-2026-730-pm/"
-    },
-    {
-      "artist": "Donny Osmond",
-      "venue": "Michelob Ultra Arena",
-      "type": "arena",
-      "city": "Las Vegas",
-      "date": "2026-10-27",
-      "ts": 1793131200,
-      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-tuesday-october-27-2026-730-pm/"
-    },
-    {
-      "artist": "Donny Osmond",
-      "venue": "Resorts World Theatre",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-27",
-      "ts": 1793131200,
-      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-tuesday-october-27-2026-730-pm/"
-    },
-    {
-      "artist": "Epik High",
-      "venue": "House of Blues",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-27",
-      "ts": 1793131200,
-      "url": "https://concerts.vegas/event/epik-high-las-vegas-tuesday-october-27-2026-830-pm/"
-    },
-    {
-      "artist": "Donny Osmond",
-      "venue": "Encore Theater at Wynn",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-27",
-      "ts": 1793131200,
-      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-tuesday-october-27-2026-730-pm/"
-    },
-    {
-      "artist": "Donny Osmond",
-      "venue": "BleauLive Theater at Fontainebleau",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-27",
-      "ts": 1793131200,
-      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-tuesday-october-27-2026-730-pm/"
-    },
-    {
-      "artist": "Donny Osmond",
-      "venue": "Pearl Theater at Palms",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-27",
-      "ts": 1793131200,
-      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-tuesday-october-27-2026-730-pm/"
-    },
     {
       "artist": "Club De Combat",
       "venue": "Marquee",
@@ -855,15 +765,6 @@
       "date": "2026-11-02",
       "ts": 1793646000,
       "url": "https://nocovernightclubs.com/events/dj-buza-marquee-dayclub-monday-november-2-2026/"
-    },
-    {
-      "artist": "Hall Of Fame Series Las Vegas Arizona Vs Ucla Men And Gonzaga Vs Purdue Men And Usc Vs Unlv And Arizona Vs Stanford",
-      "venue": "T-Mobile Arena",
-      "type": "sports",
-      "city": "Las Vegas",
-      "date": "2026-11-02",
-      "ts": 1793649600,
-      "url": "https://concerts.vegas/event/hall-of-fame-series-las-vegas-arizona-vs-ucla-men-and-gonzaga-vs-purdue-men-and-usc-vs-unlv-and-arizona-vs-stanford-las-vegas-monday-november-2-2026-tba/"
     },
     {
       "artist": "Hall Of Fame Series Las Vegas Arizona Vs Stanford And Unlv Vs Usc Women Session 1",
@@ -2700,6 +2601,105 @@
       "date": "2026-11-17",
       "ts": 1794945600,
       "url": "https://concerts.vegas/event/vegas-golden-knights-vs-dallas-stars-las-vegas-tuesday-november-17-2026-700-pm/"
+    },
+    {
+      "artist": "Special Guest",
+      "venue": "Marquee Dayclub",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-11-19",
+      "ts": 1795114800,
+      "url": "https://nocovernightclubs.com/events/special-guest-marquee-dayclub-thursday-november-19-2026/"
+    },
+    {
+      "artist": "Vegas Golden Knights Vs Dallas Stars",
+      "venue": "T-Mobile Arena",
+      "type": "sports",
+      "city": "Las Vegas",
+      "date": "2026-11-19",
+      "ts": 1795118400,
+      "url": "https://concerts.vegas/event/vegas-golden-knights-vs-dallas-stars-las-vegas-thursday-november-19-2026-700-pm/"
+    },
+    {
+      "artist": "Special Guest",
+      "venue": "Marquee Dayclub",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-11-20",
+      "ts": 1795201200,
+      "url": "https://nocovernightclubs.com/events/special-guest-marquee-dayclub-friday-november-20-2026/"
+    },
+    {
+      "artist": "Senses Fail Koyo And Initiate",
+      "venue": "House of Blues",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-11-20",
+      "ts": 1795204800,
+      "url": "https://concerts.vegas/event/senses-fail-koyo-and-initiate-las-vegas-friday-november-20-2026-600-pm/"
+    },
+    {
+      "artist": "Martin Garrix",
+      "venue": "Marquee Dayclub",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-11-21",
+      "ts": 1795287600,
+      "url": "https://nocovernightclubs.com/events/martin-garrix-marquee-dayclub-saturday-november-21-2026/"
+    },
+    {
+      "artist": "Crespo",
+      "venue": "Marquee Dayclub",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-11-22",
+      "ts": 1795374000,
+      "url": "https://nocovernightclubs.com/events/crespo-marquee-dayclub-sunday-november-22-2026/"
+    },
+    {
+      "artist": "The Amity Affliction",
+      "venue": "Brooklyn Bowl",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-11-22",
+      "ts": 1795377600,
+      "url": "https://concerts.vegas/event/the-amity-affliction-las-vegas-sunday-november-22-2026-600-pm/"
+    },
+    {
+      "artist": "Players Era 16 Championship Day Session",
+      "venue": "T-Mobile Arena",
+      "type": "arena",
+      "city": "Las Vegas",
+      "date": "2026-11-24",
+      "ts": 1795550400,
+      "url": "https://concerts.vegas/event/players-era-16-championship-day-session-las-vegas-tuesday-november-24-2026-1200-pm/"
+    },
+    {
+      "artist": "Players Era 16 Championship Evening Session",
+      "venue": "T-Mobile Arena",
+      "type": "arena",
+      "city": "Las Vegas",
+      "date": "2026-11-24",
+      "ts": 1795550400,
+      "url": "https://concerts.vegas/event/players-era-16-championship-evening-session-las-vegas-tuesday-november-24-2026-700-pm/"
+    },
+    {
+      "artist": "Uconn Huskies Vs Duke Blue Devils",
+      "venue": "T-Mobile Arena",
+      "type": "sports",
+      "city": "Las Vegas",
+      "date": "2026-11-25",
+      "ts": 1795636800,
+      "url": "https://concerts.vegas/event/uconn-huskies-vs-duke-blue-devils-las-vegas-wednesday-november-25-2026-tba/"
+    },
+    {
+      "artist": "Players Era 16 Championship Session 3 Las Vegas T Mobile Arena",
+      "venue": "T-Mobile Arena",
+      "type": "arena",
+      "city": "Las Vegas",
+      "date": "2026-11-26",
+      "ts": 1795723200,
+      "url": "https://concerts.vegas/event/players-era-16-championship-session-3-las-vegas-t-mobile-arena-thursday-november-26-2026-12-30-pm/"
     }
   ]
 }
