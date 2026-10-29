@@ -1,5 +1,5 @@
 {
-  "updated": 1793277615,
+  "updated": 1793313457,
   "events": [
     {
       "artist": "Ian Asher",
@@ -2676,30 +2676,30 @@
     },
     {
       "artist": "Vu Tru Say Hi Las Vegas Ph Live At Planet Hollywood",
-      "venue": "The Theater at Virgin Hotels",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-11-28",
-      "ts": 1795896000,
-      "url": "https://concerts.vegas/event/vu-tru-say-hi-las-vegas-ph-live-at-planet-hollywood-saturday-november-28-2026-7-00-pm/"
-    },
-    {
-      "artist": "Vu Tru Say Hi Las Vegas Ph Live At Planet Hollywood",
-      "venue": "24 Oxford at Virgin Hotels",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-11-28",
-      "ts": 1795896000,
-      "url": "https://concerts.vegas/event/vu-tru-say-hi-las-vegas-ph-live-at-planet-hollywood-saturday-november-28-2026-7-00-pm/"
-    },
-    {
-      "artist": "Vu Tru Say Hi Las Vegas Ph Live At Planet Hollywood",
       "venue": "Bakkt Theater at Planet Hollywood",
       "type": "concert",
       "city": "Las Vegas",
       "date": "2026-11-28",
       "ts": 1795896000,
       "url": "https://concerts.vegas/event/vu-tru-say-hi-las-vegas-ph-live-at-planet-hollywood-saturday-november-28-2026-7-00-pm/"
+    },
+    {
+      "artist": "Reggaeton Y2k Las Vegas House Of Blues",
+      "venue": "House of Blues",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-11-28",
+      "ts": 1795896000,
+      "url": "https://concerts.vegas/event/reggaeton-y2k-las-vegas-house-of-blues-las-vegas-saturday-november-28-2026-9-00-pm/"
+    },
+    {
+      "artist": "Punchis Punchis Banda Rave Experience Las Vegas Brooklyn Bowl",
+      "venue": "Brooklyn Bowl",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-11-28",
+      "ts": 1795896000,
+      "url": "https://concerts.vegas/event/punchis-punchis-banda-rave-experience-las-vegas-brooklyn-bowl-las-vegas-saturday-november-28-2026-9-00-pm/"
     }
   ]
 }
