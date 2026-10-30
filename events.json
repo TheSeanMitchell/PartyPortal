@@ -1,132 +1,6 @@
 {
-  "updated": 1793313457,
+  "updated": 1793363478,
   "events": [
-    {
-      "artist": "Ian Asher",
-      "venue": "Zouk",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-10-29",
-      "ts": 1793300400,
-      "url": "https://nocovernightclubs.com/events/ian-asher-zouk-nightclub-thursday-october-29-2026/"
-    },
-    {
-      "artist": "Special Guest",
-      "venue": "Omnia",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-10-29",
-      "ts": 1793300400,
-      "url": "https://nocovernightclubs.com/events/special-guest-omnia-nightclub-thursday-october-29-2026/"
-    },
-    {
-      "artist": "Benny Benassi",
-      "venue": "Hakkasan",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-10-29",
-      "ts": 1793300400,
-      "url": "https://nocovernightclubs.com/events/benny-benassi-hakkasan-nightclub-thursday-october-29-2026/"
-    },
-    {
-      "artist": "Special Guest",
-      "venue": "Marquee Dayclub",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-10-29",
-      "ts": 1793300400,
-      "url": "https://nocovernightclubs.com/events/special-guest-marquee-dayclub-thursday-october-29-2026/"
-    },
-    {
-      "artist": "Donny Osmond",
-      "venue": "The Colosseum at Caesars Palace",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-29",
-      "ts": 1793304000,
-      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-thursday-october-29-2026-730-pm/"
-    },
-    {
-      "artist": "Donny Osmond",
-      "venue": "Dolby Live at Park MGM",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-29",
-      "ts": 1793304000,
-      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-thursday-october-29-2026-730-pm/"
-    },
-    {
-      "artist": "Donny Osmond",
-      "venue": "Michelob Ultra Arena",
-      "type": "arena",
-      "city": "Las Vegas",
-      "date": "2026-10-29",
-      "ts": 1793304000,
-      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-thursday-october-29-2026-730-pm/"
-    },
-    {
-      "artist": "Donny Osmond",
-      "venue": "Resorts World Theatre",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-29",
-      "ts": 1793304000,
-      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-thursday-october-29-2026-730-pm/"
-    },
-    {
-      "artist": "Yandel",
-      "venue": "Bakkt Theater at Planet Hollywood",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-29",
-      "ts": 1793304000,
-      "url": "https://concerts.vegas/event/yandel-las-vegas-thursday-october-29-2026-800-pm/"
-    },
-    {
-      "artist": "Wage War",
-      "venue": "House of Blues",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-29",
-      "ts": 1793304000,
-      "url": "https://concerts.vegas/event/wage-war-las-vegas-thursday-october-29-2026-800-pm/"
-    },
-    {
-      "artist": "Donny Osmond",
-      "venue": "Encore Theater at Wynn",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-29",
-      "ts": 1793304000,
-      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-thursday-october-29-2026-730-pm/"
-    },
-    {
-      "artist": "Donny Osmond",
-      "venue": "BleauLive Theater at Fontainebleau",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-29",
-      "ts": 1793304000,
-      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-thursday-october-29-2026-730-pm/"
-    },
-    {
-      "artist": "Chief Keef",
-      "venue": "Brooklyn Bowl",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-29",
-      "ts": 1793304000,
-      "url": "https://concerts.vegas/event/chief-keef-las-vegas-thursday-october-29-2026-730-pm/"
-    },
-    {
-      "artist": "Donny Osmond",
-      "venue": "Pearl Theater at Palms",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-29",
-      "ts": 1793304000,
-      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-thursday-october-29-2026-730-pm/"
-    },
     {
       "artist": "Special Guest",
       "venue": "Zouk",
@@ -281,15 +155,6 @@
       "url": "https://concerts.vegas/event/los-parras-las-vegas-friday-october-30-2026-800-pm/"
     },
     {
-      "artist": "Thriller Halloween Party Las Vegas 24 Oxford At Virgin Hotels",
-      "venue": "The Theater at Virgin Hotels",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-30",
-      "ts": 1793390400,
-      "url": "https://concerts.vegas/event/thriller-halloween-party-las-vegas-24-oxford-at-virgin-hotels-las-vegas-friday-october-30-2026-8-00-pm/"
-    },
-    {
       "artist": "Los Parras",
       "venue": "24 Oxford at Virgin Hotels",
       "type": "concert",
@@ -297,15 +162,6 @@
       "date": "2026-10-30",
       "ts": 1793390400,
       "url": "https://concerts.vegas/event/los-parras-las-vegas-friday-october-30-2026-800-pm/"
-    },
-    {
-      "artist": "Thriller Halloween Party Las Vegas 24 Oxford At Virgin Hotels",
-      "venue": "24 Oxford at Virgin Hotels",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-30",
-      "ts": 1793390400,
-      "url": "https://concerts.vegas/event/thriller-halloween-party-las-vegas-24-oxford-at-virgin-hotels-las-vegas-friday-october-30-2026-8-00-pm/"
     },
     {
       "artist": "Donny Osmond",
@@ -2700,6 +2556,141 @@
       "date": "2026-11-28",
       "ts": 1795896000,
       "url": "https://concerts.vegas/event/punchis-punchis-banda-rave-experience-las-vegas-brooklyn-bowl-las-vegas-saturday-november-28-2026-9-00-pm/"
+    },
+    {
+      "artist": "Brooke Evers",
+      "venue": "Marquee Dayclub",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-11-29",
+      "ts": 1795978800,
+      "url": "https://nocovernightclubs.com/events/brooke-evers-marquee-dayclub-sunday-november-29-2026/"
+    },
+    {
+      "artist": "Mat Nham Mat Mo Las Vegas Ph Live At Planet Hollywood",
+      "venue": "Bakkt Theater at Planet Hollywood",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-11-29",
+      "ts": 1795982400,
+      "url": "https://concerts.vegas/event/mat-nham-mat-mo-las-vegas-ph-live-at-planet-hollywood-sunday-november-29-2026-7-00-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "The Colosseum at Caesars Palace",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-12-01",
+      "ts": 1796155200,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-tuesday-december-1-2026-730-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "Dolby Live at Park MGM",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-12-01",
+      "ts": 1796155200,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-tuesday-december-1-2026-730-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "Michelob Ultra Arena",
+      "type": "arena",
+      "city": "Las Vegas",
+      "date": "2026-12-01",
+      "ts": 1796155200,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-tuesday-december-1-2026-730-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "Resorts World Theatre",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-12-01",
+      "ts": 1796155200,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-tuesday-december-1-2026-730-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "Encore Theater at Wynn",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-12-01",
+      "ts": 1796155200,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-tuesday-december-1-2026-730-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "BleauLive Theater at Fontainebleau",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-12-01",
+      "ts": 1796155200,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-tuesday-december-1-2026-730-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "Pearl Theater at Palms",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-12-01",
+      "ts": 1796155200,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-tuesday-december-1-2026-730-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "The Colosseum at Caesars Palace",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-12-02",
+      "ts": 1796241600,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-wednesday-december-2-2026-730-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "Dolby Live at Park MGM",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-12-02",
+      "ts": 1796241600,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-wednesday-december-2-2026-730-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "Michelob Ultra Arena",
+      "type": "arena",
+      "city": "Las Vegas",
+      "date": "2026-12-02",
+      "ts": 1796241600,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-wednesday-december-2-2026-730-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "Resorts World Theatre",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-12-02",
+      "ts": 1796241600,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-wednesday-december-2-2026-730-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "Encore Theater at Wynn",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-12-02",
+      "ts": 1796241600,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-wednesday-december-2-2026-730-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "BleauLive Theater at Fontainebleau",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-12-02",
+      "ts": 1796241600,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-wednesday-december-2-2026-730-pm/"
     }
   ]
 }
