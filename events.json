@@ -1,5 +1,5 @@
 {
-  "updated": 1793447930,
+  "updated": 1793466749,
   "events": [
     {
       "artist": "Chase Status",
@@ -2691,6 +2691,15 @@
       "date": "2026-12-03",
       "ts": 1796328000,
       "url": "https://concerts.vegas/event/donny-osmond-las-vegas-thursday-december-3-2026-730-pm/"
+    },
+    {
+      "artist": "Tyga Las Vegas Hakkasan Mgm Casino",
+      "venue": "Pearl Theater at Palms",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-12-03",
+      "ts": 1796328000,
+      "url": "https://concerts.vegas/event/tyga-las-vegas-hakkasan-mgm-casino-thursday-december-3-2026-10-30-pm/"
     }
   ]
 }
