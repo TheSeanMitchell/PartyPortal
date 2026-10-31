@@ -1,213 +1,6 @@
 {
-  "updated": 1793397990,
+  "updated": 1793447930,
   "events": [
-    {
-      "artist": "Special Guest",
-      "venue": "Zouk",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-10-30",
-      "ts": 1793386800,
-      "url": "https://nocovernightclubs.com/events/special-guest-zouk-nightclub-friday-october-30-2026/"
-    },
-    {
-      "artist": "Tiesto",
-      "venue": "Omnia",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-10-30",
-      "ts": 1793386800,
-      "url": "https://nocovernightclubs.com/events/tiesto-omnia-nightclub-friday-october-30-2026/"
-    },
-    {
-      "artist": "Illenium",
-      "venue": "Marquee",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-10-30",
-      "ts": 1793386800,
-      "url": "https://nocovernightclubs.com/events/illenium-marquee-nightclub-friday-october-30-2026/"
-    },
-    {
-      "artist": "Special Guest",
-      "venue": "Tao",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-10-30",
-      "ts": 1793386800,
-      "url": "https://nocovernightclubs.com/events/special-guest-tao-nightclub-friday-october-30-2026/"
-    },
-    {
-      "artist": "Bigxthaplug",
-      "venue": "Hakkasan",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-10-30",
-      "ts": 1793386800,
-      "url": "https://nocovernightclubs.com/events/bigxthaplug-hakkasan-nightclub-friday-october-30-2026/"
-    },
-    {
-      "artist": "Layton Giordani",
-      "venue": "LIV",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-10-30",
-      "ts": 1793386800,
-      "url": "https://nocovernightclubs.com/events/layton-giordani-liv-nightclub-friday-october-30-2026/"
-    },
-    {
-      "artist": "Dj Stretch",
-      "venue": "Jewel",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-10-30",
-      "ts": 1793386800,
-      "url": "https://nocovernightclubs.com/events/dj-stretch-jewel-nightclub-friday-october-30-2026/"
-    },
-    {
-      "artist": "Hugel",
-      "venue": "EBC At Night",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-10-30",
-      "ts": 1793386800,
-      "url": "https://nocovernightclubs.com/events/hugel-ebc-at-night-friday-october-30-2026/"
-    },
-    {
-      "artist": "Notd",
-      "venue": "Marquee Dayclub",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-10-30",
-      "ts": 1793386800,
-      "url": "https://nocovernightclubs.com/events/notd-marquee-dayclub-friday-october-30-2026/"
-    },
-    {
-      "artist": "Partyton",
-      "venue": "Tailgate Beach",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-10-30",
-      "ts": 1793386800,
-      "url": "https://nocovernightclubs.com/events/partyton-tailgate-beach-club-friday-october-30-2026/"
-    },
-    {
-      "artist": "Donny Osmond",
-      "venue": "The Colosseum at Caesars Palace",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-30",
-      "ts": 1793390400,
-      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-friday-october-30-2026-730-pm/"
-    },
-    {
-      "artist": "Mary J Blige",
-      "venue": "Dolby Live at Park MGM",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-30",
-      "ts": 1793390400,
-      "url": "https://concerts.vegas/event/mary-j-blige-las-vegas-friday-october-30-2026-800-pm/"
-    },
-    {
-      "artist": "Donny Osmond",
-      "venue": "Dolby Live at Park MGM",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-30",
-      "ts": 1793390400,
-      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-friday-october-30-2026-730-pm/"
-    },
-    {
-      "artist": "Smashing Pumpkins",
-      "venue": "MGM Grand Garden Arena",
-      "type": "arena",
-      "city": "Las Vegas",
-      "date": "2026-10-30",
-      "ts": 1793390400,
-      "url": "https://concerts.vegas/event/smashing-pumpkins-las-vegas-friday-october-30-2026-800-pm/"
-    },
-    {
-      "artist": "Donny Osmond",
-      "venue": "Michelob Ultra Arena",
-      "type": "arena",
-      "city": "Las Vegas",
-      "date": "2026-10-30",
-      "ts": 1793390400,
-      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-friday-october-30-2026-730-pm/"
-    },
-    {
-      "artist": "Los Parras",
-      "venue": "The Theater at Virgin Hotels",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-30",
-      "ts": 1793390400,
-      "url": "https://concerts.vegas/event/los-parras-las-vegas-friday-october-30-2026-800-pm/"
-    },
-    {
-      "artist": "Los Parras",
-      "venue": "24 Oxford at Virgin Hotels",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-30",
-      "ts": 1793390400,
-      "url": "https://concerts.vegas/event/los-parras-las-vegas-friday-october-30-2026-800-pm/"
-    },
-    {
-      "artist": "Donny Osmond",
-      "venue": "Resorts World Theatre",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-30",
-      "ts": 1793390400,
-      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-friday-october-30-2026-730-pm/"
-    },
-    {
-      "artist": "Wasp And Kks Priest",
-      "venue": "House of Blues",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-30",
-      "ts": 1793390400,
-      "url": "https://concerts.vegas/event/wasp-and-kks-priest-las-vegas-friday-october-30-2026-730-pm/"
-    },
-    {
-      "artist": "Donny Osmond",
-      "venue": "Encore Theater at Wynn",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-30",
-      "ts": 1793390400,
-      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-friday-october-30-2026-730-pm/"
-    },
-    {
-      "artist": "Donny Osmond",
-      "venue": "BleauLive Theater at Fontainebleau",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-30",
-      "ts": 1793390400,
-      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-friday-october-30-2026-730-pm/"
-    },
-    {
-      "artist": "Club 90s Y2k Halloween Las Vegas Brooklyn Bowl",
-      "venue": "Brooklyn Bowl",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-30",
-      "ts": 1793390400,
-      "url": "https://concerts.vegas/event/club-90s-y2k-halloween-las-vegas-brooklyn-bowl-las-vegas-friday-october-30-2026-9-00-pm/"
-    },
-    {
-      "artist": "Donny Osmond",
-      "venue": "Pearl Theater at Palms",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-30",
-      "ts": 1793390400,
-      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-friday-october-30-2026-730-pm/"
-    },
     {
       "artist": "Chase Status",
       "venue": "Zouk",
@@ -1685,15 +1478,6 @@
       "url": "https://concerts.vegas/event/donny-osmond-las-vegas-friday-november-13-2026-730-pm/"
     },
     {
-      "artist": "Kenny Babyface Edmonds",
-      "venue": "The Colosseum at Caesars Palace",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-11-13",
-      "ts": 1794600000,
-      "url": "https://concerts.vegas/event/kenny-babyface-edmonds-las-vegas-friday-november-13-2026-800-pm/"
-    },
-    {
       "artist": "Barry Manilow",
       "venue": "The Colosseum at Caesars Palace",
       "type": "concert",
@@ -1710,6 +1494,15 @@
       "date": "2026-11-13",
       "ts": 1794600000,
       "url": "https://concerts.vegas/event/lionel-richie-las-vegas-encore-theatre-at-wynn-las-vegas-friday-november-13-2026-8-00-pm/"
+    },
+    {
+      "artist": "Kenny Babyface Edmonds",
+      "venue": "The Colosseum at Caesars Palace",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-11-13",
+      "ts": 1794600000,
+      "url": "https://concerts.vegas/event/kenny-babyface-edmonds-las-vegas-friday-november-13-2026-800-pm/"
     },
     {
       "artist": "Kill Tony",
@@ -1730,15 +1523,6 @@
       "url": "https://concerts.vegas/event/donny-osmond-las-vegas-friday-november-13-2026-730-pm/"
     },
     {
-      "artist": "Kenny Babyface Edmonds",
-      "venue": "Dolby Live at Park MGM",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-11-13",
-      "ts": 1794600000,
-      "url": "https://concerts.vegas/event/kenny-babyface-edmonds-las-vegas-friday-november-13-2026-800-pm/"
-    },
-    {
       "artist": "Barry Manilow",
       "venue": "Dolby Live at Park MGM",
       "type": "concert",
@@ -1755,6 +1539,15 @@
       "date": "2026-11-13",
       "ts": 1794600000,
       "url": "https://concerts.vegas/event/lionel-richie-las-vegas-encore-theatre-at-wynn-las-vegas-friday-november-13-2026-8-00-pm/"
+    },
+    {
+      "artist": "Kenny Babyface Edmonds",
+      "venue": "Dolby Live at Park MGM",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-11-13",
+      "ts": 1794600000,
+      "url": "https://concerts.vegas/event/kenny-babyface-edmonds-las-vegas-friday-november-13-2026-800-pm/"
     },
     {
       "artist": "Donny Osmond",
@@ -1766,15 +1559,6 @@
       "url": "https://concerts.vegas/event/donny-osmond-las-vegas-friday-november-13-2026-730-pm/"
     },
     {
-      "artist": "Kenny Babyface Edmonds",
-      "venue": "Michelob Ultra Arena",
-      "type": "arena",
-      "city": "Las Vegas",
-      "date": "2026-11-13",
-      "ts": 1794600000,
-      "url": "https://concerts.vegas/event/kenny-babyface-edmonds-las-vegas-friday-november-13-2026-800-pm/"
-    },
-    {
       "artist": "Barry Manilow",
       "venue": "Michelob Ultra Arena",
       "type": "arena",
@@ -1791,6 +1575,15 @@
       "date": "2026-11-13",
       "ts": 1794600000,
       "url": "https://concerts.vegas/event/lionel-richie-las-vegas-encore-theatre-at-wynn-las-vegas-friday-november-13-2026-8-00-pm/"
+    },
+    {
+      "artist": "Kenny Babyface Edmonds",
+      "venue": "Michelob Ultra Arena",
+      "type": "arena",
+      "city": "Las Vegas",
+      "date": "2026-11-13",
+      "ts": 1794600000,
+      "url": "https://concerts.vegas/event/kenny-babyface-edmonds-las-vegas-friday-november-13-2026-800-pm/"
     },
     {
       "artist": "Donny Osmond",
@@ -1802,15 +1595,6 @@
       "url": "https://concerts.vegas/event/donny-osmond-las-vegas-friday-november-13-2026-730-pm/"
     },
     {
-      "artist": "Kenny Babyface Edmonds",
-      "venue": "Resorts World Theatre",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-11-13",
-      "ts": 1794600000,
-      "url": "https://concerts.vegas/event/kenny-babyface-edmonds-las-vegas-friday-november-13-2026-800-pm/"
-    },
-    {
       "artist": "Barry Manilow",
       "venue": "Resorts World Theatre",
       "type": "concert",
@@ -1827,6 +1611,15 @@
       "date": "2026-11-13",
       "ts": 1794600000,
       "url": "https://concerts.vegas/event/lionel-richie-las-vegas-encore-theatre-at-wynn-las-vegas-friday-november-13-2026-8-00-pm/"
+    },
+    {
+      "artist": "Kenny Babyface Edmonds",
+      "venue": "Resorts World Theatre",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-11-13",
+      "ts": 1794600000,
+      "url": "https://concerts.vegas/event/kenny-babyface-edmonds-las-vegas-friday-november-13-2026-800-pm/"
     },
     {
       "artist": "Jeezy Las Vegas Ph Live At Planet Hollywood",
@@ -1856,15 +1649,6 @@
       "url": "https://concerts.vegas/event/donny-osmond-las-vegas-friday-november-13-2026-730-pm/"
     },
     {
-      "artist": "Kenny Babyface Edmonds",
-      "venue": "Encore Theater at Wynn",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-11-13",
-      "ts": 1794600000,
-      "url": "https://concerts.vegas/event/kenny-babyface-edmonds-las-vegas-friday-november-13-2026-800-pm/"
-    },
-    {
       "artist": "Barry Manilow",
       "venue": "Encore Theater at Wynn",
       "type": "concert",
@@ -1881,6 +1665,15 @@
       "date": "2026-11-13",
       "ts": 1794600000,
       "url": "https://concerts.vegas/event/lionel-richie-las-vegas-encore-theatre-at-wynn-las-vegas-friday-november-13-2026-8-00-pm/"
+    },
+    {
+      "artist": "Kenny Babyface Edmonds",
+      "venue": "Encore Theater at Wynn",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-11-13",
+      "ts": 1794600000,
+      "url": "https://concerts.vegas/event/kenny-babyface-edmonds-las-vegas-friday-november-13-2026-800-pm/"
     },
     {
       "artist": "Donny Osmond",
@@ -1892,15 +1685,6 @@
       "url": "https://concerts.vegas/event/donny-osmond-las-vegas-friday-november-13-2026-730-pm/"
     },
     {
-      "artist": "Kenny Babyface Edmonds",
-      "venue": "BleauLive Theater at Fontainebleau",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-11-13",
-      "ts": 1794600000,
-      "url": "https://concerts.vegas/event/kenny-babyface-edmonds-las-vegas-friday-november-13-2026-800-pm/"
-    },
-    {
       "artist": "Barry Manilow",
       "venue": "BleauLive Theater at Fontainebleau",
       "type": "concert",
@@ -1917,6 +1701,15 @@
       "date": "2026-11-13",
       "ts": 1794600000,
       "url": "https://concerts.vegas/event/lionel-richie-las-vegas-encore-theatre-at-wynn-las-vegas-friday-november-13-2026-8-00-pm/"
+    },
+    {
+      "artist": "Kenny Babyface Edmonds",
+      "venue": "BleauLive Theater at Fontainebleau",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-11-13",
+      "ts": 1794600000,
+      "url": "https://concerts.vegas/event/kenny-babyface-edmonds-las-vegas-friday-november-13-2026-800-pm/"
     },
     {
       "artist": "State Champs",
@@ -1937,15 +1730,6 @@
       "url": "https://concerts.vegas/event/donny-osmond-las-vegas-friday-november-13-2026-730-pm/"
     },
     {
-      "artist": "Kenny Babyface Edmonds",
-      "venue": "Pearl Theater at Palms",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-11-13",
-      "ts": 1794600000,
-      "url": "https://concerts.vegas/event/kenny-babyface-edmonds-las-vegas-friday-november-13-2026-800-pm/"
-    },
-    {
       "artist": "Barry Manilow",
       "venue": "Pearl Theater at Palms",
       "type": "concert",
@@ -1962,6 +1746,15 @@
       "date": "2026-11-13",
       "ts": 1794600000,
       "url": "https://concerts.vegas/event/lionel-richie-las-vegas-encore-theatre-at-wynn-las-vegas-friday-november-13-2026-8-00-pm/"
+    },
+    {
+      "artist": "Kenny Babyface Edmonds",
+      "venue": "Pearl Theater at Palms",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-11-13",
+      "ts": 1794600000,
+      "url": "https://concerts.vegas/event/kenny-babyface-edmonds-las-vegas-friday-november-13-2026-800-pm/"
     },
     {
       "artist": "Levi",
@@ -2700,6 +2493,204 @@
       "date": "2026-12-03",
       "ts": 1796328000,
       "url": "https://concerts.vegas/event/vegas-golden-knights-vs-utah-mammoth-las-vegas-thursday-december-3-2026-700-pm/"
+    },
+    {
+      "artist": "Barry Manilow",
+      "venue": "The Colosseum at Caesars Palace",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-12-03",
+      "ts": 1796328000,
+      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-thursday-december-3-2026-700-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "The Colosseum at Caesars Palace",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-12-03",
+      "ts": 1796328000,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-thursday-december-3-2026-730-pm/"
+    },
+    {
+      "artist": "Tyga Las Vegas Hakkasan Mgm Casino",
+      "venue": "The Colosseum at Caesars Palace",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-12-03",
+      "ts": 1796328000,
+      "url": "https://concerts.vegas/event/tyga-las-vegas-hakkasan-mgm-casino-thursday-december-3-2026-10-30-pm/"
+    },
+    {
+      "artist": "Barry Manilow",
+      "venue": "Dolby Live at Park MGM",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-12-03",
+      "ts": 1796328000,
+      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-thursday-december-3-2026-700-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "Dolby Live at Park MGM",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-12-03",
+      "ts": 1796328000,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-thursday-december-3-2026-730-pm/"
+    },
+    {
+      "artist": "Tyga Las Vegas Hakkasan Mgm Casino",
+      "venue": "Dolby Live at Park MGM",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-12-03",
+      "ts": 1796328000,
+      "url": "https://concerts.vegas/event/tyga-las-vegas-hakkasan-mgm-casino-thursday-december-3-2026-10-30-pm/"
+    },
+    {
+      "artist": "Barry Manilow",
+      "venue": "Michelob Ultra Arena",
+      "type": "arena",
+      "city": "Las Vegas",
+      "date": "2026-12-03",
+      "ts": 1796328000,
+      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-thursday-december-3-2026-700-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "Michelob Ultra Arena",
+      "type": "arena",
+      "city": "Las Vegas",
+      "date": "2026-12-03",
+      "ts": 1796328000,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-thursday-december-3-2026-730-pm/"
+    },
+    {
+      "artist": "Tyga Las Vegas Hakkasan Mgm Casino",
+      "venue": "Michelob Ultra Arena",
+      "type": "arena",
+      "city": "Las Vegas",
+      "date": "2026-12-03",
+      "ts": 1796328000,
+      "url": "https://concerts.vegas/event/tyga-las-vegas-hakkasan-mgm-casino-thursday-december-3-2026-10-30-pm/"
+    },
+    {
+      "artist": "The Marcus King Band Las Vegas The Theater At Virgin Hotels",
+      "venue": "The Theater at Virgin Hotels",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-12-03",
+      "ts": 1796328000,
+      "url": "https://concerts.vegas/event/the-marcus-king-band-las-vegas-the-theater-at-virgin-hotels-las-vegas-thursday-december-3-2026-8-30-pm/"
+    },
+    {
+      "artist": "The Marcus King Band Las Vegas The Theater At Virgin Hotels",
+      "venue": "24 Oxford at Virgin Hotels",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-12-03",
+      "ts": 1796328000,
+      "url": "https://concerts.vegas/event/the-marcus-king-band-las-vegas-the-theater-at-virgin-hotels-las-vegas-thursday-december-3-2026-8-30-pm/"
+    },
+    {
+      "artist": "Barry Manilow",
+      "venue": "Resorts World Theatre",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-12-03",
+      "ts": 1796328000,
+      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-thursday-december-3-2026-700-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "Resorts World Theatre",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-12-03",
+      "ts": 1796328000,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-thursday-december-3-2026-730-pm/"
+    },
+    {
+      "artist": "Tyga Las Vegas Hakkasan Mgm Casino",
+      "venue": "Resorts World Theatre",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-12-03",
+      "ts": 1796328000,
+      "url": "https://concerts.vegas/event/tyga-las-vegas-hakkasan-mgm-casino-thursday-december-3-2026-10-30-pm/"
+    },
+    {
+      "artist": "Barry Manilow",
+      "venue": "Encore Theater at Wynn",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-12-03",
+      "ts": 1796328000,
+      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-thursday-december-3-2026-700-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "Encore Theater at Wynn",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-12-03",
+      "ts": 1796328000,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-thursday-december-3-2026-730-pm/"
+    },
+    {
+      "artist": "Tyga Las Vegas Hakkasan Mgm Casino",
+      "venue": "Encore Theater at Wynn",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-12-03",
+      "ts": 1796328000,
+      "url": "https://concerts.vegas/event/tyga-las-vegas-hakkasan-mgm-casino-thursday-december-3-2026-10-30-pm/"
+    },
+    {
+      "artist": "Barry Manilow",
+      "venue": "BleauLive Theater at Fontainebleau",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-12-03",
+      "ts": 1796328000,
+      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-thursday-december-3-2026-700-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "BleauLive Theater at Fontainebleau",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-12-03",
+      "ts": 1796328000,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-thursday-december-3-2026-730-pm/"
+    },
+    {
+      "artist": "Tyga Las Vegas Hakkasan Mgm Casino",
+      "venue": "BleauLive Theater at Fontainebleau",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-12-03",
+      "ts": 1796328000,
+      "url": "https://concerts.vegas/event/tyga-las-vegas-hakkasan-mgm-casino-thursday-december-3-2026-10-30-pm/"
+    },
+    {
+      "artist": "Barry Manilow",
+      "venue": "Pearl Theater at Palms",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-12-03",
+      "ts": 1796328000,
+      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-thursday-december-3-2026-700-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "Pearl Theater at Palms",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-12-03",
+      "ts": 1796328000,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-thursday-december-3-2026-730-pm/"
     }
   ]
 }
