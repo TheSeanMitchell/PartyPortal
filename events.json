@@ -1,5 +1,5 @@
 {
-  "updated": 1793466749,
+  "updated": 1793481337,
   "events": [
     {
       "artist": "Chase Status",
@@ -234,15 +234,6 @@
       "date": "2026-10-31",
       "ts": 1793476800,
       "url": "https://concerts.vegas/event/jodeci-las-vegas-saturday-october-31-2026-800-pm/"
-    },
-    {
-      "artist": "Lenny Pearce",
-      "venue": "Brooklyn Bowl",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-10-31",
-      "ts": 1793476800,
-      "url": "https://concerts.vegas/event/lenny-pearce-las-vegas-saturday-october-31-2026-1130-am/"
     },
     {
       "artist": "Donny Osmond",
@@ -2700,6 +2691,15 @@
       "date": "2026-12-03",
       "ts": 1796328000,
       "url": "https://concerts.vegas/event/tyga-las-vegas-hakkasan-mgm-casino-thursday-december-3-2026-10-30-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "The Colosseum at Caesars Palace",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-12-04",
+      "ts": 1796414400,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-friday-december-4-2026-730-pm/"
     }
   ]
 }
