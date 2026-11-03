@@ -1,24 +1,6 @@
 {
-  "updated": 1793666873,
+  "updated": 1793714133,
   "events": [
-    {
-      "artist": "Dj Vice",
-      "venue": "Marquee",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-11-02",
-      "ts": 1793646000,
-      "url": "https://nocovernightclubs.com/events/dj-vice-marquee-nightclub-monday-november-2-2026/"
-    },
-    {
-      "artist": "Dj Buza",
-      "venue": "Marquee Dayclub",
-      "type": "pool",
-      "city": "Las Vegas",
-      "date": "2026-11-02",
-      "ts": 1793646000,
-      "url": "https://nocovernightclubs.com/events/dj-buza-marquee-dayclub-monday-november-2-2026/"
-    },
     {
       "artist": "Steve Aoki",
       "venue": "Omnia",
@@ -2700,6 +2682,15 @@
       "date": "2026-11-26",
       "ts": 1795723200,
       "url": "https://concerts.vegas/event/players-era-16-championship-session-3-las-vegas-t-mobile-arena-thursday-november-26-2026-12-30-pm/"
+    },
+    {
+      "artist": "Players Era 16 Championship Evening Session",
+      "venue": "T-Mobile Arena",
+      "type": "arena",
+      "city": "Las Vegas",
+      "date": "2026-11-26",
+      "ts": 1795723200,
+      "url": "https://concerts.vegas/event/players-era-16-championship-evening-session-las-vegas-thursday-november-26-2026-600-pm/"
     }
   ]
 }
