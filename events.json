@@ -1,78 +1,6 @@
 {
-  "updated": 1793747056,
+  "updated": 1793801226,
   "events": [
-    {
-      "artist": "Steve Aoki",
-      "venue": "Omnia",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-11-03",
-      "ts": 1793732400,
-      "url": "https://nocovernightclubs.com/events/steve-aoki-omnia-nightclub-tuesday-november-3-2026/"
-    },
-    {
-      "artist": "Donny Osmond",
-      "venue": "The Colosseum at Caesars Palace",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-11-03",
-      "ts": 1793736000,
-      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-tuesday-november-3-2026-730-pm/"
-    },
-    {
-      "artist": "Donny Osmond",
-      "venue": "Dolby Live at Park MGM",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-11-03",
-      "ts": 1793736000,
-      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-tuesday-november-3-2026-730-pm/"
-    },
-    {
-      "artist": "Donny Osmond",
-      "venue": "Michelob Ultra Arena",
-      "type": "arena",
-      "city": "Las Vegas",
-      "date": "2026-11-03",
-      "ts": 1793736000,
-      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-tuesday-november-3-2026-730-pm/"
-    },
-    {
-      "artist": "Donny Osmond",
-      "venue": "Resorts World Theatre",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-11-03",
-      "ts": 1793736000,
-      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-tuesday-november-3-2026-730-pm/"
-    },
-    {
-      "artist": "Donny Osmond",
-      "venue": "Encore Theater at Wynn",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-11-03",
-      "ts": 1793736000,
-      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-tuesday-november-3-2026-730-pm/"
-    },
-    {
-      "artist": "Donny Osmond",
-      "venue": "BleauLive Theater at Fontainebleau",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-11-03",
-      "ts": 1793736000,
-      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-tuesday-november-3-2026-730-pm/"
-    },
-    {
-      "artist": "Donny Osmond",
-      "venue": "Pearl Theater at Palms",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-11-03",
-      "ts": 1793736000,
-      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-tuesday-november-3-2026-730-pm/"
-    },
     {
       "artist": "Dj Franzen",
       "venue": "Hakkasan",
@@ -2700,6 +2628,78 @@
       "date": "2026-11-26",
       "ts": 1795723200,
       "url": "https://concerts.vegas/event/players-era-16-championship-session-3-las-vegas-t-mobile-arena-thursday-november-26-2026-12-30-pm/"
+    },
+    {
+      "artist": "Players Era 16 Championship Evening Session",
+      "venue": "T-Mobile Arena",
+      "type": "arena",
+      "city": "Las Vegas",
+      "date": "2026-11-26",
+      "ts": 1795723200,
+      "url": "https://concerts.vegas/event/players-era-16-championship-evening-session-las-vegas-thursday-november-26-2026-600-pm/"
+    },
+    {
+      "artist": "James Hype",
+      "venue": "Zouk",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-11-27",
+      "ts": 1795806000,
+      "url": "https://nocovernightclubs.com/events/james-hype-zouk-nightclub-friday-november-27-2026/"
+    },
+    {
+      "artist": "Loud Luxury",
+      "venue": "XS",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-11-27",
+      "ts": 1795806000,
+      "url": "https://nocovernightclubs.com/events/loud-luxury-xs-nightclub-friday-november-27-2026/"
+    },
+    {
+      "artist": "Rob Guson",
+      "venue": "Omnia",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-11-27",
+      "ts": 1795806000,
+      "url": "https://nocovernightclubs.com/events/rob-guson-omnia-nightclub-friday-november-27-2026/"
+    },
+    {
+      "artist": "Greg Lopez",
+      "venue": "Marquee",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-11-27",
+      "ts": 1795806000,
+      "url": "https://nocovernightclubs.com/events/greg-lopez-marquee-nightclub-friday-november-27-2026/"
+    },
+    {
+      "artist": "Cable",
+      "venue": "Tao",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-11-27",
+      "ts": 1795806000,
+      "url": "https://nocovernightclubs.com/events/cable-tao-nightclub-friday-november-27-2026/"
+    },
+    {
+      "artist": "Mike Attack",
+      "venue": "Hakkasan",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-11-27",
+      "ts": 1795806000,
+      "url": "https://nocovernightclubs.com/events/mike-attack-hakkasan-nightclub-friday-november-27-2026/"
+    },
+    {
+      "artist": "Sosa",
+      "venue": "LIV",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-11-27",
+      "ts": 1795806000,
+      "url": "https://nocovernightclubs.com/events/sosa-liv-nightclub-friday-november-27-2026/"
     }
   ]
 }
