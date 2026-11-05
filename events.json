@@ -1,87 +1,6 @@
 {
-  "updated": 1793834865,
+  "updated": 1793888731,
   "events": [
-    {
-      "artist": "Dj Franzen",
-      "venue": "Hakkasan",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-11-04",
-      "ts": 1793818800,
-      "url": "https://nocovernightclubs.com/events/dj-franzen-hakkasan-nightclub-wednesday-november-4-2026/"
-    },
-    {
-      "artist": "Donny Osmond",
-      "venue": "The Colosseum at Caesars Palace",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-11-04",
-      "ts": 1793822400,
-      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-wednesday-november-4-2026-730-pm/"
-    },
-    {
-      "artist": "Donny Osmond",
-      "venue": "Dolby Live at Park MGM",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-11-04",
-      "ts": 1793822400,
-      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-wednesday-november-4-2026-730-pm/"
-    },
-    {
-      "artist": "Donny Osmond",
-      "venue": "Michelob Ultra Arena",
-      "type": "arena",
-      "city": "Las Vegas",
-      "date": "2026-11-04",
-      "ts": 1793822400,
-      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-wednesday-november-4-2026-730-pm/"
-    },
-    {
-      "artist": "Donny Osmond",
-      "venue": "Resorts World Theatre",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-11-04",
-      "ts": 1793822400,
-      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-wednesday-november-4-2026-730-pm/"
-    },
-    {
-      "artist": "Santana",
-      "venue": "House of Blues",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-11-04",
-      "ts": 1793822400,
-      "url": "https://concerts.vegas/event/santana-las-vegas-wednesday-november-4-2026-700-pm/"
-    },
-    {
-      "artist": "Donny Osmond",
-      "venue": "Encore Theater at Wynn",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-11-04",
-      "ts": 1793822400,
-      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-wednesday-november-4-2026-730-pm/"
-    },
-    {
-      "artist": "Donny Osmond",
-      "venue": "BleauLive Theater at Fontainebleau",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-11-04",
-      "ts": 1793822400,
-      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-wednesday-november-4-2026-730-pm/"
-    },
-    {
-      "artist": "Donny Osmond",
-      "venue": "Pearl Theater at Palms",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-11-04",
-      "ts": 1793822400,
-      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-wednesday-november-4-2026-730-pm/"
-    },
     {
       "artist": "Rufus Du Sol",
       "venue": "XS",
@@ -119,15 +38,6 @@
       "url": "https://nocovernightclubs.com/events/special-guest-marquee-dayclub-thursday-november-5-2026/"
     },
     {
-      "artist": "Barry Manilow",
-      "venue": "The Colosseum at Caesars Palace",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-11-05",
-      "ts": 1793908800,
-      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-thursday-november-5-2026-700-pm/"
-    },
-    {
       "artist": "Donny Osmond",
       "venue": "The Colosseum at Caesars Palace",
       "type": "concert",
@@ -135,15 +45,6 @@
       "date": "2026-11-05",
       "ts": 1793908800,
       "url": "https://concerts.vegas/event/donny-osmond-las-vegas-thursday-november-5-2026-730-pm/"
-    },
-    {
-      "artist": "Barry Manilow",
-      "venue": "Dolby Live at Park MGM",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-11-05",
-      "ts": 1793908800,
-      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-thursday-november-5-2026-700-pm/"
     },
     {
       "artist": "Donny Osmond",
@@ -155,15 +56,6 @@
       "url": "https://concerts.vegas/event/donny-osmond-las-vegas-thursday-november-5-2026-730-pm/"
     },
     {
-      "artist": "Barry Manilow",
-      "venue": "Michelob Ultra Arena",
-      "type": "arena",
-      "city": "Las Vegas",
-      "date": "2026-11-05",
-      "ts": 1793908800,
-      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-thursday-november-5-2026-700-pm/"
-    },
-    {
       "artist": "Donny Osmond",
       "venue": "Michelob Ultra Arena",
       "type": "arena",
@@ -171,15 +63,6 @@
       "date": "2026-11-05",
       "ts": 1793908800,
       "url": "https://concerts.vegas/event/donny-osmond-las-vegas-thursday-november-5-2026-730-pm/"
-    },
-    {
-      "artist": "Barry Manilow",
-      "venue": "Resorts World Theatre",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-11-05",
-      "ts": 1793908800,
-      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-thursday-november-5-2026-700-pm/"
     },
     {
       "artist": "Donny Osmond",
@@ -200,15 +83,6 @@
       "url": "https://concerts.vegas/event/santana-las-vegas-thursday-november-5-2026-700-pm/"
     },
     {
-      "artist": "Barry Manilow",
-      "venue": "Encore Theater at Wynn",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-11-05",
-      "ts": 1793908800,
-      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-thursday-november-5-2026-700-pm/"
-    },
-    {
       "artist": "Donny Osmond",
       "venue": "Encore Theater at Wynn",
       "type": "concert",
@@ -218,15 +92,6 @@
       "url": "https://concerts.vegas/event/donny-osmond-las-vegas-thursday-november-5-2026-730-pm/"
     },
     {
-      "artist": "Barry Manilow",
-      "venue": "BleauLive Theater at Fontainebleau",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-11-05",
-      "ts": 1793908800,
-      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-thursday-november-5-2026-700-pm/"
-    },
-    {
       "artist": "Donny Osmond",
       "venue": "BleauLive Theater at Fontainebleau",
       "type": "concert",
@@ -234,15 +99,6 @@
       "date": "2026-11-05",
       "ts": 1793908800,
       "url": "https://concerts.vegas/event/donny-osmond-las-vegas-thursday-november-5-2026-730-pm/"
-    },
-    {
-      "artist": "Barry Manilow",
-      "venue": "Pearl Theater at Palms",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-11-05",
-      "ts": 1793908800,
-      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-thursday-november-5-2026-700-pm/"
     },
     {
       "artist": "Donny Osmond",
@@ -531,15 +387,6 @@
       "date": "2026-11-07",
       "ts": 1794078000,
       "url": "https://nocovernightclubs.com/events/twinsick-omnia-nightclub-saturday-november-7-2026/"
-    },
-    {
-      "artist": "Assadriz",
-      "venue": "Marquee",
-      "type": "club",
-      "city": "Las Vegas",
-      "date": "2026-11-07",
-      "ts": 1794078000,
-      "url": "https://nocovernightclubs.com/events/assadriz-marquee-nightclub-saturday-november-7-2026/"
     },
     {
       "artist": "Twinsick",
@@ -2700,6 +2547,159 @@
       "date": "2026-11-27",
       "ts": 1795806000,
       "url": "https://nocovernightclubs.com/events/sosa-liv-nightclub-friday-november-27-2026/"
+    },
+    {
+      "artist": "Dj Cla",
+      "venue": "Marquee Dayclub",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-11-27",
+      "ts": 1795806000,
+      "url": "https://nocovernightclubs.com/events/dj-cla-marquee-dayclub-friday-november-27-2026/"
+    },
+    {
+      "artist": "Players Era 16 Championship Session 5 Las Vegas T Mobile Arena",
+      "venue": "T-Mobile Arena",
+      "type": "arena",
+      "city": "Las Vegas",
+      "date": "2026-11-27",
+      "ts": 1795809600,
+      "url": "https://concerts.vegas/event/players-era-16-championship-session-5-las-vegas-t-mobile-arena-friday-november-27-2026-10-00-am/"
+    },
+    {
+      "artist": "Players Era 16 Championship Evening Session",
+      "venue": "T-Mobile Arena",
+      "type": "arena",
+      "city": "Las Vegas",
+      "date": "2026-11-27",
+      "ts": 1795809600,
+      "url": "https://concerts.vegas/event/players-era-16-championship-evening-session-las-vegas-friday-november-27-2026-600-pm/"
+    },
+    {
+      "artist": "Journey",
+      "venue": "MGM Grand Garden Arena",
+      "type": "arena",
+      "city": "Las Vegas",
+      "date": "2026-11-27",
+      "ts": 1795809600,
+      "url": "https://concerts.vegas/event/journey-las-vegas-friday-november-27-2026-730-pm/"
+    },
+    {
+      "artist": "Eres Emo Las Vegas House Of Blues",
+      "venue": "House of Blues",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-11-27",
+      "ts": 1795809600,
+      "url": "https://concerts.vegas/event/eres-emo-las-vegas-house-of-blues-las-vegas-friday-november-27-2026-9-00-pm/"
+    },
+    {
+      "artist": "Club 90s 2010s Night Las Vegas Brooklyn Bowl",
+      "venue": "Brooklyn Bowl",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-11-27",
+      "ts": 1795809600,
+      "url": "https://concerts.vegas/event/club-90s-2010s-night-las-vegas-brooklyn-bowl-las-vegas-friday-november-27-2026-9-00-pm/"
+    },
+    {
+      "artist": "Diplo",
+      "venue": "XS",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-11-28",
+      "ts": 1795892400,
+      "url": "https://nocovernightclubs.com/events/diplo-xs-nightclub-saturday-november-28-2026/"
+    },
+    {
+      "artist": "Special Guest",
+      "venue": "Omnia",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-11-28",
+      "ts": 1795892400,
+      "url": "https://nocovernightclubs.com/events/special-guest-omnia-nightclub-saturday-november-28-2026/"
+    },
+    {
+      "artist": "Lema",
+      "venue": "Marquee",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-11-28",
+      "ts": 1795892400,
+      "url": "https://nocovernightclubs.com/events/lema-marquee-nightclub-saturday-november-28-2026/"
+    },
+    {
+      "artist": "Mike Attack",
+      "venue": "Tao",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-11-28",
+      "ts": 1795892400,
+      "url": "https://nocovernightclubs.com/events/mike-attack-tao-nightclub-saturday-november-28-2026/"
+    },
+    {
+      "artist": "Dj Bonics",
+      "venue": "Hakkasan",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-11-28",
+      "ts": 1795892400,
+      "url": "https://nocovernightclubs.com/events/dj-bonics-hakkasan-nightclub-saturday-november-28-2026/"
+    },
+    {
+      "artist": "Sidepeice",
+      "venue": "LIV",
+      "type": "club",
+      "city": "Las Vegas",
+      "date": "2026-11-28",
+      "ts": 1795892400,
+      "url": "https://nocovernightclubs.com/events/sidepeice-liv-nightclub-saturday-november-28-2026/"
+    },
+    {
+      "artist": "Mike Attack",
+      "venue": "Marquee Dayclub",
+      "type": "pool",
+      "city": "Las Vegas",
+      "date": "2026-11-28",
+      "ts": 1795892400,
+      "url": "https://nocovernightclubs.com/events/mike-attack-marquee-dayclub-saturday-november-28-2026/"
+    },
+    {
+      "artist": "Vegas Golden Knights Vs Montreal Canadiens",
+      "venue": "T-Mobile Arena",
+      "type": "sports",
+      "city": "Las Vegas",
+      "date": "2026-11-28",
+      "ts": 1795896000,
+      "url": "https://concerts.vegas/event/vegas-golden-knights-vs-montreal-canadiens-las-vegas-saturday-november-28-2026-100-pm/"
+    },
+    {
+      "artist": "Unlv Rebels Vs Nevada Wolf Pack",
+      "venue": "Allegiant Stadium",
+      "type": "sports",
+      "city": "Las Vegas",
+      "date": "2026-11-28",
+      "ts": 1795896000,
+      "url": "https://concerts.vegas/event/unlv-rebels-vs-nevada-wolf-pack-las-vegas-saturday-november-28-2026-600-pm/"
+    },
+    {
+      "artist": "Jonas Brothers Las Vegas Mgm Grand Garden Arena",
+      "venue": "MGM Grand Garden Arena",
+      "type": "arena",
+      "city": "Las Vegas",
+      "date": "2026-11-28",
+      "ts": 1795896000,
+      "url": "https://concerts.vegas/event/jonas-brothers-las-vegas-mgm-grand-garden-arena-saturday-november-28-2026-7-30-pm/"
+    },
+    {
+      "artist": "Vu Tru Say Hi Las Vegas Ph Live At Planet Hollywood",
+      "venue": "Bakkt Theater at Planet Hollywood",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-11-28",
+      "ts": 1795896000,
+      "url": "https://concerts.vegas/event/vu-tru-say-hi-las-vegas-ph-live-at-planet-hollywood-saturday-november-28-2026-7-00-pm/"
     }
   ]
 }
