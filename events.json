@@ -1,5 +1,5 @@
 {
-  "updated": 1793973663,
+  "updated": 1794005694,
   "events": [
     {
       "artist": "Loe Shimmy",
@@ -92,15 +92,6 @@
       "url": "https://concerts.vegas/event/donny-osmond-las-vegas-friday-november-6-2026-730-pm/"
     },
     {
-      "artist": "Barry Manilow",
-      "venue": "The Colosseum at Caesars Palace",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-11-06",
-      "ts": 1793995200,
-      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-friday-november-6-2026-800-pm/"
-    },
-    {
       "artist": "Donny Osmond",
       "venue": "Dolby Live at Park MGM",
       "type": "concert",
@@ -110,15 +101,6 @@
       "url": "https://concerts.vegas/event/donny-osmond-las-vegas-friday-november-6-2026-730-pm/"
     },
     {
-      "artist": "Barry Manilow",
-      "venue": "Dolby Live at Park MGM",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-11-06",
-      "ts": 1793995200,
-      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-friday-november-6-2026-800-pm/"
-    },
-    {
       "artist": "Donny Osmond",
       "venue": "Michelob Ultra Arena",
       "type": "arena",
@@ -126,15 +108,6 @@
       "date": "2026-11-06",
       "ts": 1793995200,
       "url": "https://concerts.vegas/event/donny-osmond-las-vegas-friday-november-6-2026-730-pm/"
-    },
-    {
-      "artist": "Barry Manilow",
-      "venue": "Michelob Ultra Arena",
-      "type": "arena",
-      "city": "Las Vegas",
-      "date": "2026-11-06",
-      "ts": 1793995200,
-      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-friday-november-6-2026-800-pm/"
     },
     {
       "artist": "Brand New",
@@ -164,15 +137,6 @@
       "url": "https://concerts.vegas/event/donny-osmond-las-vegas-friday-november-6-2026-730-pm/"
     },
     {
-      "artist": "Barry Manilow",
-      "venue": "Resorts World Theatre",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-11-06",
-      "ts": 1793995200,
-      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-friday-november-6-2026-800-pm/"
-    },
-    {
       "artist": "Jeezy Las Vegas Ph Live At Planet Hollywood",
       "venue": "Bakkt Theater at Planet Hollywood",
       "type": "concert",
@@ -200,15 +164,6 @@
       "url": "https://concerts.vegas/event/donny-osmond-las-vegas-friday-november-6-2026-730-pm/"
     },
     {
-      "artist": "Barry Manilow",
-      "venue": "Encore Theater at Wynn",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-11-06",
-      "ts": 1793995200,
-      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-friday-november-6-2026-800-pm/"
-    },
-    {
       "artist": "Donny Osmond",
       "venue": "BleauLive Theater at Fontainebleau",
       "type": "concert",
@@ -216,15 +171,6 @@
       "date": "2026-11-06",
       "ts": 1793995200,
       "url": "https://concerts.vegas/event/donny-osmond-las-vegas-friday-november-6-2026-730-pm/"
-    },
-    {
-      "artist": "Barry Manilow",
-      "venue": "BleauLive Theater at Fontainebleau",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-11-06",
-      "ts": 1793995200,
-      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-friday-november-6-2026-800-pm/"
     },
     {
       "artist": "Rival Sons",
@@ -243,15 +189,6 @@
       "date": "2026-11-06",
       "ts": 1793995200,
       "url": "https://concerts.vegas/event/donny-osmond-las-vegas-friday-november-6-2026-730-pm/"
-    },
-    {
-      "artist": "Barry Manilow",
-      "venue": "Pearl Theater at Palms",
-      "type": "concert",
-      "city": "Las Vegas",
-      "date": "2026-11-06",
-      "ts": 1793995200,
-      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-friday-november-6-2026-800-pm/"
     },
     {
       "artist": "Noizu",
@@ -2691,6 +2628,78 @@
       "date": "2026-12-01",
       "ts": 1796155200,
       "url": "https://concerts.vegas/event/donny-osmond-las-vegas-tuesday-december-1-2026-730-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "Encore Theater at Wynn",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-12-01",
+      "ts": 1796155200,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-tuesday-december-1-2026-730-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "BleauLive Theater at Fontainebleau",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-12-01",
+      "ts": 1796155200,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-tuesday-december-1-2026-730-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "Pearl Theater at Palms",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-12-01",
+      "ts": 1796155200,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-tuesday-december-1-2026-730-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "The Colosseum at Caesars Palace",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-12-02",
+      "ts": 1796241600,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-wednesday-december-2-2026-730-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "Dolby Live at Park MGM",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-12-02",
+      "ts": 1796241600,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-wednesday-december-2-2026-730-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "Michelob Ultra Arena",
+      "type": "arena",
+      "city": "Las Vegas",
+      "date": "2026-12-02",
+      "ts": 1796241600,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-wednesday-december-2-2026-730-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "Resorts World Theatre",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-12-02",
+      "ts": 1796241600,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-wednesday-december-2-2026-730-pm/"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "Encore Theater at Wynn",
+      "type": "concert",
+      "city": "Las Vegas",
+      "date": "2026-12-02",
+      "ts": 1796241600,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-wednesday-december-2-2026-730-pm/"
     }
   ]
 }
