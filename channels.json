@@ -1,4 +1,4 @@
-{"updated":1794157224,"count":391,"checked":{"at":1794157224,"oembed":1706,"live_checked":109,"unknown":108,"dropped":1,"added":0,"http429":0,"secs":280},"channels":[
+{"updated":1794173780,"count":391,"checked":{"at":1794173780,"oembed":1705,"live_checked":108,"unknown":107,"dropped":0,"added":0,"http429":0,"secs":279},"channels":[
 {"id":"livecam-EO_1LWqsCNE","cat":"LIVE CAM","maxIdx":1,"label":"📡 Los Angeles · Venice Beach · Venice V Hotel · Stream","embed":"https://www.youtube.com/embed/EO_1LWqsCNE","src":"Teleport.camera","live":true,"origin":"verified-3.0"},
 {"id":"livecam-YWs0HMRVCBY","cat":"LIVE CAM","maxIdx":1,"label":"📡 BandCam Elbo Room Dance Floor & Bands","embed":"https://www.youtube.com/embed/YWs0HMRVCBY","src":"Elbo Room (Home of ElboTV)","live":true,"origin":"verified-3.0"},
 {"id":"livecam-dfVK7ld38Ys","cat":"LIVE CAM","maxIdx":1,"label":"📡 【ライブ】いまの渋谷・スクランブル交差点　ライブカメラ　Shibuya Scramble Crossing…","embed":"https://www.youtube.com/embed/dfVK7ld38Ys","src":"FNNプライムオンライン","live":true,"origin":"verified-3.0"},
@@ -56,7 +56,7 @@
 {"id":"livecam-kCPppYpcY_s","cat":"LIVE CAM","maxIdx":1,"label":"📡 Park Shore Waikiki Hotel — Waikiki Beach, Honolulu","embed":"https://www.youtube.com/embed/kCPppYpcY_s","src":"Ozolio Plus","live":true,"origin":"verified-3.0"},
 {"id":"livecam-SPj4hMttgJM","cat":"LIVE CAM","maxIdx":1,"label":"📡 Elvis' Beach Bar from Sandy Ground, Anguilla, British West…","embed":"https://www.youtube.com/embed/SPj4hMttgJM","src":"Caribbean Webcams","live":true,"origin":"verified-3.0"},
 {"id":"livecam-H67j7H-7QD0","cat":"LIVE CAM","maxIdx":1,"label":"📡 Coney Island (New York City)","embed":"https://www.youtube.com/embed/H67j7H-7QD0","src":"EarthCam","live":true,"origin":"verified-3.0"},
-{"id":"livecam-L0ApNbBxexE","cat":"LIVE CAM","maxIdx":1,"label":"📡 Ocho Rios 24/7, St Ann Jamaica, Town Centre View","embed":"https://www.youtube.com/embed/L0ApNbBxexE","src":"See Jamaica ","live":true,"origin":"verified-3.0"},
+{"id":"livecam-L0ApNbBxexE","cat":"LIVE CAM","maxIdx":1,"label":"📡 Ocho Rios 24/7, St Ann Jamaica, Town Centre View","embed":"https://www.youtube.com/embed/L0ApNbBxexE","src":"See Jamaica ","live":true,"origin":"verified-3.0","strikes":1},
 {"id":"livecam-v97JpT3ZA0w","cat":"LIVE CAM","maxIdx":1,"label":"📡 Santa Monica Beach & Pier : California","embed":"https://www.youtube.com/embed/v97JpT3ZA0w","src":"Explore Big Surf, Beaches and Sunsets","live":true,"origin":"verified-3.0"},
 {"id":"livecam-2_PDaUJbfuI","cat":"LIVE CAM","maxIdx":1,"label":"📡 SUMMIT One Vanderbilt (New York City, NY)","embed":"https://www.youtube.com/embed/2_PDaUJbfuI","src":"EarthCam","live":true,"origin":"verified-3.0"},
 {"id":"livecam-gTO_FJzv70k","cat":"LIVE CAM","maxIdx":1,"label":"📡 【24Ｈ：】４K配信 東京 新宿 五丁目 交差点 ライブカメラ Tokyo Shinjuku Kabukicho…","embed":"https://www.youtube.com/embed/gTO_FJzv70k","src":"テイケイ公式チャンネル","live":true,"origin":"verified-3.0"},

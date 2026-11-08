@@ -1,5 +1,5 @@
 {
-  "updated": 1794156943,
+  "updated": 1794173500,
   "festivals": [
     {
       "type": "festival",
@@ -489,6 +489,237 @@
       "src": "Concerts.Vegas"
     },
     {
+      "artist": "Late Night Clubbing #091",
+      "venue": "TBA",
+      "type": "club",
+      "city": "San Francisco",
+      "region": "world",
+      "date": "2026-11-08",
+      "ts": 1794168000,
+      "url": "https://posh.vip/e/nyx-late-night-clubbing-091-saturday-w-surprise-guest",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "Sam Flo, Lossless Wax, Xica Soul, Louiv, Dan Gentile",
+      "venue": "Hedge Coffee",
+      "type": "club",
+      "city": "San Francisco",
+      "region": "world",
+      "date": "2026-11-08",
+      "ts": 1794168000,
+      "url": "https://www.instagram.com/lose_yourself_music/p/DfTDTbdPS4v/",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "Presencia",
+      "venue": "The Continental",
+      "type": "club",
+      "city": "San Jose",
+      "region": "world",
+      "date": "2026-11-08",
+      "ts": 1794168000,
+      "url": "https://www.instagram.com/p/DecgrwtB4iu/",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "Charles Hawthorne¦s Scorpio Soiree: Kilopatrah Jones, Nick Moss, Five",
+      "venue": "The Cafe",
+      "type": "club",
+      "city": "San Francisco",
+      "region": "world",
+      "date": "2026-11-08",
+      "ts": 1794168000,
+      "url": "https://www.eventbrite.com/e/sungay-brunch-x-soft-serve-collab-tickets-1999341730938",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "Kilopatrah Jones, Five b2b Nick Moss, Charles Hawthorne",
+      "venue": "The Cafe",
+      "type": "club",
+      "city": "San Francisco",
+      "region": "world",
+      "date": "2026-11-08",
+      "ts": 1794168000,
+      "url": "https://www.eventbrite.com/e/sungay-brunch-x-soft-serve-collab-tickets-1999341730938#search",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "Olea, Shinosmoke, Trackwise, Jas",
+      "venue": "Lowbrau",
+      "type": "club",
+      "city": "Sacramento",
+      "region": "world",
+      "date": "2026-11-08",
+      "ts": 1794168000,
+      "url": "https://www.eventbrite.com/e/olea-lowbrau-sunday-november-8th-tickets-2003897874486",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "[pure joy.]: Fusion, Soulfunky, Matty Chirch, Lyja, Xaman",
+      "venue": "The Faight",
+      "type": "club",
+      "city": "San Francisco",
+      "region": "world",
+      "date": "2026-11-08",
+      "ts": 1794168000,
+      "url": "https://www.purejoyrecords.com",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "Eelke Kleijn, Elegie, Dane",
+      "venue": "Eria",
+      "type": "club",
+      "city": "Sausolio",
+      "region": "world",
+      "date": "2026-11-08",
+      "ts": 1794168000,
+      "url": "https://www.tixr.com/groups/alldayallnight/events/eelke-kleijn-live-at-eria-sausalito-206726",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "Machine Country, Left Unsaid, Realware, Penuin Seamen",
+      "venue": "Blackwater Arts & Gallery",
+      "type": "club",
+      "city": "San Jose",
+      "region": "world",
+      "date": "2026-11-08",
+      "ts": 1794168000,
+      "url": "https://www.instagram.com/xsj_stephx/p/De_eGrjzrR6/",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "Hard Shiny Plastic, BStone",
+      "venue": "Still O.G.",
+      "type": "club",
+      "city": "San Jose",
+      "region": "world",
+      "date": "2026-11-08",
+      "ts": 1794168000,
+      "url": "https://www.instagram.com/hard_shiny_plastic/p/DfTM4NtssXt/",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "Nia Archives",
+      "venue": "The Regency Ballroom",
+      "type": "club",
+      "city": "San Francisco",
+      "region": "world",
+      "date": "2026-11-08",
+      "ts": 1794168000,
+      "url": "https://www.axs.com/events/1581521",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "Sindustry Sundays w/ Flpn, Loso, and Zzealot",
+      "venue": "Butter",
+      "type": "club",
+      "city": "San Francisco",
+      "region": "world",
+      "date": "2026-11-08",
+      "ts": 1794168000,
+      "url": "https://partiful.com/e/JcYFvMSnVzEhAXFFCuuS?",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "Hush House w/ Mattriquez and Ryan Zeldin",
+      "venue": "The One ATX",
+      "type": "club",
+      "city": "Austin",
+      "region": "world",
+      "date": "2026-11-08",
+      "ts": 1794168000,
+      "url": "https://posh.vip/e/hush-house-w-mattriquez-and-ryan-zeldin-at-the-one-1105-1106",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "Portal",
+      "venue": "De Dior Lounge",
+      "type": "club",
+      "city": "Dallas",
+      "region": "world",
+      "date": "2026-11-08",
+      "ts": 1794168000,
+      "url": "https://posh.vip/e/portal-afters-at-club-de-dior-november-7th",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "Voltage",
+      "venue": "Coba",
+      "type": "club",
+      "city": "Dallas",
+      "region": "world",
+      "date": "2026-11-08",
+      "ts": 1794168000,
+      "url": "https://speakeasygo.com/event/EVE-WHV6HU",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "Sundown Social Presents: Disco & Denim - Miggy, Switchblade Dave, Jaime, Mulah",
+      "venue": "3 Oak",
+      "type": "club",
+      "city": "San Antonio",
+      "region": "world",
+      "date": "2026-11-08",
+      "ts": 1794168000,
+      "url": "https://posh.vip/e/sundown-social-presents-disco-denim-",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "Lenny Pearce",
+      "venue": "Bayou Music Center",
+      "type": "club",
+      "city": "Houston",
+      "region": "world",
+      "date": "2026-11-08",
+      "ts": 1794168000,
+      "url": "https://eventrill.com/art-club-dr-gabba",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "Sunset Sessions",
+      "venue": "Green Light Social",
+      "type": "club",
+      "city": "Dallas",
+      "region": "world",
+      "date": "2026-11-08",
+      "ts": 1794168000,
+      "url": "https://speakeasygo.com/green-light-social-dallas/sunset-sessions---118",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "John Summit - Ctrl Escape Arena Tour",
+      "venue": "Dickies Arena",
+      "type": "club",
+      "city": "Fort Worth/Dallas",
+      "region": "world",
+      "date": "2026-11-08",
+      "ts": 1794168000,
+      "url": "https://www.ticketmaster.com/event/0C0064B49E2D86C5",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "Neko Rave",
+      "venue": "RBC Deep Ellum",
+      "type": "club",
+      "city": "Dallas",
+      "region": "world",
+      "date": "2026-11-08",
+      "ts": 1794168000,
+      "url": "https://www.etix.com/ticket/p/67607338",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "Haus Sundays",
+      "venue": "Ctrl Room",
+      "type": "club",
+      "city": "Dallas",
+      "region": "world",
+      "date": "2026-11-08",
+      "ts": 1794168000,
+      "url": "https://speakeasygo.com/event/EVE-GUUPJA",
+      "src": "19hz.info"
+    },
+    {
       "artist": "Shuk Sundays",
       "venue": "Joia Beach",
       "type": "pool",
@@ -583,6 +814,182 @@
       "src": "Discotech Miami",
       "end_ts": 1794218400,
       "region": "miami"
+    },
+    {
+      "artist": "Race To Space",
+      "venue": "Club Space",
+      "type": "club",
+      "city": "Miami",
+      "region": "miami",
+      "date": "2026-11-08",
+      "ts": 1794193200,
+      "url": "https://dice.fm/event/6adfa5c2e9571d000113a9ec",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "Disco Domingo Vol. 6 Feat. Toribio",
+      "venue": "River House Wine & Bar",
+      "type": "club",
+      "city": "Miami",
+      "region": "miami",
+      "date": "2026-11-08",
+      "ts": 1794193200,
+      "url": "https://shotgun.live/en/events/disco-domingo-vol-6",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "Chillin N Grillin: Mendoza, Un:Mute: Binh",
+      "venue": "Lion's Den at Fooqs",
+      "type": "club",
+      "city": "Miami",
+      "region": "miami",
+      "date": "2026-11-08",
+      "ts": 1794193200,
+      "url": "https://www.therumor.com/p/unmute",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "A Mi Ritmo Records Showcase: Nicole Fiallo, Hickey, Izzy, Leyva, GAGH, Lazaro Ca",
+      "venue": "1-800-Lucky",
+      "type": "club",
+      "city": "Miami",
+      "region": "miami",
+      "date": "2026-11-08",
+      "ts": 1794193200,
+      "url": "https://dice.fm/event/nvrkr8-a-mi-ritmo-records-showcase-8th-nov-1-800-lucky-miami-tickets",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "Roujeee Tunes All Night Long",
+      "venue": "Floyd",
+      "type": "club",
+      "city": "Miami",
+      "region": "miami",
+      "date": "2026-11-08",
+      "ts": 1794193200,
+      "url": "https://link.dice.fm/roujeeefloyd",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "Sunday Morning Afters w/ kariwood",
+      "venue": "1140 E 11th St",
+      "type": "club",
+      "city": "Los Angeles",
+      "region": "la",
+      "date": "2026-11-08",
+      "ts": 1794193200,
+      "url": "https://posh.vip/e/sunday-morning-afters-2",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "Re:Love - Thee-O's Annual Birthday w/Bret Wallace, Bird Lady, Tony Gamboa",
+      "venue": "1900 Riverside Dr",
+      "type": "club",
+      "city": "Los Angeles",
+      "region": "la",
+      "date": "2026-11-08",
+      "ts": 1794193200,
+      "url": "https://www.facebook.com/events/1764454068186696/",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "Diplo Run Club",
+      "venue": "LA River",
+      "type": "club",
+      "city": "Los Angeles",
+      "region": "la",
+      "date": "2026-11-08",
+      "ts": 1794193200,
+      "url": "https://diplosrunclub.com/los-angeles",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "Sol, Lix, Phumas, Smalliebigz, Otomoto, Sylknet, Master Flynn",
+      "venue": "TBA",
+      "type": "club",
+      "city": "Los Angeles",
+      "region": "la",
+      "date": "2026-11-08",
+      "ts": 1794193200,
+      "url": "https://www.instagram.com/electric.la/p/DfBwOU1J8tG/",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "Bag Raiders",
+      "venue": "Quartyard",
+      "type": "club",
+      "city": "San Diego",
+      "region": "world",
+      "date": "2026-11-08",
+      "ts": 1794193200,
+      "url": "https://www.eventbrite.com/e/bag-raiders-tickets-1998906799045",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "Obskur + Mellizos",
+      "venue": "Fit Social",
+      "type": "club",
+      "city": "San Diego",
+      "region": "world",
+      "date": "2026-11-08",
+      "ts": 1794193200,
+      "url": "https://events.leapevents.com/event/fngrs-crssd-presents-obskur-pbc-2026/pre-sale",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "Sunlight Social: Alan Dixon",
+      "venue": "Spin Nightclub",
+      "type": "club",
+      "city": "San Diego",
+      "region": "world",
+      "date": "2026-11-08",
+      "ts": 1794193200,
+      "url": "https://dice.fm/event/mxwval-sunlight-social-w-alan-dixon-8th-nov-spin-nightclub-san-diego-tickets",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "Sunday Sessions La (Vinyl Only) Open Air: Deaf Pillow, Kike Mayor, Jessie Calist",
+      "venue": "TBA",
+      "type": "club",
+      "city": "Los Angeles",
+      "region": "la",
+      "date": "2026-11-08",
+      "ts": 1794193200,
+      "url": "https://shotgun.live/en/events/sunday-sessions-la-08-24-98",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "Nightshift After Hours",
+      "venue": "The Lexington",
+      "type": "club",
+      "city": "Los Angeles",
+      "region": "la",
+      "date": "2026-11-08",
+      "ts": 1794193200,
+      "url": "https://ra.co/events/2571251",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "Ski Mask The Slump God, Nvbeel, Palacio, Energ, Denkai, Seph, Noel Le Freak",
+      "venue": "TBA",
+      "type": "club",
+      "city": "DTLA/Los Angeles",
+      "region": "la",
+      "date": "2026-11-08",
+      "ts": 1794193200,
+      "url": "https://www.instagram.com/p/DfVROSmyuJv/",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "Puro Amor: Scott Tillett, Junior",
+      "venue": "TBA",
+      "type": "club",
+      "city": "Silverlake",
+      "region": "world",
+      "date": "2026-11-08",
+      "ts": 1794193200,
+      "url": "https://ra.co/events/2571218",
+      "src": "19hz.info"
     },
     {
       "artist": "Roujeee Tunes + Thunderpony",
@@ -803,6 +1210,51 @@
       "src": "Concerts.Vegas"
     },
     {
+      "artist": "Las Migas",
+      "venue": "ZeyZey",
+      "type": "club",
+      "city": "Miami",
+      "date": "2026-11-10",
+      "ts": 1794355200,
+      "url": "https://app.discotech.me/events/38262873-las-migas-at-zeyzey",
+      "src": "Discotech Miami",
+      "end_ts": 1794369600,
+      "region": "miami"
+    },
+    {
+      "artist": "Sunsquabi",
+      "venue": "The Funky Biscuit",
+      "type": "club",
+      "city": "Boca Raton",
+      "region": "world",
+      "date": "2026-11-10",
+      "ts": 1794366000,
+      "url": "https://wl.eventim.us/event/sunsquabi/703607?afflky=FunkyBiscuit",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "Lo!, Ivan Jahn, Adrawn, Werd, Apaulo8",
+      "venue": "Eq",
+      "type": "club",
+      "city": "San Diego",
+      "region": "world",
+      "date": "2026-11-10",
+      "ts": 1794366000,
+      "url": "https://www.instagram.com/sanctuary.dnb/p/DfVzdI5GO6V/",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "Space Taco Mood$Wingz Takeover: Bbybn20, 2Ceez, Kollide, Goingup?, Kogo, Smyelz2",
+      "venue": "The Basement",
+      "type": "club",
+      "city": "Pomona",
+      "region": "la",
+      "date": "2026-11-10",
+      "ts": 1794366000,
+      "url": "https://www.eventbrite.com/e/space-taco-moodwingz-takeover-nov-10-tickets-2004371342642",
+      "src": "19hz.info"
+    },
+    {
       "artist": "Rafa Barrios",
       "venue": "Marquee",
       "type": "club",
@@ -999,6 +1451,193 @@
       "ts": 1794427200,
       "url": "https://concerts.vegas/event/lionel-richie-las-vegas-encore-theatre-at-wynn-las-vegas-wednesday-november-11-2026-8-00-pm/",
       "src": "Concerts.Vegas"
+    },
+    {
+      "artist": "Soft Vein w/ Houses Of Heaven",
+      "venue": "The Starlet Room",
+      "type": "club",
+      "city": "Sacramento",
+      "region": "world",
+      "date": "2026-11-11",
+      "ts": 1794427200,
+      "url": "https://www.etix.com/ticket/p/99417292/soft-veinwith-houses-of-heaven-sacramento-the-starlet-room?partner_id=226",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "Paradiso: Rumorosa, DJ Rebecca, DJ Nati, Carla Lyn",
+      "venue": "Makeout Room",
+      "type": "club",
+      "city": "San Francisco",
+      "region": "world",
+      "date": "2026-11-11",
+      "ts": 1794427200,
+      "url": "https://ra.co/events/2557416",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "Eelke Kleijn",
+      "venue": "The Echo Lounge & Music Hall",
+      "type": "club",
+      "city": "Dallas",
+      "region": "world",
+      "date": "2026-11-11",
+      "ts": 1794427200,
+      "url": "https://www.ticketmaster.com/event/0C00652BE89E223D",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "Roz",
+      "venue": "House Of Blues",
+      "type": "club",
+      "city": "Dallas",
+      "region": "world",
+      "date": "2026-11-11",
+      "ts": 1794427200,
+      "url": "https://www.ticketmaster.com/event/0C0064C9EA93F45D",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "Mushroom Jazz | Mark Farina",
+      "venue": "Shyboy Hi Fi",
+      "type": "club",
+      "city": "Dallas",
+      "region": "world",
+      "date": "2026-11-11",
+      "ts": 1794427200,
+      "url": "https://dice.fm/event/k67lnl-mushroom-jazz-mark-farina-11th-nov-shyboy-hi-fi-dallas-tickets",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "Lenny Pearce",
+      "venue": "Ftl War Memorial Auditorium",
+      "type": "club",
+      "city": "Fort Lauderdale",
+      "region": "world",
+      "date": "2026-11-11",
+      "ts": 1794452400,
+      "url": "https://www.livenation.com/event/vvG1VZ_GwKcMx1/lenny-pearce-toddler-rave-world-tour",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "Rivo",
+      "venue": "Queen",
+      "type": "club",
+      "city": "Miami Beach",
+      "region": "miami",
+      "date": "2026-11-11",
+      "ts": 1794452400,
+      "url": "https://dice.fm/event/92voeo-rivo-11th-nov-queen-miami-beach-miami-beach-tickets",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "Bonobo",
+      "venue": "The Wiltern",
+      "type": "club",
+      "city": "Los Angeles",
+      "region": "la",
+      "date": "2026-11-11",
+      "ts": 1794452400,
+      "url": "https://www.ticketmaster.com/event/090064C3CC0645B7",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "Ninajirachi, Mgna Crrrta",
+      "venue": "Fonda Theatre",
+      "type": "club",
+      "city": "Los Angeles",
+      "region": "la",
+      "date": "2026-11-11",
+      "ts": 1794452400,
+      "url": "https://www.axs.com/events/1468560",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "Electronic Wednesdays: Acido Ayala, FM Ghost, Fredrik Franstrom, Glitch Love",
+      "venue": "The Banshee",
+      "type": "club",
+      "city": "San Diego",
+      "region": "world",
+      "date": "2026-11-11",
+      "ts": 1794452400,
+      "url": "https://dice.fm/event/6acffcc42e231d000174e84c",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "Green-House",
+      "venue": "Zebulon",
+      "type": "club",
+      "city": "Los Angeles",
+      "region": "la",
+      "date": "2026-11-11",
+      "ts": 1794452400,
+      "url": "https://dice.fm/event/6aac6dbc49e0860001a9098f",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "Agraybe, Mehran, and Wav.Function",
+      "venue": "TBA",
+      "type": "club",
+      "city": "DTLA/Los Angeles",
+      "region": "la",
+      "date": "2026-11-11",
+      "ts": 1794452400,
+      "url": "https://ra.co/events/2574036",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "Bass Twerkshop",
+      "venue": "The Dancehouse",
+      "type": "club",
+      "city": "San Diego",
+      "region": "world",
+      "date": "2026-11-11",
+      "ts": 1794452400,
+      "url": "https://www.instagram.com/drtydncr_sd/p/DfIt_icB0dz/",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "Session w/ DJ Wolf, m.on.ky, Phonix",
+      "venue": "3Oz Dive Club",
+      "type": "club",
+      "city": "San Diego",
+      "region": "world",
+      "date": "2026-11-11",
+      "ts": 1794452400,
+      "url": "https://sandnb.com/events/san-dnb-presents-dj-wolf",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "Clinic Wednesdays: Normalize, Electric Blaq, Bless Karl, Lunique, Supernova, Dar",
+      "venue": "Jungle Hollywood",
+      "type": "club",
+      "city": "Los Angeles",
+      "region": "la",
+      "date": "2026-11-11",
+      "ts": 1794452400,
+      "url": "https://www.eventbrite.com/e/clinic-ft-normalize-tickets-2004077943076",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "Vertical: Oliver Koletzki, Niko Schwind",
+      "venue": "Jungle Hollywood",
+      "type": "club",
+      "city": "Los Angeles",
+      "region": "la",
+      "date": "2026-11-11",
+      "ts": 1794452400,
+      "url": "https://www.eventbrite.com/e/vertical-at-jungle-nightclub-hollywood-tickets-2004276146909",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "Mischief Wednesdays!",
+      "venue": "Rich's",
+      "type": "club",
+      "city": "San Diego",
+      "region": "world",
+      "date": "2026-11-11",
+      "ts": 1794452400,
+      "url": "https://prod-nts-api.seeticketsusa.us/v1.0.0/promote/7fa112dc-96ee-437b-b40c-ea61765311f2/clickthru",
+      "src": "19hz.info"
     },
     {
       "artist": "Ovy On The Drums",
@@ -1241,6 +1880,215 @@
       "ts": 1794513600,
       "url": "https://concerts.vegas/event/donny-osmond-las-vegas-thursday-november-12-2026-730-pm/",
       "src": "Concerts.Vegas"
+    },
+    {
+      "artist": "House Music Thursday w/ DJ Lillyfield",
+      "venue": "The Sea Star",
+      "type": "club",
+      "city": "San Francisco",
+      "region": "world",
+      "date": "2026-11-12",
+      "ts": 1794513600,
+      "url": "https://www.instagram.com/p/DfI1G5ij5Hs/",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "Crespo",
+      "venue": "E11even",
+      "type": "club",
+      "city": "Miami",
+      "region": "miami",
+      "date": "2026-11-12",
+      "ts": 1794538800,
+      "url": "https://speakeasygo.com/event/EVE-QXKA4A",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "Secret Thursdays: Ally Archer, Almamexika, Garaboa, Gioo B2B Dylan Sbrizza, Lara",
+      "venue": "Do Not Sit On The Furniture",
+      "type": "club",
+      "city": "Miami Beach",
+      "region": "miami",
+      "date": "2026-11-12",
+      "ts": 1794538800,
+      "url": "https://dice.fm/event/6adf934ee9571d0001604b82",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "Bolo",
+      "venue": "Liv Nightclub",
+      "type": "club",
+      "city": "Miami",
+      "region": "miami",
+      "date": "2026-11-12",
+      "ts": 1794538800,
+      "url": "https://www.ticketweb.com/event/id/14363814",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "Club Ironmouse",
+      "venue": "The Observatory North Park",
+      "type": "club",
+      "city": "San Diego",
+      "region": "world",
+      "date": "2026-11-12",
+      "ts": 1794538800,
+      "url": "https://ticketmaster.evyy.net/c/253158/264167/4272",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "Bonobo",
+      "venue": "The Wiltern",
+      "type": "club",
+      "city": "Los Angeles",
+      "region": "la",
+      "date": "2026-11-12",
+      "ts": 1794538800,
+      "url": "https://www.ticketmaster.com/event/090064C3CC0A45C4",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "Rave Jesus - Rave Revival Fall Tour",
+      "venue": "House Of Blues",
+      "type": "club",
+      "city": "San Diego",
+      "region": "world",
+      "date": "2026-11-12",
+      "ts": 1794538800,
+      "url": "https://www.ticketmaster.com/event/0A00651A760A466F",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "Sina Bathaie",
+      "venue": "The Vermont",
+      "type": "club",
+      "city": "Hollywood/Los Angeles",
+      "region": "la",
+      "date": "2026-11-12",
+      "ts": 1794538800,
+      "url": "https://ra.co/events/2514122",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "Theo Parrish In Conversation",
+      "venue": "Solotech Studios",
+      "type": "club",
+      "city": "Los Angeles",
+      "region": "la",
+      "date": "2026-11-12",
+      "ts": 1794538800,
+      "url": "https://ra.co/events/2559486",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "Dylan Matthew",
+      "venue": "The Roxy",
+      "type": "club",
+      "city": "Los Angeles",
+      "region": "la",
+      "date": "2026-11-12",
+      "ts": 1794538800,
+      "url": "https://www.axs.com/events/1629361",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "Dance Electric",
+      "venue": "Kitsch Bar",
+      "type": "club",
+      "city": "Costa Mesa",
+      "region": "world",
+      "date": "2026-11-12",
+      "ts": 1794538800,
+      "url": "https://eventsta.com/event/kitschbar111226?promo=CAF&fbclid=IwY2xjawVAr0hleHRuA2FlbQIxMABwZG9mAWJyaWQRMXlYS3ZyY3FSS05YR3MzOTRzcnRjBmFwcF9pZBAyMjIwMzkxNzg4MjAwODkyAAEeMSq0w5-ZHgfxlUe8VEzhlH9Iu3jzk_lZsr-iCc1xX6u1zIy2SBmZ1_tqpQE_aem_wHN7wdMuV_fFXRKLcP7Kvw",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "Ninajirachi, Mgna Crrrta",
+      "venue": "Fonda Theatre",
+      "type": "club",
+      "city": "Los Angeles",
+      "region": "la",
+      "date": "2026-11-12",
+      "ts": 1794538800,
+      "url": "https://www.axs.com/events/1425589/ninajirachi-tickets",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "Docmark, Tovielove, Kermit, Millusion",
+      "venue": "Banana Bay Restaurant",
+      "type": "club",
+      "city": "Rowland Heights",
+      "region": "world",
+      "date": "2026-11-12",
+      "ts": 1794538800,
+      "url": "https://www.eventbrite.com/e/house-music-lovers-this-ones-for-you-housekeeper-is-takin-tickets-2004271078750",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "Luke Alessi",
+      "venue": "EOS Lounge",
+      "type": "club",
+      "city": "Santa Barbara",
+      "region": "world",
+      "date": "2026-11-12",
+      "ts": 1794538800,
+      "url": "https://dice.fm/event/py39nk-luke-alessi-12th-nov-eos-lounge-santa-barbara-tickets",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "Sxy Kenny's Black Birthday Banquet",
+      "venue": "Amor Y Tequila",
+      "type": "club",
+      "city": "Santa Ana",
+      "region": "world",
+      "date": "2026-11-12",
+      "ts": 1794538800,
+      "url": "https://partiful.com/e/aC9zOebNEl23GDu1dRgD",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "Orsay, Charliee, G L'e P, Jmz, Shafa",
+      "venue": "7627 Sunset Boulevard",
+      "type": "club",
+      "city": "Los Angeles",
+      "region": "la",
+      "date": "2026-11-12",
+      "ts": 1794538800,
+      "url": "https://shotgun.live/en/events/dizka-x-danza",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "Kyle Starkey, Paige Tomlinson",
+      "venue": "Sound Nightclub",
+      "type": "club",
+      "city": "Los Angeles",
+      "region": "la",
+      "date": "2026-11-12",
+      "ts": 1794538800,
+      "url": "https://dice.fm/event/6a99fdaf5832d20001f096cf",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "Surface Diy w/ Adam Rose, Michael Fam, Capes",
+      "venue": "Better Tomorrow",
+      "type": "club",
+      "city": "Los Angeles",
+      "region": "la",
+      "date": "2026-11-12",
+      "ts": 1794538800,
+      "url": "https://ra.co/events/2548082",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "Deorro",
+      "venue": "Hakkasan Nightclub",
+      "type": "club",
+      "city": "Las Vegas",
+      "region": "vegas",
+      "date": "2026-11-12",
+      "ts": 1794538800,
+      "url": "https://edmtrain.com/las-vegas-nv/deorro-494553?get=tickets",
+      "src": "19hz.info"
     },
     {
       "artist": "Special Guest",
@@ -1703,6 +2551,336 @@
       "ts": 1794600000,
       "url": "https://concerts.vegas/event/kenny-babyface-edmonds-las-vegas-friday-november-13-2026-800-pm/",
       "src": "Concerts.Vegas"
+    },
+    {
+      "artist": "Inner Circle By Markem",
+      "venue": "Aire Miami",
+      "type": "club",
+      "city": "Miami",
+      "region": "miami",
+      "date": "2026-11-13",
+      "ts": 1794625200,
+      "url": "https://posh.vip/e/inner-circle-by-markem-2",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "Christian Loffler, Paris",
+      "venue": "Zeyzey",
+      "type": "club",
+      "city": "Miami",
+      "region": "miami",
+      "date": "2026-11-13",
+      "ts": 1794625200,
+      "url": "https://calendar.zeyzeymiami.com/shows/christian-loffler-live-fall-2026-tour-13-nov",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "Dance Therapy: Amrita, Mindgazm, Tiffany Romero b2b 717",
+      "venue": "Zeyzey",
+      "type": "club",
+      "city": "Miami",
+      "region": "miami",
+      "date": "2026-11-13",
+      "ts": 1794625200,
+      "url": "https://dice.fm/event/q23wyx-dance-therapy-zeyzey-mindgazm-tiffany-romero-b2b-717-13th-nov-zeyzey-miami-tickets",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "Roy Rosenfeld",
+      "venue": "Upside",
+      "type": "club",
+      "city": "Miami",
+      "region": "miami",
+      "date": "2026-11-13",
+      "ts": 1794625200,
+      "url": "https://dice.fm/event/8edvmw-roy-rosenfeld-13th-nov-upside-miami-tickets",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "Five Years Deep: Kai Alce, Injex, Justin Chapman, Michael Scott, Amare",
+      "venue": "Dante's Hifi",
+      "type": "club",
+      "city": "Miami",
+      "region": "miami",
+      "date": "2026-11-13",
+      "ts": 1794625200,
+      "url": "https://ra.co/events/2546045",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "Echonomist, Jake Mercer",
+      "venue": "Sable",
+      "type": "club",
+      "city": "Miami",
+      "region": "miami",
+      "date": "2026-11-13",
+      "ts": 1794625200,
+      "url": "https://dice.fm/event/q236kx-echonomist-jake-mercer-13th-nov-sable-miami-miami-tickets",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "Karsten Sollors",
+      "venue": "Eagle",
+      "type": "club",
+      "city": "Wilton Manors",
+      "region": "world",
+      "date": "2026-11-13",
+      "ts": 1794625200,
+      "url": "https://dice.fm/event/g58yr5-victory-party-ft-karsten-sollors-13th-nov-eagle-wilton-manors-wilton-manors-tickets",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "Adiel, Yu Su, & Jovi Gibs",
+      "venue": "Jolene Downtown",
+      "type": "club",
+      "city": "Miami",
+      "region": "miami",
+      "date": "2026-11-13",
+      "ts": 1794625200,
+      "url": "https://dice.fm/event/bb99gg-adiel-yu-su-13th-nov-jolene-sound-room-miami-miami-tickets",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "Club Perreo: Friday The 13th",
+      "venue": "777 Northeast 79th Street",
+      "type": "club",
+      "city": "Miami",
+      "region": "miami",
+      "date": "2026-11-13",
+      "ts": 1794625200,
+      "url": "https://shotgun.live/en/events/clubperreo-2",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "Rabbit In The Moon",
+      "venue": "Kemistry",
+      "type": "club",
+      "city": "Fort Lauderdale",
+      "region": "world",
+      "date": "2026-11-13",
+      "ts": 1794625200,
+      "url": "https://dice.fm/event/mxyy9k-rabbit-in-the-moon-live-13th-nov-kemistry-fort-lauderdale-tickets",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "Somewhere Underground",
+      "venue": "Nowhere @ Nowhere Ftl",
+      "type": "club",
+      "city": "Fort Lauderdale",
+      "region": "world",
+      "date": "2026-11-13",
+      "ts": 1794625200,
+      "url": "https://posh.vip/e/somewhere-underground-nowhere-special-event",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "Armen Miran",
+      "venue": "Do Not Sit On The Furniture",
+      "type": "club",
+      "city": "Miami Beach",
+      "region": "miami",
+      "date": "2026-11-13",
+      "ts": 1794625200,
+      "url": "https://dice.fm/event/7d5qvb-armen-miran-13th-nov-do-not-sit-on-the-furniture-miami-beach-tickets",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "Tres Mortimer - Mints On The House",
+      "venue": "Edge",
+      "type": "club",
+      "city": "Miami",
+      "region": "miami",
+      "date": "2026-11-13",
+      "ts": 1794625200,
+      "url": "https://shotgun.live/en/events/tres-mortimer-nov-13",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "Unreal",
+      "venue": "Factory Town",
+      "type": "club",
+      "city": "Miami",
+      "region": "miami",
+      "date": "2026-11-13",
+      "ts": 1794625200,
+      "url": "https://dice.fm/event/6a84879f8e0c81000177fc08",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "Unreal: Callush, Feph, Prada2000, Mika Heggeman, Restricted, Trym",
+      "venue": "Factory Town",
+      "type": "club",
+      "city": "Miami",
+      "region": "miami",
+      "date": "2026-11-13",
+      "ts": 1794625200,
+      "url": "https://dice.fm/event/6dood3-unreal-13th-nov-factory-town-miami-tickets",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "Special Guests",
+      "venue": "The Pickle",
+      "type": "club",
+      "city": "Miami",
+      "region": "miami",
+      "date": "2026-11-13",
+      "ts": 1794625200,
+      "url": "https://ra.co/events/2528917",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "James Hype, Hills, Danyelino, Alezsandro, Monky",
+      "venue": "Club Space",
+      "type": "club",
+      "city": "Miami",
+      "region": "miami",
+      "date": "2026-11-13",
+      "ts": 1794625200,
+      "url": "https://dice.fm/event/6ac681e6ede6160001275006",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "Notion",
+      "venue": "The Ground",
+      "type": "club",
+      "city": "Miami",
+      "region": "miami",
+      "date": "2026-11-13",
+      "ts": 1794625200,
+      "url": "https://dice.fm/event/2wqn27-notion-13th-nov-the-ground-miami-miami-tickets",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "Low Steppa",
+      "venue": "Selva",
+      "type": "club",
+      "city": "Miami",
+      "region": "miami",
+      "date": "2026-11-13",
+      "ts": 1794625200,
+      "url": "https://posh.vip/e/low-steppa-selva",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "Rave Diggaz",
+      "venue": "Dear Eleanor",
+      "type": "club",
+      "city": "Miami",
+      "region": "miami",
+      "date": "2026-11-13",
+      "ts": 1794625200,
+      "url": "https://ra.co/events/2544621",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "Navid Izadi - Ayande, Album Release Party: Dave Aju, Masha Mar, SONNS, Goddollar",
+      "venue": "TBA",
+      "type": "club",
+      "city": "Los Angeles",
+      "region": "la",
+      "date": "2026-11-13",
+      "ts": 1794625200,
+      "url": "https://ra.co/events/2569904",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "Painted Skies",
+      "venue": "TBA",
+      "type": "club",
+      "city": "Apple Valley",
+      "region": "world",
+      "date": "2026-11-13",
+      "ts": 1794625200,
+      "url": "https://luma.com/4a3q2kn1",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "Bees Trees & Water Music Festival",
+      "venue": "Rock & Tree",
+      "type": "club",
+      "city": "Perris",
+      "region": "world",
+      "date": "2026-11-13",
+      "ts": 1794625200,
+      "url": "https://btwmusicfestival.com/",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "Luke Alessi",
+      "venue": "3Oz Dive Club",
+      "type": "club",
+      "city": "San Diego",
+      "region": "world",
+      "date": "2026-11-13",
+      "ts": 1794625200,
+      "url": "https://events.leapevents.com/event/fngrs-crssd-presents-luke-alessi-3oz-dive-club-pb-2026",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "Stum",
+      "venue": "Spin Nightclub",
+      "type": "club",
+      "city": "San Diego",
+      "region": "world",
+      "date": "2026-11-13",
+      "ts": 1794625200,
+      "url": "https://events.leapevents.com/event/fngrs-crssd-presents-stum-spin-terrace-2026",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "Green Velvet + Slugg, Ose, Heminguey",
+      "venue": "Fit Social",
+      "type": "club",
+      "city": "San Diego",
+      "region": "world",
+      "date": "2026-11-13",
+      "ts": 1794625200,
+      "url": "https://events.leapevents.com/event/fngrs-crssd-presents-green-velvet-pbc-2026",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "Crankdat",
+      "venue": "Gallagher Square - Petco Park",
+      "type": "club",
+      "city": "San Diego",
+      "region": "world",
+      "date": "2026-11-13",
+      "ts": 1794625200,
+      "url": "https://events.leapevents.com/event/led-presents-crankdat-more-at-gallagher-square-petco-park",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "DJ Meredith Marks",
+      "venue": "The Bellwether",
+      "type": "club",
+      "city": "Los Angeles",
+      "region": "la",
+      "date": "2026-11-13",
+      "ts": 1794625200,
+      "url": "https://www.ticketmaster.com/dj-meredith-marks-los-angeles-california-11-13-2026/event/09006529C460B333",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "Max Styler",
+      "venue": "Liv Nightclub",
+      "type": "club",
+      "city": "Las Vegas",
+      "region": "vegas",
+      "date": "2026-11-13",
+      "ts": 1794625200,
+      "url": "https://edmtrain.com/las-vegas-nv/max-styler-468409?get=tickets",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "Ray Volpe",
+      "venue": "Zouk Nightclub",
+      "type": "club",
+      "city": "Las Vegas",
+      "region": "vegas",
+      "date": "2026-11-13",
+      "ts": 1794625200,
+      "url": "https://zoukgrouplv.com/event/EVE50511500020261113/ray-volpe/",
+      "src": "19hz.info"
     },
     {
       "artist": "Ray Volpe",
@@ -2178,6 +3356,83 @@
       "src": "Concerts.Vegas"
     },
     {
+      "artist": "Cafe Grooves",
+      "venue": "Sable",
+      "type": "club",
+      "city": "Miami",
+      "region": "miami",
+      "date": "2026-11-14",
+      "ts": 1794711600,
+      "url": "https://shotgun.live/en/events/cafe-grooves-miami",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "Sacred Meadows Art and Music Project",
+      "venue": "Sawgrass Recreation Park",
+      "type": "club",
+      "city": "Broward County",
+      "region": "world",
+      "date": "2026-11-14",
+      "ts": 1794711600,
+      "url": "https://sacredmeadowsfest.com/",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "Anthony Attalla",
+      "venue": "Upside",
+      "type": "club",
+      "city": "Miami",
+      "region": "miami",
+      "date": "2026-11-14",
+      "ts": 1794711600,
+      "url": "https://dice.fm/event/6dyw7b-anthony-attalla-navigate-to-groove-cruise-miami-14th-nov-upside-miami-tickets",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "Henrik Schwarz (Live) + Inbal",
+      "venue": "Sable",
+      "type": "club",
+      "city": "Miami",
+      "region": "miami",
+      "date": "2026-11-14",
+      "ts": 1794711600,
+      "url": "https://dice.fm/event/oemnlg-henrik-schwarz-live-inbal-14th-nov-sable-miami-miami-tickets",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "Krewella",
+      "venue": "Midline",
+      "type": "club",
+      "city": "Miami",
+      "region": "miami",
+      "date": "2026-11-14",
+      "ts": 1794711600,
+      "url": "https://wl.eventim.us/event/krewella-midline-miami/704551?afflky=Midline",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "Bill Patrick b2b Bort (All Night Long)",
+      "venue": "Jolene Downtown",
+      "type": "club",
+      "city": "Miami",
+      "region": "miami",
+      "date": "2026-11-14",
+      "ts": 1794711600,
+      "url": "https://link.dice.fm/A5bd10755ad9",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "Cassian",
+      "venue": "Liv Nightclub",
+      "type": "club",
+      "city": "Las Vegas",
+      "region": "vegas",
+      "date": "2026-11-14",
+      "ts": 1794711600,
+      "url": "https://speakeasygo.com/event/EVE-98GYQU?pc=EDMTRAIN",
+      "src": "19hz.info"
+    },
+    {
       "artist": "Deseo",
       "venue": "Omnia",
       "type": "club",
@@ -2398,6 +3653,17 @@
       "src": "Concerts.Vegas"
     },
     {
+      "artist": "Dom Dolla - Race Week",
+      "venue": "Liv Nightclub",
+      "type": "club",
+      "city": "Las Vegas",
+      "region": "vegas",
+      "date": "2026-11-19",
+      "ts": 1795143600,
+      "url": "https://speakeasygo.com/event/eve-s7x1ng?pc=edmtrain",
+      "src": "19hz.info"
+    },
+    {
       "artist": "Meduza",
       "venue": "Zouk",
       "type": "club",
@@ -2508,6 +3774,39 @@
       "src": "Concerts.Vegas"
     },
     {
+      "artist": "Meduza",
+      "venue": "Zouk Nightclub",
+      "type": "club",
+      "city": "Las Vegas",
+      "region": "vegas",
+      "date": "2026-11-20",
+      "ts": 1795230000,
+      "url": "https://zoukgrouplv.com/event/EVE50511500020261120/meduza/",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "John Summit - Race Week",
+      "venue": "Liv Nightclub",
+      "type": "club",
+      "city": "Las Vegas",
+      "region": "vegas",
+      "date": "2026-11-20",
+      "ts": 1795230000,
+      "url": "https://speakeasygo.com/event/EVE-UAGLGS?pc=EDMTRAIN",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "Martin Garrix w/ Justin Mylo",
+      "venue": "Omnia",
+      "type": "club",
+      "city": "Las Vegas",
+      "region": "vegas",
+      "date": "2026-11-20",
+      "ts": 1795230000,
+      "url": "https://edmtrain.com/las-vegas-nv/martin-garrix-justin-mylo-470081?get=tickets",
+      "src": "19hz.info"
+    },
+    {
       "artist": "Lil Wayne",
       "venue": "Zouk",
       "type": "club",
@@ -2605,6 +3904,28 @@
       "ts": 1795287600,
       "url": "https://nocovernightclubs.com/events/disco-lines-liv-beach-saturday-november-21-2026/",
       "src": "No Cover Nightclubs"
+    },
+    {
+      "artist": "Martin Garrix w/ Justin Mylo",
+      "venue": "Marquee Dayclub",
+      "type": "club",
+      "city": "Las Vegas",
+      "region": "vegas",
+      "date": "2026-11-21",
+      "ts": 1795316400,
+      "url": "https://edmtrain.com/las-vegas-nv/martin-garrix-justin-mylo-470079?get=tickets",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "Steve Aoki",
+      "venue": "Hakkasan Nightclub",
+      "type": "club",
+      "city": "Las Vegas",
+      "region": "vegas",
+      "date": "2026-11-21",
+      "ts": 1795316400,
+      "url": "https://edmtrain.com/las-vegas-nv/steve-aoki-493056?get=tickets",
+      "src": "19hz.info"
     },
     {
       "artist": "Special Guest",
@@ -2926,6 +4247,17 @@
       "src": "Concerts.Vegas"
     },
     {
+      "artist": "Alison Wonderland",
+      "venue": "Zouk Nightclub",
+      "type": "club",
+      "city": "Las Vegas",
+      "region": "vegas",
+      "date": "2026-11-27",
+      "ts": 1795834800,
+      "url": "https://zoukgrouplv.com/event/EVE50511500020261127/alison-wonderland/",
+      "src": "19hz.info"
+    },
+    {
       "artist": "Diplo",
       "venue": "XS",
       "type": "club",
@@ -3067,6 +4399,17 @@
       "ts": 1795896000,
       "url": "https://concerts.vegas/event/punchis-punchis-banda-rave-experience-las-vegas-brooklyn-bowl-las-vegas-saturday-november-28-2026-9-00-pm/",
       "src": "Concerts.Vegas"
+    },
+    {
+      "artist": "Sidepiece",
+      "venue": "Liv Nightclub",
+      "type": "club",
+      "city": "Las Vegas",
+      "region": "vegas",
+      "date": "2026-11-28",
+      "ts": 1795921200,
+      "url": "https://speakeasygo.com/event/EVE-5YF440?pc=EDMTRAIN",
+      "src": "19hz.info"
     },
     {
       "artist": "Deseo",
@@ -3773,6 +5116,17 @@
       "src": "Concerts.Vegas"
     },
     {
+      "artist": "Alesso",
+      "venue": "Omnia",
+      "type": "club",
+      "city": "Las Vegas",
+      "region": "vegas",
+      "date": "2026-12-04",
+      "ts": 1796439600,
+      "url": "https://edmtrain.com/las-vegas-nv/alesso-494388?get=tickets",
+      "src": "19hz.info"
+    },
+    {
       "artist": "Murda Beatz",
       "venue": "Marquee Dayclub",
       "type": "pool",
@@ -3914,6 +5268,17 @@
       "ts": 1796500800,
       "url": "https://concerts.vegas/event/dweezil-zappa-las-vegas-saturday-december-5-2026-730-pm/",
       "src": "Concerts.Vegas"
+    },
+    {
+      "artist": "Zedd",
+      "venue": "Omnia",
+      "type": "club",
+      "city": "Las Vegas",
+      "region": "vegas",
+      "date": "2026-12-05",
+      "ts": 1796526000,
+      "url": "https://edmtrain.com/las-vegas-nv/zedd-493070?get=tickets",
+      "src": "19hz.info"
     },
     {
       "artist": "O Beach Ibiza Opening Party",
