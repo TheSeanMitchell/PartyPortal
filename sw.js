@@ -1,8 +1,8 @@
 /* Party Portal — service worker
    App-shell caching for offline support + faster repeat loads.
-   Strategy: navigations & feed.json = network-first (fresh content),
+   Strategy: navigations & every .json data file = network-first (fresh content),
    static assets = cache-first. */
-var CACHE = 'party-portal-v3';   // 2.1: real end-of-video rotation, stall watchdog, filters removed
+var CACHE = 'party-portal-v4';   // 3.0: Neon + Onyx themes, verified catalogue, worldwide calendar, news tabs
 var SHELL = [
   './',
   'index.html',
@@ -57,14 +57,16 @@ self.addEventListener('fetch', function(e){
     return;
   }
 
-  // feed.json → network first (always want fresh news), fall back to cache.
-  if (url.pathname.indexOf('feed.json') >= 0) {
+  // feed.json / events.json / channels.json → network first. The page adds ?v=<time> to
+  // bypass HTTP caches, so the copy is stored under the bare path (one entry per file,
+  // instead of a new cache entry on every visit as in 2.x).
+  if (/\.json$/.test(url.pathname)) {
+    var key = new Request(url.origin + url.pathname);
     e.respondWith(
       fetch(req).then(function(res){
-        var copy = res.clone();
-        caches.open(CACHE).then(function(c){ c.put(req, copy); });
+        if (res && res.ok) { var copy = res.clone(); caches.open(CACHE).then(function(c){ c.put(key, copy); }); }
         return res;
-      }).catch(function(){ return caches.match(req); })
+      }).catch(function(){ return caches.match(key); })
     );
     return;
   }

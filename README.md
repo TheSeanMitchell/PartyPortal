@@ -1,48 +1,62 @@
 # 🎉 Party Portal
 
-**Your One-Stop Party Destination** — live festival streams, party cams, nightlife feeds, and real party-culture news.
+**The whole world's party, live, right now** — live world party cams, Cercle and festival DJ sets, pool and
+beach parties, swim-week runways, retro MTV, rock and hip-hop live, a worldwide party calendar and real
+nightlife news.
 
-> Live at: `https://theseamitchell.github.io/PartyPortal`
+> Live at: `https://theseanmitchell.github.io/PartyPortal/`
 
-A fast, single-page, static site (no framework, no server). See **[CHANGELOG.md](CHANGELOG.md)** for the full v2.0 upgrade notes.
+A fast, single-page, static site (no framework, no server). See **[CHANGELOG.md](CHANGELOG.md)** for the
+full 3.0 notes.
 
 ---
 
 ## Features
 
-- **130+ live channels** — EDM festivals, DJ sets, retro MTV, rock blocks, 24/7 city cams, plus deep lanes: **Cercle** & **Anjuna** (official 4K landmark sets), **Psytrance** (Ozora/Boom full sets), **Pool Party** day-club sets, **Melodic** techno, **Afro House**, and **Rave** mixes.
-- **Stations & filters** — tune the wall by category (Festivals, Clubs, Cercle, Anjuna, Melodic, Afro House, Rave, Live Cams, …) or fire a curated mix: **🔥 Peak Hours**, **🌌 Immersive**, **📼 Throwback**. Each chip shows a live count. Press **1–9** to jump between stations.
-- **Share / deep-link** — 🔗 on any tile copies a `?ch=<id>` link (or opens the native share sheet); opening it features that channel.
-- **Favorites** — ⭐ any channel; saved on your device, filterable, one tap away.
-- **Channel search** — type to find a channel by name.
-- **Per-tile controls** (desktop) — unmute (auto-mutes the rest), fullscreen, favorite. Click a tile to unmute.
-- **Party Mode** — full-screen 12-channel video wall (desktop).
-- **Mobile player** — one channel at a time: **Prev / Shuffle Next**, swipe to change, tap to unmute, optional auto-advance. *(No Party Mode on mobile.)*
-- **Festival countdowns** — live timers + ticket links to the next confirmed 2026 festivals.
-- **Culture feed** — **real** headlines from the music & nightlife press, refreshed 3×/day.
+- **Two looks, one switch** — the colourful **Neon** look (default) and **Onyx** dark mode, identical to
+  NUZU's dark mode and Argus Onyx. The *Dark* switch in the top bar (or the `T` key) remembers your choice
+  (`localStorage 'pp:theme'`); a link can force one with `?theme=dark` or `?theme=light`.
+- **1,700+ verified videos in ~390 playlist channels across 19 lanes** — Live World Cams, Cercle & Scenic, Festival Mainstage, Club &
+  Boiler Room, Pool & Beach Parties, Swim & Bikini Runway, Fashion Week Runway, Retro MTV & Spring Break,
+  Rock Live, Hip-Hop Live, Latin & Reggaeton, Carnival & Street Parties, Melodic Techno, Anjuna Open Air,
+  Afro House, Psytrance, Rave/DnB/Hard Techno, Arena Concerts, 24/7 Radio. Every video comes from the
+  official channel of the event, venue, label, broadcaster or artist, embeds on this site, is not
+  age-restricted, and is long-form (or actually live, for cams and radio).
+- **A different wall every visit** — channels are playlists of ~6 videos; each starts on a random video
+  this device hasn't seen lately. A theme-weighted shuffle across all lanes (at most 2 tiles per lane) and
+  a per-device memory of recent channels and videos keep consecutive visits different (10 test visits:
+  100 tiles, 100 different videos). Long sets start at a random point.
+- **Stations** — one chip per lane with a live count, plus ★ Favorites. Keys **1–9** jump to the first nine.
+- **Search**, **favorites** (⭐, saved on your device), **share / deep-link** (`?ch=<id>` features a channel).
+- **Party Mode** — full-screen 12-channel wall (desktop). **Mobile player** — one channel at a time with
+  swipe, shuffle and auto-advance.
+- **On The Horizon** — festivals with countdowns (gold shimmering cards) plus club, dayclub, concert and
+  residency dates from Las Vegas, Miami, Los Angeles, New York, London, Ibiza and more. Filter by
+  **When / Where / Type**, scroll with the ‹ › buttons, arrow keys, drag or wheel, or open **View all**.
+- **Party & Culture News** — real headlines from ~110 music, nightlife, fashion and culture outlets in 12
+  tabs with counts, refreshed 3×/day.
 - **Installable PWA** + offline support, keyboard shortcuts (`?` for the list), social share card.
 
 ---
 
-## How the news works (real data only)
+## How the content stays fresh (no API keys needed)
 
-The culture feed is **100% real**. `bot.py` gathers headlines from trusted publications
-(Mixmag, DJ Mag, Resident Advisor, EDM.com, Dancing Astronaut, Billboard, Rolling Stone,
-Pitchfork, NME, …) via public Google News feeds, then:
+`.github/workflows/daily-content.yml` runs at **06:00, 12:00, 18:00 UTC** (and on manual dispatch):
 
-1. uses `site:` queries to pull straight from those domains,
-2. strips the trailing " - Source" from each title,
-3. drops junk/spam (tracking-code titles, daily-digest pages, mashups),
-4. filters out off-topic and negative content (specialist EDM sources pass on-topic; broad
-   outlets must match a party keyword),
-5. tags a source-trust tier (green/amber/grey dot), de-duplicates, and
-6. writes `feed.json` only.
+1. **`bot.py`** writes `feed.json` (news) and `events.json` (calendar). News comes from Google News `site:`
+   feeds of trusted outlets plus a few publishers' own RSS; titles are cleaned, promo/service posts
+   (ticket how-tos, promo codes, betting, horoscopes, puzzle answers, shopping deals, press-release wires)
+   and hard news are filtered out, near-duplicates merged, each outlet capped per day. Nothing is ever
+   invented: if nothing real passes, the old file stays.
+2. **`curate.py`** checks every channel in `channels.json` (YouTube oEmbed for videos, the public watch
+   page for live cams/radio, playlist pages for playlists), drops dead ones (offline live streams after
+   2 runs in a row), and refills Live World Cams from official cam operators when that lane runs low.
+   A sanity gate refuses to write if a run would drop more than 15% at once.
 
-If nothing real passes the filters, `feed.json` is left untouched — the site **never** shows
-invented headlines. The page links every headline to its original publisher.
+Optional secrets: `YOUTUBE_API_KEY` (extra growth from official channels) and `TICKETMASTER_API_KEY`
+(more concert dates). Both are optional; without them everything above still runs.
 
-The bot runs on GitHub Actions at **06:00, 12:00, 18:00 UTC** (and on manual dispatch). Run it
-locally with `python bot.py` (Python 3.8+, standard library only).
+Run locally: `python bot.py` and `python curate.py` (Python 3.8+, standard library only).
 
 ---
 
@@ -53,7 +67,9 @@ locally with `python bot.py` (Python 3.8+, standard library only).
 | `S` | Shuffle channels |
 | `P` | Party Mode (desktop) |
 | `F` | Show only favorites |
+| `1`–`9` | Jump to a station |
 | `/` | Search channels |
+| `T` | Dark (Onyx) / Neon |
 | `?` | Help / shortcuts |
 | `Esc` | Close / exit |
 
@@ -61,46 +77,37 @@ locally with `python bot.py` (Python 3.8+, standard library only).
 
 ## Adding a channel
 
-Add an entry to `PP_ALL_FEEDS` in `index.html`:
+Add a line to `channels.json` (one channel per line):
 
-```javascript
-{
-  id:    'myfest',                 // unique slug
-  cat:   'FESTIVAL',               // FESTIVAL | CLUB | ARTIST | ROCK | RETRO | CONCERT | RADIO | FASHION | LIVE CAM
-  maxIdx: 1,                       // playlist length (1 for a single video)
-  label: '🎪 My Festival Name',
-  embed: 'https://www.youtube.com/embed/VIDEO_ID',   // or videoseries?list=PLAYLIST_ID
-  url:   'https://official-site.com'                 // optional: shown as "Official site / Tickets"
-}
+```json
+{"id":"cercle-myset","cat":"CERCLE","maxIdx":1,"label":"🏔️ Artist — Place","embed":"https://www.youtube.com/embed/VIDEO_ID","src":"Cercle","len":5400}
 ```
 
-New categories automatically get their own filter chip.
-
----
+`cat` is one of `LIVE CAM, CERCLE, FESTIVAL, CLUB, POOL, SWIM, FASHION, RETRO, ROCK, HIPHOP, LATIN,
+CARNIVAL, MELODIC, ANJUNA, AFRO, PSYTRANCE, RAVE, CONCERT, RADIO`. `len` (seconds) lets long sets start at a
+random point; add `"live":true` for live streams. Use only uploads from the official channel, and check the
+video plays when embedded. `curate.py` removes it automatically if it ever dies.
 
 ## Adding a news source or keyword
 
-In `bot.py`, add to `RAW_KEYWORDS` and/or `CULTURE_SOURCES`:
+In `bot.py`, add a row to `NEWS_SOURCES` — `(name, feed url, home tab)`; `site("domain.com")` builds the
+Google News feed — and short, high-signal words to `RAW_KEYWORDS` (relevance) or `RAW_TAB_KEYWORDS`
+(which tab a story lands in). Specialist outlets can go in `NICHE_SOURCES` to pass without a keyword.
 
-```python
-RAW_KEYWORDS += ["your festival name", "new venue"]
+## Adding a calendar date
 
-CULTURE_SOURCES += [
-    ("My Source", g("site:mysource.com+when:3d")),   # g() builds the Google News RSS URL
-]
-```
-
-Specialist EDM domains can be added to `NICHE_SOURCES` to accept them on-topic without a keyword match.
+Big festivals live in `FESTIVALS` in `bot.py` with the dates their organisers announced (an edition drops
+off by itself after it ends). Any venue page that publishes schema.org Event data can be added to
+`VG_JSONLD_SOURCES` or `CAL_SOURCES`.
 
 ---
 
 ## Deploy (GitHub Pages)
 
 1. Push to `TheSeanMitchell/PartyPortal`.
-2. Settings → Pages → deploy from `main` (root). A `.nojekyll` file is included so every asset
-   (`feed.json`, `sw.js`, `manifest.webmanifest`, icons) is served as-is.
-3. Live at `https://theseamitchell.github.io/PartyPortal`.
+2. Settings → Pages → deploy from `main` (root).
+3. Live at `https://theseanmitchell.github.io/PartyPortal/`.
 
 ---
 
-*Built with ❤️ in Las Vegas*
+*Built with ❤️ in Las Vegas by Mitchell Sean Vasseur*

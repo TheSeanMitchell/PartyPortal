@@ -1,5 +1,99 @@
 # Changelog
 
+## v3.0 — Neon + Onyx, 1,724 verified videos in 392 playlist channels, a worldwide calendar, 12 news tabs (8 Nov 2026)
+
+Every number below was measured: the old and new code were run on the same recorded news and
+calendar pages, and both pages were opened in a real browser (Edge) at desktop and phone size.
+
+### Two looks, one switch
+- **Neon** (default) keeps the Party Portal pink / cyan / purple / gold, on a brighter deep-violet
+  base with glass panels, glow and a neon rule under the top bar.
+- **Onyx** dark mode uses exactly the NUZU 2.3 / Argus Onyx colours: true black, neutral greys,
+  colour only as markers, white-on-red LIVE labels.
+- The *Dark* switch in the top bar (or `T`) remembers the choice on the device (`pp:theme`).
+  `?theme=dark` / `?theme=light` force a look for one visit, so Argus can open Onyx later.
+- **Contrast:** 36 of 1,670 text elements failed WCAG AA before (2.2%); now **0** in both looks, on
+  desktop and phone. No text is smaller than 12 px any more (149 calendar labels were 8.3 px on phones).
+- The gold shimmering cards stay, in both looks, but now mark real headliners and festivals: they
+  were 115 of the first 150 calendar cards (77%), now about 1 in 14.
+
+### Videos: why you kept seeing the same ones, and 4x more of them
+- **Why:** 5 of the 10 wall slots were always live cams, and there were only 5 cams, so the same
+  cams showed on every visit; single videos always started at 0:00; nothing was remembered
+  between visits; and the 2.x catalogue had stopped growing (`channels.json` last changed 27 Jul:
+  the YouTube key the old curator needed was never set). Measured: 3 of 10 tiles repeated from one
+  launch to the next.
+- **Now — playlist channels:** every non-live channel is a playlist of about 6 verified videos from
+  one official source (or a lane mix). Each time a channel is shown it starts on a random video this
+  device hasn't seen lately, then plays on through its list; the tile label follows the video that is
+  playing. A theme-weighted shuffle picks channels across all lanes (at most 2 tiles per lane), the
+  device remembers the last ~160 channels and ~600 videos shown, and long sets start at a random
+  point. Measured on **10 consecutive visits: 100 tiles, 100 different videos, 100 different
+  channels, 0 repeats** (2.x: 3 of 10 tiles repeated on every visit).
+- **1,724 videos in 392 channels across 19 lanes** (was 153 single videos in 16): Cercle & Scenic
+  181, Festival Mainstage 172, Retro MTV & Spring Break 171, Club & Boiler Room 167, Live World Cams
+  96, Pool & Beach Parties 94, Hip-Hop Live 90, Rock Live 81, Rave/DnB/Hard Techno 79, Latin 75,
+  Melodic Techno 75, Fashion Week Runway 74, Anjuna Open Air 68, Swim & Bikini Runway 61,
+  Carnival & Street Parties 60, Afro House 60, Psytrance 57, Arena Concerts 51, 24/7 Radio 12.
+  A broken video is skipped inside its channel instead of losing the tile; 2.x favourites and
+  `?ch=` links to single videos open the channel that now holds that video.
+- **Every one checked:** uploaded by the official channel of the event, venue, label, broadcaster
+  or the artist (fan re-uploads removed, e.g. the 2025 VS show and the MTV Spring Break specials,
+  whose uploaders were not the rights holders); exists and is embeddable (YouTube oEmbed); plays as
+  an embed on theseanmitchell.github.io itself (all 1,614 candidates were loaded as embeds on the
+  live domain in a browser: 5 refused and were dropped); long-form; live cams and radio actually live. The old
+  catalogue had 10 dead videos (including the Bourbon Street and Times Square cams), 1 that refused
+  embedding and 15 dead playlists - all gone.
+- **Stations are back**: one chip per lane with its count, plus Favorites and search. Keys 1-9,
+  `F`, `pp:station` and the calendar's "Watch on the wall" work again (in 2.x they did nothing).
+- **Deep links fixed:** `?ch=` featured the wrong channel on desktop (the wall was redrawn when
+  `channels.json` arrived); the page now waits for the catalogue and draws the wall once.
+- **`curate.py` needs no key any more.** Every run it checks each channel (oEmbed; the public watch
+  page for live cams and radio; playlist pages), drops dead ones (an offline live stream after 2
+  runs in a row), and refills Live World Cams from official cam operators when that lane runs low.
+  It refuses to write if a run would drop more than 15% at once. The YouTube-key growth path stays
+  as an option, now limited to official channels.
+
+### On The Horizon
+- Big ‹ › buttons, scroll-snap, edge fades, a "More →" hint, a thicker coloured scrollbar, arrow
+  keys / drag / mouse-wheel scrolling, a live count, and **View all** (grid with "Show more").
+- Filters with counts: **When** (Tonight, This weekend, This month), **Where** (Las Vegas, Ibiza,
+  Miami, LA, NYC, Worldwide), **Type** (Festival, Club, Dayclub, Concert, Residency).
+- **24 festivals with dates their organisers announced** (EDC Orlando, Art Basel Miami Beach,
+  Zamna and Day Zero Tulum, Rio Carnival, Mardi Gras, EDC Mexico, Tomorrowland Winter, Ultra Miami,
+  Coachella, Tomorrowland Brasil, Rolling Loud, EDC Las Vegas, Cercle Festival, Sonar,
+  Glastonbury, Ultra Europe, UNTOLD, Creamfields, Notting Hill Carnival, Burning Man and more).
+  Editions not yet announced (Tomorrowland Belgium, Lollapalooza, Sziget 2027) are left out rather
+  than guessed. Each one drops off by itself after it ends (all 2026 entries in 2.x had expired).
+- New sources next to the Vegas club and concert calendars: Discotech (Miami clubs, schema.org
+  data), 19hz.info (LA, Miami, Bay Area, Vegas, Texas electronic listings), Eventbrite nightlife
+  pages (NYC, LA, Miami, Vegas, London, Ibiza; filtered to parties). Each source is isolated, past
+  events drop, duplicates merge. Measured on the same recording: **300 Las Vegas-only events ->
+  497 events + 24 festivals** (Las Vegas 324, Miami 67, LA 43, NYC 11, worldwide 51, Ibiza 1 while
+  its clubs are closed for winter).
+
+### Party & Culture News
+- **12 tabs with counts:** EDM & Dance, Techno & House, Festivals, Nightlife & Clubs, Las Vegas,
+  Ibiza & Global, Rock, Hip-Hop, Pop & Tours, Fashion & Swim, Retro & Culture, Tickets & Lineups.
+- **113 outlets + 33 topic feeds** (was 78 feeds, several duplicated): added Billboard, Pollstar,
+  IQ, JamBase, Kerrang!, Revolver, Louder, Blabbermouth, XXL, Complex, Vibe, Revolt, AllHipHop, The
+  FADER, Vogue, WWD, Harper's Bazaar, ELLE, Business of Fashion, SI Swimsuit, Far Out, Dazed, i-D,
+  PAPER, VICE, MTV, the Las Vegas Review-Journal, Vital Vegas, Las Vegas Sun, Miami New Times,
+  LA Weekly, Remezcla, The Guardian Music and more. Feeds Google News no longer serves were
+  replaced by the publishers' own RSS or removed.
+- Short, high-signal keywords per tab. On the same recorded feeds the keyword gate matched
+  **17% -> 49%** of headlines, and **403 -> 1,352** headlines passed every filter.
+- **Promo / junk filter** (from NUZU 2.3): ticket how-tos and resale, promo codes, betting,
+  horoscopes, puzzle answers, shopping deals, sponsored posts, "how to watch" guides and
+  press-release wires. On 5,093 recorded headlines it removed 35 (0.7%), each one read by hand.
+- 60 -> 140 stories per refresh, at least a few in every tab; publisher logos only for rated
+  outlets (unknown ones caused 404 errors in the console).
+
+### Also
+- Canonical, Open Graph, README and `_config.yml` used `theseamitchell` (missing "n"); fixed.
+- Service worker v4: data files are network-first and stored once under their plain name (2.x
+  added a new cache entry for every visit).
+
 ## v2.7 — Every major Vegas venue in "On The Horizon" + Party Mode parity
 
 ### The whole city, not just the clubs

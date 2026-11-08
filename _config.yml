@@ -4,7 +4,7 @@
 # for clarity / in case Jekyll processing is re-enabled.
 title: "Party Portal"
 description: "Live Festival Streams, Party Cams & Culture — Your One-Stop Party Destination"
-url: "https://theseamitchell.github.io"
+url: "https://theseanmitchell.github.io"
 baseurl: "/PartyPortal"
 theme: null
 plugins: []
