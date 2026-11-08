@@ -1,4 +1,4 @@
-{"updated":1794155925,"count":392,"videos":1723,"checked":{"at":1794155925,"built":"3.0 playlist build","videos":1724,"embed_tested_on":"theseanmitchell.github.io"},"channels":[
+{"updated":1794157224,"count":391,"checked":{"at":1794157224,"oembed":1706,"live_checked":109,"unknown":108,"dropped":1,"added":0,"http429":0,"secs":280},"channels":[
 {"id":"livecam-EO_1LWqsCNE","cat":"LIVE CAM","maxIdx":1,"label":"📡 Los Angeles · Venice Beach · Venice V Hotel · Stream","embed":"https://www.youtube.com/embed/EO_1LWqsCNE","src":"Teleport.camera","live":true,"origin":"verified-3.0"},
 {"id":"livecam-YWs0HMRVCBY","cat":"LIVE CAM","maxIdx":1,"label":"📡 BandCam Elbo Room Dance Floor & Bands","embed":"https://www.youtube.com/embed/YWs0HMRVCBY","src":"Elbo Room (Home of ElboTV)","live":true,"origin":"verified-3.0"},
 {"id":"livecam-dfVK7ld38Ys","cat":"LIVE CAM","maxIdx":1,"label":"📡 【ライブ】いまの渋谷・スクランブル交差点　ライブカメラ　Shibuya Scramble Crossing…","embed":"https://www.youtube.com/embed/dfVK7ld38Ys","src":"FNNプライムオンライン","live":true,"origin":"verified-3.0"},
@@ -75,7 +75,6 @@
 {"id":"livecam-dwfDgWHogsY","cat":"LIVE CAM","maxIdx":1,"label":"📡 Key West Harbor at the Marker Hotel","embed":"https://www.youtube.com/embed/dwfDgWHogsY","src":"BLC Streams","live":true,"origin":"verified-3.0"},
 {"id":"livecam-QIJku1LZGRE","cat":"LIVE CAM","maxIdx":1,"label":"📡 Beach Club","embed":"https://www.youtube.com/embed/QIJku1LZGRE","src":"The Sea Pines Resort","live":true,"origin":"verified-3.0"},
 {"id":"livecam-YIjxwMxWzgE","cat":"LIVE CAM","maxIdx":1,"label":"📡 ライブ配信・夜景がきれい！あべのハルカス・大阪の夜景/JAPAN NIGHT VEW / streaming and…","embed":"https://www.youtube.com/embed/YIjxwMxWzgE","src":"starstyle","live":true,"origin":"verified-3.0"},
-{"id":"livecam-YlRJXr4fCgM","cat":"LIVE CAM","maxIdx":1,"label":"📡 from PUERTO del CARMEN BEACH (Lanzarote, Canary Islands…","embed":"https://www.youtube.com/embed/YlRJXr4fCgM","src":"LanzaroteWebcam","live":true,"origin":"verified-3.0"},
 {"id":"livecam-Pgjsoeq7iGM","cat":"LIVE CAM","maxIdx":1,"label":"📡 Mallorca Tora Beach Paguera 24/7 Mar y Mar Restaurant","embed":"https://www.youtube.com/embed/Pgjsoeq7iGM","src":"Mallorca Webcam","live":true,"origin":"verified-3.0"},
 {"id":"livecam-tuj4OvU6UZI","cat":"LIVE CAM","maxIdx":1,"label":"📡 Kauai Beach — Sheraton Kauai Resort, Hawaii","embed":"https://www.youtube.com/embed/tuj4OvU6UZI","src":"Ozolio Plus","live":true,"origin":"verified-3.0"},
 {"id":"livecam-0pLm61T8qCU","cat":"LIVE CAM","maxIdx":1,"label":"📡 Panama City Beach Pineapple Willy's Pier","embed":"https://www.youtube.com/embed/0pLm61T8qCU","src":"Beach TV - Panama City Beach","live":true,"origin":"verified-3.0"},
