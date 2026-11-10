@@ -1,5 +1,5 @@
 {
-  "updated": 1794272478,
+  "updated": 1794319362,
   "festivals": [
     {
       "type": "festival",
@@ -371,76 +371,6 @@
     }
   ],
   "events": [
-    {
-      "artist": "Emo Nite",
-      "venue": "Marquee",
-      "type": "club",
-      "city": "Las Vegas",
-      "region": "vegas",
-      "date": "2026-11-09",
-      "ts": 1794250800,
-      "url": "https://nocovernightclubs.com/events/emo-nite-marquee-nightclub-monday-november-9-2026/",
-      "src": "No Cover Nightclubs"
-    },
-    {
-      "artist": "Eric Forbes",
-      "venue": "Marquee Dayclub",
-      "type": "pool",
-      "city": "Las Vegas",
-      "region": "vegas",
-      "date": "2026-11-09",
-      "ts": 1794250800,
-      "url": "https://nocovernightclubs.com/events/eric-forbes-marquee-dayclub-monday-november-9-2026/",
-      "src": "No Cover Nightclubs"
-    },
-    {
-      "artist": "Monday Night Football 11/09",
-      "venue": "The Clevelander",
-      "type": "club",
-      "city": "Miami",
-      "date": "2026-11-09",
-      "ts": 1794268800,
-      "url": "https://app.discotech.me/events/38256548-monday-night-football-1109-at-the-clevelander",
-      "src": "Discotech Miami",
-      "end_ts": 1794284100,
-      "region": "miami"
-    },
-    {
-      "artist": "Cx at Nine1nine",
-      "venue": "E11EVEN",
-      "type": "club",
-      "city": "Miami",
-      "date": "2026-11-09",
-      "ts": 1794272400,
-      "url": "https://app.discotech.me/events/38267227-cx-at-nine1nine-at-e11even",
-      "src": "Discotech Miami",
-      "end_ts": 1794315600,
-      "region": "miami"
-    },
-    {
-      "artist": "Industry Sessions",
-      "venue": "M2 Nightclub",
-      "type": "club",
-      "city": "Miami",
-      "date": "2026-11-09",
-      "ts": 1794276000,
-      "url": "https://app.discotech.me/events/38290799-industry-sessions-at-m2-nightclub-miami",
-      "src": "Discotech Miami",
-      "end_ts": 1794294000,
-      "region": "miami"
-    },
-    {
-      "artist": "Mondays",
-      "venue": "Gold Rush Cabaret",
-      "type": "club",
-      "city": "Miami",
-      "date": "2026-11-09",
-      "ts": 1794276000,
-      "url": "https://app.discotech.me/events/38248604-mondays-at-gold-rush-cabaret",
-      "src": "Discotech Miami",
-      "end_ts": 1794304800,
-      "region": "miami"
-    },
     {
       "artist": "The Trip Miami",
       "venue": "Nova Social Club",
@@ -959,6 +889,18 @@
       "region": "miami"
     },
     {
+      "artist": "Join the Local Signal ))) Israel Sunshine",
+      "venue": "Miami Concerts & Events",
+      "type": "club",
+      "city": "Miami",
+      "date": "2026-11-11",
+      "ts": 1794448800,
+      "url": "https://app.discotech.me/events/38315075-join-the-local-signal-israel-sunshine-at-miami-concerts-and-events",
+      "src": "Discotech Miami",
+      "end_ts": 1794470400,
+      "region": "miami"
+    },
+    {
       "artist": "Wednesdays",
       "venue": "Gold Rush Cabaret",
       "type": "club",
@@ -1380,6 +1322,17 @@
       "src": "19hz.info"
     },
     {
+      "artist": "Juan Atkins Forever: Free Tribute Party To The Godfather Of Detroit Techno",
+      "venue": "The Foundry",
+      "type": "club",
+      "city": "San Francisco",
+      "region": "world",
+      "date": "2026-11-12",
+      "ts": 1794513600,
+      "url": "https://www.eventbrite.com/e/juan-atkins-forever-free-tribute-party-to-the-godfather-of-detroit-techno-tickets-2004402891004",
+      "src": "19hz.info"
+    },
+    {
       "artist": "DJ Playstation",
       "venue": "Phonobar",
       "type": "club",
@@ -1489,6 +1442,42 @@
       "url": "https://app.discotech.me/events/38309655-love-in-the-club-at-zeyzey",
       "src": "Discotech Miami",
       "end_ts": 1794542400,
+      "region": "miami"
+    },
+    {
+      "artist": "The Neighbourhood: the Wourld Tour",
+      "venue": "Kaseya Center (AmericanAirlines Arena)",
+      "type": "club",
+      "city": "Miami",
+      "date": "2026-11-12",
+      "ts": 1794528000,
+      "url": "https://app.discotech.me/events/38145673-the-neighbourhood-the-wourld-tour-at-kaseya-center",
+      "src": "Discotech Miami",
+      "end_ts": 1794542400,
+      "region": "miami"
+    },
+    {
+      "artist": "Thursday Night Football 11/12",
+      "venue": "The Clevelander",
+      "type": "club",
+      "city": "Miami",
+      "date": "2026-11-12",
+      "ts": 1794528000,
+      "url": "https://app.discotech.me/events/38256549-thursday-night-football-1112-at-the-clevelander",
+      "src": "Discotech Miami",
+      "end_ts": 1794544500,
+      "region": "miami"
+    },
+    {
+      "artist": "Frederic at Nine1nine",
+      "venue": "E11EVEN",
+      "type": "club",
+      "city": "Miami",
+      "date": "2026-11-12",
+      "ts": 1794531600,
+      "url": "https://app.discotech.me/events/38267230-frederic-at-nine1nine-at-e11even",
+      "src": "Discotech Miami",
+      "end_ts": 1794574800,
       "region": "miami"
     },
     {
@@ -2152,6 +2141,17 @@
       "src": "Concerts.Vegas"
     },
     {
+      "artist": "Pyramid Dance w/ Ean Golden",
+      "venue": "Unitarian Universalist Society",
+      "type": "club",
+      "city": "San Francisco",
+      "region": "world",
+      "date": "2026-11-13",
+      "ts": 1794600000,
+      "url": "https://www.eventbrite.com/e/pyramid-dance-ean-golden-tickets-2003509645282",
+      "src": "19hz.info"
+    },
+    {
       "artist": "Wine Night: Shinosmoke, Leftfy",
       "venue": "Sun House Cafe",
       "type": "club",
@@ -2193,28 +2193,6 @@
       "date": "2026-11-13",
       "ts": 1794600000,
       "url": "https://www.instagram.com/pumatron/p/DfQ15lmBOAR/",
-      "src": "19hz.info"
-    },
-    {
-      "artist": "Magic Ravebus: UltraViolet, Alleyeowl, ZeroWishes, Ketamine Princess, Tomb, Sati",
-      "venue": "3rd & Army",
-      "type": "club",
-      "city": "San Francisco",
-      "region": "world",
-      "date": "2026-11-13",
-      "ts": 1794600000,
-      "url": "https://www.instagram.com/raveologyinsession/p/DfPIfuSm4gy/",
-      "src": "19hz.info"
-    },
-    {
-      "artist": "Beige",
-      "venue": "Bar Part Time",
-      "type": "club",
-      "city": "San Francisco",
-      "region": "world",
-      "date": "2026-11-13",
-      "ts": 1794600000,
-      "url": "https://www.instagram.com/barparttime/p/DfXdjOXO_7n/",
       "src": "19hz.info"
     },
     {
@@ -2449,6 +2427,17 @@
       "src": "19hz.info"
     },
     {
+      "artist": "Vinyl Night - The Lady Machine, Radar, Ultrathem",
+      "venue": "Domicile",
+      "type": "club",
+      "city": "Miami",
+      "region": "miami",
+      "date": "2026-11-13",
+      "ts": 1794625200,
+      "url": "https://dice.fm/event/6ae15174845f100001a80262",
+      "src": "19hz.info"
+    },
+    {
       "artist": "Special Guests",
       "venue": "The Pickle",
       "type": "club",
@@ -2501,6 +2490,17 @@
       "date": "2026-11-13",
       "ts": 1794625200,
       "url": "https://ra.co/events/2544621",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "Kariwood Morning Afters",
+      "venue": "1140 E 11th St",
+      "type": "club",
+      "city": "Los Angeles",
+      "region": "la",
+      "date": "2026-11-13",
+      "ts": 1794625200,
+      "url": "https://posh.vip/e/friday-morning-afters-1",
       "src": "19hz.info"
     },
     {
@@ -2699,17 +2699,6 @@
       "date": "2026-11-13",
       "ts": 1794625200,
       "url": "https://shotgun.live/en/events/loco-disco-presents-dale-howard",
-      "src": "19hz.info"
-    },
-    {
-      "artist": "House Music Fridays 11th Anniversary: Colette",
-      "venue": "The Air Conditioned Lounge",
-      "type": "club",
-      "city": "San Diego",
-      "region": "world",
-      "date": "2026-11-13",
-      "ts": 1794625200,
-      "url": "https://eventsta.com/event/colette-hmf",
       "src": "19hz.info"
     },
     {
@@ -3208,6 +3197,17 @@
       "src": "Concerts.Vegas"
     },
     {
+      "artist": "Tony Guerra",
+      "venue": "Daer Dayclub",
+      "type": "club",
+      "city": "Hollywood",
+      "region": "world",
+      "date": "2026-11-14",
+      "ts": 1794711600,
+      "url": "https://www.tixr.com/groups/daerdayclubsouthflorida/events/tony-guerra-daer-dayclub-205535",
+      "src": "19hz.info"
+    },
+    {
       "artist": "Cafe Grooves",
       "venue": "Sable",
       "type": "club",
@@ -3337,28 +3337,6 @@
       "date": "2026-11-14",
       "ts": 1794711600,
       "url": "https://dice.fm/event/6a3077721b98d10001598c8a",
-      "src": "19hz.info"
-    },
-    {
-      "artist": "Carl Cox, Carlita, Ms. Mada, Sister System",
-      "venue": "Club Space",
-      "type": "club",
-      "city": "Miami",
-      "region": "miami",
-      "date": "2026-11-14",
-      "ts": 1794711600,
-      "url": "https://dice.fm/event/6aac10c51773540001e4c41f",
-      "src": "19hz.info"
-    },
-    {
-      "artist": "Hell",
-      "venue": "Klub Kutters Bar & Lounge",
-      "type": "club",
-      "city": "Fort Lauderdale",
-      "region": "world",
-      "date": "2026-11-14",
-      "ts": 1794711600,
-      "url": "https://shotgun.live/en/events/hell",
       "src": "19hz.info"
     },
     {
@@ -5296,6 +5274,17 @@
       "ts": 1796583600,
       "url": "https://nocovernightclubs.com/events/part-pupils-marquee-dayclub-sunday-december-6-2026/",
       "src": "No Cover Nightclubs"
+    },
+    {
+      "artist": "Pwhl Las Vegas Vs Pwhl Detroit Las Vegas T Mobile Arena",
+      "venue": "T-Mobile Arena",
+      "type": "sports",
+      "city": "Las Vegas",
+      "region": "vegas",
+      "date": "2026-12-06",
+      "ts": 1796587200,
+      "url": "https://concerts.vegas/event/pwhl-las-vegas-vs-pwhl-detroit-las-vegas-t-mobile-arena-sunday-december-6-2026-5-00-pm/",
+      "src": "Concerts.Vegas"
     },
     {
       "artist": "O Beach Ibiza Opening Party",
