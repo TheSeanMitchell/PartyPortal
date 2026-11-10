@@ -1,5 +1,5 @@
 {
-  "updated": 1794319362,
+  "updated": 1794350531,
   "festivals": [
     {
       "type": "festival",
@@ -371,18 +371,6 @@
     }
   ],
   "events": [
-    {
-      "artist": "The Trip Miami",
-      "venue": "Nova Social Club",
-      "type": "club",
-      "city": "Miami",
-      "date": "2026-11-10",
-      "ts": 1794297600,
-      "url": "https://app.discotech.me/events/38226220-the-trip-miami-at-nova-social-club",
-      "src": "Discotech Miami",
-      "end_ts": 1794319200,
-      "region": "miami"
-    },
     {
       "artist": "Rob Guson",
       "venue": "Omnia",
@@ -1478,6 +1466,18 @@
       "url": "https://app.discotech.me/events/38267230-frederic-at-nine1nine-at-e11even",
       "src": "Discotech Miami",
       "end_ts": 1794574800,
+      "region": "miami"
+    },
+    {
+      "artist": "Femme Frequency / Frameless Sounds: Anabelen / Griott & Cort",
+      "venue": "Miami Concerts & Events",
+      "type": "club",
+      "city": "Miami",
+      "date": "2026-11-12",
+      "ts": 1794535200,
+      "url": "https://app.discotech.me/events/38315076-femme-frequency-frameless-sounds-anabelen-griott-and-cort-at-miami-concerts-and-events",
+      "src": "Discotech Miami",
+      "end_ts": 1794556800,
       "region": "miami"
     },
     {
@@ -5284,6 +5284,17 @@
       "date": "2026-12-06",
       "ts": 1796587200,
       "url": "https://concerts.vegas/event/pwhl-las-vegas-vs-pwhl-detroit-las-vegas-t-mobile-arena-sunday-december-6-2026-5-00-pm/",
+      "src": "Concerts.Vegas"
+    },
+    {
+      "artist": "Jeff Dunham",
+      "venue": "Bakkt Theater at Planet Hollywood",
+      "type": "residency",
+      "city": "Las Vegas",
+      "region": "vegas",
+      "date": "2026-12-06",
+      "ts": 1796587200,
+      "url": "https://concerts.vegas/event/jeff-dunham-las-vegas-sunday-december-6-2026-700-pm/",
       "src": "Concerts.Vegas"
     },
     {
