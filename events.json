@@ -1,5 +1,5 @@
 {
-  "updated": 1794350531,
+  "updated": 1794403178,
   "festivals": [
     {
       "type": "festival",
@@ -371,199 +371,6 @@
     }
   ],
   "events": [
-    {
-      "artist": "Rob Guson",
-      "venue": "Omnia",
-      "type": "club",
-      "city": "Las Vegas",
-      "region": "vegas",
-      "date": "2026-11-10",
-      "ts": 1794337200,
-      "url": "https://nocovernightclubs.com/events/rob-guson-omnia-nightclub-thursday-november-10-2026/",
-      "src": "No Cover Nightclubs"
-    },
-    {
-      "artist": "Donny Osmond",
-      "venue": "The Colosseum at Caesars Palace",
-      "type": "residency",
-      "city": "Las Vegas",
-      "region": "vegas",
-      "date": "2026-11-10",
-      "ts": 1794340800,
-      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-tuesday-november-10-2026-730-pm/",
-      "src": "Concerts.Vegas"
-    },
-    {
-      "artist": "Donny Osmond",
-      "venue": "Dolby Live at Park MGM",
-      "type": "residency",
-      "city": "Las Vegas",
-      "region": "vegas",
-      "date": "2026-11-10",
-      "ts": 1794340800,
-      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-tuesday-november-10-2026-730-pm/",
-      "src": "Concerts.Vegas"
-    },
-    {
-      "artist": "Donny Osmond",
-      "venue": "Michelob Ultra Arena",
-      "type": "arena",
-      "city": "Las Vegas",
-      "region": "vegas",
-      "date": "2026-11-10",
-      "ts": 1794340800,
-      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-tuesday-november-10-2026-730-pm/",
-      "src": "Concerts.Vegas"
-    },
-    {
-      "artist": "Donny Osmond",
-      "venue": "Resorts World Theatre",
-      "type": "residency",
-      "city": "Las Vegas",
-      "region": "vegas",
-      "date": "2026-11-10",
-      "ts": 1794340800,
-      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-tuesday-november-10-2026-730-pm/",
-      "src": "Concerts.Vegas"
-    },
-    {
-      "artist": "Donny Osmond",
-      "venue": "Encore Theater at Wynn",
-      "type": "residency",
-      "city": "Las Vegas",
-      "region": "vegas",
-      "date": "2026-11-10",
-      "ts": 1794340800,
-      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-tuesday-november-10-2026-730-pm/",
-      "src": "Concerts.Vegas"
-    },
-    {
-      "artist": "Donny Osmond",
-      "venue": "BleauLive Theater at Fontainebleau",
-      "type": "concert",
-      "city": "Las Vegas",
-      "region": "vegas",
-      "date": "2026-11-10",
-      "ts": 1794340800,
-      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-tuesday-november-10-2026-730-pm/",
-      "src": "Concerts.Vegas"
-    },
-    {
-      "artist": "Donny Osmond",
-      "venue": "Pearl Theater at Palms",
-      "type": "concert",
-      "city": "Las Vegas",
-      "region": "vegas",
-      "date": "2026-11-10",
-      "ts": 1794340800,
-      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-tuesday-november-10-2026-730-pm/",
-      "src": "Concerts.Vegas"
-    },
-    {
-      "artist": "Las Migas",
-      "venue": "ZeyZey",
-      "type": "club",
-      "city": "Miami",
-      "date": "2026-11-10",
-      "ts": 1794355200,
-      "url": "https://app.discotech.me/events/38262873-las-migas-at-zeyzey",
-      "src": "Discotech Miami",
-      "end_ts": 1794369600,
-      "region": "miami"
-    },
-    {
-      "artist": "Five Venoms at Nine1nine",
-      "venue": "E11EVEN",
-      "type": "club",
-      "city": "Miami",
-      "date": "2026-11-10",
-      "ts": 1794358800,
-      "url": "https://app.discotech.me/events/38267243-five-venoms-at-nine1nine-at-e11even",
-      "src": "Discotech Miami",
-      "end_ts": 1794394800,
-      "region": "miami"
-    },
-    {
-      "artist": "TouchTheMicTuesdays",
-      "venue": "Miami Concerts & Events",
-      "type": "club",
-      "city": "Miami",
-      "date": "2026-11-10",
-      "ts": 1794358800,
-      "url": "https://app.discotech.me/events/38314174-touchthemictuesdays-at-miami-concerts-and-events",
-      "src": "Discotech Miami",
-      "end_ts": 1794380400,
-      "region": "miami"
-    },
-    {
-      "artist": "Tuesdays",
-      "venue": "Gold Rush Cabaret",
-      "type": "club",
-      "city": "Miami",
-      "date": "2026-11-10",
-      "ts": 1794362400,
-      "url": "https://app.discotech.me/events/38248605-tuesdays-at-gold-rush-cabaret",
-      "src": "Discotech Miami",
-      "end_ts": 1794391200,
-      "region": "miami"
-    },
-    {
-      "artist": "Sunsquabi",
-      "venue": "The Funky Biscuit",
-      "type": "club",
-      "city": "Boca Raton",
-      "region": "world",
-      "date": "2026-11-10",
-      "ts": 1794366000,
-      "url": "https://wl.eventim.us/event/sunsquabi/703607?afflky=FunkyBiscuit",
-      "src": "19hz.info"
-    },
-    {
-      "artist": "Lo!, Ivan Jahn, Adrawn, Werd, Apaulo8",
-      "venue": "Eq",
-      "type": "club",
-      "city": "San Diego",
-      "region": "world",
-      "date": "2026-11-10",
-      "ts": 1794366000,
-      "url": "https://www.instagram.com/sanctuary.dnb/p/DfVzdI5GO6V/",
-      "src": "19hz.info"
-    },
-    {
-      "artist": "Space Taco Mood$Wingz Takeover: Bbybn20, 2Ceez, Kollide, Goingup?, Kogo, Smyelz2",
-      "venue": "The Basement",
-      "type": "club",
-      "city": "Pomona",
-      "region": "la",
-      "date": "2026-11-10",
-      "ts": 1794366000,
-      "url": "https://www.eventbrite.com/e/space-taco-moodwingz-takeover-nov-10-tickets-2004371342642",
-      "src": "19hz.info"
-    },
-    {
-      "artist": "Mario Duran",
-      "venue": "Gekko Lounge",
-      "type": "club",
-      "city": "Miami",
-      "date": "2026-11-10",
-      "ts": 1794369600,
-      "url": "https://app.discotech.me/events/38301958-mario-duran-at-gekko-lounge",
-      "src": "Discotech Miami",
-      "end_ts": 1794387600,
-      "region": "miami"
-    },
-    {
-      "artist": "Tuesday nights",
-      "venue": "Mr Jones",
-      "type": "club",
-      "city": "Miami",
-      "date": "2026-11-10",
-      "ts": 1794372900,
-      "url": "https://app.discotech.me/events/38238745-tuesday-nights-at-mr-jones",
-      "src": "Discotech Miami",
-      "end_ts": 1794391200,
-      "region": "miami"
-    },
     {
       "artist": "The Trip Miami",
       "venue": "Nova Social Club",
@@ -1045,6 +852,18 @@
       "src": "19hz.info"
     },
     {
+      "artist": "Veterans Day Edition at Candela",
+      "venue": "Candela Bar Brickell",
+      "type": "club",
+      "city": "Miami",
+      "date": "2026-11-11",
+      "ts": 1794456000,
+      "url": "https://app.discotech.me/events/38315311-veterans-day-edition-at-candela-at-candela",
+      "src": "Discotech Miami",
+      "end_ts": 1794477600,
+      "region": "miami"
+    },
+    {
       "artist": "The Trip Miami",
       "venue": "Nova Social Club",
       "type": "club",
@@ -1478,6 +1297,66 @@
       "url": "https://app.discotech.me/events/38315076-femme-frequency-frameless-sounds-anabelen-griott-and-cort-at-miami-concerts-and-events",
       "src": "Discotech Miami",
       "end_ts": 1794556800,
+      "region": "miami"
+    },
+    {
+      "artist": "The Angels (IL) & More",
+      "venue": "AIRE Miami",
+      "type": "club",
+      "city": "Miami",
+      "date": "2026-11-12",
+      "ts": 1794535200,
+      "url": "https://app.discotech.me/events/38304923-the-angels-il-and-more-at-aire-miami",
+      "src": "Discotech Miami",
+      "end_ts": 1794560400,
+      "region": "miami"
+    },
+    {
+      "artist": "Thursdays",
+      "venue": "Gold Rush Cabaret",
+      "type": "club",
+      "city": "Miami",
+      "date": "2026-11-12",
+      "ts": 1794535200,
+      "url": "https://app.discotech.me/events/38248607-thursdays-at-gold-rush-cabaret",
+      "src": "Discotech Miami",
+      "end_ts": 1794564000,
+      "region": "miami"
+    },
+    {
+      "artist": "No Rules Thursdays",
+      "venue": "Tucandela Wynwood",
+      "type": "club",
+      "city": "Miami",
+      "date": "2026-11-12",
+      "ts": 1794538800,
+      "url": "https://app.discotech.me/events/38315560-no-rules-thursdays-at-tucandela-wynwood",
+      "src": "Discotech Miami",
+      "end_ts": 1794556800,
+      "region": "miami"
+    },
+    {
+      "artist": "Nyksan",
+      "venue": "Jolene Sound Room",
+      "type": "club",
+      "city": "Miami",
+      "date": "2026-11-12",
+      "ts": 1794538800,
+      "url": "https://app.discotech.me/events/38311060-nyksan-at-jolene-sound-room",
+      "src": "Discotech Miami",
+      "end_ts": 1794560400,
+      "region": "miami"
+    },
+    {
+      "artist": "Secret Thursdays",
+      "venue": "Miami Concerts & Events",
+      "type": "club",
+      "city": "Miami",
+      "date": "2026-11-12",
+      "ts": 1794538800,
+      "url": "https://app.discotech.me/events/38305328-secret-thursdays-at-miami-concerts-and-events",
+      "src": "Discotech Miami",
+      "end_ts": 1794564000,
       "region": "miami"
     },
     {
@@ -2702,6 +2581,28 @@
       "src": "19hz.info"
     },
     {
+      "artist": "House Music Fridays 11th Anniversary: Colette",
+      "venue": "The Air Conditioned Lounge",
+      "type": "club",
+      "city": "San Diego",
+      "region": "world",
+      "date": "2026-11-13",
+      "ts": 1794625200,
+      "url": "https://eventsta.com/event/colette-hmf",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "Neek",
+      "venue": "Globe Theater",
+      "type": "club",
+      "city": "Los Angeles",
+      "region": "la",
+      "date": "2026-11-13",
+      "ts": 1794625200,
+      "url": "https://wl.eventim.us/event/NEEK-Los-Angeles-CA/705341?afflky=SteveVerdugo",
+      "src": "19hz.info"
+    },
+    {
       "artist": "Max Styler",
       "venue": "Liv Nightclub",
       "type": "club",
@@ -3337,6 +3238,17 @@
       "date": "2026-11-14",
       "ts": 1794711600,
       "url": "https://dice.fm/event/6a3077721b98d10001598c8a",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "Carl Cox, Carlita, Ms. Mada, Sister System",
+      "venue": "Club Space",
+      "type": "club",
+      "city": "Miami",
+      "region": "miami",
+      "date": "2026-11-14",
+      "ts": 1794711600,
+      "url": "https://dice.fm/event/6aac10c51773540001e4c41f",
       "src": "19hz.info"
     },
     {
@@ -5295,6 +5207,94 @@
       "date": "2026-12-06",
       "ts": 1796587200,
       "url": "https://concerts.vegas/event/jeff-dunham-las-vegas-sunday-december-6-2026-700-pm/",
+      "src": "Concerts.Vegas"
+    },
+    {
+      "artist": "Baby Bash Las Vegas Brooklyn Bowl",
+      "venue": "Brooklyn Bowl",
+      "type": "concert",
+      "city": "Las Vegas",
+      "region": "vegas",
+      "date": "2026-12-06",
+      "ts": 1796587200,
+      "url": "https://concerts.vegas/event/baby-bash-las-vegas-brooklyn-bowl-las-vegas-sunday-december-6-2026-7-30-pm/",
+      "src": "Concerts.Vegas"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "The Colosseum at Caesars Palace",
+      "type": "residency",
+      "city": "Las Vegas",
+      "region": "vegas",
+      "date": "2026-12-08",
+      "ts": 1796760000,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-tuesday-december-8-2026-730-pm/",
+      "src": "Concerts.Vegas"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "Dolby Live at Park MGM",
+      "type": "residency",
+      "city": "Las Vegas",
+      "region": "vegas",
+      "date": "2026-12-08",
+      "ts": 1796760000,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-tuesday-december-8-2026-730-pm/",
+      "src": "Concerts.Vegas"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "Michelob Ultra Arena",
+      "type": "arena",
+      "city": "Las Vegas",
+      "region": "vegas",
+      "date": "2026-12-08",
+      "ts": 1796760000,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-tuesday-december-8-2026-730-pm/",
+      "src": "Concerts.Vegas"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "Resorts World Theatre",
+      "type": "residency",
+      "city": "Las Vegas",
+      "region": "vegas",
+      "date": "2026-12-08",
+      "ts": 1796760000,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-tuesday-december-8-2026-730-pm/",
+      "src": "Concerts.Vegas"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "Encore Theater at Wynn",
+      "type": "residency",
+      "city": "Las Vegas",
+      "region": "vegas",
+      "date": "2026-12-08",
+      "ts": 1796760000,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-tuesday-december-8-2026-730-pm/",
+      "src": "Concerts.Vegas"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "BleauLive Theater at Fontainebleau",
+      "type": "concert",
+      "city": "Las Vegas",
+      "region": "vegas",
+      "date": "2026-12-08",
+      "ts": 1796760000,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-tuesday-december-8-2026-730-pm/",
+      "src": "Concerts.Vegas"
+    },
+    {
+      "artist": "Donny Osmond",
+      "venue": "Pearl Theater at Palms",
+      "type": "concert",
+      "city": "Las Vegas",
+      "region": "vegas",
+      "date": "2026-12-08",
+      "ts": 1796760000,
+      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-tuesday-december-8-2026-730-pm/",
       "src": "Concerts.Vegas"
     },
     {
