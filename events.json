@@ -1,5 +1,5 @@
 {
-  "updated": 1794403178,
+  "updated": 1794441271,
   "festivals": [
     {
       "type": "festival",
@@ -371,18 +371,6 @@
     }
   ],
   "events": [
-    {
-      "artist": "The Trip Miami",
-      "venue": "Nova Social Club",
-      "type": "club",
-      "city": "Miami",
-      "date": "2026-11-11",
-      "ts": 1794384000,
-      "url": "https://app.discotech.me/events/38226222-the-trip-miami-at-nova-social-club",
-      "src": "Discotech Miami",
-      "end_ts": 1794405600,
-      "region": "miami"
-    },
     {
       "artist": "Rafa Barrios",
       "venue": "Marquee",
@@ -1556,6 +1544,18 @@
       "ts": 1794538800,
       "url": "https://edmtrain.com/las-vegas-nv/deorro-494553?get=tickets",
       "src": "19hz.info"
+    },
+    {
+      "artist": "Toxic Thursdays at Candela",
+      "venue": "Candela Bar Brickell",
+      "type": "club",
+      "city": "Miami",
+      "date": "2026-11-12",
+      "ts": 1794542400,
+      "url": "https://app.discotech.me/events/38315312-toxic-thursdays-at-candela-at-candela",
+      "src": "Discotech Miami",
+      "end_ts": 1794564000,
+      "region": "miami"
     },
     {
       "artist": "Special Guest",
