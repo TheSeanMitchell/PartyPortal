@@ -1,5 +1,5 @@
 {
-  "updated": 1794493429,
+  "updated": 1794524570,
   "festivals": [
     {
       "type": "festival",
@@ -371,18 +371,6 @@
     }
   ],
   "events": [
-    {
-      "artist": "The Trip Miami",
-      "venue": "Nova Social Club",
-      "type": "club",
-      "city": "Miami",
-      "date": "2026-11-12",
-      "ts": 1794470400,
-      "url": "https://app.discotech.me/events/38226224-the-trip-miami-at-nova-social-club",
-      "src": "Discotech Miami",
-      "end_ts": 1794492000,
-      "region": "miami"
-    },
     {
       "artist": "Ovy On The Drums",
       "venue": "Zouk",
@@ -1899,6 +1887,18 @@
       "src": "19hz.info"
     },
     {
+      "artist": "Pure Joia Fridays",
+      "venue": "Joia Beach",
+      "type": "pool",
+      "city": "Miami",
+      "date": "2026-11-13",
+      "ts": 1794607200,
+      "url": "https://app.discotech.me/events/38248650-pure-joia-fridays-at-joia-beach",
+      "src": "Discotech Miami",
+      "end_ts": 1794628800,
+      "region": "miami"
+    },
+    {
       "artist": "Inner Circle By Markem",
       "venue": "Aire Miami",
       "type": "club",
@@ -2537,17 +2537,6 @@
       "src": "Concerts.Vegas"
     },
     {
-      "artist": "Lionel Richie Las Vegas Encore Theatre At Wynn",
-      "venue": "The Colosseum at Caesars Palace",
-      "type": "residency",
-      "city": "Las Vegas",
-      "region": "vegas",
-      "date": "2026-11-14",
-      "ts": 1794686400,
-      "url": "https://concerts.vegas/event/lionel-richie-las-vegas-encore-theatre-at-wynn-las-vegas-saturday-november-14-2026-8-00-pm/",
-      "src": "Concerts.Vegas"
-    },
-    {
       "artist": "Kenny Babyface Edmonds",
       "venue": "The Colosseum at Caesars Palace",
       "type": "residency",
@@ -2556,6 +2545,17 @@
       "date": "2026-11-14",
       "ts": 1794686400,
       "url": "https://concerts.vegas/event/kenny-babyface-edmonds-las-vegas-saturday-november-14-2026-800-pm/",
+      "src": "Concerts.Vegas"
+    },
+    {
+      "artist": "Lionel Richie Las Vegas Encore Theatre At Wynn",
+      "venue": "The Colosseum at Caesars Palace",
+      "type": "residency",
+      "city": "Las Vegas",
+      "region": "vegas",
+      "date": "2026-11-14",
+      "ts": 1794686400,
+      "url": "https://concerts.vegas/event/lionel-richie-las-vegas-encore-theatre-at-wynn-las-vegas-saturday-november-14-2026-8-00-pm/",
       "src": "Concerts.Vegas"
     },
     {
@@ -2592,17 +2592,6 @@
       "src": "Concerts.Vegas"
     },
     {
-      "artist": "Lionel Richie Las Vegas Encore Theatre At Wynn",
-      "venue": "Dolby Live at Park MGM",
-      "type": "residency",
-      "city": "Las Vegas",
-      "region": "vegas",
-      "date": "2026-11-14",
-      "ts": 1794686400,
-      "url": "https://concerts.vegas/event/lionel-richie-las-vegas-encore-theatre-at-wynn-las-vegas-saturday-november-14-2026-8-00-pm/",
-      "src": "Concerts.Vegas"
-    },
-    {
       "artist": "Kenny Babyface Edmonds",
       "venue": "Dolby Live at Park MGM",
       "type": "residency",
@@ -2611,6 +2600,17 @@
       "date": "2026-11-14",
       "ts": 1794686400,
       "url": "https://concerts.vegas/event/kenny-babyface-edmonds-las-vegas-saturday-november-14-2026-800-pm/",
+      "src": "Concerts.Vegas"
+    },
+    {
+      "artist": "Lionel Richie Las Vegas Encore Theatre At Wynn",
+      "venue": "Dolby Live at Park MGM",
+      "type": "residency",
+      "city": "Las Vegas",
+      "region": "vegas",
+      "date": "2026-11-14",
+      "ts": 1794686400,
+      "url": "https://concerts.vegas/event/lionel-richie-las-vegas-encore-theatre-at-wynn-las-vegas-saturday-november-14-2026-8-00-pm/",
       "src": "Concerts.Vegas"
     },
     {
@@ -2647,17 +2647,6 @@
       "src": "Concerts.Vegas"
     },
     {
-      "artist": "Lionel Richie Las Vegas Encore Theatre At Wynn",
-      "venue": "Michelob Ultra Arena",
-      "type": "arena",
-      "city": "Las Vegas",
-      "region": "vegas",
-      "date": "2026-11-14",
-      "ts": 1794686400,
-      "url": "https://concerts.vegas/event/lionel-richie-las-vegas-encore-theatre-at-wynn-las-vegas-saturday-november-14-2026-8-00-pm/",
-      "src": "Concerts.Vegas"
-    },
-    {
       "artist": "Kenny Babyface Edmonds",
       "venue": "Michelob Ultra Arena",
       "type": "arena",
@@ -2666,6 +2655,17 @@
       "date": "2026-11-14",
       "ts": 1794686400,
       "url": "https://concerts.vegas/event/kenny-babyface-edmonds-las-vegas-saturday-november-14-2026-800-pm/",
+      "src": "Concerts.Vegas"
+    },
+    {
+      "artist": "Lionel Richie Las Vegas Encore Theatre At Wynn",
+      "venue": "Michelob Ultra Arena",
+      "type": "arena",
+      "city": "Las Vegas",
+      "region": "vegas",
+      "date": "2026-11-14",
+      "ts": 1794686400,
+      "url": "https://concerts.vegas/event/lionel-richie-las-vegas-encore-theatre-at-wynn-las-vegas-saturday-november-14-2026-8-00-pm/",
       "src": "Concerts.Vegas"
     },
     {
@@ -2691,17 +2691,6 @@
       "src": "Concerts.Vegas"
     },
     {
-      "artist": "Lionel Richie Las Vegas Encore Theatre At Wynn",
-      "venue": "Resorts World Theatre",
-      "type": "residency",
-      "city": "Las Vegas",
-      "region": "vegas",
-      "date": "2026-11-14",
-      "ts": 1794686400,
-      "url": "https://concerts.vegas/event/lionel-richie-las-vegas-encore-theatre-at-wynn-las-vegas-saturday-november-14-2026-8-00-pm/",
-      "src": "Concerts.Vegas"
-    },
-    {
       "artist": "Kenny Babyface Edmonds",
       "venue": "Resorts World Theatre",
       "type": "residency",
@@ -2710,6 +2699,17 @@
       "date": "2026-11-14",
       "ts": 1794686400,
       "url": "https://concerts.vegas/event/kenny-babyface-edmonds-las-vegas-saturday-november-14-2026-800-pm/",
+      "src": "Concerts.Vegas"
+    },
+    {
+      "artist": "Lionel Richie Las Vegas Encore Theatre At Wynn",
+      "venue": "Resorts World Theatre",
+      "type": "residency",
+      "city": "Las Vegas",
+      "region": "vegas",
+      "date": "2026-11-14",
+      "ts": 1794686400,
+      "url": "https://concerts.vegas/event/lionel-richie-las-vegas-encore-theatre-at-wynn-las-vegas-saturday-november-14-2026-8-00-pm/",
       "src": "Concerts.Vegas"
     },
     {
@@ -2757,17 +2757,6 @@
       "src": "Concerts.Vegas"
     },
     {
-      "artist": "Lionel Richie Las Vegas Encore Theatre At Wynn",
-      "venue": "Encore Theater at Wynn",
-      "type": "residency",
-      "city": "Las Vegas",
-      "region": "vegas",
-      "date": "2026-11-14",
-      "ts": 1794686400,
-      "url": "https://concerts.vegas/event/lionel-richie-las-vegas-encore-theatre-at-wynn-las-vegas-saturday-november-14-2026-8-00-pm/",
-      "src": "Concerts.Vegas"
-    },
-    {
       "artist": "Kenny Babyface Edmonds",
       "venue": "Encore Theater at Wynn",
       "type": "residency",
@@ -2776,6 +2765,17 @@
       "date": "2026-11-14",
       "ts": 1794686400,
       "url": "https://concerts.vegas/event/kenny-babyface-edmonds-las-vegas-saturday-november-14-2026-800-pm/",
+      "src": "Concerts.Vegas"
+    },
+    {
+      "artist": "Lionel Richie Las Vegas Encore Theatre At Wynn",
+      "venue": "Encore Theater at Wynn",
+      "type": "residency",
+      "city": "Las Vegas",
+      "region": "vegas",
+      "date": "2026-11-14",
+      "ts": 1794686400,
+      "url": "https://concerts.vegas/event/lionel-richie-las-vegas-encore-theatre-at-wynn-las-vegas-saturday-november-14-2026-8-00-pm/",
       "src": "Concerts.Vegas"
     },
     {
@@ -2801,17 +2801,6 @@
       "src": "Concerts.Vegas"
     },
     {
-      "artist": "Lionel Richie Las Vegas Encore Theatre At Wynn",
-      "venue": "BleauLive Theater at Fontainebleau",
-      "type": "concert",
-      "city": "Las Vegas",
-      "region": "vegas",
-      "date": "2026-11-14",
-      "ts": 1794686400,
-      "url": "https://concerts.vegas/event/lionel-richie-las-vegas-encore-theatre-at-wynn-las-vegas-saturday-november-14-2026-8-00-pm/",
-      "src": "Concerts.Vegas"
-    },
-    {
       "artist": "Kenny Babyface Edmonds",
       "venue": "BleauLive Theater at Fontainebleau",
       "type": "concert",
@@ -2820,6 +2809,17 @@
       "date": "2026-11-14",
       "ts": 1794686400,
       "url": "https://concerts.vegas/event/kenny-babyface-edmonds-las-vegas-saturday-november-14-2026-800-pm/",
+      "src": "Concerts.Vegas"
+    },
+    {
+      "artist": "Lionel Richie Las Vegas Encore Theatre At Wynn",
+      "venue": "BleauLive Theater at Fontainebleau",
+      "type": "concert",
+      "city": "Las Vegas",
+      "region": "vegas",
+      "date": "2026-11-14",
+      "ts": 1794686400,
+      "url": "https://concerts.vegas/event/lionel-richie-las-vegas-encore-theatre-at-wynn-las-vegas-saturday-november-14-2026-8-00-pm/",
       "src": "Concerts.Vegas"
     },
     {
@@ -2856,17 +2856,6 @@
       "src": "Concerts.Vegas"
     },
     {
-      "artist": "Lionel Richie Las Vegas Encore Theatre At Wynn",
-      "venue": "Pearl Theater at Palms",
-      "type": "concert",
-      "city": "Las Vegas",
-      "region": "vegas",
-      "date": "2026-11-14",
-      "ts": 1794686400,
-      "url": "https://concerts.vegas/event/lionel-richie-las-vegas-encore-theatre-at-wynn-las-vegas-saturday-november-14-2026-8-00-pm/",
-      "src": "Concerts.Vegas"
-    },
-    {
       "artist": "Kenny Babyface Edmonds",
       "venue": "Pearl Theater at Palms",
       "type": "concert",
@@ -2875,6 +2864,17 @@
       "date": "2026-11-14",
       "ts": 1794686400,
       "url": "https://concerts.vegas/event/kenny-babyface-edmonds-las-vegas-saturday-november-14-2026-800-pm/",
+      "src": "Concerts.Vegas"
+    },
+    {
+      "artist": "Lionel Richie Las Vegas Encore Theatre At Wynn",
+      "venue": "Pearl Theater at Palms",
+      "type": "concert",
+      "city": "Las Vegas",
+      "region": "vegas",
+      "date": "2026-11-14",
+      "ts": 1794686400,
+      "url": "https://concerts.vegas/event/lionel-richie-las-vegas-encore-theatre-at-wynn-las-vegas-saturday-november-14-2026-8-00-pm/",
       "src": "Concerts.Vegas"
     },
     {
@@ -3604,6 +3604,17 @@
       "src": "No Cover Nightclubs"
     },
     {
+      "artist": "House Of Blues Gospel Brunch Las Vegas House Of Blues",
+      "venue": "House of Blues",
+      "type": "concert",
+      "city": "Las Vegas",
+      "region": "vegas",
+      "date": "2026-11-22",
+      "ts": 1795377600,
+      "url": "https://concerts.vegas/event/house-of-blues-gospel-brunch-las-vegas-house-of-blues-las-vegas-sunday-november-22-2026-10-00-am/",
+      "src": "Concerts.Vegas"
+    },
+    {
       "artist": "The Amity Affliction",
       "venue": "Brooklyn Bowl",
       "type": "concert",
@@ -4085,6 +4096,17 @@
       "date": "2026-11-29",
       "ts": 1795982400,
       "url": "https://concerts.vegas/event/mat-nham-mat-mo-las-vegas-ph-live-at-planet-hollywood-sunday-november-29-2026-7-00-pm/",
+      "src": "Concerts.Vegas"
+    },
+    {
+      "artist": "House Of Blues Gospel Brunch Las Vegas House Of Blues",
+      "venue": "House of Blues",
+      "type": "concert",
+      "city": "Las Vegas",
+      "region": "vegas",
+      "date": "2026-11-29",
+      "ts": 1795982400,
+      "url": "https://concerts.vegas/event/house-of-blues-gospel-brunch-las-vegas-house-of-blues-las-vegas-sunday-november-29-2026-10-00-am/",
       "src": "Concerts.Vegas"
     },
     {
@@ -5273,28 +5295,6 @@
       "date": "2026-12-10",
       "ts": 1796932800,
       "url": "https://concerts.vegas/event/barry-manilow-las-vegas-thursday-december-10-2026-700-pm/",
-      "src": "Concerts.Vegas"
-    },
-    {
-      "artist": "Donny Osmond",
-      "venue": "Michelob Ultra Arena",
-      "type": "arena",
-      "city": "Las Vegas",
-      "region": "vegas",
-      "date": "2026-12-10",
-      "ts": 1796932800,
-      "url": "https://concerts.vegas/event/donny-osmond-las-vegas-thursday-december-10-2026-730-pm/",
-      "src": "Concerts.Vegas"
-    },
-    {
-      "artist": "Gavin Adcock",
-      "venue": "The Theater at Virgin Hotels",
-      "type": "concert",
-      "city": "Las Vegas",
-      "region": "vegas",
-      "date": "2026-12-10",
-      "ts": 1796932800,
-      "url": "https://concerts.vegas/event/gavin-adcock-las-vegas-thursday-december-10-2026-830-pm/",
       "src": "Concerts.Vegas"
     },
     {
