@@ -1,5 +1,5 @@
 {
-  "updated": 1794577427,
+  "updated": 1794611133,
   "festivals": [
     {
       "type": "festival",
@@ -371,30 +371,6 @@
     }
   ],
   "events": [
-    {
-      "artist": "Amir Karim @ Selva",
-      "venue": "Selva",
-      "type": "club",
-      "city": "Miami",
-      "date": "2026-11-12",
-      "ts": 1794544200,
-      "url": "https://app.discotech.me/events/38305537-amir-karim-selva-at-selva",
-      "src": "Discotech Miami",
-      "end_ts": 1794603600,
-      "region": "miami"
-    },
-    {
-      "artist": "The Trip Miami",
-      "venue": "Nova Social Club",
-      "type": "club",
-      "city": "Miami",
-      "date": "2026-11-13",
-      "ts": 1794556800,
-      "url": "https://app.discotech.me/events/38226226-the-trip-miami-at-nova-social-club",
-      "src": "Discotech Miami",
-      "end_ts": 1794578400,
-      "region": "miami"
-    },
     {
       "artist": "Cleve Island Pool Party",
       "venue": "The Clevelander",
@@ -915,6 +891,17 @@
       "src": "19hz.info"
     },
     {
+      "artist": "Compression: Reklz Abandon, Koga, James Deep",
+      "venue": "Midtown Live",
+      "type": "club",
+      "city": "Sacramento",
+      "region": "world",
+      "date": "2026-11-13",
+      "ts": 1794600000,
+      "url": "https://www.eventbrite.com/e/compression-party-w-djs-reklz-abandon-koga-james-deep-tickets-2003047033598",
+      "src": "19hz.info"
+    },
+    {
       "artist": "Fraktured & Friends Session 43 w/ Guest Justin Johnson",
       "venue": "Asiento",
       "type": "club",
@@ -948,6 +935,28 @@
       "src": "19hz.info"
     },
     {
+      "artist": "Maximum Intervention Dance Party: Solar, Luis G, Lifesize Caleb",
+      "venue": "The Knockout",
+      "type": "club",
+      "city": "San Francisco",
+      "region": "world",
+      "date": "2026-11-13",
+      "ts": 1794600000,
+      "url": "https://dice.fm/event/5wo5ww-maximum-intervention-dance-party-13th-nov-the-knockout-san-francisco-tickets?pid=YUCBDJYJ&lng=en-US",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "Strap 4 Strap: Ari B, Discnogirl",
+      "venue": "There/There Bar",
+      "type": "club",
+      "city": "Oakland",
+      "region": "world",
+      "date": "2026-11-13",
+      "ts": 1794600000,
+      "url": "https://www.instagram.com/therethere_bar/p/DfktD_1yAZl/",
+      "src": "19hz.info"
+    },
+    {
       "artist": "Beige",
       "venue": "Bar Part Time",
       "type": "club",
@@ -956,6 +965,17 @@
       "date": "2026-11-13",
       "ts": 1794600000,
       "url": "https://www.instagram.com/barparttime/p/DfXdjOXO_7n/",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "Cahtz",
+      "venue": "Swig Bar",
+      "type": "club",
+      "city": "San Francisco",
+      "region": "world",
+      "date": "2026-11-13",
+      "ts": 1794600000,
+      "url": "https://www.instagram.com/cahtzmusic/p/DfiDvAgma52/",
       "src": "19hz.info"
     },
     {
@@ -992,58 +1012,14 @@
       "src": "19hz.info"
     },
     {
-      "artist": "Anime Rave",
-      "venue": "Temple",
+      "artist": "Julius Papp, DJ Rated R",
+      "venue": "Still OG",
       "type": "club",
-      "city": "San Francisco",
+      "city": "San Jose",
       "region": "world",
       "date": "2026-11-13",
       "ts": 1794600000,
-      "url": "https://www.tixr.com/groups/templesf/events/anime-rave-san-francisco-206501",
-      "src": "19hz.info"
-    },
-    {
-      "artist": "Brown Angel, Chungtech, & Onemohit",
-      "venue": "Mothership",
-      "type": "club",
-      "city": "San Francisco",
-      "region": "world",
-      "date": "2026-11-13",
-      "ts": 1794600000,
-      "url": "https://ra.co/events/2576683",
-      "src": "19hz.info"
-    },
-    {
-      "artist": "Camillionaire, Mood Ring, Andy411, Olga T, Ledao",
-      "venue": "Underground",
-      "type": "club",
-      "city": "San Francisco",
-      "region": "world",
-      "date": "2026-11-13",
-      "ts": 1794600000,
-      "url": "https://ra.co/events/2552247",
-      "src": "19hz.info"
-    },
-    {
-      "artist": "Club International: Noche De (Neo)Perreo - Wockie, Profestio, Louie El Ser",
-      "venue": "Monarch",
-      "type": "club",
-      "city": "San Francisco",
-      "region": "world",
-      "date": "2026-11-13",
-      "ts": 1794600000,
-      "url": "https://ra.co/events/2571049",
-      "src": "19hz.info"
-    },
-    {
-      "artist": "Official Afters: Friday The 13th Dance Party w/ DJ Cyberboy",
-      "venue": "BuzzWorks",
-      "type": "club",
-      "city": "San Francisco",
-      "region": "world",
-      "date": "2026-11-13",
-      "ts": 1794600000,
-      "url": "https://luma.com/j2jvfgro?utm_source=listing19hz",
+      "url": "https://www.instagram.com/juliuspapp/p/DffvA5fh0DR/",
       "src": "19hz.info"
     },
     {
@@ -1371,6 +1347,30 @@
       "region": "miami"
     },
     {
+      "artist": "Diwali Nights",
+      "venue": "M2 Nightclub",
+      "type": "club",
+      "city": "Miami",
+      "date": "2026-11-13",
+      "ts": 1794625200,
+      "url": "https://app.discotech.me/events/38290944-diwali-nights-at-m2-nightclub-miami",
+      "src": "Discotech Miami",
+      "end_ts": 1794639600,
+      "region": "miami"
+    },
+    {
+      "artist": "Echonomist + Jake Mercer",
+      "venue": "Sable",
+      "type": "club",
+      "city": "Miami",
+      "date": "2026-11-13",
+      "ts": 1794625200,
+      "url": "https://app.discotech.me/events/38300738-echonomist-jake-mercer-at-sable",
+      "src": "Discotech Miami",
+      "end_ts": 1794643200,
+      "region": "miami"
+    },
+    {
       "artist": "Landis",
       "venue": "The Pool At The Goodtime Hotel",
       "type": "club",
@@ -1470,17 +1470,6 @@
       "src": "19hz.info"
     },
     {
-      "artist": "Echonomist, Jake Mercer",
-      "venue": "Sable",
-      "type": "club",
-      "city": "Miami",
-      "region": "miami",
-      "date": "2026-11-13",
-      "ts": 1794625200,
-      "url": "https://dice.fm/event/q236kx-echonomist-jake-mercer-13th-nov-sable-miami-miami-tickets",
-      "src": "19hz.info"
-    },
-    {
       "artist": "Karsten Sollors",
       "venue": "Eagle",
       "type": "club",
@@ -1566,17 +1555,6 @@
       "date": "2026-11-13",
       "ts": 1794625200,
       "url": "https://shotgun.live/en/events/tres-mortimer-nov-13",
-      "src": "19hz.info"
-    },
-    {
-      "artist": "Unreal",
-      "venue": "Factory Town",
-      "type": "club",
-      "city": "Miami",
-      "region": "miami",
-      "date": "2026-11-13",
-      "ts": 1794625200,
-      "url": "https://dice.fm/event/6a84879f8e0c81000177fc08",
       "src": "19hz.info"
     },
     {
@@ -1778,6 +1756,17 @@
       "src": "19hz.info"
     },
     {
+      "artist": "No Such Thing As Luck: Dare, Dr Defiant, Silvestre",
+      "venue": "2215 S Harvard Blvd",
+      "type": "club",
+      "city": "Los Angeles",
+      "region": "la",
+      "date": "2026-11-13",
+      "ts": 1794625200,
+      "url": "https://posh.vip/e/no-such-thing-as-luck",
+      "src": "19hz.info"
+    },
+    {
       "artist": "Eli Brown, Shay De Castro, Lily Ardalan",
       "venue": "TBA",
       "type": "club",
@@ -1965,6 +1954,17 @@
       "src": "19hz.info"
     },
     {
+      "artist": "Finally Friday: DJ Hollis, DJ Medek",
+      "venue": "Little Joy",
+      "type": "club",
+      "city": "Los Angeles",
+      "region": "la",
+      "date": "2026-11-13",
+      "ts": 1794625200,
+      "url": "https://www.instagram.com/medek/p/DflkHakm5S8/",
+      "src": "19hz.info"
+    },
+    {
       "artist": "House Music Fridays 11th Anniversary: Colette",
       "venue": "The Air Conditioned Lounge",
       "type": "club",
@@ -2042,6 +2042,17 @@
       "src": "19hz.info"
     },
     {
+      "artist": "Niteflyers: Sylknet, E95",
+      "venue": "The Slipper Clutch",
+      "type": "club",
+      "city": "Los Angeles",
+      "region": "la",
+      "date": "2026-11-13",
+      "ts": 1794625200,
+      "url": "https://www.instagram.com/electric.la/p/DfahZfRvOHl/",
+      "src": "19hz.info"
+    },
+    {
       "artist": "Noizu",
       "venue": "Time Nightclub",
       "type": "club",
@@ -2108,6 +2119,17 @@
       "src": "19hz.info"
     },
     {
+      "artist": "Late Checkout: Samantha, Emily Apollo",
+      "venue": "Sunset at Edition",
+      "type": "club",
+      "city": "West Hollywood",
+      "region": "la",
+      "date": "2026-11-13",
+      "ts": 1794625200,
+      "url": "https://www.instagram.com/samanthamusic/p/DfnUBu6kj1P/",
+      "src": "19hz.info"
+    },
+    {
       "artist": "Levi",
       "venue": "Hollywood Roosevelt Hotel",
       "type": "club",
@@ -2138,50 +2160,6 @@
       "date": "2026-11-13",
       "ts": 1794625200,
       "url": "https://posh.vip/e/biggest-18-san-diego-rave",
-      "src": "19hz.info"
-    },
-    {
-      "artist": "Slipper Clutch Patio: sylknet, E95",
-      "venue": "Slipper Clutch",
-      "type": "club",
-      "city": "Los Angeles",
-      "region": "la",
-      "date": "2026-11-13",
-      "ts": 1794625200,
-      "url": "https://posh.vip/e/slipper-clutch-patio",
-      "src": "19hz.info"
-    },
-    {
-      "artist": "Sommer Ray, Bilal Dessouky, Marckey",
-      "venue": "The Yost Theater",
-      "type": "club",
-      "city": "Santa Ana",
-      "region": "world",
-      "date": "2026-11-13",
-      "ts": 1794625200,
-      "url": "https://www.eventbrite.com/e/w3n-fridays-presents-sommer-ray-friday-the-13th-tickets-2004049172021?aff=19hz",
-      "src": "19hz.info"
-    },
-    {
-      "artist": "Vanished: Crystal Castles Night / Vice City",
-      "venue": "Boardner's By La Belle (Los Angeles) (Los Angeles)",
-      "type": "club",
-      "city": "Los Angeles",
-      "region": "la",
-      "date": "2026-11-13",
-      "ts": 1794625200,
-      "url": "https://www.eventbrite.com/e/vanished-crystal-castles-night-tickets-1993651771115",
-      "src": "19hz.info"
-    },
-    {
-      "artist": "Angrybaby",
-      "venue": "Academy Nightclub",
-      "type": "club",
-      "city": "Los Angeles",
-      "region": "la",
-      "date": "2026-11-13",
-      "ts": 1794625200,
-      "url": "https://www.tixr.com/groups/academy/events/angrybaby-204046",
       "src": "19hz.info"
     },
     {
@@ -2776,6 +2754,17 @@
       "date": "2026-11-14",
       "ts": 1794711600,
       "url": "https://www.therumor.com/p/spilly",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "Gala Ibiza",
+      "venue": "Lunasol",
+      "type": "club",
+      "city": "Miami",
+      "region": "miami",
+      "date": "2026-11-14",
+      "ts": 1794711600,
+      "url": "https://shotgun.live/en/events/gala-ibiza-at-lunasol-miami",
       "src": "19hz.info"
     },
     {
@@ -5251,6 +5240,17 @@
       "date": "2026-12-11",
       "ts": 1797019200,
       "url": "https://concerts.vegas/event/donny-osmond-las-vegas-friday-december-11-2026-730-pm/",
+      "src": "Concerts.Vegas"
+    },
+    {
+      "artist": "Barry Manilow",
+      "venue": "Resorts World Theatre",
+      "type": "residency",
+      "city": "Las Vegas",
+      "region": "vegas",
+      "date": "2026-12-11",
+      "ts": 1797019200,
+      "url": "https://concerts.vegas/event/barry-manilow-las-vegas-friday-december-11-2026-800-pm/",
       "src": "Concerts.Vegas"
     },
     {
