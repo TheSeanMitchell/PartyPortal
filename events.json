@@ -1,5 +1,5 @@
 {
-  "updated": 1794748500,
+  "updated": 1794781254,
   "festivals": [
     {
       "type": "festival",
@@ -372,41 +372,6 @@
   ],
   "events": [
     {
-      "artist": "Sneak's Birthday Beats 2026: Derrick Carter, DJ Sneak, DJ Heather, H-Foundation,",
-      "venue": "2341 E. Olympic Blvd",
-      "type": "club",
-      "city": "Los Angeles",
-      "region": "la",
-      "date": "2026-11-14",
-      "ts": 1794711600,
-      "url": "https://ra.co/events/2499458",
-      "src": "19hz.info"
-    },
-    {
-      "artist": "Carl Cox + Carlita",
-      "venue": "Space",
-      "type": "club",
-      "city": "Miami",
-      "date": "2026-11-14",
-      "ts": 1794715200,
-      "url": "https://app.discotech.me/events/38280066-carl-cox-carlita-at-space-terrace",
-      "src": "Discotech Miami",
-      "end_ts": 1794769200,
-      "region": "miami"
-    },
-    {
-      "artist": "The Trip Miami",
-      "venue": "Nova Social Club",
-      "type": "club",
-      "city": "Miami",
-      "date": "2026-11-15",
-      "ts": 1794729600,
-      "url": "https://app.discotech.me/events/38226230-the-trip-miami-at-nova-social-club",
-      "src": "Discotech Miami",
-      "end_ts": 1794751200,
-      "region": "miami"
-    },
-    {
       "artist": "Football Sundays Week 10",
       "venue": "The Clevelander",
       "type": "club",
@@ -495,17 +460,6 @@
       "date": "2026-11-15",
       "ts": 1794772800,
       "url": "https://concerts.vegas/event/vegas-golden-knights-vs-vancouver-canucks-las-vegas-sunday-november-15-2026-600-pm/",
-      "src": "Concerts.Vegas"
-    },
-    {
-      "artist": "Las Vegas Raiders Vs Seattle Seahawks",
-      "venue": "Allegiant Stadium",
-      "type": "sports",
-      "city": "Las Vegas",
-      "region": "vegas",
-      "date": "2026-11-15",
-      "ts": 1794772800,
-      "url": "https://concerts.vegas/event/las-vegas-raiders-vs-seattle-seahawks-las-vegas-sunday-november-15-2026-105-pm/",
       "src": "Concerts.Vegas"
     },
     {
@@ -1135,6 +1089,42 @@
       "url": "https://app.discotech.me/events/38256551-monday-night-football-1116-at-the-clevelander",
       "src": "Discotech Miami",
       "end_ts": 1794888900,
+      "region": "miami"
+    },
+    {
+      "artist": "DJ E-feezy at Nine1nine",
+      "venue": "E11EVEN",
+      "type": "club",
+      "city": "Miami",
+      "date": "2026-11-16",
+      "ts": 1794877200,
+      "url": "https://app.discotech.me/events/38267233-dj-e-feezy-at-nine1nine-at-e11even",
+      "src": "Discotech Miami",
+      "end_ts": 1794920400,
+      "region": "miami"
+    },
+    {
+      "artist": "Yebba",
+      "venue": "The Fillmore Miami Beach",
+      "type": "pool",
+      "city": "Miami",
+      "date": "2026-11-16",
+      "ts": 1794877200,
+      "url": "https://app.discotech.me/events/38265559-yebba-at-the-fillmore-miami-beach",
+      "src": "Discotech Miami",
+      "end_ts": 1794891600,
+      "region": "miami"
+    },
+    {
+      "artist": "Industry Sessions",
+      "venue": "M2 Nightclub",
+      "type": "club",
+      "city": "Miami",
+      "date": "2026-11-16",
+      "ts": 1794880800,
+      "url": "https://app.discotech.me/events/38290800-industry-sessions-at-m2-nightclub-miami",
+      "src": "Discotech Miami",
+      "end_ts": 1794898800,
       "region": "miami"
     },
     {
@@ -2092,6 +2082,17 @@
       "date": "2026-11-20",
       "ts": 1795230000,
       "url": "https://dice.fm/event/6ab54b4737b4c00001654ff2",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "Dreamstate Socal 2026",
+      "venue": "Queen Mary Waterfront",
+      "type": "club",
+      "city": "Long Beach",
+      "region": "la",
+      "date": "2026-11-20",
+      "ts": 1795230000,
+      "url": "https://dreamstate.frontgatetickets.com/?utm_source=Promoters&utm_medium=19hz&utm_campaign=19hz",
       "src": "19hz.info"
     },
     {
@@ -5211,6 +5212,28 @@
       "artist": "New Years Eve Tyga Las Vegas Hakkasan Mgm Casino",
       "venue": "Encore Theater at Wynn",
       "type": "residency",
+      "city": "Las Vegas",
+      "region": "vegas",
+      "date": "2026-12-31",
+      "ts": 1798747200,
+      "url": "https://concerts.vegas/event/new-years-eve-tyga-las-vegas-hakkasan-mgm-casino-thursday-december-31-2026-9-00-pm/",
+      "src": "Concerts.Vegas"
+    },
+    {
+      "artist": "New Years Eve Tyga Las Vegas Hakkasan Mgm Casino",
+      "venue": "BleauLive Theater at Fontainebleau",
+      "type": "concert",
+      "city": "Las Vegas",
+      "region": "vegas",
+      "date": "2026-12-31",
+      "ts": 1798747200,
+      "url": "https://concerts.vegas/event/new-years-eve-tyga-las-vegas-hakkasan-mgm-casino-thursday-december-31-2026-9-00-pm/",
+      "src": "Concerts.Vegas"
+    },
+    {
+      "artist": "New Years Eve Tyga Las Vegas Hakkasan Mgm Casino",
+      "venue": "Pearl Theater at Palms",
+      "type": "concert",
       "city": "Las Vegas",
       "region": "vegas",
       "date": "2026-12-31",
