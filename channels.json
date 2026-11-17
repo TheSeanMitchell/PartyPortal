@@ -1,4 +1,4 @@
-{"updated":1794878849,"count":387,"checked":{"at":1794878849,"oembed":1703,"live_checked":105,"unknown":104,"dropped":2,"added":0,"http429":0,"secs":278},"channels":[
+{"updated":1794928961,"count":386,"checked":{"at":1794928961,"oembed":1701,"live_checked":104,"unknown":103,"dropped":1,"added":0,"http429":28,"secs":258},"channels":[
 {"id":"livecam-EO_1LWqsCNE","cat":"LIVE CAM","maxIdx":1,"label":"📡 Los Angeles · Venice Beach · Venice V Hotel · Stream","embed":"https://www.youtube.com/embed/EO_1LWqsCNE","src":"Teleport.camera","live":true,"origin":"verified-3.0"},
 {"id":"livecam-YWs0HMRVCBY","cat":"LIVE CAM","maxIdx":1,"label":"📡 BandCam Elbo Room Dance Floor & Bands","embed":"https://www.youtube.com/embed/YWs0HMRVCBY","src":"Elbo Room (Home of ElboTV)","live":true,"origin":"verified-3.0"},
 {"id":"livecam-dfVK7ld38Ys","cat":"LIVE CAM","maxIdx":1,"label":"📡 【ライブ】いまの渋谷・スクランブル交差点　ライブカメラ　Shibuya Scramble Crossing…","embed":"https://www.youtube.com/embed/dfVK7ld38Ys","src":"FNNプライムオンライン","live":true,"origin":"verified-3.0"},
@@ -59,7 +59,6 @@
 {"id":"livecam-GkBMgHwSIV0","cat":"LIVE CAM","maxIdx":1,"label":"📡 Miami Skyline — MacArthur Causeway","embed":"https://www.youtube.com/embed/GkBMgHwSIV0","src":"Ozolio Live","live":true,"origin":"verified-3.0"},
 {"id":"livecam-pv-2pVViNwc","cat":"LIVE CAM","maxIdx":1,"label":"📡 Times Square: Duffy Square View","embed":"https://www.youtube.com/embed/pv-2pVViNwc","src":"AE Signage","live":true,"origin":"verified-3.0"},
 {"id":"livecam-YXji6UQ0bwY","cat":"LIVE CAM","maxIdx":1,"label":"📡 From Sheraton Maui Resort & Spa","embed":"https://www.youtube.com/embed/YXji6UQ0bwY","src":"Ozolio Live","live":true,"origin":"verified-3.0"},
-{"id":"livecam-BpPJ2GHddYI","cat":"LIVE CAM","maxIdx":1,"label":"📡 Waikiki","embed":"https://www.youtube.com/embed/BpPJ2GHddYI","src":"uberjeph","live":true,"origin":"verified-3.0"},
 {"id":"livecam-KJuGU7v5oYw","cat":"LIVE CAM","maxIdx":1,"label":"📡 Bellagio Conservatory & Botanical Gardens (Las Vegas, NV)","embed":"https://www.youtube.com/embed/KJuGU7v5oYw","src":"EarthCam","live":true,"origin":"verified-3.0"},
 {"id":"livecam-NeHO46kDJ20","cat":"LIVE CAM","maxIdx":1,"label":"📡 Cancún Quintana Roo, En Vivo","embed":"https://www.youtube.com/embed/NeHO46kDJ20","src":"Webcams de México TV","live":true,"origin":"verified-3.0"},
 {"id":"livecam-iaBfYxbmwXA","cat":"LIVE CAM","maxIdx":1,"label":"📡 San Diego Harbor Island Web","embed":"https://www.youtube.com/embed/iaBfYxbmwXA","src":"San Diego Web Cam","live":true,"origin":"verified-3.0"},
