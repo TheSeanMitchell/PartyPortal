@@ -1,4 +1,4 @@
-{"updated":1794839370,"count":389,"checked":{"at":1794839370,"oembed":1703,"live_checked":106,"unknown":106,"dropped":0,"added":0,"http429":0,"secs":278},"channels":[
+{"updated":1794878849,"count":387,"checked":{"at":1794878849,"oembed":1703,"live_checked":105,"unknown":104,"dropped":2,"added":0,"http429":0,"secs":278},"channels":[
 {"id":"livecam-EO_1LWqsCNE","cat":"LIVE CAM","maxIdx":1,"label":"📡 Los Angeles · Venice Beach · Venice V Hotel · Stream","embed":"https://www.youtube.com/embed/EO_1LWqsCNE","src":"Teleport.camera","live":true,"origin":"verified-3.0"},
 {"id":"livecam-YWs0HMRVCBY","cat":"LIVE CAM","maxIdx":1,"label":"📡 BandCam Elbo Room Dance Floor & Bands","embed":"https://www.youtube.com/embed/YWs0HMRVCBY","src":"Elbo Room (Home of ElboTV)","live":true,"origin":"verified-3.0"},
 {"id":"livecam-dfVK7ld38Ys","cat":"LIVE CAM","maxIdx":1,"label":"📡 【ライブ】いまの渋谷・スクランブル交差点　ライブカメラ　Shibuya Scramble Crossing…","embed":"https://www.youtube.com/embed/dfVK7ld38Ys","src":"FNNプライムオンライン","live":true,"origin":"verified-3.0"},
@@ -8,7 +8,6 @@
 {"id":"livecam-RVvYQghFCXk","cat":"LIVE CAM","maxIdx":1,"label":"📡 Seoul Korea 24/7 한강 라이브캠 Hangang 韓国 ソウル ライブカメラ (since 2020)","embed":"https://www.youtube.com/embed/RVvYQghFCXk","src":"데일리서울 한강 라이브캠","live":true,"origin":"verified-3.0"},
 {"id":"livecam-5uZa3-RMFos","cat":"LIVE CAM","maxIdx":1,"label":"📡 WebcamSydney 1 of Harbour 24/7","embed":"https://www.youtube.com/embed/5uZa3-RMFos","src":"WebcamSydney","live":true,"origin":"verified-3.0"},
 {"id":"livecam-UK_09xEvif8","cat":"LIVE CAM","maxIdx":1,"label":"📡 from Fremont Street Las Vegas Vegas Nightlife — Downtown Party","embed":"https://www.youtube.com/embed/UK_09xEvif8","src":"VegasDon","live":true,"origin":"verified-3.0"},
-{"id":"livecam-H_kswlYZN5o","cat":"LIVE CAM","maxIdx":1,"label":"📡 Duval Street — Key West, Florida","embed":"https://www.youtube.com/embed/H_kswlYZN5o","src":"World Live Cams","live":true,"origin":"verified-3.0"},
 {"id":"livecam-cmkAbDUEoyA","cat":"LIVE CAM","maxIdx":1,"label":"📡 Beach Hollywood Beach Broadwalk, Florida","embed":"https://www.youtube.com/embed/cmkAbDUEoyA","src":"City of Hollywood","live":true,"origin":"verified-3.0"},
 {"id":"livecam-VGnFLdQW39A","cat":"LIVE CAM","maxIdx":1,"label":"📡 24/7 NYC — Times Square, skyline, streets, more","embed":"https://www.youtube.com/embed/VGnFLdQW39A","src":"FOX 5 New York","live":true,"origin":"verified-3.0"},
 {"id":"livecam-_Zqi24i0fl4","cat":"LIVE CAM","maxIdx":1,"label":"📡 Destin, FL Beach — Ocean Reef Resorts","embed":"https://www.youtube.com/embed/_Zqi24i0fl4","src":"Ocean Reef Resorts","live":true,"origin":"verified-3.0"},
@@ -39,7 +38,6 @@
 {"id":"livecam-loHbMM9JfCs","cat":"LIVE CAM","maxIdx":1,"label":"📡 Mambo Beach — Curaçao","embed":"https://www.youtube.com/embed/loHbMM9JfCs","src":"SHOWME Caribbean","live":true,"origin":"verified-3.0"},
 {"id":"livecam-Fw9hgttWzIg","cat":"LIVE CAM","maxIdx":1,"label":"📡 Crystal Bay Beach Resort — Lamai","embed":"https://www.youtube.com/embed/Fw9hgttWzIg","src":"The Real Samui Webcam","live":true,"origin":"verified-3.0"},
 {"id":"livecam-5B4LmH4JbnY","cat":"LIVE CAM","maxIdx":1,"label":"📡 【ライブ】渋谷スクランブル交差点 / Shibuya Scramble Crossing ANN/テレ朝","embed":"https://www.youtube.com/embed/5B4LmH4JbnY","src":"ANNnewsCH","live":true,"origin":"verified-3.0"},
-{"id":"livecam-bi7B4EmyHHs","cat":"LIVE CAM","maxIdx":1,"label":"📡 Sunny Isles Beach — Miami, FL","embed":"https://www.youtube.com/embed/bi7B4EmyHHs","src":"World Live Cams","live":true,"origin":"verified-3.0"},
 {"id":"livecam-Y5ypYTZs-7o","cat":"LIVE CAM","maxIdx":1,"label":"📡 Key West Bight Marina — Key West, Florida Keys","embed":"https://www.youtube.com/embed/Y5ypYTZs-7o","src":"FloridaKeysTV","live":true,"origin":"verified-3.0"},
 {"id":"livecam-XQ9MBlM0kCU","cat":"LIVE CAM","maxIdx":1,"label":"📡 Balneário Camboriú ao vivo — Avenida Atlântica","embed":"https://www.youtube.com/embed/XQ9MBlM0kCU","src":"CLIMA BC Brazil","live":true,"origin":"verified-3.0"},
 {"id":"livecam-5C9oM7C2Q9k","cat":"LIVE CAM","maxIdx":1,"label":"📡 World Trade Center — New York City, NY","embed":"https://www.youtube.com/embed/5C9oM7C2Q9k","src":"EarthCam","live":true,"origin":"verified-3.0"},
