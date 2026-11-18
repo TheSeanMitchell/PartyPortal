@@ -1,4 +1,4 @@
-{"updated":1794928961,"count":386,"checked":{"at":1794928961,"oembed":1701,"live_checked":104,"unknown":103,"dropped":1,"added":0,"http429":28,"secs":258},"channels":[
+{"updated":1794961368,"count":386,"checked":{"at":1794961368,"oembed":1700,"live_checked":103,"unknown":102,"dropped":0,"added":0,"http429":0,"secs":276},"channels":[
 {"id":"livecam-EO_1LWqsCNE","cat":"LIVE CAM","maxIdx":1,"label":"📡 Los Angeles · Venice Beach · Venice V Hotel · Stream","embed":"https://www.youtube.com/embed/EO_1LWqsCNE","src":"Teleport.camera","live":true,"origin":"verified-3.0"},
 {"id":"livecam-YWs0HMRVCBY","cat":"LIVE CAM","maxIdx":1,"label":"📡 BandCam Elbo Room Dance Floor & Bands","embed":"https://www.youtube.com/embed/YWs0HMRVCBY","src":"Elbo Room (Home of ElboTV)","live":true,"origin":"verified-3.0"},
 {"id":"livecam-dfVK7ld38Ys","cat":"LIVE CAM","maxIdx":1,"label":"📡 【ライブ】いまの渋谷・スクランブル交差点　ライブカメラ　Shibuya Scramble Crossing…","embed":"https://www.youtube.com/embed/dfVK7ld38Ys","src":"FNNプライムオンライン","live":true,"origin":"verified-3.0"},
@@ -76,7 +76,7 @@
 {"id":"livecam-AgnUddm-CQQ","cat":"LIVE CAM","maxIdx":1,"label":"📡 Hamptons.com — ! Coopers Beach, Southampton Village, New York…","embed":"https://www.youtube.com/embed/AgnUddm-CQQ","src":"Hamptons Beach Cams","live":true,"origin":"verified-3.0"},
 {"id":"livecam-y5XS3fMISRk","cat":"LIVE CAM","maxIdx":1,"label":"📡 Hawaii . Ala Moana, Magic Island, Honolulu. Surfers, beach…","embed":"https://www.youtube.com/embed/y5XS3fMISRk","src":"WOZ ERE","live":true,"origin":"verified-3.0"},
 {"id":"livecam-yTfNMKMnK2Y","cat":"LIVE CAM","maxIdx":1,"label":"📡 Gorgeous day in Myrtle Beach! look from Crown Reef Beach…","embed":"https://www.youtube.com/embed/yTfNMKMnK2Y","src":"Vacation Myrtle Beach","live":true,"origin":"verified-3.0"},
-{"id":"livecam-ghB-3979WwM","cat":"LIVE CAM","maxIdx":1,"label":"📡 AC Boardwalk","embed":"https://www.youtube.com/embed/ghB-3979WwM","src":"APM Digital","live":true,"origin":"verified-3.0"},
+{"id":"livecam-ghB-3979WwM","cat":"LIVE CAM","maxIdx":1,"label":"📡 AC Boardwalk","embed":"https://www.youtube.com/embed/ghB-3979WwM","src":"APM Digital","live":true,"origin":"verified-3.0","strikes":1},
 {"id":"livecam-_nvG0c9keWI","cat":"LIVE CAM","maxIdx":1,"label":"📡 Sainamyen Road, Patong, Phuket, Thailand","embed":"https://www.youtube.com/embed/_nvG0c9keWI","src":"Randomly Entertained","live":true,"origin":"verified-3.0"},
 {"id":"livecam-ITQrRCj8lOo","cat":"LIVE CAM","maxIdx":1,"label":"📡 東京ライブカメラ Tokyo ｜両国・相撲の街｜伝統ある下町風景｜24時間","embed":"https://www.youtube.com/embed/ITQrRCj8lOo","src":"東京ライブカメラ | Tokyo Live Cam","live":true,"origin":"verified-3.0"},
 {"id":"livecam-Z5bUdDmOZ4c","cat":"LIVE CAM","maxIdx":1,"label":"📡 Livecamera Tokyo skytree & Tsukiji stadium 2030 — of Tokyo in…","embed":"https://www.youtube.com/embed/Z5bUdDmOZ4c","src":"🗼 TOKYO LIVE 4K 🌸","live":true,"origin":"verified-3.0"},
