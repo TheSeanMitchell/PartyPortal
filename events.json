@@ -1,5 +1,5 @@
 {
-  "updated": 1795013584,
+  "updated": 1795045527,
   "festivals": [
     {
       "type": "festival",
@@ -371,17 +371,6 @@
     }
   ],
   "events": [
-    {
-      "artist": "Nightshift After Hours",
-      "venue": "The Lexington",
-      "type": "club",
-      "city": "Los Angeles",
-      "region": "la",
-      "date": "2026-11-17",
-      "ts": 1794970800,
-      "url": "https://ra.co/events/2579441",
-      "src": "19hz.info"
-    },
     {
       "artist": "Franky Rizardo",
       "venue": "XS",
@@ -1940,6 +1929,17 @@
       "date": "2026-11-20",
       "ts": 1795230000,
       "url": "https://dice.fm/event/6dkay8-tom-collins-20th-nov-sound-nightclub-los-angeles-tickets",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "Trainspotting Night",
+      "venue": "Boardner's By La Belle (Los Angeles) (Los Angeles)",
+      "type": "club",
+      "city": "Los Angeles",
+      "region": "la",
+      "date": "2026-11-20",
+      "ts": 1795230000,
+      "url": "https://www.eventbrite.com/e/trainspotting-night-tickets-1993653040913",
       "src": "19hz.info"
     },
     {
