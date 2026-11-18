@@ -1,5 +1,5 @@
 {
-  "updated": 1794961092,
+  "updated": 1795013584,
   "festivals": [
     {
       "type": "festival",
@@ -372,176 +372,6 @@
   ],
   "events": [
     {
-      "artist": "Mikey Francis",
-      "venue": "Omnia",
-      "type": "club",
-      "city": "Las Vegas",
-      "region": "vegas",
-      "date": "2026-11-17",
-      "ts": 1794942000,
-      "url": "https://nocovernightclubs.com/events/mikey-francis-omnia-nightclub-tuesday-november-17-2026/",
-      "src": "No Cover Nightclubs"
-    },
-    {
-      "artist": "Vegas Golden Knights Vs Dallas Stars",
-      "venue": "T-Mobile Arena",
-      "type": "sports",
-      "city": "Las Vegas",
-      "region": "vegas",
-      "date": "2026-11-17",
-      "ts": 1794945600,
-      "url": "https://concerts.vegas/event/vegas-golden-knights-vs-dallas-stars-las-vegas-tuesday-november-17-2026-700-pm/",
-      "src": "Concerts.Vegas"
-    },
-    {
-      "artist": "Ninajirachi w/ Mgna Crrrta",
-      "venue": "The Regency Ballroom",
-      "type": "club",
-      "city": "San Francisco",
-      "region": "world",
-      "date": "2026-11-17",
-      "ts": 1794945600,
-      "url": "https://www.axs.com/events/1638942",
-      "src": "19hz.info"
-    },
-    {
-      "artist": "Thundercat: Distracted Af Tour",
-      "venue": "Fox Theater",
-      "type": "club",
-      "city": "Oakland",
-      "region": "world",
-      "date": "2026-11-17",
-      "ts": 1794945600,
-      "url": "https://www.ticketmaster.com/thundercat-distracted-af-tour-oakland-california-11-17-2026/event/1C0064E91EDC126E",
-      "src": "19hz.info"
-    },
-    {
-      "artist": "Techno Tuesdays - DJ Jehnee",
-      "venue": "Make-Out Room",
-      "type": "club",
-      "city": "San Francisco",
-      "region": "world",
-      "date": "2026-11-17",
-      "ts": 1794945600,
-      "url": "http://www.makeoutroom.com/calendar.html",
-      "src": "19hz.info"
-    },
-    {
-      "artist": "El David Aguilar",
-      "venue": "ZeyZey",
-      "type": "club",
-      "city": "Miami",
-      "date": "2026-11-17",
-      "ts": 1794960000,
-      "url": "https://app.discotech.me/events/38228477-el-david-aguilar-at-zeyzey",
-      "src": "Discotech Miami",
-      "end_ts": 1794974400,
-      "region": "miami"
-    },
-    {
-      "artist": "Iron Lyon at Nine1nine",
-      "venue": "E11EVEN",
-      "type": "club",
-      "city": "Miami",
-      "date": "2026-11-17",
-      "ts": 1794963600,
-      "url": "https://app.discotech.me/events/38267247-iron-lyon-at-nine1nine-at-e11even",
-      "src": "Discotech Miami",
-      "end_ts": 1794999600,
-      "region": "miami"
-    },
-    {
-      "artist": "Jack White Live 2026",
-      "venue": "The Fillmore Miami Beach",
-      "type": "pool",
-      "city": "Miami",
-      "date": "2026-11-17",
-      "ts": 1794963600,
-      "url": "https://app.discotech.me/events/38176299-jack-white-live-2026-at-the-fillmore-miami-beach",
-      "src": "Discotech Miami",
-      "end_ts": 1794978000,
-      "region": "miami"
-    },
-    {
-      "artist": "Tuesdays",
-      "venue": "Gold Rush Cabaret",
-      "type": "club",
-      "city": "Miami",
-      "date": "2026-11-17",
-      "ts": 1794967200,
-      "url": "https://app.discotech.me/events/38252686-tuesdays-at-gold-rush-cabaret",
-      "src": "Discotech Miami",
-      "end_ts": 1794996000,
-      "region": "miami"
-    },
-    {
-      "artist": "Late Groove: Caleb Jackson",
-      "venue": "Sable",
-      "type": "club",
-      "city": "Miami",
-      "date": "2026-11-17",
-      "ts": 1794970800,
-      "url": "https://app.discotech.me/events/38317147-late-groove-caleb-jackson-at-sable",
-      "src": "Discotech Miami",
-      "end_ts": 1794988800,
-      "region": "miami"
-    },
-    {
-      "artist": "Iron Lyon",
-      "venue": "E11even",
-      "type": "club",
-      "city": "Miami",
-      "region": "miami",
-      "date": "2026-11-17",
-      "ts": 1794970800,
-      "url": "https://speakeasygo.com/E11EVEN/IRON-LYON-AT-E11EVEN",
-      "src": "19hz.info"
-    },
-    {
-      "artist": "Roz: Se Esta Haciendo Tarde",
-      "venue": "House of Blues",
-      "type": "club",
-      "city": "San Diego",
-      "region": "world",
-      "date": "2026-11-17",
-      "ts": 1794970800,
-      "url": "https://www.ticketmaster.com/event/0A00650621A2B3C4",
-      "src": "19hz.info"
-    },
-    {
-      "artist": "Hologram Teen, Lance Rock, Yacht",
-      "venue": "Zebulon",
-      "type": "club",
-      "city": "Los Angeles",
-      "region": "la",
-      "date": "2026-11-17",
-      "ts": 1794970800,
-      "url": "https://dice.fm/event/6a82a774c386c20001705805",
-      "src": "19hz.info"
-    },
-    {
-      "artist": "Kevin Knapp",
-      "venue": "The Basement",
-      "type": "club",
-      "city": "Pomona",
-      "region": "la",
-      "date": "2026-11-17",
-      "ts": 1794970800,
-      "url": "https://www.eventbrite.com/e/space-taco-presents-kevin-knapp-dirtybird-plump-records-nov-17-tickets-2004092588882",
-      "src": "19hz.info"
-    },
-    {
-      "artist": "Roz - Afterparty",
-      "venue": "Eq",
-      "type": "club",
-      "city": "San Diego",
-      "region": "world",
-      "date": "2026-11-17",
-      "ts": 1794970800,
-      "url": "https://events.leapevents.com/event/led-presents-roz-after-party-eq-2026/tag/laylo-presale",
-      "src": "19hz.info"
-    },
-    {
       "artist": "Nightshift After Hours",
       "venue": "The Lexington",
       "type": "club",
@@ -551,42 +381,6 @@
       "ts": 1794970800,
       "url": "https://ra.co/events/2579441",
       "src": "19hz.info"
-    },
-    {
-      "artist": "Mario Duran",
-      "venue": "Gekko Lounge",
-      "type": "club",
-      "city": "Miami",
-      "date": "2026-11-17",
-      "ts": 1794974400,
-      "url": "https://app.discotech.me/events/38301959-mario-duran-at-gekko-lounge",
-      "src": "Discotech Miami",
-      "end_ts": 1794992400,
-      "region": "miami"
-    },
-    {
-      "artist": "Tuesday nights",
-      "venue": "Mr Jones",
-      "type": "club",
-      "city": "Miami",
-      "date": "2026-11-17",
-      "ts": 1794977700,
-      "url": "https://app.discotech.me/events/38238748-tuesday-nights-at-mr-jones",
-      "src": "Discotech Miami",
-      "end_ts": 1794996000,
-      "region": "miami"
-    },
-    {
-      "artist": "The Trip Miami",
-      "venue": "Nova Social Club",
-      "type": "club",
-      "city": "Miami",
-      "date": "2026-11-18",
-      "ts": 1794988800,
-      "url": "https://app.discotech.me/events/38226236-the-trip-miami-at-nova-social-club",
-      "src": "Discotech Miami",
-      "end_ts": 1795010400,
-      "region": "miami"
     },
     {
       "artist": "Franky Rizardo",
@@ -724,13 +518,13 @@
       "region": "miami"
     },
     {
-      "artist": "Join the Local Signal ))): Paul Dudamel / Yusur / Soul Bro",
+      "artist": "Join the Local Signal ))): Paul Dudamel / Yusur / Tomaz",
       "venue": "Miami Concerts & Events",
       "type": "club",
       "city": "Miami",
       "date": "2026-11-18",
       "ts": 1795053600,
-      "url": "https://app.discotech.me/events/38315078-join-the-local-signal-paul-dudamel-yusur-soul-bro-at-miami-concerts-and-events",
+      "url": "https://app.discotech.me/events/38315078-join-the-local-signal-paul-dudamel-yusur-tomaz-at-miami-concerts-and-events",
       "src": "Discotech Miami",
       "end_ts": 1795075200,
       "region": "miami"
@@ -1025,6 +819,39 @@
       "src": "19hz.info"
     },
     {
+      "artist": "Discoesq",
+      "venue": "Phonobar",
+      "type": "club",
+      "city": "San Francisco",
+      "region": "world",
+      "date": "2026-11-19",
+      "ts": 1795118400,
+      "url": "https://www.instagram.com/phonobarsf/p/DfOqQ6Qy0Lt/",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "HydeFM Residency",
+      "venue": "Bar Part Time",
+      "type": "club",
+      "city": "San Francisco",
+      "region": "world",
+      "date": "2026-11-19",
+      "ts": 1795118400,
+      "url": "https://www.instagram.com/barparttime/p/DfXdjOXO_7n/",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "Throttle Techno: DJ Stingray, sfcowboy, DE ALMA, Discnogirl",
+      "venue": "1015 Folsom",
+      "type": "club",
+      "city": "San Francisco",
+      "region": "world",
+      "date": "2026-11-19",
+      "ts": 1795118400,
+      "url": "https://ra.co/events/2533575",
+      "src": "19hz.info"
+    },
+    {
       "artist": "The Floozies",
       "venue": "Bad Astronaut Brewing Co",
       "type": "club",
@@ -1137,6 +964,78 @@
       "url": "https://app.discotech.me/events/38261909-abstract-citizen-at-miami-beach-bandshell",
       "src": "Discotech Miami",
       "end_ts": 1795149000,
+      "region": "miami"
+    },
+    {
+      "artist": "Rockwell at Nine1nine",
+      "venue": "E11EVEN",
+      "type": "club",
+      "city": "Miami",
+      "date": "2026-11-19",
+      "ts": 1795136400,
+      "url": "https://app.discotech.me/events/38267235-rockwell-at-nine1nine-at-e11even",
+      "src": "Discotech Miami",
+      "end_ts": 1795179600,
+      "region": "miami"
+    },
+    {
+      "artist": "DMeyer, Desert Sail, Idossa, Naza Gold, Dario",
+      "venue": "AIRE Miami",
+      "type": "club",
+      "city": "Miami",
+      "date": "2026-11-19",
+      "ts": 1795140000,
+      "url": "https://app.discotech.me/events/38315228-dmeyer-desert-sail-idossa-naza-gold-dario-at-aire-miami",
+      "src": "Discotech Miami",
+      "end_ts": 1795165200,
+      "region": "miami"
+    },
+    {
+      "artist": "Femme Frequency / Soirée: Penny Lane / Darelectric /Psy Chic",
+      "venue": "Miami Concerts & Events",
+      "type": "club",
+      "city": "Miami",
+      "date": "2026-11-19",
+      "ts": 1795140000,
+      "url": "https://app.discotech.me/events/38315079-femme-frequency-soiree-penny-lane-darelectric-psy-chic-at-miami-concerts-and-events",
+      "src": "Discotech Miami",
+      "end_ts": 1795161600,
+      "region": "miami"
+    },
+    {
+      "artist": "Thursdays",
+      "venue": "Gold Rush Cabaret",
+      "type": "club",
+      "city": "Miami",
+      "date": "2026-11-19",
+      "ts": 1795140000,
+      "url": "https://app.discotech.me/events/38252688-thursdays-at-gold-rush-cabaret",
+      "src": "Discotech Miami",
+      "end_ts": 1795168800,
+      "region": "miami"
+    },
+    {
+      "artist": "Secret Thursdays",
+      "venue": "Miami Concerts & Events",
+      "type": "club",
+      "city": "Miami",
+      "date": "2026-11-19",
+      "ts": 1795143600,
+      "url": "https://app.discotech.me/events/38311003-secret-thursdays-at-miami-concerts-and-events",
+      "src": "Discotech Miami",
+      "end_ts": 1795168800,
+      "region": "miami"
+    },
+    {
+      "artist": "The Groove Palace: Rayzir",
+      "venue": "Jolene Sound Room",
+      "type": "club",
+      "city": "Miami",
+      "date": "2026-11-19",
+      "ts": 1795143600,
+      "url": "https://app.discotech.me/events/38303555-the-groove-palace-rayzir-at-jolene-sound-room",
+      "src": "Discotech Miami",
+      "end_ts": 1795165200,
       "region": "miami"
     },
     {
@@ -1402,6 +1301,30 @@
       "ts": 1795143600,
       "url": "https://speakeasygo.com/event/eve-s7x1ng?pc=edmtrain",
       "src": "19hz.info"
+    },
+    {
+      "artist": "Salsa vs Perreo (Free Entry)",
+      "venue": "ZeyZey",
+      "type": "club",
+      "city": "Miami",
+      "date": "2026-11-19",
+      "ts": 1795145400,
+      "url": "https://app.discotech.me/events/38317974-salsa-vs-perreo-free-entry-at-zeyzey",
+      "src": "Discotech Miami",
+      "end_ts": 1795159800,
+      "region": "miami"
+    },
+    {
+      "artist": "Chris Valencia @ Selva",
+      "venue": "Selva",
+      "type": "club",
+      "city": "Miami",
+      "date": "2026-11-19",
+      "ts": 1795149000,
+      "url": "https://app.discotech.me/events/38305539-chris-valencia-selva-at-selva",
+      "src": "Discotech Miami",
+      "end_ts": 1795165200,
+      "region": "miami"
     },
     {
       "artist": "Meduza",
@@ -1976,6 +1899,50 @@
       "src": "19hz.info"
     },
     {
+      "artist": "Iheartwubz",
+      "venue": "Catch One",
+      "type": "club",
+      "city": "Los Angeles",
+      "region": "la",
+      "date": "2026-11-20",
+      "ts": 1795230000,
+      "url": "https://dice.fm/event/6ad12479b4413e000158d218",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "One More Time",
+      "venue": "Nova Sd",
+      "type": "club",
+      "city": "San Diego",
+      "region": "world",
+      "date": "2026-11-20",
+      "ts": 1795230000,
+      "url": "https://www.tixr.com/groups/novasd/events/one-more-time-207576",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "Qna All Night: Pauliewog, Howin Wong, Ly Tran",
+      "venue": "El Cid",
+      "type": "club",
+      "city": "Los Angeles",
+      "region": "la",
+      "date": "2026-11-20",
+      "ts": 1795230000,
+      "url": "https://ra.co/events/2579458",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "Tom & Collins, Dor Danino, Reza",
+      "venue": "Sound Nightclub",
+      "type": "club",
+      "city": "Los Angeles",
+      "region": "la",
+      "date": "2026-11-20",
+      "ts": 1795230000,
+      "url": "https://dice.fm/event/6dkay8-tom-collins-20th-nov-sound-nightclub-los-angeles-tickets",
+      "src": "19hz.info"
+    },
+    {
       "artist": "Meduza",
       "venue": "Zouk Nightclub",
       "type": "club",
@@ -2237,6 +2204,17 @@
       "date": "2026-11-21",
       "ts": 1795316400,
       "url": "https://dice.fm/event/6adb9490e08a040001e559ea",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "Star Monster",
+      "venue": "Kemistry",
+      "type": "club",
+      "city": "Fort Lauderdale",
+      "region": "world",
+      "date": "2026-11-21",
+      "ts": 1795316400,
+      "url": "https://dice.fm/event/v3xw57-star-monster-21st-nov-kemistry-fort-lauderdale-tickets",
       "src": "19hz.info"
     },
     {
@@ -5262,6 +5240,28 @@
       "date": "2027-01-02",
       "ts": 1798920000,
       "url": "https://concerts.vegas/event/lord-huron-las-vegas-the-theater-at-virgin-hotels-las-vegas-saturday-january-2-2027-8-00-pm/",
+      "src": "Concerts.Vegas"
+    },
+    {
+      "artist": "Vegas Golden Knights Vs Minnesota Wild",
+      "venue": "T-Mobile Arena",
+      "type": "sports",
+      "city": "Las Vegas",
+      "region": "vegas",
+      "date": "2027-01-07",
+      "ts": 1799352000,
+      "url": "https://concerts.vegas/event/vegas-golden-knights-vs-minnesota-wild-las-vegas-thursday-january-7-2027-630-pm/",
+      "src": "Concerts.Vegas"
+    },
+    {
+      "artist": "Vegas Golden Knights Vs Seattle Kraken",
+      "venue": "T-Mobile Arena",
+      "type": "sports",
+      "city": "Las Vegas",
+      "region": "vegas",
+      "date": "2027-01-09",
+      "ts": 1799524800,
+      "url": "https://concerts.vegas/event/vegas-golden-knights-vs-seattle-kraken-las-vegas-saturday-january-9-2027-700-pm/",
       "src": "Concerts.Vegas"
     },
     {
