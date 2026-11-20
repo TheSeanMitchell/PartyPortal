@@ -1,5 +1,5 @@
 {
-  "updated": 1795100355,
+  "updated": 1795133134,
   "festivals": [
     {
       "type": "festival",
@@ -482,6 +482,17 @@
       "src": "19hz.info"
     },
     {
+      "artist": "Umni Launch Party",
+      "venue": "TBA",
+      "type": "club",
+      "city": "San Francisco",
+      "region": "world",
+      "date": "2026-11-19",
+      "ts": 1795118400,
+      "url": "https://luma.com/y618iijs",
+      "src": "19hz.info"
+    },
+    {
       "artist": "Pretty Lights",
       "venue": "Fox Theater",
       "type": "club",
@@ -548,6 +559,28 @@
       "src": "19hz.info"
     },
     {
+      "artist": "Pineapple Thursdays: Rubiconski, Amber Leigh, Uneque, Matt Frost, Mikey Chang",
+      "venue": "Butter",
+      "type": "club",
+      "city": "San Francisco",
+      "region": "world",
+      "date": "2026-11-19",
+      "ts": 1795118400,
+      "url": "https://www.instagram.com/mikeychang/reel/Dfz5VLAMfkM/",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "Cutso",
+      "venue": "Still OG",
+      "type": "club",
+      "city": "San Jose",
+      "region": "world",
+      "date": "2026-11-19",
+      "ts": 1795118400,
+      "url": "https://www.instagram.com/p/Df0G2o4k7Iz/?img_index=6",
+      "src": "19hz.info"
+    },
+    {
       "artist": "Inner Circle Ft. Cutso + Sage",
       "venue": "White Rabbit",
       "type": "club",
@@ -559,6 +592,17 @@
       "src": "19hz.info"
     },
     {
+      "artist": "The Hold Up: Puddlepalms, 7evenb",
+      "venue": "Pop's Bar",
+      "type": "club",
+      "city": "San Francisco",
+      "region": "world",
+      "date": "2026-11-19",
+      "ts": 1795118400,
+      "url": "https://www.instagram.com/theholdupsf/p/Df0IXBVBFz1/",
+      "src": "19hz.info"
+    },
+    {
       "artist": "Discoesq",
       "venue": "Phonobar",
       "type": "club",
@@ -567,50 +611,6 @@
       "date": "2026-11-19",
       "ts": 1795118400,
       "url": "https://www.instagram.com/phonobarsf/p/DfOqQ6Qy0Lt/",
-      "src": "19hz.info"
-    },
-    {
-      "artist": "HydeFM Residency",
-      "venue": "Bar Part Time",
-      "type": "club",
-      "city": "San Francisco",
-      "region": "world",
-      "date": "2026-11-19",
-      "ts": 1795118400,
-      "url": "https://www.instagram.com/barparttime/p/DfXdjOXO_7n/",
-      "src": "19hz.info"
-    },
-    {
-      "artist": "Throttle Techno: DJ Stingray, sfcowboy, DE ALMA, Discnogirl",
-      "venue": "1015 Folsom",
-      "type": "club",
-      "city": "San Francisco",
-      "region": "world",
-      "date": "2026-11-19",
-      "ts": 1795118400,
-      "url": "https://ra.co/events/2533575",
-      "src": "19hz.info"
-    },
-    {
-      "artist": "After Dark - 'Moment Of Clairity'",
-      "venue": "The Knockout",
-      "type": "club",
-      "city": "San Francisco",
-      "region": "world",
-      "date": "2026-11-19",
-      "ts": 1795118400,
-      "url": "https://ra.co/events/2564310",
-      "src": "19hz.info"
-    },
-    {
-      "artist": "Ben Dro & Friends: Bellevue, Cesco, Devo B, Middle Child, Mode Leeloo",
-      "venue": "Hawthorn",
-      "type": "club",
-      "city": "San Francisco",
-      "region": "world",
-      "date": "2026-11-19",
-      "ts": 1795118400,
-      "url": "https://www.eventbrite.com/e/ben-dro-friends-presentssan-francisco-showcase-tickets-2004755484621",
       "src": "19hz.info"
     },
     {

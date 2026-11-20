@@ -1,4 +1,4 @@
-{"updated":1795100576,"count":383,"checked":{"at":1795100576,"oembed":1697,"live_checked":100,"unknown":100,"dropped":0,"added":0,"http429":28,"secs":220},"channels":[
+{"updated":1795133407,"count":381,"checked":{"at":1795133407,"oembed":1697,"live_checked":99,"unknown":98,"dropped":2,"added":0,"http429":0,"secs":273},"channels":[
 {"id":"livecam-EO_1LWqsCNE","cat":"LIVE CAM","maxIdx":1,"label":"📡 Los Angeles · Venice Beach · Venice V Hotel · Stream","embed":"https://www.youtube.com/embed/EO_1LWqsCNE","src":"Teleport.camera","live":true,"origin":"verified-3.0"},
 {"id":"livecam-YWs0HMRVCBY","cat":"LIVE CAM","maxIdx":1,"label":"📡 BandCam Elbo Room Dance Floor & Bands","embed":"https://www.youtube.com/embed/YWs0HMRVCBY","src":"Elbo Room (Home of ElboTV)","live":true,"origin":"verified-3.0"},
 {"id":"livecam-dfVK7ld38Ys","cat":"LIVE CAM","maxIdx":1,"label":"📡 【ライブ】いまの渋谷・スクランブル交差点　ライブカメラ　Shibuya Scramble Crossing…","embed":"https://www.youtube.com/embed/dfVK7ld38Ys","src":"FNNプライムオンライン","live":true,"origin":"verified-3.0"},
@@ -29,7 +29,6 @@
 {"id":"livecam-ErHJBXTmm2Q","cat":"LIVE CAM","maxIdx":1,"label":"📡 【24Ｈ：】東京 新宿 歌舞伎町 交差点 ライブカメラ / Tokyo Shinjuku Kabukicho…","embed":"https://www.youtube.com/embed/ErHJBXTmm2Q","src":"テイケイ公式チャンネル","live":true,"origin":"verified-3.0"},
 {"id":"livecam-pXx3YQVSUGg","cat":"LIVE CAM","maxIdx":1,"label":"📡 Fort Lauderdale Beach","embed":"https://www.youtube.com/embed/pXx3YQVSUGg","src":"PTZtv","live":true,"origin":"verified-3.0"},
 {"id":"livecam-6dp-bvQ7RWo","cat":"LIVE CAM","maxIdx":1,"label":"📡 2024 Tokyo Shinjuku 新宿 大ガード交差点 Ch","embed":"https://www.youtube.com/embed/6dp-bvQ7RWo","src":"【LIVE】新宿 大ガード交差点 Tokyo Shinjuku Live Ch","live":true,"origin":"verified-3.0"},
-{"id":"livecam-vVyBOU9Huvo","cat":"LIVE CAM","maxIdx":1,"label":"📡 Resorts Casino Hotel Beach Camera","embed":"https://www.youtube.com/embed/vVyBOU9Huvo","src":"Resorts Casino Hotel","live":true,"origin":"verified-3.0"},
 {"id":"livecam-UKtfCDXhCq0","cat":"LIVE CAM","maxIdx":1,"label":"📡 Myrtle Beach Boardwalk","embed":"https://www.youtube.com/embed/UKtfCDXhCq0","src":"Myrtle Beach Today","live":true,"origin":"verified-3.0"},
 {"id":"livecam-UemFRPrl1hk","cat":"LIVE CAM","maxIdx":1,"label":"📡 El Gaucho — Soi 11","embed":"https://www.youtube.com/embed/UemFRPrl1hk","src":"The Real Samui Webcam","live":true,"origin":"verified-3.0"},
 {"id":"livecam-GKOyGoRE0Tg","cat":"LIVE CAM","maxIdx":1,"label":"📡 Myrtle Beach View — Captain's Quarters Resort","embed":"https://www.youtube.com/embed/GKOyGoRE0Tg","src":"Vacation Myrtle Beach","live":true,"origin":"verified-3.0"},
@@ -81,7 +80,6 @@
 {"id":"livecam-jZEvrGZ_8y0","cat":"LIVE CAM","maxIdx":1,"label":"📡 Hampton Beach","embed":"https://www.youtube.com/embed/jZEvrGZ_8y0","src":"Hampton Beach - Official","live":true,"origin":"verified-3.0"},
 {"id":"livecam-w_ol0TmMWKY","cat":"LIVE CAM","maxIdx":1,"label":"📡 Destin Florida HarborWalk Village & Destin Harbor","embed":"https://www.youtube.com/embed/w_ol0TmMWKY","src":"Beach TV - Panama City Beach","live":true,"origin":"verified-3.0"},
 {"id":"livecam-bvL_3W7F4Fk","cat":"LIVE CAM","maxIdx":1,"label":"📡 Queen Isabella Memorial Causeway South Padre Island Realtime","embed":"https://www.youtube.com/embed/bvL_3W7F4Fk","src":"South Padre Island","live":true,"origin":"verified-3.0"},
-{"id":"livecam-Tm0VHlOzHD8","cat":"LIVE CAM","maxIdx":1,"label":"📡 Mallorca Tora Beach Paguera 24/7","embed":"https://www.youtube.com/embed/Tm0VHlOzHD8","src":"Mallorca Webcam 2","live":true,"origin":"verified-3.0"},
 {"id":"livecam-TKFGGr8UpaU","cat":"LIVE CAM","maxIdx":1,"label":"📡 Las Vegas: Aerie View","embed":"https://www.youtube.com/embed/TKFGGr8UpaU","src":"AE Signage","live":true,"origin":"verified-3.0"},
 {"id":"livecam-BP9AtblEpXE","cat":"LIVE CAM","maxIdx":1,"label":"📡 Bagatelle Key West","embed":"https://www.youtube.com/embed/BP9AtblEpXE","src":"Seek Florida Keys","live":true,"origin":"verified-3.0"},
 {"id":"livecam-gV2Lj_a-IoQ","cat":"LIVE CAM","maxIdx":1,"label":"📡 Cape May Cove with views of the Cove Beach, Cape May Light…","embed":"https://www.youtube.com/embed/gV2Lj_a-IoQ","src":"Jim Ginn","live":true,"origin":"verified-3.0"},
