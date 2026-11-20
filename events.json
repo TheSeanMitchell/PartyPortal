@@ -1,5 +1,5 @@
 {
-  "updated": 1795185746,
+  "updated": 1795217540,
   "festivals": [
     {
       "type": "festival",
@@ -372,18 +372,6 @@
   ],
   "events": [
     {
-      "artist": "The Trip Miami",
-      "venue": "Nova Social Club",
-      "type": "club",
-      "city": "Miami",
-      "date": "2026-11-20",
-      "ts": 1795161600,
-      "url": "https://app.discotech.me/events/38226240-the-trip-miami-at-nova-social-club",
-      "src": "Discotech Miami",
-      "end_ts": 1795183200,
-      "region": "miami"
-    },
-    {
       "artist": "Cleve Island Pool Party",
       "venue": "The Clevelander",
       "type": "pool",
@@ -393,18 +381,6 @@
       "url": "https://app.discotech.me/events/38216346-cleve-island-pool-party-at-the-clevelander",
       "src": "Discotech Miami",
       "end_ts": 1795219200,
-      "region": "miami"
-    },
-    {
-      "artist": "Dysomnia",
-      "venue": "Strawberry Moon",
-      "type": "club",
-      "city": "Miami",
-      "date": "2026-11-20",
-      "ts": 1795194000,
-      "url": "https://app.discotech.me/events/38237600-dysomnia-at-strawberry-moon",
-      "src": "Discotech Miami",
-      "end_ts": 1795215600,
       "region": "miami"
     },
     {
@@ -1016,6 +992,30 @@
       "url": "https://app.discotech.me/events/38315589-ctrl-room-at-m2-nightclub-miami",
       "src": "Discotech Miami",
       "end_ts": 1795251600,
+      "region": "miami"
+    },
+    {
+      "artist": "Darude - Hype Tour 2026",
+      "venue": "Upside",
+      "type": "club",
+      "city": "Miami",
+      "date": "2026-11-20",
+      "ts": 1795230000,
+      "url": "https://app.discotech.me/events/38309715-darude-hype-tour-2026-at-upside",
+      "src": "Discotech Miami",
+      "end_ts": 1795248000,
+      "region": "miami"
+    },
+    {
+      "artist": "El Bonche 2",
+      "venue": "Miami Concerts & Events",
+      "type": "club",
+      "city": "Miami",
+      "date": "2026-11-20",
+      "ts": 1795230000,
+      "url": "https://app.discotech.me/events/38322322-el-bonche-2-at-miami-concerts-and-events",
+      "src": "Discotech Miami",
+      "end_ts": 1795255200,
       "region": "miami"
     },
     {
