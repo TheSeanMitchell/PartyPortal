@@ -1,4 +1,4 @@
-{"updated":1795217812,"count":381,"checked":{"at":1795217812,"oembed":1695,"live_checked":98,"unknown":98,"dropped":0,"added":0,"http429":0,"secs":272},"channels":[
+{"updated":1795269772,"count":381,"checked":{"at":1795269772,"oembed":1695,"live_checked":98,"unknown":97,"dropped":0,"added":0,"http429":0,"secs":272},"channels":[
 {"id":"livecam-EO_1LWqsCNE","cat":"LIVE CAM","maxIdx":1,"label":"📡 Los Angeles · Venice Beach · Venice V Hotel · Stream","embed":"https://www.youtube.com/embed/EO_1LWqsCNE","src":"Teleport.camera","live":true,"origin":"verified-3.0"},
 {"id":"livecam-YWs0HMRVCBY","cat":"LIVE CAM","maxIdx":1,"label":"📡 BandCam Elbo Room Dance Floor & Bands","embed":"https://www.youtube.com/embed/YWs0HMRVCBY","src":"Elbo Room (Home of ElboTV)","live":true,"origin":"verified-3.0"},
 {"id":"livecam-dfVK7ld38Ys","cat":"LIVE CAM","maxIdx":1,"label":"📡 【ライブ】いまの渋谷・スクランブル交差点　ライブカメラ　Shibuya Scramble Crossing…","embed":"https://www.youtube.com/embed/dfVK7ld38Ys","src":"FNNプライムオンライン","live":true,"origin":"verified-3.0"},
@@ -36,7 +36,7 @@
 {"id":"livecam-98jOtUeM3m8","cat":"LIVE CAM","maxIdx":1,"label":"📡 Venice Beach NOW 24/7 North Boardwalk","embed":"https://www.youtube.com/embed/98jOtUeM3m8","src":"Ready When You're Ready","live":true,"origin":"verified-3.0"},
 {"id":"livecam-loHbMM9JfCs","cat":"LIVE CAM","maxIdx":1,"label":"📡 Mambo Beach — Curaçao","embed":"https://www.youtube.com/embed/loHbMM9JfCs","src":"SHOWME Caribbean","live":true,"origin":"verified-3.0"},
 {"id":"livecam-Fw9hgttWzIg","cat":"LIVE CAM","maxIdx":1,"label":"📡 Crystal Bay Beach Resort — Lamai","embed":"https://www.youtube.com/embed/Fw9hgttWzIg","src":"The Real Samui Webcam","live":true,"origin":"verified-3.0"},
-{"id":"livecam-5B4LmH4JbnY","cat":"LIVE CAM","maxIdx":1,"label":"📡 【ライブ】渋谷スクランブル交差点 / Shibuya Scramble Crossing ANN/テレ朝","embed":"https://www.youtube.com/embed/5B4LmH4JbnY","src":"ANNnewsCH","live":true,"origin":"verified-3.0"},
+{"id":"livecam-5B4LmH4JbnY","cat":"LIVE CAM","maxIdx":1,"label":"📡 【ライブ】渋谷スクランブル交差点 / Shibuya Scramble Crossing ANN/テレ朝","embed":"https://www.youtube.com/embed/5B4LmH4JbnY","src":"ANNnewsCH","live":true,"origin":"verified-3.0","strikes":1},
 {"id":"livecam-Y5ypYTZs-7o","cat":"LIVE CAM","maxIdx":1,"label":"📡 Key West Bight Marina — Key West, Florida Keys","embed":"https://www.youtube.com/embed/Y5ypYTZs-7o","src":"FloridaKeysTV","live":true,"origin":"verified-3.0"},
 {"id":"livecam-XQ9MBlM0kCU","cat":"LIVE CAM","maxIdx":1,"label":"📡 Balneário Camboriú ao vivo — Avenida Atlântica","embed":"https://www.youtube.com/embed/XQ9MBlM0kCU","src":"CLIMA BC Brazil","live":true,"origin":"verified-3.0"},
 {"id":"livecam-5C9oM7C2Q9k","cat":"LIVE CAM","maxIdx":1,"label":"📡 World Trade Center — New York City, NY","embed":"https://www.youtube.com/embed/5C9oM7C2Q9k","src":"EarthCam","live":true,"origin":"verified-3.0"},
