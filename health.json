@@ -1,0 +1,54 @@
+{
+ "version": "3.2.0",
+ "built_utc": "2026-11-22T22:56:10Z",
+ "build_seconds": 31.0,
+ "feeds": {
+  "total": 253,
+  "returned_items": 246,
+  "empty": 6,
+  "failed": 1,
+  "failed_names": [
+   "Vital Vegas"
+  ]
+ },
+ "news": {
+  "items": 140,
+  "multi_outlet": 50,
+  "hot": 35,
+  "tabs": {
+   "Las Vegas": 20,
+   "Tickets & Lineups": 6,
+   "Fashion & Swim": 10,
+   "Ibiza & Global": 6,
+   "Festivals": 16,
+   "Hip-Hop": 6,
+   "Rock": 10,
+   "Retro & Culture": 6,
+   "Techno & House": 7,
+   "EDM & Dance": 12,
+   "Nightlife & Clubs": 7,
+   "Pop & Tours": 34
+  },
+  "promo_filtered": {
+   "how to watch": 12,
+   "off-topic outlet": 13,
+   "quiz / poll": 4,
+   "horoscope": 3,
+   "shopping": 10,
+   "promo publisher": 1,
+   "ticket resale": 22,
+   "betting": 1,
+   "ticket how-to": 1
+  }
+ },
+ "calendar": {
+  "events": 436,
+  "festivals": 50,
+  "events_updated": 1795388170
+ },
+ "channels": {
+  "channels": 419,
+  "videos": 1884,
+  "live": 98
+ }
+}
