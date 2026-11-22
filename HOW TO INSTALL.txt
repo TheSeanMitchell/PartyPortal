@@ -1,0 +1,64 @@
+PARTY PORTAL 3.2 - UPLOAD TO GITHUB (made with Argus 1.0.3, 21 November 2026)
+=============================================================================
+
+WHAT IS IN THIS FOLDER (only the files that changed; everything else on GitHub stays as it is)
+  index.html                          the page (3.2; includes 3.1 from ORDER-700, never uploaded)
+  channels.json                       the channel list: 419 channels / 1,884 videos (was 381 / 1,712)
+  bot.py                              the news and calendar builder (3.2)
+  CHANGELOG.md                        what changed, v3.2 at the top
+  README.md                           the read-me, now with "The Argus contract"
+  sw.js                               the offline cache, version bumped so phones load the new page
+  .github\workflows\daily-content.yml one line added: the refresh also publishes health.json
+  HOW TO INSTALL.txt                  this note (do not upload it)
+
+WHAT CHANGED
+  1. The page: four big screens first (a 2x2 block filling the width the 10-tile wall used),
+     then a TOP 10 MOST REPORTED (two columns of five, like NUZU's), then On The Horizon, then
+     the news. With LIVE VIDEO off the headlines lead. Phones keep the single player.
+  2. The top bar mirrors NUZU's: SAVED, UPDATED, LIGHT, LIVE VIDEO, PARTY MODE, SHUFFLE.
+     LIVE VIDEO (key V) is remembered; it is ON until someone turns it off.
+  3. Each screen has a next-video button and a new-channel button; one screen always comes from
+     the core lanes; every visit deals a different set (10 visits: 40 videos, no repeats).
+  4. News like NUZU's: about 250 feeds (was 145), the same story grouped across outlets and
+     counted. On the same news: stories reported by 2+ outlets 22 -> 91. The fire now means
+     "several outlets, under 24 hours" (it was on every story). Shopping posts, ticket how-tos,
+     horoscopes, sports and TV, and copy-paste sites are filtered out; ticket news stays.
+  5. More to watch: swim runway 60 -> 73 videos, fashion shows 74 -> 148, live rock 81 -> 166.
+     Official uploads only, each new video checked playing on the live site.
+  6. The winter calendar: 29 new dates from official pages - New Year's Eve in 13 cities,
+     the Australian and New Zealand summer festivals, Thailand, Tulum - and a New Year's Eve
+     countdown with a button for the world's NYE parties. 52 festivals in all (was 23).
+  7. While the page is hidden (another browser tab or another Argus tab) the silent screens
+     pause; the one being heard keeps playing.
+  8. health.json each build (https://theseanmitchell.github.io/PartyPortal/health.json).
+
+HOW TO UPLOAD (about three minutes)
+  1. Open https://github.com/TheSeanMitchell/PartyPortal
+  2. Add file > Upload files. Drag in index.html, channels.json, bot.py, CHANGELOG.md,
+     README.md and sw.js from this folder. Commit message, for example: "v3.2". Commit changes.
+  3. Still on GitHub, open the folder .github, then workflows. Add file > Upload files. Drag in
+     daily-content.yml from this folder's .github\workflows folder (it replaces the old one).
+     Commit changes.
+  4. The upload of bot.py starts the refresh by itself (Actions tab: "Daily Culture Feed
+     Refresh"). If it does not appear within a minute: Actions > Daily Culture Feed Refresh >
+     Run workflow.
+
+CHECK (about five minutes after step 4)
+  - https://theseanmitchell.github.io/PartyPortal/ (reload once if the old page shows): four
+    big screens, then TOP 10 MOST REPORTED, then On The Horizon with the New Year's countdown.
+  - The top bar shows the LIGHT and LIVE VIDEO switches; LIVE VIDEO off stops every screen.
+  - https://theseanmitchell.github.io/PartyPortal/health.json shows "version": "3.2.0".
+
+TESTED ON THIS PC (21 November 2026)
+  - A real build with live feeds: 48 seconds, 253 feeds (249 returned stories, 0 failed),
+    140 stories (89 reported by several outlets), 490 events + 52 festivals, health.json.
+  - Headless Edge, desktop and phone, Neon and Onyx: 0 failing text elements, 0 console errors,
+    no sideways scrolling; every 3.2 feature checked (page order, Top 10, the switches and what
+    they save, per-screen buttons, the New Year's countdown, the calendar).
+  - Hidden-page pause: fails on the 3.1 page, passes on this one.
+  - Argus's own Party Portal tests pass on this page: party_portal_holds_the_heard_video,
+    nuzu_and_party_portal_first_visit.
+  - bot.py passes the Python 3.11 check (the workflow runs 3.12).
+
+UNTIL YOU UPLOAD
+  Argus 1.0.2 and 1.0.3 both work with the page that is live now; this upload only adds to it.

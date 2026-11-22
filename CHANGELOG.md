@@ -1,5 +1,106 @@
 # Changelog
 
+## v3.2 — Four big screens first, a Top 10 like NUZU's, a LIVE VIDEO switch, a winter calendar (Argus 1.0.3, 21 Nov 2026)
+
+Asked for on 21 November ("video, then headlines, then calendar"; "match NUZU its news ability"; the top
+bar "to mirror NUZU"). Includes v3.1 (below), which was never uploaded.
+
+### The page, top to bottom
+- **Four big screens** (a 2×2 block filling the width the 10-tile wall used, each about 2.5× bigger,
+  never taller than one screen) → **Top 10 Most Reported** → **On The Horizon** → all the news tabs.
+  Phones keep the single player. With LIVE VIDEO off, the headlines lead.
+- **Top 10 · Most Reported:** two columns of five, ranked by how many outlets report each story, then
+  newest; at most two per tab. Each shows its tab, the number of outlets, the source and the other
+  outlets reporting it, **Read ↗** and **↓ Go to story**. The 🔥 now means a story at least two outlets
+  report in the last 24 hours (before, every story under 36 hours had it - all 136).
+- **▸ Watch** on a headline that names an artist or brand with a channel here puts that channel on screen.
+- **New Year's Eve:** a countdown to your own midnight above the calendar, and a button that shows the
+  world's NYE parties and celebrations.
+
+### The top bar, like NUZU's
+- ★ SAVED · UPDATED … AGO · LIGHT · LIVE VIDEO · 🎉 PARTY MODE · ↻ SHUFFLE · ? · INSTALL - the same
+  switches, in the same order and look, as NUZU 2.4.
+- **LIVE VIDEO** (key **V**): off hides and stops every player; remembered (`pp:video`; nothing saved =
+  ON); `?video=off` / `?video=on` for one visit. In Argus, Party Portal keeps its own memory, so it
+  opens with video on and remembers the choice.
+
+### The screens
+- Each screen has **⏭** (the next video in its playlist) and **🔀** (a new channel in that screen; the
+  one you are listening to keeps its sound). One screen always comes from the core lanes (swim and
+  fashion, rock, clubs and festivals, live cams), and every visit deals a different set.
+- While the page is hidden (another browser tab, or Argus showing another tab) the silent screens pause;
+  the one being heard keeps playing. Back in view, videos carry on and live streams rejoin live.
+
+### News like NUZU's
+- A much wider net: about 250 feeds (was 145) - more outlets for every tab plus short topic searches -
+  so the same story is seen from many outlets and counted. The same story is grouped across outlets with
+  NUZU's method (the outlet's name dropped from the headline, light stemming, within 24 hours) and every
+  story carries the other outlets that report it.
+- Measured on one recording of the feeds (21 Nov), the old bot and the new one on exactly the same news:
+  stories reported by two or more outlets **22 → 91**, by three or more **7 → 31**.
+- Filters re-checked on that recording, every removal read: shopping and Black Friday posts, gift guides,
+  horoscopes, promo codes, ticket how-to and resale posts, press releases, record-store product listings,
+  sports "World Tours", TV shows and copy-paste sites never reach the page. Ticket news (presales,
+  prices confirmed, sell-outs) stays.
+- `health.json` each build: feeds read and failed, stories, multi-outlet stories, the calendar, channels.
+
+### More to watch
+- **Swim & bikini runway** 12 channels / 60 videos → **16 / 73**; **fashion shows** 13 / 74 → **31 / 148**;
+  **live rock** 13 / 81 → **29 / 166**. The whole catalogue: 381 channels / 1,712 videos → **419 / 1,884**.
+- The same bar as 3.0: official uploads only (the show, the broadcaster - WDR Rockpalast, ARTE Concert,
+  KEXP, Wacken - the fashion house's own channel, the band's own channel), long-form, and every new video
+  checked playing on the live site (172 played; one that refused to embed was left out). Picks were read
+  by hand: re-uploads and acts that are not rock were taken out.
+- No age-restricted official show came up, so no "Watch on YouTube" cards were needed. Vimeo was checked:
+  its swim-week runway videos are by independent videographers (mostly 2012-2018), not the shows' own
+  organisers, so none were added.
+
+### The winter calendar
+- **29 new dates, each from the organiser's, city's or tourism board's own page:** New Year's Eve in
+  Sydney, Tokyo, Hong Kong, Bangkok, Dubai, Berlin, Paris, London, Rio, New York (Times Square), Miami,
+  Las Vegas and Los Angeles; the Australian and New Zealand summer (Beyond The Valley, Lost Paradise,
+  Field Day, Wildlands, Laneway in four cities, Pitch, Rhythm and Vines, Northern Bass); the Thailand season
+  (Wonderfruit, Tomorrowland Thailand, EDC Thailand); Tulum (ANYMA presents ÆDEN; Zamna and Day Zero were
+  already there and are confirmed). 52 festivals in all (was 23); festivals that run through New Year's Eve
+  appear under the NYE filter.
+- Left out until they are announced: Auckland's Sky Tower NYE (its 2026 page is not up), the Full Moon
+  Party (no official calendar), Afterlife Tulum, Falls Festival (on hiatus), Origin Fields, Juicy Fest, FOMO.
+
+### For Argus and any other host
+- README: "The Argus contract" - the saved keys, the URL options, the TAB/ARGUS message, the accent
+  hand-in, the held video, and the Argus tests to run.
+
+## v3.1 — Held videos, TAB and ARGUS full screen, four bigger screens (Argus 1.0.2, 14 Nov 2026)
+
+Asked for in the 13 November notes for Argus 1.0.2. Every point below was measured in a hidden
+Edge on this page, with stand-in YouTube players (no network): the old page and the new one.
+
+### The video you are listening to is held when the window changes size
+- **Before:** crossing the phone/desktop line (600 px wide) threw every player away and dealt a new
+  set, so a video you were listening to was lost the moment Argus's side tab was dragged wider or
+  narrower.
+- **Now:** once a video's sound is on, it is **held**. Made wide, it becomes the first wall tile and
+  the wall fills in around it; made narrow, it becomes the phone player - the same video, at the
+  same spot (measured: 7 s in on the phone, 11 s on the wall after), its sound still on. Live
+  streams rejoin live. With no sound on, a resize deals a fresh set exactly as before.
+- A video that is **full screen** is never pulled out by a resize any more: the switch waits until
+  full screen ends (before, the resize crossed the same line and destroyed the player on screen).
+
+### Full screen at every width
+- The phone player had **no** full-screen button; it has one now.
+- Inside Argus each video has two: **TAB** (fills Argus's side tab) and **ARGUS** (Argus gives the
+  tab its whole window). In any ordinary browser the single ⛶ button stays as it was.
+
+### Four bigger screens
+- The desktop wall shows **4** videos instead of 10, so each is bigger. A phone still shows one.
+
+### Argus's colours
+- Inside Argus, on Party Portal's Onyx, the colour of the Argus theme in use is handed in for the
+  accent (selected chips and the like). On Argus's own Onyx nothing changes: Party Portal's Onyx
+  already is Argus Onyx.
+
+Files changed: `index.html` only.
+
 ## v3.0 — Neon + Onyx, 1,724 verified videos in 392 playlist channels, a worldwide calendar, 12 news tabs (8 Nov 2026)
 
 Every number below was measured: the old and new code were run on the same recorded news and

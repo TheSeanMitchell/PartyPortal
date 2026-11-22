@@ -100,6 +100,37 @@ Big festivals live in `FESTIVALS` in `bot.py` with the dates their organisers an
 off by itself after it ends). Any venue page that publishes schema.org Event data can be added to
 `VG_JSONLD_SOURCES` or `CAL_SOURCES`.
 
+## The Argus contract
+
+Party Portal is one of the sites inside the Argus Media Player (a side tab). It must also work on its
+own, in any browser, and in any Argus version. These are the things Argus relies on. Keep them working,
+and run the Argus tests below after changing `index.html`.
+
+**Saved settings (localStorage)**
+- `pp:video` — the LIVE VIDEO switch: `'1'` on, `'0'` off; nothing saved = ON. Argus keeps Party
+  Portal's own memory, so it opens with video on and remembers the person's choice.
+- `pp:theme` — the LIGHT switch: `'light'` = Neon, `'dark'` = Onyx (the Argus look). Argus opens it dark.
+- Party Portal's own: `pp:favs` (Saved), `pp:station`, `pp:recent`, `pp:recentv`, `pp:dead`, `pp:deadv`.
+
+**URL options**
+- `?video=off` / `?video=on` — for this visit only (not saved).
+- `?theme=dark` / `?theme=light`, and `?ch=<channel id>` to open one channel.
+
+**Messages to and from Argus**
+- Inside Argus each video has TAB and ARGUS full-screen buttons. ARGUS sends
+  `chrome.webview.postMessage('argus:fill')`, which asks Argus to fill its whole window.
+- Argus calls `window.__argusSetAccent('#rrggbb')` with its theme's colour, or `null` on its own Onyx.
+
+**The video being heard** has the class `audio-active`. It is held when the window or Argus's side tab
+is resized (wide: the first tile; narrow: the phone player, the same video). While the page is hidden
+only the silent videos pause; the heard one keeps playing.
+
+**The Argus tests to run** (in the Argus source folder, with Python):
+- `tests/party_portal_holds_the_heard_video.py` with `ARGUS_PP_PAGE` set to this `index.html`
+- `tests/nuzu_and_party_portal_first_visit.py`
+
+`health.json` (written each build) says how the last build went: feeds, news, calendar, channels.
+
 ---
 
 ## Deploy (GitHub Pages)

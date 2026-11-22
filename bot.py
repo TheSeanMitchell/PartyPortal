@@ -183,6 +183,12 @@ BLOCKLIST = {
     "dies","died","deaths","dead at","tribute to the late","remembering","in memoriam",
     "lawsuit","sued","charged with","charges filed","jail","jailed","court case","cops","injured",
     "trump","biden","vance","harris campaign","tariff","tariffs","ice raid","protest","protesters",
+    # 3.2 additions: the wider net (topic searches) brings sport "World Tours" and TV shows
+    "atp","wta","tennis","grand slam","short track","speed skating","figure skating","gold medal",
+    "olympic","olympics","nhl","mlb","ncaa","pga","lpga","golf","cricket","rugby",
+    "premier league","champions league","la liga","serie a","bundesliga","semifinal","semi-final",
+    "quarterfinal","quarter-final","playoffs","touchdown","quarterback","boxing match",
+    "cast revealed","series cast","tv series","zombie","season finale","box office",
 }
 BLOCK_PAT = make_pattern(BLOCKLIST)
 
@@ -196,7 +202,7 @@ _PP_PROMO_RULES = [
     ("sportsbook promo", r"\b(betmgm|draftkings|fanduel|caesars sportsbook|bet365|fanatics sportsbook|espn ?bet|hard rock bet|betrivers|prizepicks|underdog fantasy)\b.{0,60}\b(code|bonus|promo|offer|boost)\b"),
     ("betting", r"\b(best bets?|betting (picks|odds|preview|tips|lines|guide)|player props?|prop bets?|parlays?|odds to (win|perform)|halftime show odds|grammy odds|betting favorite)\b"),
     ("ticket resale", r"\b(cheap(est)?|discount(ed)?|last[- ]minute|resale|secondary[- ]market) tickets?\b|\btickets? (are |now )?(starting|start|from) (at )?\$\d"),
-    ("ticket how-to", r"\bhow (to|can (i|you)) (buy|get|score|find|cop) .{0,40}tickets?\b|\bwhere to (buy|get|find) .{0,40}tickets?\b|\btickets?:? (prices?|price guide|how to)\b|\bhow much (are|do|does) .{0,40}tickets?\b"),
+    ("ticket how-to", r"\bhow (to|can (i|you)) (buy|get|score|find|cop) .{0,40}tickets?\b|\bwhere to (buy|get|find|shop( for)?) .{0,40}tickets?\b|\btickets?:? (prices?|price guide|how to)\b|\bhow much (are|do|does) .{0,40}tickets?\b"),
     ("how to watch", r"\b(how|where) to (watch|stream|livestream|listen)\b|\blive ?stream(ing)? (free|online|link)\b|\b(tv channel|start time),? (live stream|how to watch|streaming)\b"),
     ("shopping", r"\b(best (deals?|buys?)|deals? of the (day|week)|black friday (deals?|sales?)|cyber monday (deals?|sales?)|prime (big )?(deal )?day|gift (guide|ideas)|shop (now|the sale|our)|lowest price|price drop|\d+% off\b|save (up to )?\$\d[\d,]*|under \$\d+\b|we tried|tested and reviewed|our (favorite|editors'?) picks)\b"),
     ("shopping", r"\b(\d+|the) best .{1,40} (to buy|you can buy|for (the )?money|on amazon|at (nordstrom|target|walmart|revolve|amazon))\b|\bbest .{1,30} (of|for) 20\d\d,? (tested|reviewed|ranked)\b|\bon amazon\b.{0,30}\b(deal|sale|discount)\b"),
@@ -215,7 +221,8 @@ _PP_PROMO_SOURCES = re.compile(
     r"tickpick|gametime|ticketnetwork|ticket ?club|cheaptickets|ticketcity|scorebig)\b", re.I)
 
 
-_PP_NEWS_VERB = re.compile(r"\b(adds?|added|announces?|announced|extends?|reveals?|confirms?|returns?|expands?|launch(es)?)\b", re.I)
+_PP_NEWS_VERB = re.compile(r"\b(adds?|added|announces?|announced|extends?|reveals?|revealed|confirms?|confirmed|returns?|"
+                           r"expands?|launch(es)?|begins?|opens?|plummets?|soars?|headlines?|headlining)\b", re.I)   # 3.2: + ticket news
 
 
 def why_promo(raw_title, source=""):
@@ -235,6 +242,11 @@ def why_promo(raw_title, source=""):
 
 
 _PP_PROMO_LOG = {}
+
+# 3.2: outlets the topic searches bring in that are not party press - copy-paste sites (they
+# inflate a story's outlet count) and a film/TV database. Seen in the 21 Nov recording.
+_PP_SKIP_SRC = re.compile(r"(\.co\.id|\.id)$|^(suaragarut|limapagi|bsinews|peradaban|demokratis)\b|"
+                          r"^vietnam\.vn$|\bimdb\b", re.I)
 
 # ───────────────────── SOURCE TRUST + FRIENDLY NAMES ───────────────
 TIER1 = {  # specialist EDM/dance press + major outlets
@@ -538,6 +550,129 @@ NEWS_SOURCES = [
     ("Retro MTV",         g("mtv+throwback+OR+music+video+anniversary+OR+90s+nostalgia+OR+y2k+when:5d"), "Retro & Culture"),
     ("Counterculture",    g("%22underground+rave%22+OR+%22free+party%22+OR+%22sound+system%22+OR+%22rave+culture%22+when:7d"), "Retro & Culture"),
     ("Art Basel / Miami Art Week", g("art+basel+miami+party+OR+miami+art+week+OR+art+basel+dj+when:6d"), "Retro & Culture"),
+
+    # ══ 3.2 (ORDER-701 C5): a NUZU-wide net - more outlets per tab, and short topic searches so the
+    # same story is seen from many outlets and counted (the Top 10 ranks by that count). ══
+    # ── EDM & Dance ──
+    ("EDM Joy",           site("edmjoy.com", days=5),          "EDM & Dance"),
+    ("DJ sets",           g("%22dj+set%22+OR+b2b+OR+%22back+to+back%22+dj+when:2d"), "EDM & Dance"),
+    ("Trance",            g("trance+OR+%22armin+van+buuren%22+OR+%22above+%26+beyond%22+OR+%22ferry+corsten%22+when:4d"), "EDM & Dance"),
+    ("Bass music",        g("dubstep+OR+%22bass+music%22+OR+riddim+OR+excision+OR+subtronics+when:4d"), "EDM & Dance"),
+    ("Drum & bass",       g("%22drum+and+bass%22+OR+%22drum+%26+bass%22+OR+%22jungle+rave%22+when:5d"), "EDM & Dance"),
+    ("Big-room DJs",      g("%22david+guetta%22+OR+%22martin+garrix%22+OR+%22calvin+harris%22+OR+tiesto+OR+%22dj+snake%22+when:3d"), "EDM & Dance"),
+    ("Dance releases",    g("%22new+single%22+dj+OR+%22new+remix%22+OR+%22dance+track%22+when:2d"), "EDM & Dance"),
+    ("Insomniac events",  g("insomniac+events+OR+%22beyond+wonderland%22+OR+%22nocturnal+wonderland%22+OR+%22escape+halloween%22+when:6d"), "Festivals"),
+    # ── Techno & House ──
+    ("The Quietus",       site("thequietus.com", "techno+OR+club+OR+rave+OR+electronic", 7), "Techno & House"),
+    ("Techno",            g("techno+when:2d"),                 "Techno & House"),
+    ("House music",       g("%22house+music%22+OR+%22tech+house%22+OR+%22deep+house%22+when:2d"), "Techno & House"),
+    ("Boiler Room",       g("%22boiler+room%22+when:5d"),      "Techno & House"),
+    ("Afterlife / Anyma", g("anyma+OR+%22tale+of+us%22+OR+argy+OR+%22afterlife+festival%22+OR+%22afterlife+ibiza%22+when:4d"), "Techno & House"),
+    ("Keinemusik",        g("keinemusik+OR+%22adam+port%22+OR+%26me+OR+rampa+OR+%22black+coffee%22+when:5d"), "Techno & House"),
+    ("House headliners",  g("%22fred+again%22+OR+%22john+summit%22+OR+%22dom+dolla%22+OR+%22chris+lake%22+OR+%22fisher%22+dj+when:4d"), "Techno & House"),
+    ("Techno headliners", g("%22carl+cox%22+OR+%22charlotte+de+witte%22+OR+%22amelie+lens%22+OR+%22adam+beyer%22+when:5d"), "Techno & House"),
+    ("Cercle",            g("cercle+set+OR+%22cercle+festival%22+OR+%22cercle+odyssey%22+when:7d"), "Techno & House"),
+    # ── Festivals ──
+    ("Tomorrowland",      g("tomorrowland+when:3d"),           "Festivals"),
+    ("Lollapalooza",      g("lollapalooza+when:5d"),           "Festivals"),
+    ("Rolling Loud",      g("%22rolling+loud%22+when:4d"),     "Festivals"),
+    ("Glastonbury",       g("glastonbury+festival+when:4d"),   "Festivals"),
+    ("EDC",               g("%22edc+las+vegas%22+OR+%22edc+orlando%22+OR+%22edc+mexico%22+OR+%22electric+daisy+carnival%22+when:4d"), "Festivals"),
+    ("Ultra",             g("%22ultra+music+festival%22+OR+%22ultra+miami%22+OR+%22ultra+europe%22+when:4d"), "Festivals"),
+    ("Festival headliners", g("%22festival+headliners%22+OR+%22to+headline%22+festival+when:3d"), "Festivals"),
+    ("Festival news",     g("%22music+festival%22+when:1d"),   "Festivals"),
+    ("Festival changes",  g("%22music+festival%22+cancelled+OR+canceled+OR+postponed+OR+%22new+venue%22+when:5d"), "Festivals"),
+    ("Winter festivals",  g("%22nye+festival%22+OR+%22new+year%27s+festival%22+OR+%22winter+festival%22+music+when:7d"), "Festivals"),
+    # ── Tickets & Lineups ──
+    ("Tickets on sale",   g("%22tickets+on+sale%22+tour+OR+concert+OR+festival+when:2d"), "Tickets & Lineups"),
+    ("Presales",          g("presale+tour+OR+%22presale+code%22+OR+%22pre-sale%22+concert+when:2d"), "Tickets & Lineups"),
+    ("Sold out",          g("%22sold+out%22+concert+OR+tour+OR+festival+when:3d"), "Tickets & Lineups"),
+    ("Lineups revealed",  g("%22lineup+revealed%22+OR+%22unveils+lineup%22+OR+%22announces+lineup%22+when:3d"), "Tickets & Lineups"),
+    ("New dates",         g("%22adds+dates%22+OR+%22new+dates%22+tour+OR+%22second+show%22+when:3d"), "Tickets & Lineups"),
+    ("TicketNews",        site("ticketnews.com", days=4),      "Tickets & Lineups"),
+    # ── Nightlife & Clubs ──
+    ("Club openings",     g("%22new+nightclub%22+OR+%22club+opening%22+OR+%22opens+nightclub%22+when:5d"), "Nightlife & Clubs"),
+    ("Rooftops",          g("%22rooftop+bar%22+OR+%22rooftop+party%22+when:4d"), "Nightlife & Clubs"),
+    ("Pool & beach clubs",g("%22pool+party%22+OR+%22beach+club%22+when:4d"), "Nightlife & Clubs"),
+    ("NYE parties",       g("%22new+year%27s+eve%22+party+OR+%22nye+party%22+OR+%22new+year%27s+eve%22+dj+when:5d"), "Nightlife & Clubs"),
+    ("After hours",       g("%22after+hours%22+club+OR+afterparty+OR+%22after-party%22+when:4d"), "Nightlife & Clubs"),
+    ("Eater nightlife",   site("eater.com", "nightlife+OR+%22dance+club%22+OR+rooftop", 6), "Nightlife & Clubs"),
+    ("Discotech",         site("discotech.me", days=7),        "Nightlife & Clubs"),
+    ("Chicago Nightlife", g("%22chicago+nightlife%22+OR+%22chicago+club%22+when:6d"), "Nightlife & Clubs"),
+    ("Texas Nightlife",   g("%22austin+nightlife%22+OR+%22houston+nightlife%22+OR+%22dallas+nightlife%22+when:7d"), "Nightlife & Clubs"),
+    ("Atlanta Nightlife", g("%22atlanta+nightlife%22+OR+%22atlanta+club%22+when:6d"), "Nightlife & Clubs"),
+    ("SF Nightlife",      g("%22san+francisco+nightlife%22+OR+%22sf+club%22+OR+%22oakland+club%22+when:7d"), "Nightlife & Clubs"),
+    ("Canada Nightlife",  g("%22toronto+nightlife%22+OR+%22montreal+nightlife%22+OR+%22vancouver+nightlife%22+when:7d"), "Nightlife & Clubs"),
+    # ── Las Vegas ──
+    ("Sphere",            g("sphere+%22las+vegas%22+when:3d"), "Las Vegas"),
+    ("Vegas residencies", g("%22las+vegas+residency%22+OR+%22vegas+residency%22+when:3d"), "Las Vegas"),
+    ("Vegas clubs",       g("%22vegas+nightclub%22+OR+zouk+OR+omnia+OR+%22xs+nightclub%22+OR+hakkasan+when:5d"), "Las Vegas"),
+    ("Vegas concerts",    g("%22las+vegas%22+concert+OR+%22las+vegas%22+show+when:2d"), "Las Vegas"),
+    ("Vegas NYE",         g("%22las+vegas%22+%22new+year%27s+eve%22+OR+%22vegas+nye%22+when:7d"), "Las Vegas"),
+    ("Las Vegas Magazine",site("lasvegasmagazine.com", days=7), "Las Vegas"),
+    ("Eater Vegas",       site("vegas.eater.com", days=7),     "Las Vegas"),
+    ("Casino.org Vegas",  site("casino.org", "%22las+vegas%22+nightclub+OR+residency+OR+concert+OR+sphere", 5), "Las Vegas"),
+    # ── Ibiza & Global ──
+    ("Ibiza news",        g("ibiza+when:3d"),                  "Ibiza & Global"),
+    ("Bali / Thailand",   g("%22bali+nightlife%22+OR+%22bali+club%22+OR+%22koh+phangan%22+OR+%22full+moon+party%22+when:7d"), "Ibiza & Global"),
+    ("Tulum",             g("tulum+festival+OR+tulum+party+OR+tulum+dj+when:6d"), "Ibiza & Global"),
+    ("Carnivals",         g("%22notting+hill+carnival%22+OR+%22trinidad+carnival%22+OR+caribana+OR+%22rio+carnival%22+when:7d"), "Ibiza & Global"),
+    ("ADE / Amsterdam",   g("%22amsterdam+dance+event%22+OR+%22amsterdam+club%22+when:7d"), "Ibiza & Global"),
+    ("Asia clubs",        g("%22seoul+club%22+OR+%22tokyo+club%22+OR+%22shanghai+club%22+OR+%22bangkok+club%22+when:7d"), "Ibiza & Global"),
+    ("Australia / NZ",    g("%22sydney+festival%22+OR+%22melbourne+festival%22+OR+%22rhythm+and+vines%22+OR+%22field+day%22+sydney+when:7d"), "Ibiza & Global"),
+    ("Africa / Detty December", g("%22afro+nation%22+OR+%22detty+december%22+OR+%22lagos+concert%22+OR+%22cape+town%22+festival+when:7d"), "Ibiza & Global"),
+    ("Dubai / Middle East", g("%22dubai+nightlife%22+OR+%22dubai+club%22+OR+%22soundstorm%22+OR+%22mdlbeast%22+when:7d"), "Ibiza & Global"),
+    ("Mediterranean",     g("mykonos+OR+%22ayia+napa%22+OR+hvar+OR+%22zrce+beach%22+party+when:7d"), "Ibiza & Global"),
+    # ── Hip-Hop ──
+    ("Rap tours",         g("rapper+tour+OR+%22rap+tour%22+when:3d"), "Hip-Hop"),
+    ("Hip-hop live",      g("%22hip+hop%22+concert+OR+%22hip-hop%22+festival+when:3d"), "Hip-Hop"),
+    ("Rap charts",        g("rapper+%22billboard+200%22+OR+rap+album+debuts+when:3d"), "Hip-Hop"),
+    ("Rap headliners",    g("drake+OR+%22kendrick+lamar%22+OR+%22travis+scott%22+OR+%22tyler,+the+creator%22+tour+OR+concert+when:4d"), "Hip-Hop"),
+    ("Summer Jam / Wireless", g("%22summer+jam%22+OR+%22wireless+festival%22+OR+%22day+n+vegas%22+when:7d"), "Hip-Hop"),
+    # ── Rock ──
+    ("Guitar World",      site("guitarworld.com", "tour+OR+festival+OR+live", 5), "Rock"),
+    ("Lambgoat",          site("lambgoat.com", days=5),        "Rock"),
+    ("American Songwriter", site("americansongwriter.com", "tour+OR+concert+OR+festival", 5), "Rock"),
+    ("Rock festivals",    g("%22rock+festival%22+OR+%22metal+festival%22+OR+hellfest+OR+wacken+OR+%22download+festival%22+when:5d"), "Rock"),
+    ("Farewell & reunion",g("%22farewell+tour%22+OR+%22reunion+tour%22+OR+%22reunite%22+band+when:4d"), "Rock"),
+    ("Punk & emo",        g("punk+tour+OR+%22emo+nite%22+OR+%22when+we+were+young%22+OR+%22sick+new+world%22+when:6d"), "Rock"),
+    ("Rock stadiums",     g("metallica+OR+%22foo+fighters%22+OR+%22green+day%22+OR+%22linkin+park%22+tour+when:4d"), "Rock"),
+    # ── Pop & Tours ──
+    ("World tours",       g("%22world+tour+dates%22+OR+%22announces+world+tour%22+OR+%22world+tour%22+concert+when:3d"), "Pop & Tours"),
+    ("Stadium tours",     g("%22stadium+tour%22+OR+%22arena+tour%22+when:3d"), "Pop & Tours"),
+    ("Album + tour",      g("%22new+album%22+tour+when:2d"),   "Pop & Tours"),
+    ("Pop superstars",    g("%22taylor+swift%22+OR+beyonce+OR+%22bad+bunny%22+OR+%22the+weeknd%22+tour+OR+concert+when:3d"), "Pop & Tours"),
+    ("Pop rising",        g("%22sabrina+carpenter%22+OR+%22chappell+roan%22+OR+%22charli+xcx%22+OR+%22dua+lipa%22+OR+%22olivia+rodrigo%22+when:3d"), "Pop & Tours"),
+    ("Awards",            g("grammys+OR+%22grammy+nominations%22+OR+%22american+music+awards%22+OR+vmas+when:4d"), "Pop & Tours"),
+    ("Concert reviews",   g("%22concert+review%22+OR+%22live+review%22+tour+when:3d"), "Pop & Tours"),
+    ("USA TODAY Music",   site("usatoday.com", "tour+OR+concert+OR+festival", 3), "Pop & Tours"),
+    ("People Music",      site("people.com", "tour+OR+concert+OR+festival", 3), "Pop & Tours"),
+    ("E! News Music",     site("eonline.com", "tour+OR+concert+OR+festival", 4), "Pop & Tours"),
+    ("ET Music",          site("etonline.com", "tour+OR+concert+OR+festival", 4), "Pop & Tours"),
+    ("Hollywood Reporter Music", site("hollywoodreporter.com", "tour+OR+concert+OR+festival", 4), "Pop & Tours"),
+    ("Vulture Music",     site("vulture.com", "tour+OR+concert+OR+festival", 5), "Pop & Tours"),
+    ("Live Nation news",  g("%22live+nation%22+tour+OR+%22live+nation%22+festival+when:5d"), "Pop & Tours"),
+    # ── Fashion & Swim ──
+    ("Fashion shows",     g("%22fashion+show%22+when:2d"),     "Fashion & Swim"),
+    ("Runway shows",      g("%22runway+show%22+OR+%22walks+the+runway%22+OR+%22catwalk%22+when:3d"), "Fashion & Swim"),
+    ("Swim runways",      g("swimwear+show+OR+bikini+runway+OR+%22swim+show%22+when:6d"), "Fashion & Swim"),
+    ("Victoria's Secret", g("%22victoria%27s+secret%22+show+OR+%22victoria%27s+secret+fashion+show%22+when:5d"), "Fashion & Swim"),
+    ("Fashion weeks",     g("%22paris+fashion+week%22+OR+%22milan+fashion+week%22+OR+%22new+york+fashion+week%22+OR+%22london+fashion+week%22+when:5d"), "Fashion & Swim"),
+    ("Fashion awards",    g("%22met+gala%22+OR+%22fashion+awards%22+OR+%22cfda%22+when:5d"), "Fashion & Swim"),
+    ("Supermodels",       g("supermodel+OR+%22model+walks%22+OR+%22runway+debut%22+when:4d"), "Fashion & Swim"),
+    ("British Vogue",     site("vogue.co.uk", "runway+OR+fashion+week+OR+party+OR+festival", 4), "Fashion & Swim"),
+    ("W Magazine",        site("wmagazine.com", "fashion+OR+party+OR+runway", 6), "Fashion & Swim"),
+    ("Refinery29",        site("refinery29.com", "fashion+week+OR+runway+OR+festival", 6), "Fashion & Swim"),
+    ("Who What Wear",     site("whowhatwear.com", "runway+OR+fashion+week+OR+festival", 6), "Fashion & Swim"),
+    ("NYLON",             site("nylon.com", "fashion+OR+party+OR+music+OR+festival", 6), "Fashion & Swim"),
+    ("FashionUnited",     site("fashionunited.com", "runway+OR+fashion+week+OR+show", 5), "Fashion & Swim"),
+    # ── Retro & Culture ──
+    ("Music anniversaries", g("%22years+ago+today%22+album+OR+%22music+video%22+anniversary+when:4d"), "Retro & Culture"),
+    ("MTV news",          g("mtv+when:3d"),                    "Retro & Culture"),
+    ("Music documentaries", g("music+documentary+OR+music+biopic+OR+%22concert+film%22+when:4d"), "Retro & Culture"),
+    ("Rock Hall",         g("%22rock+hall+of+fame%22+OR+%22rock+%26+roll+hall+of+fame%22+when:6d"), "Retro & Culture"),
+    ("Art Basel",         g("%22art+basel%22+when:4d"),        "Retro & Culture"),
+    ("Pop culture",       site("avclub.com", "music+OR+tour+OR+concert", 5), "Retro & Culture"),
 ]
 CULTURE_SOURCES = [(n, u) for n, u, _h in NEWS_SOURCES]   # (kept for the 2.x test tools)
 SOURCE_HOME = {n: h for n, _u, h in NEWS_SOURCES}
@@ -547,9 +682,18 @@ def _fetch_rss(name, url):
     headers = {"User-Agent": "Mozilla/5.0 (compatible; PartyPortalBot/3.0)",
                "Accept": "application/rss+xml, application/xml, text/xml"}
     try:
-        req = urllib.request.Request(url, headers=headers)
-        with urllib.request.urlopen(req, timeout=FETCH_TIMEOUT) as resp:
-            raw = resp.read()
+        raw = b""
+        for _attempt in range(3):     # 3.2: Google News answers a burst with 429/503 - wait, then retry
+            try:
+                req = urllib.request.Request(url, headers=headers)
+                with urllib.request.urlopen(req, timeout=FETCH_TIMEOUT) as resp:
+                    raw = resp.read()
+                break
+            except urllib.error.HTTPError as _he:
+                if _he.code in (429, 503) and _attempt < 2:
+                    time.sleep((2, 6)[_attempt])
+                    continue
+                raise
         root = ET.fromstring(raw)
         out = []
         for item in root.iter("item"):
@@ -584,9 +728,11 @@ def _fetch_rss(name, url):
         return out
     except Exception as e:
         print(f"  [WARN] {name}: {e}")
+        FEED_ERRORS[name] = str(e)[:120]
         return []
 
 FEED_STATS = {}
+FEED_ERRORS = {}      # 3.2: feed name -> why it failed (health.json)
 
 def fetch_all():
     results = []
@@ -624,7 +770,9 @@ _NOT_ARTICLE = re.compile(
     r"\| social events \||\btag \| hypebeast|\| hypebeast - fashion|\btickets, live at .{3,80} on [a-z]{3} \d{1,2}, 20\d\d|"
     r"\[appar|merchmoment|zipped wallet|wrist strap|\bbracelet\b|\+ poster|\+ t-shirt|matching beanie|better beanie|"
     r"\bholiday gifts?\b|\$\d+ .{0,30}\b(stand|headphones?|speakers?|lens(es)?|controller|turntable|mixer|monitors?)\b|"
-    r"\b(lenses|glasses|headphones|earbuds|speaker|turntable|controller|mixer|monitor|plugin|synth) review\b|review: premium)",
+    r"\b(lenses|glasses|headphones|earbuds|speaker|turntable|controller|mixer|monitor|plugin|synth) review\b|review: premium|"
+    # 3.2: record-store product listings ("... 2LP (White/Pink Vinyl)"), not news about a reissue
+    r"\([^)]{0,40}\bvinyl\)|\b[1-4]\s?lp\s*\()",
     re.I)
 _OFF_FEST = re.compile(r"\b(film|book|pecan|food|wine|beer|chili|harvest|pumpkin|apple|craft|quilt|literary|poetry|comedy|"
                        r"documentary|kids'?|children'?s|christmas|lights|balloon|kite|garlic|strawberry|oyster|seafood|"
@@ -668,9 +816,26 @@ _STOP = set(("the a an and or of to in for on at with from your you their his he
              "these those is are was were be been being new live full set mix official video as "
              "2026 2025 2024 2027 ft feat vs after first time bring back into out over more most").split())
 
+def _pp_stem(w):
+    """3.2: NUZU 2.3's light stem, so "tours"/"touring", "announces"/"announced", "parties"/"party" match."""
+    if len(w) > 5 and w.endswith("ing"):
+        w = w[:-3]
+    elif len(w) > 4 and w.endswith("ied"):
+        w = w[:-3] + "y"
+    elif len(w) > 4 and w.endswith("ies"):
+        w = w[:-3] + "y"
+    elif len(w) > 4 and w.endswith("ed"):
+        w = w[:-2]
+    elif len(w) > 4 and w.endswith("es") and w[-3] in "sxz":
+        w = w[:-2]
+    elif len(w) > 3 and w.endswith("s") and not w.endswith("ss"):
+        w = w[:-1]
+    return w
+
+
 def _sigwords(title):
-    t = re.sub(r"[^a-z0-9 ]", " ", strip_source(title).lower())
-    return set(w for w in t.split() if len(w) > 3 and w not in _STOP)
+    t = re.sub(r"[^a-z0-9 ]", " ", strip_source(title).lower().replace("’", "'").replace("'s ", " "))
+    return set(_pp_stem(w) for w in t.split() if len(w) > 3 and w not in _STOP)
 
 _DOMAIN_MAP = {
     "mixmag": "mixmag.net", "dj mag": "djmag.com", "djmag": "djmag.com",
@@ -720,6 +885,9 @@ def build_item(ts, title, link, src, domain="", home=None):
     if why:
         _PP_PROMO_LOG[why] = _PP_PROMO_LOG.get(why, 0) + 1
         return None
+    if _PP_SKIP_SRC.search(src or "") or _PP_SKIP_SRC.search(domain or ""):
+        _PP_PROMO_LOG["off-topic outlet"] = _PP_PROMO_LOG.get("off-topic outlet", 0) + 1
+        return None
     clean = strip_source(title)
     if BLOCK_PAT and BLOCK_PAT.search(clean):
         return None
@@ -760,6 +928,7 @@ def filter_and_dedup(raw):
     max_age = DAILY_HOURS * 3600
     raw.sort(key=lambda x: x[0], reverse=True)
     out, sigs, srcsets = [], [], []
+    names = []          # 3.2: per story, outlet id -> the outlet's name (for "also")
     exact_idx = {}
     src_count = {}
     for tup in raw:
@@ -777,6 +946,7 @@ def filter_and_dedup(raw):
             j = exact_idx[h]
             if srcid:
                 srcsets[j].add(srcid)
+                names[j].setdefault(srcid, it["src"])
             out[j]["n"] = max(1, len(srcsets[j]))
             continue
         sg = _sigwords(title)
@@ -784,6 +954,8 @@ def filter_and_dedup(raw):
         if sg:
             for i, prev in enumerate(sigs):
                 if not prev:
+                    continue
+                if abs(out[i].get("ts", 0) - ts) > 86400:     # 3.2: one story = within 24 hours
                     continue
                 inter = len(sg & prev)
                 union = len(sg | prev)
@@ -793,6 +965,7 @@ def filter_and_dedup(raw):
         if dup >= 0:
             if srcid:
                 srcsets[dup].add(srcid)
+                names[dup].setdefault(srcid, it["src"])
             if it["tier"] < out[dup]["tier"]:
                 it["n"] = max(1, len(srcsets[dup]))
                 out[dup] = it
@@ -809,8 +982,15 @@ def filter_and_dedup(raw):
         out.append(it)
         sigs.append(sg)
         srcsets.append(set([srcid]) if srcid else set())
-        if len(out) >= MAX_ITEMS * 3:
+        names.append({srcid: it["src"]} if srcid else {})
+        if len(out) >= MAX_ITEMS * 12:      # 3.2: was 3x - with a NUZU-wide net that cut the count short
             break
+    # 3.2: "also" = the other outlets reporting the story (up to 5); hot (the fire) only when
+    # two or more outlets report it and it is under 24 hours old (it was every story under 36 h).
+    for j, it in enumerate(out):
+        lead = (it.get("src") or "").strip().lower()
+        it["also"] = [nm for nm in names[j].values() if nm and nm.strip().lower() != lead][:5]
+        it["hot"] = it.get("n", 1) >= 2 and (now - it.get("ts", 0)) < 24 * 3600
     byday = {}
     for it in out:
         byday.setdefault(_day_key(it.get("ts", 0)), []).append(it)
@@ -842,7 +1022,43 @@ FESTIVALS = [
     ("Art Basel Miami Beach", "\U0001F3A8", "Miami Beach Convention Center · Miami Art Week parties", "Miami Beach", "miami", "2026-12-04T11:00:00-05:00", "2026-12-06T19:00:00-05:00", "Dec 4–6", "https://www.artbasel.com/miami-beach", ""),
     ("Sunburn Festival", "☀️", "Mahalaxmi Racecourse", "Mumbai, India", "world", "2026-12-18T15:00:00+05:30", "2026-12-19T23:59:00+05:30", "Dec 18–19", "https://www.sunburn.in", ""),
     ("Zamna Tulum", "\U0001F334", "Zamna · 10th anniversary season", "Tulum, Mexico", "world", "2026-12-31T20:00:00-05:00", "2027-01-10T23:59:00-05:00", "Dec 31 – Jan 10", "https://zamnafestival.com", "tulum"),
-    ("Day Zero Tulum", "\U0001F311", "Jungle near Tulum · sunset to sunrise", "Tulum, Mexico", "world", "2027-01-09T17:00:00-05:00", "2027-01-10T08:00:00-05:00", "Jan 9", "", "tulum"),
+    ("Day Zero Tulum", "\U0001F311", "Jungle near Tulum · sunset to sunrise", "Tulum, Mexico", "world", "2027-01-09T17:00:00-05:00", "2027-01-10T08:00:00-05:00", "Jan 9", "https://dayzerofestival.com/tulum/", "tulum"),
+    # ── 3.2 (ORDER-701 C9): the winter calendar - New Year's Eve worldwide, the Australia / New Zealand
+    #    summer, the Thailand season, Tulum. Every date checked on the organiser's, city's or tourism
+    #    board's own page on 21 Nov 2026 (the URL is the page). Where no time was published: 18:00 local
+    #    start, 23:59 (or 02:00 after New Year's Eve) end. An optional 11th value True = runs through NYE.
+    #    Left out, not announced yet: Auckland Sky Tower NYE 2026 (its 2026 page is not up), Falls Festival
+    #    (on hiatus), Origin Fields, Juicy Fest, FOMO, Afterlife Tulum, Full Moon Party dates (no official
+    #    calendar), S2O and Ultra Australia (April).
+    ("Wonderfruit", "\U0001F349", "The Fields at Siam Country Club", "Pattaya, Thailand", "world", "2026-12-03T18:00:00+07:00", "2026-12-07T23:59:00+07:00", "Dec 3–7", "https://wonderfruit.co/", ""),
+    ("Tomorrowland Thailand", "\U0001F3AA", "Wisdom Valley", "Pattaya, Thailand", "world", "2026-12-11T18:00:00+07:00", "2026-12-13T23:59:00+07:00", "Dec 11–13", "https://thailand.tomorrowland.com/", "tomorrowland"),
+    ("EDC Thailand", "\U0001F3A1", "Rhythm Park", "Phuket, Thailand", "world", "2026-12-18T15:00:00+07:00", "2026-12-21T00:00:00+07:00", "Dec 18–20", "https://thailand.edc.com/", "edc"),
+    ("Beyond The Valley", "\U0001F3A7", "Barunah Plains, Hesse VIC", "Hesse, Australia", "world", "2026-12-28T18:00:00+11:00", "2027-01-01T23:59:00+11:00", "Dec 28 – Jan 1", "https://www.beyondthevalley.com.au/", "", True),
+    ("Lost Paradise", "\U0001F334", "Glenworth Valley", "Central Coast, Australia", "world", "2026-12-28T18:00:00+11:00", "2027-01-01T23:59:00+11:00", "Dec 28 – Jan 1", "https://lostparadise.com.au/", "", True),
+    ("Rhythm and Vines", "\U0001F347", "Waiohika Estate", "Gisborne, New Zealand", "world", "2026-12-29T18:00:00+13:00", "2027-01-01T02:00:00+13:00", "Dec 29–31", "https://www.rhythmandvines.co.nz/", "", True),
+    ("Northern Bass", "\U0001F50A", "Settlement Road, Kaiwaka", "Kaiwaka, New Zealand", "world", "2026-12-30T18:00:00+13:00", "2027-01-01T23:59:00+13:00", "Dec 30 – Jan 1", "https://northernbass.co.nz/", "", True),
+    ("Sydney New Year's Eve Fireworks", "\U0001F386", "Sydney Harbour", "Sydney, Australia", "world", "2026-12-31T19:30:00+11:00", "2027-01-01T00:12:00+11:00", "Dec 31", "https://www.sydneynewyearseve.com/", ""),
+    ("Tokyo New Year's Eve Countdown", "\U0001F386", "Odaiba Marine Park", "Tokyo, Japan", "world", "2026-12-31T18:00:00+09:00", "2027-01-01T00:10:00+09:00", "Dec 31", "https://tokyo-nighttime-project.jp/en/tny/", ""),
+    ("Hong Kong New Year Countdown Fireworks", "\U0001F386", "Victoria Harbour", "Hong Kong", "world", "2026-12-31T18:00:00+08:00", "2027-01-01T02:00:00+08:00", "Dec 31", "https://www.discoverhongkong.com/eng/events/hong-kong-winterfest.html", ""),
+    ("Amazing Thailand Countdown 2027", "\U0001F386", "River Park, ICONSIAM", "Bangkok, Thailand", "world", "2026-12-31T18:00:00+07:00", "2027-01-01T02:00:00+07:00", "Dec 31", "https://www.tatnews.org/2026/11/tat-and-iconsiam-unveil-amazing-thailand-countdown-2027-in-bangkok/", ""),
+    ("Burj Khalifa New Year's Eve Fireworks", "\U0001F386", "Burj Khalifa, Downtown Dubai", "Dubai, UAE", "world", "2026-12-31T19:00:00+04:00", "2027-01-01T02:00:00+04:00", "Dec 31", "https://mydubainewyear.emaar.com/", ""),
+    ("Wildlands Brisbane", "\U0001F3A7", "Brisbane Showgrounds", "Brisbane, Australia", "world", "2026-12-31T18:00:00+10:00", "2027-01-01T02:00:00+10:00", "Dec 31", "https://wildlandsfestival.com.au/", ""),
+    ("Silvester am Brandenburger Tor", "\U0001F386", "Brandenburger Tor", "Berlin, Germany", "world", "2026-12-31T20:00:00+01:00", "2027-01-01T01:00:00+01:00", "Dec 31", "https://www.berlin.de/en/events/3303144-2842498-silvester-am-brandenburger-tor-2026.en.html", "berlin"),
+    ("New Year's Eve on the Champs-Élysées", "\U0001F386", "Champs-Élysées · Arc de Triomphe", "Paris, France", "world", "2026-12-31T19:00:00+01:00", "2027-01-01T00:20:00+01:00", "Dec 31", "https://parisjetaime.com/eng/event/31-december-champs-elysees-e081", ""),
+    ("London New Year's Eve Fireworks", "\U0001F386", "River Thames by the London Eye (ticketed)", "London, UK", "world", "2026-12-31T20:00:00+00:00", "2027-01-01T00:30:00+00:00", "Dec 31", "https://www.london.gov.uk/events/london-new-years-eve-2026", ""),
+    ("Réveillon Rio Copacabana", "\U0001F386", "Palco Rio, Copacabana Beach", "Rio de Janeiro", "world", "2026-12-31T18:00:00-03:00", "2027-01-01T02:00:00-03:00", "Dec 31", "https://riotur.rio/editorial/rio-reveillon-2027/", ""),
+    ("Times Square Ball Drop", "\U0001F386", "Times Square", "New York", "nyc", "2026-12-31T18:00:00-05:00", "2027-01-01T02:00:00-05:00", "Dec 31", "https://www.timessquarenyc.org/nye/nye-faq", ""),
+    ("The Countdown Miami NYE", "\U0001F386", "Bayfront Park", "Miami", "miami", "2026-12-31T17:00:00-05:00", "2027-01-01T02:00:00-05:00", "Dec 31", "https://thecountdownmiami.com/2027/", ""),
+    ("America's Party: Las Vegas New Year", "\U0001F386", "Las Vegas Strip fireworks", "Las Vegas", "vegas", "2026-12-31T18:00:00-08:00", "2027-01-01T02:00:00-08:00", "Dec 31", "https://lasvegasevents.com/signature-events/181/americas-party", ""),
+    ("NYELA Countdown to 2027", "\U0001F386", "Gloria Molina Grand Park", "Los Angeles", "la", "2026-12-31T20:00:00-08:00", "2027-01-01T01:00:00-08:00", "Dec 31", "https://grandparkla.org/nyela", ""),
+    ("Field Day", "\U0001F3A7", "The Domain", "Sydney, Australia", "world", "2027-01-01T18:00:00+11:00", "2027-01-01T23:59:00+11:00", "Jan 1", "https://fieldday.com.au/", ""),
+    ("Wildlands Perth", "\U0001F3A7", "Arena Joondalup", "Perth, Australia", "world", "2027-01-02T18:00:00+08:00", "2027-01-02T23:59:00+08:00", "Jan 2", "https://wildlandsfestival.com.au/", ""),
+    ("ANYMA presents ÆDEN Tulum", "\U0001F3A7", "Zamna Tulum", "Tulum, Mexico", "world", "2027-01-04T22:00:00-05:00", "2027-01-04T23:59:00-05:00", "Jan 4", "https://zamnafestival.com/events/Anyma-Tulum2026", "anyma"),
+    ("Laneway Festival Sydney", "\U0001F3B8", "Centennial Park", "Sydney, Australia", "world", "2027-02-12T11:30:00+11:00", "2027-02-12T22:30:00+11:00", "Feb 12", "https://lanewayfestival.com/sydney/event-info", ""),
+    ("Laneway Festival Brisbane", "\U0001F3B8", "Brisbane Showgrounds", "Brisbane, Australia", "world", "2027-02-13T12:00:00+10:00", "2027-02-13T22:30:00+10:00", "Feb 13", "https://lanewayfestival.com/brisbane/event-info", ""),
+    ("Laneway Festival Melbourne", "\U0001F3B8", "Flemington Park", "Melbourne, Australia", "world", "2027-02-19T12:00:00+11:00", "2027-02-19T23:00:00+11:00", "Feb 19", "https://lanewayfestival.com/melbourne/event-info", ""),
+    ("Laneway Festival Auckland", "\U0001F3B8", "Western Springs", "Auckland, New Zealand", "world", "2027-02-21T12:00:00+13:00", "2027-02-21T22:00:00+13:00", "Feb 21", "https://lanewayfestival.com/auckland/event-info", ""),
+    ("Pitch Music & Arts", "⛺", "Mafeking, Moyston", "Moyston, Australia", "world", "2027-03-05T09:00:00+11:00", "2027-03-09T23:59:00+11:00", "Mar 5–9", "https://pitchfestival.com.au/", ""),
     ("Rio Carnival", "\U0001F483", "Sambódromo · Special Group parades", "Rio de Janeiro", "world", "2027-02-07T21:00:00-03:00", "2027-02-10T06:00:00-03:00", "Feb 7–9", "", "carnival"),
     ("Mardi Gras", "\U0001F3AD", "French Quarter · Fat Tuesday", "New Orleans, LA", "world", "2027-02-09T08:00:00-06:00", "2027-02-09T23:59:00-06:00", "Feb 9", "https://www.mardigrasneworleans.com", "new orleans"),
     ("EDC Mexico", "\U0001F33C", "Autódromo Hermanos Rodríguez", "Mexico City", "world", "2027-02-19T16:00:00-06:00", "2027-02-21T23:59:00-06:00", "Feb 19–21", "https://mexico.electricdaisycarnival.com", "edc"),
@@ -889,16 +1105,20 @@ def _iso_ts(s):
 def festivals_json(now=None):
     now = now or int(time.time())
     out = []
-    for (name, emoji, where, city, region, st, en, label, url, watch) in FESTIVALS:
+    for row in FESTIVALS:
+        (name, emoji, where, city, region, st, en, label, url, watch) = row[:10]
         try:
             ts, end_ts = _iso_ts(st), _iso_ts(en)
         except Exception:
             continue
         if end_ts + 6 * 3600 < now:
             continue          # finished: drops off by itself
-        out.append({"type": "festival", "artist": name, "emoji": emoji, "venue": where, "city": city,
-                    "region": region, "date": st[:10], "ts": ts, "end_ts": end_ts, "dateLabel": label,
-                    "url": url, "watch": watch, "src": "the festival's official site", "mega": True})
+        ev = {"type": "festival", "artist": name, "emoji": emoji, "venue": where, "city": city,
+              "region": region, "date": st[:10], "ts": ts, "end_ts": end_ts, "dateLabel": label,
+              "url": url, "watch": watch, "src": "the festival's official site", "mega": True}
+        if len(row) > 10 and row[10]:
+            ev["nye"] = True      # 3.2: runs through New Year's Eve (the page's NYE filter finds it)
+        out.append(ev)
     return out
 
 # 2) LAS VEGAS — No Cover Nightclubs (club + dayclub calendars, slug parser) ──
@@ -1354,7 +1574,8 @@ def load_prior():
 
 # ─────────────────────────────── MAIN ──────────────────────────────
 if __name__ == "__main__":
-    print(f"[Party Portal Bot 3.0] {datetime.now(timezone.utc).isoformat()}")
+    _T0 = time.time()
+    print(f"[Party Portal Bot 3.2] {datetime.now(timezone.utc).isoformat()}")
     print(f"  Keywords: {len(KEYWORDS)} | Feeds: {len(CULTURE_SOURCES)} | Tabs: {len(TAB_ORDER)}")
     print("  Fetching RSS…")
     raw = fetch_all()
@@ -1422,4 +1643,38 @@ if __name__ == "__main__":
             print(f"[CAL] only {len(_clean)} events parsed — keeping existing events.json (no overwrite)")
     except Exception as e:
         print(f"[CAL ERROR] {e} — events.json left unchanged")
+
+    # ── 3.2 (ORDER-701 C12): health.json - one small report each build; never breaks a build ──
+    try:
+        def _read_json(path):
+            try:
+                with open(path, "r", encoding="utf-8") as _hf:
+                    return json.load(_hf)
+            except Exception:
+                return {}
+        _ev = _read_json("events.json")
+        _chs = _read_json("channels.json").get("channels", [])
+        health = {
+            "version": "3.2.0",
+            "built_utc": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+            "build_seconds": round(time.time() - _T0, 1),
+            "feeds": {"total": len(CULTURE_SOURCES),
+                      "returned_items": sum(1 for _n, _c in FEED_STATS.items() if _c),
+                      "empty": sum(1 for _n, _c in FEED_STATS.items() if not _c and _n not in FEED_ERRORS),
+                      "failed": len(FEED_ERRORS), "failed_names": sorted(FEED_ERRORS)[:40]},
+            "news": {"items": len(items), "multi_outlet": multi,
+                     "hot": sum(1 for _i in items if _i.get("hot")),
+                     "tabs": {t: tabs.get(t, 0) for t in TAB_ORDER},
+                     "promo_filtered": dict(_PP_PROMO_LOG)},
+            "calendar": {"events": len(_ev.get("events", [])), "festivals": len(_ev.get("festivals", [])),
+                         "events_updated": _ev.get("updated")},
+            "channels": {"channels": len(_chs),
+                         "videos": sum(len(_c.get("items") or [1]) for _c in _chs),
+                         "live": sum(1 for _c in _chs if _c.get("live"))},
+        }
+        with open("health.json", "w", encoding="utf-8") as _hf:
+            json.dump(health, _hf, ensure_ascii=False, indent=1)
+        print("[OK] health.json written")
+    except Exception as _he:
+        print(f"[WARN] health.json not written: {_he}")
     print("[Done]")

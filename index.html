@@ -21,6 +21,12 @@
     }catch(e){}
     document.documentElement.setAttribute('data-theme',t);
     if(t==='onyx'){ var m=document.querySelector('meta[name="theme-color"]'); if(m) m.setAttribute('content','#000000'); }
+    /* 3.2: LIVE VIDEO before first paint - ?video=off|on for this visit, else 'pp:video' ('0' = off), else ON */
+    try{
+      var v=(new URLSearchParams(location.search).get('video')||'').toLowerCase();
+      var off=(v==='off'||v==='0') ? true : ((v==='on'||v==='1') ? false : localStorage.getItem('pp:video')==='0');
+      if(off) document.documentElement.classList.add('pp-novideo');
+    }catch(e){}
   })();
   </script>
 
@@ -396,6 +402,10 @@
     .pp-inset-tools{position:absolute;top:5px;right:6px;display:flex;gap:4px;z-index:2;opacity:0;transform:translateY(-3px);transition:opacity .15s,transform .15s;pointer-events:none}
     .pp-inset:hover .pp-inset-tools,.pp-inset:focus-within .pp-inset-tools{opacity:1;transform:none;pointer-events:auto}
     .pp-tool{width:26px;height:26px;border-radius:50%;border:none;cursor:pointer;background:rgba(0,0,0,.78);color:#fff;font-size:.8em;display:flex;align-items:center;justify-content:center;line-height:1}
+    /* ORDER-700: two full-screen buttons inside Argus - TAB fills the side tab, ARGUS the whole Argus window */
+    .pp-tool.pp-fs{width:auto;min-width:26px;border-radius:13px;padding:0 8px;font:700 10px/1 'Barlow Condensed','Arial Narrow',Arial,sans-serif;letter-spacing:.08em}
+    .pp-mp-fsbar{position:absolute;top:8px;right:8px;display:flex;gap:6px;z-index:3}
+    .pp-mp-fsbar .pp-tool.pp-fs{height:28px;font-size:11px}
     .pp-tool:hover{background:#B0126B}
     .pp-tool.pp-tool-on{color:#FFD54A}
     .pp-tool.pp-tool-unmute.pp-on{background:#22E4FF;color:#04101A}
@@ -502,6 +512,69 @@
     .pp-toast{position:fixed;left:50%;bottom:56px;transform:translateX(-50%) translateY(20px);background:var(--panel);border:1px solid var(--cyan-ink);border-radius:8px;color:var(--ink-1);font-size:.95em;letter-spacing:.03em;padding:9px 18px;z-index:2600;opacity:0;pointer-events:none;transition:opacity .25s,transform .25s;box-shadow:var(--shadow);max-width:90vw;text-align:center}
     .pp-toast.pp-show{opacity:1;transform:translateX(-50%) translateY(0)}
 
+    /* ═══ 3.2 (ORDER-701): video, then headlines, then calendar ═══ */
+    /* the 2x2 video block: four screens filling the width the 10-tile wall used, each ~2.5x wider,
+       the block never taller than one screen under the bar (2x2 of 16:9 is itself 16:9) */
+    .pp-video-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:6px;padding:0 8px 8px;width:100%;max-width:calc((100vh - 72px) * 16 / 9);margin:0 auto}
+    @media(max-width:1200px){.pp-video-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+    @media(max-width:900px){.pp-video-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:4px;padding:0 4px 6px}}
+    @media(max-width:600px){.pp-video-grid{display:none}}
+    .pp-inset-lbl{font-size:.86em}
+    .pp-tool.pp-tool-step{font-size:.78em}
+    /* LIVE VIDEO off: the players are gone and the headlines lead */
+    html.pp-novideo .pp-feeds-wrap{display:none}
+    html.pp-novideo #pp-shuffle-btn{display:none !important}
+    .pp-top-videooff{display:none}
+    html.pp-novideo .pp-top-videooff{display:inline-flex}
+    /* top bar, mirroring NUZU: Saved - Updated - Light - Live Video - Party Mode - Shuffle */
+    .pp-saved-btn{display:flex;align-items:center;gap:6px;background:var(--chip);border:1px solid var(--rule-2);border-radius:8px;color:var(--gold-ink);font-size:.92em;font-weight:700;letter-spacing:.08em;text-transform:uppercase;padding:6px 11px;cursor:pointer;white-space:nowrap}
+    .pp-saved-btn:hover{background:var(--hover);border-color:var(--gold-ink)}
+    .pp-saved-n{background:var(--raised);color:var(--ink-1);border-radius:9px;padding:0 6px;font-size:.9em;min-width:18px;text-align:center}
+    .pp-nav-upd{font-size:.82em;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-3);white-space:nowrap}
+    .pp-nav-r .pp-switch{width:36px;height:20px}
+    .pp-nav-r .pp-switch input:checked + .pp-slider::before{transform:translateX(16px)}
+    .pp-theme-ico{display:none;font-size:1em;line-height:1}
+    @media(max-width:1000px){.pp-nav-upd{display:none}}
+    @media(max-width:900px){.pp-theme-lbl{display:none}.pp-theme-ico{display:inline}.pp-saved-lbl{display:none}.pp-shuf-lbl{display:none}.pp-nav-r{gap:8px}#pp-help-btn{display:none}}
+    @media(max-width:600px){.pp-nav-r{gap:7px}.pp-saved-btn{padding:5px 8px}}
+    @media(max-width:380px){.pp-logo-text{font-size:.82em;letter-spacing:.06em}}
+    /* Top 10 - Most Reported, like NUZU's */
+    .pp-top-wrap{max-width:1440px;margin:0 auto;padding:18px 18px 8px}
+    .pp-top-wrap[hidden]{display:none}
+    .pp-top-grid{display:grid;grid-template-columns:1fr 1fr;gap:0 28px}
+    @media(max-width:768px){.pp-top-grid{grid-template-columns:1fr}}
+    .pp-top-col{display:flex;flex-direction:column;gap:8px;min-width:0}
+    @media(max-width:768px){.pp-top-col + .pp-top-col{margin-top:8px}}
+    .pp-top-card{display:flex;gap:12px;align-items:flex-start;background:var(--panel);border:1px solid var(--rule);border-left:3px solid var(--pink);border-radius:8px;padding:10px 12px;cursor:pointer;min-width:0}
+    html[data-theme="onyx"] .pp-top-card{border-left-color:var(--rule-2)}
+    .pp-top-card:hover{background:var(--hover)}
+    .pp-top-num{font-family:'Bebas Neue',sans-serif;font-size:1.9em;line-height:1;color:var(--pink-ink);min-width:1.3em;text-align:center;padding-top:2px}
+    html[data-theme="onyx"] .pp-top-num{color:var(--ink-1)}
+    .pp-top-body{flex:1;min-width:0}
+    .pp-top-tags{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin-bottom:4px}
+    .pp-top-tab{font-size:.74em;font-weight:800;letter-spacing:.08em;text-transform:uppercase;padding:1px 7px;border-radius:3px;border:1px solid var(--cyan-ink);color:var(--cyan-ink)}
+    .pp-top-n{font-size:.78em;font-weight:700;letter-spacing:.03em;padding:1px 7px;border-radius:3px;background:var(--raised);color:var(--ink-1)}
+    .pp-top-title{display:block;font-weight:700;font-size:1.04em;line-height:1.36;color:var(--ink-1);overflow-wrap:anywhere}
+    .pp-top-meta{display:flex;flex-wrap:wrap;gap:4px 12px;align-items:center;margin-top:6px;font-size:.84em;color:var(--ink-3)}
+    .pp-top-src{color:var(--ink-2)}
+    .pp-top-also{color:var(--ink-3)}
+    .pp-top-go,.pp-watch{background:none;border:none;padding:0;cursor:pointer;font:inherit;font-weight:700;color:var(--pink-ink);text-decoration:underline;text-underline-offset:2px}
+    .pp-top-read{color:var(--cyan-ink);font-weight:700;text-decoration:none}
+    .pp-top-read:hover,.pp-top-go:hover,.pp-watch:hover{color:var(--ink-1)}
+    .pp-top-empty{color:var(--ink-3);padding:10px 0}
+    .pp-top-videooff{align-items:center;gap:6px;margin-left:auto;background:var(--chip);border:1px solid var(--rule-2);border-radius:8px;color:var(--ink-1);font-size:.86em;font-weight:700;letter-spacing:.06em;padding:5px 11px;cursor:pointer}
+    .pp-top-videooff:hover{background:var(--hover)}
+    .pp-hl.pp-flash{outline:2px solid var(--cyan);outline-offset:3px;border-radius:6px}
+    .pp-hl-watch{margin-left:2px}
+    /* New Year's Eve countdown (December) */
+    .pp-nye{display:flex;align-items:center;flex-wrap:wrap;gap:8px 16px;margin:2px 0 10px;padding:10px 14px;border-radius:10px;background:var(--mega-bg);border:1px solid var(--mega-rule);box-shadow:var(--mega-glow)}
+    .pp-nye[hidden]{display:none}
+    .pp-nye-t{font-family:'Bebas Neue',sans-serif;font-size:1.35em;letter-spacing:.1em;color:var(--mega-ink)}
+    .pp-nye-sub{font-size:.86em;color:var(--mega-ink-3)}
+    .pp-nye-clock{display:flex;gap:6px}
+    .pp-nye-btn{margin-left:auto;background:transparent;border:1px solid var(--mega-rule);border-radius:8px;color:var(--mega-ink-2);font-weight:700;letter-spacing:.06em;font-size:.86em;padding:5px 11px;cursor:pointer}
+    .pp-nye-btn[aria-pressed="true"]{background:var(--mega-bg-2);color:var(--mega-ink)}
+
     @media (prefers-reduced-motion: reduce){
       *{animation-duration:.001ms !important;animation-iteration-count:1 !important;transition-duration:.001ms !important;scroll-behavior:auto !important}
       .pp-ticker-belt{animation:none;transform:none}
@@ -533,7 +606,10 @@
     <div class="pp-help-row"><span>Show only favorites</span><kbd>F</kbd></div>
     <div class="pp-help-row"><span>Jump to station 1&ndash;9</span><kbd>1&ndash;9</kbd></div>
     <div class="pp-help-row"><span>Search channels</span><kbd>/</kbd></div>
-    <div class="pp-help-row"><span>Dark (Onyx) / Neon</span><kbd>T</kbd></div>
+    <div class="pp-help-row"><span>Light (Neon) / Onyx dark</span><kbd>T</kbd></div>
+    <div class="pp-help-row"><span>Live video on / off</span><kbd>V</kbd></div>
+    <div class="pp-help-row"><span>Next video in a tile&rsquo;s channel</span><kbd>&#9197;</kbd></div>
+    <div class="pp-help-row"><span>A new channel in that tile</span><kbd>&#128256;</kbd></div>
     <div class="pp-help-row"><span>This menu</span><kbd>?</kbd></div>
     <div class="pp-help-row"><span>Close / exit</span><kbd>Esc</kbd></div>
     <button class="pp-help-close" id="pp-help-close">Got it</button>
@@ -549,17 +625,24 @@
   </a>
   <span class="pp-nav-tag">Live Cams &bull; DJ Sets &bull; Festivals &bull; Nightlife &bull; Culture</span>
   <div class="pp-nav-r">
-    <label class="pp-theme" title="Dark mode: Onyx, matching NUZU and Argus (T)">
-      <span class="pp-theme-lbl">Dark</span>
-      <span class="pp-switch"><input type="checkbox" id="pp-theme-toggle" aria-label="Dark mode (Onyx)"><span class="pp-slider"></span></span>
+    <!-- 3.2: the same controls, in the same order, as NUZU's top bar -->
+    <button class="pp-saved-btn" id="pp-saved-btn" title="Your saved channels (F)" aria-label="Saved channels">&#9733;<span class="pp-saved-lbl">&nbsp;Saved</span><span class="pp-saved-n" id="pp-saved-n">0</span></button>
+    <span class="pp-nav-upd" id="pp-nav-upd" aria-live="off"></span>
+    <label class="pp-theme" title="Light: the colourful Neon look. Off = Onyx dark, matching NUZU and Argus (T)">
+      <span class="pp-theme-lbl">Light</span><span class="pp-theme-ico" aria-hidden="true">&#9728;&#65039;</span>
+      <span class="pp-switch"><input type="checkbox" id="pp-light-toggle" aria-label="Light mode (Neon). Off is Onyx dark"><span class="pp-slider"></span></span>
     </label>
-    <button class="pp-install-btn" id="pp-install-btn" title="Install Party Portal as an app">&#11015; Install</button>
-    <button class="pp-iconbtn pp-nav-shuffle" id="pp-help-btn" title="Keyboard shortcuts (?)" aria-label="Keyboard shortcuts">?</button>
-    <button class="pp-shuffle-btn pp-nav-shuffle" id="pp-shuffle-btn" title="New random set of channels (S)">&#8635; Shuffle</button>
+    <label class="pp-theme" title="Live video on or off (V)">
+      <span class="pp-theme-lbl">Live Video</span><span class="pp-theme-ico" aria-hidden="true">&#128250;</span>
+      <span class="pp-switch"><input type="checkbox" id="pp-video-toggle" aria-label="Live video" checked><span class="pp-slider"></span></span>
+    </label>
     <button class="pp-mode-btn" id="pp-mode-btn" title="Party Mode — full-screen video wall (P)">
       <i class="pp-modeicon" aria-hidden="true">&#127881;</i>
       PARTY MODE
     </button>
+    <button class="pp-shuffle-btn pp-nav-shuffle" id="pp-shuffle-btn" title="New random set of channels (S)" aria-label="Shuffle">&#8635;<span class="pp-shuf-lbl">&nbsp;Shuffle</span></button>
+    <button class="pp-iconbtn pp-nav-shuffle" id="pp-help-btn" title="Keyboard shortcuts (?)" aria-label="Keyboard shortcuts">?</button>
+    <button class="pp-install-btn" id="pp-install-btn" title="Install Party Portal as an app">&#11015; Install</button>
   </div>
 </nav>
 
@@ -575,31 +658,7 @@
   </div>
 </header>
 
-<!-- ON THE HORIZON -->
-<section class="pp-cd-wrap" id="pp-cd-wrap" aria-label="On The Horizon — upcoming parties, festivals and shows worldwide">
-  <div class="pp-cd-hdr">
-    <span class="pp-sec-dot" aria-hidden="true"></span>
-    <h2 class="pp-sec-title">On The Horizon</h2>
-    <span class="pp-count" id="pp-cd-count"></span>
-    <div class="pp-cd-hdr-r">
-      <button class="pp-cd-allbtn" id="pp-cd-all" aria-pressed="false">View all</button>
-      <button class="pp-cd-navbtn" id="pp-cd-prev" aria-label="Scroll calendar left" title="Earlier">&lsaquo;</button>
-      <button class="pp-cd-navbtn" id="pp-cd-next" aria-label="Scroll calendar right" title="Later">&rsaquo;</button>
-    </div>
-  </div>
-  <div class="pp-cd-filters" id="pp-cd-filters" aria-label="Filter the calendar"></div>
-  <div class="pp-cd-strip" id="pp-cd-strip">
-    <div class="pp-cd-fade pp-cd-fade-l" aria-hidden="true"></div>
-    <div class="pp-cd-fade pp-cd-fade-r" aria-hidden="true"></div>
-    <button class="pp-cd-navbtn pp-cd-edge pp-cd-edge-l" id="pp-cd-edge-l" aria-label="Scroll calendar left" tabindex="-1">&lsaquo;</button>
-    <button class="pp-cd-navbtn pp-cd-edge pp-cd-edge-r" id="pp-cd-edge-r" aria-label="Scroll calendar right" tabindex="-1">&rsaquo;</button>
-    <div class="pp-cd-row" id="pp-cd-row" tabindex="0" aria-label="Upcoming events, soonest first. Use left and right arrow keys to scroll."></div>
-    <span class="pp-cd-hint" aria-hidden="true">More &rarr;</span>
-  </div>
-  <button class="pp-cd-more" id="pp-cd-more">Show more</button>
-</section>
-
-<!-- VIDEO FEEDS -->
+<!-- VIDEO FEEDS (3.2: first - the 2x2 video block) -->
 <section class="pp-feeds-wrap" aria-label="Live feeds and party streams">
   <div class="pp-feeds-bar">
     <div class="pp-feeds-bar-l">
@@ -624,7 +683,48 @@
   <div class="pp-mplayer" id="pp-mplayer" aria-label="Channel player"></div>
 </section>
 
-<!-- CULTURE SECTION -->
+<!-- TOP 10 - MOST REPORTED (3.2: second) -->
+<section class="pp-top-wrap" id="pp-top" aria-label="Top 10 — the most reported party and culture stories">
+  <div class="pp-sec-hdr">
+    <span class="pp-sec-dot" aria-hidden="true"></span>
+    <h2 class="pp-sec-title">Top 10 &middot; Most Reported</h2>
+    <span class="pp-sec-sub" id="pp-top-sub"></span>
+    <button class="pp-top-videooff" id="pp-top-videoon" title="Turn LIVE VIDEO back on">&#128250; Turn on Live Video</button>
+  </div>
+  <div class="pp-top-grid" id="pp-top-grid"><div class="pp-top-empty">Loading the most reported stories&hellip;</div></div>
+</section>
+
+<!-- ON THE HORIZON (3.2: third) -->
+<section class="pp-cd-wrap" id="pp-cd-wrap" aria-label="On The Horizon — upcoming parties, festivals and shows worldwide">
+  <div class="pp-cd-hdr">
+    <span class="pp-sec-dot" aria-hidden="true"></span>
+    <h2 class="pp-sec-title">On The Horizon</h2>
+    <span class="pp-count" id="pp-cd-count"></span>
+    <div class="pp-cd-hdr-r">
+      <button class="pp-cd-allbtn" id="pp-cd-all" aria-pressed="false">View all</button>
+      <button class="pp-cd-navbtn" id="pp-cd-prev" aria-label="Scroll calendar left" title="Earlier">&lsaquo;</button>
+      <button class="pp-cd-navbtn" id="pp-cd-next" aria-label="Scroll calendar right" title="Later">&rsaquo;</button>
+    </div>
+  </div>
+  <div class="pp-nye" id="pp-nye" hidden>
+    <span class="pp-nye-t">&#127878; New Year&rsquo;s Eve</span>
+    <span class="pp-nye-clock pp-cd-timer" id="pp-nye-clock" aria-label="Countdown to midnight, your time"></span>
+    <span class="pp-nye-sub" id="pp-nye-sub"></span>
+    <button class="pp-nye-btn" id="pp-nye-btn" aria-pressed="false">See the world&rsquo;s NYE parties</button>
+  </div>
+  <div class="pp-cd-filters" id="pp-cd-filters" aria-label="Filter the calendar"></div>
+  <div class="pp-cd-strip" id="pp-cd-strip">
+    <div class="pp-cd-fade pp-cd-fade-l" aria-hidden="true"></div>
+    <div class="pp-cd-fade pp-cd-fade-r" aria-hidden="true"></div>
+    <button class="pp-cd-navbtn pp-cd-edge pp-cd-edge-l" id="pp-cd-edge-l" aria-label="Scroll calendar left" tabindex="-1">&lsaquo;</button>
+    <button class="pp-cd-navbtn pp-cd-edge pp-cd-edge-r" id="pp-cd-edge-r" aria-label="Scroll calendar right" tabindex="-1">&rsaquo;</button>
+    <div class="pp-cd-row" id="pp-cd-row" tabindex="0" aria-label="Upcoming events, soonest first. Use left and right arrow keys to scroll."></div>
+    <span class="pp-cd-hint" aria-hidden="true">More &rarr;</span>
+  </div>
+  <button class="pp-cd-more" id="pp-cd-more">Show more</button>
+</section>
+
+<!-- CULTURE SECTION (3.2: then every news tab) -->
 <section class="pp-culture-wrap" id="culture" aria-label="Party and culture news">
   <div class="pp-sec-hdr">
     <span class="pp-sec-dot" aria-hidden="true"></span>
@@ -672,14 +772,25 @@ function ppTheme(){ return document.documentElement.getAttribute('data-theme')==
 function ppSetTheme(t, save){
   document.documentElement.setAttribute('data-theme', t);
   var m=document.querySelector('meta[name="theme-color"]'); if(m) m.setAttribute('content', PP_THEME_COLORS[t]);
-  var tg=document.getElementById('pp-theme-toggle'); if(tg) tg.checked=(t==='onyx');
+  var tg=document.getElementById('pp-light-toggle'); if(tg) tg.checked=(t!=='onyx');
   if(save){ try{ localStorage.setItem('pp:theme', t==='onyx'?'dark':'light'); }catch(e){} }
 }
 (function(){
-  var tg=document.getElementById('pp-theme-toggle'); if(!tg) return;
-  tg.checked = ppTheme()==='onyx';
-  tg.addEventListener('change', function(){ ppSetTheme(tg.checked?'onyx':'neon', true); toast(tg.checked?'Onyx dark mode':'Neon mode'); });
+  /* 3.2: a LIGHT switch like NUZU's - on = the colourful Neon look, off = Onyx dark */
+  var tg=document.getElementById('pp-light-toggle'); if(!tg) return;
+  tg.checked = ppTheme()!=='onyx';
+  tg.addEventListener('change', function(){ ppSetTheme(tg.checked?'neon':'onyx', true); toast(tg.checked?'Light · Neon':'Onyx dark mode'); });
 })();
+
+/* ── 3.2: LIVE VIDEO switch, like NUZU's. localStorage 'pp:video' = '1' | '0'; nothing saved = ON.
+      ?video=off|on wins for that visit (not saved). Off hides and stops every player and the
+      headlines lead; Party Mode still opens when asked for. ── */
+var PP_VIDEO_Q = (function(){ try{ var q=(new URLSearchParams(location.search).get('video')||'').toLowerCase(); return q==='off'||q==='0'?'0':(q==='on'||q==='1'?'1':null); }catch(e){ return null; } })();
+function ppVideoOn(){
+  if(PP_VIDEO_Q!==null) return PP_VIDEO_Q==='1';
+  try{ return localStorage.getItem('pp:video')!=='0'; }catch(e){ return true; }
+}
+document.documentElement.classList.toggle('pp-novideo', !ppVideoOn());
 
 /* ── Embed helpers (youtube-nocookie, enablejsapi for unmute) ── */
 var YT_PARAMS = 'autoplay=1&mute=1&controls=1&modestbranding=1&rel=0&iv_load_policy=3&playsinline=1&enablejsapi=1';
@@ -915,6 +1026,7 @@ function getActivePool(){
   return PP_ALL_FEEDS.filter(function(f){ return !ppIsDead(f.id) && feedMatchesFilter(f,filt) && feedMatchesSearch(f,q); });
 }
 function renderChips(){
+  ppSavedCount();
   var wrap=document.getElementById('pp-chips'); if(!wrap) return;
   var html='';
   ppFilters().forEach(function(filt){
@@ -970,12 +1082,35 @@ function soloAudio(iframe, inset, btn){
   grid.querySelectorAll('iframe').forEach(function(f){ ytCommand(f,'mute'); });
   grid.querySelectorAll('.pp-inset').forEach(function(el){ el.classList.remove('pp-audio-active'); });
   grid.querySelectorAll('.pp-tool-unmute').forEach(function(b){ b.classList.remove('pp-on'); b.innerHTML='🔇'; });
-  if(already) return;
+  if(already){ PP.heard=null; return; }
   ytCommand(iframe,'unMute'); ytCommand(iframe,'setVolume',[100]);
   if(inset) inset.classList.add('pp-audio-active');
   if(btn){ btn.classList.add('pp-on'); btn.innerHTML='🔊'; }
+  PP.heard = inset ? {id:inset.getAttribute('data-id'), frame:iframe} : null;   /* ORDER-700: held across a resize */
+  ppHandshake(iframe);   /* ORDER-700: its time reported from now, not at the next 20 s handshake */
 }
 function goFs(el){ try{ if(el.requestFullscreen) el.requestFullscreen(); else if(el.webkitRequestFullscreen) el.webkitRequestFullscreen(); }catch(e){} }
+/* ── ORDER-700: full screen at every width. Inside Argus two buttons: TAB fills the side tab
+      the site sits in, ARGUS asks Argus to give that tab the whole window and fills it.
+      Anywhere else, the one ⛶ as before. ── */
+var PP_IN_ARGUS = !!(window.chrome && window.chrome.webview);
+function ppFsButtons(target){
+  function mk(cls, label, title, fn){ var b=document.createElement('button'); b.className='pp-tool '+cls; b.title=title; b.setAttribute('aria-label',title); b.innerHTML=label; b.addEventListener('click', function(ev){ ev.stopPropagation(); fn(); }); return b; }
+  if(!PP_IN_ARGUS) return [mk('', '⛶', 'Fullscreen', function(){ goFs(target()); })];
+  return [mk('pp-fs pp-fs-tab', 'TAB', 'Full screen in this tab', function(){ goFs(target()); }),
+          mk('pp-fs pp-fs-argus', 'ARGUS', 'Full screen across the whole Argus window', function(){
+            try{ window.chrome.webview.postMessage('argus:fill'); }catch(e){} goFs(target()); })];
+}
+/* ── ORDER-700: Argus's theme colour, handed in by Argus (never on its own Onyx) ── */
+window.__argusSetAccent = function(c){
+  var r=document.documentElement.style, names=['--accent','--accent-2','--sel','--chip-on'];
+  if(!c || !/^#[0-9a-fA-F]{6}$/.test(c)){ names.concat(['--on-accent','--on-sel','--on-chip-on','--accent-grad','--sel-grad']).forEach(function(n){ r.removeProperty(n); }); return; }
+  var n=parseInt(c.slice(1),16), lum=(0.2126*((n>>16)&255)+0.7152*((n>>8)&255)+0.0722*(n&255))/255, on=lum>0.55?'#000000':'#FFFFFF';
+  if(ppTheme()!=='onyx'){ return; }
+  names.forEach(function(k){ r.setProperty(k, c); });
+  ['--on-accent','--on-sel','--on-chip-on'].forEach(function(k){ r.setProperty(k, on); });
+  r.setProperty('--accent-grad','linear-gradient('+c+','+c+')'); r.setProperty('--sel-grad','linear-gradient('+c+','+c+')');
+};
 function shareChannel(feed){
   if(!feed) return;
   var url=location.origin+location.pathname+'?ch='+encodeURIComponent(feed.id);
@@ -1052,6 +1187,15 @@ window.addEventListener('message', function(e){
   if(!e.data || typeof e.data!=='string') return;
   var d; try { d=JSON.parse(e.data); } catch(x){ return; }
   var info=d.info||{};
+  /* ORDER-700: where each player is, so a video with its sound on can be held across a resize */
+  if(d.event==='infoDelivery' && (typeof info.currentTime==='number' || typeof info.playerState!=='undefined' || (info.videoData && info.videoData.video_id))){
+    var tf=ppFrameFromSource(e.source);
+    if(tf){
+      if(typeof info.currentTime==='number'){ tf.__ppT=info.currentTime; tf.__ppAt=Date.now(); }
+      if(typeof info.playerState!=='undefined') tf.__ppPlaying=(info.playerState===1);
+      if(info.videoData && info.videoData.video_id) tf.__ppV=info.videoData.video_id;
+    }
+  }
   if(d.event==='onError' || (d.event==='infoDelivery' && info.errorCode)){ var bad=ppFrameFromSource(e.source); if(bad) ppReplaceTile(bad, true); return; }
   /* the label follows the video actually playing inside a playlist channel */
   var vd=info.videoData;
@@ -1081,17 +1225,72 @@ window.addEventListener('message', function(e){
     if(!prev || Math.abs(info.currentTime-prev.t)>0.4) PP_PROGRESS[key]={t:info.currentTime, at:Date.now()};
   }
 });
-setInterval(function(){ var now=Date.now(); ppFrames().forEach(function(f){ var rec=PP_PROGRESS[f.src]; if(rec && (now-rec.at)>PP_STALL_MS) ppReplaceTile(f, false); }); }, 30000);
+setInterval(function(){ var now=Date.now(); ppFrames().forEach(function(f){ if(f.__ppPaused) return; var rec=PP_PROGRESS[f.src]; if(rec && (now-rec.at)>PP_STALL_MS) ppReplaceTile(f, false); }); }, 30000);
+/* ── 3.2: while the page is hidden (another browser tab, or Argus showing another tab) the SILENT
+      players pause; the one being heard keeps playing. Back in view, recorded videos carry on where
+      they were and live streams rejoin live. ── */
+document.addEventListener('visibilitychange', function(){
+  var hidden=document.hidden;
+  ppFrames().forEach(function(f){
+    if(PP.heard && PP.heard.frame===f) return;
+    var src=f.getAttribute('src')||'';
+    if(!src || src==='about:blank') return;
+    if(hidden){ if(!f.__ppPaused){ ytCommand(f,'pauseVideo'); f.__ppPaused=true; } return; }
+    if(!f.__ppPaused) return;
+    f.__ppPaused=false;
+    var h=f.closest('.pp-inset') || f.closest('.pp-wrcell'), fd=h ? feedById(h.getAttribute('data-id')) : curMobileFeed();
+    if(fd && ppIsLiveFeed(fd)){ f.src='about:blank'; setTimeout(function(){ f.src=src; }, 60); }
+    else { ytCommand(f,'playVideo'); if(PP_PROGRESS[f.src]) PP_PROGRESS[f.src].at=Date.now(); }
+  });
+});
 setInterval(ppHandshakeAll, PP_HANDSHAKE_MS);
 window.addEventListener('load', function(){ setTimeout(ppHandshakeAll, 1500); });
 
 /* ════════ DESKTOP VIDEO WALL ════════ */
-var PP_WALL = 10;
+var PP_WALL = 4;   /* ORDER-700 (Q88): four bigger screens on a desktop; a phone shows one */
+/* 3.2: with no station or search chosen, one tile always comes from the core lanes */
+var PP_CORE = {'SWIM':1,'FASHION':1,'ROCK':1,'CLUB':1,'FESTIVAL':1,'LIVE CAM':1};
+function ppWithCore(chosen, pool, n){
+  if(PP.filterId!=='all' || PP.search.trim() || chosen.some(function(f){ return PP_CORE[f.cat]; })) return chosen;
+  var ex={}; chosen.forEach(function(f){ ex[f.id]=1; });
+  var core=ppPick(pool.filter(function(f){ return PP_CORE[f.cat]; }), 1, ex)[0];
+  if(!core) return chosen;
+  return chosen.slice(0, Math.max(0, n-1)).concat([core]);
+}
+/* 3.2: per tile - the next video inside the tile's own channel, or a new channel in that tile.
+   A tile whose sound is on stays heard. */
+function ppTileHeard(iframe){ return !!(PP.heard && PP.heard.frame===iframe); }
+function ppKeepSound(iframe, id){
+  iframe.src=ppHeldSrc(iframe.src, null); ppSoundOnLoad(iframe); PP.heard={id:id, frame:iframe};
+}
+function ppNextVideo(holder, iframe){
+  var feed=feedById(holder.getAttribute('data-id')); if(!feed) return;
+  var items=ppItems(feed);
+  if(items.length<2){ toast('One video in this channel — here is a new channel'); ppNewChannel(holder, iframe); return; }
+  var cur=iframe.__ppV || holder.getAttribute('data-v'), k=-1;
+  items.forEach(function(it,j){ if(it.v===cur) k=j; });
+  var nx=items[(k+1)%items.length], heard=ppTileHeard(iframe), s=ppSrc(feed, nx.v);
+  holder.setAttribute('data-v', s.v||''); iframe.__ppV=s.v; iframe.__ppT=null;
+  var lbl=holder.querySelector('.pp-inset-lbl,.pp-wrlbl'); if(lbl) lbl.textContent=ppTileLabel(feed, s.item);
+  delete PP_PROGRESS[iframe.src];
+  iframe.src=s.src; ppRememberV(s.v);
+  if(heard) ppKeepSound(iframe, feed.id);
+  setTimeout(function(){ ppHandshake(iframe); }, 1200);
+  toast('Next video · '+((s.item&&s.item.t)||feed.label).replace(/^[^A-Za-z0-9]+/,'').slice(0,60));
+}
+function ppNewChannel(holder, iframe){
+  var heard=ppTileHeard(iframe);
+  ppReplaceTile(iframe, false);
+  var nid=holder.getAttribute('data-id');
+  if(heard) ppKeepSound(iframe, nid);
+  var nf=feedById(nid); if(nf) toast('New channel · '+(nf.label||'').replace(/^[^A-Za-z0-9]+/,'').slice(0,60));
+}
 function buildMainGrid(){
   var grid=document.getElementById('pp-video-grid'); if(!grid) return;
   grid.querySelectorAll('iframe').forEach(function(f){ f.src='about:blank'; });
+  if(!ppVideoOn()){ grid.innerHTML=''; PP.curMain=[]; return; }
   var filt=getFilterById(PP.filterId), pool=getActivePool();
-  var chosen=ppPick(pool, PP_WALL);
+  var chosen=ppWithCore(ppPick(pool, PP_WALL), pool, PP_WALL);
   var featId=null, featV=PP.featureV||null;
   if(PP.feature){ var ff=feedById(PP.feature); if(ff){ featId=ff.id; chosen=[ff].concat(chosen.filter(function(f){ return f.id!==ff.id; })).slice(0,PP_WALL); } PP.feature=null; PP.featureV=null; }
   else { chosen=ppShuffle(chosen); }
@@ -1110,24 +1309,29 @@ function buildMainGrid(){
     iframe.setAttribute('allowfullscreen',''); iframe.setAttribute('frameborder','0');
     iframe.setAttribute('title', feed.label);
     var s=ppSrc(feed, feed.id===featId ? featV : null);
-    iframe.src=s.src; inset.setAttribute('data-v', s.v||''); ppRememberV(s.v);
+    var held = PP.hold && PP.hold.id===feed.id;
+    iframe.src = held ? ppHeldSrc(s.src, PP.hold) : s.src; inset.setAttribute('data-v', s.v||''); ppRememberV(s.v);
     inset.appendChild(iframe);
     var tools=document.createElement('div'); tools.className='pp-inset-tools';
     var bUn=document.createElement('button'); bUn.className='pp-tool pp-tool-unmute'; bUn.title='Unmute'; bUn.setAttribute('aria-label','Unmute'); bUn.innerHTML='🔇';
     bUn.addEventListener('click', function(ev){ ev.stopPropagation(); soloAudio(iframe, inset, bUn); });
-    var bFs=document.createElement('button'); bFs.className='pp-tool'; bFs.title='Fullscreen'; bFs.setAttribute('aria-label','Fullscreen'); bFs.innerHTML='⛶';
-    bFs.addEventListener('click', function(ev){ ev.stopPropagation(); goFs(iframe); });
+    var bFs=ppFsButtons(function(){ return iframe; });   /* ORDER-700: TAB and ARGUS inside Argus */
     var bFav=document.createElement('button'); bFav.className='pp-tool'+(isFav(feed.id)?' pp-tool-on':''); bFav.title='Save channel'; bFav.setAttribute('aria-label','Save channel'); bFav.setAttribute('data-fav-id',feed.id); bFav.innerHTML=isFav(feed.id)?'★':'☆';
     bFav.addEventListener('click', function(ev){ ev.stopPropagation(); toggleFav(bFav.getAttribute('data-fav-id')); });
     var bSh=document.createElement('button'); bSh.className='pp-tool'; bSh.title='Share / copy link'; bSh.setAttribute('aria-label','Share channel'); bSh.innerHTML='🔗';
     bSh.addEventListener('click', function(ev){ ev.stopPropagation(); shareChannel(feedById(inset.getAttribute('data-id'))); });
-    tools.appendChild(bUn); tools.appendChild(bFs); tools.appendChild(bFav); tools.appendChild(bSh);
+    var bNv=document.createElement('button'); bNv.className='pp-tool pp-tool-step pp-tool-nextv'; bNv.title='Next video in this channel'; bNv.setAttribute('aria-label','Next video in this channel'); bNv.innerHTML='⏭';
+    bNv.addEventListener('click', function(ev){ ev.stopPropagation(); ppNextVideo(inset, iframe); });
+    var bNc=document.createElement('button'); bNc.className='pp-tool pp-tool-step pp-tool-newch'; bNc.title='A new channel in this tile'; bNc.setAttribute('aria-label','A new channel in this tile'); bNc.innerHTML='🔀';
+    bNc.addEventListener('click', function(ev){ ev.stopPropagation(); ppNewChannel(inset, iframe); });
+    tools.appendChild(bUn); tools.appendChild(bNv); tools.appendChild(bNc); bFs.forEach(function(b){ tools.appendChild(b); }); tools.appendChild(bFav); tools.appendChild(bSh);
     inset.appendChild(tools);
     if(ppIsLiveFeed(feed)){ var live=document.createElement('span'); live.className='pp-inset-live'; live.innerHTML='<span class="pp-inset-live-dot"></span>LIVE'; inset.appendChild(live); }
     var cat=document.createElement('span'); cat.className='pp-inset-cat'; cat.textContent=ppCat(feed.cat).label; inset.appendChild(cat);
     var lbl=document.createElement('span'); lbl.className='pp-inset-lbl'; lbl.textContent=ppTileLabel(feed, s.item); lbl.title=feed.label; inset.appendChild(lbl);
     inset.addEventListener('click', function(){ soloAudio(iframe, inset, bUn); });
     grid.appendChild(inset);
+    if(held){ inset.classList.add('pp-audio-active'); bUn.classList.add('pp-on'); bUn.innerHTML='🔊'; ppSoundOnLoad(iframe); PP.heard={id:feed.id, frame:iframe}; PP.hold=null; }
   });
   ppRemember(chosen.map(function(f){ return f.id; }));
 }
@@ -1136,6 +1340,10 @@ function buildMainGrid(){
 function buildMobileQueue(){
   var pool=getActivePool();
   PP.mQueue=pool.length?ppPick(pool, pool.length):[]; PP.mIndex=0;
+  /* 3.2: the first channel on a phone is from the core lanes too (no station / search chosen) */
+  if(PP.filterId==='all' && !PP.search.trim() && PP.mQueue.length && !PP_CORE[PP.mQueue[0].cat]){
+    for(var qi=1;qi<PP.mQueue.length;qi++){ if(PP_CORE[PP.mQueue[qi].cat]){ PP.mQueue.unshift(PP.mQueue.splice(qi,1)[0]); break; } }
+  }
   if(PP.feature){
     PP.mFeatV=PP.featureV||null; PP.featureV=null;
     var ff=feedById(PP.feature);
@@ -1158,6 +1366,7 @@ function renderMobilePlayer(){
   if(!feed){ box.innerHTML='<div class="pp-mp-empty">No channels match <b>'+escHtml(label)+'</b>'+(PP.search?(' &middot; &ldquo;'+escHtml(PP.search)+'&rdquo;'):'')+'.<br>Try another station.</div>'; return; }
   var n=PP.mQueue.length, pos=(PP.mIndex%n)+1, isLive=ppIsLiveFeed(feed);
   var ms=ppSrc(feed, PP.mFeatV||null); PP.mFeatV=null; ppRememberV(ms.v);
+  var mheld = PP.hold && PP.hold.id===feed.id; if(mheld){ ms.src=ppHeldSrc(ms.src, PP.hold); }
   box.innerHTML=''
     +'<div class="pp-mp-context"><span class="pp-mp-context-l">Now playing <b>'+pos+'</b> / '+n+' · '+escHtml(label)+'</span>'
     +'<button class="pp-mp-auto'+(PP.mAuto?' pp-on':'')+'" id="pp-mp-auto" aria-pressed="'+(PP.mAuto?'true':'false')+'">⟳ Auto</button></div>'
@@ -1168,7 +1377,8 @@ function renderMobilePlayer(){
     +'<div class="pp-mp-titles"><div class="pp-mp-name">'+escHtml(ppTileLabel(feed, ms.item))+'</div>'
     +'<div class="pp-mp-sub"><span class="pp-mp-cat">'+escHtml(ppCat(feed.cat).label)+'</span>'+(feed.items&&feed.items.length>1?('<span class="pp-mp-src">'+escHtml(feed.label.replace(/^[^A-Za-z0-9]+/,''))+' \u00B7 '+feed.items.length+' videos</span>'):(feed.src?('<span class="pp-mp-src">via '+escHtml(feed.src)+'</span>'):''))+(feed.url?('<a class="pp-mp-link" href="'+escHtml(feed.url)+'" target="_blank" rel="noopener">Official site ↗</a>'):'')+'</div></div></div>'
     +'<div class="pp-mp-controls"><button class="pp-mbtn" id="pp-mp-prev">◀ Prev</button>'
-    +'<button class="pp-mbtn pp-mbtn-primary" id="pp-mp-next">⟳ Shuffle Next</button>'
+    +(ppItems(feed).length>1?'<button class="pp-mbtn" id="pp-mp-nextv" title="Next video in this channel" aria-label="Next video in this channel">⏭ Video</button>':'')
+    +'<button class="pp-mbtn pp-mbtn-primary" id="pp-mp-next" title="A new channel">⟳ Shuffle Next</button>'
     +'<button class="pp-mbtn" id="pp-mp-share" aria-label="Share channel" title="Share / copy link">🔗</button></div>'
     +'<div class="pp-mp-hint">Swipe the video left / right to change channels · tap Unmute for sound</div>';
   document.getElementById('pp-mp-next').addEventListener('click', mobileNext);
@@ -1177,11 +1387,24 @@ function renderMobilePlayer(){
   document.getElementById('pp-mp-auto').addEventListener('click', mobileToggleAuto);
   document.getElementById('pp-mp-fav').addEventListener('click', function(){ toggleFav(feed.id); });
   var iframe=document.getElementById('pp-mp-iframe'), mute=document.getElementById('pp-mp-mute'), muted=true;
+  var nvb=document.getElementById('pp-mp-nextv');
+  if(nvb) nvb.addEventListener('click', function(){
+    var its=ppItems(feed), cur=iframe.__ppV || iframe.getAttribute('data-v'), k=-1;
+    its.forEach(function(it,j){ if(it.v===cur) k=j; });
+    PP.mFeatV=its[(k+1)%its.length].v;
+    if(!muted) PP.hold={id:feed.id, t:null};    /* heard: the next video keeps the sound on */
+    renderMobilePlayer();
+  });
   mute.addEventListener('click', function(){
     muted=!muted;
-    if(muted){ ytCommand(iframe,'mute'); mute.classList.remove('pp-on'); mute.innerHTML='🔇 Unmute'; }
-    else { ytCommand(iframe,'unMute'); ytCommand(iframe,'setVolume',[100]); mute.classList.add('pp-on'); mute.innerHTML='🔊 Mute'; }
+    if(muted){ ytCommand(iframe,'mute'); mute.classList.remove('pp-on'); mute.innerHTML='🔇 Unmute'; PP.heard=null; }
+    else { ytCommand(iframe,'unMute'); ytCommand(iframe,'setVolume',[100]); mute.classList.add('pp-on'); mute.innerHTML='🔊 Mute'; PP.heard={id:feed.id, frame:iframe}; ppHandshake(iframe); }
   });
+  /* ORDER-700: full screen on the phone player too (it had none) */
+  var fsbar=document.createElement('div'); fsbar.className='pp-mp-fsbar';
+  ppFsButtons(function(){ return iframe; }).forEach(function(b){ fsbar.appendChild(b); });
+  box.querySelector('.pp-mp-frame').appendChild(fsbar);
+  if(mheld){ muted=false; mute.classList.add('pp-on'); mute.innerHTML='🔊 Mute'; ppSoundOnLoad(iframe); PP.heard={id:feed.id, frame:iframe}; PP.hold=null; }
   var frame=box.querySelector('.pp-mp-frame'), sx=null;
   frame.addEventListener('touchstart', function(e){ sx=e.touches[0].clientX; }, {passive:true});
   frame.addEventListener('touchend', function(e){ if(sx===null) return; var dx=e.changedTouches[0].clientX-sx; sx=null; if(Math.abs(dx)>45){ if(dx<0) mobileNext(); else mobilePrev(); } }, {passive:true});
@@ -1193,6 +1416,12 @@ function renderMobilePlayer(){
 function IS_NARROW(){ return window.matchMedia('(max-width:600px)').matches; }
 function renderActiveView(rebuild){
   if(!PP.ready) return;
+  if(!ppVideoOn()){   /* 3.2: LIVE VIDEO off - no players at all */
+    stopMobileAuto(); stopMobileFrame();
+    var g0=document.getElementById('pp-video-grid'); if(g0){ g0.querySelectorAll('iframe').forEach(function(f){ f.src='about:blank'; }); g0.innerHTML=''; }
+    var b0=document.getElementById('pp-mplayer'); if(b0) b0.innerHTML='';
+    PP.heard=null; PP.hold=null; PP.viewNarrow=IS_NARROW(); return;
+  }
   var narrow=IS_NARROW(), pool=getActivePool();
   var hint=document.getElementById('pp-feeds-hint');
   if(hint){
@@ -1201,6 +1430,7 @@ function renderActiveView(rebuild){
       ? ('Swipe or tap Shuffle Next · '+pool.length+' channels')
       : ('Showing '+Math.min(PP_WALL,pool.length)+' of '+pool.length+' channels across '+Object.keys(cats).length+' lanes · S = new set · P = Party Mode');
   }
+  PP.viewNarrow=narrow;
   if(narrow){
     var grid=document.getElementById('pp-video-grid'); if(grid){ grid.querySelectorAll('iframe').forEach(function(f){ f.src='about:blank'; }); grid.innerHTML=''; }
     if(rebuild || !PP.mQueue.length) buildMobileQueue();
@@ -1211,10 +1441,41 @@ function renderActiveView(rebuild){
     buildMainGrid();
   }
 }
+/* ── ORDER-700 (Q21-Q23): a video whose sound is on is HELD when the side tab is made wider
+      or narrower: it becomes the first wall tile, or the phone player, at the same spot,
+      still heard. A video full screen is never pulled out by a resize: the switch waits. ── */
+function ppHoldHeard(){
+  var h=PP.heard; PP.hold=null;
+  if(!h || !h.frame || !document.body.contains(h.frame)){ PP.heard=null; return; }
+  var f=h.frame, feed=feedById(h.id); if(!feed){ PP.heard=null; return; }
+  var t=null;
+  if(!ppIsLiveFeed(feed) && typeof f.__ppT==='number'){ t=f.__ppT + (f.__ppPlaying ? (Date.now()-(f.__ppAt||Date.now()))/1000 : 0); }
+  var holder=f.closest('.pp-inset');
+  PP.feature=feed.id; PP.featureV=f.__ppV || f.getAttribute('data-v') || (holder && holder.getAttribute('data-v')) || null;
+  PP.hold={id:feed.id, t:t};
+}
+function ppHeldSrc(src, hold){
+  src=src.replace(/([?&])mute=1/, '$1mute=0').replace(/&start=\d+/, '');
+  if(hold && typeof hold.t==='number' && hold.t>1) src += '&start='+Math.floor(hold.t);
+  return src;
+}
+function ppSoundOnLoad(iframe){
+  iframe.addEventListener('load', function(){ setTimeout(function(){ ppHandshake(iframe); ytCommand(iframe,'unMute'); ytCommand(iframe,'setVolume',[100]); }, 700); });
+}
+function ppFullScreenNow(){ return !!(document.fullscreenElement || document.webkitFullscreenElement); }
 (function(){
   var mq=window.matchMedia('(max-width:600px)');
-  var handler=function(){ renderActiveView(true); };
+  var handler=function(){
+    if(ppFullScreenNow()){ PP.switchWaiting=true; return; }
+    ppHoldHeard(); renderActiveView(true);
+  };
   if(mq.addEventListener) mq.addEventListener('change', handler); else if(mq.addListener) mq.addListener(handler);
+  var out=function(){
+    if(ppFullScreenNow() || !PP.switchWaiting) return;
+    PP.switchWaiting=false;
+    if(IS_NARROW()!==PP.viewNarrow){ ppHoldHeard(); renderActiveView(true); }
+  };
+  document.addEventListener('fullscreenchange', out); document.addEventListener('webkitfullscreenchange', out);
 })();
 function shuffleCurrent(){ if(IS_NARROW()){ buildMobileQueue(); renderMobilePlayer(); } else { buildMainGrid(); } }
 
@@ -1411,9 +1672,33 @@ function ppAllHorizon(){
   items.sort(function(a,b){ return ppEvStart(a)-ppEvStart(b); });
   return items;
 }
+/* 3.2: New Year's Eve - a countdown to midnight (the viewer's own time) through December, and a
+   button that shows only the world's NYE parties (events dated 31 Dec or 1 Jan, local time) */
+function ppIsNye(ev){ var d=String(ev && ev.date || ''); return /-12-31$/.test(d) || /-01-01$/.test(d) || !!(ev && ev.nye); }
+function ppNyeTarget(){ var d=new Date(); var y=d.getMonth()===0 && d.getDate()===1 ? d.getFullYear() : d.getFullYear()+1; return new Date(y,0,1,0,0,0).getTime(); }
+function ppNyeTick(){
+  var box=document.getElementById('pp-nye'); if(!box) return;
+  var now=new Date(), show=(ppNyeTarget()-now.getTime()) <= 45*86400000 || (now.getMonth()===0 && now.getDate()===1);
+  box.hidden=!show; if(!show) return;
+  var clock=document.getElementById('pp-nye-clock'), sub=document.getElementById('pp-nye-sub'), diff=ppNyeTarget()-now.getTime();
+  function seg(v,l){ return '<span class="pp-cd-seg"><b>'+(v<10?'0':'')+v+'</b><span>'+l+'</span></span>'; }
+  if(diff<=0){ if(clock) clock.innerHTML='<span class="pp-cd-live">● Happy New Year!</span>'; }
+  else if(clock){ var s=Math.floor(diff/1000), d=Math.floor(s/86400); s-=d*86400; var h=Math.floor(s/3600); s-=h*3600; var m=Math.floor(s/60); s-=m*60; clock.innerHTML=seg(d,'days')+seg(h,'hrs')+seg(m,'min')+seg(s,'sec'); }
+  if(sub && !sub.__set){ var n=ppAllHorizon().filter(ppIsNye).length; sub.textContent='to midnight, your time'+(n?' · '+n+' NYE parties and celebrations on the calendar':''); sub.__set=n>0; }
+}
+setInterval(ppNyeTick, 1000);
+(function(){
+  var b=document.getElementById('pp-nye-btn'); if(!b) return;
+  b.addEventListener('click', function(){
+    PP_CD.nye=!PP_CD.nye; b.setAttribute('aria-pressed', PP_CD.nye?'true':'false');
+    b.textContent=PP_CD.nye?'Show every event':'See the world’s NYE parties';
+    renderCountdowns();
+  });
+})();
 function ppHorizonFiltered(skip){
   var now=Date.now();
   return ppAllHorizon().filter(function(ev){
+    if(PP_CD.nye && !ppIsNye(ev)) return false;
     if(skip!=='when' && !ppWhenMatch(ev, PP_CD.when, now)) return false;
     if(skip!=='where' && PP_CD.where!=='all' && ppRegion(ev)!==PP_CD.where) return false;
     if(skip!=='type' && PP_CD.type!=='all' && ppTypeGroup(ev.type)!==PP_CD.type) return false;
@@ -1623,11 +1908,44 @@ document.addEventListener('keydown', function(e){
   if(k==='s'){ e.preventDefault(); shuffleCurrent(); }
   else if(k==='p'){ if(!IS_NARROW() && window.__ppOpenParty){ e.preventDefault(); window.__ppOpenParty(); } }
   else if(k==='f'){ e.preventDefault(); setFilter(PP.filterId==='fav'?'all':'fav'); }
-  else if(k==='t'){ e.preventDefault(); var nt=ppTheme()==='onyx'?'neon':'onyx'; ppSetTheme(nt,true); toast(nt==='onyx'?'Onyx dark mode':'Neon mode'); }
+  else if(k==='t'){ e.preventDefault(); var nt=ppTheme()==='onyx'?'neon':'onyx'; ppSetTheme(nt,true); toast(nt==='onyx'?'Onyx dark mode':'Light · Neon'); }
+  else if(k==='v'){ e.preventDefault(); var nv=!ppVideoOn(); ppSetVideo(nv,true); toast(nv?'Live video on':'Live video off · the headlines lead'); }
   else if(k==='/'){ e.preventDefault(); var s=document.getElementById('pp-search'); if(s) s.focus(); }
   else if(k==='?'){ e.preventDefault(); toggleHelp(); }
 });
 document.getElementById('pp-shuffle-btn').addEventListener('click', shuffleCurrent);
+/* ── 3.2: the LIVE VIDEO switch (remembered as pp:video) and the Saved button ── */
+function ppSetVideo(on, save){
+  if(save){ PP_VIDEO_Q=null; try{ localStorage.setItem('pp:video', on?'1':'0'); }catch(e){} }
+  else { PP_VIDEO_Q=on?'1':'0'; }
+  document.documentElement.classList.toggle('pp-novideo', !on);
+  var vt=document.getElementById('pp-video-toggle'); if(vt) vt.checked=on;
+  if(on){ renderActiveView(true); } else { renderActiveView(false); }
+}
+(function(){
+  var vt=document.getElementById('pp-video-toggle'); if(!vt) return;
+  vt.checked=ppVideoOn();
+  vt.addEventListener('change', function(){ ppSetVideo(vt.checked, true); toast(vt.checked?'Live video on':'Live video off · the headlines lead'); });
+  var on2=document.getElementById('pp-top-videoon');
+  if(on2) on2.addEventListener('click', function(){ ppSetVideo(true, true); toast('Live video on'); var fw=document.querySelector('.pp-feeds-wrap'); if(fw) fw.scrollIntoView({behavior:'smooth',block:'start'}); });
+  var sb=document.getElementById('pp-saved-btn');
+  if(sb) sb.addEventListener('click', function(){
+    if(!PP.favs.size){ toast('Nothing saved yet — tap ☆ on a video to save its channel'); return; }
+    if(!ppVideoOn()){ toast('Live video is off — switch it on to watch your '+PP.favs.size+' saved channel'+(PP.favs.size>1?'s':'')); return; }
+    setFilter(PP.filterId==='fav'?'all':'fav');
+    var fw=document.querySelector('.pp-feeds-wrap'); if(fw && PP.filterId==='fav') fw.scrollIntoView({behavior:'smooth',block:'start'});
+  });
+})();
+function ppSavedCount(){ var n=document.getElementById('pp-saved-n'); if(n) n.textContent=PP.favs.size; var b=document.getElementById('pp-saved-btn'); if(b) b.setAttribute('aria-pressed', PP.filterId==='fav'?'true':'false'); }
+/* "Updated X ago" in the top bar, like NUZU's - from the news feed's build time */
+var PP_FEED_UPDATED=0;
+function ppUpdatedAgo(){
+  var el=document.getElementById('pp-nav-upd'); if(!el || !PP_FEED_UPDATED) return;
+  var m=Math.max(0, Math.round((Date.now()/1000-PP_FEED_UPDATED)/60));
+  el.textContent='Updated '+(m<1?'just now':(m<60?m+' min ago':(m<1440?Math.floor(m/60)+' hr ago':Math.floor(m/1440)+' d ago')));
+  el.title='News last refreshed '+new Date(PP_FEED_UPDATED*1000).toLocaleString();
+}
+setInterval(ppUpdatedAgo, 60000);
 document.getElementById('pp-help-btn').addEventListener('click', toggleHelp);
 document.getElementById('pp-help-close').addEventListener('click', toggleHelp);
 document.getElementById('pp-help').addEventListener('click', function(e){ if(e.target===this) this.classList.remove('pp-open'); });
@@ -1653,6 +1971,46 @@ if('serviceWorker' in navigator && (location.protocol==='https:'||location.proto
   window.addEventListener('load', function(){ navigator.serviceWorker.register('sw.js').catch(function(){}); });
 }
 
+/* ── 3.2: ▸ Watch on a headline that names an artist (or a show, a brand, a festival) with a
+      channel here. Names come from the channels' own sources; whole words only. ── */
+var PP_WATCH_STOP = {'live':1,'fashion':1,'music':1,'show':1,'capital':1,'vegaslive':1,'queen':1,'survivor':1,'journey':1,
+  'warrant':1,'tesla':1,'aqua':1,'bush':1,'cinderella':1,'afterlife':1,'sponge':1,'mixmag':1,'djmag':1,'beatport':1,'uproxx':1,
+  'nprmusic':1,'bbcradio1':1,'kexp':1,'hot97':1,'arteconcert':1,'mtvvault':1,'thelotradio':1,'monstercatsilk':1,'armadamusictv':1,
+  'spinninrecords':1,'hospitalrecords':1,'qdancemusic':1,'cafedelmar':1,'ibahia':1,'wwl':1,'tvaratu':1,'redeportal':1,'emimusic':1,
+  'unidiscmusic':1,'remhq':1,'ritmo':1,'massano':1,'radio':1,'records':1,'official':1,'fashionstock':1,'showvictoriassecret':1};
+var PP_WATCH_IDX = null;
+function ppWatchKey(s){
+  s=String(s||'').toLowerCase(); try{ s=s.normalize('NFD').replace(/[̀-ͯ]/g,''); }catch(e){}
+  return s.replace(/\(official\)/g,'').replace(/\bofficial\b/g,'').replace(/vevo\s*$/,'').replace(/[^a-z0-9]/g,'');
+}
+function ppWatchIndex(){
+  if(PP_WATCH_IDX && PP_WATCH_IDX.n===PP_ALL_FEEDS.length) return PP_WATCH_IDX.m;
+  var m={};
+  [false,true].forEach(function(multi){ PP_ALL_FEEDS.forEach(function(f){
+    if(f.cat==='LIVE CAM' || ppIsDead(f.id)) return;
+    var names=String(f.src||'').split(/\s*,\s*/); if((names.length>1)!==multi) return;
+    names.forEach(function(nm){ var k=ppWatchKey(nm); if(k.length>=4 && !/^\d+$/.test(k) && !PP_WATCH_STOP[k] && !m[k]) m[k]=f; });
+  }); });
+  PP_WATCH_IDX={n:PP_ALL_FEEDS.length, m:m};
+  return m;
+}
+function ppWatchFor(title){
+  var m=ppWatchIndex(), s=String(title||'').toLowerCase();
+  try{ s=s.normalize('NFD').replace(/[̀-ͯ]/g,''); }catch(e){}
+  var w=s.replace(/[^a-z0-9]+/g,' ').trim().split(' ');
+  for(var i=0;i<w.length;i++){ for(var L=Math.min(5,w.length-i);L>=1;L--){ var k=w.slice(i,i+L).join(''); if(k.length>=4 && m[k]) return m[k]; } }
+  return null;
+}
+function ppWatchChannel(id){
+  var f=feedById(id); if(!f) return;
+  if(!ppVideoOn()) ppSetVideo(true, false);   /* asked to watch: video on for this visit (not saved) */
+  PP.filterId='all'; PP.search=''; var s=document.getElementById('pp-search'); if(s) s.value='';
+  var c=document.getElementById('pp-search-clear'); if(c) c.classList.remove('pp-show');
+  PP.feature=f.id; PP.featureV=null; renderChips(); renderActiveView(true);
+  var fw=document.querySelector('.pp-feeds-wrap'); if(fw) fw.scrollIntoView({behavior:'smooth',block:'start'});
+  toast('Now playing — '+(f.label||'').replace(/^[^A-Za-z0-9]+/,'').slice(0,64));
+}
+
 /* ════════ CULTURE FEED — real data only (feed.json), no synthetic fallback ════════ */
 var PP_NEWS_TABS = ['EDM & Dance','Techno & House','Festivals','Nightlife & Clubs','Las Vegas','Ibiza & Global','Rock','Hip-Hop','Pop & Tours','Fashion & Swim','Retro & Culture','Tickets & Lineups'];
 (function(){
@@ -1667,24 +2025,87 @@ var PP_NEWS_TABS = ['EDM & Dance','Techno & House','Festivals','Nightlife & Club
   function stripSrc(t){ if(!t || t.indexOf(' - ')<0) return t; var p=t.split(' - '); var last=p[p.length-1]; if(last.split(' ').length<=5){ p.pop(); return p.join(' - '); } return t; }
   function safeHref(h){ return (h && /^https?:\/\//.test(h)) ? h : null; }
   loading();
-  var _items=[], _updated=0, _newsCat='all';
+  var _items=[], _updated=0, _newsCat='all', _ensure=null;
+  /* 3.2: 🔥 only for a fresh story several outlets report (under 24 h, 2+ outlets); "when"
+     is worked out here from the story's time, so it is right however old the page is */
+  function isHot(item){ return (item.n||1)>=2 && item.ts && (Date.now()/1000-item.ts)<86400; }
+  function ago(item){
+    if(!item.ts) return item.time||'';
+    var s=Math.max(60, Date.now()/1000-item.ts);
+    if(s<3600) return Math.round(s/60)+' min ago';
+    if(s<86400) return Math.floor(s/3600)+' hr ago';
+    return Math.floor(s/86400)===1?'1 day ago':Math.floor(s/86400)+' days ago';
+  }
+  function hkey(item){ var s=(item.link||'')+'|'+(item.title||''), h=0; for(var i=0;i<s.length;i++){ h=((h<<5)-h+s.charCodeAt(i))|0; } return 'pp-hl-'+(h>>>0).toString(36); }
+  function outlets(item){ var n=item.n||1; return n+(n===1?' outlet':' outlets'); }
+  function watchBtn(item){ var f=ppWatchFor(stripSrc(item.title)); return f?'<button class="pp-watch" data-watch="'+escHtml(f.id)+'" title="Watch '+escHtml((f.label||'').replace(/^[^A-Za-z0-9]+/,''))+' on the wall">▸ Watch</button>':''; }
   function hl(item){
     var title=stripSrc(item.title);
     var init=(item.src||'PP').replace(/[^A-Z0-9]/gi,'').slice(0,2).toUpperCase()||'PP';
     var href=safeHref(item.link), tc=trustColor(item.tier||3), dom=item.domain||'';
     /* logos only for rated outlets: unknown domains make the favicon service answer 404 */
     var icon='<div class="pp-hl-icon">'+escHtml(init)+((dom && (item.tier||3)<=2)?'<img class="pp-hl-fav" loading="lazy" alt="" src="https://www.google.com/s2/favicons?domain='+encodeURIComponent(dom)+'&sz=64" onerror="this.remove()">':'')+'</div>';
-    var n=item.n||1;
-    var srcsPill=n>=2?'<span class="pp-hl-srcs" title="Reported by '+n+' sources">🔥 '+n+' sources</span>':'';
-    return '<div class="pp-hl"'+(href?' data-href="'+escHtml(href)+'"':'')+'>'
+    var n=item.n||1, hot=isHot(item);
+    var srcsPill=n>=2?'<span class="pp-hl-srcs" title="Reported by '+n+' outlets'+(item.also&&item.also.length?': '+escHtml(item.also.join(', ')):'')+'">'+(hot?'🔥 ':'')+n+' outlets</span>':'';
+    return '<div class="pp-hl" id="'+hkey(item)+'"'+(href?' data-href="'+escHtml(href)+'"':'')+'>'
       +icon+'<div class="pp-hl-body">'
-      +'<div class="pp-hl-tags">'+(item.hot?'<span class="pp-new-dot" aria-hidden="true">●</span>':'')+srcsPill+(item.cat?'<span class="pp-hl-tag">'+escHtml(item.cat)+'</span>':'')+'</div>'
+      +'<div class="pp-hl-tags">'+(hot?'<span class="pp-new-dot" aria-hidden="true">●</span>':'')+srcsPill+(item.cat?'<span class="pp-hl-tag">'+escHtml(item.cat)+'</span>':'')+'</div>'
       +'<span class="pp-hl-title">'+escHtml(title)+'</span><div class="pp-hl-meta">'
       +(item.src?('<span class="pp-hl-src"><span class="pp-hl-trust" style="background:'+tc+'"></span>'+escHtml(item.src)+'</span>'):'')
-      +(item.time?('<span class="pp-hl-time">'+escHtml(item.time)+'</span>'):'')
+      +'<span class="pp-hl-time">'+escHtml(ago(item))+'</span>'
       +(href?('<a class="pp-hl-link" href="'+escHtml(href)+'" target="_blank" rel="noopener">Read ↗</a>'):'')
+      +watchBtn(item)
       +'</div></div></div>';
   }
+  /* ── Top 10 · Most Reported, like NUZU's: two columns of five, ranked by the number of outlets
+        reporting the story (a plain count, no trust weighting), then freshness; at most 2 per tab ── */
+  function top10(){
+    var per={}, out=[];
+    _items.slice().sort(function(a,b){ return (b.n||1)-(a.n||1) || (b.ts||0)-(a.ts||0); }).forEach(function(it){
+      if(out.length>=10) return; var t=it.cat||'Other'; if((per[t]||0)>=2) return; per[t]=(per[t]||0)+1; out.push(it);
+    });
+    return out;
+  }
+  function topCard(item, i){
+    var title=stripSrc(item.title), href=safeHref(item.link), n=item.n||1, also=(item.also||[]).slice(0,3);
+    return '<div class="pp-top-card" data-top="'+i+'" title="Go to this story on the page">'
+      +'<span class="pp-top-num" aria-hidden="true">'+(i+1)+'</span><div class="pp-top-body">'
+      +'<div class="pp-top-tags">'+(item.cat?'<span class="pp-top-tab">'+escHtml(item.cat)+'</span>':'')
+      +'<span class="pp-top-n">'+(isHot(item)?'🔥 ':'')+outlets(item)+'</span></div>'
+      +'<span class="pp-top-title">'+escHtml(title)+'</span>'
+      +'<div class="pp-top-meta">'+(item.src?'<span class="pp-top-src">'+escHtml(item.src)+'</span>':'')
+      +(also.length?'<span class="pp-top-also">+ '+escHtml(also.join(', '))+(n-1>also.length?' +'+(n-1-also.length):'')+'</span>':'')
+      +'<span>'+escHtml(ago(item))+'</span>'
+      +(href?'<a class="pp-top-read" href="'+escHtml(href)+'" target="_blank" rel="noopener">Read ↗</a>':'')
+      +'<button class="pp-top-go" data-go="'+i+'">↓ Go to story</button>'+watchBtn(item)
+      +'</div></div></div>';
+  }
+  var _top=[];
+  function renderTop(){
+    var g=document.getElementById('pp-top-grid'), sub=document.getElementById('pp-top-sub'); if(!g) return;
+    _top=top10();
+    if(!_top.length){ g.innerHTML='<div class="pp-top-empty">The most reported stories appear here after the next refresh.</div>'; if(sub) sub.textContent=''; return; }
+    var multi=_top.filter(function(x){ return (x.n||1)>=2; }).length;
+    if(sub) sub.textContent='ranked by how many outlets report each story · '+multi+' of 10 reported by 2 or more';
+    g.innerHTML='<div class="pp-top-col">'+_top.slice(0,5).map(topCard).join('')+'</div>'
+      +'<div class="pp-top-col">'+_top.slice(5,10).map(function(it,j){ return topCard(it,j+5); }).join('')+'</div>';
+  }
+  function goTo(item){
+    _newsCat=item.cat||'all'; _ensure=item; renderPills(); paint(); _ensure=null;
+    var el=document.getElementById(hkey(item));
+    if(el){ el.scrollIntoView({behavior:'smooth',block:'center'}); el.classList.add('pp-flash'); setTimeout(function(){ el.classList.remove('pp-flash'); }, 2600); }
+  }
+  (function(){
+    var g=document.getElementById('pp-top-grid'); if(!g) return;
+    g.addEventListener('click', function(e){
+      if(e.target.closest('a') || e.target.closest('[data-watch]')) return;
+      var c=e.target.closest('[data-top]'); if(c && _top[+c.getAttribute('data-top')]) goTo(_top[+c.getAttribute('data-top')]);
+    });
+  })();
+  document.addEventListener('click', function(e){
+    var w=e.target.closest && e.target.closest('[data-watch]'); if(!w) return;
+    e.preventDefault(); e.stopPropagation(); ppWatchChannel(w.getAttribute('data-watch'));
+  }, true);
   function renderPills(){
     var box=document.getElementById('pp-news-pills'); if(!box) return;
     var counts={}; _items.forEach(function(i){ var c=i.cat||'Other'; counts[c]=(counts[c]||0)+1; });
@@ -1709,10 +2130,12 @@ var PP_NEWS_TABS = ['EDM & Dance','Techno & House','Festivals','Nightlife & Club
     var lim=_newsCat==='all'?18:40;
     var todayStr=nowD.toLocaleDateString('en-US',{weekday:'short',month:'short',day:'numeric'});
     var yestStr=new Date(Date.now()-86400000).toLocaleDateString('en-US',{weekday:'short',month:'short',day:'numeric'});
+    var tShow=today.slice(0,lim), yShow=yest.slice(0,lim);
+    if(_ensure){ if(today.indexOf(_ensure)>=lim) tShow.push(_ensure); else if(yest.indexOf(_ensure)>=lim) yShow.push(_ensure); }
     cols.innerHTML='<div><div class="pp-col-label pp-col-breaking"><div class="pp-col-dot"></div>TODAY — '+todayStr+'<span class="pp-col-count">'+today.length+' stories</span></div>'
-      +(today.length?today.slice(0,lim).map(hl).join(''):'<p class="pp-col-empty">No stories in this tab yet today — try another.</p>')+'</div>'
+      +(today.length?tShow.map(hl).join(''):'<p class="pp-col-empty">No stories in this tab yet today — try another.</p>')+'</div>'
       +'<div><div class="pp-col-label pp-col-latest"><div class="pp-col-dot"></div>EARLIER — '+yestStr+'<span class="pp-col-count">'+yest.length+' stories</span></div>'
-      +(yest.length?yest.slice(0,lim).map(hl).join(''):'<p class="pp-col-empty">Earlier stories will appear here</p>')+'</div>';
+      +(yest.length?yShow.map(hl).join(''):'<p class="pp-col-empty">Earlier stories will appear here</p>')+'</div>';
   }
   cols.addEventListener('click', function(e){
     if(e.target.closest('a')) return;
@@ -1736,7 +2159,8 @@ var PP_NEWS_TABS = ['EDM & Dance','Techno & House','Festivals','Nightlife & Club
     if(!_items.length){ emptyState('No fresh headlines just yet'); var pb=document.getElementById('pp-news-pills'); if(pb) pb.innerHTML=''; return; }
     var upd=document.getElementById('pp-updated');
     if(upd && _updated){ var dd=new Date(_updated*1000); upd.textContent='Updated '+dd.toLocaleTimeString('en-US',{hour:'numeric',minute:'2-digit'}); }
-    renderPills(); paint(); renderTicker();
+    PP_FEED_UPDATED=_updated; ppUpdatedAgo();
+    renderTop(); renderPills(); paint(); renderTicker();
   }
   function load(){
     loading();
@@ -1745,6 +2169,7 @@ var PP_NEWS_TABS = ['EDM & Dance','Techno & House','Festivals','Nightlife & Club
       .catch(function(){ emptyState('Couldn’t load the feed right now'); });
   }
   window.__ppLoadCulture=load;
+  window.__ppNewsRepaint=function(){ if(_items.length){ renderTop(); paint(); } };
   load();
 })();
 
@@ -1786,10 +2211,11 @@ var PP_NEWS_TABS = ['EDM & Dance','Techno & House','Festivals','Nightlife & Club
       if(Array.isArray(list) && list.length >= 40 && list.every(function(c){ return c && c.id && c.cat && c.embed; })){
         PP_ALL_FEEDS = list;
         if(PP.ready){ counts(); renderChips(); renderActiveView(true); }
+        if(window.__ppNewsRepaint) window.__ppNewsRepaint();   /* 3.2: ▸ Watch against the full catalogue */
       }
     }).catch(function(){}).then(function(){ clearTimeout(timer); start(); });
   fetch('./events.json?v='+Date.now()).then(function(r){ return r.ok?r.json():null; })
-    .then(function(d){ if(d && Array.isArray(d.events)){ PP_EVENTS=d.events.concat(Array.isArray(d.festivals)?d.festivals:[]); renderCountdowns(); } })
+    .then(function(d){ if(d && Array.isArray(d.events)){ PP_EVENTS=d.events.concat(Array.isArray(d.festivals)?d.festivals:[]); renderCountdowns(); var ns=document.getElementById('pp-nye-sub'); if(ns) ns.__set=false; ppNyeTick(); } })
     .catch(function(){});
   renderCountdowns();
 })();
