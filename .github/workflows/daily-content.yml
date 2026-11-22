@@ -48,5 +48,6 @@ jobs:
           git config user.name  "PartyPortal Bot"
           git config user.email "bot@partyportal.app"
           git add index.html feed.json events.json channels.json
+          git add health.json 2>/dev/null || true
           git commit -m "🎉 Culture feed refresh [$(date -u '+%Y-%m-%d %H:%M UTC')]"
           git push
