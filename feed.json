@@ -1,5 +1,5 @@
 {
-  "updated": 1795388154,
+  "updated": 1795388549,
   "tabs": [
     "Las Vegas",
     "Tickets & Lineups",
@@ -20,10 +20,36 @@
       "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPZ3FpdlhEYjNUcmZ4UTdxQUFhM3ZLRllicmdYOTlhZzRoTm42U05aQlNDQjV1dEhjVlVJaDBHQnlqeUszN0ZQYklodUlHNzZFMzZhZXMwdWJrNzBDVlZ5TFU3TlhLTGJKWkNKdXZVVnYwSW9BVUxOdXVhZUFiWkJ5VHpIdE03SVJaaUU3c19B?oc=5",
       "src": "조선일보",
       "domain": "chosun.com",
-      "time": "2 min ago",
+      "time": "8 min ago",
       "cat": "Ibiza & Global",
       "hot": false,
       "ts": 1795388010,
+      "tier": 3,
+      "n": 1,
+      "also": []
+    },
+    {
+      "title": "IU plans 19-show world tour across 10 cities, upgrading to stadiums and domes",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNMHpJblRFdVA3MGVCR1dNNjVLaFZLdXJoTFEwR3lZNnVPM1N4dU1JUGh4dEV1Mk5keDgxT2wxSkUza3dzNDZFT1JIS240aTlCS3lFS0NVUGozXzJIamtZSEVnelZrSWQ3ckt1NG45RjBYWHBaVkFFYkRrb2NGZGQ0ZjhSSGlxVE1O0gGcAUFVX3lxTE5MRXMxeWl5RzBhTVBwSjd6cVVrbWE5OXl4UGRpMnVwREx5RVczN2JwYkZ3Ylc0NnRqbWJVM3lobVIwaVZzZHpaUk51U1I1TDJyUHlleGYyX0lSNVBURExnb2ROd0I3d29qd3RIdDM2V2cxSlAwbVJMU3gwUHZVOWJzM2huem9QZzQwQ1FJcXVhaFBMY1hzUXp5R3IySw?oc=5",
+      "src": "Chosunbiz",
+      "domain": "biz.chosun.com",
+      "time": "12 min ago",
+      "cat": "Pop & Tours",
+      "hot": false,
+      "ts": 1795387800,
+      "tier": 3,
+      "n": 1,
+      "also": []
+    },
+    {
+      "title": "Supermodel, MTV icon Daisy Fuentes, 60, shares 'anti-hustle era' health habits -- has 'magical' sleep trick",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPMFpjdTNXTDc4aDljcmVQY2h6cF9RNGFQOFBvVHZ6SDdwUFB5cHZJczlkcHhPZ2x1bTN3S092QktRWlprRnlpRnBWVEdYUXViaTRvN2JzcXB3SW5FMjFUTnI0RnQ2MDE5YTU3Tk9zc18zM1RkOXViN2N2aDR2eHNhZXBGdXoxRE9jY3JHV3lRNjh0VGJaUUxGaGc5ZUp5Z21CaWU4VS13QmVVamdRbVdPQWhnVnFrTmJsajRzem9qZlhucWxtZXl0LWwwRHFhQWl1NUh0ZQ?oc=5",
+      "src": "New York Post",
+      "domain": "nypost.com",
+      "time": "15 min ago",
+      "cat": "Fashion & Swim",
+      "hot": false,
+      "ts": 1795387620,
       "tier": 3,
       "n": 1,
       "also": []
@@ -33,7 +59,7 @@
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQMHNjRDBmdHh4Wm1HbjlSdl9Sd0RzWFBNanNva0hKVUpPU2hrMzQ2VnkzSHhaNk0wY1BkZTJlMndhaGlkc1l5Q2c1RjY1MFFFY19Xb0licmNPUHN5cktyVDFiT004ZXhKLVA0SC1sR0tPdm1KcGppN3ZXLTBXNkZtWThVYXhwZzhTel95X3c3Rk9zN0lqN2hZMUNCODVYbzlnWWc?oc=5",
       "src": "Urban Milwaukee",
       "domain": "urbanmilwaukee.com",
-      "time": "12 min ago",
+      "time": "19 min ago",
       "cat": "Nightlife & Clubs",
       "hot": false,
       "ts": 1795387380,
@@ -46,7 +72,7 @@
       "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPcElWSFE1LW5vTVUwbnRfaGo0NUNsazBQQ3h1RnBtLTdMTE9FRXgyNXFRTXR2SDdCRGE3TC1tQVdUYzNzQm93Q1FJTXMzRTQ1Ykp3cVRoNWVYbXowRVdNVUVZc2wweERsalVWRl9qWU51Z3dVa1Vxd1ktbUdHbFpwV2tmNnJjTW9fNGZXVg?oc=5",
       "src": "FOX5 Vegas",
       "domain": "fox5vegas.com",
-      "time": "18 min ago",
+      "time": "25 min ago",
       "cat": "Pop & Tours",
       "hot": false,
       "ts": 1795387020,
@@ -59,7 +85,7 @@
       "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1LaEVNZWhiMlhVb3lWVmF1UnBZZENwVy1FcEtmRjdocW5jR1hFOHdIcUcxNmYya0h5WFE4NDVacEFXWlY2cm9ZbllnZGpGeVRwRTJQRjc3c0sxNU1Sazc4YkJjZVVJRzl6cG9CWFVyMmQwUGUtUWFDTWVCYW4?oc=5",
       "src": "The Irish Sun",
       "domain": "thesun.ie",
-      "time": "23 min ago",
+      "time": "30 min ago",
       "cat": "Fashion & Swim",
       "hot": false,
       "ts": 1795386748,
@@ -72,7 +98,7 @@
       "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPT3dOMEtvVEU2RU1CdHg1MWNaMnZHbXF3Y3VreUpjZHZTRlNjX1VwNXNHNWJzWHkzazc3UWN2bi04M3RNVmtBSVJfemVzLTVnZUxyMGppMW5BeGkzUVRqU1ZkTzM1Q0FDMDJFZ2hVendYVWl3TFJOang0cmJnMDFRLVl4Y284QUg2c1V4Q1RQSWZoWnZpSGFpaTl3LVl3ZElFYVVWaEdpVnZvOVY4d05UQmVfYjg5TmxYQkhKb1RfTnBZSTJyN0dzeFdnS29pb19yYjJtamdZT1JuN2l3MklUQw?oc=5",
       "src": "Hypergrid Business",
       "domain": "hypergridbusiness.com",
-      "time": "25 min ago",
+      "time": "32 min ago",
       "cat": "Nightlife & Clubs",
       "hot": false,
       "ts": 1795386600,
@@ -85,7 +111,7 @@
       "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBtNDJWMlZYMEQ1VFlGVmgwYXUyZThPZ2xrNlBPLXVTbEVlTVBDb2NVU1JkT2JrR1VuTklxRXc1bno3R2FjSl9CbFFYalpham5jWldKLXNZOEVUdkNRY2p0UHU1TFNKOFFScXNFdFdPSHZpUU5kMDNPTjI0VFk?oc=5",
       "src": "Yahoo Sports",
       "domain": "sports.yahoo.com",
-      "time": "25 min ago",
+      "time": "32 min ago",
       "cat": "EDM & Dance",
       "hot": false,
       "ts": 1795386597,
@@ -98,7 +124,7 @@
       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPR1NmZjBLYk9ydW5YREZ3Z19GbUN3R2lFM2lDR1FRaFItVWNxTWJkZUQ0Y0Q3aW5rZ1BiRnhEMUhXUW1NTGhwX29Iazk5YU5KeTJZSmJ6LXkxcEltellRV3JadTZ1YVFJSjlRdWk0Qkh1TDNjRlBqOEt0MG9OT1hMQlpiT1hsR3BKQXRWbTZNUXdhOFYtbXZSNllnV1R6UQ?oc=5",
       "src": "1001Tracklists",
       "domain": "1001tracklists.com",
-      "time": "35 min ago",
+      "time": "42 min ago",
       "cat": "EDM & Dance",
       "hot": false,
       "ts": 1795386007,
@@ -111,7 +137,7 @@
       "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQMWZhWFd4aGVfRVFRVEtCbFVDVDRFdHFPaFZrXzNFclg0eHE2bWgxeGNkMXFBazNQVXR4V2YxdG1tZ0FBc3hPZzhrbXlmZXdfMWo4MllDazZDUXFLUUU1V2tkVE9tWUM5Z2NabXBLa1N4cEFQaGJRS2kwOE1nMklzX2NURmpMaHFySTU5VGR1MVBpdw?oc=5",
       "src": "Complex",
       "domain": "complex.com",
-      "time": "38 min ago",
+      "time": "45 min ago",
       "cat": "Pop & Tours",
       "hot": false,
       "ts": 1795385814,
@@ -124,7 +150,7 @@
       "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNYkZmdDhqODdFVnpxRzFxdTFCOWk2X05CckhRai1ralR2UjZKMnRmZTYzSVVXVkUyZldWbS1PNFM1UlBLZlQ0N2gyb1RRczVpeDh4NkxHTWFxNlFZN3ZDNDJaQlRGUU1hbXJWWjFiTFhjOWd4MGx1c0lqekUzcV92eXZwMVpDWnBxd2Rabk9jSQ?oc=5",
       "src": "- The Live Wire Music Media",
       "domain": "thelivewire.com.au",
-      "time": "40 min ago",
+      "time": "46 min ago",
       "cat": "Pop & Tours",
       "hot": false,
       "ts": 1795385749,
@@ -133,11 +159,37 @@
       "also": []
     },
     {
+      "title": "Pop and rock + Music",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1BNUMteThrMXVFRm5JaFRmdnlyNUQxUFJWdXpoNktrZWs2eDVkYjV1ZlM3bTd1X1ZPYk5ELThZRDk3blNLM3huZnczOUF0bHRHOXdQaWR1MUwwdGZrVzZz?oc=5",
+      "src": "The Guardian",
+      "domain": "theguardian.com",
+      "time": "48 min ago",
+      "cat": "Rock",
+      "hot": false,
+      "ts": 1795385616,
+      "tier": 1,
+      "n": 1,
+      "also": []
+    },
+    {
+      "title": "Sentinel @ Wink House Nanjing, China 2026-10-31",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNYjJLUTV6eDdzWWxodThJSkpLWmExcmtSVVFCRExUUkFyNk52RWxFMHQ3cDRLVVM3cjc2NlI4clZTVVRqbUNJM0phSzRjam9waVllamJ5UXFvUm1ZUE45Ti1QeVZCNXhoU0h6QWNUWnBSaFlyLWVyMGFnVGw4ZTFYNEc0QVpxcTBCUEZGejJBNk9LNTJZOXlPQkdtT29IOFQ1?oc=5",
+      "src": "1001Tracklists",
+      "domain": "1001tracklists.com",
+      "time": "49 min ago",
+      "cat": "EDM & Dance",
+      "hot": false,
+      "ts": 1795385576,
+      "tier": 2,
+      "n": 1,
+      "also": []
+    },
+    {
       "title": "Temper Festival bringing major electronic music lineup to Petco Park - FOX 5 San Diego & KUSI News",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPMUg1QzlReVJBT2x1ZnNBS0Jpd3E0SFo3cmpMemdCc3lEMm10aUJFa1BfYXlLaHFHWVdScVJYY0o0T09oc1lsREpEYnRCV2dYN2tvaF90X1ZudFF1TXZ3UGtEa2NqX3RIN0dnZkVNUFVTSFFkX2hMSm0tbURRcnR0OFl1bk5nSDQx0gGOAUFVX3lxTE9JMmVNb2ZSdkVkenBGbndJVTYwR3N1aW9mVFd1UEptWUdXWVNmREpUVk9DS3hXa1VWR2R5TnhsOGItSUlVcV83RlRYd2w1UUh6ZTcta0g5T0ZzRzRkOWNhODdOdjItUlZGcjBRblRnbzJRUmw5YXdKQ1l2c2F6czZ0NU1aTlktUmNQREJ5MUE?oc=5",
       "src": "FOX 5 San Diego & KUSI News",
       "domain": "fox5sandiego.com",
-      "time": "44 min ago",
+      "time": "51 min ago",
       "cat": "Tickets & Lineups",
       "hot": false,
       "ts": 1795385475,
@@ -150,7 +202,7 @@
       "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9vRm9EaG1tZkt6OGt1MDFvU3ZoR2tQczgyYWRyQlE4RmNKdG9SRjdPVDFVbzB1eVdYS01iTFJOODRuS3g5czBFV1hmQWI4eE90N0k2UWhJdGZ3V3hsa2Z6c3E2YVBrY3BIYWNVMF9qbDlNb09aUXZ4dEx0cEM?oc=5",
       "src": "Xinhua",
       "domain": "english.news.cn",
-      "time": "45 min ago",
+      "time": "52 min ago",
       "cat": "Fashion & Swim",
       "hot": false,
       "ts": 1795385415,
@@ -159,24 +211,11 @@
       "also": []
     },
     {
-      "title": "Music + Pop and rock",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE8zN3BnLVJBUnBKZjFtOEFwaU8yeTk3VXViWVdZajNUOHhid2I5WnRLR015VHI4ZDdkTDdFSTd2MEo3MzlTQm5GSjBWOHgxY1E2X1piNWxnOF9zOVhBSEtj?oc=5",
-      "src": "The Guardian",
-      "domain": "theguardian.com",
-      "time": "54 min ago",
-      "cat": "Rock",
-      "hot": false,
-      "ts": 1795384871,
-      "tier": 1,
-      "n": 1,
-      "also": []
-    },
-    {
       "title": "\"The Wizard of Oz is our boss.\" Metallica rehearse into the early hours for Sphere residency to avoid the wrath of the Wicked Witch",
       "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQNHhQekd4T3lldXNGOUhpdjIyTW1TaXp0emFfUG9hMk02cUdQNm53S18tNHJicU1NajE3OVR3MmJLR2pfLXRkZkl0OXhWa2xfTThhbzZNcHRyZDlwWkFQdWozRXVIdUpxQ3ZCS1FOdDI5RUFDb05nMFZWYnZWQTUxOFlUQ25lYzJJTE12ZGIzXzJTSTRUZEFaOThaTnNVcWJjdFdReWMtLVdCUE05MXo4ZWdEak1vUlh4U21mRTYzelllak9Nc2J0UUJCSkNLSTJTS1ZpOHQ0X253YkNSNEV5UEJrYnh6TGdTWG5JMmVyUW5PdWR5QlhIaDZrUXZ2eTQ?oc=5",
       "src": "Louder",
       "domain": "loudersound.com",
-      "time": "55 min ago",
+      "time": "1 hr ago",
       "cat": "Las Vegas",
       "hot": true,
       "ts": 1795384800,
@@ -248,13 +287,13 @@
       "hot": true,
       "ts": 1795382729,
       "tier": 3,
-      "n": 8,
+      "n": 9,
       "also": [
         "American Songwriter",
         "Hoodline",
         "KXAN Austin",
-        "WOAI",
-        "KABB"
+        "Yahoo",
+        "WOAI"
       ]
     },
     {
@@ -266,19 +305,6 @@
       "cat": "Rock",
       "hot": false,
       "ts": 1795382580,
-      "tier": 3,
-      "n": 1,
-      "also": []
-    },
-    {
-      "title": "Las Vegas News",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1iLXBtaWY2alVaUXoweENWajFxQlhZR0lNd1N2U2dGYTJtUUQxUVM3U2ptVWVFTm1kQ2MtY1ZnVmo3UmdEME80SUFOMGlaUQ?oc=5",
-      "src": "Las Vegas Advisor",
-      "domain": "lasvegasadvisor.com",
-      "time": "1 hr ago",
-      "cat": "Las Vegas",
-      "hot": false,
-      "ts": 1795382522,
       "tier": 3,
       "n": 1,
       "also": []
@@ -352,11 +378,24 @@
       "also": []
     },
     {
+      "title": "Limp Bizkit, Killswitch Engage And More Join Wacken Open Air 2027 Lineup",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQdEZwLU14a3dBR3hrNWNnRzh4bTZYVDM1VFZ6TmhJTTV3STI1ZVdhcG90TUhGT01acWpsaUJVODhQYVg4bUJuU2d2Z3g2TURRbDBER2d5QlJENHZvb2l0LXA4dktuRGUzYXRIWWp4WGFJcmZfeGJTSTEzMVV6RC1pOFVZcVVqcm9ybTAtQ3lBbWRrQXJ4SXNld1FBNm1ya0ZKX0dPU0RXNExLRm9WQTdFazJR?oc=5",
+      "src": "RTTNews",
+      "domain": "rttnews.com",
+      "time": "2 hr ago",
+      "cat": "Tickets & Lineups",
+      "hot": false,
+      "ts": 1795381260,
+      "tier": 3,
+      "n": 1,
+      "also": []
+    },
+    {
       "title": "In 2015, Neil Peart quit playing live for good. One of his greatest songs explained his feelings perfectly",
       "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9TdzJJd2tqLXpjd29mR0thVW9qZVBRQy1wNHpvRURrSUlfVzV0N3RZY25nb2FBY0Y0TmdXSHJiNklfMEFwR05pMGQwcXpaNGRVaDBSMHk4QlEzNlRLWlJLUTh6b3pmT0V0T2c0bzZvb0c4NjdzTDB2a0RHd0M?oc=5",
       "src": "Far Out Magazine",
       "domain": "faroutmagazine.co.uk",
-      "time": "1 hr ago",
+      "time": "2 hr ago",
       "cat": "Retro & Culture",
       "hot": false,
       "ts": 1795381200,
@@ -369,7 +408,7 @@
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE55RFpMOW1GazlFdXNxQ2k0Tmp1dHFaZi1MempJcFFWUTRUckFKd09ZRnh2Z243Zlo5UHl3ZzF4Mm5aOTFza01ITmRMckJ0MDExS0hPQ1FvMW5oVFpWcW9CbEJXU2xUUVdvb2c?oc=5",
       "src": "TrendyHipHop",
       "domain": "www2.trendyhiphop.com",
-      "time": "1 hr ago",
+      "time": "2 hr ago",
       "cat": "EDM & Dance",
       "hot": false,
       "ts": 1795381200,
@@ -382,7 +421,7 @@
       "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9YSG03UmFqQ0xQdktpMlg2NmpKSkJhdzM0TjNLdkJ0QzF0MjBGRWFzTUh6VTV3T0Y5ZS1oOWo3X29tVnhhd1R5LXdfWHl4YW95VEZTR2VVVVFabUs2LUFORTNCcFFrWW5k?oc=5",
       "src": "TrendyHipHop",
       "domain": "www2.trendyhiphop.com",
-      "time": "1 hr ago",
+      "time": "2 hr ago",
       "cat": "EDM & Dance",
       "hot": false,
       "ts": 1795381200,
@@ -469,19 +508,6 @@
       "also": []
     },
     {
-      "title": "DJ Grom - Retro Electro 063 2026-11-22",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNYndNMkdJbnRaT0NMSUZoQy1mWDdyQmxiS25JMzcyalhkdGFPNEJIOTRWSUtkZEZqRE1iVXlMUEIxbkVLWlFXQkYtUVJXc29FRVItaTVRTi1tcnMxV1JhTnBfcnFvTlRvd2k2Sk8zZlVBQmcxUF82SFNCeEpscl9tWmxEWUh1cjZDS0ZMbHBFNTNfV2FSQmc?oc=5",
-      "src": "1001Tracklists",
-      "domain": "1001tracklists.com",
-      "time": "2 hr ago",
-      "cat": "EDM & Dance",
-      "hot": false,
-      "ts": 1795379249,
-      "tier": 2,
-      "n": 1,
-      "also": []
-    },
-    {
       "title": "Four hospitalised after lightning strikes popular music festival",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOc0dBQ0tLVVgzdWp3VUV5a3R6eG5qNFcwNTZrN1FsaE8tYm9PeERpZDU3VVVXdGdnTXc5T0ZMT3Y5bDVOWGtTSnhwd05VZlIyVURyal9uTTRiOXNLN080SFBicTVYQmZYTVY0QVBEUUwwYXA3ZGJwZlJBWVFaMFR4VHRLSVhqTHY3MnpQYUlLRFU2MXRnOXNPNFJyR0M1OHpnaWhhV0Yyd0VmVzdXVFdOOVcybw?oc=5",
       "src": "7NEWS",
@@ -491,19 +517,6 @@
       "hot": false,
       "ts": 1795379104,
       "tier": 3,
-      "n": 1,
-      "also": []
-    },
-    {
-      "title": "Max Verstappen claims dramatic Las Vegas F1 GP win after Ferraris collide",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxONE4xeDZNRmZDY1FON0c3YV9OeTVvWkZkMUV6a0pOdDRBa1Rvam9kczd1TTVhbGRjeUdJMC16cjNmeDJVR0d0RjFHQUJDZmc0cEpJX1lhb0xNd1ljWkNlYWtWcFB3VThVc0xZRVZTeTZhTllNZ2FJdmFua25LZWp2WDlybVB2bGR2RHY4TkVSRUg1ejNVYnNmckFNODZmX0RyV0VkNUNfSFQ0TFU5T0lMLUEtRlo1RUE?oc=5",
-      "src": "The Guardian",
-      "domain": "theguardian.com",
-      "time": "2 hr ago",
-      "cat": "Las Vegas",
-      "hot": false,
-      "ts": 1795379100,
-      "tier": 1,
       "n": 1,
       "also": []
     },
@@ -605,7 +618,7 @@
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1TWXdKVU1IOHNOZFpaa3RjWVdJVFVIRjZtd2doN1h3Nk1FbWg3cWUtUVVQZFl1amdrU2lnNDJJRS1JMFdaeXl4dERpNC16cUZ0bFMxdUZ6RC02TlRJMFZQbWQ4OFZ2TmF4ZWpRSHd3VVo?oc=5",
       "src": "HotNewHipHop",
       "domain": "hotnewhiphop.com",
-      "time": "3 hr ago",
+      "time": "4 hr ago",
       "cat": "Hip-Hop",
       "hot": false,
       "ts": 1795374000,
@@ -719,7 +732,7 @@
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxON08zRDUtUU1YZEVfRjBCZTZxWjdLR2ljNWNkMFRpVDlBMElsZHRJcWNHdnJYcFl3QU1nU3VaOHlRaFJrYU5iMGtmMHRvYmdlWVAzTzZOX1U1SEFVUnVRZ0wzQzBzblNUVTBjQ3Q2ZzhmRGlKcUNaUjJJUW9hVTRkdmltQ0FMNklVUGVVRjRodHJwQXB6T0VQRUxCY0lpbEZHNVNlalJHODZ1QQ?oc=5",
       "src": "X-Rock 103.9",
       "domain": "xrock1039.com",
-      "time": "6 hr ago",
+      "time": "7 hr ago",
       "cat": "Festivals",
       "hot": true,
       "ts": 1795363008,
@@ -885,7 +898,7 @@
       "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPUkJaeERpM3NfdnhIVkVHYWJxWVZWeHRhRFN0MWVvNEtNWTZmcXRxWlRFek94V0VkQ1BpZDllQWVkVWxURHdiV2lOdDZMdW1Hcl9BRHFrMDlOM3g5eHo5eFhkRGlfLVN3bm1IWGs0ak13RG1LSFRpSU5udXhLNGpXM2l6d1ptZ1kxaml0RDZkb2ptajZuOEt2MEtrVXZZYVU?oc=5",
       "src": "The Sun",
       "domain": "the-sun.com",
-      "time": "10 hr ago",
+      "time": "11 hr ago",
       "cat": "Las Vegas",
       "hot": true,
       "ts": 1795348675,
@@ -940,21 +953,6 @@
         "Soompi",
         "RTTNews",
         "Music Industry Weekly"
-      ]
-    },
-    {
-      "title": "Queen Latifah and MC Lyte Lead the 2027 Rock The Bells Cruise",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE11akhPbzdWTklwVDZVVENBMHJVamV3dDJlNV9FZDVrZUQ3UDA4LWVtN0RxYkdxZmtBcG5BZmFhYnMwQWlCWktvNDhzYldNRXM5NjMzQW0zeUI0eUVNMjk5MV9mbGxQZC1GeWlGckhUclo?oc=5",
-      "src": "Kazi Magazine",
-      "domain": "kazimagazine.com",
-      "time": "14 hr ago",
-      "cat": "Rock",
-      "hot": true,
-      "ts": 1795337041,
-      "tier": 3,
-      "n": 2,
-      "also": [
-        "deeparrival.com"
       ]
     },
     {
@@ -1067,19 +1065,6 @@
       "also": []
     },
     {
-      "title": "MOGUAI & Riordan & Topic - 1LIVE DJ Session 2026-11-21",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOaW9hcHRaak4tcUpNTWFYZnhoRDNRTWVsZWxQZGVPdDU0bjlKSS1sMWVoT2Y0YjctbEZhY21FTHpHbm9abndWWWliWmpuZUpXNi1aR2dnTjBsQktqTHBzZU53MFRhbUYzWU5NX2d5SDVyWXQ4LXZvbnl1WmVoZUVZdzlRRjJ3NnlxUFBETHY1YzloWUFuUzV2a3VXX1hXVzNId1ZMMg?oc=5",
-      "src": "1001Tracklists",
-      "domain": "1001tracklists.com",
-      "time": "16 hr ago",
-      "cat": "EDM & Dance",
-      "hot": false,
-      "ts": 1795328486,
-      "tier": 2,
-      "n": 1,
-      "also": []
-    },
-    {
       "title": "Inside the marriage of Sydney nightlife king Dave Auld and model wife",
       "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQTllvbXFXb1IxeVZnREdseE5zSVM2NlZYRzczRGFwWGcwYTBKYkxYZ3lIWW5WekNCTXhSczJ0RG5PMWc0ZWQ1NjNEMVlGbHVQWHhyNkt4ZUZqMjhuT2x6Vi1ZOUR4WVNMSlAxY1o3dUhTTERfYzQ2V0dRcF9TZk5CVVhpczNnakRvWjlQcTFkS3ZJcTQ2RWlvMDJYOXYzNlc0ZVg2eFgyeXRMeVE?oc=5",
       "src": "Daily Mail",
@@ -1130,12 +1115,11 @@
       "hot": true,
       "ts": 1795328150,
       "tier": 1,
-      "n": 5,
+      "n": 4,
       "also": [
         "Casino.org",
         "Al Jazeera",
-        "Audacy",
-        "Las Vegas Review-Journal"
+        "Audacy"
       ]
     },
     {
@@ -1236,7 +1220,7 @@
       "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPOTQzY0VTcVhHTno5enl6U2V3aTQwMFlXenVZUVVlMVFwSWpFT3g2RnFLa1ZkY2ZMUDZiZjdEZDVOT21HYjZtVk1TdkFOWFpWQzlSTjVfR2lVdjloVTFtXzlycnluWHlERTNBLUpzVUJaTm9ObG1hWnZiOHRhcW40Q1BXcGhDWmFfcTJGa3oyVUZqWklWMTdBNHBB?oc=5",
       "src": "1001Tracklists",
       "domain": "1001tracklists.com",
-      "time": "16 hr ago",
+      "time": "17 hr ago",
       "cat": "EDM & Dance",
       "hot": false,
       "ts": 1795327263,
@@ -1249,7 +1233,7 @@
       "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQMFpIMUN3SHB0T2RLNmU1U0ZQZUJqMnpPVDNCMXJOaFcwWVcyTHBScy1IaFZYamU0Z0JFdTdWZENuWUVFRURLdlBiTTBMcTV3SWo5THBXQWZnMXZOeklCVUtlaUxna1VkWHAxci1wUDh0aTZYTmsyMWswTGRydEY0bF9DbUVDZnpZdnBwRU9NVEZLT0Z5YW1LLXJlY24?oc=5",
       "src": "Lynn News",
       "domain": "lynnnews.co.uk",
-      "time": "16 hr ago",
+      "time": "17 hr ago",
       "cat": "Nightlife & Clubs",
       "hot": false,
       "ts": 1795327200,
@@ -1262,7 +1246,7 @@
       "link": "https://news.google.com/rss/articles/CBMipgJBVV95cUxOUktEdjJhSzhmdEVIVWdYXzNpdE8tdlBFTHJGajM1WnJ4ZHE5NjdsS2hPQ1c3VHJMTFFyNGY1M1JQdW9kTkZZS1kydHhnQV9DTVBFMmdxVDdQd2FvOHNHTS1yOEhIVWJmVmxEb0p6ckVHZWd2RHl4UkZ5MEY1aXpMVWVVUUNQUXZFelRTVmlna01kdGxIMEYwd2FfTTRsVFNta0czamcwUVdtRWFGaWtsRmRzYmxBdVZQWTU1UzBpTjFGVHdkZ09VS20ya29kTzRGeVhTcXpHTjhONlNWY2d6UzQtT0RPSWhBdnNSRHc1bzk4bkd2ZnVPdEdlTmdUWUVOTDBHbWducjRQaEw4QkdVanNXeVFYMVdzd0lRQUJfOThCdnNoLUHSAaYCQVVfeXFMTlJLRHYyYUs4ZnRFSFVnWF8zaXRPLXZQRUxyRmozNVpyeGRxOTY3bEtoT0NXN1RyTExRcjRmNTNSUHVvZE5GWUtZMnR4Z0FfQ01QRTJncVQ3UHdhbzhzR00tcjhISFViZlZsRG9KenJFR2VndkR5eFJGeTBGNWl6TFVlVVFDUFF2RXpUU1ZpZ2tNZHRsSDBGMHdhX000bFRTbWtHM2pnMFFXbUVhRmlrbEZkc2JsQXVWUFk1NVMwaU4xRlR3ZGdPVUttMmtvZE80RnlYU3F6R044TjZTVmNnelM0LU9ET0loQXZzUkR3NW85OG5HdmZ1T3RHZU5nVFlFTkwwR21nbnI0UGhMOEJHVWpzV3lRWDFXc3dJUUFCXzk4QnZzaC1B?oc=5",
       "src": "NOLA.com",
       "domain": "nola.com",
-      "time": "16 hr ago",
+      "time": "17 hr ago",
       "cat": "Festivals",
       "hot": false,
       "ts": 1795327200,
@@ -1306,6 +1290,19 @@
       "hot": false,
       "ts": 1795325655,
       "tier": 1,
+      "n": 1,
+      "also": []
+    },
+    {
+      "title": "Sullivan De Morro @ Waterhouse, Amsterdam Dance Event , Netherlands 2026-10-23",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNZnBTZkRPMUxVUzc3dGpKTnc1amZZV3AzZVNtdmFjUVJPZHRNcEFCc2NRaFJEVWZFVy1RNTJNZlAwQmlVN2VSWTdvNnl6WGZiZThTV1ViY01nbmgwN2x6SWZubEhjSTZvODEzVjNCNEF5R3ZjMWdvaVhMUTB4Sl85ZjA3VmhBbFhjTnhSWG14ZlN1dHM0X1BrdHZSU0tLaFZhY1FhVjd2djUwQjRfd1VuQU1uNWZsd0hURWUyYWJubV9pbTJXeVdV?oc=5",
+      "src": "1001Tracklists",
+      "domain": "1001tracklists.com",
+      "time": "17 hr ago",
+      "cat": "Ibiza & Global",
+      "hot": false,
+      "ts": 1795325443,
+      "tier": 2,
       "n": 1,
       "also": []
     },
@@ -1405,7 +1402,7 @@
       "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNQUNnZ1ZVcDVkaWVseHlkbS1CejFxRTk4MGxIUFhQUGdmVTNDZnYyNE9icW9QcFFYcFVfTWRSbXBsN0t1a0NqN2psOVVhS012T2VxWXhKRmdDRjJ4aXdZblc3VC12Sm5wdXl5d3NZcjhPUkladXp6b0pJd2dtc0tWeVcyc0RLTlBTQlBhVS1tUVpsbXdvNnc?oc=5",
       "src": "News & Star",
       "domain": "newsandstar.co.uk",
-      "time": "17 hr ago",
+      "time": "18 hr ago",
       "cat": "Fashion & Swim",
       "hot": true,
       "ts": 1795323600,
@@ -1420,7 +1417,7 @@
       "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNc0V2d1Y2Y0tFUjd4bDNXeTFhQXBOZjdZYzQzSWluMzJtTHhEczdBejZNNF9SeFVNV1RnZC1meFpIdUlWYU84OTlYR1ZocVhmX0ZKN2FJdTd5YnFranlNWW9DX2tGRnVwdzV1T0hpcGFhUXludUZrY0NOUGc1SmZOY3llWFJEb0RNM3dmQTd0TUF6bXJxYm5hTi1STVY3YVF2M1NNQUJJT1F2ZEdhdVlV?oc=5",
       "src": "Telegraph and Argus",
       "domain": "thetelegraphandargus.co.uk",
-      "time": "17 hr ago",
+      "time": "18 hr ago",
       "cat": "Fashion & Swim",
       "hot": false,
       "ts": 1795323600,
@@ -1433,7 +1430,7 @@
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9UekZzN0xxM09XU3NvX3dPY3dnNmQ1azNfNHY3WlJ4ekh0cVRKUlVjSDlGc1k4NHhfYmxPY2tQR1RTWTFtVGsxOXlqYklkbklmdWxVelZmdm9BVUNTN0REcG9sdEtqZ0loYlE?oc=5",
       "src": "Pitchfork",
       "domain": "pitchfork.com",
-      "time": "17 hr ago",
+      "time": "18 hr ago",
       "cat": "Pop & Tours",
       "hot": false,
       "ts": 1795323600,
@@ -1446,7 +1443,7 @@
       "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNcW9QVndIQUhZMjQ4QVdBaWlHQnloU2Fva0tDX2gyWERaMUtGNzRZNHV3SUgwU0dWQXptNTQ1ckdOcTNFZWlRRUdaMnF2MjFCZUpSV05NS1NOV2hMRjJzeTNYT1d6MHltQUpyaDZDUnN5UFNqR3k4RjRmYmtIMWt0WVNiclZLQm1MUGFIaUthTHpxUmRpcS01VFVudXfSAbABQVVfeXFMUGg3ckpWSU9UTjcySHFNSEd2RUVISlV6dFVkaHQ1c25iMEZJN211NFI3aDU1clR4YUpBdDU5bDRVYXI3NHJNbUxPa2NsTjZGaTZYZWxmLTNoOUthT0k5MVdkblpROVpFelNSRmhqTHlKLTVXaTB1aVJuamdXV2wxb0IwVUE0eUpwWXBjU3JyMVdjU2h6SExwSjBkN1dyUjQyRDcwY1lzOEdIUDU4Zm9aNjc?oc=5",
       "src": "WTOC",
       "domain": "wtoc.com",
-      "time": "17 hr ago",
+      "time": "18 hr ago",
       "cat": "Fashion & Swim",
       "hot": false,
       "ts": 1795323360,
@@ -1559,6 +1556,19 @@
       "also": []
     },
     {
+      "title": "Technoclub night in Altenkirchen with five DJs and diverse styles",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNQ1ZxSi1rUklQTHNhbHNoT1dxQlhRc1JmTmFoVlFTRER3ZTdpVFRCazY3SkJJQmlMRjVHY004cmNsR2EzbG9nbFE0QjU1cDd5QmR6aEEtNDNJSmwzUkxfcHNjdk5iNWVURHZTekQ5NERZOXdhWHRmalRGODd0SmlCZVpFNGJ0SUU2ZE45TTlkVC1CM2ZXQzZDSUV4WUpYa3AwRlA3NUIwU1ZLRjQ?oc=5",
+      "src": "Foro3D",
+      "domain": "foro3d.com",
+      "time": "19 hr ago",
+      "cat": "EDM & Dance",
+      "hot": false,
+      "ts": 1795320090,
+      "tier": 3,
+      "n": 1,
+      "also": []
+    },
+    {
       "title": "JAG star Catherine Bell's lookalike daughter stuns in bridal bikini for bachelorette getaway at family's beautiful cabin",
       "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxORHdTTUc1T0dfQ2NuSFNlMjV1ZlJHZWo5OWJCNnV5bXI3dXUtQUZvRGEzVE9mS2daeU9GSUc3RWdWVS05UkVZeTA1X012Mm5GXzNWV09PYlZEMGNwMFZjcUhFWEdIM1NCNGc1U3ROTlhIX2dvRkJ5YXZqQjhKMDBMdnNJb0dVMlhsNlJFM0FOVDNBMGRDa29hV3cxSWI3SE5DbGVtaURucTdjbi12d3c?oc=5",
       "src": "HELLO!",
@@ -1611,24 +1621,11 @@
       "also": []
     },
     {
-      "title": "Pink Martini — Dec 6, 2026 · Carmel, CA",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQWWJKYVJ0OTNiYTlla1JqOFVuMnVURmZ5c3VQTmVIcEgydmN5dUNHRFViak1YUnJ0ZWpGa0dfcWZxekZDSnpNbVdtYkk5QnZkMUtKQ2t2SnpBWVQ1ei1ELW1jTE5BaHlkTUV6RnBKcGZjX0IzMUhUcjUxU0VLQ1VNY1lYY09MeXd3akMwRFR0am1oS0dhQUFrag?oc=5",
-      "src": "Music Festival Wizard",
-      "domain": "musicfestivalwizard.com",
-      "time": "19 hr ago",
-      "cat": "Festivals",
-      "hot": false,
-      "ts": 1795318780,
-      "tier": 2,
-      "n": 1,
-      "also": []
-    },
-    {
       "title": "Firewind And Powerglove Announce Firepower Tour",
       "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQSllMM010d3ozR0RWQ051a3BfQjBpd192WTlod2tGUVh5aDlqTmRnRlh3LXo3VTNQRldtcDJhMnh0bm1VQ09COEtqekYtS0JfeFJaNDI3WGJYdFBvVmNwSVdTVTUtUC0yZHE0YXNoWUZfYTd3d3dsMVlPMk16MEY4Q3ZvMXZUQlJudXRQenhtbElObGs?oc=5",
       "src": "antiMusic",
       "domain": "antimusic.com",
-      "time": "19 hr ago",
+      "time": "20 hr ago",
       "cat": "Pop & Tours",
       "hot": true,
       "ts": 1795316373,
@@ -1648,6 +1645,19 @@
       "hot": false,
       "ts": 1795315189,
       "tier": 2,
+      "n": 1,
+      "also": []
+    },
+    {
+      "title": "The Game Calls Out Grammys Over ‘The Documentary III’ Best Rap Album Snub",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPelNiLWZRSTBsXzQ1bUlpcmtmOVV2TkQ2a1VnTGhuQ19HektSdFNVNkhlejZQWUQ3WVZ5STVtLWZwMXRLVGdSMHo0SEo2ejlCU1Jvek1zbTQ2dlZqSkl4d3Fhem9RNmhITU5qR3hnMjFBX29CeHNZVHFlbUZhUHNkQWV1OFA0SnlZZTlocnJxWXQ2dHN6Y205TVh1MkZKcG11VHIw?oc=5",
+      "src": "Yahoo",
+      "domain": "yahoo.com",
+      "time": "20 hr ago",
+      "cat": "Hip-Hop",
+      "hot": false,
+      "ts": 1795313700,
+      "tier": 3,
       "n": 1,
       "also": []
     },
@@ -1674,10 +1684,9 @@
       "hot": true,
       "ts": 1795310280,
       "tier": 1,
-      "n": 5,
+      "n": 4,
       "also": [
         "McLaren",
-        "1001Tracklists",
         "Just Jared",
         "Federation Internationale de l'Automobile"
       ]
@@ -1687,43 +1696,13 @@
       "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQa2lYeXIzRWcyQ2RQSW95bUhoLVhhdHdFQWUzbjhmWnZEQ3pqZTVSZFRJLXlYUEcyQTRueXVRNDRDcUJqNnB3X3JEVzEtdnN0Rk5LZTgyamEwSnhvelBkZmhBOUJ1Z3VOaEVZazlocDNHSkdtSTRGWkNJSmswNU4tMVhEbFR5OEJ1RGZ5T21ITGw3OGx6cHdhYTg2dUFMWTByZDhkZTJRNnl6a05Wd2c?oc=5",
       "src": "Live For Live Music",
       "domain": "liveforlivemusic.com",
-      "time": "21 hr ago",
+      "time": "22 hr ago",
       "cat": "Retro & Culture",
       "hot": false,
       "ts": 1795309034,
       "tier": 2,
       "n": 1,
       "also": []
-    },
-    {
-      "title": "DJ Blow Imole Ikire – Road To 2027 Mixtape",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOSnRUWUZ6MXBqempIR2EtTGxpMTNfX2xXNmF5OWhiUWY3N3JFRXVqT1pKSFNkZkx0bFhxZm5MX3BxdW5sNmg1NjBxNGZDTjNXSktJRXFXXzBpUUF5SU5VSURlWmFEQ2F3WUY4Y1NQVGZHUjZlWExqSDNxZE1oUk42Z3B3?oc=5",
-      "src": "Voxtrendy",
-      "domain": "web.voxtrendy.net",
-      "time": "22 hr ago",
-      "cat": "Hip-Hop",
-      "hot": true,
-      "ts": 1795305600,
-      "tier": 3,
-      "n": 2,
-      "also": [
-        "TrendyHipHop"
-      ]
-    },
-    {
-      "title": "DJ 2EFFECTS – Road to 2027 Party Starters – Full Mix",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQYW1IOTU0aHdoSjNIXzRJT1RHYUJFTEl0MzVMR3Y1OFpidkQzeTI2U0JhMjNNbDcwejQ2UWFUbEMyY3VaaVVLcUh4d04xRmVQc2NwTkV5cEdVem5COVNVMElKNXJsOVctX2drWFB3bDZhNnJSejlaTUNCSHQtRkgzNk1HWG5IQQ?oc=5",
-      "src": "Six9ja",
-      "domain": "www1.six9ja.net",
-      "time": "22 hr ago",
-      "cat": "EDM & Dance",
-      "hot": true,
-      "ts": 1795305600,
-      "tier": 3,
-      "n": 2,
-      "also": [
-        "TrendyHipHop"
-      ]
     },
     {
       "title": "Eintracht Frankfurt fans go a cappella after stadium sound system failure",
@@ -1951,6 +1930,21 @@
       "also": [
         "Forbes",
         "TicketNews"
+      ]
+    },
+    {
+      "title": "TRNSMT: What's the future for Scotland's largest music festival?",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5CUk83dGtwYjBEWFF5bjktREJOSm1BQmJfa2ZuVlJaSm9hZVRUYnNXWE1YdTNXbVZmelNyUGkyUWVxZXgtbl9xSU9NQVIwcEtzeDRYMlVteGl6STg?oc=5",
+      "src": "BBC",
+      "domain": "bbc.com",
+      "time": "1 day ago",
+      "cat": "Festivals",
+      "hot": false,
+      "ts": 1795253232,
+      "tier": 1,
+      "n": 2,
+      "also": [
+        "AOL.com"
       ]
     }
   ]
