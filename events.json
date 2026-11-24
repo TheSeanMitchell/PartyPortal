@@ -1,5 +1,5 @@
 {
-  "updated": 1795453126,
+  "updated": 1795491666,
   "festivals": [
     {
       "type": "festival",
@@ -1440,6 +1440,18 @@
       "url": "https://app.discotech.me/events/38315082-join-the-local-signal-residents-special-guest-at-miami-concerts-and-events",
       "src": "Discotech Miami",
       "end_ts": 1795680000,
+      "region": "miami"
+    },
+    {
+      "artist": "Wednesdays",
+      "venue": "Gold Rush Cabaret",
+      "type": "club",
+      "city": "Miami",
+      "date": "2026-11-25",
+      "ts": 1795658400,
+      "url": "https://app.discotech.me/events/38256989-wednesdays-at-gold-rush-cabaret",
+      "src": "Discotech Miami",
+      "end_ts": 1795687200,
       "region": "miami"
     },
     {
@@ -5084,6 +5096,28 @@
       "src": "Concerts.Vegas"
     },
     {
+      "artist": "New Years Eve Resolution Ball Las Vegas 24 Oxford At Virgin Hotels",
+      "venue": "The Theater at Virgin Hotels",
+      "type": "concert",
+      "city": "Las Vegas",
+      "region": "vegas",
+      "date": "2026-12-31",
+      "ts": 1798747200,
+      "url": "https://concerts.vegas/event/new-years-eve-resolution-ball-las-vegas-24-oxford-at-virgin-hotels-las-vegas-thursday-december-31-2026-8-00-pm/",
+      "src": "Concerts.Vegas"
+    },
+    {
+      "artist": "New Years Eve Resolution Ball Las Vegas 24 Oxford At Virgin Hotels",
+      "venue": "24 Oxford at Virgin Hotels",
+      "type": "concert",
+      "city": "Las Vegas",
+      "region": "vegas",
+      "date": "2026-12-31",
+      "ts": 1798747200,
+      "url": "https://concerts.vegas/event/new-years-eve-resolution-ball-las-vegas-24-oxford-at-virgin-hotels-las-vegas-thursday-december-31-2026-8-00-pm/",
+      "src": "Concerts.Vegas"
+    },
+    {
       "artist": "New Years Eve Tyga Las Vegas Hakkasan Mgm Casino",
       "venue": "Resorts World Theatre",
       "type": "residency",
@@ -5576,28 +5610,6 @@
       "date": "2027-02-12",
       "ts": 1802462400,
       "url": "https://concerts.vegas/event/kenny-babyface-edmonds-las-vegas-pearl-concert-theater-at-palms-casino-resort-friday-february-12-2027-8-00-pm/",
-      "src": "Concerts.Vegas"
-    },
-    {
-      "artist": "Kenny Babyface Edmonds Las Vegas Pearl Concert Theater At Palms Casino Resort",
-      "venue": "The Colosseum at Caesars Palace",
-      "type": "residency",
-      "city": "Las Vegas",
-      "region": "vegas",
-      "date": "2027-02-13",
-      "ts": 1802548800,
-      "url": "https://concerts.vegas/event/kenny-babyface-edmonds-las-vegas-pearl-concert-theater-at-palms-casino-resort-saturday-february-13-2027-8-00-pm/",
-      "src": "Concerts.Vegas"
-    },
-    {
-      "artist": "Kenny Babyface Edmonds Las Vegas Pearl Concert Theater At Palms Casino Resort",
-      "venue": "Dolby Live at Park MGM",
-      "type": "residency",
-      "city": "Las Vegas",
-      "region": "vegas",
-      "date": "2027-02-13",
-      "ts": 1802548800,
-      "url": "https://concerts.vegas/event/kenny-babyface-edmonds-las-vegas-pearl-concert-theater-at-palms-casino-resort-saturday-february-13-2027-8-00-pm/",
       "src": "Concerts.Vegas"
     },
     {
