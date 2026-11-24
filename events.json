@@ -1,5 +1,5 @@
 {
-  "updated": 1795491666,
+  "updated": 1795538853,
   "festivals": [
     {
       "type": "festival",
@@ -808,122 +808,6 @@
   ],
   "events": [
     {
-      "artist": "P3so",
-      "venue": "Marquee",
-      "type": "club",
-      "city": "Las Vegas",
-      "region": "vegas",
-      "date": "2026-11-23",
-      "ts": 1795460400,
-      "url": "https://nocovernightclubs.com/events/p3so-marquee-nightclub-monday-november-23-2026/",
-      "src": "No Cover Nightclubs"
-    },
-    {
-      "artist": "Edm Nights",
-      "venue": "Amor Lounge",
-      "type": "club",
-      "city": "Garland/Dallas",
-      "region": "world",
-      "date": "2026-11-23",
-      "ts": 1795464000,
-      "url": "https://www.instagram.com/p/DffpZa7GQts/?mdxt=dnB3Ym5rZWNucXFu",
-      "src": "19hz.info"
-    },
-    {
-      "artist": "Monday Night Football 11/23",
-      "venue": "The Clevelander",
-      "type": "club",
-      "city": "Miami",
-      "date": "2026-11-23",
-      "ts": 1795478400,
-      "url": "https://app.discotech.me/events/38256554-monday-night-football-1123-at-the-clevelander",
-      "src": "Discotech Miami",
-      "end_ts": 1795493700,
-      "region": "miami"
-    },
-    {
-      "artist": "Mister Gray at Nine1nine",
-      "venue": "E11EVEN",
-      "type": "club",
-      "city": "Miami",
-      "date": "2026-11-23",
-      "ts": 1795482000,
-      "url": "https://app.discotech.me/events/38267238-mister-gray-at-nine1nine-at-e11even",
-      "src": "Discotech Miami",
-      "end_ts": 1795525200,
-      "region": "miami"
-    },
-    {
-      "artist": "Industry Sessions",
-      "venue": "M2 Nightclub",
-      "type": "club",
-      "city": "Miami",
-      "date": "2026-11-23",
-      "ts": 1795485600,
-      "url": "https://app.discotech.me/events/38290801-industry-sessions-at-m2-nightclub-miami",
-      "src": "Discotech Miami",
-      "end_ts": 1795503600,
-      "region": "miami"
-    },
-    {
-      "artist": "Mondays",
-      "venue": "Gold Rush Cabaret",
-      "type": "club",
-      "city": "Miami",
-      "date": "2026-11-23",
-      "ts": 1795485600,
-      "url": "https://app.discotech.me/events/38256987-mondays-at-gold-rush-cabaret",
-      "src": "Discotech Miami",
-      "end_ts": 1795514400,
-      "region": "miami"
-    },
-    {
-      "artist": "Turkey Monday",
-      "venue": "Miami Concerts & Events",
-      "type": "club",
-      "city": "Miami",
-      "date": "2026-11-23",
-      "ts": 1795489200,
-      "url": "https://app.discotech.me/events/38315564-turkey-monday-at-miami-concerts-and-events",
-      "src": "Discotech Miami",
-      "end_ts": 1795507200,
-      "region": "miami"
-    },
-    {
-      "artist": "Mister Gray",
-      "venue": "E11even",
-      "type": "club",
-      "city": "Miami",
-      "region": "miami",
-      "date": "2026-11-23",
-      "ts": 1795489200,
-      "url": "https://speakeasygo.com/event/EVE-SMYQ7G",
-      "src": "19hz.info"
-    },
-    {
-      "artist": "DJ Raphi - Hype Tour 2.0",
-      "venue": "The Observatory Orange County",
-      "type": "club",
-      "city": "Santa Ana",
-      "region": "world",
-      "date": "2026-11-23",
-      "ts": 1795489200,
-      "url": "https://ticketmaster.evyy.net/c/253158/264167/4272",
-      "src": "19hz.info"
-    },
-    {
-      "artist": "The Trip Miami",
-      "venue": "Nova Social Club",
-      "type": "club",
-      "city": "Miami",
-      "date": "2026-11-24",
-      "ts": 1795507200,
-      "url": "https://app.discotech.me/events/38226248-the-trip-miami-at-nova-social-club",
-      "src": "Discotech Miami",
-      "end_ts": 1795528800,
-      "region": "miami"
-    },
-    {
       "artist": "Dj Shift",
       "venue": "Omnia",
       "type": "club",
@@ -933,17 +817,6 @@
       "ts": 1795546800,
       "url": "https://nocovernightclubs.com/events/dj-shift-omnia-nightclub-tuesday-november-24-2026/",
       "src": "No Cover Nightclubs"
-    },
-    {
-      "artist": "Players Era 16 Championship All Sessions Pass Las Vegas T Mobile Arena",
-      "venue": "T-Mobile Arena",
-      "type": "arena",
-      "city": "Las Vegas",
-      "region": "vegas",
-      "date": "2026-11-24",
-      "ts": 1795550400,
-      "url": "https://concerts.vegas/event/players-era-16-championship-all-sessions-pass-las-vegas-t-mobile-arena-tuesday-november-24-2026-tba/",
-      "src": "Concerts.Vegas"
     },
     {
       "artist": "Players Era 16 Championship Day Session",
@@ -1022,6 +895,18 @@
       "url": "https://app.discotech.me/events/38256988-tuesdays-at-gold-rush-cabaret",
       "src": "Discotech Miami",
       "end_ts": 1795600800,
+      "region": "miami"
+    },
+    {
+      "artist": "Late Groove: Andy Martinez",
+      "venue": "Sable",
+      "type": "club",
+      "city": "Miami",
+      "date": "2026-11-24",
+      "ts": 1795575600,
+      "url": "https://app.discotech.me/events/38324766-late-groove-andy-martinez-at-sable",
+      "src": "Discotech Miami",
+      "end_ts": 1795593600,
       "region": "miami"
     },
     {
@@ -1395,13 +1280,13 @@
       "region": "miami"
     },
     {
-      "artist": "Nine1nine Thanksgiving Eve",
+      "artist": "Loe Shimmy at Nine1nine",
       "venue": "E11EVEN",
       "type": "club",
       "city": "Miami",
       "date": "2026-11-25",
       "ts": 1795654800,
-      "url": "https://app.discotech.me/events/38270860-nine1nine-thanksgiving-eve-at-e11even",
+      "url": "https://app.discotech.me/events/38270860-loe-shimmy-at-nine1nine-at-e11even",
       "src": "Discotech Miami",
       "end_ts": 1795690800,
       "region": "miami"
@@ -1452,6 +1337,66 @@
       "url": "https://app.discotech.me/events/38256989-wednesdays-at-gold-rush-cabaret",
       "src": "Discotech Miami",
       "end_ts": 1795687200,
+      "region": "miami"
+    },
+    {
+      "artist": "1st Gen: Blackout Wednesday Miami",
+      "venue": "Miami Concerts & Events",
+      "type": "club",
+      "city": "Miami",
+      "date": "2026-11-25",
+      "ts": 1795662000,
+      "url": "https://app.discotech.me/events/38314891-1st-gen-blackout-wednesday-miami-at-miami-concerts-and-events",
+      "src": "Discotech Miami",
+      "end_ts": 1795680000,
+      "region": "miami"
+    },
+    {
+      "artist": "Blackout Wednesday",
+      "venue": "Miami Concerts & Events",
+      "type": "club",
+      "city": "Miami",
+      "date": "2026-11-25",
+      "ts": 1795662000,
+      "url": "https://app.discotech.me/events/38322327-blackout-wednesday-at-miami-concerts-and-events",
+      "src": "Discotech Miami",
+      "end_ts": 1795680000,
+      "region": "miami"
+    },
+    {
+      "artist": "Helena Hauff",
+      "venue": "Jolene Sound Room",
+      "type": "club",
+      "city": "Miami",
+      "date": "2026-11-25",
+      "ts": 1795662000,
+      "url": "https://app.discotech.me/events/38264993-helena-hauff-at-jolene-sound-room",
+      "src": "Discotech Miami",
+      "end_ts": 1795683600,
+      "region": "miami"
+    },
+    {
+      "artist": "Jessy & Friends",
+      "venue": "Miami Concerts & Events",
+      "type": "club",
+      "city": "Miami",
+      "date": "2026-11-25",
+      "ts": 1795662000,
+      "url": "https://app.discotech.me/events/38316485-jessy-and-friends-at-miami-concerts-and-events",
+      "src": "Discotech Miami",
+      "end_ts": 1795687200,
+      "region": "miami"
+    },
+    {
+      "artist": "Thanksgiving Eve Miami",
+      "venue": "Mazuma",
+      "type": "club",
+      "city": "Miami",
+      "date": "2026-11-25",
+      "ts": 1795662000,
+      "url": "https://app.discotech.me/events/38322326-thanksgiving-eve-miami-at-mazuma",
+      "src": "Discotech Miami",
+      "end_ts": 1795680000,
       "region": "miami"
     },
     {
@@ -2258,6 +2203,17 @@
       "src": "19hz.info"
     },
     {
+      "artist": "Hot Since 82 + Avision",
+      "venue": "The Concourse Project",
+      "type": "club",
+      "city": "Austin",
+      "region": "world",
+      "date": "2026-11-27",
+      "ts": 1795809600,
+      "url": "https://wl.eventim.us/event/Hot-Since-82-Avision-at-The-Concourse-Project/702026?afflky=TheConcourseProject&nts_trk=d4ed15f5-9cee-427f-9e3d-3f1a0603fb21",
+      "src": "19hz.info"
+    },
+    {
       "artist": "Back Alley ft Pagano",
       "venue": "Eagle",
       "type": "club",
@@ -2464,6 +2420,17 @@
       "date": "2026-11-27",
       "ts": 1795834800,
       "url": "https://www.axs.com/events/1468576",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "Devault",
+      "venue": "Hollywood Palladium",
+      "type": "club",
+      "city": "Los Angeles",
+      "region": "la",
+      "date": "2026-11-27",
+      "ts": 1795834800,
+      "url": "https://www.ticketmaster.com/insomniac-presents-devault-hollywood-california-11-27-2026/event/090064CD1DD77F50",
       "src": "19hz.info"
     },
     {
@@ -2695,6 +2662,17 @@
       "date": "2026-11-28",
       "ts": 1795921200,
       "url": "https://dice.fm/event/k672eo-simon-vuarambon-28th-nov-upside-miami-tickets",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "Black Party Underworld ft Tom Stephan",
+      "venue": "Eagle",
+      "type": "club",
+      "city": "Wilton Manors",
+      "region": "world",
+      "date": "2026-11-28",
+      "ts": 1795921200,
+      "url": "https://dice.fm/event/yoqbkv-black-party-underworld-ft-tom-stephan-28th-nov-eagle-wilton-manors-wilton-manors-tickets",
       "src": "19hz.info"
     },
     {
@@ -5448,6 +5426,17 @@
       "src": "Concerts.Vegas"
     },
     {
+      "artist": "Las Vegas Vs San Jose Las Vegas T Mobile Arena",
+      "venue": "T-Mobile Arena",
+      "type": "sports",
+      "city": "Las Vegas",
+      "region": "vegas",
+      "date": "2027-01-27",
+      "ts": 1801080000,
+      "url": "https://concerts.vegas/event/las-vegas-vs-san-jose-las-vegas-t-mobile-arena-wednesday-january-27-2027-7-00-pm/",
+      "src": "Concerts.Vegas"
+    },
+    {
       "artist": "Santana Las Vegas House Of Blues",
       "venue": "House of Blues",
       "type": "concert",
@@ -5610,6 +5599,17 @@
       "date": "2027-02-12",
       "ts": 1802462400,
       "url": "https://concerts.vegas/event/kenny-babyface-edmonds-las-vegas-pearl-concert-theater-at-palms-casino-resort-friday-february-12-2027-8-00-pm/",
+      "src": "Concerts.Vegas"
+    },
+    {
+      "artist": "Kenny Babyface Edmonds Las Vegas Pearl Concert Theater At Palms Casino Resort",
+      "venue": "The Colosseum at Caesars Palace",
+      "type": "residency",
+      "city": "Las Vegas",
+      "region": "vegas",
+      "date": "2027-02-13",
+      "ts": 1802548800,
+      "url": "https://concerts.vegas/event/kenny-babyface-edmonds-las-vegas-pearl-concert-theater-at-palms-casino-resort-saturday-february-13-2027-8-00-pm/",
       "src": "Concerts.Vegas"
     },
     {

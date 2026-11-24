@@ -1,5 +1,5 @@
 {
-  "updated": 1795491630,
+  "updated": 1795538827,
   "tabs": [
     "Las Vegas",
     "Tickets & Lineups",
@@ -16,82 +16,1333 @@
   ],
   "items": [
     {
-      "title": "Every Track From ‘Grand Theft Auto VI: The Album’ Ranked — Now Including the Deluxe Bonus Tracks",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPU0dMOEFXTlZ3czBHUlFocmNtMXZaaGVEX0dUa09YTFp0YUF4RHFnb1E4Zm0yX0l2OW1jZE03SVJZY2RaTUJOVkhDa2hQTk9PdWFEZmtUaEwxTGpfVnU0b3JjMURRbXFCWndTbzk2UlFMUURHNzRheWR3T25WZjBoRw?oc=5",
-      "src": "Billboard",
-      "domain": "billboard.com",
-      "time": "1 min ago",
+      "title": "U2 announce 2027 North American ‘Carnaval De Luz’ stadium tour",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNZVowV19PczFKaVRPUFI5ZVZ0ZXNzbTY5OW0wTW9lM0stb1RvMEE3MG9aXzFZWlpOTEZZRzFEWm9MSlA2MEJkRkdBZlE4Ylo0WUtvbXdhR1d5dTNhR0lfWGl5dm5XYkc1SzhMVTFHVUJFM1RNZ1VkYWRfQXY4Zk9qd1V2NGRoQmVQTGUxb2FYdUhtcFhBTlQycEMtZTFySjZT?oc=5",
+      "src": "NME",
+      "domain": "nme.com",
+      "time": "2 min ago",
+      "cat": "Ibiza & Global",
+      "hot": true,
+      "ts": 1795538696,
+      "tier": 1,
+      "n": 31,
+      "also": [
+        "Facebook",
+        "Rock Cellar Magazine",
+        "Yahoo",
+        "Pitchfork",
+        "Deadline"
+      ]
+    },
+    {
+      "title": "Mia Joy and Midwife join forces on new song, \"Circle\"",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQcTFRSWJQODVaZHdiZDdoeU15R2E3czV4LVhiTWt1MkVMTE5uVldSSjlIcWMtQUNXOUl1N2tWdE9BWXlzcVQzd0xCR1BVd3dkX2RGVFVWc2hPSWVOWDB3RUtJbTc2cTNScDhLaFFKRlh0azFLZm1XTmJFUURkbURQR2FLbEpZRE45ZGNkYlNVVEdPQQ?oc=5",
+      "src": "The Line of Best Fit",
+      "domain": "thelineofbestfit.com",
+      "time": "2 min ago",
       "cat": "Pop & Tours",
-      "hot": true,
-      "ts": 1795491532,
-      "tier": 1,
-      "n": 6,
-      "also": [
-        "NME",
-        "The Fader",
-        "HotNewHipHop",
-        "Consequence of Sound",
-        "Revolt TV"
-      ]
-    },
-    {
-      "title": "Foo Fighters Will “Go Away for a While” After Upcoming Tour, Dave Grohl Says",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1jSGtBdU1Kb3Z5X0lfZktVbmppTHlWNWU5Ry01RmlsdV9XN3M0NU02RzJTQmFTbHJEMFFKcy11SldFYTVtSDgxemNmXzAwQm85OVctYnFXUHdVaWV4VVpiNG1BWF9FNkRUYjAtTTR1SXpXRGlpTW9mNXEtbw?oc=5",
-      "src": "Consequence of Sound",
-      "domain": "consequence.net",
-      "time": "31 min ago",
-      "cat": "Rock",
-      "hot": true,
-      "ts": 1795489758,
-      "tier": 1,
-      "n": 7,
-      "also": [
-        "Ultimate Guitar",
-        "89 A Rádio Rock",
-        "Howl.Link",
-        "DRGNews",
-        "Far Out Magazine"
-      ]
-    },
-    {
-      "title": "ALEMANIA: Fusión de Navidad y música techno en una instalación lumínica en Berlín",
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNOUFKNVI1ZzdIRHJ6WExxOHgxdGprTXl3SkdGb3Q2dF9PNS1Wa05EdjlsblNEY1FZeHg0bkhCQy05dVJ4WVRCUHVzS2lKSHRIU3Qxc05qZjdDUDFhLURtYU5YWjVEUEVmTEFhR1A0aEQwem1oNVBGUmtZal8tUm5YQVc4bWgzc2ZHUXdOa2Q1SEVWemo4S05FbFhib3h6VVpTRTJVci1rWEd4SUVBdHFuX0tmSzdDcExaWVRRTnFXemFsSkU5c1NaSFc5Y3VCUEZZRWdKOA?oc=5",
-      "src": "AP News",
-      "domain": "apnews.com",
-      "time": "37 min ago",
-      "cat": "Techno & House",
       "hot": false,
-      "ts": 1795489380,
-      "tier": 1,
-      "n": 1,
-      "also": []
-    },
-    {
-      "title": "Han Beukers & Seren Santiago - Aphelion Radio 347 2026-11-23",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPeFlzVENMMGFzQ3lSNEJTd2ZfUmFFZjJ5aHVBbVF6ZE9POVNidGFIdWJ2SWhIMFlUem1MZ0dpd2RVcWlQS1lWTnpUeUFaVm1rUW1xNDFfa2ptZ3BzdW9tTFRCS3F0Ync3RTZaMmxBWjhfWldYQ1RvT3NMNVIyMkxjQ180dHFmMFl4WG5Ed3VoSEc1TTgyY0hQYXhqOTlVQXpkT0R5VFBwbXVLeXFqbWg0Rw?oc=5",
-      "src": "1001Tracklists",
-      "domain": "1001tracklists.com",
-      "time": "46 min ago",
-      "cat": "EDM & Dance",
-      "hot": false,
-      "ts": 1795488859,
+      "ts": 1795538686,
       "tier": 2,
       "n": 1,
       "also": []
     },
     {
-      "title": "KATSEYE Tour — Global Girl Group Expands Asia-Oceania Leg to 16 Shows",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1Vd0NPckQ4ejB0UEg0ZmllalR0Z1U1Um5uTlJwTWtPR1RIVzF2cm15enNvSHlrTnVfREdkeTdmOFlDS1VvRmNBZTJkOXBmWXNH?oc=5",
-      "src": "The Korea Daily",
-      "domain": "en.koreadaily.com",
-      "time": "1 hr ago",
+      "title": "Hugh Laurie compares ‘Saturday Night Live’ hosting gig to a ‘car accident’: ‘Don’t remember it being fun’",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNTVlNSlhZdmphSTh2SUVMN1kyLVh5NmJYY1Z5d19XRk8wTmNJZGpzcVB3X3NSOU15UXRaT2hjU1luNWR3T3luM21VRTVHZGZvZVRUOXZjSWFXS3Z2d2FRUmJ5SDhaVjduRTdXdGJVV2M5Z2owa0JhSXFYNk53MHJwcEI1SVpveWc?oc=5",
+      "src": "Entertainment Weekly",
+      "domain": "ew.com",
+      "time": "5 min ago",
+      "cat": "Pop & Tours",
+      "hot": false,
+      "ts": 1795538523,
+      "tier": 2,
+      "n": 1,
+      "also": []
+    },
+    {
+      "title": "Mood Music With Simple Plan",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFB4Uld0NTV0d25YZnlPZzZ1d0plRFRXbmYyNFpUc0tiQ1F0M2ZlM1BaLTFQVldzMjhudEZBYlVvTzlzenZIRWJKdU1heUtERFBlVllyVzkzYW1TT01BMDFTSUN5QmQ?oc=5",
+      "src": "Rock Sound",
+      "domain": "rocksound.tv",
+      "time": "5 min ago",
+      "cat": "Rock",
+      "hot": false,
+      "ts": 1795538469,
+      "tier": 2,
+      "n": 1,
+      "also": []
+    },
+    {
+      "title": "Secret Dreams 2026 Music Festival Recap",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE93aWNudjNVVVpBNG9nMFIyVDNNOEVnbnNEWDlDUXBUVFZoWkNXaFFFd2k1TlhDOXlIbGRRekl4T1ZSTWxrRjh1c0ZVa0RrZjNxZnZSRlZuNTU5M1VPVmg3M0tDb0dxNzZLWV90NkpjYThXYUVT?oc=5",
+      "src": "The Daily Frequency",
+      "domain": "thedailyfrequency.com",
+      "time": "6 min ago",
+      "cat": "Festivals",
+      "hot": false,
+      "ts": 1795538430,
+      "tier": 3,
+      "n": 1,
+      "also": []
+    },
+    {
+      "title": "Bottle Pops & Pit Stops: PAPER Goes Behind the Scenes of F1's Fanciest Trackside Club",
+      "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBnT1FSam5vY0V4Wi1SSmJVOVp5LTlmd0k5TF9UNHptR0xDN1hmeTdIaWZlREU0bE9zYW5LMUFSTWVCcV9mSmdaTmlR?oc=5",
+      "src": "PAPER Magazine",
+      "domain": "papermag.com",
+      "time": "6 min ago",
+      "cat": "Nightlife & Clubs",
+      "hot": false,
+      "ts": 1795538413,
+      "tier": 2,
+      "n": 1,
+      "also": []
+    },
+    {
+      "title": "U2 Set For Allegiant Stadium Debut, Though Tour Dates Tell Two Different Stories",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQbk4yX2xCdVh2c3Iwa1NzcWtOci1wTWdKdkpiblFjbWNjUlZ3UjJXei1JdmZPTTNBb0xlNFZaYlhIY2FvUXdvdjZ1RWxWNXZ4TlBtUXo1WHpLVGRYZ1lRY3FNdFdmd0JBOTNtYi1aWU8xcWpFTDJ4ZU5uaENUVktxWTlvZ3ZjRUxYNEpwZk8wOXI1aEZ5NjByYnBXUEctcjdwTVo4QmZPNm51SFRxZ3c?oc=5",
+      "src": "Hoodline",
+      "domain": "hoodline.com",
+      "time": "7 min ago",
+      "cat": "Las Vegas",
+      "hot": false,
+      "ts": 1795538363,
+      "tier": 3,
+      "n": 1,
+      "also": []
+    },
+    {
+      "title": "26 concerts coming to Busch Gardens next year, from Flo Rida to JoJo Siwa",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNMndXZnNwZWl5RTBkVlhkTVZ2dzg4WlFjdFdNNVFkMnhvc2xhSVJocHd6QUg4MnhJdFUxcVRQQm44a3Q4T1kyVzVsRjVSUnFUay1WdWNvTTBnSEhyZ2ZFdDlIYWgyaWJ3SHJuTnkxakdCbm5WUkVUMDdzT3p2UEk0V2RucDVhT0M0LW1tdmxaRVBzaDdoX1IwSjBURVR1R2t3N25jcnR3NVVHRmNDT3I5cFAzVjJfOS1PaVR5c0VuRkc2bHJ6Zlk5cEdNSUxkQQ?oc=5",
+      "src": "Tampa Bay Times",
+      "domain": "tampabay.com",
+      "time": "9 min ago",
+      "cat": "Pop & Tours",
+      "hot": false,
+      "ts": 1795538236,
+      "tier": 3,
+      "n": 1,
+      "also": []
+    },
+    {
+      "title": "Playaz Only Live Twice: 2 Chainz Survives Scary Cybertruck Crash",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1Ma0VCYVZxR2RldGtxZ0VoYThwTEY1enFVNlB0dmFDRl82OW9zR2RIMkF5cTBWcE1OdXN0TnUwaGRQRXBTSUs1N21ub3dlNEZPNkVaQXpIY2otaEFrQmlQSDc3YzNpY2o5cG40dU96V1VFUTZTa2c?oc=5",
+      "src": "Hip-Hop Wired",
+      "domain": "hiphopwired.com",
+      "time": "10 min ago",
+      "cat": "Hip-Hop",
+      "hot": false,
+      "ts": 1795538206,
+      "tier": 2,
+      "n": 1,
+      "also": []
+    },
+    {
+      "title": "Legendary rock band returning to Gillette Stadium after 10-year absence",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQcDBFV2VSUzAyX0dmTjA3MUM4OWQ2eGpsNHZOaEtpVFRzWVJVeHhsU25adXIwZy1iS1MyWlN2VFQ5YjdZSDNlaTRBWmVuaEVXcTdXWlRuOUJKeEVPak9YQXZvbTZBYWJsajBBbmFjMnQ4U1dzbEd0aUxNVUkyUy1XNUhhVjdlQXlfQzJ6ZlJmYm5KczdtYWdXekhRUVhxcmFlbDl2Mzh3V2UxVlZxUUc4NFlibDl1dzRkck02cXUxNDXSAdQBQVVfeXFMTXNITjdUNF95QmYxbGwtOUR2QUtVdnRQTmJqTUdEaWtHSzhnTVRjdmlwN3NJNmYydE4wcGVhSS1uM3QwbTgxb0F1dE9VLXBpQVB4Nl9faGM1YkxabFJyYzNKb2NQUnU2TEJJY19fQnV5SGdZbEJZTDdjenFYbXJycFFYV25vN2pnZ2lCcmh3Z1FsektHQjl0eUczbXRfTnR2bEo0TU1pYnBjVWo3Unh4TnZ4Nm41X0E5NTBuTnpBS0xfQnd2YnQyVW0xWTRsdDVFUVVsZVc?oc=5",
+      "src": "MassLive",
+      "domain": "masslive.com",
+      "time": "11 min ago",
+      "cat": "Rock",
+      "hot": false,
+      "ts": 1795538160,
+      "tier": 3,
+      "n": 1,
+      "also": []
+    },
+    {
+      "title": "Wilco Loads Up For 2027 Tour",
+      "link": "https://www.spinmagazine.com/2026/11/wilco-loads-up-for-2027-tour/",
+      "src": "SPIN",
+      "domain": "spin.com",
+      "time": "11 min ago",
+      "cat": "Pop & Tours",
+      "hot": false,
+      "ts": 1795538160,
+      "tier": 1,
+      "n": 1,
+      "also": []
+    },
+    {
+      "title": "Concert Review: Crown Lands & DreamLand - The Apocalypse Tour - St. Cathrines, Ontario, CA",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5scHNzR2lMZWI4WWZlMEo5MnpUZUhPMG0zelRfV3hFZGNzRGZXOEVQREdDaHBsT0kyN0dNT0hSd1lNRm5tVDhXb0hiUnItQjZHSGlBTXZhX0RVblMtOE1WdzJBaWE0TkFfWVg3Uw?oc=5",
+      "src": "The Prog Report",
+      "domain": "progreport.com",
+      "time": "11 min ago",
+      "cat": "Pop & Tours",
+      "hot": false,
+      "ts": 1795538159,
+      "tier": 3,
+      "n": 1,
+      "also": []
+    },
+    {
+      "title": "Cupertino restaurant and nightclub to close after 50+ years",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOWEh0akJpNU1Yb01mWlE2elY2R04tOFRaYndBZmlzdjBTNkwzWmJQR2Fhby1nUWgtazBYdWtLb3NDWXVNYmJvR2cwa0c2Z3RJV1E2ejhrUHIwX2J3alFqcFNDZ2JJLXZMWlpMT0NyZUJ4UnRoYUs5cDlXS2RLcHVleFkxQjF5SjFscVNWRjdQNU5Fdw?oc=5",
+      "src": "San José Spotlight",
+      "domain": "sanjosespotlight.com",
+      "time": "12 min ago",
+      "cat": "Nightlife & Clubs",
+      "hot": false,
+      "ts": 1795538083,
+      "tier": 3,
+      "n": 1,
+      "also": []
+    },
+    {
+      "title": "Tim McGraw to headline new music festival at Hill Country university",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPR0kyV2hwYlV3RnZCUjVUYXFRVzlRYU1qVnRRQjdMSUE1QkhVM0JvdUw2RjZaaFhNZXNBM0NfRmQxMjhiNi1MSFNRc2NuajJ2V040dFdCSXZlblhIV2hfbTlLWUF0Q1llLXZnekdsUFVsUnVSclg1cmJUcVN5OFhhQXBVVlo?oc=5",
+      "src": "CultureMap Houston",
+      "domain": "houston.culturemap.com",
+      "time": "17 min ago",
+      "cat": "Festivals",
+      "hot": true,
+      "ts": 1795537800,
+      "tier": 3,
+      "n": 3,
+      "also": [
+        "AOL.com",
+        "San Antonio Current"
+      ]
+    },
+    {
+      "title": "Mastodon Reveal Spring 2027 European/UK Tour With Monolord & Green Lung",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOeUxuUW8xZUN1VV9pdWVMOFp1VzI1aVp1WXl0VXRJT05ISXBKTDRxYkNWZFZVcXJSTmlGVEJ2MUhOOUFaRlo2ZlYwRnVRa0pBU2ZndXJZVVBwQjN1NGZHeVZRWjZfWEZmQ25PaE5iUWtPc2hfR3BjSUxJTkZtSFdJd2ZtZDlkZy1DWW9aVjVncGtzYU9CMkFYOVJfSDd6ckVIbU9SUUhLUEZ5UDFJZUE?oc=5",
+      "src": "Theprp.com",
+      "domain": "theprp.com",
+      "time": "17 min ago",
       "cat": "Pop & Tours",
       "hot": true,
-      "ts": 1795486411,
+      "ts": 1795537799,
       "tier": 3,
       "n": 2,
       "also": [
+        "Lambgoat"
+      ]
+    },
+    {
+      "title": "What Do You Get When You Combine a Hi-Fi Sound System With a Ceiling Fan? Here’s the Answer",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNTUpwejc1R3BsbHJNS2dlOVJ2Z1I2dl9Qd25FMkFxNFZVUDdCM1ZKOUVOSnUxVFVLOWgwTW5HV2xMa2pKZk1MWDlJT0puaE9SaXpwdkI5WGpFM0RKZVdVT1VrN1NKamtKZTlVUC1HNDlxOGFWRXBqZXdXdmhOV2ZxVXpCcnhibFZkelhyMUN5YjR4NTRWV1VfYnNBeU5SZm5FUXlR?oc=5",
+      "src": "Gadget Review",
+      "domain": "gadgetreview.com",
+      "time": "22 min ago",
+      "cat": "Retro & Culture",
+      "hot": false,
+      "ts": 1795537474,
+      "tier": 3,
+      "n": 1,
+      "also": []
+    },
+    {
+      "title": "Evo Japan 2027 Tournament Lineup Revealed",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOS2NrU1hZMjBNUkEwQlQ0dmI2OTBYV1J1SFRBYlFTUGFWUEh0UVc2aUZtSGwyRW5vUEVQaGZsbWc5ZEFidk1sTDRhVjAwNWU0dkJqMl84NjdjbERLSU5rV09lT1lVUlZ3YkhDNGtKdlp5TTFYbVBfY3VKdmtUaWxFcQ?oc=5",
+      "src": "OpenCritic",
+      "domain": "opencritic.com",
+      "time": "30 min ago",
+      "cat": "Tickets & Lineups",
+      "hot": true,
+      "ts": 1795536999,
+      "tier": 3,
+      "n": 2,
+      "also": [
+        "The Outerhaven"
+      ]
+    },
+    {
+      "title": "Ariana Grande's 'Eternal Sunshine Tour' Films Coming to Peacock",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQWHFBcFFTUnctTDJvSFdGbEFXX2JkZmpma0lnT3FQU2hjenRIRGdYb3I1VUpnQVhfUU9HbmVaMFpSRXFoUV9iSVpHTjBjd3pfYTF4LUpOd0xaZ2wwbUdwUlVwbXpMTHpRbmR5ZURVc3lLaWc2eEEtUDQzbGJlZ0J3VzRRQ1VRZ1BqNFZtV1FQY1ZjMWxDNkFXLUR4b2JMVlBOUWNWdkZSRQ?oc=5",
+      "src": "Variety",
+      "domain": "variety.com",
+      "time": "32 min ago",
+      "cat": "Pop & Tours",
+      "hot": true,
+      "ts": 1795536900,
+      "tier": 1,
+      "n": 6,
+      "also": [
+        "The Hollywood Reporter",
+        "inmusicblog.com",
+        "Vital Thrills",
+        "Billboard",
+        "ELLE"
+      ]
+    },
+    {
+      "title": "Steve Lacy Announces Show At London’s The O2 Arena",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQSmdoTDdfaFR0b1BhNzZfQmNzcWdwQlROTUdxMXQyUFRWNUFsRHExRWlwenJ5cE5QVFEtQXhXM1RCUGl4M2hORUM2cVNnOGJ5WFdYUTlDb0ZrUmFIYU14S2xFX0JiY05FOVhzOEE1dGgyUHJoYkRqanp5M0JsVGJQbm92a1RmandrWnc?oc=5",
+      "src": "Clash Magazine",
+      "domain": "clashmusic.com",
+      "time": "37 min ago",
+      "cat": "Pop & Tours",
+      "hot": true,
+      "ts": 1795536549,
+      "tier": 2,
+      "n": 2,
+      "also": [
+        "Ticketmaster UK"
+      ]
+    },
+    {
+      "title": "'Bye AI music': TIDAL announces ban of AI-generated music · News ⟋ RA",
+      "link": "https://news.google.com/rss/articles/CBMiPEFVX3lxTE9Dc1NnTHhOLWZYd0hiX3ZQWXNheWptbFhtbTY2ZGRHOFhncUlOSTNXVHBrcXJKYmZXVTNiZw?oc=5",
+      "src": "Resident Advisor",
+      "domain": "ra.co",
+      "time": "38 min ago",
+      "cat": "Techno & House",
+      "hot": false,
+      "ts": 1795536490,
+      "tier": 1,
+      "n": 1,
+      "also": []
+    },
+    {
+      "title": "ÎLESONIQ 2027 Announces FISHER and Kygo as Headliners",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE41NzlTekZXUlJpRlNRMUNRblBTOUNqX1hVWGdmN1EyV292azBXQnAzaC1mQW9IYjBiYlFseHdkdXljaFN4ejJGT1ZlNHJ2TzFQZDB0S3VBVHZ4aGdOOFgwNm84bWx6b1pfRi1VSDIyVEZKODZyUkR1WVpidw?oc=5",
+      "src": "Rolling Stone Canada",
+      "domain": "ca.rollingstone.com",
+      "time": "49 min ago",
+      "cat": "EDM & Dance",
+      "hot": true,
+      "ts": 1795535848,
+      "tier": 1,
+      "n": 2,
+      "also": [
+        "The Beat 92.5"
+      ]
+    },
+    {
+      "title": "Pet Shop Boys, Biffy Clyro and Two Door Cinema Club To Headline Sheffield's Tramlines Festival 2027",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE42elhXTFp0eTBQQm44eUJEcmkyYkk4TUFnUUJ0cVhDeThxamptQmZEUk1Cb1UzTk4teU5EcUVFREwyWUt2RFJLZU1pSjZYeDd3dndrSDZDYXZUNEtUSGc?oc=5",
+      "src": "Stereoboard.com",
+      "domain": "stereoboard.com",
+      "time": "51 min ago",
+      "cat": "Festivals",
+      "hot": true,
+      "ts": 1795535727,
+      "tier": 3,
+      "n": 4,
+      "also": [
+        "All Music Magazine UK",
+        "Backseat Mafia",
+        "The Hoot Leeds"
+      ]
+    },
+    {
+      "title": "Alan Fitzpatrick Opens Up About Mental Health & Other Artists Show Support",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQTVgxT3lITXljWUlhaUFIUmFGbllHU1dKU0RpV2Q3eTRxUXVtWkNsYU5jOWVKaXNxTFo1NF93Rjl2THREc0VvdVhQcS03c0NqeGNSTnZ6LUFNME1XTllCWEdEZllZZzJYQS1rOU55ZHRkMVdIMVZqSS1Db3ZvTGdSQkd1aXFxOXVfeWNyc0E5S0NSU2M?oc=5",
+      "src": "EDMTunes",
+      "domain": "edmtunes.com",
+      "time": "59 min ago",
+      "cat": "EDM & Dance",
+      "hot": true,
+      "ts": 1795535258,
+      "tier": 2,
+      "n": 2,
+      "also": [
+        "We Rave You"
+      ]
+    },
+    {
+      "title": "Wilco Plots Spring 2027 U.S. Tour & Adds European Headline Dates",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9HYU4yeC1wZUhZSVRUSk9YcVhoQnpwcVc4bE9jdnFFWnJXU0x3ZXhqOW9IZWFENUREYTR5SXdvTHpWYTB3bGxDR0d1ak95ZmVnT2E5YURISU5ObnZLV2t4WEhCXzk3eHNPNlFTNk9iSDZ0OEFGUVhGb0VR?oc=5",
+      "src": "JamBase",
+      "domain": "jambase.com",
+      "time": "1 hr ago",
+      "cat": "Pop & Tours",
+      "hot": true,
+      "ts": 1795534920,
+      "tier": 2,
+      "n": 2,
+      "also": [
+        "Theprp.com"
+      ]
+    },
+    {
+      "title": "U2 Reveal North American Dates For 2027 Greatest Show on Earth World Tour",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNUkYxUERKWEhyZ1c2V21YY1BYWlVxejVVS1F1NE8zcVBGTk1Uck5HdlFETzkyajVKZGJmeUtPQ2pQVWFGaEZfSGJicGJOdzduMzRxaHVKdkt4NWZfVVlFYS00NGctQ25icTdRdWt2WGpvUXZNMGlaQm90VFZ2eWFUcUd4UTNRYlJiSUpzS0pLbG5hVTVLT0s1QTJTSWg1djE0cUV0Q2pLaDRhSm85di12dXcyV3Awdw?oc=5",
+      "src": "Billboard",
+      "domain": "billboard.com",
+      "time": "1 hr ago",
+      "cat": "Pop & Tours",
+      "hot": true,
+      "ts": 1795534662,
+      "tier": 1,
+      "n": 8,
+      "also": [
+        "CultureMap Fort Worth",
+        "AOL.com",
+        "KTLA",
+        "Exclaim!",
+        "Audacy"
+      ]
+    },
+    {
+      "title": "Lambrini Girls Unveil Single “Don’t Talk to Me Until I’ve Had My Abortion”: Stream",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNQmpGanlaSmlwc2wtNUVXdTFtclhnVmNFX2wwa3diUWV1ZzFrVWdwbHlaUVVnaVh4VVgzT21kS254TTV0OGhxWERnTzZFMGhvUGpGZ0txTEw5ZnhFb0h6RE9TTXJjVmdGY3JoanYybVoxcDZSUEFvSEIyZldOX3pSbjJSM2xMVFRDUGhHajA0ZElKcms?oc=5",
+      "src": "Consequence of Sound",
+      "domain": "consequence.net",
+      "time": "1 hr ago",
+      "cat": "Pop & Tours",
+      "hot": true,
+      "ts": 1795534355,
+      "tier": 1,
+      "n": 5,
+      "also": [
+        "Paste Magazine",
+        "Kerrang!",
+        "NME",
+        "The Line of Best Fit"
+      ]
+    },
+    {
+      "title": "Jozef K marks ten releases on Dreaming Forever",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOemVSd3FIR2ZldEZEVkJDWXlqa0VVS1RwVUxnck5hY0NCVWgzN05vV2o1UUNzQzFhLS1mU3ZKb1ItUlZLSWw4X3VtVWZSbk1sWE9Eb0k3VloyN3RLWFJ4WWZUeVlzVVpZOWNqUGR2VERNNlp4X2JXb2NuWTNoOUN0Z19yRXc2OHUwd3RvRlhR?oc=5",
+      "src": "When We Dip",
+      "domain": "whenwedip.com",
+      "time": "1 hr ago",
+      "cat": "Techno & House",
+      "hot": false,
+      "ts": 1795534315,
+      "tier": 2,
+      "n": 1,
+      "also": []
+    },
+    {
+      "title": "U2 to play at Baltimore’s M&T Bank Stadium",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5zX19vR2ZxUXhPNHkyZkpqOFBMcXhCbENYRzhfSGtmWmxLTUJrbE1UMFpSSUhBcFJoeWw2T2FCMmtvTzZtaDB2M3V3TzFzU2R2aWkyYzM5RXE2d0xuUmxmY1hLVlBuZi1CbTZzT011UTM?oc=5",
+      "src": "Capital Gazette",
+      "domain": "capitalgazette.com",
+      "time": "1 hr ago",
+      "cat": "Pop & Tours",
+      "hot": true,
+      "ts": 1795534265,
+      "tier": 3,
+      "n": 3,
+      "also": [
+        "WBFF",
+        "Baltimore Sun"
+      ]
+    },
+    {
+      "title": "Post Malone and Megan Moroney Headline Pilgrimage 2027 Alongside a Seriously Impressive Lineup",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNc2pnTHJWaEJrRDVwVms4ejhfNC1xSXNNZVd4SjVITXZoN2s0dVo4V29VbnZiNTEtMjhXcVJUQ3h0NWRsWUNEcGh6SV9ZM2JWVXZQcURXTTlCN2Q1WWRibjlyclhwdkNqemI0RUhmTWxqN0toTkpRYnV2VkxwM19Jc1ZrVEw3cVBYZWxoeUliVU1QcE9MZXQ4M0lFdEpEUjJoeG8yLVdxX0NWLU1hTk42eFA2b1k5c0N5bHRhaUxwVEc5bWxFRUcyWXFWQk9nSGw3?oc=5",
+      "src": "Backstage Country",
+      "domain": "backstagecountry.com",
+      "time": "1 hr ago",
+      "cat": "Tickets & Lineups",
+      "hot": true,
+      "ts": 1795533972,
+      "tier": 3,
+      "n": 2,
+      "also": [
+        "Country Now"
+      ]
+    },
+    {
+      "title": "Tulum eyes ‘mystic’ music destination status with 40,000-cap UX Arena",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNVWgwU0s0bzJHajZWLTFxSVlBTDNnMkNmSF9PUGxzVXd3c3laeV9GZEtrcThlUnF0eVRmZ0tOZU5ON19OVXFvMWp4bVJZbWxFVm1Xc0FnT3h1VUFXekJINUlkTklBa1h1eG9wNFFOT1pUTGRCeXNmUU5scVVtMGhYc0dxc21yUjR3RTVJUGhOdE9NQ1RuWHo3VDZQV3dWRkRtcUlrZQ?oc=5",
+      "src": "IQ Magazine",
+      "domain": "iqmagazine.com",
+      "time": "1 hr ago",
+      "cat": "Ibiza & Global",
+      "hot": false,
+      "ts": 1795533855,
+      "tier": 1,
+      "n": 1,
+      "also": []
+    },
+    {
+      "title": "TIDAL Bans AI Music From Its Platform",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1ueGt6akU3TndiWUtiUDZ4M3ZsTUJfWkE5TnVKaTFYZmhlZjVhclpuYVc2NXpOOWVDVGQxTkdWRF9QTEdFSUNRa1RlVHhqUFl0ZWhRU3hIWmUyRGJUZFE?oc=5",
+      "src": "HotNewHipHop",
+      "domain": "hotnewhiphop.com",
+      "time": "1 hr ago",
+      "cat": "Hip-Hop",
+      "hot": false,
+      "ts": 1795533070,
+      "tier": 2,
+      "n": 1,
+      "also": []
+    },
+    {
+      "title": "ASMR Fashion Is Here to Make You Feel Something",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1GQ2tnR0FhTWgzZmFINkRCNXBnTXJRMmlLV0xIX0lucm1zWWtybmM4N2hSOVo5LUdNSmo1SnExY1RKOHNvOVdhSE1vcWlIXzhMSWJPMkpoX0ltdkkwbHNpRkNEd0RjYUVZR25Vc1RBVWxPbUhLTnRKXzJQTWQ?oc=5",
+      "src": "ELLE",
+      "domain": "elle.com",
+      "time": "1 hr ago",
+      "cat": "Fashion & Swim",
+      "hot": true,
+      "ts": 1795532796,
+      "tier": 1,
+      "n": 2,
+      "also": [
+        "AOL.com"
+      ]
+    },
+    {
+      "title": "U2 announces 2027 shows in Toronto, Vancouver as part of world tour",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBlTm93ME16eDZKVFMyQ0ladDA2ZjBQMHZ6SURycDRsS21yY0FLa3VzZDRIc3ZtalhaX1YtU3NqeW1OcFh1cDVlMHdsTV9pQng4?oc=5",
+      "src": "CBC",
+      "domain": "cbc.ca",
+      "time": "1 hr ago",
+      "cat": "Pop & Tours",
+      "hot": true,
+      "ts": 1795532682,
+      "tier": 3,
+      "n": 2,
+      "also": [
+        "That Eric Alper"
+      ]
+    },
+    {
+      "title": "Wilco Expand 2027 Tour With U.S. Dates",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1idXBnYnl4NzNHbkVKdDdsSTdJdWRhMVVDZDc3c2FNVGprR0d6YlFPSXg1R2Y3RE5yVzk0QUg2dllGeU1rVVdDekd1MlhqMzAweUJFczNTU0tXREdKcWNzX2tzdXZBUW9sNkFiS2NsSzJMcUE?oc=5",
+      "src": "Pitchfork",
+      "domain": "pitchfork.com",
+      "time": "1 hr ago",
+      "cat": "Pop & Tours",
+      "hot": true,
+      "ts": 1795532560,
+      "tier": 1,
+      "n": 2,
+      "also": [
+        "Exclaim!"
+      ]
+    },
+    {
+      "title": "Florida Georgia Line and Megan Moroney to headline Minnesota Country Club Festival",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNeVhIQW5zVkRreDdrRmxFMXA3dFkzTkJabjhtU29WWXF0VThodzNMQldBVjZ2aU5LVTJSVVZZbk81bklheExEODhYUVlGWTE2SnV4Z2wyOXZRSTZrVjZVSk9sWWcwVWpuYUhsZHdaQk9BMkdLNWRnNmRaRnREcHh2OHNrdkFoNlNhUFBqaThPZEhaeW9XcE9GM0tXcm5mWHJ5Z3dXcV80dTJtNm1ZdjNpX2Y5dVphbGNxWERFa092U3NIUFdM?oc=5",
+      "src": "MELODIC Magazine",
+      "domain": "melodicmag.com",
+      "time": "1 hr ago",
+      "cat": "Festivals",
+      "hot": true,
+      "ts": 1795532455,
+      "tier": 3,
+      "n": 2,
+      "also": [
+        "That Eric Alper"
+      ]
+    },
+    {
+      "title": "Wilco Announce Spring 2027 “Wilcoworld Tour”",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE53UFo5UV9OcXY2ekIzZE1kZDRzeGV4NzcxbTkzU01BdVBBMTlJZ0F1VXg3bnlwUVROWGdEVXJ4MGZxMkw3UXNBNGZuVzkwUGtHcTJNQWV3eDNKYnpLT3VYREdydkdfSk8wTUtn?oc=5",
+      "src": "Consequence of Sound",
+      "domain": "consequence.net",
+      "time": "1 hr ago",
+      "cat": "Pop & Tours",
+      "hot": true,
+      "ts": 1795532416,
+      "tier": 1,
+      "n": 2,
+      "also": [
+        "Paste Magazine"
+      ]
+    },
+    {
+      "title": "U2 coming to Vancouver on ‘Greatest Show On Earth’ world tour next October",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPOGo4NjJtT0R5NnpRdVJSMW1VQ3FSTnd6YUpTSlFrSUNXVjNwbnR0VU11RzYxREVnLTdvTTN3YnlUdkt0WkxQeTN0S1pYR3lGaFN1eUVHaHQ1cDR6NmtSbk13aTRsR3JhRHNMQTU0R3YzNXo2d2JxTFpTSkxiemNTVzZncXpIRFdBZ1hBQzFSSFpYelI1WWp6X0stRXJmYUdBcUVZaF81aGRlMkE?oc=5",
+      "src": "Salmon Arm Observer",
+      "domain": "saobserver.net",
+      "time": "1 hr ago",
+      "cat": "Pop & Tours",
+      "hot": true,
+      "ts": 1795532416,
+      "tier": 3,
+      "n": 2,
+      "also": [
+        "Maple Ridge News"
+      ]
+    },
+    {
+      "title": "Garth Brooks Surprises Fans By Revealing 14th City On His Arena Tour",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1LRHpaVXkwVjZmY19CRGFsWHNrbDFDQXZoQzZDTnV1MHZremtqUWdzNnpoOGtJS1ZNTnZYNlhxSmFvN1ExN2VCODFHOG5vdG85cXlWUERHNWx3YWxlaExpUUNYZkZCc0laWXBDRmlIdU14RldLbjJuRA?oc=5",
+      "src": "Country Rebel",
+      "domain": "countryrebel.com",
+      "time": "1 hr ago",
+      "cat": "Pop & Tours",
+      "hot": true,
+      "ts": 1795532393,
+      "tier": 3,
+      "n": 2,
+      "also": [
+        "The Music Universe"
+      ]
+    },
+    {
+      "title": "Dave Chappelle Pulls Up A Seat With Stevie Wonder At D.C. Concert",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPaXg5TDhWQ2VRQ05NUTJ3SmNmWG05bzRPVjFaMVp6c2FZR01ZdjByeThRYVVBVERDb1N3ZmRsU2MyMWFnanpKeFp1ZWlLVjRVRTFESVhsck1TQldGZmZxbDJqZ004N1B3TGM1SHJEQzVBVTlpZ2c0cFN1N3o0NUtTLTBBRkNHUHdDUVR1QVAxV1JBZw?oc=5",
+      "src": "JamBase",
+      "domain": "jambase.com",
+      "time": "1 hr ago",
+      "cat": "Pop & Tours",
+      "hot": true,
+      "ts": 1795532160,
+      "tier": 2,
+      "n": 2,
+      "also": [
+        "USA Today"
+      ]
+    },
+    {
+      "title": "Garth Brooks Announces ‘Blame It All On My Roots’ Arena Tour",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOS25FcEtLUmJEckFfOFJuczlwaUh2bnpZcUJRNTRvQlZSM2hWLXk2bmZTTFMzaDNBTHVaSllOeHFKWnE1dGJlNFFPZXoxRHJJQ2NsX2lkN1psb3UwdmdJekFxQlFQckExdVRZVENKeWxhSUNlX0hoODhfTFBja0FHU3F1cU1JZExsenl1eHYyTExFU1gxc2JXQVRB?oc=5",
+      "src": "TicketNews",
+      "domain": "ticketnews.com",
+      "time": "1 hr ago",
+      "cat": "Pop & Tours",
+      "hot": true,
+      "ts": 1795532144,
+      "tier": 2,
+      "n": 8,
+      "also": [
+        "102.7 Coyote Country",
+        "Hillbilly Live!",
+        "Taste of Country",
+        "WBRC 6 News",
+        "Central Bank Center"
+      ]
+    },
+    {
+      "title": "Ex:Re Announces UK And European Tour Dates For 2027, Including London’s EartH Theatre",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNaE9Fb3EzMnlwaVFEZ1QyQWVNU1JxQ3BWRTVGLS0zX2preUlISFQ0dEFFT2hoQVZOV0hEck1QTS13SFdtQmoxRG1vOGZiRVBUUGwtMFFXa20zZjlLR095WjBnVDVoM1FqTHIwUVFSTDNhNEZCa1Q5cU5TbWc1VlJ2TXh4allDRzU3STFkWnBnNXM3dDZmWF9rWmh0czdydExIVEdnR3pBZ0EyaUZGV2xiOE5RU0xTb0p2YkhfZG0xdDQwZw?oc=5",
+      "src": "All Music Magazine UK",
+      "domain": "allmusicmagazine.co.uk",
+      "time": "1 hr ago",
+      "cat": "Pop & Tours",
+      "hot": true,
+      "ts": 1795531944,
+      "tier": 3,
+      "n": 3,
+      "also": [
+        "Punknews",
+        "NextMosh"
+      ]
+    },
+    {
+      "title": "CHIODOS Releases New Single 'A Particular Proclivity For Pain'",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNZnVaZHlad0lFb0tJOFdjbXBEblMwMVlQY0Q3aEFPQlpIZW1pRjI0a2RPcXJGbUVpaDQ0V1FIekpoWS1ZOUNRek14MnpWdEpzR0ZHLU90dUc5UXVFVUtNMEpJVFJ0SFVFSWhvODhIMnNoWWYxRmlTNi15c2tpNjFvNnowZVhWVVhjVXZ0dDk0OTB5U3hZ?oc=5",
+      "src": "BLABBERMOUTH.NET",
+      "domain": "blabbermouth.net",
+      "time": "1 hr ago",
+      "cat": "Pop & Tours",
+      "hot": true,
+      "ts": 1795531762,
+      "tier": 2,
+      "n": 2,
+      "also": [
+        "Lambgoat"
+      ]
+    },
+    {
+      "title": "Olivia Rodrigo Gives ‘miss this christmas’ Its Live Debut In Nashville",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPeGdDSlBVaFlLOF9meE0wbjc4ZUo1c2ZqQk14VW1RRHdXWTJwMV9PSXBJRGVfMkJPY193WmVVaUs3WjJRTzlNRnVLeXFWNm1ERk1pUUYxY0hpNWZxMUlFdTVPbHVYU1JoRGhoakhRd2tScTJrZ20wb2V1cWtpSThsWTh2cG1rTlo1ZThfbmN5bl9TSFlX?oc=5",
+      "src": "JamBase",
+      "domain": "jambase.com",
+      "time": "1 hr ago",
+      "cat": "Pop & Tours",
+      "hot": true,
+      "ts": 1795531740,
+      "tier": 2,
+      "n": 3,
+      "also": [
+        "Daily Times",
+        "Business Upturn"
+      ]
+    },
+    {
+      "title": "Dubstep Proper: A Sitdown With Hamdi",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQMHFJSDliM1Ztak9mNHdDTTNTNzBQekc0OGRXSmswMUprbHFreE1TNG44QjVoUDBLTldwNFpUUi1EOFdIQzRHcm1qSHBBRWYyVHRFcWw1RG1oT25xQjB4VHN1NFdYV0lOUTJYel81WFNtMGpoVEFHekZJaUl1TmhmUjdSVEw2R0h2UmkyYWlVaWlQS0lYdnEzZw?oc=5",
+      "src": "NewsBreak: Local News & Alerts",
+      "domain": "newsbreak.com",
+      "time": "2 hr ago",
+      "cat": "EDM & Dance",
+      "hot": true,
+      "ts": 1795531254,
+      "tier": 3,
+      "n": 2,
+      "also": [
+        "Complex"
+      ]
+    },
+    {
+      "title": "Sex Pistols and Frank Carter to Part Ways After December Tour Dates",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9NeC13aFdNQ2xqYndnUGFSQ3RVWS1KRzdoNmdzS05YVUJWMjNETmNkTm9PQzBKb1M4ZmlNRlRlX2pVOWw4OFZwYzdlQWpsRk4tT3hUeGRwNk1rb0JPRHFVSnVTdjh2WUNMczlJU25yTFBfZk5iOEJnOFV3?oc=5",
+      "src": "Consequence of Sound",
+      "domain": "consequence.net",
+      "time": "2 hr ago",
+      "cat": "Pop & Tours",
+      "hot": true,
+      "ts": 1795530925,
+      "tier": 1,
+      "n": 7,
+      "also": [
+        "Lambgoat",
+        "theriffreport.co.uk",
+        "Stereoboard.com",
+        "Yahoo News UK",
+        "Louder"
+      ]
+    },
+    {
+      "title": "U2 bringing world tour to Las Vegas’ Allegiant Stadium",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPLUlWRnE1NW9QaHFGZG80RUtvbmZGaWdyWTNiWUJ4SmVrbXpNQWJHc0JqMWdkcnBIUy1rMkR5cWhkUlU0SUZ2M0UtbHhfVzRpWnJtWGF0RHoxYmlwNHZVR1BtaUxDUk1Ldm5WTlFKdWlfdGtPaVNMbWpJekgxNHd2ZnZHcVVmT2xkYUw2OGhXUjZOVFEtVjgzNmd5Z3ppOUnSAaQBQVVfeXFMT1RxUlBnX0I5eTJYdkxOWHZCbF9LblY5RTU5NlVHY3BtRHY3UlN3d1JwbV93TnZEVDFhRFRwTTRkWGt3dU1YTkZvT29wN1V5Q00yX29sNmNialNnNjJsNVk5cEo5anVPdHhXLVhFdDBmUVhDTTlhR0NtTkJ4b1gxOGlHNHozT0UzemhKOWVzWldqQjNpaDYtdW1YaFRWYkxUMmJZVXo?oc=5",
+      "src": "KLAS 8 News Now",
+      "domain": "8newsnow.com",
+      "time": "2 hr ago",
+      "cat": "Las Vegas",
+      "hot": true,
+      "ts": 1795530643,
+      "tier": 2,
+      "n": 3,
+      "also": [
+        "Allegiant Stadium",
+        "WLNE-TV (ABC6)"
+      ]
+    },
+    {
+      "title": "U2’s new album is about ‘defiant joy.’ They’ll tour it in North America next summer",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQajRoYmZiOXV1ZnhwcGxkOWdkcTZUUFNpNFhDMi1MQldmVEVSUmV0UXQyM0dWQlNmTTZpU2dMSFpsbnp3VXlRVXJYNXp4MTdFZjFDanZMblFybm5OWDM0eHhDR3BfSFNmaFVIdVFIS0hvdUlUOGpjZjNTbzhJQ2d4Q0ZtZmZHaGdUZUlVeTh3MEtwWUJ4RjR5aDI2MGlIS0d5cnhWdlR6OTl4bEE?oc=5",
+      "src": "WWWV 97.5",
+      "domain": "3wv.com",
+      "time": "2 hr ago",
+      "cat": "Pop & Tours",
+      "hot": true,
+      "ts": 1795530369,
+      "tier": 3,
+      "n": 11,
+      "also": [
+        "KLAS 8 News Now",
+        "95.5 WSB",
+        "Queen City News",
+        "Herald Bulletin",
+        "Eagle-Tribune"
+      ]
+    },
+    {
+      "title": "Garth Brooks bringing arena tour to Kentucky for 2 shows",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNV3JrdmpJZUNlNVdxN3VhcGdneHNhTk0wSnFjcmtPaWlyc0ljR2xma2lEYVVWT2ZVVnJHZEltQ3VvZUlMeGllMnUydnk4WEIzMUh0NUpKQjVkTk5IZDlmT2xBX2kxYkx4dGF3emcwdmU0aUhMbnBhNzQxT05VRUFhVTZDcko?oc=5",
+      "src": "WLKY",
+      "domain": "wlky.com",
+      "time": "2 hr ago",
+      "cat": "Pop & Tours",
+      "hot": true,
+      "ts": 1795530180,
+      "tier": 3,
+      "n": 2,
+      "also": [
+        "WKYT"
+      ]
+    },
+    {
+      "title": "Nick Cave & The Bad Seeds share previously unseen live footage from Manchester 1986 gig, as Cave works on lyrics for new album",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQTDAxUFlhS3F5Tzd5MFhFWks3dktIWF9HYUZlZ0R6aDB2S1ZCUU1qNWRjaVpLM0ZzSnlXVUZWcW1FZkJZd3I4bTJDSTlhUFNYYWdQbW1IUFNGR2Q4dVVOWVY4d2tHWC04SWlHM1VkX1NGOHI2Tk5sc3p5bGoxRHJydGw4VFBvUXZfVFFsTlBRRFBtdHRTU1U2UWNoUm5pM3c0TDRqdEIzczFOelY1?oc=5",
+      "src": "NME",
+      "domain": "nme.com",
+      "time": "2 hr ago",
+      "cat": "Pop & Tours",
+      "hot": true,
+      "ts": 1795529638,
+      "tier": 1,
+      "n": 2,
+      "also": [
+        "Far Out Magazine"
+      ]
+    },
+    {
+      "title": "John Summit is coming home for the holiday",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNMXRFcmFiT2hYdmZoTzFoQlBRcTU3NWxEeU1sdjVxNDQ0VkJaWGd3ZGJLZmEtLTZ3YklLQUVrTHZ4clNQcV9hQ01tWHBMWWJUQ2R0UjhGZXNxdF9hM1Y3bjM2emVWZTNHVHZpRUJzMTBaeFpDQVpJN0gyY2V5RFFvT0FXeURpSmJpZmc?oc=5",
+      "src": "WBEZ Chicago",
+      "domain": "wbez.org",
+      "time": "2 hr ago",
+      "cat": "Techno & House",
+      "hot": true,
+      "ts": 1795529460,
+      "tier": 3,
+      "n": 2,
+      "also": [
+        "Chicago Sun-Times"
+      ]
+    },
+    {
+      "title": "Slipknot Reveal Collaboration With Dr. Martens",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBBOG1kS1VDRFJrQ0RQajFxWk9GdDh0QTdSR1E1WTJoR1c0YVBwOXRGMnBvaHppeFh6Q3JXdTItZ1FzWE9uTExxM0dfeEVsQlpRQ1ZQczFXZWVGV21TVl90cDdJWlczNUt3SWd0c2V0NG0xZFJmVjdlR2tHQQ?oc=5",
+      "src": "Rock Sound",
+      "domain": "rocksound.tv",
+      "time": "2 hr ago",
+      "cat": "Rock",
+      "hot": true,
+      "ts": 1795529033,
+      "tier": 2,
+      "n": 2,
+      "also": [
+        "BLABBERMOUTH.NET"
+      ]
+    },
+    {
+      "title": "U2 Will Bring Their ‘Greatest Show on Earth’ Stadium Tour to North America in 2027",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNRTdIblM4T3RHUW55QW1KeHZpR0lXTkJaQ1R3NENFT210TVFpSW96cWtHbThRbjEyLVJHdEczU0FtOGJJMFRzYUpKSVlPZVNzNVVMNlpyRW5MNnFrWFRHMGRuM1cyaHVHczBrNHhQelU5RXpCRWNEOGdxUDc3ckJMUmhPblBsWEpBR2p4N1M2R0N0X3Bx?oc=5",
+      "src": "Rolling Stone",
+      "domain": "rollingstone.com",
+      "time": "2 hr ago",
+      "cat": "Pop & Tours",
+      "hot": true,
+      "ts": 1795528800,
+      "tier": 1,
+      "n": 6,
+      "also": [
+        "Asbury Park Press",
+        "A Journal of Musical ThIngs",
+        "RIFF Magazine",
+        "Ticketmaster Blog",
+        "KLBJ-fm"
+      ]
+    },
+    {
+      "title": "Powderfinger announce star-studded support lineup for 2027 reunion tour |",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPazZjRG52TGoteERKOENQUGh3eENfakJVOGhUUDlSN3k2UVB5d2J1NXE3VHd5SjdGVFppS1BhZnJUX3lsNFFGeG90cmxhVlZFV0JMX1I5RXJCS2ZaWTc3WGU3SU51YS1PVGZSZk4zaFZzUU1Kdy11bnJMTEJtbTQ4dm5QTXJSV2JPSGJCY0dqanB4N0dNTFY5UFVhMG9GWk4yUkFHbGxmNmM5aFdUZWc?oc=5",
+      "src": "creammagazine.com",
+      "domain": "creammagazine.com",
+      "time": "2 hr ago",
+      "cat": "Tickets & Lineups",
+      "hot": true,
+      "ts": 1795528758,
+      "tier": 3,
+      "n": 2,
+      "also": [
+        "theMusic"
+      ]
+    },
+    {
+      "title": "Travis Scott-Featuring 'Grand Theft Auto VI: The Album' on Track for Impressive Chart Debut",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNSEdxRnRra3JremxrNHFaTy1fWFlES2pPbmhNZkVlYU5kdVpodVdlbzRkaHdJdWhPZ3hjcG80bGJIc1FlV1UwcWJBcFNZbGlabXlwOTU2YzFSUFlDNXFxV3hPZTB5ckhwaXlYYTE4WGlyWjNlc1dFRmpibE5qVDl0cWlpWWNOV3BmaEZxY25NbGxrTWxaay1TRA?oc=5",
+      "src": "Complex",
+      "domain": "complex.com",
+      "time": "2 hr ago",
+      "cat": "Hip-Hop",
+      "hot": true,
+      "ts": 1795528337,
+      "tier": 1,
+      "n": 5,
+      "also": [
+        "NME",
+        "mxdwn Music",
+        "Rolling Stone Canada",
+        "HotNewHipHop"
+      ]
+    },
+    {
+      "title": "Dave Grohl Says Foo Fighters Will ‘Go Away for a While’ After 2027 Tour – iHeart Radio",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOWF9qV2pHMjVHSmdrY2VJaVRWYzFpUVgtWmQxSnBCVVc3MlJDVEw2eGI4X2pXYllLd0MtQWZqMEpDdzFZTmZoYjc2cTlob05PLWlCcVFVTWFxVXpvRzVESnBQeC1KaERVX2x5dWNEb3RVWlRyc08zNDZjcm5ORmgxOXVYTTlqZEJnMDNvR2hjQVpFNDZHSE9BZkkyTnRRX01TekRJbXp0OHF5N2hocFBKVA?oc=5",
+      "src": "iHeartRadio Canada",
+      "domain": "iheartradio.ca",
+      "time": "2 hr ago",
+      "cat": "Rock",
+      "hot": true,
+      "ts": 1795528280,
+      "tier": 3,
+      "n": 2,
+      "also": [
+        "89 A Rádio Rock"
+      ]
+    },
+    {
+      "title": "Dave Grohl Says Foo Fighters Plan to ‘Go Away For a While’ After Finishing Current Tour",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPLWlmWEwxaHVjNDNMaERZelk4Yy1RMkdvb3BOYjJLTE1rYU5vQVRpc25FaEdMVTNadXNqRmJzaWh2SWlCTVpqRVdnRDkta2FxaDUwdEdvNkxVRVBmQ2hNTUI1eTVXUERILUNRdjN3eElCVDB3bW1MT2xMU1V3aTZXZF9NdUJkMDlDbFNTd0xIQl9xaWQweWdOUXJMQUJLanB5cHZESm1KYm83T25PQ1E?oc=5",
+      "src": "Billboard",
+      "domain": "billboard.com",
+      "time": "2 hr ago",
+      "cat": "Rock",
+      "hot": true,
+      "ts": 1795528104,
+      "tier": 1,
+      "n": 8,
+      "also": [
+        "VICE",
+        "105.9 The X",
+        "The Independent",
+        "Consequence of Sound",
+        "Ultimate Guitar"
+      ]
+    },
+    {
+      "title": "Metallica Rehearsed Until 4 AM for Las Vegas Sphere Residency",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQZlRBZTZpOXVLeXRLVGg1VVlPVVZnTDdFRU83Qm9TQkZLRUt0dl9NZ0RMTmRVSWpvc2lleXBGZzJOUDUybXZpQ01zRGZzRFFFRW1uV3NCWTBUSnhNYjNTVWhhaDhtRXBWTk1nekxDSXRESW1ZUkdwSGh4Sy0weWlMb0k3cXM0bHNYR1ItRWt6WWdCOG9ZM2hVUG9zajNBUjgz?oc=5",
+      "src": "X-Rock 103.9",
+      "domain": "xrock1039.com",
+      "time": "3 hr ago",
+      "cat": "Las Vegas",
+      "hot": true,
+      "ts": 1795524975,
+      "tier": 3,
+      "n": 3,
+      "also": [
+        "theriffreport.co.uk",
+        "Metalhead Zone"
+      ]
+    },
+    {
+      "title": "IU to Kick Off World Tour in Bangkok with Historic Tokyo Dome Concerts",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNSnFBM3dYVUZaOUxKUWNURlBQTVNONXRDNzZOallEM0sxWU1GWlJHVEc2d3oyRjJ6ZGZDMEl4MXFtSGVRblhqWVlwNmpCcHAxa1VVTTU3cWJ5eERfc21Qa2lQMDQxQWlNZ0xWS3hIWDlsY2lfUmY5Q3QtNmlUQWNhcUFpbWxGSms0QlBHVjNDdmI3Y1BkR3NhX09ZaVhZMXhGWC1tRw?oc=5",
+      "src": "hellokpop",
+      "domain": "hellokpop.com",
+      "time": "3 hr ago",
+      "cat": "Ibiza & Global",
+      "hot": true,
+      "ts": 1795524899,
+      "tier": 3,
+      "n": 2,
+      "also": [
+        "en.koreaportal.com"
+      ]
+    },
+    {
+      "title": "CHINA-JIANGXI-YUDU-FASHION SHOW (CN)",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNTV9XRU5jaHpOUlkxcG40YlRsWHZ3VFZRcW9tYmFvV3RabUhxcGJReGlCYTByYm5DcVhGRk0yVXJJcDhINmRTUmI1TmhhZTgzZHE0TVpSV0RXbC1xTW9UUVVaQ3huS1hnSkM0dFNDUlRLanlYVXA1ZW82Nl9lNVlVU2VUMWVCbFU?oc=5",
+      "src": "Big News Network.com",
+      "domain": "bignewsnetwork.com",
+      "time": "4 hr ago",
+      "cat": "Fashion & Swim",
+      "hot": true,
+      "ts": 1795523340,
+      "tier": 3,
+      "n": 2,
+      "also": [
+        "Xinhua"
+      ]
+    },
+    {
+      "title": "The Prodigy, Black Eyed Peas lead Victorious Festival 2027 lineup",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE41Z1ozS1BwZVZmMjhZRjAtVjY2VUJna180LVl5amx5anBwMHJwT1h6VklpVjZzVmhDbEo4TElJbjhZT3R5N09qYTdxQnlMeExlbXlZ?oc=5",
+      "src": "شبكة تواصل الإخبارية",
+      "domain": "twaslnews1.twaslnews.com",
+      "time": "4 hr ago",
+      "cat": "Tickets & Lineups",
+      "hot": true,
+      "ts": 1795521947,
+      "tier": 3,
+      "n": 5,
+      "also": [
+        "SSBCrack",
+        "London Evening Standard",
+        "Brighton and Hove News",
+        "Express and Star"
+      ]
+    },
+    {
+      "title": "Hyderabad Hosts 54th Pandit Jasraj Music Festival From November 24 to 30, 2026",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPTlRQa002eFY1N1ctTVFjeXNDVjlCLS1UV1FySExsQ0txQmZYZ0ZmRmx2SjNFdUZ6d0U0NGJJN1RFcXdXbGVkUzFUU21UcVhFcklPVjQxOVZYenV1X1NUNmFTaGJpbVJaZldLM2pDNzJuY1FnblJ2bFc3ZndpazZwTHBIZTFhM2lIU0tERQ?oc=5",
+      "src": "IndianEagle",
+      "domain": "indianeagle.com",
+      "time": "5 hr ago",
+      "cat": "Festivals",
+      "hot": true,
+      "ts": 1795518533,
+      "tier": 3,
+      "n": 2,
+      "also": [
+        "Hyderabad Mail"
+      ]
+    },
+    {
+      "title": "Paradise Lost announce The Final Ascension 40th anniversary tour",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNbjVIM2N2bENobDdYWTBnNmdOeGw4QVdSQ2Y0UEhUMy1TdjhKTV9xbFFLR2s4TTRxUHZBWEUyTXZOSVU5SzVjb0p6TmhySkVyQ2NoRlgtT0ZmNE5scTkySW9kWGRkc3p5bE1Ob1VXd0VIRFhKdUV4YW5sWTNFcThwaGNNcHRwUTYweGdpQXFUOGRJQQ?oc=5",
+      "src": "Kerrang!",
+      "domain": "kerrang.com",
+      "time": "5 hr ago",
+      "cat": "Retro & Culture",
+      "hot": true,
+      "ts": 1795518352,
+      "tier": 1,
+      "n": 7,
+      "also": [
+        "Metal Insider",
+        "Lambgoat",
+        "Myglobalmind",
+        "BLABBERMOUTH.NET",
+        "Metal Underground.com"
+      ]
+    },
+    {
+      "title": "Antigua Turns Down Royal Caribbean’s Private Beach Club to Protect Public Beach Access",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTE5QVnFYZTFYSTNYMk52a1B2bkE1ZkhxTFVSSFRjdDJ0dHFTaVpIdDFhdkhLQzFZVjdKZGdBWG94ZC1IQ2RNcm9aWkRCV21aemhkc1BIZkxBVVhNbzVvdnFGWEJ6VVVvNVpfaDQwM0hrSEpmMzIyZldoN2RSNHZhN3RPZm84bU9QVGZ2aGJlNnJXbGY0MjV2ZjUwcEFMMnA2Tms3bVZzTmdSdw?oc=5",
+      "src": "Crew Center",
+      "domain": "crew-center.com",
+      "time": "5 hr ago",
+      "cat": "Nightlife & Clubs",
+      "hot": true,
+      "ts": 1795518089,
+      "tier": 3,
+      "n": 2,
+      "also": [
+        "Cruise Hive"
+      ]
+    },
+    {
+      "title": "Forbidden Fruit announces 2027 headliners to mark 15th anniversary",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxONkM3Si1Ccl9mS2pyQmdMVHdJV216Yy1pa1FULWhvQjBuMGZEV2tZS051ZTFzM1BIZDk4blRkVEN5MjRsQ0h4YXN6ckxoZVN1cTN1djh6Y09TQXRMZmgyakRLNWpmc1hyc19STDhGN1hFSUV2cFJrOTVQUTd2dWhtdnlEUDNBTmVfV1FURW5NLWdzamNUVUVSbQ?oc=5",
+      "src": "RTE.ie",
+      "domain": "rte.ie",
+      "time": "5 hr ago",
+      "cat": "Retro & Culture",
+      "hot": true,
+      "ts": 1795517325,
+      "tier": 3,
+      "n": 3,
+      "also": [
+        "Irish Mirror",
+        "Ireland's Classic Hits Radio"
+      ]
+    },
+    {
+      "title": "FALL OUT BOY ANNOUNCES 2027 TWILIGHT OF THE PUNKS UK HEADLINE TOUR",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxORVF6cjZfSUNfNFhPRWZFWUZSMXN0RjFTSE5uVERoaTVjcS1zcXpKTU0tY3RQc2ttSnN3dF9xLUVwN2RzSFlLRzFiYmw0YmRDdlVTQnNDVjFoVzdtb0N5WFZERGpSLUtDMFZJdW9nZnFJNk5QWW92RlI0bTEtZ0FvVnVYYXR5bS1od0NHUjZWZVNqbV91bGl6ZUw0dElhTFVuN0hBeVhydw?oc=5",
+      "src": "Metal Planet Music",
+      "domain": "metalplanetmusic.com",
+      "time": "6 hr ago",
+      "cat": "Pop & Tours",
+      "hot": true,
+      "ts": 1795517217,
+      "tier": 3,
+      "n": 2,
+      "also": [
+        "The Hype Magazine"
+      ]
+    },
+    {
+      "title": "Jamie T, Biffy Clyro For Truck Festival 2027",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQdTFJSW5UNjlrNjVtVHEzdlN5dVUxMnR0N1hHUjMxeXcwMmIxVFo2UTZXNTBTV0NTa2tvdVo1ZlVJT09DazhMeWVHd2d3RE8zeUdlRnZieVROdUNhT1V0cDUxX0ZIa0dSa1YxNHRjczJfNzduM2s0Tzd1VEVhVTRqR2JR?oc=5",
+      "src": "Clash Magazine",
+      "domain": "clashmusic.com",
+      "time": "6 hr ago",
+      "cat": "Festivals",
+      "hot": true,
+      "ts": 1795517084,
+      "tier": 2,
+      "n": 7,
+      "also": [
+        "Babystep Magazine",
+        "Live4ever Media",
+        "All Music Magazine UK",
+        "SSBCrack",
+        "The Line of Best Fit"
+      ]
+    },
+    {
+      "title": "Burning Man CEO Marian Goodell To Step Down",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNd3YtUS13NUFVUlVPdUMxQWpfQTByaWJOcWhNYzJPdEVpNlFBc1ZiT09MaVZQQVFleFdBY2QtaXpjVlBYdzl5Z2FGNHhZVEpBNG44R0dFdW4ySXVsNS1wYjR6aHU0ODFBajlQYlNJLTV4ZVFjcXROLVRIWVpBNGY1cG1GVlZIMXFrNzh1LWJrV1U?oc=5",
+      "src": "KLVI AM 560",
+      "domain": "klvi.iheart.com",
+      "time": "7 hr ago",
+      "cat": "Festivals",
+      "hot": true,
+      "ts": 1795512840,
+      "tier": 3,
+      "n": 2,
+      "also": [
+        "Reno Gazette Journal"
+      ]
+    },
+    {
+      "title": "Hear Power Trip's 'GTA VI' Soundtrack Single \"Mutual Death Warrant\"",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNM2NoY0dydzFIUTUzQXljYzRrSGdPSGY1OFkxRjFrS3l2UldUQkRORFNPX0dEalB1MUtKZGRqdS1ONWQ5Nk4yRkRDeW5BQXN4Z1RsZFBkdDMxUXM4VGlKZXFtendNdUphTktraUg2N1lkcGNncG9HS1FndlVmdlFEWGpUZ0RSdEduU25ZQw?oc=5",
+      "src": "Metal Injection",
+      "domain": "metalinjection.net",
+      "time": "7 hr ago",
+      "cat": "Pop & Tours",
+      "hot": true,
+      "ts": 1795510845,
+      "tier": 2,
+      "n": 6,
+      "also": [
+        "The Rock Revival",
+        "Theprp.com",
+        "Revolver Magazine",
+        "Rock Sound",
+        "BLABBERMOUTH.NET"
+      ]
+    },
+    {
+      "title": "NEWS: LARGE MIRAGE add dates to the Watching tour - -",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNZ1U2elN1T3E2SU9NTnNRMmhzbEVRU1NSYS1FUERIQnhKLW1YWGVFaDRMX2Q5ZjVFZG9ZQWNFWWc5d2Y3NXJuT2lCd0E2NGpRZVlnRUVDODR2UFA2LWZRM2pwZldwaEp6NlNDWmYwTkd6VERrbUg2MEJLTjhMTkZCc1FiT0xjTVdXd2RyOGoxTGs?oc=5",
+      "src": "- The Live Wire Music Media",
+      "domain": "thelivewire.com.au",
+      "time": "8 hr ago",
+      "cat": "Pop & Tours",
+      "hot": true,
+      "ts": 1795508113,
+      "tier": 3,
+      "n": 2,
+      "also": [
+        "Backseat Mafia"
+      ]
+    },
+    {
+      "title": "Amid Surge in Global Participation, Laska Fashion Mahotsav Sets Late February 2027 Mumbai Debut: ‘World’s First Human Expo’ to Headline",
+      "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPM21PdURCbmFNTDJvekktZHluRGdBSVk1N2ExcjBXVHFCd2wxUXJCZThPQUN3MkQwZ2FVUmlvT0R1QjljeHBXczhBU1BoZmowTUwwNWhzM2pBUVprbmwwcEZScERwY1ZpNElCYVZKbHJkbkZGUXoxSWNVbWEwSXA3WHVnUDJ0WVZXQ1o3WXZRNkh5bjl0T1dIQU9CMW1Oc1ZfZ09FMzdDZ2dLR3oxaGwtQ1lDckNYUnoyblBqMmdkRFVyNG5YR1FwVG56WEFjM204SS1EeU0xWk15cm5rQ0llRWtYSnF5LTRSTlJTdGVOcmJPNkYtZWQ3ak54eXVDZktN?oc=5",
+      "src": "The Eastern Herald",
+      "domain": "easternherald.com",
+      "time": "9 hr ago",
+      "cat": "Fashion & Swim",
+      "hot": true,
+      "ts": 1795503978,
+      "tier": 3,
+      "n": 2,
+      "also": [
+        "The Tribune"
+      ]
+    },
+    {
+      "title": "Sound Check Vol. 3: Cyber Monday Edition",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxObjVjdzJFUl9odWE3U2d0bU0yWDZnZkdieEoyMHplYWxhQ0dTVmJqd3VhaUR1eWdaaEZOc1Y2bW8taE5ZbkkxMUtVT0ZuOFJkX3JkX1N3UFdaSFM3WE9zS2NYTE9YVFRwenZtUWpvYXdBeTRyakVoRlhPUkc5RFM5N3NNRUZ4S281aDh6bVYzTXV1UXVSMUtwNWJGTWdDeUo3aXdEdGZGaWxEZHN3R1hNVEpYM2RSQQ?oc=5",
+      "src": "Mixmag Asia",
+      "domain": "mixmag.asia",
+      "time": "9 hr ago",
+      "cat": "Ibiza & Global",
+      "hot": false,
+      "ts": 1795503035,
+      "tier": 1,
+      "n": 1,
+      "also": []
+    },
+    {
+      "title": "The Avalanches headline New Year’s Eve at Desa Potato Head",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOZjMtcEk1STRmVmdWaHBRS0NZcXA4RGx1eDdQMXhWV1Brenk3TDZEY2pxZTYtVVBiLVVlalhPUDZVM3dwR0k2ckU5TDlGcVFlTExKOURqd01zWDh4RklCT0FCTVNtTV9jVzdHcVJYMm9vVXlmMjl0elRzMHBKYmxXbE9B?oc=5",
+      "src": "Mixmag Asia",
+      "domain": "mixmag.asia",
+      "time": "9 hr ago",
+      "cat": "Ibiza & Global",
+      "hot": false,
+      "ts": 1795503035,
+      "tier": 1,
+      "n": 1,
+      "also": []
+    },
+    {
+      "title": "IU Announces 2027 World Tour: Check Dates and Cities as Singer Makes Tokyo Dome History [Details Inside]",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQa0N1QkRNY3J1QTZZRnA5bm5jMkhCOEtYZjhGTnFjUFlrODlFZlRXcDZySncxaGxyc2dhemVWNXBPVHEyZWVTcE54bzdWOXY4WUhaZzR6eWhuWlNUd1g2NHhoV1BmcEt5aHNCT0xSY0NmdWNGWks0bXRrU0hpUUpBTEF2bnE1bGV3U2d6bHhaYlFLNl91NXA3WWhMbFZ3R2hCVnJIX0wwY2E5RzZueTJjQkkyMTVEVEFFN1Z1RFNFaS0?oc=5",
+      "src": "International Business Times, Singapore Edition",
+      "domain": "ibtimes.sg",
+      "time": "10 hr ago",
+      "cat": "Ibiza & Global",
+      "hot": true,
+      "ts": 1795501756,
+      "tier": 3,
+      "n": 4,
+      "also": [
+        "OtakuKart",
+        "InMusic Blog",
+        "씨네플레이"
+      ]
+    },
+    {
+      "title": "Mix Of The Day: Delano Smith · News ⟋ RA",
+      "link": "https://news.google.com/rss/articles/CBMiPEFVX3lxTE5ETnV0SlhDYzlEbndqOEFxdm5yZVlIR3lnOFZpeWxLVy1vMGp1TmhYTHVjdDYwOVdZZTMzSQ?oc=5",
+      "src": "Resident Advisor",
+      "domain": "ra.co",
+      "time": "10 hr ago",
+      "cat": "Techno & House",
+      "hot": false,
+      "ts": 1795500156,
+      "tier": 1,
+      "n": 1,
+      "also": []
+    },
+    {
+      "title": "Carl Cox and Eric Powell are taking Mobile Disco to Live at the Gardens",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQRjlYU1ZfOWx6RVc3dFNZU2JtUkhleDBkUkJwMzdJTnkyVUFic3MzYXZ1WHNnakN3aDBjZFRQUzh2Sk5hUFd1OXZ3WDAyd19ZWU82cXFMZkJRNXBuRjUwRnRuRFp1enllMVB5TGY0a0NOQkpmaG9FazVzTlpmWUV3M25QMExHTnUzOXJZZVZfSG5qa3lmbVA4?oc=5",
+      "src": "Beat Magazine",
+      "domain": "beat.com.au",
+      "time": "11 hr ago",
+      "cat": "Techno & House",
+      "hot": true,
+      "ts": 1795498778,
+      "tier": 3,
+      "n": 2,
+      "also": [
+        "Noise11"
+      ]
+    },
+    {
+      "title": "Metallica end Sphere Residency with $200K Charity Donations",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNSFhibjY5Xy1CNHdZT2FQTjQ3eVZXZTRNam0tZkZ5a1ctRVl3dExyM0U1ZFBsNWdwRU9JX1pkWVZQM1JEbjk2eDNXQm0tQmZ3bWVROG1QTFNGT2h1WVV6WGx0T1VYT3Q3WVZrbDVSSlJobFdmUmZLMER0aHgtaWNNX3VqWVBRcHNU?oc=5",
+      "src": "Digital Music News",
+      "domain": "digitalmusicnews.com",
+      "time": "11 hr ago",
+      "cat": "Las Vegas",
+      "hot": true,
+      "ts": 1795498230,
+      "tier": 2,
+      "n": 5,
+      "also": [
+        "NewsNation",
+        "Paste Magazine",
+        "The Metalverse",
+        "Music-News.com"
+      ]
+    },
+    {
+      "title": "KATSEYE Expands Asia-Oceania Tour to 16 Shows",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5xdjZDMHZTWFpRalBEUDZvNVV4TWVVYld5VV9Mdm5abFRyRXl4cG82R2l4LThuNW9Ra0xKMEhCcjFjeTUzUmZzYWd4ODRja1BPU2hFdGQycUhoSlVpMWZaTndvT2laNEtBT0lwZUV0OTROckpGSkZWaDVnWDA?oc=5",
+      "src": "Wisevoter",
+      "domain": "wisevoter.com",
+      "time": "11 hr ago",
+      "cat": "Pop & Tours",
+      "hot": true,
+      "ts": 1795497267,
+      "tier": 3,
+      "n": 4,
+      "also": [
+        "Korea JoongAng Daily",
+        "The Korea Daily",
         "조선일보"
+      ]
+    },
+    {
+      "title": "From the Archive: Gold Party Looks for the Holiday and Beyond",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQTDBQZExneEhlYjRWZ0JPU0d0cU9BMDU1SUZNekl2QXVVVGZIQUdGM2pEajFwemFUUm9jQlJUdHN1S1Q1WHVERUZBWEcwMlF0Q05nWkRzUmp5VGh0RnRPclptTUJpS240bFRSZ0ltLXUydFRtRjU5dGU2b1ktdDRsTm1MUXdxdVUyS0lTQnczUEIzcHFwWG1ENldZV1kya2xUWEVnUmFIUHF6cnh2MEJkdVQ3WQ?oc=5",
+      "src": "WWD",
+      "domain": "wwd.com",
+      "time": "11 hr ago",
+      "cat": "Nightlife & Clubs",
+      "hot": false,
+      "ts": 1795496773,
+      "tier": 1,
+      "n": 1,
+      "also": []
+    },
+    {
+      "title": "From flares to hot pants: how stylish Cumbrians flew the flag for fashion",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNZkdxOHI3N1VDRGZyUFdDaTVjbW1MRi0ySDZ5VVJEU05jMWVXa3BYeThMc3hMSDZIMHR1WjRLXzhjTlkyMWtFYWU3cGRDc2VLajBCck5nNlpFdXZLVWRlRHJhOVdjZDA0V3o3SElyanBNcm1SUExnRko5ZVBpQ2tDT0ZoTzJJQQ?oc=5",
+      "src": "News & Star",
+      "domain": "newsandstar.co.uk",
+      "time": "11 hr ago",
+      "cat": "Fashion & Swim",
+      "hot": true,
+      "ts": 1795496400,
+      "tier": 3,
+      "n": 2,
+      "also": [
+        "Yahoo News UK"
+      ]
+    },
+    {
+      "title": "AV - The Voice Of My Soul 454 2026-11-23",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQd0NzTU1yVGYxWEVxVmVaQTZ3ZFBvcl9EemFwU19aSUU2alhSMlNydTRYZWRvWFJXX3hINXVhTHB2Wm5sWWs4U2JKam45MlI1emM0SWVnRWhKZHJMdmlrX0hHSGR4b1pqNWJnclZzT1lUYzgxYmczeHgwTDBNeFNEcUZmam5YR3dMOFl2Nk1WY2JhWTRFWHdFcQ?oc=5",
+      "src": "1001Tracklists",
+      "domain": "1001tracklists.com",
+      "time": "12 hr ago",
+      "cat": "EDM & Dance",
+      "hot": false,
+      "ts": 1795493406,
+      "tier": 2,
+      "n": 1,
+      "also": []
+    },
+    {
+      "title": "Ebon Light - Travel Of Universe 212 2026-11-23",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOSG0wd1B2NS0tS1oyNHVUa1VkbF9wSC1sdDdJMUt1SjA3RldHWnRub0hmQ2stYjk2NjFCdnlVbFk0aFEyejBoMl9hdnVmMGgtbEc3UjZHYXNKQk1NNkpYMXlGck9QVWotbl9YLVUtai12ZWROOWVBVnNMc3FZcEQ3NW5BSXk5QndTWEdrc1VlZExoYW5obXF5NV9ySHlnbmlB?oc=5",
+      "src": "1001Tracklists",
+      "domain": "1001tracklists.com",
+      "time": "12 hr ago",
+      "cat": "EDM & Dance",
+      "hot": false,
+      "ts": 1795493304,
+      "tier": 2,
+      "n": 1,
+      "also": []
+    },
+    {
+      "title": "Tim McGraw to headline inaugural River State Music Festival",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQclJ3bmJSLTRKUG9hcmVhTE9KRGZxZ2xEOF8tQnpEV3FVMVFrOXpOYlVjWmRfX1NDdjVmaGZRa19lNlZ0OTBGVjNDMGdhMVdnTWc2VUVDaDV6Q1NvSjVESW1CeEl1LU5aZ2dyU2xLeW84NFQyWUQxcU5uMjV3VzRlTEJsR2FweFZ4MHY1RndlSDNWNzA0dmppbVJFSE5iVUlyZl9vY2NyUXJIY3M?oc=5",
+      "src": "The University Star",
+      "domain": "universitystar.com",
+      "time": "12 hr ago",
+      "cat": "Festivals",
+      "hot": true,
+      "ts": 1795492920,
+      "tier": 3,
+      "n": 3,
+      "also": [
+        "CultureMap Austin",
+        "Yahoo"
+      ]
+    },
+    {
+      "title": "Daily Newcomer Charts 2026-11-24 ⋅ The Best Of The Newest Songs",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNWVFDMHJMbktlTHd5WlhTVFctTkkyU0pSdDJ1ZzFfME40QjVyTVc3c0pnQXRhbWoteEEyTnJUNjQyM2lwQXFsMVdFOVZhdEU5U0xSbm0xTDM2T01TVFg0RFhwRHJRMUxORkg5UTFTbld1S2w1eXFfRGJHQVlOdHNFUg?oc=5",
+      "src": "1001Tracklists",
+      "domain": "1001tracklists.com",
+      "time": "13 hr ago",
+      "cat": "EDM & Dance",
+      "hot": false,
+      "ts": 1795491610,
+      "tier": 2,
+      "n": 1,
+      "also": []
+    },
+    {
+      "title": "Every Track From ‘Grand Theft Auto VI: The Album’ Ranked — Now Including the Deluxe Bonus Tracks",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPU0dMOEFXTlZ3czBHUlFocmNtMXZaaGVEX0dUa09YTFp0YUF4RHFnb1E4Zm0yX0l2OW1jZE03SVJZY2RaTUJOVkhDa2hQTk9PdWFEZmtUaEwxTGpfVnU0b3JjMURRbXFCWndTbzk2UlFMUURHNzRheWR3T25WZjBoRw?oc=5",
+      "src": "Billboard",
+      "domain": "billboard.com",
+      "time": "13 hr ago",
+      "cat": "Pop & Tours",
+      "hot": true,
+      "ts": 1795491532,
+      "tier": 1,
+      "n": 5,
+      "also": [
+        "The Fader",
+        "Consequence of Sound",
+        "HotNewHipHop",
+        "Revolt TV"
+      ]
+    },
+    {
+      "title": "Don Toliver announces new album ‘NITROUS’",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPdmJOa25TYUYzQ2duTW5XNjVQRkJDbGhZNF9qV08yeTNGbDJJMWV6dXpxY2RLODc1U0NpUURFbWgxNFE4eHlzbmhITl9pdm5kOHM0Nmd5Z0RCRDFGOEhTR256bXE0Vjh1a3kxeDg4MFBsTkJFTU0zbkFNdllzLWNNY01yVm15eHZqTUNuNjRn?oc=5",
+      "src": "MELODIC Magazine",
+      "domain": "melodicmag.com",
+      "time": "13 hr ago",
+      "cat": "Hip-Hop",
+      "hot": true,
+      "ts": 1795491511,
+      "tier": 3,
+      "n": 2,
+      "also": [
+        "The Concert Chronicles"
+      ]
+    },
+    {
+      "title": "Christopher Lloyd, 88, Gives Glimpse at Romance With Wife Lisa Lloyd, 56, on 10th Anniversary",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNRjFkZkpEZHA5Njh1Z0haQjRSLTN6M2tXc3hjaVVYUEpIeW1HZW1WdlpqYXg5Rkk0cDRsUEpCU3IwVWd3LUhSalYza1c5bjdyNWw5RGRkWUhXYmEwdzduUlBhZ2NvbTZIa1UyNHF1MDN4NmNiT3BvWGJBd1RJMjFnRHFMQ0xQN215dWxyOVdIa2RNZG56VDh0N3RmNFV5QUhVMGh0Qk9fQy0?oc=5",
+      "src": "E! News",
+      "domain": "eonline.com",
+      "time": "13 hr ago",
+      "cat": "Retro & Culture",
+      "hot": true,
+      "ts": 1795491420,
+      "tier": 3,
+      "n": 2,
+      "also": [
+        "People.com"
+      ]
+    },
+    {
+      "title": "Don Toliver Concert Evacuated After ‘Substance Believed to Be Tear Gas’ Was Released into Arena Crowd",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNS1QyM3NSVE5GUkRxNFBQUkU4ckFkNHhuZzJDeXZGdTRncC1MYndDTkIzaVNtdlVic0hwZDRnSE5uWlI4VEZ2SVhwSWpPenJMNWdwcF8xVGRMS2NlVnVnMVpyODVqN0ZWNzNybnVzWExzR0JsQWpjT2Q1WERib04tVDVwOWxPVldXQWRmeTdDTXRlcmhKZDh2bTViWmlGT3lKd2c?oc=5",
+      "src": "People.com",
+      "domain": "people.com",
+      "time": "14 hr ago",
+      "cat": "Hip-Hop",
+      "hot": true,
+      "ts": 1795486229,
+      "tier": 3,
+      "n": 2,
+      "also": [
+        "USA Today"
       ]
     },
     {
@@ -99,7 +1350,7 @@
       "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPMDNDR3ZnbnV4ak1KMkxuS1ppR1VsTTlFaXMtdnNTUWlobnNBWk9uSGtUc0RsYk1jcVdYeW80dVd3NE4yZnhqU3N2R2s2bmVhZ0hEejB4aDVzY2FJOGs3bkdyNFBucmt5UGZlMk5fZUd4Ti1iY2tLOU8zdDl4YjNfREdjWUh4SkVIRzZtVDhn?oc=5",
       "src": "Billboard",
       "domain": "billboard.com",
-      "time": "1 hr ago",
+      "time": "14 hr ago",
       "cat": "Pop & Tours",
       "hot": true,
       "ts": 1795485600,
@@ -110,39 +1361,11 @@
       ]
     },
     {
-      "title": "AND2BLE Unveils Winter-Themed Posters Ahead of Sold-Out Seoul Concert",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOSW1nT0JNSzNIMlhxMHdjR0UtT3JBNHhFc0RpSnF6aXJ2bGhNWHJsRnBrMlBsTG5Xclp1Ti12WV9SM3RHMFpVcWlFS183eFZ2LWRMeXFRbXE4NjRVek80bVZiM3NPNlRSeXJKMk9kTDdRODRGbzZsLWdVbUs1VWRVS01sb2hjSnVsMzFFMGNn?oc=5",
-      "src": "조선일보",
-      "domain": "chosun.com",
-      "time": "1 hr ago",
-      "cat": "Ibiza & Global",
-      "hot": false,
-      "ts": 1795484980,
-      "tier": 3,
-      "n": 1,
-      "also": []
-    },
-    {
-      "title": "Metallica Announces 12-Show North American Stadium Tour for 2027",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNWmswQVUtemxGLXJuV25YbXB3c1pDdm93Nk5XX0JVRVN2LWFuN0EwQ01CRC1Rc1g4UHFTUGRKaTBrUC1ZSnB0ZFN6M3VEUmlDaDF3RW9FY2pudDNienBNRnJIa0sxUEhNcjJLcWtQWXpqV2NnakhwRFhvUFdaS054ME5DVnpvcDJWb2dsZExvTG9FTzVIVmR6MENLcWc5WGNKVHc?oc=5",
-      "src": "TicketNews",
-      "domain": "ticketnews.com",
-      "time": "1 hr ago",
-      "cat": "Rock",
-      "hot": true,
-      "ts": 1795484430,
-      "tier": 2,
-      "n": 2,
-      "also": [
-        "Rockum"
-      ]
-    },
-    {
       "title": "HEAVEN SHALL BURN and CALIBAN announce Metal To The Core European mini-tour",
       "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNMHNERUxtZF9NR1Z4QnZSSUpOZEhNVFA1Tml1cGVSX2V1cWJaaEVtUGtob0xvTTItMVh2ajBaN29Idmp6a3Ztc2hYM2ZKYjFMdHJhSnZTc2Z6OWVXd184Rmc1Y2ZHNnlNSTQzVzRxN3V5dHlUWTM2QzBWdHphYng1SDBDZ21oUFp1RXFrZFFhcElkQnBGNkg3eFVYbC01dTVSUGJkOVQ3SGVVTlp3?oc=5",
       "src": "Lambgoat",
       "domain": "lambgoat.com",
-      "time": "2 hr ago",
+      "time": "15 hr ago",
       "cat": "Rock",
       "hot": true,
       "ts": 1795482600,
@@ -157,7 +1380,7 @@
       "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOYW93OEFtS0ZTanBteHpqdUtKUElBSi11Y1gtNm4yaVZWcFdNVENCWTJTdWNsdks4cTU4T19meGpKUFFkVTlOWDlycDZjX1M2M3pXYzRPZWJISlpYY3ZZWFZ4MWtmRW54MXRYeFI2bGdBbnQ2alVvZTV4ekRCWjBYTncySGZKWUdqNnkxVXZ1X3JoRjBvek1tbHE5NUlWNk5pTExlc1F4TDhxS1NZQ1Rv?oc=5",
       "src": "Around Prague",
       "domain": "aroundprague.cz",
-      "time": "2 hr ago",
+      "time": "15 hr ago",
       "cat": "Pop & Tours",
       "hot": true,
       "ts": 1795482518,
@@ -170,27 +1393,11 @@
       ]
     },
     {
-      "title": "Ariana Grande Teases Eternal Sunshine Tour Concert Film: ‘Coming Soon’",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPTkdlYndfeUt2WUlzWFVENnNfVjQzXzBYdWEtV080SWNYenFvQWkzaEFheTlkd2xtZHJLclp2MlNGanQ1SzBqalJXUzBlMmZ3VmFJQnNhUjRXb0t4Q2xnTl9ydTIzbFgzenMzZ2hLOGlzMHRBR2FZV1FEWUl6WV81VEUwZkRKdEtlZTdIdWhTRzNaMG9jVnptU0VHbEdzSXlkajNUWUtBX2FPTUFXR0FPMzgzNHVtUQ?oc=5",
-      "src": "Billboard",
-      "domain": "billboard.com",
-      "time": "2 hr ago",
-      "cat": "Pop & Tours",
-      "hot": true,
-      "ts": 1795481892,
-      "tier": 1,
-      "n": 3,
-      "also": [
-        "ELLE",
-        "Variety"
-      ]
-    },
-    {
       "title": "BLACK SPIKES premiere “MARA” music video",
       "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE82RUo1WDVoYWZEUVNQUzRIM21RaHYtdjRhdkVodEV0MzVfWV9lV3A0Q0xVT0RQcDZfdkRRMDl2MDZ2UlljYUpUeEFocVN3TVFNMkhlbEdRaDNSWjczRW9ydEVzbkhLdExSNE84MDZRMWgweUUxWEVHMWE5UQ?oc=5",
       "src": "Lambgoat",
       "domain": "lambgoat.com",
-      "time": "2 hr ago",
+      "time": "15 hr ago",
       "cat": "Retro & Culture",
       "hot": true,
       "ts": 1795481580,
@@ -201,70 +1408,33 @@
       ]
     },
     {
-      "title": "Chris Liberator: \"I Play Each Gig Now as If It Might Be My Last\"",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQRGdDbU5PNmNWenZ5NktMM2pBenRld3NIS1NMT1FIZkxaNmRUdEx4U0hzOGo2WERkZW03V01tSjFZNVo0RWk1Y005V0ZoMF9mVEdZbzZmY2liNUdoM2FaVHdUcHJmallQRktjTk01TlZOLVBtMHRjcWlvc1lsQTFTdndoSUp4ZTdMOUVxag?oc=5",
-      "src": "RAVE.cz",
-      "domain": "rave.cz",
-      "time": "3 hr ago",
-      "cat": "Techno & House",
-      "hot": false,
-      "ts": 1795480643,
-      "tier": 3,
-      "n": 1,
-      "also": []
-    },
-    {
-      "title": "Humans Out Loud - Being Humans 2026-11-23",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQYW42dmVORzJvVndHdlJ0S2NKXzVydFFuYVpDeDR6WDk5T01XdEs5N2dPZW84MVpXRjZKbE1nb0ZkRlprZ09OZ2MwLTRXbGlTaUJCYUg5VG9ETG81aldiRHByck1uSFdtemdwLTR3NmpUcDVRY0lQZlY3NmVtX1VVU19DNVo0OUdybmRUbk11NUM0LUx4VlQ3ZWx3?oc=5",
-      "src": "1001Tracklists",
-      "domain": "1001tracklists.com",
-      "time": "3 hr ago",
-      "cat": "EDM & Dance",
-      "hot": false,
-      "ts": 1795479564,
-      "tier": 2,
-      "n": 1,
-      "also": []
-    },
-    {
-      "title": "Hernan Serrao - Groovenight 2026-11-23",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQcDNpRVF0dzlraEJQNE9NNkNqM1dUNENSZmc2UTk4emJCMlFZbWI2MjRVT2NYbS1NZ1hQUlFObnlWTEFSZ0ctSElxVHUtTW1hNDdlV1hiR21vQ1BMcUpjdUN3Vmhnak9Ga2QzWldnLVRoNWlOb0pkQzNQWUkwSFBQZFlWd21DVlEwOGY3YlBEeWJlNV9pcXc?oc=5",
-      "src": "1001Tracklists",
-      "domain": "1001tracklists.com",
-      "time": "3 hr ago",
-      "cat": "EDM & Dance",
-      "hot": false,
-      "ts": 1795479472,
-      "tier": 2,
-      "n": 1,
-      "also": []
-    },
-    {
-      "title": "120 BPM at TBA, Canary Islands ⟋ RA",
-      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFBwMWZFQS0td0JKbHE0Xy1aYW9WREloeGxFdWhacWZuOW1iT1VBYnJJRG9STy1vU3FGS3NJdW1pcWh4Zw?oc=5",
-      "src": "Resident Advisor",
-      "domain": "ra.co",
-      "time": "3 hr ago",
-      "cat": "Techno & House",
-      "hot": false,
-      "ts": 1795477964,
-      "tier": 1,
-      "n": 1,
-      "also": []
-    },
-    {
-      "title": "Tim McGraw to headline new country festival at Texas State University",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNdy1KYllxeWdFT3BLYThJZ2VTaEVvd0RQN3U3Rmhib1NfeWFSR2dXWl9mZnlnbTU3My1ZMmJ5aDA0LXdNYkxBdkJ3WGlqVHZCMmtUX1E0djlOazZPbWw2UDN0aXdxYm0xelY1YTRpTmZGTEh2Tkd0MkdaeWlQWG1RRGRoMnFnZ1U?oc=5",
-      "src": "AOL.com",
-      "domain": "aol.com",
-      "time": "4 hr ago",
-      "cat": "Festivals",
+      "title": "Pierre Bensusan The Infinite Guitar Tour 2026 at The Bitter End",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNUUZ6dGpMakw3aUdrNGthNEJsbUZyQzhLN1lJVVpxNVFqb3YwTkZ6R0NlaVBrdnh1QnU4eWhSVmp2cWp1TW9kcmd0bnNjXzA3RTdVZDZiM0p4ZHJkeEp1SkdZb0p6Q1VVeHp6dGtJT2U2OXRZaUQyVll4UlhFTmVIUFd4UFhWd18xUDZqQjdXeGVzWlppUVBBWXNxbS0zX3d1T0l1cERUQ2w5MjQ?oc=5",
+      "src": "Brooklyn Vegan NYC Shows",
+      "domain": "nyc-shows.brooklynvegan.com",
+      "time": "16 hr ago",
+      "cat": "Pop & Tours",
       "hot": true,
-      "ts": 1795477101,
-      "tier": 3,
+      "ts": 1795479443,
+      "tier": 2,
       "n": 2,
       "also": [
-        "Country Insider"
+        "Queens Chronicle"
+      ]
+    },
+    {
+      "title": "Is Vanity Fair’s Hit Piece on Taylor Swift Really Journalism?",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNRmRWVGg3ZU1rT3FJVjBTczVjdmU2SUxCQ0xUcXZJN2xFVHY5MDA1QWVCdmRuMTdldUNtY05lNVhCYk1SakRSMGNseDBOXzhHR3ozM3d3Q2tiYm1Mc09ISzdwdEVxWi1aZGtpbnlPSDNPQXp6aC1HV3FWTEVjblIybk03ZEFUQ21XQi1nQ2dtSVBYLUlnRkhHQm50YUI?oc=5",
+      "src": "Variety",
+      "domain": "variety.com",
+      "time": "16 hr ago",
+      "cat": "Pop & Tours",
+      "hot": true,
+      "ts": 1795479120,
+      "tier": 1,
+      "n": 2,
+      "also": [
+        "Socialite Life"
       ]
     },
     {
@@ -272,7 +1442,7 @@
       "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9PdGZXeEZuV19vUndqd2tEbWtrRkViTXhweDNUdTUtNldaZ0Q0Zk9UalZkbDJraURRckhZU3JGdjdmSHdfc0JZV3EtZE0tblo0UmlyTXNGXzRlcUFKTHpJX1Nn?oc=5",
       "src": "LiveWire Music",
       "domain": "livewiremusic.org",
-      "time": "4 hr ago",
+      "time": "17 hr ago",
       "cat": "Pop & Tours",
       "hot": true,
       "ts": 1795476664,
@@ -283,11 +1453,26 @@
       ]
     },
     {
+      "title": "A Night of Love Gala in Miami Delivers a Sold Out Room",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQVUdncjJZY0ZuZTQ1Y29KNEsxS2RldGhnU0xSNE9RMEFqTXF3amlMUkw2OEtEY1NIN0s5ekVPTVBHX0hNb3pvcEE3WW45UDdseklvUGE5TGNsazhaR1BMTEdJZzJGdjhZbTZHYVBVREVpbXVIbWNUSVBEV0FNbEpzNC1FUmxFQnBlYTRqYXA2Z3NxenJvRW41T2Y4cWRpYldfSk10UzVjQQ?oc=5",
+      "src": "Detroit Free Press",
+      "domain": "freep.com",
+      "time": "17 hr ago",
+      "cat": "Tickets & Lineups",
+      "hot": true,
+      "ts": 1795476187,
+      "tier": 3,
+      "n": 2,
+      "also": [
+        "The Tennessean"
+      ]
+    },
+    {
       "title": "626 Night Market, Returns to Arcadia in 2027 with 250+ Vendors, Street Food, Culture, Music, and Nightlife",
       "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxONTE3X2JIT2Frc3ZxaXFrODFUeG13MWt0V2tfd3pwX3hJRkxJSEpaNHA5VExnMTltLTZlZzB1NVQ0cjgxQ2xXeHowVVRTT0F3Q2ZzMEhUUHUwczVObzlnVmRBbEZKaWxEaFUxV0FSVEg5bG5xX2JIXzZlYjVXUnFtQ2lTclNsbWtnSTFSM1lacHh3QmExMnA0Y3NtS1Q0MlhFZHZaZ1czc0hRRkcyZ3hNSDFzZEJVWGJtemptSERXVUNKalhmTkRmTnVXOUQyZDIyYWJmbS1RVDgySklJVzFpU0QwY0Y0NVRuUmpJUg?oc=5",
       "src": "The Detroit News",
       "domain": "detroitnews.com",
-      "time": "4 hr ago",
+      "time": "17 hr ago",
       "cat": "Retro & Culture",
       "hot": true,
       "ts": 1795476125,
@@ -298,11 +1483,26 @@
       ]
     },
     {
+      "title": "Boardmasters 2027 Reveals Its First Lineup Names",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1wNjRDbnJReFlsaDNuTTAxZzlLTzFoa1pLcUM1NjBES21USzZndkRYV29mMmRWVFgya3M3VEc3ZVRNOVh2NVhJQnlZNjY3a284SUlXemwwSzhuTTJnajVFaVdQQ2xzV09WbnNfTGhmVE0?oc=5",
+      "src": "Rave Jungle",
+      "domain": "ravejungle.com",
+      "time": "17 hr ago",
+      "cat": "Tickets & Lineups",
+      "hot": true,
+      "ts": 1795475377,
+      "tier": 2,
+      "n": 2,
+      "also": [
+        "Headliner Magazine"
+      ]
+    },
+    {
       "title": "Watch: ANTHRAX's JOEY BELLADONNA Joins KANSAS For 'Carry On Wayward Son' Performance In Waterloo, New York",
       "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPWkp1Z3hjLTk0bGdVZy1Td3ltMG9wTzFvUWhyM1gyV2RLaldTS2NWbGVvQi1HeVN2R3Q1QzFXTTFvSjg1Ull1ZE1fWjctM1JrR1o1bFc1SFo3bmRYdUI0TUFldExZWGlFV1VCZTZLSElFNkJCX1ZiNmgxRThncXA1aVZCNFNFTHUwdzV0SlpGV0JwcWIxU3pUbFo3VU8yZDZVSEQ0REVsR1J0bEgwVjF6SnpUbjhSaHJrWmNfdDVPOTBQXzZ4eEVuNXByNA?oc=5",
       "src": "BLABBERMOUTH.NET",
       "domain": "blabbermouth.net",
-      "time": "5 hr ago",
+      "time": "18 hr ago",
       "cat": "Pop & Tours",
       "hot": true,
       "ts": 1795473432,
@@ -317,7 +1517,7 @@
       "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQdzNBTm9HLTB2NjlBSVhScmZkWDlxamlxR2xCWlFqVUFHdlJDdFI2TXlKWC1WOXZ4M2luOWdTak5QdEN3VG9QUlk3VXdFU2xCQ3V2OFpTVWNhRkJnZlgyeEJyWmt3YVJBbzU3WE1CMFk3RW5ZSVNUb19WeG5qbl9GRmEzRGxmREdRT095RkFNdWpUOWYtR2dtWmRTLVJ4T2ZtY01xTWhaZE1wdC1teDlLb0xOSXhKMHU3b0NtQU5LcTBORzc2d2c?oc=5",
       "src": "The Source Magazine",
       "domain": "thesource.com",
-      "time": "5 hr ago",
+      "time": "18 hr ago",
       "cat": "Hip-Hop",
       "hot": true,
       "ts": 1795473403,
@@ -333,7 +1533,7 @@
       "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNMlFQel8weHJGWHVCcldrVjM0ZGdJMlI3NUg2Y2VXbXBwOU1jUGdsUzFJNW9nbnJCdVIyZzYyZEFyRm9IaktEQVNzMkhCOUhhakZXSnFaLVZqTmpCOFotNUdFdjMyY2pUQWx6bHJ1NWp6bUgyRW9iMmxkVk1iWDl0aXNGMmRLcVFucGVDQ2Y1Y0pWQQ?oc=5",
       "src": "Complex",
       "domain": "complex.com",
-      "time": "5 hr ago",
+      "time": "18 hr ago",
       "cat": "Pop & Tours",
       "hot": true,
       "ts": 1795472717,
@@ -348,18 +1548,18 @@
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPS0wxVHhqM0tVRUVWTXpkZmtmZDBJZm1ldWdaRzhFZUd6ZkpiLUo2ZXgwU0dhbVFKZmlWbVZUdkRnMm8xSWVneWdYbXB4S3RKVTVqeWtkb3VHQlVmSzhJeDNVNDdPSlVFM0dHeTVZUkxNRFY4OEpKUGlBSllPX0o4cVFqc0RBUkJudlBZQlhTV1laR2NjSFYwV25YN2NOQVRUNmx5bS0xcS1haU5ON0RXNTI2THo?oc=5",
       "src": "Rolling Stone",
       "domain": "rollingstone.com",
-      "time": "5 hr ago",
+      "time": "18 hr ago",
       "cat": "Hip-Hop",
       "hot": true,
       "ts": 1795472177,
       "tier": 1,
-      "n": 21,
+      "n": 6,
       "also": [
         "ktnv.com",
-        "Exclaim!",
         "Breitbart News",
-        "The Hollywood Reporter",
-        "KLAS 8 News Now"
+        "KLAS 8 News Now",
+        "Billboard",
+        "BBC"
       ]
     },
     {
@@ -367,7 +1567,7 @@
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxONUFfRi04WEpLbXdHbnVqQUEteWxabE5yNDJEU3I2TWVKR1VrMldYUXJmcTNkYUw0UGhwZG1zeTZSakRoWkhkOFNGZm9ZSS1ZZm10RG9FdzhRUnprN0dnaHN6bzdGM0FEZTlxeFJGd3UyeWxWSVNMV0JGSHVrLV9lVUpiN1czV0d4c0ViOXprUUhROElQb2xiVkFONUYzUWN6M3Rj?oc=5",
       "src": "Lambgoat",
       "domain": "lambgoat.com",
-      "time": "5 hr ago",
+      "time": "18 hr ago",
       "cat": "Pop & Tours",
       "hot": true,
       "ts": 1795472160,
@@ -382,49 +1582,29 @@
       "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPVlotX0k4N3pkQURUX3BrRnZYV1BaS0tlRUtzaG9qaTF3blRoYVdmRXExOWEtVUlyMjloaEZHMkUwaDBPTHhfU21sVXBHVUR4dkZrRjk1RVhSc2JuZW01WE5oaGgzMWMxd3d4MWtYenlPdW9KOWFhUkY2NzkwVmJHLTFn?oc=5",
       "src": "rocknloadmag.com",
       "domain": "rocknloadmag.com",
-      "time": "5 hr ago",
+      "time": "18 hr ago",
       "cat": "Pop & Tours",
       "hot": true,
       "ts": 1795471314,
       "tier": 3,
-      "n": 6,
-      "also": [
-        "antiMusic",
-        "Rockum",
-        "The Music Universe",
-        "Grande Rock webzine",
-        "Rock News UK"
-      ]
-    },
-    {
-      "title": "Adéla Announces 2027 World Tour",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1hZ2pSTnFmb0hlUnZTUm9rZDh5X0luWnR1a1VrTjhjNnZjeTN0SEF5cUJ6dVpTTno0RjJTWDEzckhyOEZGMEtUbzFTYkpMYWpIZ2RzNUlhQ0tnejlSelF4LXAxdUdZZWExc2RrNA?oc=5",
-      "src": "Pitchfork",
-      "domain": "pitchfork.com",
-      "time": "6 hr ago",
-      "cat": "Pop & Tours",
-      "hot": true,
-      "ts": 1795469016,
-      "tier": 1,
       "n": 2,
       "also": [
-        "OtakuKart"
+        "antiMusic"
       ]
     },
     {
-      "title": "Country Music Hall of Famer Tim McGraw to headline new San Marcos music festival in March",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNNldNQzd0dVY2RW5yejg3bUh3bW1hWk1UVUwwRWR0X3BnYzFuRnFUYlFZVE5VYy1lY1ZOWmJvd1dvZXV4M21EbHZlRWNRbVotcXdtRW1aaXYxdXkwODV2ci1icURjOE84TUQ0M2FSbTlmdmtzQ2ppWUdwT3VDNkhZNnU3REZmYVZMbmNuMmUyTk5LR0NLcDZwSllOZ0JSVWd5VHM4WTlDWERqTHZ0bUpCUExJRVlldHVIckpOaFp0VQ?oc=5",
-      "src": "San Antonio Current",
-      "domain": "sacurrent.com",
-      "time": "6 hr ago",
-      "cat": "Festivals",
+      "title": "Don Toliver, Slayyyter, Charli xcx Booked as Musical Guests for Final 'SNL' Episodes of 2026",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOY2h4REtHOGFMX1F1MnpSdlB3ZnN2U0Z2eHRoUmx5S0xsMUpPdE9jVHZmbGJUcUlYcjhfYjhxQUJvUnBMOUdwckN6ZU1YcWJuVzN6Zll2bjI1TDc0X0UxZWZkTHNacE9sd3JDQjRQd2NQbzdFaFl5di1OSGdEaUY3VVUzZmxWdmtkZEtZbkFpSU45eVRad3gzcXJlTVRBSm9VM0JFZFkydnFNNlNLcDZEbllyNTFrMHgwZHBMS2FR?oc=5",
+      "src": "Exclaim!",
+      "domain": "exclaim.ca",
+      "time": "19 hr ago",
+      "cat": "Hip-Hop",
       "hot": true,
-      "ts": 1795468464,
-      "tier": 3,
-      "n": 3,
+      "ts": 1795469038,
+      "tier": 2,
+      "n": 2,
       "also": [
-        "KVUE",
-        "San Antonio Express-News"
+        "InMusic Blog"
       ]
     },
     {
@@ -432,16 +1612,46 @@
       "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE54UkNaY3RDcHdHZWdYdDJLSWdjVVBRTWcxY0FMeFg1Vm8zSktEYVFiZTctYTVTaWZBaXVOWEtSX0NtV3RqcUlKMjIyMWktalBTQTltc284WnNBeHBfVmxjYmdPSjlJMENnMzc3NVlvNGQ4NkJTanFEaVpNSQ?oc=5",
       "src": "JamBase",
       "domain": "jambase.com",
-      "time": "6 hr ago",
+      "time": "19 hr ago",
       "cat": "Pop & Tours",
       "hot": true,
       "ts": 1795467960,
       "tier": 2,
-      "n": 4,
+      "n": 2,
       "also": [
-        "BLABBERMOUTH.NET",
-        "Lambgoat",
-        "NextMosh"
+        "Northern Transmissions"
+      ]
+    },
+    {
+      "title": "Bella Hadid Says She Felt ‘Strong’ Opening 2026 Victoria’s Secret Fashion Show After Setting ‘Boundaries’",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9CSTd1MDRGM3l3VmNJZkJZWThzUG9rU1BzblN5NUxndmRDM3dPMGRDcjMxc19XcFl6OTdQQ0tuVkNaaXJDbXJNRThrZGtkNmRuaUFN?oc=5",
+      "src": "شبكة تواصل الإخبارية",
+      "domain": "twaslnews1.twaslnews.com",
+      "time": "19 hr ago",
+      "cat": "Fashion & Swim",
+      "hot": true,
+      "ts": 1795467289,
+      "tier": 3,
+      "n": 3,
+      "also": [
+        "People.com",
+        "AOL.co.uk"
+      ]
+    },
+    {
+      "title": "Jaÿ-Z’s Super Bowl Halftime Show Will Be Shown in IMAX Theaters",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBkNFlRRHZQR01kbnozckVoM1BxME9VMXo3U2hNUENIN2hqaVhXRWNHU2Fxc0t4dkswN1ZTaC1hcjlCRzRMbFpXOGZJTllwaDVmVUY1MjZrcS11clRlQTFmSHY0M1p6VnZ2Sml3Tjd2TGgyLVNKX3Zj?oc=5",
+      "src": "XXL Mag",
+      "domain": "xxlmag.com",
+      "time": "19 hr ago",
+      "cat": "Hip-Hop",
+      "hot": true,
+      "ts": 1795466960,
+      "tier": 1,
+      "n": 3,
+      "also": [
+        "Hip-Hop Wired",
+        "HotNewHipHop"
       ]
     },
     {
@@ -449,51 +1659,29 @@
       "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQcjNHLVlqdUZJOFBaN05YMGN3ejRJYUNRdUE5VmkzYlI2VGlrTkJYZFc0amRuckUzVU02N2FnYlg5SEgwOWt0LW5vNHRjbWdUMzZmeFB1akFwVWRDTlJsdkJVa0Z6Tk9aWGpaYmRYNUFra0Q4b3pBQS14a25KQVpLUHU3Y1NYMVNseVM0NGhGMUpfZEIyWUpFaGhwendNRUVFalRLdC0yREY3OXZqaGtmYjdkcnNyZDAwd2tpSy1wM3dMTkxwcTFPYXlVNFI2RlY1VHc?oc=5",
       "src": "Rockum",
       "domain": "rockumweb.com",
-      "time": "6 hr ago",
+      "time": "20 hr ago",
       "cat": "Retro & Culture",
       "hot": true,
       "ts": 1795466802,
       "tier": 3,
-      "n": 4,
+      "n": 2,
       "also": [
-        "NextMosh",
-        "rocknloadmag.com",
         "MetalTalk"
       ]
     },
     {
-      "title": "Forbidden Fruit announces 2027 headliners to mark 15th anniversary",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxONkM3Si1Ccl9mS2pyQmdMVHdJV216Yy1pa1FULWhvQjBuMGZEV2tZS051ZTFzM1BIZDk4blRkVEN5MjRsQ0h4YXN6ckxoZVN1cTN1djh6Y09TQXRMZmgyakRLNWpmc1hyc19STDhGN1hFSUV2cFJrOTVQUTd2dWhtdnlEUDNBTmVfV1FURW5NLWdzamNUVUVSbQ?oc=5",
-      "src": "RTE.ie",
-      "domain": "rte.ie",
-      "time": "7 hr ago",
+      "title": "Billy Corgan’s Supergroup Zwan to Reissue Debut Album With 19 Unreleased Tracks",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNY2hUYkZTcFFBanFKaHd2TVgzZ284ZXdhcE1yaGxIRlZLRVlDakU4RzJYOTdXb2ZaWjRKdjJDOW1vMzRiaFZUX3BLSG1nYWlzUWo0OVdIV2hpckIycnBzMi02TU9VbnVSNmhtTWZjWW5iSzR4S09QOWtFT0hPR29SYmpPcGV4S1k3dkVuX2V0QWEwMHBUN2lFcHBLeWZsZFJ4dkFVRTFWeVBLeUpn?oc=5",
+      "src": "Rolling Stone",
+      "domain": "rollingstone.com",
+      "time": "20 hr ago",
       "cat": "Retro & Culture",
       "hot": true,
-      "ts": 1795465441,
-      "tier": 3,
-      "n": 3,
+      "ts": 1795465905,
+      "tier": 1,
+      "n": 2,
       "also": [
-        "Irish Mirror",
-        "Ireland's Classic Hits Radio"
-      ]
-    },
-    {
-      "title": "GARTH BROOKS TO TAKE HIS “BLAME IT ALL ON MY ROOTS” ARENA TOUR TO LEXINGTON, KY IN 2027",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNeE9lZmZEX2YwWTdoWEg1OXptMUZ6QVlGM0xQdnFnZnJkc0YtS1FUMi1nU3hFQnhkV096UjBXcnBiT2hBWFE0Z1Q0RkMxdmdQT2UwWnpCYWhGVmNpcC1xSVR3R3N0MkFzOV90TmdsMC12R3pocHpDSnltTkpwb0l4SkN4aVZCeGRaN0Y1YzZGTEhkTE9CRnRnSUxvTmNLZ0xqS29Gd2trNE5OWWNpTWYwZXAzZExYUmtKQWlWV3VrSHp6V3NEblZHS2d3?oc=5",
-      "src": "Central Bank Center",
-      "domain": "centralbankcenter.com",
-      "time": "7 hr ago",
-      "cat": "Pop & Tours",
-      "hot": true,
-      "ts": 1795464937,
-      "tier": 3,
-      "n": 7,
-      "also": [
-        "WKYT",
-        "WDRB",
-        "iHeart",
-        "Whiskey Riff",
-        "Hillbilly Live!"
+        "Paste Magazine"
       ]
     },
     {
@@ -501,7 +1689,7 @@
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNV2tBRzJVVmg4LUNseFpwV3NOU1Y5WHl5OGNEaUxBd25DRzZSUE1RNG1pd3QydEx6N2RfT0VGRUs2cFN5bHVXeFBELThRV3BVSU5IeTd4UktuTFo3VWNQbTJJZWRVcGtodkVReGkyRHNOazBFR1Jlek5RTU94Y1duRVdPQVY?oc=5",
       "src": "AOL.com",
       "domain": "aol.com",
-      "time": "7 hr ago",
+      "time": "20 hr ago",
       "cat": "Festivals",
       "hot": true,
       "ts": 1795464927,
@@ -512,54 +1700,19 @@
       ]
     },
     {
-      "title": "ADÉLA Announces 2027 North American Headline Tour",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOWjdyMkZIWE5CLVFEb096UGdHWlp5LUhxRlNpa3JGcEV0MHJWS2kxU2hCYUcyMkc3QnRfbjlBX1JpS2JldDVfV3pvVTlRcmZZb0FzaGJhWk9mRnRkUm9zQmp6dVVjYU5QWGFkZ2w5TlVuaEpEa2VZZXdXMjhOZS1FWkk4N1FJZ1c0LWRMQWN4TF8?oc=5",
-      "src": "Pollstar News",
-      "domain": "news.pollstar.com",
-      "time": "7 hr ago",
-      "cat": "Pop & Tours",
-      "hot": true,
-      "ts": 1795464453,
-      "tier": 1,
-      "n": 7,
-      "also": [
-        "antiMusic",
-        "The Music Universe",
-        "TicketNews",
-        "Consequence of Sound",
-        "Exclaim!"
-      ]
-    },
-    {
       "title": "Fernando Mendoza shows growth despite Las Vegas Raiders’ Week 11 loss to Denver Broncos",
       "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQMk8wVFVNMFR0RE80eVRUV3B6NWVIM3d3UUdqSlFIYWhVMDQ2ZGNOVEk2Z2RvcURnUDkwb2FERGJKU01RcEVNOGtDbEp0dEhHWE1FSVd1LUxvbmRlOGE1cjh2YjhkU1A3djNmbHJRcllOXy1SRkxiOTJVSFQxS1FOX3EyTF8yN2tCSnpVUzA4V3BaVENXbkFJTzh6dkdINkNFbE9Qdk8yWl83bWkzUzlzQ2lYUGd6aktmV21CQ2Vwak50THM?oc=5",
       "src": "Silver And Black Pride",
       "domain": "silverandblackpride.com",
-      "time": "7 hr ago",
+      "time": "20 hr ago",
       "cat": "Las Vegas",
       "hot": true,
       "ts": 1795464300,
       "tier": 3,
       "n": 3,
       "also": [
-        "firstcoastnews.com",
+        "fox61.com",
         "KTVB"
-      ]
-    },
-    {
-      "title": "D’Angelo’s Estate Releases Posthumous Song ‘Kamikazi’ for ‘GTA 6’: Singer ‘Approved This Track’ Before His Death",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQX2VIZEo5dmNZdVhaUmRTMXFmaWplOS1zdFNQejhZZEhkSl9fRDlnMXlzS3BCMUZydVdiVjlYRXZXaEdlX083YVFpYmdSbHBwTlg2ZjJ5T1Z3SWpmNGVZUE9YREpaN0x0ak9KZXFhczFzdkZ0TnhtZWdma3Rwc1Qta3ZJdmtxYUR5ejMzdUxnT1ZXaXZvNU84cjc3Ymw?oc=5",
-      "src": "Billboard",
-      "domain": "billboard.com",
-      "time": "7 hr ago",
-      "cat": "Pop & Tours",
-      "hot": true,
-      "ts": 1795464163,
-      "tier": 1,
-      "n": 3,
-      "also": [
-        "Paste Magazine",
-        "Pitchfork"
       ]
     },
     {
@@ -567,7 +1720,7 @@
       "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNWkotVWp5Zm9wMFJHSlh5WWZKLUctdnUtRWVWajFOTWV3LUZoZUZ6Z002R3lwYU9qb0FOeEtaMS1taEltQmNqSlVoN2RMY3FTVm0zNWRKdzhmSmRNMDgwZndMR1NsTlk4V3A2RkpwYXRkUlBYMmk2Z3d2VVdlNlZMdFZhMA?oc=5",
       "src": "UBS",
       "domain": "ubs.com",
-      "time": "7 hr ago",
+      "time": "21 hr ago",
       "cat": "Retro & Culture",
       "hot": true,
       "ts": 1795463034,
@@ -582,7 +1735,7 @@
       "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPRXBjWk96QjdsbVEzNzFPTmJBTzZlX1JpbDlfU2RLaVdpOXhFUDJLdEVKS0YtREZoM1VIWU9zdXVLMHhvRmFQT045UWVuQlM4ZDdkcTVDZlBkMXBhb09ONDVLQkFMOFJtcUF4WDQxcnRNZml4QURDUFlaUjlQUTE1VEhocjlfV2VjQnZEQWl1cnR6eXMxajNtOE1lbG5YU3E3b1JUb0N3eVI?oc=5",
       "src": "The Source Magazine",
       "domain": "thesource.com",
-      "time": "8 hr ago",
+      "time": "21 hr ago",
       "cat": "Hip-Hop",
       "hot": true,
       "ts": 1795462311,
@@ -593,26 +1746,11 @@
       ]
     },
     {
-      "title": "Metallica Releases Sphere Video of For Whom the Bell Tolls",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPWHQ0dUVTbUhoUVptVVhyU2YtUmhpaW9tU0Fqb2U2eEo4Umw0Z0kxWTZhSXBqckExbnpFTlVXcEcxYzRuc1FHUmEweTYtUjFMNl9uV2dwdUxNUktXM1pfdkFEOVNxbHRZM01XV0lEcDdyNGlTWXhiUXNEUXFITzJkMEdXTzdPaDYxSVlVVVlRQlJRT2E1M3pKbFZFWEQ0X1NlUmVGekVldVMzZHBBSXJmbA?oc=5",
-      "src": "Wisevoter",
-      "domain": "wisevoter.com",
-      "time": "8 hr ago",
-      "cat": "Las Vegas",
-      "hot": true,
-      "ts": 1795461967,
-      "tier": 3,
-      "n": 2,
-      "also": [
-        "WRIF Rocks Detroit"
-      ]
-    },
-    {
       "title": "The Doobie Brothers Announce 2027 Canadian Tour Dates",
       "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE56YmUwU3NwVmFGNzRBcV9ldU5LLVJJMDhtRm5NNU1zV2RNNG96WVdjcjBSaEc1V2lVRFF5UWxtYnVqRXlrMEJtcUo5NHo1ZTlpMklfbDZBWWxaSXQ1TGgzc2pWRzVZVkVYUzg0SWwtMy1xdTVpUFoyeXpR?oc=5",
       "src": "JamBase",
       "domain": "jambase.com",
-      "time": "8 hr ago",
+      "time": "21 hr ago",
       "cat": "Pop & Tours",
       "hot": true,
       "ts": 1795461780,
@@ -623,49 +1761,51 @@
       ]
     },
     {
-      "title": "Fleshgod Apocalypse Welcome Kevin Paradis As Their New Drummer",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPdTJWMnlKZEVGYk9YcWs5VWQ5eVhmRkUwdWhxNUtyMk5aVjQ5aE81VXpDVkdDVmNCdURtZUF6cmNXRW1wa0t0V21ndGY3b0xJbkNfUFFMVmJZYjh1cjhIam9ZVHlTeFJwZVFRZ191T2QtTGp6YUxZaUl3ZHA5WVlseG1jangxU042all5STBTZG4yZFRKQTVXWUxoelJqV2w0b0R2TQ?oc=5",
-      "src": "Theprp.com",
-      "domain": "theprp.com",
-      "time": "8 hr ago",
-      "cat": "Rock",
+      "title": "BTS performs “Blanket Kick / Embarrassed” during their 'ARIRANG' World Tour stop in Kaohsiung.",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5lYWVJcHZKSWg3QzdZZjFHdjJ3Z0hraXo3bmZIRDczcWFxZ2swekRhZ2w5emUxVjFEdEN3WkZodEZUSkd5eWFnVmtIY0d2YWMxdEltSk9NaWJCMWgzcl94a1ZDQ21HZTA?oc=5",
+      "src": "Complex",
+      "domain": "complex.com",
+      "time": "21 hr ago",
+      "cat": "Pop & Tours",
       "hot": true,
-      "ts": 1795460540,
-      "tier": 3,
-      "n": 3,
+      "ts": 1795461001,
+      "tier": 1,
+      "n": 2,
       "also": [
-        "theriffreport.co.uk",
-        "NextMosh"
+        "Atlanta News First"
       ]
     },
     {
-      "title": "Post Malone And Megan Moroney To Headline Pilgrimage Music & Cultural Festival 2027: Lineup, Dates And How To Get Tickets",
-      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOZ0dFSm8tQ042OTJNUm5kbG1KbEFIa1VyUHVqVVJmMTVwcHlraFVrTDZXdlNPNU8yRGhWZFV0VmlkUHV0bmU3dGR6dmFkeWhwZ2lxR1A0RldkZFp6VkNWb2hJM2k4NzV0b3Y1YkdXTTdRQWVuMGEtOTFLNlJuUmNtcEpLQmJ2NERIUXNzUmhCYW9RR09wUjVCSW5laUd0YTB4VlhUVl9MMmduWWkwUTRWcmVuVlliRGI1eWNpME9WUm1OQzhQSEQ5dnJoTlVIeWt6djhpVUQ4c3A?oc=5",
-      "src": "Country Now",
-      "domain": "countrynow.com",
-      "time": "8 hr ago",
-      "cat": "Tickets & Lineups",
+      "title": "QUICKSAND Announces Spring 2027 European Tour",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNLTd0RE55V2xUblVYc0NuYk9YQ0JsOUtzRWI2LUhRVVBOX1YzemJOYnFUNXV3N0R4ZWIwbFhTcldiN2E1T2I2ZE5BaFhmcVhNcTZVQUZ2aGhGWERvandoLVg0UEtmVV9xUnJJYzhpVy1fYkdUbnVZVDNfbDZJNTB0eg?oc=5",
+      "src": "BLABBERMOUTH.NET",
+      "domain": "blabbermouth.net",
+      "time": "21 hr ago",
+      "cat": "Pop & Tours",
       "hot": true,
-      "ts": 1795460345,
-      "tier": 3,
-      "n": 2,
+      "ts": 1795460846,
+      "tier": 2,
+      "n": 5,
       "also": [
-        "www.acrossthecountry.com"
+        "Babystep Magazine",
+        "Popzine",
+        "famemagazine.co.uk",
+        "Lambgoat"
       ]
     },
     {
       "title": "SeaWorld Announces Massive 2027 Concert Lineup With More Than 50 Shows",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQUl9kQTVuc2Fnd2dQUzFxNC1OWGpqVDFEVUh3S3VtdXJYRENqbHUwT01PZkY2VFQyMnJUcU83MnZJWHVVZ1ZGZDRtaE4zRTRVSzJpczZfbFE4dVh6azE1aU5Ddl9pUTNONzFDdFE2U2Z3VGpOd2FJd0JYdDByeEtiQ3JydGZTU0txRi10UHMwVWFuS2NlM3lzSkFnVzI2eVRDSlE0ajcwTDQ1eW1qY1pSOA?oc=5",
-      "src": "Backstage Country",
-      "domain": "backstagecountry.com",
-      "time": "8 hr ago",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOUThVY2h1M1RpUTAxcHlxVDVPeXl5bDl6cDB3Zy16c3dwNFlab294eXJWZmdLZVM0VlFESkp0c2x0MUxRTi1uZzZQSW5uZElrQy14SXNpaGl4UzFaMno0QmFvcGl1UjJqVndaeE9XSzh6M2l2Z3ZSSkY3eS1QdHhTeDQxbUFrTnY4UjJKQjMtQldsVHRNZmxzTk51cDZIeG1ocWhjLWF4YnNidVhmSG9V?oc=5",
+      "src": "102.7 Coyote Country",
+      "domain": "coyotecountrylv.com",
+      "time": "21 hr ago",
       "cat": "Tickets & Lineups",
       "hot": true,
       "ts": 1795460217,
       "tier": 3,
       "n": 2,
       "also": [
-        "102.7 Coyote Country"
+        "Backstage Country"
       ]
     },
     {
@@ -673,7 +1813,7 @@
       "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE13RzBKcjcyeEVTRmYyYnB0ZXg5bThvSGFDZTh3c2otTDZuNTIwYlVSM2tqeXB6bDhSY2V0cUF2Q2JwQUdQdUJwQS1nQU1hN0ViUTFwcFN6cFFhLWM1bDd2TFlB?oc=5",
       "src": "Las Vegas Weekly",
       "domain": "lasvegasweekly.com",
-      "time": "8 hr ago",
+      "time": "21 hr ago",
       "cat": "Las Vegas",
       "hot": true,
       "ts": 1795459889,
@@ -688,31 +1828,14 @@
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPbUNTaFI1RmtxRmhGSjJuVnhSeTVnU1ZKTVFjLUtYSURQeXRjWjRGTEpPVG1TeGg5bkkyaUkxTl9qSVA3YWpWUC10MmdZa1JlZjFKQ2ZydkFleGcxbGVfMkRHYnd4S24teUNkT3F3T0FxMmQ5dFAyTVo5bTNFTy0ydVdLZGc3VmIxVnJNQkdBa2FLLU04Y1lOTjFRTjRHZjlkRGltRWVtN3RkRG9jWVVCbl9hc0xDdw?oc=5",
       "src": "Metal Injection",
       "domain": "metalinjection.net",
-      "time": "8 hr ago",
+      "time": "22 hr ago",
       "cat": "Fashion & Swim",
       "hot": true,
       "ts": 1795459318,
       "tier": 2,
-      "n": 4,
-      "also": [
-        "The Nu-Metal Agenda",
-        "Theprp.com",
-        "Lambgoat"
-      ]
-    },
-    {
-      "title": "Biffy Clyro, Jamie T and Blossoms to headline 2027 Truck Festival",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOcjFHMUNWSDhwTWI2RnJTTlVvVzlJeWI0dGRjMUZ1bXlJWktOQmlhNHcxNXhRNWNZMTV5Z21IUjQ3Y1A2NE1wLWhCQ0dxMUF4WEtJOFJVRnpYNWdPU0VUZEFHTHJvZWF3aHdYWjNESXcydDNGUW9nNFlVc0lrWVNGS205bWtPTG1uRWtVNnVxanNEcWRfQ0E?oc=5",
-      "src": "SSBCrack",
-      "domain": "news.ssbcrack.com",
-      "time": "9 hr ago",
-      "cat": "Festivals",
-      "hot": true,
-      "ts": 1795458629,
-      "tier": 3,
       "n": 2,
       "also": [
-        "northernexposuremagazine.co.uk"
+        "Theprp.com"
       ]
     },
     {
@@ -720,7 +1843,7 @@
       "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQUDZzX1dTR09UTmFaMXpnSk9ycUpxTWFsVTJDSlI4VllKem1VdlFjSVlsOEI5VUFIUjlfTDBUM183QTU3TlJWUi1XdVBNcnJNNFBaS3huZFpWaHZwM19QcWdVT296TGZnem1PZ2FaS19jbzdiVlhKUVFlT245YnpqSDJVc25veTBUSzlCTnJuLWJMWEwyRU9Z?oc=5",
       "src": "103weup.com",
       "domain": "103weup.com",
-      "time": "9 hr ago",
+      "time": "22 hr ago",
       "cat": "Nightlife & Clubs",
       "hot": true,
       "ts": 1795458308,
@@ -731,26 +1854,11 @@
       ]
     },
     {
-      "title": "Las Vegas Grand Prix Delivers Record Racing, Major Business Deals and Continued Growth for Formula 1",
-      "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQZ2d0Y2Y5anFEWkw1SGVCQ3FkOXlxVjdPaC1kbmpZNkJZeGRLSjZtaTBGUnk3Z2VQTWRBY2xyZF9qN3hkN2Ryc3prYktqWTVLbXkzSVdjS3pOVWljaEJsSm9Ea05fMzJ3VDFjR1p1a216SW5JbVcxMXlEOHdyaUo0aVByZEd1d2hnZWZUVm9mYUFVb3A5S0xhbE1KcHhacjNsUUZFdlJnWGVTUEhURVZXdy1qTW5OcmRXeW5NUlZ1TFhVM05kQ180a2JQT1BsUUJ1MmtHRVM0WHNJR2JLQjk1M2ZqTmc4NjhISEZHWGR3MkRPSXM?oc=5",
-      "src": "Speedway Digest",
-      "domain": "speedwaydigest.com",
-      "time": "9 hr ago",
-      "cat": "Las Vegas",
-      "hot": true,
-      "ts": 1795457840,
-      "tier": 3,
-      "n": 2,
-      "also": [
-        "Formula One World Championship Limited"
-      ]
-    },
-    {
       "title": "UNUM Festival announces Phase 1 Lineup for 2027",
       "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQeS00UnllR1NaV0pRd25ObFQtMWV4b0Vrbmc5bmJ4TXp1STl1N2NlcF91WTQ1RkdycUJKUGc2S3A1eE5fN2YxRzVKU3pRNUlUdy1QeHBIemx2NnltT0c2RFFPZGIxQ0VtVjMzMldUU2VHWlAtV1FMajVtc2lNcTVlXzdnRXhnSE11V0dHM3lR?oc=5",
       "src": "When We Dip",
       "domain": "whenwedip.com",
-      "time": "9 hr ago",
+      "time": "22 hr ago",
       "cat": "Tickets & Lineups",
       "hot": true,
       "ts": 1795457673,
@@ -761,26 +1869,11 @@
       ]
     },
     {
-      "title": "News: Pet Shop Boys, Biffy Clyro and Two Door Cinema Club to headline Tramlines 2027",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNTWJzUVVJYXdkRXI4eGRKUi1uSzdmeTFKUzQ0S0prSEdvdHVfaXdjZ01Bem1oOG05Tms2ZFRxVy1QVGlLb1MtSjA1REY1eHE3cnhOUnVPbWkwOEVHMG9WSHpzdFdmMXVkaTRmN19TLUdsWDhjcWNKVXllNFhRMkhyWWxHSUxYdXFrWVFtTnctOGVnWFpCQXJ2STZkWTNJM1Q0Rnd0RGpnODhwYkZQTkJNV2xLVQ?oc=5",
-      "src": "Backseat Mafia",
-      "domain": "backseatmafia.com",
-      "time": "9 hr ago",
-      "cat": "Nightlife & Clubs",
-      "hot": true,
-      "ts": 1795457386,
-      "tier": 3,
-      "n": 2,
-      "also": [
-        "The Hoot Leeds"
-      ]
-    },
-    {
       "title": "Phoebe Bridgers Sets More Planetarium Listening Parties for Lost Weekend",
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPUHYxdnRGYks5NDhaRzc2ME42eHVFU2FLQl85S2FiRjhJd0xHMHQ3a3J1YmtRSDZrdjR2Q0I4SVRmZzdlNU1xVEJQbzhnMTdwR2NHY1ExOGt6c3BKaXZJRmVWeEMzT0l0SlloZy1tMjdXek9wdGROQnR6VDRkcXBld014cjVTY1o1aDVDNTBoMmhSdFE2ODZ6MzZfNG5rNndaMVJV?oc=5",
       "src": "Pitchfork",
       "domain": "pitchfork.com",
-      "time": "9 hr ago",
+      "time": "22 hr ago",
       "cat": "Nightlife & Clubs",
       "hot": true,
       "ts": 1795457277,
@@ -796,7 +1889,7 @@
       "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQaERVdnpVMkcwRkRZUzNZNkFSdHhvbklJQUYzN01qQjBMdENGVWFuQ3htS0FaekVqLU1QOGRBSlBYVmhabzA5NnlEN3NwNGF4RXNsODdxdzluU1BFVjBtRFJleEpXX0RIam1hS1VGVkk1VjN6TGJMZlFuTmNzTi1CZWtmWQ?oc=5",
       "src": "Hip-Hop Wired",
       "domain": "hiphopwired.com",
-      "time": "9 hr ago",
+      "time": "22 hr ago",
       "cat": "Hip-Hop",
       "hot": true,
       "ts": 1795457120,
@@ -807,27 +1900,11 @@
       ]
     },
     {
-      "title": "Truck Festival announces first names for 2027, including Jamie T and Biffy Clyro",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQcmFvYkZkZUx2ZlNmczNVV3BmaFJ2c3JjMS05eWVwRUhTemxWeEU0OWxPNGZhdEhVYUhFVV9VanNnYnVYMjBHRTEyTjRYSXBUb3pzVm5WUXc5UHhqY0VrOThsYUZtZkU0Yzl6cGtWeFpCUHlkbkhDNXFqZjNuSDZ1Y0ROSmJQVWZ2RW9MQ0dhZzc1cHRkMjhROUQ4TWxHd1dIbFpHVjhvNlN5SUZrZXNYa0FNbDQ0Q3Aw?oc=5",
-      "src": "The Line of Best Fit",
-      "domain": "thelineofbestfit.com",
-      "time": "9 hr ago",
-      "cat": "Festivals",
-      "hot": true,
-      "ts": 1795457091,
-      "tier": 2,
-      "n": 3,
-      "also": [
-        "The Mirror",
-        "Official Charts"
-      ]
-    },
-    {
       "title": "Don Toliver concert evacuated after pepper spray ‘altercation’ in crowd",
       "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOUF9ISG1VbUIwY1JrUWtMMFhrdEI1ZVhiaVNldDJLd2ItM1UzQ1pJeVQ1VU9DMzV6clFaQnFEaUhjdVJZaDduS2lqalBsMVFvOEx2N2YxV1ZadGE2QjllNk1BSVdmc3Q0TDVTbEdteWpuQVdHU0dHdVpxY1gwYkU3VGhiZllUZTFtZm9zdFJYRlctSUt6clBFbEFFdw?oc=5",
       "src": "Entertainment Weekly",
       "domain": "ew.com",
-      "time": "9 hr ago",
+      "time": "22 hr ago",
       "cat": "Hip-Hop",
       "hot": true,
       "ts": 1795456764,
@@ -838,39 +1915,82 @@
       ]
     },
     {
-      "title": "Bella Hadid Remembers Getting Rejected From the Victoria’s Secret Fashion Show",
+      "title": "See THE WARNING blast through NFL halftime show in Mexico",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOOVFWNV9uMFJtazRkYlJxWWYwallROHhHQUtsYzhBRWZfcjVBNTF6aWJKZjJ3VjdsWkhxb1RmYUZOLWVvMGFpUDgxaUhfeEV0T3ZoRTR4bnZ6bkkxeFZTalc1alRRRXBPTkNrR1g1eEFRcWdsNU50V1hhNFFXNHZQT3ZuRkNjRmhmU1VJMlZLd25CWUUzZDh1YnhR?oc=5",
+      "src": "Revolver Magazine",
+      "domain": "revolvermag.com",
+      "time": "22 hr ago",
+      "cat": "Rock",
+      "hot": true,
+      "ts": 1795456463,
+      "tier": 2,
+      "n": 2,
+      "also": [
+        "Guitar World"
+      ]
+    },
+    {
+      "title": "Bella Hadid Opens Up About Being Rejected From the Victoria’s Secret Fashion Show",
       "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNa2VEMUdTeGFjWTlZVk1SNkZ0RHBzQVRZM2JPYXhLM25EZjZOeE81aTRYdWstNW9vLTdjeUdPSklFcHJzeDQ5YUl5RkVRbE9yYlBRUzY3U3JjVnJEVWVxU3ZudFpyeFVLYjNreWctY0tMd0lzNHJ4OGJHYWl6clRXSHRVTzE5YzFOQkU2cHdfcXBfLXNMTFluWHZnZ1dBV1Ixcm1hbjRVR09IUzlqNy0ya1Bxb3cxb3phMEh4c295cThjODR1dG1Wd0VkemY?oc=5",
       "src": "Harper's BAZAAR",
       "domain": "harpersbazaar.com",
-      "time": "9 hr ago",
+      "time": "23 hr ago",
       "cat": "Fashion & Swim",
       "hot": true,
       "ts": 1795456020,
       "tier": 1,
-      "n": 4,
+      "n": 6,
       "also": [
+        "The Express Tribune",
+        "AsiaOne.com",
         "AOL.com",
-        "Female First",
-        "Yahoo News UK"
+        "Yahoo News UK",
+        "AOL.co.uk"
       ]
     },
     {
-      "title": "Hear Power Trip's 'GTA VI' Soundtrack Single \"Mutual Death Warrant\"",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNM2NoY0dydzFIUTUzQXljYzRrSGdPSGY1OFkxRjFrS3l2UldUQkRORFNPX0dEalB1MUtKZGRqdS1ONWQ5Nk4yRkRDeW5BQXN4Z1RsZFBkdDMxUXM4VGlKZXFtendNdUphTktraUg2N1lkcGNncG9HS1FndlVmdlFEWGpUZ0RSdEduU25ZQw?oc=5",
-      "src": "Metal Injection",
-      "domain": "metalinjection.net",
-      "time": "10 hr ago",
+      "title": "Prestige Luxury Rentals Leads Its Art Basel Miami Beach Week Lineup With a Rare Rolls-Royce Dawn",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOUUJjT2dlU09wVjJKMHI2akUzNjVscnJYUVgtdW5SSXN2bzBMTC1fTmZQMS13TjhwSzM0cEZ6aHRVbzdid3BSNjZ4V0F0UExWVzZ4cXhYSGstby1GOFdYZnNPUnFsYjQwZ0ZsQmRMUUsyeG45YWZZWFFvR2ctRlN0XzFWVElCS21vc3lEMExVNUhYYm5jNHQ0TXZpUXkxRmtEMEFjLTNXT0xva0kwSHhVbllB?oc=5",
+      "src": "The National Law Review",
+      "domain": "natlawreview.com",
+      "time": "23 hr ago",
+      "cat": "Tickets & Lineups",
+      "hot": true,
+      "ts": 1795454999,
+      "tier": 3,
+      "n": 2,
+      "also": [
+        "lincolnjournal.com"
+      ]
+    },
+    {
+      "title": "D'Angelo's 'GTA VI' Song 'Kamikaze' Released as Brother Teases Future Posthumous Songs",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPWGFRZFF1NVNZNG0xWVdXRXY4WEd2NlMxdC1UTFZnOFlnM2lHczY4LWtkOW1rWnB2X0s2U3BOaVlNY3V3LUVaRGZhaUNDYmkyVUNqSUtRd3h3aWY5a2pidlc1aUp5U2RWWTNpSEtLdW82T1pWTGR4RkhPVHRDNlZkZ0N3X0I1LUhCZGF3eGlMaFR3ZndjVXN6dHdhMTcyUXFRblE?oc=5",
+      "src": "Rolling Stone",
+      "domain": "rollingstone.com",
+      "time": "23 hr ago",
       "cat": "Pop & Tours",
       "hot": true,
-      "ts": 1795455417,
-      "tier": 2,
-      "n": 6,
+      "ts": 1795454077,
+      "tier": 1,
+      "n": 2,
       "also": [
-        "The Rock Revival",
-        "Theprp.com",
-        "Revolver Magazine",
-        "Rock Sound",
-        "BLABBERMOUTH.NET"
+        "VIBE.com"
+      ]
+    },
+    {
+      "title": "Metallica Shares Sphere Performances of 'For Whom the Bell Tolls' and 'Harvester of Sorrow'",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNSnU5WWp4SFlSVFFCcGRPdFBkOGV2bWs0NHJOQ3NKQlN5WjdoaFlrZUtHdkg0VDhtSGpuRUtkRWRNYVhfelhmMVhGanpIUVREbUFUbGs1MlVZT0t1S3pqUVhlT284VEl1NG9XWlFTcUNFbDU3ZHdOX2NNVmRBeWp3UFg3MEVXNC11V1lWN3VxaDFaanFZMjlxeTU5Tm9lcGVURTMwNmpGV0tTVkxPYnZoRmRNTHhDbjExS1E1MEpxeVR4QQ?oc=5",
+      "src": "Boston's ROCK 92.9",
+      "domain": "rock929rocks.com",
+      "time": "23 hr ago",
+      "cat": "Las Vegas",
+      "hot": true,
+      "ts": 1795453339,
+      "tier": 3,
+      "n": 2,
+      "also": [
+        "94.7 WCSX"
       ]
     },
     {
@@ -878,7 +1998,7 @@
       "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPYWhaM2R1TkQxVFVyU05KQXpFcmVJTWZEa1JWMkJDQmdhZjRtUzFkVmJFN2pCamZYbFZPYkI2aXNfc0RxRmMxcGpfd2tNNW1QZ2hteEc1b2Itd3FxSjA0V3Q3VFVqYWVvd1dqN2VpWUloSWRQNVNpT20tM21HR3JSM05HR2ZGS2RBblgwVzRMQkM0cElXc2RkWkV2eDZObmMyWS1RZUR3MzFzWnBzdU9ONE13aEFLN3lzQUI4RkZsTy1NNTR0?oc=5",
       "src": "Irish Independent",
       "domain": "independent.ie",
-      "time": "10 hr ago",
+      "time": "23 hr ago",
       "cat": "Fashion & Swim",
       "hot": true,
       "ts": 1795453200,
@@ -890,85 +2010,70 @@
       ]
     },
     {
-      "title": "Metallica to donate over $200,000 from Sphere residency profits to Nevada charities",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQNEpBd296a2MzcG9rTkM4T0RhYlNFMml5SEhIUlhMMTlVOV8zRF9sLW9Xb2pMQkZaSkx5cDAydEl4TWNMSXkxb0FJaDEzUG9RTHgtZXBjZmc1V0FWLU9qakZaTTlHV0RKWWpJcnRTSzQzMGRnVUsyamZKM2xNVjdyWEhzNVZRaGMyRDZ5dHZFUEpLYURYNW16ZzFxOTBiMS1wYXUtVFVJOXRZREVLRngxTW1lVEFXdTA?oc=5",
-      "src": "Paste Magazine",
-      "domain": "pastemagazine.com",
-      "time": "11 hr ago",
+      "title": "Four Tet announces five-night, new music-focused live residency at London's ICA",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNaWpMTHRMd0Mxa05HS2N4N1BQY0dmVkNmZUhqQlRkUE90RHEtRWtxcl9HbDZYVzZIRU1hUDN1elFFS3Y2T0RXX1RmWXlDVnNQV1hzZlZPRElTT2tSMVdSck5ldVVDVTdEakFLbU10VWdqRFZ2b3ktdDdCM1JMWURVSlZ4dFM4eWMwZHdXLThnWnhQWU5seC1pWDkxVEswQQ?oc=5",
+      "src": "DJ Mag",
+      "domain": "djmag.com",
+      "time": "1 day ago",
+      "cat": "Techno & House",
+      "hot": false,
+      "ts": 1795451700,
+      "tier": 1,
+      "n": 3,
+      "also": [
+        "Glide Magazine",
+        "We Rave You"
+      ]
+    },
+    {
+      "title": "Talking Bull discuss the 2026 Las Vegas Grand Prix",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOTUNhYkxwcXJmc3ZRbmJ4NENKMzJGTmZlbTRXUHJGZXFveGp6ODV2aHgyVHNGSndwNDhyQTUxQkQ0NnVvNGFJYlN3NWJqNUZZd3BlYUNKYWxsZ2drNmFMS3NqdWowSzBmbGhIQkl2cURrOGhKWkwyTF9fb0FfeFE1dHk3eTNKc2lWWXc?oc=5",
+      "src": "Oracle Red Bull Racing",
+      "domain": "redbullracing.com",
+      "time": "1 day ago",
       "cat": "Las Vegas",
-      "hot": true,
-      "ts": 1795451580,
-      "tier": 2,
-      "n": 3,
-      "also": [
-        "AOL.com",
-        "Music-News.com"
-      ]
-    },
-    {
-      "title": "ADÉLA Announces Prima Tour 2027: See Dates and Ticket Details",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1lcjJUb2ZQT21uMFRPWXVZd2tqV3lPMzBkRncwTXp6NVJHbjhZRWVpVjZrVUdxOG9aZzNkaEdZYkNzXzBCZXJhSmtXa2ZzT2lRRHQ0cDkwVTNNMHR5NUN5UlMxaXh3UzNRaXVzSU1iVjVOYnlMZnhGbVdUQ1hlZw?oc=5",
-      "src": "InMusic Blog",
-      "domain": "inmusicblog.com",
-      "time": "11 hr ago",
-      "cat": "Tickets & Lineups",
-      "hot": true,
-      "ts": 1795449146,
+      "hot": false,
+      "ts": 1795450794,
       "tier": 3,
-      "n": 4,
+      "n": 2,
       "also": [
-        "iHeartRadio Canada",
-        "Official Charts",
-        "Travel and Leisure Asia"
+        "F1 Oversteer"
       ]
     },
     {
-      "title": "IU 2027 World Tour: Dates, Cities and Tokyo Dome Shows : CONCERTS",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPMFBuMFA2YlUzUGcwQ3ZkRm4wOUJ0cFdiSWZZLVE1Vl9ONEdLLU1BZ0pudGJHMHItem00cF9zNVZ1WEpKdktkaDI1MkxnRUtzMlJMd3BaUW5TcmpOODB5VTdPUDFXanlwU1NWZnlGbF9ocWxmMVhOMFpEVVNJZTc5Y2xLekc1c1pONGJWRGtnemwxMl90aDJ5ZGhJZjVjQXhPWXpBcFJCbzBCTEU?oc=5",
-      "src": "en.koreaportal.com",
-      "domain": "en.koreaportal.com",
-      "time": "11 hr ago",
-      "cat": "Ibiza & Global",
-      "hot": true,
-      "ts": 1795448880,
-      "tier": 3,
-      "n": 3,
-      "also": [
-        "Chosunbiz",
-        "Soompi"
-      ]
-    },
-    {
-      "title": "US rapper postpones O2 arena show after Manchester evacuation",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPWmJyeHZESV8zTmJoY2ozVXBvRlhfNG1naXhNa2pfejVfWXdTblYwbFRVUWk1amZrR25LdW82MWZOd2JQaWM2VmVZVDJNNmxiQ0RrOFNXV045QXRHYWNCYm5aQXZoWk42em10dl9pOEljWDc3anhMZWhmVmp1YjNFdnRRWjhPM3c2UjlRTXpsckQ0THJZYndtQTVFcFdjd1FzZGpyU3hCUTDSAbABQVVfeXFMTm5mbS1Dd3JDWkwxc1dPTWg1Y0lNdjVDQWg2a1ZVOWZETlZsbDd5MG9VMmdRVnZ0VkNEZGx5SHNQWmVHaXhTTHVYczJWbUhsRG1qV0E5bDk1WE9PUy1mVmVuVlRiR1M3T3Zad3g2dDhsOGtCVzYtQ2xPQnJhZjg5TGhXU04tcmlnY2o0UWlrRzJXOWppcTduWEZxMDVrN2doQjk2Ul9jRWR2ZEZHOVlIQ0g?oc=5",
-      "src": "Nilepost",
-      "domain": "nilepost.co.ug",
-      "time": "12 hr ago",
+      "title": "Don Toliver's Show in Manchester Evacuated After \"Unknown Substance\" Released in the Crowd",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPZFg3SlFxbGhnMXhGOHhmeXBISjd2RDdEbTAxTkljbVloNVN3c0x3dVhIU1hZMEVzSURPWU1MV2FXZmd2UFhsN1BhdVlSQlZKTEVaOXU4aTVkRVI0YmlCZFhXV1h3dXJodm1jeVVhSUVycndranh5WVhGRzJSRkpvTjFaYVQ5M1FtVXB4Mk1zUW9welVSZVE?oc=5",
+      "src": "Consequence of Sound",
+      "domain": "consequence.net",
+      "time": "1 day ago",
       "cat": "Hip-Hop",
-      "hot": true,
-      "ts": 1795447455,
-      "tier": 3,
-      "n": 3,
+      "hot": false,
+      "ts": 1795447732,
+      "tier": 1,
+      "n": 17,
       "also": [
-        "Daily Mail",
-        "BBC"
+        "Tempo.co English",
+        "The Hollywood Reporter",
+        "Paste Magazine",
+        "Music Week",
+        "VIBE.com"
       ]
     },
     {
-      "title": "Metallica Give Back to Las Vegas With $200,000 Charity Donation",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNOEhNeExWbzBhOGhCakZUR2lBaFhHelRpNDFwNjQwYmtVcWJXN2pmRlNxMGZIRmk5SG1yNC1JVDBMbUtyYXBfbDA2Nkw3YmI0WU5UbERJUkU2SkFENmlQY2pPMTdzZmV2UmREZFJKQjZJbGhBUDN6aXJRV1l5b2lPVDVsN0p1bW5uTjJyWERWYm5xX2ZI?oc=5",
-      "src": "WRIF Rocks Detroit",
-      "domain": "wrif.com",
-      "time": "12 hr ago",
+      "title": "Watch Carl Cox and FISHER race LEGO cars at the Las Vegas Grand Prix",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNMlNUUlBYRWRnc2RWa0dydjRRRFVxNk45RGpxaFVQTDdYakxUaGNOMlRXSm93eGdjUjkwd1FXelgwSnlMWGxMa0pOaDY4a2RBbWJkVVVHRkp0MEcydVp3RHJaQVJlRnRyZ1REM1VCVkdKR1F6b2w0LUc2V2pyNkpKMHM0anZrS29IZlNrMg?oc=5",
+      "src": "DJ Mag",
+      "domain": "djmag.com",
+      "time": "1 day ago",
       "cat": "Las Vegas",
-      "hot": true,
-      "ts": 1795445072,
-      "tier": 3,
+      "hot": false,
+      "ts": 1795446240,
+      "tier": 1,
       "n": 4,
       "also": [
-        "94.7 WCSX",
-        "95.7 BEN FM",
-        "Yahoo News UK"
+        "WebWire",
+        "Forbes",
+        "We Rave You"
       ]
     },
     {
@@ -976,9 +2081,9 @@
       "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOUk1meUtBYU5QeDRyeV9yb3JKa09vVFpibEJkVFBYcE4zWExjcUNBYjllMmU0RlZIWTNxYmh1WFloMkxPOHhZbFdKcHlJSlBNZWNwVWhaMTRLWEEwR3k5VG5ySVh2VWlNTzF5andoVHJ1a08wMWlzTjlsOHZ2MGhJSXJGOUs2Z3V1TFZfLUhKQnhvZm9vdkhVbFFHdkJaMWZJeXIySTVvejdORkxnZ0ZpcWxicU9tX1hVbjNVd0ItUDRxbXZKcnlaTTVzNGhpc3NjNkZvS3JR?oc=5",
       "src": "BLABBERMOUTH.NET",
       "domain": "blabbermouth.net",
-      "time": "13 hr ago",
+      "time": "1 day ago",
       "cat": "Pop & Tours",
-      "hot": true,
+      "hot": false,
       "ts": 1795443407,
       "tier": 2,
       "n": 3,
@@ -988,19 +2093,19 @@
       ]
     },
     {
-      "title": "Garth Brooks Announces Next 2027 Tour Stop: ‘One of My Favorite Places to Play’",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOYksxd25EX0RiQ2UwMmdVbjdJcVZhZHdGQlg4dlUtdUoxQVFwRDdjUHpkSVhjZ3IwTHdfSWFNM0NlcXRqRlgwSW1lSTZaOU9HcWswd3J2aHk5SU91RFBacU9xcEI4Ui1KX2cwbUdDeWxHNXBUSlEtZGhrMjBtb3lmUHVjTzZicWhWUmR2X0dkMHJXOF9RanZ0VDBR?oc=5",
-      "src": "Taste of Country",
-      "domain": "tasteofcountry.com",
-      "time": "14 hr ago",
+      "title": "PISS announce more UK, Europe and North American tour dates",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNTm91RjNxc3E4a1pTSmpzbDF5dnBJa2ZicmJYTlBpelpTVkFRdEZfZVZWc1RuNHhTSGZxVFR5MkNISjIzV0UyTW0tUHh5aVBXblUzMzRoZndOYlloVTRtWGFuWkZoY1JuM0xVSldxbllGeHdXZFpEcXJJRE9NSHJ5b0FTQVY5VTBOVmc?oc=5",
+      "src": "Kerrang!",
+      "domain": "kerrang.com",
+      "time": "1 day ago",
       "cat": "Pop & Tours",
-      "hot": true,
-      "ts": 1795439357,
-      "tier": 3,
+      "hot": false,
+      "ts": 1795440641,
+      "tier": 1,
       "n": 3,
       "also": [
-        "99.5 WKDQ",
-        "Country Rebel"
+        "Treble",
+        "Circuit Sweet"
       ]
     },
     {
@@ -1008,9 +2113,9 @@
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQc1BuVzZObEhyYnBtNTA3RElMV2NiRm5QZy1ZbldyS0ZYWWJkdl8yc1VJeFA4cU1rQURURnRTc1NYU3JValpVcHNaVWIxdmxSY21KeEtUUVFKRmEzU1NnX0tyYkVNaTlOWHFJb0xMQ1d6bTVpeEFGZl9rX2kyZVY4bjdRZ3F2bUM2RXcyNldWUWl3SjhfLV91cUkzQmQtVElueHFiZnpfRWt0dw?oc=5",
       "src": "FM104",
       "domain": "fm104.ie",
-      "time": "15 hr ago",
+      "time": "1 day ago",
       "cat": "Tickets & Lineups",
-      "hot": true,
+      "hot": false,
       "ts": 1795436183,
       "tier": 3,
       "n": 4,
@@ -1021,30 +2126,13 @@
       ]
     },
     {
-      "title": "Hellripper announce UK and Ireland tour for 2027",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBEVHVZTkZyTlgzaU5NYXlHcTBHRjM0Mnh3czMwVUdWT093blB6X0dVLTZBVkVZY2o0emhjOU04S3ZGMXYxdkxQWXQ2SElDbTZEZE1NdmFsU3M0MmRJVU5qTEo5UFFNOHZFV21PdHJGSllrLV91dloxRndqSk0?oc=5",
-      "src": "Kerrang!",
-      "domain": "kerrang.com",
-      "time": "15 hr ago",
-      "cat": "Pop & Tours",
-      "hot": true,
-      "ts": 1795435541,
-      "tier": 1,
-      "n": 4,
-      "also": [
-        "Distorted Sound Magazine -",
-        "Mc Gig Music",
-        "gbhbl"
-      ]
-    },
-    {
       "title": "Who Could Get Into the Rock and Roll Hall of Fame in 2027?",
       "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE0xbEFfSWkzeXBIM0xUaEFLQ0pXQVc1RWh6YjhHSjZlMUtpZnl3YTFGRVhYR3RjY3dpalllZzA4Rjk3Q1NkbmZXSXJQSVJKQ3d0TTBOMTRxdlJNbzV1OTIxYTRQdUJYTXkydmVHdmxIUElBRTU5VEtzSGVIQ1o?oc=5",
       "src": "Ultimate Classic Rock",
       "domain": "ultimateclassicrock.com",
-      "time": "15 hr ago",
+      "time": "1 day ago",
       "cat": "Rock",
-      "hot": true,
+      "hot": false,
       "ts": 1795435121,
       "tier": 2,
       "n": 4,
@@ -1059,16 +2147,16 @@
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNaWVwRndIbjN3ejlCZUM1UWVtT0pFRS1HWjFncDFIZlFPeVFwY2otMUs0UmNMMklRVUZERTh1aF91Y1JKRFdTdkhWaXZLTUo5TmNVcVNVS0VPSnJrRVpXanpIeVdyWHVTSFd5NHkxbWt3aEVzNzRscllZQl96dkd5VHpHRWhDZ0s1aldqRU5IZThjNEJCV0IwRzNWUUZreVJWbVc1STNjZE1mZHU4SEk0Z2JDZw?oc=5",
       "src": "NME",
       "domain": "nme.com",
-      "time": "16 hr ago",
+      "time": "1 day ago",
       "cat": "Festivals",
-      "hot": true,
+      "hot": false,
       "ts": 1795432546,
       "tier": 1,
       "n": 4,
       "also": [
-        "mxdwn Music",
-        "DancehallMag",
-        "Real 106.1"
+        "Real 106.1",
+        "شبكة تواصل الإخبارية",
+        "1001Tracklists"
       ]
     },
     {
@@ -1076,1024 +2164,17 @@
       "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOc3dVMjV0aThLQlQ4Nk1NbXctUDFLb1hxenZGYlptcW1rQmdvcGVtYzJVNTdMa0RQVVpSLUtXTDF0Y2tkS3RRUlI3WUVOYWRValF0WlRiYlJtaEtoZ08zbjVqR0JOYW1VZE05ZUN2T3ItWS1ZV3ZNT3N4SlliSEl4V0hGOUxaeWJhZlV1MnVsVWEzV0I3Y1h4WUd3?oc=5",
       "src": "Complex",
       "domain": "complex.com",
-      "time": "17 hr ago",
+      "time": "1 day ago",
       "cat": "Pop & Tours",
-      "hot": true,
+      "hot": false,
       "ts": 1795428048,
       "tier": 1,
-      "n": 4,
+      "n": 5,
       "also": [
+        "USA Today",
         "Hip-Hop Wired",
         "The Source Magazine",
         "People.com"
-      ]
-    },
-    {
-      "title": "Craig David To Bring ‘Born To Do It World Tour’ To Manila In May 2027",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPWlpLY3Mxemp3SjFqMy1Dd1ExWFMtMHYzdHNyRkVRUUJMZ1hydHhLMlNQbGFyRUVDeDRVMHUydWVvSWxqWEN1U2lLbURxUGpPeENrOGlSOV9kNTk5LVpObVZwN2pLMjVPTnQzbDJaWmtzTy1HWmlYeFpQRGxEX3dfdjNNUUJfbkhheDlSekVHWlFOdDV3RVhMLXVHRk5JanpIX0dYMFl5aEpaQmYzTDlWcFdR?oc=5",
-      "src": "Billboard Philippines",
-      "domain": "billboardphilippines.com",
-      "time": "17 hr ago",
-      "cat": "Pop & Tours",
-      "hot": true,
-      "ts": 1795427880,
-      "tier": 1,
-      "n": 3,
-      "also": [
-        "Philstar.com",
-        "Inquirer.net"
-      ]
-    },
-    {
-      "title": "IU to Make History as First Korean Female Soloist at Tokyo Dome, Announces 2027 World Tour",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5peEJvQ0JnZFp3b3NwNElkd0pTVEV5VDlCdUZRdWl1bkFLNTExMDlObm1LVHhJWmtIZllnaDVCblZ6OV9LYVlXTXVVUGd1SUVKUWUtcnB4X1JjRUU?oc=5",
-      "src": "씨네플레이",
-      "domain": "cineplay.co.kr",
-      "time": "19 hr ago",
-      "cat": "Ibiza & Global",
-      "hot": true,
-      "ts": 1795421460,
-      "tier": 3,
-      "n": 2,
-      "also": [
-        "Korea JoongAng Daily"
-      ]
-    },
-    {
-      "title": "Rewear, restyle, reinvent: Eco Fashion Week puts old clothes back in the spotlight",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQMlBDU1hLUUNocVQ2SmN2a0d6c2JLNkl3RUlnb0w3SHJtb0ZOY0xJWlNNeDhHTGJ2Ml9Eal9nVVp5Um1Fd2pLZzhpbE0wS2RURzl2WnFibUtZQnZjN1BON29zd0xxdG50UWhMaVBMbE13NzhHc2FzUWNaZm5JTlJtbzFZbl9jUnhNWjJJTnVrVXRwVHVxQlFRck1GQl9YU0FiTTh5eHQzRzJoRTFQSnhBZGhxVHJpTjF6OVk0Z252clFNeFJhdDlZTzJELUVPQkVo0gHWAUFVX3lxTE9rRUxuaHlHQTVwNEV4U0FNTFdocUZmRFdZa3YtV0d5a2JsUEtQOWt1bFdYcWFpbFJRa3QyaVR6cTJNMU05SUdDY25iejN6TEdOcW5VVzBJemNxNVh2MGs1a3NkSjRzOWVfcEU4TTRsLW9ZOE05Sk9YNXV4UGdIRDAwUWFLMGFyOXQtdWR2VGJfbnBWUzQ5Y0hvanVJQkdsa08xWm9jNmlqcUFua1JJWXU3NWt0WGgxOEVXTU1OampRNEhHSkhCN2NMNzUtNTNMQzQ4RUtoc2c?oc=5",
-      "src": "TNX Africa",
-      "domain": "tnx.africa",
-      "time": "20 hr ago",
-      "cat": "Fashion & Swim",
-      "hot": false,
-      "ts": 1795416655,
-      "tier": 3,
-      "n": 1,
-      "also": []
-    },
-    {
-      "title": "Listen to a DJ mix from a scene in A24’s Club Kid",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNTnh3TTV2U2ZzVFN3aHpoVDVNV0ZwN3BzMlRQRHFsellPLVg1d3h1MTlmSnQ4OWV4RWlJSGVpWDhSbTZRN2hoS1l4YVFRRVdfN21RLW5KajlnZnFkSDZFTGdmMVlaekl1RmtWaHMyc3J5R2l3UWxBQ2lqTndDZDFrcEtsMUdwLWJWbGNLYzFBMWh6RmN2R1JReGVXX21RT0UzcEhEZHpDVVQyU3lDZ2c?oc=5",
-      "src": "Mixmag Asia",
-      "domain": "mixmag.asia",
-      "time": "20 hr ago",
-      "cat": "Retro & Culture",
-      "hot": false,
-      "ts": 1795416635,
-      "tier": 1,
-      "n": 1,
-      "also": []
-    },
-    {
-      "title": "Singer Roy Kim sold out all of his first KSPO DOME solo concert since his debut and met with more th..",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1UOXQtTTJ6cW1oa0ZXY0pETUswVDJval9oNU5DSXI4azlTcFRKdXVMREkwUjdyTE1OcTB2S1JsRmxFcEhJS1pGeHlzbW5sdGg5WTZjYw?oc=5",
-      "src": "매일경제",
-      "domain": "mk.co.kr",
-      "time": "20 hr ago",
-      "cat": "Tickets & Lineups",
-      "hot": false,
-      "ts": 1795416314,
-      "tier": 3,
-      "n": 1,
-      "also": []
-    },
-    {
-      "title": "Resorts World Genting to host three-night Hello 2027 countdown festival",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPM3ZBc2hFUEkyYWNBZ0IyeFEtWUh0WDJNR1RWbmlQUEhxVjJvLW9yTFY3aEZjaFhMYjJOWDA1WWFuSWMyRlg2UVVWbmtraHUxMnZscHlweUZJMnZRVlI5SFphR0JEbUt2UWNjUXoycm9qTUhLWlZTV2VKeHgzS2lLai10bDhtdW1GM0ZIZks5blhZdl9ZN3AwZVJBbTlRX21tZ3ZqblpQdDk3Y28wMk05NHM0STRJOU1YWkJMYU9fSmdfV1MzUXd5VUhkRmfSAcwBQVVfeXFMTzN2QXNoRVBJMmFjQWdCMnhRLVlIdFgyTUdUVm5pUFBIcVYyby1vckxWN2hGY2hYTGIyTlgwNVlhbkljMkZYNlFVVm5ra2h1MTJ2bHB5cHlGSTJ2UVZSOUhaYUdCRG1LdlFjY1F6MnJvak1IS1pWU1dlSnh4M0tpS2otdGw4bXVtRjNGSGZLOW5YWXZfWTdwMGVSQW05UV9tbWd2am5aUHQ5N2NvMDJNOTRzNEk0STlNWFpCTGFPX0pnX1dTM1F3eVVIZEZn?oc=5",
-      "src": "Malay Mail",
-      "domain": "malaymail.com",
-      "time": "20 hr ago",
-      "cat": "Las Vegas",
-      "hot": false,
-      "ts": 1795416298,
-      "tier": 3,
-      "n": 1,
-      "also": []
-    },
-    {
-      "title": "Fontaines D.C. are taking us on tour with 'Mimesis' music video -",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1Kem1LX3RmRl8tMjRGclN5WWlMT1FRWXFEdWlYUS0wWUdjY0c4ZkFwOW9mZmtpcklBWHpVNFowU2w5N0MwbEEyMjJCM2Vrcnh3RWIzN0NOQWk1TjN5ZVdwUlJLMDRLN01SOGpPWV9LNGllMzA?oc=5",
-      "src": "Happy Mag",
-      "domain": "happymag.tv",
-      "time": "20 hr ago",
-      "cat": "Retro & Culture",
-      "hot": false,
-      "ts": 1795416099,
-      "tier": 3,
-      "n": 1,
-      "also": []
-    },
-    {
-      "title": "News: Paloma Faith Announces New Album In Full Colour And UK Tour",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOWU1NRzVJb0V3cGhwUDBTT29pT0JBUl95WFRzN2pPczhFWkFuQXhpOXJZSFk5dUd4OE5ZN0JGWjlPbGc2aWl6ZTFLN1pIaWpCcmREeVVzWlhnNkJjRmJBdzMzdy1nbk9VRmdUczVRMkRNUkVtV00zcnpUZEtnVHUxd0RJYUNqQUhLU2JhTktHLXZTYThCY0ZxNVNR?oc=5",
-      "src": "Renowned For Sound",
-      "domain": "renownedforsound.com",
-      "time": "20 hr ago",
-      "cat": "Pop & Tours",
-      "hot": false,
-      "ts": 1795416065,
-      "tier": 3,
-      "n": 1,
-      "also": []
-    },
-    {
-      "title": "Sold-Out Holiday Fashion Show Celebrates Eight Years of Style, Giving, and Community",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPX194dU9kQl9waldkd1JRUlFqbWlNRGpXaEw3NjN0emVZY1BOMnllenQ5Q3BONWdjNndpYWZ5Y2tpb0lMeEh1OFdiZ1p0VlNYZk02MXdmOWk2MGtIM21QOTJ0MGROQkJSVG9IWTlsQU90U2JuS0wwcUN5amUwWVUzT0JBdTloeFhESUhzTzMwWmxRUTdnaF95dHdRRnVManFQZ21RRWk5MXZUTW5yNFN4UVE1aWxCZWFCT2o4SmktenRabUs2LV9VbGdxSUJmUW8?oc=5",
-      "src": "Excelsior Citizen",
-      "domain": "excelsiorcitizen.com",
-      "time": "21 hr ago",
-      "cat": "Fashion & Swim",
-      "hot": false,
-      "ts": 1795415877,
-      "tier": 3,
-      "n": 1,
-      "also": []
-    },
-    {
-      "title": "What’s On: GABS Festival returns, Wine Australia project funding, & more",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOZFdkYWxqQkxZV3ZBZ1ZLSGJZUmZwbGFVTEJJTkVUdnpWdWs2eURvMmxsR2dHaHNXem9remtuUzFoMTdheXI0MkwySVNrM2t6RVQyMkxMWlZ1VmI4OURRQmFxbEhiNlNNVU5TYVNEM2ZWa3RGUjFWTjJOUmJ2TkZIYkdKck1VdENiRklSaU53TUZrZURjQWxwMjBMUWY5OU5LSFZRUnhR?oc=5",
-      "src": "Drinks Trade",
-      "domain": "drinkstrade.com.au",
-      "time": "21 hr ago",
-      "cat": "Festivals",
-      "hot": false,
-      "ts": 1795415867,
-      "tier": 3,
-      "n": 1,
-      "also": []
-    },
-    {
-      "title": "Karan Aujla to Headline Day Two of HOMe Music Festival in Goa on December 30",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxON1VnVGs5XzhMQTBpNllneFFnZVZJSmtJd1B5bWhyckVaa2YxOWhybzZDYnBoMXp4azRYeko1d2EyMk5sNFJTV1MtZWM3NVFqakgtV2lwQTVRRHZvbmp6QjNVQnFqOWl6cDA4anZZZGFLZjFGTnJPazdQLXZQdlNHY2hDbnFDUmVKSUk1QkJGTFk4V0lVVkJ0NVhLWlkzQlFwbzBkMXpwaEhTdw?oc=5",
-      "src": "Punjabi Mania",
-      "domain": "punjabimania.com",
-      "time": "21 hr ago",
-      "cat": "Ibiza & Global",
-      "hot": false,
-      "ts": 1795415601,
-      "tier": 3,
-      "n": 1,
-      "also": []
-    },
-    {
-      "title": "Paul van Dyk - VONYC Sessions 1046 2026-11-22",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPUXZJQk1ucGxGY0FDZkJIXzFzemJhTzRiY3U5MkR4Sk14UHJqUjd2cmhrVElnaGlHQTVoLVVmNGw5YXl1R3NzY0ozRHd6MHFMWnl0LWM0MW1hcnMwX1ZvSzlzTmVRXzhTOHJOcVBSRGFROC1pSHlXV09HTEQ3enBmVHVZeHRuV21tZWtyMDJmRl9WdFJmNm43ZEtXWmc5dw?oc=5",
-      "src": "1001Tracklists",
-      "domain": "1001tracklists.com",
-      "time": "21 hr ago",
-      "cat": "EDM & Dance",
-      "hot": false,
-      "ts": 1795415527,
-      "tier": 2,
-      "n": 1,
-      "also": []
-    },
-    {
-      "title": "The 37 Best Pop-Punk Bands Of The 2000s",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9DX3QteDZ5RjFfWHRPd1FRSmVUR01YbFFRUko2cm01WUgtWDhId0RrejNkNTJfaTQzV2NpVTZLQlNONDBMRXlZSW5HZjBnckFaLUdJWUJHV1RQWjZ6NmVyTU9Ocw?oc=5",
-      "src": "Ranker",
-      "domain": "ranker.com",
-      "time": "21 hr ago",
-      "cat": "Rock",
-      "hot": false,
-      "ts": 1795415525,
-      "tier": 3,
-      "n": 1,
-      "also": []
-    },
-    {
-      "title": "Clockenflap announces daily schedule for 2026 festival",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOZ0h0Y2dfSVNaUG9GMGV3cVgyN096V05vMlI4dDEzM2NZOWs4U2wxQ1JvcDJjYzlraktQbWVXczFMMlNxbWMyV2UyMGdVa0R1UGp3Mk9jZ0JjNGFQQVJhajM1QUEzRUJfWkxtd1ZzbnJVTDlxMHJ0Y045WlZLT0hSMnMwWThqM0thN0hGcWRsaU0zR2VkT1BLV3Q2WFJMUTg5c1pzUFBlZkpKYW5RTDVqSHJn?oc=5",
-      "src": "Mixmag Asia",
-      "domain": "mixmag.asia",
-      "time": "21 hr ago",
-      "cat": "Festivals",
-      "hot": false,
-      "ts": 1795415295,
-      "tier": 1,
-      "n": 1,
-      "also": []
-    },
-    {
-      "title": "8 Ball Radio presents: In the Pocket at Trenta Formiche, Rome ⟋ RA",
-      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE1hQWdoVkUzVHFiallfTm9NOUU4LWtqYlZRY0NDSWJhRkN3VnZ5dGtnVG9vc2pxUFZkWHVfdGRMTklMdw?oc=5",
-      "src": "Resident Advisor",
-      "domain": "ra.co",
-      "time": "21 hr ago",
-      "cat": "Techno & House",
-      "hot": false,
-      "ts": 1795415024,
-      "tier": 1,
-      "n": 1,
-      "also": []
-    },
-    {
-      "title": "Kate Moss, Rosé and Charli XCX Suit Up for 60 Years of Saint Laurent's Le Smoking",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQWE53WEwyYVJQTFhFN2tVeHhuQmJiQ3d4NVlMX1pXOFB6Qi1RZGRXbGx1WjRvazRXbVhLQVhRejN4cmJfWWU4dmpzcFFLemdBT3VkSy1yZ094MVRKMkh2UVhJQnl3aV8zUzQ1ZUliTFFrMUk2ZzdKX2tuaGdfY1B1aC05N1dlM05Ka0llTEtGVQ?oc=5",
-      "src": "Fashion Times UK",
-      "domain": "fashiontimes.co.uk",
-      "time": "21 hr ago",
-      "cat": "Fashion & Swim",
-      "hot": false,
-      "ts": 1795414872,
-      "tier": 3,
-      "n": 1,
-      "also": []
-    },
-    {
-      "title": "SM Entertainment holds 2026 SMile Music Festival",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBxcWpnTDJPeWtLS0NrN2w0cjc4WmtjOW95b2RETjdRY0xxbjRCOWNVWnpsVG41aEl0Z1JuS2N4cDVkLUtpcHFsbFYySVdyT21USHhfYWVUcW1aMVJX0gFXQVVfeXFMUExzVXctSmt2LTNmN19CdHExa0lkZVhXRi04MkNrYVhFNEJLS0FXQ0tKWHpHaHNMblREdGh0RFdCcEtTeG5RQ1hobjRtLTFTZjdCa2NJVGMw?oc=5",
-      "src": "K-VIBE",
-      "domain": "korean-vibe.com",
-      "time": "21 hr ago",
-      "cat": "Festivals",
-      "hot": false,
-      "ts": 1795414830,
-      "tier": 2,
-      "n": 1,
-      "also": []
-    },
-    {
-      "title": "The Residents — Nov 25, 2026 · Ventura, CA",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQa28walFMdXBONWlyRFEwNzYyLVFobjU2UnF4MkdfRjg1MUI5QWtFWUtVN1BiZks5YXRnNTRrZDVUR0RNZklZa0Y3X1BjaDktcXI3eElkM2NHY2d0TXJlOVJZOTJxeG81Q0Y1MllEXzJOZ2ZTeWd3WnJNWDJmMFJIMU5FWnRQZFpGWnplbGlmTHMzZXBiMEZRYlFBZw?oc=5",
-      "src": "Music Festival Wizard",
-      "domain": "musicfestivalwizard.com",
-      "time": "21 hr ago",
-      "cat": "Festivals",
-      "hot": false,
-      "ts": 1795414368,
-      "tier": 2,
-      "n": 1,
-      "also": []
-    },
-    {
-      "title": "Skepta Sweeps The Top Four Spots On The Official UK Rap Chart",
-      "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBnWXAzSTgtZkh3V1Zrajd5TnJfbW9MdUVsMDM2U3lsV0FjOFV5VlVNYVRxR0xVaGNJdVlacHluSmptR1lVVzdv?oc=5",
-      "src": "AllHipHop",
-      "domain": "allhiphop.com",
-      "time": "21 hr ago",
-      "cat": "Hip-Hop",
-      "hot": false,
-      "ts": 1795414011,
-      "tier": 2,
-      "n": 1,
-      "also": []
-    },
-    {
-      "title": "Fashion historian Laura Fitzachary: ‘I hope the Dior show tilts the world’s lens to Irish fashion’",
-      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQSlpORHhDMVF2MS1ZRU81VTBweHdQZWFodmFfeFBSd1ZoMzMyOE5EWGJ3bUR3UF9nQmYwQ2lEZEctdkM0b1ZudE9yXzJhRFgzMGxEeE5Ydjc0enVHcVI3LVl1ZXZWTFVvaWVNcUhOWXF5alhOOWFpNGo1VmtTT2V0WVVQZkdrVFdodFJFVkhVbi10MTR5M1I3QmFySlpPWXY1NTRBdG9NQVBoVUI3eHdhb0U2RmtJXy1LNGswQm5aQ1Z3c3E1b2QtbzRHdDBlU3ZOTkZkWDFBbk53WWtYRGxuMDhPWGVEQQ?oc=5",
-      "src": "The Irish Times",
-      "domain": "irishtimes.com",
-      "time": "21 hr ago",
-      "cat": "Fashion & Swim",
-      "hot": false,
-      "ts": 1795413865,
-      "tier": 3,
-      "n": 1,
-      "also": []
-    },
-    {
-      "title": "Dance/Drill: Celebration of Dance; Eastside Dance Festival",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNVjRjYWM0THc5bVlGYkFsSzFZSXZYXzVYakl3azRYdnJqRjNKNXNLSFNMUmVNZE9kZTRLWEl4UGFDdDB5V0Q4SGVTLVFaZDFqcnNMNmhGS25iUlB4YURyWElRWFdWcHVRRnUtZmFmM1J0WWZhcVhIRnFBRW9wMk5uaVp2NnA5Tm9CaVRxYzI5OFBNN2xsV0VSd0ZER3hOTnVrUi10dUZnaEtqeUNhcmw2cA?oc=5",
-      "src": "OSAA",
-      "domain": "osaa.org",
-      "time": "21 hr ago",
-      "cat": "Festivals",
-      "hot": false,
-      "ts": 1795413658,
-      "tier": 3,
-      "n": 1,
-      "also": []
-    },
-    {
-      "title": "Isaiah Rashad Admits to Feeling 'Kind of Depressed' After Returning Home From Tour",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPRHpxVHNxMEZLYnB0ZGYzTndwTzZkbC12dHhjcm43Q0dpTF91ME5keGEyTVJlWjJPTnQ4YXJ3TmNwelZOU0hReGxjbzlWQXhUMjVIZ21XRi1DRV9kVXB4bC1Fb1dsdFBSRFBtbFEtWWxxT3pOQVBsWnlpbXlCT2laVkVZZ0JBbS04ZDY4RkJ2VFJ6NHZjNVE?oc=5",
-      "src": "Complex",
-      "domain": "complex.com",
-      "time": "21 hr ago",
-      "cat": "Pop & Tours",
-      "hot": false,
-      "ts": 1795413646,
-      "tier": 1,
-      "n": 1,
-      "also": []
-    },
-    {
-      "title": "‘Tobacco Road’: the story of a British invasion one-hit wonder in 1964",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNb0QwQUhONE5qVXcyaVJmV0FPeE9zeVhyeFk0Q0FqWkVYQXJtRGtpcGpyVEZ0amZIcW5kY0RyWlJEN0hZa3Bnd2QycUdKVFZfQXZzOTZmd1VoWWZkejE4ZDZjenVXZnd1YWl0aU91ZHp0R0tTc0REV3pQRTI5WU5BREUzenVkQQ?oc=5",
-      "src": "Far Out Magazine",
-      "domain": "faroutmagazine.co.uk",
-      "time": "21 hr ago",
-      "cat": "Retro & Culture",
-      "hot": false,
-      "ts": 1795413600,
-      "tier": 2,
-      "n": 1,
-      "also": []
-    },
-    {
-      "title": "I’m Blackpool through-and-through and I want to see Duran Duran and Tears for Fears at Seaside Love Festival",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQVEVzd1VTRXBEOWZPVFpqOExnQ3ZrQUZ6UHpYUm5Jek92TjBrOHUwQ1hJdEJzVGJFQlRxYnVRRUUxajdEMWgxQTNnQ0Rva0dJdURtSXZodXJkLS1HdjhPSFYxWFFGVk45dmY4V0o0ZmZqLV9wY2s3bkJPelJOZG5USkdUc1VrcHVJcDA0RHNvZGY3Mm9lMFlrUnlYVmwwWkFQOU94QXB5dkFiRWFMT0wwb1BTZ2NaZVhtTmtuVnZUTU0zdEJiQUE?oc=5",
-      "src": "Blackpool Gazette",
-      "domain": "blackpoolgazette.co.uk",
-      "time": "21 hr ago",
-      "cat": "Festivals",
-      "hot": false,
-      "ts": 1795413600,
-      "tier": 3,
-      "n": 1,
-      "also": []
-    },
-    {
-      "title": "Four Shifts Reshaping Fashion and What They Mean for the US Cotton Industry",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxONVlfNDZwTEtNMWxVTU9YbWxGWDcwVmtGSTh0RTl6S2ozMlRHNUhlNnZ5amZSdmg4QXhxNnQtMUZ6NTNDQ18yamlnOEFKVHRpU0hwZVAtbU10MENBSzZaRW1RY0l3ejhyM21Bc3V3Y3dyR3JtY2IxcGw3VDVZUC1kLUg5WlBkSTd3VUJGdmJSaTJ6b3BSb0RzYV94aVZJTmJQcWN2WGNLcUdQb2M?oc=5",
-      "src": "The Business of Fashion",
-      "domain": "businessoffashion.com",
-      "time": "21 hr ago",
-      "cat": "Fashion & Swim",
-      "hot": false,
-      "ts": 1795413600,
-      "tier": 2,
-      "n": 1,
-      "also": []
-    },
-    {
-      "title": "The wool industry: Should fashion go vegan?",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNZE1HY1NyNTNrdnk0M1F3U1dMXzZVZW5PUGZGRUJjNk1TRWxJcEs0R3NFTVVoWmhCbWJXUHlCYlNMM1NtTEVDNTNGWTdxTzFERE56UzBzMkprbmNhalRzM2FNRGd2MDhKbF9QWVQ5N1FXLWxILWhBRjNubmtHQVRlVU1wNjA?oc=5",
-      "src": "The Mancunion",
-      "domain": "mancunion.com",
-      "time": "21 hr ago",
-      "cat": "Fashion & Swim",
-      "hot": false,
-      "ts": 1795413600,
-      "tier": 3,
-      "n": 1,
-      "also": []
-    },
-    {
-      "title": "LOD Nepal NYE 2081 at LOD Lord of the Drinks, Nepal (2024) ⟋ RA",
-      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE10VXFMdkJuNU01X1MzZmtKallicjR2VVpydWJGS1Q0bi0wNXphaXVhNVlVN0RsLXdkal9jOVB4bzhpUQ?oc=5",
-      "src": "Resident Advisor",
-      "domain": "ra.co",
-      "time": "21 hr ago",
-      "cat": "Nightlife & Clubs",
-      "hot": false,
-      "ts": 1795413332,
-      "tier": 1,
-      "n": 1,
-      "also": []
-    },
-    {
-      "title": "KISS Country has your 3-day passes to Tortuga Music Festival",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPUEVNcWRNd3ozSXlvaVJTaDM2YW9UZXBsWGttNEZNRFBjUjJFdFdKTHloM1VrYk5aempJLVF2Q1dmX2psVndJYjJ6MFZaMnFtM0xaWTNTWXJ6Y1gybUh1X0podTdZYk9GQTRPYTUtcFRxTU5kTF9DaUI4TklnLWFFOU9HazF4ZS0zY3UyLTVaUzQzV21MWFhtQkE1NXAtV1ZpZG9ZbXpGdm1qLVF4?oc=5",
-      "src": "Audacy",
-      "domain": "audacy.com",
-      "time": "21 hr ago",
-      "cat": "Tickets & Lineups",
-      "hot": false,
-      "ts": 1795413199,
-      "tier": 3,
-      "n": 1,
-      "also": []
-    },
-    {
-      "title": "Don Diablo and Wax Motif Remake a 1996 Classic on “Rock The Funky Beat”",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQd2UzWlU1SE9vRmhLeURKWjBxVlNER2Y3WEo0a1dIQi1QQ0V2ZHhfZUJRa2lza0R5SFM5Wnk5QkxuVzBuSkpDc1J1ZTJnZHVaU3dMTVJoQmM0a1ZUaEN3XzFoQ3IxbFBSbjlvel91d0NYNkEzdk5VY3ZyeTRqU2FzT29QTlBEbnV6MlNjMk5LemNRaTlBS1Ytb2Y4VDExdzNITGY4?oc=5",
-      "src": "stupidDOPE",
-      "domain": "stupiddope.com",
-      "time": "21 hr ago",
-      "cat": "Rock",
-      "hot": false,
-      "ts": 1795413057,
-      "tier": 3,
-      "n": 1,
-      "also": []
-    },
-    {
-      "title": "Billboard U.K. to Launch Inaugural 40 Under 40 List, Host Honors Event at Manchester’s Beyond The Music Festival",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOcUdFa2Y2T1JSa1dDOXlYY1VJbWs0SnZJTUlsczBvSFlYYVhWeDdRNlNvMUI3S0p3R1pxYjJ6bDZUV3d3NkhMQVlVejVUaVFSVGlzb2h3REZrOWFPcGJ5M2p5U2VtLXVGNXpaclhNbDcxZC14UF9KamFWSlA3RjhyYVdJQQ?oc=5",
-      "src": "Billboard",
-      "domain": "billboard.com",
-      "time": "21 hr ago",
-      "cat": "Festivals",
-      "hot": false,
-      "ts": 1795412887,
-      "tier": 1,
-      "n": 1,
-      "also": []
-    },
-    {
-      "title": "Praise The Disco Ball at Baby's All Right",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPeVdKUTJQYkh4c0stcVVIaXRVT0tmUS1kSjVEOTFicVpadlY5eTVlZG5mVmVWY095SXc1NDhsWTRaZ3hQM1ROaW0wN1VGZlBoZ1RhaER3Q09kSzZscW9JMDBEUTF4bHFOekV2NUx2dTc4NE52NXA2X1paR1BZNmI3YnhfeFpNOGZqMmo0?oc=5",
-      "src": "Brooklyn Vegan NYC Shows",
-      "domain": "nyc-shows.brooklynvegan.com",
-      "time": "21 hr ago",
-      "cat": "Rock",
-      "hot": false,
-      "ts": 1795412850,
-      "tier": 2,
-      "n": 1,
-      "also": []
-    },
-    {
-      "title": "Kenny Wayne Shepherd — Nov 22, 2026 · Fort Wayne, IN",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNcnZxTXY0X0JYN3Y5S2tKQmM5N2NGYklmbXVMbnpCazJUOEpLMEdZeUNCSkNncEJwX3ctSmFGUjEybGI1R1lxS2Q5X01ZNjcyWHIxVmg3VWRDeW1HTm56NWtpZlZHaDBJUGVoN0lVLW9HYVlIaEhhVTJDQlZvc0xRbUZ4SXduRGg1c1hTRzcxeUhDdUhaSWRPakZKeC1tdEJSdFlKa3lrRlg?oc=5",
-      "src": "Music Festival Wizard",
-      "domain": "musicfestivalwizard.com",
-      "time": "21 hr ago",
-      "cat": "Festivals",
-      "hot": false,
-      "ts": 1795412704,
-      "tier": 2,
-      "n": 1,
-      "also": []
-    },
-    {
-      "title": "For one day only, a street becomes a music stage in Thirroul",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNZ1VWLXJHbW9NR2o0VERSWlhnem5nMGg1eFp5Mm1DR05BckpvZW5pc1NVN3NNN1ZXN2pFbEp6UjlXVFFEdjh5Qndyem9YR1dJVzBhMzdyWFNCNENuMVJFcUF2MlVrUE5ncENORlZIcUNhMGp3MHMtM0xjZDl5bzZSTGlaS0ZBazFseDlsU3hmbFo5QXJXSmpORE1JcDdPdw?oc=5",
-      "src": "The Illawarra Flame",
-      "domain": "theillawarraflame.com.au",
-      "time": "21 hr ago",
-      "cat": "Festivals",
-      "hot": false,
-      "ts": 1795412696,
-      "tier": 3,
-      "n": 1,
-      "also": []
-    },
-    {
-      "title": "Monsta X Encore Concert — K-Pop Group Wraps Up World Tour",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9oenY4TENXVEJQLVJRNEVzTUIzdzNyZm00VklndnhFQk5OMWtQQVVMZE1XUFJ5SVJZSUlTeVVfUk5Lb0dtSUhWUEcwWjNBaTEyWFVEZnpIMTRmVS01eGxN?oc=5",
-      "src": "The Korea Daily",
-      "domain": "en.koreadaily.com",
-      "time": "21 hr ago",
-      "cat": "Pop & Tours",
-      "hot": true,
-      "ts": 1795412652,
-      "tier": 3,
-      "n": 2,
-      "also": [
-        "Chosunbiz"
-      ]
-    },
-    {
-      "title": "Lisa takes wheel of LEGO Ferrari at Las Vegas Grand Prix",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1XZTUxb09JOE5pcWtNdjRGMzZodEtMb2ZLc2Z5Q1FhNm05bVZIaVJBRzZoUnhZWGRMb0xrM0hiNkF2d3AtQXhTVUszaUViVm94MkxSbTFkWjhEVEtfTl9DQzRTQmxIbE9FR0E?oc=5",
-      "src": "Nation Thailand",
-      "domain": "nationthailand.com",
-      "time": "22 hr ago",
-      "cat": "Las Vegas",
-      "hot": false,
-      "ts": 1795412040,
-      "tier": 3,
-      "n": 1,
-      "also": []
-    },
-    {
-      "title": "Marshmello’s Sneakers at Lollapalooza 2021 #SHORTS",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPSTAxb1d1eE9fVlg0YTdDTjB3eERDZFBOUFNvWmZVODhuYmNYLTA2dkJnTk9BMXhYaXVqX2VtdWxtMEt3M0Q3QzJZN3lQQmF2OHFzbXRTdjFhckd3cHBjX3RMeXdidFIzdFJ4Y3M1RkEtT1ZvS1ROdklLaUhjM21ENlZZYncxdjhoOEZEVWhHQVdzSi0yVWRqWGJGRS1XcTg?oc=5",
-      "src": "Yahoo",
-      "domain": "yahoo.com",
-      "time": "22 hr ago",
-      "cat": "Festivals",
-      "hot": false,
-      "ts": 1795411980,
-      "tier": 3,
-      "n": 1,
-      "also": []
-    },
-    {
-      "title": "HD Pics: Sexy Ruhi Singh’s patterned swimsuit and coat own the ramp –",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQZ3RicEJQbG5Md2hGT0k4eU5NRU95RURTclRyZWNEMmZYWC1JTFJMZXBMTjJrV0t0YjI4RkR0TXpiWXR5VkU1Z0dQYUJtcWM0cmNFRGh0U2s3RG1YU3JFYmpHYmdwUlFMN1VwVm9TWnVPWTRWQW1wNnM0elM3dml2c0ZkMl91V0tIaG5UanhrLTI4TkMxRWx2ZG0zOUNzOV9H0gGgAUFVX3lxTFBndGJwQlBsbkx3aEZPSTh5Tk1FT3lFRFNyVHJlY0QyZlhYLUlMUkxlcExOMmtXS3RiMjhGRHRNemJZdHlWRTVnR1BhQm1xYzRyY0VEaHRTazdEbVhTckViakdiZ3BSUUw3VXBWb1NadU9ZNFZBbXA2czR6Uzd2aXZzRmQyX3VXS0hoblRqeGstMjhOQzFFbHZkbTM5Q3M5X0c?oc=5",
-      "src": "MovieTalkies",
-      "domain": "movietalkies.com",
-      "time": "22 hr ago",
-      "cat": "Fashion & Swim",
-      "hot": false,
-      "ts": 1795411837,
-      "tier": 3,
-      "n": 1,
-      "also": []
-    },
-    {
-      "title": "IU Announces 2027 World Tour! Hong Kong and Taipei Are Included, First Stop Kicking off in Bangkok This January!",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPaEt0VjlCSVJNZ3N1c1V0QUcza0RlY0dJbENNWWIxNmk4RGVaallPN2hNNWtMSnRmN3BhLTg2ajZ5VzE3aDV6alREWGstX3dSbjdrd1ExbG5zbGxudHNGUHM2aUZqaGpaYnVlcUliR2NyWC1BeGh6ZUZqa1pLdG9IeThJQ0c3VUU?oc=5",
-      "src": "Popbee",
-      "domain": "popbee.com",
-      "time": "22 hr ago",
-      "cat": "Ibiza & Global",
-      "hot": false,
-      "ts": 1795411830,
-      "tier": 3,
-      "n": 1,
-      "also": []
-    },
-    {
-      "title": "Prince’s concert movie to play original Las Vegas showroom",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPMVp2aThaZG41YjV3b01wa0IxeTdwLTkwem1wc0lIMmZNV1luRzR5SWtYbW9qVXBxQmxPUmFRbDZPejdWeHJ4MHRLeTg1LTFSMVg1MVJHVER3bkdrOWlQTFJRS3c2clhScmczU2pBX3BfWUJ3ODE5UzBYVmhidkZiMHFjVlBCT2VBcy1QRG1HT2Y1Ml92T0pWREYzczdoLU1wN2hzcQ?oc=5",
-      "src": "Las Vegas Review-Journal",
-      "domain": "neon.reviewjournal.com",
-      "time": "22 hr ago",
-      "cat": "Las Vegas",
-      "hot": false,
-      "ts": 1795411476,
-      "tier": 1,
-      "n": 1,
-      "also": []
-    },
-    {
-      "title": "IU Set for 2027 World Tour Across Asia, Australia: Who Is She?",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQMGMtdnhyTkhWa0QwX0hCSGdkRFE1QTNKUkJvVFpacWI5emVGQVpEQUNZaUl4Skl3ZU9BUFpORVNCQkVuQUJ4Y2dJTTBtZi1fMVJETUtFLTB5SEx2Mk94dGpqWkRlZldWd1JEV2FDNkg4SWRaRUZ2ckR5LXNIc3BLSGFyRVFDWTZ0aHp3OHVBOW56ZnlLZ1pz?oc=5",
-      "src": "Tempo.co English",
-      "domain": "en.tempo.co",
-      "time": "22 hr ago",
-      "cat": "Pop & Tours",
-      "hot": true,
-      "ts": 1795411098,
-      "tier": 3,
-      "n": 3,
-      "also": [
-        "allkpop",
-        "InMusic Blog"
-      ]
-    },
-    {
-      "title": "Grammys 2027 nominations: Olivia Dean, RAYE, Ella Langley share their reactions",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNRlNSTXd0S1h6YXVCa0RVcVRyendpNERiU2ZmU3NwNEZfaDdOcmx2V2hBWkphWnMtX3Y5LVRVVFUtQUx3TlhkREpVdFdtNmtQWDRwSVBFQjZ3VFVBZmxLNW9WZm5DbVJ0Q2hRNFhTVHJ0QTBWaHU3bVBSSUFqVFBkWGpvbVM0cjZtRjhqenRzWHMzTW9yaElzTW1leGx2TmY2T20zYnd0MGlqVERiUHc4?oc=5",
-      "src": "ABC Audio Digital Syndication",
-      "domain": "digital.abcaudio.com",
-      "time": "22 hr ago",
-      "cat": "Pop & Tours",
-      "hot": false,
-      "ts": 1795411046,
-      "tier": 3,
-      "n": 1,
-      "also": []
-    },
-    {
-      "title": "Kanye West's spectacular 360-degree stadium show is coming to Abu Dhabi: All the details",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQRXlpYmNtNjBhVFhrYm5JaGFrMHRtZGlLMGdfUkx6U3NUYzkwOXFqV1pWbHBoWDNfdncycHNYVklOV2JxMWltOU1JeHZHTDdNeko0c1d1c2kwd3VHNzFvckg2ZlNwOHhFdUFPRUZNNEFHWDduMFVGZHdKZ3JaQ1JKT01pZmJrVHY5eFVzTzB6UW02b2NyRDNTNXlKX0NwVlJPbWpENnBGb1FSRDJfTlh2djc4WlBvckNYRFlJU2dRRlhRYlc5TjBoV21OMG9qQdIB3gFBVV95cUxOeDNycnN2TnJQUUlPeENWOTlaeG9zM2tQeV9QQlkzeTV5cW8zdTdpbDFRbUVXOUIzaWVtZFF2NHZST1hYSjA4c3plV3RHTlEwQUtoUjZfcms2UU9WT3Y2Yi1Hb09oNS05MmlxNjJqc2l2MkRDY01POGdTY25tbjdKQzlTMjRZNGNwc3gwd2tmcjI4dzlVQ0xwMGJQemViLXVsM1U4U0xnTXU2b2RuSDlXSEM3akYyN01Ham52YmVCTmstR1VKc1pUcTdMVnZ6dGo4dE5wa0U1M1pxZFZ1S0E?oc=5",
-      "src": "Gulf News",
-      "domain": "gulfnews.com",
-      "time": "22 hr ago",
-      "cat": "Hip-Hop",
-      "hot": false,
-      "ts": 1795410589,
-      "tier": 3,
-      "n": 1,
-      "also": []
-    },
-    {
-      "title": "Vick Hope: When he was a newborn, our son would fall asleep to drum and bass",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOdHdqUzZRS0ZOa21KX2kwZVFKM2thOF9kcEN5VDIycHhTNjR2YnVYaFJVN084LXVmUFBCa0pqbHh0d2E2V3VpdmdKa1lWeW9La2RqRUszZExLY29oVmVNbEgxblc3SlFmeTdfTWYzS3NLbjZITzhCTzF4dzBKUGpid05nUmZJZGlFR2xMeDZTVEtvUE44OU55a2R1QXFULV9VckMyQXk0dzYzT1dw?oc=5",
-      "src": "The Times",
-      "domain": "thetimes.com",
-      "time": "22 hr ago",
-      "cat": "EDM & Dance",
-      "hot": false,
-      "ts": 1795410000,
-      "tier": 3,
-      "n": 1,
-      "also": []
-    },
-    {
-      "title": "Santa visits and black-tie New Year's Eve gala coming to village pub",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOVmRlQmtVUVFZN0dqbHNOQ25yTUFIWGZLSU5mNDZTMDd2dldoRW1rM3pLai1HaEJtOC1rYTZQdENHcUxfQmNudGlvMVZ4eEt5Ml91SGZxTXBrWUI0QzZDY0wxZXd6OWdPVWlyTkNRN2loVmJyQ2tWb3A1UWJEVmFNbWptWFVQYU5IUmJOMHp5aVRrbkhBQ0EyU3Zxd2NCNGhfcmZwejdKemFZeWM?oc=5",
-      "src": "Hampshire Chronicle",
-      "domain": "hampshirechronicle.co.uk",
-      "time": "22 hr ago",
-      "cat": "Nightlife & Clubs",
-      "hot": false,
-      "ts": 1795410000,
-      "tier": 3,
-      "n": 1,
-      "also": []
-    },
-    {
-      "title": "Don Toliver's Manchester Show Evacuated After Suspected Tear Gas Incident, London Show Postponed",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQYmxqRmk5ZUZtNElkbGR5UDY0a2xNRGlwblRiWUkzU1p6bkNBVGE2dkUtWmhKSVc4QlU1d1pqZU9hc1c1RHdxalpHVXNXZV8xNDc1OGRteXR4MERaSmZfR2VPTUFTcFpQc2dVQ011Slp2Z3UwQnNhS3B4aEM5TXFWZk5weEFzYXdYRGpTT3NvYzdYenNFNlY1em9adTUzZ0dzb2FuSVc1RThPclU?oc=5",
-      "src": "Stereogum",
-      "domain": "stereogum.com",
-      "time": "22 hr ago",
-      "cat": "Hip-Hop",
-      "hot": true,
-      "ts": 1795409940,
-      "tier": 1,
-      "n": 3,
-      "also": [
-        "Complex",
-        "Shropshire Star"
-      ]
-    },
-    {
-      "title": "Big fat Indian wedding goes bigger: Temple-inspired mandaps, dancing robots and double-decker DJ set-ups on wheels trend across India | Hindustan Times",
-      "link": "https://news.google.com/rss/articles/CBMitwJBVV95cUxOS3BlWkFYeGY4YXNCUnIxQUdsTzVnUUVDbjVBaEtXRW9uZkxfWnBhSTRWMDdzZW5qZEhBenNwa1EwdHFqMURVYVlTc0VTTTczLWxzT3FnNmFvQTRPZW5VM1RlVXlyRXFXRE5xMGtKUFRYMTgwdG82a1hsN1dROUlPZUZDTkx4UTRmeDRkTEFqNXhYa0FYX0tLNXZvUC1aLUpsOHBYUE1vX0Z0YUZDWS1iazl3UUsyWXNQMTZ5Ym5BN0dUUXBiMm9aQVU0dDc4eEJXWmRNQXlZWTM3TU16UG5vTUw2aEtmYU9qaGdXTWF3RmRnSmZqWk9tQ1N0RUNxeUpCUEhrMHk5UE5SdDdId3dNWXVnUkxleml0YkloQzBjVnBQemI5aXJWd3hSNGN6RXE2bXliVUhpd9IBvAJBVV95cUxNbWtiLVBaeXp1MmJPM3Q5NExJZFkyNjhndlBXdmVTWERzOUVkNFl5b2I4LWZMbWVBQWRWbjZlb2ozX0xYaGlkOWVkVE9feUJ3VnM0V0Z3XzBMNzRiOF9qcDdFQkpiUC1MS3BtUE1WM3Fsa0Rqa1JGS0tBcGRQYTFRWUJPQy0yaUxHQThrRy1UV3RRNUE2N2N4WGxPTUJqejIySk8xS0FCWWd4TXp4M2ZyVFZhRTctSm55aklwQzNsX29EWGFLaF94RFZyUkZwLUNrcU5RSlREUy1GYUtBODhmbnlNRGVLd3pPOGVocWFRMHVNUTdaWTZIaWVJRU5HX1k4UFpXcW5mT3JqTjhjdkVLTjJBeXFKT3NWMEEwWHZGX1M5RHFVSkxQRTZSVjBwY2hzS2VONWtZNUt4V2tj?oc=5",
-      "src": "Hindustan Times",
-      "domain": "hindustantimes.com",
-      "time": "22 hr ago",
-      "cat": "EDM & Dance",
-      "hot": false,
-      "ts": 1795409413,
-      "tier": 3,
-      "n": 1,
-      "also": []
-    },
-    {
-      "title": "Midnight Darna at Comptoir Darna, Morocco ⟋ RA",
-      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE5jQkJ5VVU0dm5NdDU3SDgweXAxSVp5NG5rZnh1d2xuQ25NMUItbUtPejRQckVpZkZaYVlWR3BTXy1PUQ?oc=5",
-      "src": "Resident Advisor",
-      "domain": "ra.co",
-      "time": "23 hr ago",
-      "cat": "Techno & House",
-      "hot": false,
-      "ts": 1795408484,
-      "tier": 1,
-      "n": 1,
-      "also": []
-    },
-    {
-      "title": "IU to play two nights at Singapore’s National Stadium in March 2027",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQN3dZRExGU29WRkE1ZkEyZmF5ekY5aXpOTWl3LVhxVHhSYjVHOEVDeUtLQlMtblpOV3V1MXlCdEZueWJYWmJ1RGoxLWJEM0JHMF91eVN5X0ZuTjd4NUdNUFZMc1QwMTNyVFBrMFJfaHFiNWxZY0VVWVdGemVjeEp4RmVDb3hzUUJSeVpSN2JMdEdxb3AwYjdXYjRTVDdsYXNibm5RUjVtZ20yNWY5?oc=5",
-      "src": "The Straits Times",
-      "domain": "straitstimes.com",
-      "time": "23 hr ago",
-      "cat": "Ibiza & Global",
-      "hot": true,
-      "ts": 1795408200,
-      "tier": 3,
-      "n": 2,
-      "also": [
-        "Tempo.co English"
-      ]
-    },
-    {
-      "title": "Artiste releases five-track EP rooted in Edo experiences",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNQTlWX2MtM2p0U0VtMF9FVm96bldGOXlqR0VUN0dOZGhSdXpNZnJ6ZGhNelBUdVJuUjRIdTdFaVlnbWlici1EbTRaLU1fdmpQVS1yejBLRjEtZEwyLWRMYWFudVNPdVVDcC11eVdXVjJDVGRYLTh3VWlHOUl1WEVyQWVneG1iWVJJUXFsWDB0aHrSAZYBQVVfeXFMTUtDTFJkR1NuV0tZakdwaDNUWGNWemJ5azlMc09DcF9ENFB3N3lwZV9oVVRqT1Qyekt0MG1DOHU2QUhvd1FoNFBzeTUybGxSd2luZ0Rpa0Z5YzFPY2NXQ0ZOZ1E4WHZoLXBEOWl5ZTlZWHZjY0xuY0pXUWdyQ05uZVRSUDB5QWtIOFhTR05LeFU2bnZGZ09n?oc=5",
-      "src": "The Nation Newspaper",
-      "domain": "thenationonlineng.net",
-      "time": "23 hr ago",
-      "cat": "Techno & House",
-      "hot": false,
-      "ts": 1795406398,
-      "tier": 3,
-      "n": 1,
-      "also": []
-    },
-    {
-      "title": "L.A. Guns Announce 2027 ‘Lucky MF’er’ Tour Dates",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBlVmtGTG1HRVIzMjQ3OU03aVBHRVVqUHRlTG9PcE1zeENkbVhNOUczbzkzR2p6N1pOSGUydl9vSnQ3VmcyZ3ZJSERoNkJ1bHk2N2U5U045YXZuQQ?oc=5",
-      "src": "Q105.7",
-      "domain": "q1057.com",
-      "time": "23 hr ago",
-      "cat": "Pop & Tours",
-      "hot": true,
-      "ts": 1795406166,
-      "tier": 3,
-      "n": 4,
-      "also": [
-        "BraveWords",
-        "DRGNews",
-        "Ultimate Classic Rock"
-      ]
-    },
-    {
-      "title": "Coachella 2027 Sells Out Following Star-Studded Lineup Announcement",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPcDZIT1hQYjl6cHdxcm44VTJfV2hjVWR1d25CVXhqczJ4MTVVRy1hc2lhVnZXazhLUnZBdTJGUnZCdlhRa0F6MXN3TmxfcW1GYkV2MVBLRjlvMXVTMnpQOEVFN2pOTFplRVVnNUk2a0JNNUF4d2hyRzYzUm9WclU0UHJZTElyVGc5M3k1WnVvWWpRbWxPTDNMendRVEktQ1dMU3FhdlhwV3h1aWd2SExKTA?oc=5",
-      "src": "Yahoo",
-      "domain": "yahoo.com",
-      "time": "1 day ago",
-      "cat": "Tickets & Lineups",
-      "hot": false,
-      "ts": 1795404720,
-      "tier": 3,
-      "n": 2,
-      "also": [
-        "Men's Journal"
-      ]
-    },
-    {
-      "title": "Kirk Cousins’ family couldn’t wait to leave Las Vegas after Raiders-Vikings trade",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNS0FtX1lNRlFqd3E3UGJXVUFCRlV2ZVpmZjQ2ai1TckFjOENQWHhFWUR5M0tid0M4Q1lWVmlndkc0R2c4QW0zM3drd05RbVJZMUpaS29TcnlEbnZlcklxS0FCS0s4UUUtbjAwWDRsVEx2OFRJZzRQQUUzSDRVNDFMampONnpkRzRLUUZWRWRld0hDckZYZDUyVHRvNkkxYlNNSFhCak9VSjVyOE40dXBQYy1XU04?oc=5",
-      "src": "New York Post",
-      "domain": "nypost.com",
-      "time": "1 day ago",
-      "cat": "Las Vegas",
-      "hot": false,
-      "ts": 1795404420,
-      "tier": 3,
-      "n": 2,
-      "also": [
-        "Yahoo Sports"
-      ]
-    },
-    {
-      "title": "IU’s 2027 World Tour Is Bringing Her To Singapore, Kuala Lumpur And More",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOaHliTi1MZFM4ZmhKM0lvUFk5XzBBdVJqcmVNY3BkNk9aNllQYWY4N0h3QnEzM1gxazNyV0w2YmtQbFpRdHBGdjZiZjdiRkJWZlMwUlQ3ZlRxRWYyZ2pvNWJuMGpXVUtHVU90SVhTeEJkV2dMYVFKNko0ZTFOQnFDTmthQzh4TkNmS09SWHQ3Wjc5VTQ5bi1MSjdUSnkwMjRTekE2VFMxaGR1ZUIyU3BvSU9wczlkQQ?oc=5",
-      "src": "BusinessToday Malaysia",
-      "domain": "businesstoday.com.my",
-      "time": "1 day ago",
-      "cat": "Ibiza & Global",
-      "hot": false,
-      "ts": 1795403280,
-      "tier": 3,
-      "n": 2,
-      "also": [
-        "Malay Mail"
-      ]
-    },
-    {
-      "title": "Disney World Quietly Replaces Tomorrowland Element at Magic Kingdom",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQOUl5QVBTb0dmbkZYb0w0YjB5XzlwZDQ5QU1rcGJqTlFleVhBa2xrb3UzbkRuVnpJVVdlZkZjb09WbFpRZDVZckpUSHdMZmpRRmRCclBSNFI1N3VBanFtTHYtLUlkTkpGUW1CUEZBRm1XX09ZSGZyZWFiOFpJV0ViMFRnN3BuMm1EVEZ4QzZn?oc=5",
-      "src": "Disney Fanatic",
-      "domain": "disneyfanatic.com",
-      "time": "1 day ago",
-      "cat": "Festivals",
-      "hot": false,
-      "ts": 1795402828,
-      "tier": 3,
-      "n": 2,
-      "also": [
-        "Inside the Magic"
-      ]
-    },
-    {
-      "title": "IU to hold PH concert in January",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE4xeVp2WWtsNnJ1SzdJR3pZY1FYODN2R0Voa0hZdURRYmZKTmYyNFVEVV95QTM2ck9IcWczSm9CRDVKZ24xbG44Z2tvTFF6c0FudlAxdEQyNkgyODBYaWstWnN5OTBRSzhMZVBjOG93?oc=5",
-      "src": "Manila Bulletin",
-      "domain": "mb.com.ph",
-      "time": "1 day ago",
-      "cat": "Pop & Tours",
-      "hot": false,
-      "ts": 1795401895,
-      "tier": 3,
-      "n": 2,
-      "also": [
-        "ABS-CBN"
-      ]
-    },
-    {
-      "title": "BUNNY IN THE CITY: Empowered Elites Diabetes Awareness Fashion Show",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOcFV5d1FsbUtPZ3ZNNnN2aDB1NFVUV2VUZUZuR2JXNGhnTmllMFVkNlNuSWZzNXRNWXh5YnllZk42YlVFVElnTGNTNXBDdTZlaW94X1pBYVd4VHU0WWYyZGVGWkhZRTlSZFZMU2oyVDZfNlpVYWRqSm5zejRPNFBZb2tnRHFFblh0VmJ5UXdpZVdUck9HTXRfWExiTzVQaFNPZ1lSR3hLQQ?oc=5",
-      "src": "WJCL",
-      "domain": "wjcl.com",
-      "time": "1 day ago",
-      "cat": "Fashion & Swim",
-      "hot": false,
-      "ts": 1795399140,
-      "tier": 3,
-      "n": 3,
-      "also": [
-        "Connect Savannah",
-        "Savannah Business Journal"
-      ]
-    },
-    {
-      "title": "Jhené Aiko Claims Las Vegas Arena for 37-City Tour With 3 Guests",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNOFo4VnBTQlliZjBzMFhFQS05WHZjajRUeFdiWnA4MkNlQktXcnpjdDBtUExOaWRsZDFjRjhqS3d6TTRnRHhQWGxWenNEWkpEVzFpazZrd0J6a2J4THFvb2dGdzY2bmQycVVULUtPVnE4VXBqZ2wyaE02dHhIbF9PcDBKU0tkOWp6bEZ1QXpQQ0d3VDMwQndwMmVkVU9xSHNn?oc=5",
-      "src": "travelhost.com",
-      "domain": "travelhost.com",
-      "time": "1 day ago",
-      "cat": "Las Vegas",
-      "hot": false,
-      "ts": 1795386780,
-      "tier": 3,
-      "n": 2,
-      "also": [
-        "Yahoo"
-      ]
-    },
-    {
-      "title": "\"The Wizard of Oz is our boss.\" Metallica rehearse into the early hours for Sphere residency to avoid the wrath of the Wicked Witch",
-      "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQNHhQekd4T3lldXNGOUhpdjIyTW1TaXp0emFfUG9hMk02cUdQNm53S18tNHJicU1NajE3OVR3MmJLR2pfLXRkZkl0OXhWa2xfTThhbzZNcHRyZDlwWkFQdWozRXVIdUpxQ3ZCS1FOdDI5RUFDb05nMFZWYnZWQTUxOFlUQ25lYzJJTE12ZGIzXzJTSTRUZEFaOThaTnNVcWJjdFdReWMtLVdCUE05MXo4ZWdEak1vUlh4U21mRTYzelllak9Nc2J0UUJCSkNLSTJTS1ZpOHQ0X253YkNSNEV5UEJrYnh6TGdTWG5JMmVyUW5PdWR5QlhIaDZrUXZ2eTQ?oc=5",
-      "src": "Louder",
-      "domain": "loudersound.com",
-      "time": "1 day ago",
-      "cat": "Las Vegas",
-      "hot": false,
-      "ts": 1795384800,
-      "tier": 2,
-      "n": 2,
-      "also": [
-        "Ultimate Classic Rock"
-      ]
-    },
-    {
-      "title": "Raye, Rosalía and Olivia Rodrigo lead 2027 Grammy-nominations",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNTmQzeGFrcVVVV0FUb3RyaUlyazEwTWQ2SHpYXzNpVXhPUVRnYVlHcGFJZno3MWFPYmVybGY2Vk1FMGppV0VreS13Ulc4bTRmOFI5R0ZSaFV4T2hULTNDUGdHbl9oUF92TFZZc3VYZ3ZhRTJiMlNRNl9qUGxwbF81c0VWX0R4SW5Yb0I0cEFmM2hYenV6?oc=5",
-      "src": "Headliner Magazine",
-      "domain": "headlinerhub.com",
-      "time": "1 day ago",
-      "cat": "Pop & Tours",
-      "hot": false,
-      "ts": 1795382946,
-      "tier": 3,
-      "n": 2,
-      "also": [
-        "Oman Observer"
-      ]
-    },
-    {
-      "title": "Tag: Billy Idol tour",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9oa1MtcmZtNGF2X3ZIcGFTRXlsUVJ1QXU0dWk5Nk9zUVRDaHlnbTdUWFVTU18xZi1VVjVHZUNwMnNQS3AxM1RVRGh1bFhFRUFueVl1VDAyRENydw?oc=5",
-      "src": "Rolling Stone Australia",
-      "domain": "au.rollingstone.com",
-      "time": "1 day ago",
-      "cat": "Pop & Tours",
-      "hot": false,
-      "ts": 1795382352,
-      "tier": 1,
-      "n": 4,
-      "also": [
-        "Spotlight Report",
-        "Music Feeds",
-        "AOL.com"
-      ]
-    },
-    {
-      "title": "Chris Evans, Anthony Mackie and Simu Liu Launch \"Avengers: Doomsday\" Global Tour at Las Vegas Grand Prix",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQaVJUdkhmbTg2dVo1YzViTjFsRkxHSnJGakxDQXphY0VHT2lmdkxrV1dwQjBqdTB0cW5yWkdlUTRqM1IxZXNIbkp6UUg0Mks1WVZTMk1fMHNpWU9vTWR2aXA5Nl8xc2FFRTVuQXUwYUVWZWNVcmJoSE9rRGlLNnlCeTYzVnlBUlBhMV9lUmFiTkpRR1VPclE?oc=5",
-      "src": "LaughingPlace.com",
-      "domain": "laughingplace.com",
-      "time": "1 day ago",
-      "cat": "Las Vegas",
-      "hot": false,
-      "ts": 1795367296,
-      "tier": 3,
-      "n": 2,
-      "also": [
-        "Just Jared"
-      ]
-    },
-    {
-      "title": "Olivia Rodrigo’s “Stupid Song” Officially Earns #1 On Pop Radio Chart",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPMlRBQ0podUJNbDFNYk5QUExTQS0tX2Q5Zm1jMVhVY0FDVnJSaHo3RlFGOElYb3dpR1ZQaWNTWmEyNVVCM0NoOUNUY2JjRDNab0I4eFhlMTc1bVd3bFRza2VGOUluUkkzUTVVVFR4UnkteHdVbXBRMUhpUzF5Z3BlWGRuMEszSExuOHZpbHNMc1pENlgwNDdFWmtKS1ctN0lNTGhGOHdkODFjeEJyZ3fSAbMBQVVfeXFMTlRTNkNfMHpneW1TcXpRTlFpdTBHVDRSblhwaFdPQ01XbFlESDRvWDktRjRSVVJZTjI1dmFTN0J4Q0N3cy00TE9YU2NuMTh5aXJfQTRma2d0Ym5aa2NmUzE1TVZac0xqRnVjcE1OMFRxSVFxZndHcGJFNG81OGNTME82MzFScWFTa2VERUJwb1N4MXBSc1pvUDRVcHdkY1A5Q3hVVDhsdVc4TTU2NG5NSjczckk?oc=5",
-      "src": "Headline Planet",
-      "domain": "headlineplanet.com",
-      "time": "1 day ago",
-      "cat": "Pop & Tours",
-      "hot": false,
-      "ts": 1795365816,
-      "tier": 3,
-      "n": 3,
-      "also": [
-        "X-Rock 103.9",
-        "Power 106"
-      ]
-    },
-    {
-      "title": "Tim McGraw to Headline San Marcos Stadium's First Big Music Festival",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOUE12N3pzU0E5Z2hrMEVvWE82aXA2bUxZTkIyZ2VFTE15Wml2VWtzQlp6c2pwZ3JSVlVIVERLSGZ6TE9fWS1uUnBaZkI4ZHo1VlEtbFNBbHhwMHNuNWlscmJuWVl0TXJ3dHluWld2a0lPVmo4Q2NOd1B4Y0ZrQ0dsU0t6ODJ4SjFNcURZX21GNmF4V2VmSl9IVVRPbE5uU3M?oc=5",
-      "src": "Hoodline",
-      "domain": "hoodline.com",
-      "time": "1 day ago",
-      "cat": "Festivals",
-      "hot": false,
-      "ts": 1795365412,
-      "tier": 3,
-      "n": 5,
-      "also": [
-        "KXAN Austin",
-        "KABB",
-        "WOAI",
-        "KSAT"
-      ]
-    },
-    {
-      "title": "F1’s LEGO Minicar Race Hit Las Vegas with Celebrities Behind the Wheel, Chaos Followed",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPdXpVR2t5ZVBVNjdGRVhHVTNIUjNxd0ZvV1F1Vll1ZUNmVm55c0l2REtEUXZtZGlBUi1OLXhuLXM2UW51TVpBejYzNWxKV0lmZ1RIT0stVWdwRGFxR0ZmdnY1LWlWOF9RN2J2eTdCNnhENnVPMTQ2YURUQVRRaGRHOXpCZ2F4Z1N6SVd4NlNvVjdRUUQyUnoxckRaXzJzNzdPSjRfYnhIcmJRV1VWLUd6VXBTQk9MUEFHa2ZLa3pseURhay1UV1Y2ZA?oc=5",
-      "src": "Road & Track",
-      "domain": "roadandtrack.com",
-      "time": "1 day ago",
-      "cat": "Las Vegas",
-      "hot": false,
-      "ts": 1795363680,
-      "tier": 3,
-      "n": 2,
-      "also": [
-        "Wisevoter"
-      ]
-    },
-    {
-      "title": "Billie Eilish Set to Headline London’s BST Hyde Park Festival in 2027",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxON08zRDUtUU1YZEVfRjBCZTZxWjdLR2ljNWNkMFRpVDlBMElsZHRJcWNHdnJYcFl3QU1nU3VaOHlRaFJrYU5iMGtmMHRvYmdlWVAzTzZOX1U1SEFVUnVRZ0wzQzBzblNUVTBjQ3Q2ZzhmRGlKcUNaUjJJUW9hVTRkdmltQ0FMNklVUGVVRjRodHJwQXB6T0VQRUxCY0lpbEZHNVNlalJHODZ1QQ?oc=5",
-      "src": "X-Rock 103.9",
-      "domain": "xrock1039.com",
-      "time": "1 day ago",
-      "cat": "Festivals",
-      "hot": false,
-      "ts": 1795363008,
-      "tier": 3,
-      "n": 3,
-      "also": [
-        "Decatur Radio",
-        "Power 106"
-      ]
-    },
-    {
-      "title": "Max Verstappen rebukes George Russell after Las Vegas win: ‘He’s so far below my level’",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQM2RyanBxME54cWpwYXgzdkRTME51Y0FJSl8wS045OHd2MEZ3ekg4ZmY3SWZuMm42LXJRRVFHT2VDUUNJdTBpaWZQcUpDU1dJSjJ0UEJmejJXLTVTYWp0NVpZY3ZEV0NBd1Q2Z0w0aF9IYk9hbDdPcVFsT0lxOUVEOVFfTFgxM19hRVBmeFFLYl9BS2dRTTJPWWh5LXJCQ3JkMzl3cjdrMA?oc=5",
-      "src": "The New York Times",
-      "domain": "nytimes.com",
-      "time": "1 day ago",
-      "cat": "Las Vegas",
-      "hot": false,
-      "ts": 1795357360,
-      "tier": 1,
-      "n": 2,
-      "also": [
-        "Las Vegas Review-Journal"
-      ]
-    },
-    {
-      "title": "Proposal to turn closed nightclub into flats",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4ydURyWDkxaDN6eTdUTDVpSUVoaERyRERicnltTDJoY2QwOWZHNy1DWXZmTHJIZFJyYmhKX1hFa3k1LTlqVGlQdmc3YjhXaTJsRzREWjVEVHFGTFU?oc=5",
-      "src": "BBC",
-      "domain": "bbc.com",
-      "time": "1 day ago",
-      "cat": "Nightlife & Clubs",
-      "hot": false,
-      "ts": 1795345211,
-      "tier": 1,
-      "n": 2,
-      "also": []
-    },
-    {
-      "title": "Las Vegas Grand Prix briefing: Max Verstappen wins a wild slipstream duel with rival Russell",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQNHRDZlZGWFlycTJPZkRCNDdadlVZUVNyVmpyeV9RMEhpNWVGajJnWG84UlhfcDBzSEFQemdXbWxCTFhaMm1tNThOQUlxOFZERkRDUGYzUDI1V05BUUM5MXpFbmVGcVVEUmptVlAzRlFHQ2pxOFVvU3hIaDZvRHlIMTlhYVdNcWxaU1hfTVMwQ3VqbVFMQlVldUxlMzEzZw?oc=5",
-      "src": "The New York Times",
-      "domain": "nytimes.com",
-      "time": "1 day ago",
-      "cat": "Las Vegas",
-      "hot": false,
-      "ts": 1795340866,
-      "tier": 1,
-      "n": 4,
-      "also": [
-        "Casino.org",
-        "Audacy",
-        "Yahoo Sports"
-      ]
-    },
-    {
-      "title": "Katseye Brings Out Camila Cabello for ‘Gabriela’ Dance at Los Angeles Show",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNNzhNZGJETTNrX01jcUlWY2R2TktGc05MSDNvYi1BUzZnRklYM2dRQTR0OV93ZWJPakxpSDZXd3luZFVsa0JQc2JvYk9peDdibDl2d3Q2bnFqdmtXa1lhUDlqNnd5NnpJWFJQVTVYMjJRNTR2TS1LenVXX0xYaUdsSkpJZlNDUlVmanpZeW5vN0Zqb1pFODRMNS1LaUxVdHIyb0loYQ?oc=5",
-      "src": "Variety",
-      "domain": "variety.com",
-      "time": "1 day ago",
-      "cat": "Pop & Tours",
-      "hot": false,
-      "ts": 1795334640,
-      "tier": 1,
-      "n": 3,
-      "also": [
-        "شبكة تواصل الإخبارية",
-        "WION"
-      ]
-    },
-    {
-      "title": "Lisa, Gordon Ramsay and 9 More Stars Raced LEGO F1 Cars in Vegas—and a DJ Won",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOZGJiZzhoR05ubHJKRVVsSWlTMnBGUV9BTVhWOTNUMnktMzZURmFTNklCSDk4TkduUzV5cFZhbjNINF9BQW1NWDZkVk5QSC1LZVB3QjlibG9uR25qdWNjZzA2YkpNaFJMMkxMVDF0X2wxbHJhVk1MZG1LRnRfRlp3SW9ZekJ3M1hORm1CSVVaLTVyejNqVkxKdk13YXBjTjRzMHZFVmdkdWhjQQ?oc=5",
-      "src": "MotorBiscuit",
-      "domain": "motorbiscuit.com",
-      "time": "1 day ago",
-      "cat": "Las Vegas",
-      "hot": false,
-      "ts": 1795334400,
-      "tier": 3,
-      "n": 2,
-      "also": [
-        "Just Jared"
-      ]
-    },
-    {
-      "title": "2026 LAS VEGAS GRAND PRIX - RACE REPORT",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOc2w4OVJtNFNwRTBnSHJTcW1BWkFhbkZMWGNkN2pMdmlJVTBMRUE2QnZHZmR2blYyNkpjZ3FHeF9TeFg4OXhFMkpIVUVrUVBuMHJLRnpSc3k4V3JLaUEtcUNIVDZSUHEwYTFGc25sZ2lmMi1OVF8tOHJlRHlLdDZVbFFNZnZ0dw?oc=5",
-      "src": "McLaren",
-      "domain": "mclaren.com",
-      "time": "1 day ago",
-      "cat": "Las Vegas",
-      "hot": false,
-      "ts": 1795334400,
-      "tier": 3,
-      "n": 2,
-      "also": [
-        "USA Today"
-      ]
-    },
-    {
-      "title": "Mummified Body Found in Seoul Officetel Boiler Room",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNSy04LUVfSUhxN1JhQVJodnhzSEdtT2F3dHJDTFJpWTdJY3BqSnNndlVLcWtybnVlNFBJNjVIWWdlTE52WEswSWg3NDEtRXVfVF9za0t4VzBGVWxoWVd6XzNFN0xuajRUaVMyM3NjTzRxT2hIcnZ0YkVDV0FoVnR2aGhyM2EzQjVV?oc=5",
-      "src": "조선일보",
-      "domain": "chosun.com",
-      "time": "1 day ago",
-      "cat": "Ibiza & Global",
-      "hot": false,
-      "ts": 1795332636,
-      "tier": 3,
-      "n": 2,
-      "also": [
-        "헤럴드경제"
       ]
     }
   ]
