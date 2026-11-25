@@ -1,5 +1,5 @@
 {
-  "updated": 1795571305,
+  "updated": 1795624517,
   "festivals": [
     {
       "type": "festival",
@@ -808,188 +808,6 @@
   ],
   "events": [
     {
-      "artist": "Dj Shift",
-      "venue": "Omnia",
-      "type": "club",
-      "city": "Las Vegas",
-      "region": "vegas",
-      "date": "2026-11-24",
-      "ts": 1795546800,
-      "url": "https://nocovernightclubs.com/events/dj-shift-omnia-nightclub-tuesday-november-24-2026/",
-      "src": "No Cover Nightclubs"
-    },
-    {
-      "artist": "Players Era 16 Championship Evening Session",
-      "venue": "T-Mobile Arena",
-      "type": "arena",
-      "city": "Las Vegas",
-      "region": "vegas",
-      "date": "2026-11-24",
-      "ts": 1795550400,
-      "url": "https://concerts.vegas/event/players-era-16-championship-evening-session-las-vegas-tuesday-november-24-2026-700-pm/",
-      "src": "Concerts.Vegas"
-    },
-    {
-      "artist": "Wtf: Jessika, Green Butterflies, Puppet, Finishher",
-      "venue": "The STUD",
-      "type": "club",
-      "city": "San Francisco",
-      "region": "world",
-      "date": "2026-11-24",
-      "ts": 1795550400,
-      "url": "https://www.instagram.com/trowftd/p/Df3UOR2u74K/",
-      "src": "19hz.info"
-    },
-    {
-      "artist": "House/Not House - Huffy",
-      "venue": "Makeout Room",
-      "type": "club",
-      "city": "San Francisco",
-      "region": "world",
-      "date": "2026-11-24",
-      "ts": 1795550400,
-      "url": "http://www.makeoutroom.com/calendar.html",
-      "src": "19hz.info"
-    },
-    {
-      "artist": "Top Notch Tuesdays",
-      "venue": "Select Start Arcade & Kitchen",
-      "type": "club",
-      "city": "Dallas",
-      "region": "world",
-      "date": "2026-11-24",
-      "ts": 1795550400,
-      "url": "https://www.instagram.com/topnotchtuesdayss/",
-      "src": "19hz.info"
-    },
-    {
-      "artist": "Renn Mateos at Nine1nine",
-      "venue": "E11EVEN",
-      "type": "club",
-      "city": "Miami",
-      "date": "2026-11-24",
-      "ts": 1795568400,
-      "url": "https://app.discotech.me/events/38267239-renn-mateos-at-nine1nine-at-e11even",
-      "src": "Discotech Miami",
-      "end_ts": 1795604400,
-      "region": "miami"
-    },
-    {
-      "artist": "Tuesdays",
-      "venue": "Gold Rush Cabaret",
-      "type": "club",
-      "city": "Miami",
-      "date": "2026-11-24",
-      "ts": 1795572000,
-      "url": "https://app.discotech.me/events/38256988-tuesdays-at-gold-rush-cabaret",
-      "src": "Discotech Miami",
-      "end_ts": 1795600800,
-      "region": "miami"
-    },
-    {
-      "artist": "Late Groove: Andy Martinez",
-      "venue": "Sable",
-      "type": "club",
-      "city": "Miami",
-      "date": "2026-11-24",
-      "ts": 1795575600,
-      "url": "https://app.discotech.me/events/38324766-late-groove-andy-martinez-at-sable",
-      "src": "Discotech Miami",
-      "end_ts": 1795593600,
-      "region": "miami"
-    },
-    {
-      "artist": "Renn Mateos",
-      "venue": "E11even",
-      "type": "club",
-      "city": "Miami",
-      "region": "miami",
-      "date": "2026-11-24",
-      "ts": 1795575600,
-      "url": "https://speakeasygo.com/event/EVE-R975UO",
-      "src": "19hz.info"
-    },
-    {
-      "artist": "DJ Raphi - Hype Tour 2.0",
-      "venue": "House Of Blues",
-      "type": "club",
-      "city": "San Diego",
-      "region": "world",
-      "date": "2026-11-24",
-      "ts": 1795575600,
-      "url": "https://www.ticketmaster.com/event/0A0064F7A3F2795E",
-      "src": "19hz.info"
-    },
-    {
-      "artist": "Open Oscillator #60",
-      "venue": "The Casbah",
-      "type": "club",
-      "city": "San Diego",
-      "region": "world",
-      "date": "2026-11-24",
-      "ts": 1795575600,
-      "url": "https://www.facebook.com/events/1722969688805381/",
-      "src": "19hz.info"
-    },
-    {
-      "artist": "Solid: Azlan, Candl, Chief Jesta, Crvtch, Marbl, Nythetix",
-      "venue": "Kitsch Bar",
-      "type": "club",
-      "city": "Costa Mesa",
-      "region": "world",
-      "date": "2026-11-24",
-      "ts": 1795575600,
-      "url": "https://www.instagram.com/fragments.events/p/DfnbjllSltP/",
-      "src": "19hz.info"
-    },
-    {
-      "artist": "Boosta Bday Bash!!!: Ty Diamondz, Jazi",
-      "venue": "The Basement",
-      "type": "club",
-      "city": "Pomona",
-      "region": "la",
-      "date": "2026-11-24",
-      "ts": 1795575600,
-      "url": "https://www.eventbrite.com/e/space-taco-pomona-boostas-birthday-return-cams-taco-debut-tickets-2005066443708",
-      "src": "19hz.info"
-    },
-    {
-      "artist": "Mario Duran",
-      "venue": "Gekko Lounge",
-      "type": "club",
-      "city": "Miami",
-      "date": "2026-11-24",
-      "ts": 1795579200,
-      "url": "https://app.discotech.me/events/38301960-mario-duran-at-gekko-lounge",
-      "src": "Discotech Miami",
-      "end_ts": 1795597200,
-      "region": "miami"
-    },
-    {
-      "artist": "Mr Jones Tuesdays",
-      "venue": "Mr Jones",
-      "type": "club",
-      "city": "Miami",
-      "date": "2026-11-24",
-      "ts": 1795579200,
-      "url": "https://app.discotech.me/events/38238751-mr-jones-tuesdays-at-mr-jones",
-      "src": "Discotech Miami",
-      "end_ts": 1795600800,
-      "region": "miami"
-    },
-    {
-      "artist": "The Trip Miami",
-      "venue": "Nova Social Club",
-      "type": "club",
-      "city": "Miami",
-      "date": "2026-11-25",
-      "ts": 1795593600,
-      "url": "https://app.discotech.me/events/38226250-the-trip-miami-at-nova-social-club",
-      "src": "Discotech Miami",
-      "end_ts": 1795615200,
-      "region": "miami"
-    },
-    {
       "artist": "Escobar",
       "venue": "Marquee",
       "type": "club",
@@ -1163,6 +981,28 @@
       "date": "2026-11-25",
       "ts": 1795636800,
       "url": "https://www.eventbrite.com/e/strut-sf-f8-present-thanksgiving-eve-ft-ardalan-tickets-2004204195701",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "Bassgiving: Sampphire, Powell Ranger, Swade",
+      "venue": "Lock And Key",
+      "type": "club",
+      "city": "Sacramento",
+      "region": "world",
+      "date": "2026-11-25",
+      "ts": 1795636800,
+      "url": "https://posh.vip/e/bassgiving-21",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "Calitalo Disco: Nino Msk & Friends",
+      "venue": "Make Out Room",
+      "type": "club",
+      "city": "San Francisco",
+      "region": "world",
+      "date": "2026-11-25",
+      "ts": 1795636800,
+      "url": "http://www.makeoutroom.com/calendar.html",
       "src": "19hz.info"
     },
     {
@@ -1386,6 +1226,18 @@
       "url": "https://app.discotech.me/events/38322326-thanksgiving-eve-miami-at-mazuma",
       "src": "Discotech Miami",
       "end_ts": 1795680000,
+      "region": "miami"
+    },
+    {
+      "artist": "The Golden Eras",
+      "venue": "M2 Nightclub",
+      "type": "club",
+      "city": "Miami",
+      "date": "2026-11-25",
+      "ts": 1795662000,
+      "url": "https://app.discotech.me/events/38311220-the-golden-eras-at-m2-nightclub-miami",
+      "src": "Discotech Miami",
+      "end_ts": 1795676400,
       "region": "miami"
     },
     {
@@ -1851,6 +1703,54 @@
       "src": "19hz.info"
     },
     {
+      "artist": "Blackout Wednesday",
+      "venue": "La Otra",
+      "type": "club",
+      "city": "Miami",
+      "date": "2026-11-25",
+      "ts": 1795665600,
+      "url": "https://app.discotech.me/events/38322325-blackout-wednesday-at-la-otra",
+      "src": "Discotech Miami",
+      "end_ts": 1795716900,
+      "region": "miami"
+    },
+    {
+      "artist": "Franky Rizardo + East End Dubs",
+      "venue": "Space",
+      "type": "club",
+      "city": "Miami",
+      "date": "2026-11-25",
+      "ts": 1795665600,
+      "url": "https://app.discotech.me/events/38293088-franky-rizardo-east-end-dubs-at-space-terrace",
+      "src": "Discotech Miami",
+      "end_ts": 1795719600,
+      "region": "miami"
+    },
+    {
+      "artist": "Payé",
+      "venue": "The Ground at Space",
+      "type": "club",
+      "city": "Miami",
+      "date": "2026-11-25",
+      "ts": 1795665600,
+      "url": "https://app.discotech.me/events/38286632-paye-at-the-ground",
+      "src": "Discotech Miami",
+      "end_ts": 1795694400,
+      "region": "miami"
+    },
+    {
+      "artist": "The Trip Miami",
+      "venue": "Nova Social Club",
+      "type": "club",
+      "city": "Miami",
+      "date": "2026-11-26",
+      "ts": 1795680000,
+      "url": "https://app.discotech.me/events/38226252-the-trip-miami-at-nova-social-club",
+      "src": "Discotech Miami",
+      "end_ts": 1795701600,
+      "region": "miami"
+    },
+    {
       "artist": "Special Guest",
       "venue": "Omnia",
       "type": "club",
@@ -1904,6 +1804,18 @@
       "ts": 1795723200,
       "url": "https://posh.vip/e/bassgiving-1",
       "src": "19hz.info"
+    },
+    {
+      "artist": "Thursdays Latin Party | Don Maximo Thursdays",
+      "venue": "Cosanostra Miami",
+      "type": "club",
+      "city": "Miami",
+      "date": "2026-11-26",
+      "ts": 1795737600,
+      "url": "https://app.discotech.me/events/38296543-thursdays-latin-party-don-maximo-thursdays-at-cosanostra-miami",
+      "src": "Discotech Miami",
+      "end_ts": 1795752000,
+      "region": "miami"
     },
     {
       "artist": "Mister Gray",
@@ -2203,6 +2115,17 @@
       "src": "19hz.info"
     },
     {
+      "artist": "Demi Riquisimo",
+      "venue": "White Rhino",
+      "type": "club",
+      "city": "McAllen",
+      "region": "world",
+      "date": "2026-11-27",
+      "ts": 1795809600,
+      "url": "https://events.ticketleap.com/tickets/sideroom/demi-riquisimo",
+      "src": "19hz.info"
+    },
+    {
       "artist": "Back Alley ft Pagano",
       "venue": "Eagle",
       "type": "club",
@@ -2420,6 +2343,50 @@
       "date": "2026-11-27",
       "ts": 1795834800,
       "url": "https://www.ticketmaster.com/insomniac-presents-devault-hollywood-california-11-27-2026/event/090064CD1DD77F50",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "Electric Fridays: Funksgiving w/Algorhythm, Heidelicious, Technodad b2b Ghandi, ",
+      "venue": "The Grayson",
+      "type": "club",
+      "city": "Los Angeles",
+      "region": "la",
+      "date": "2026-11-27",
+      "ts": 1795834800,
+      "url": "https://partiful.com/e/1kHFbjFu5ue4uNnI5Zd1?c=tXWlR5_L",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "Ragz, Alexis Tucci",
+      "venue": "The Basement",
+      "type": "club",
+      "city": "Los Angeles",
+      "region": "la",
+      "date": "2026-11-27",
+      "ts": 1795834800,
+      "url": "https://www.instagram.com/thebasementla/p/DfhvkwqJQ3L/",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "Bu Tea & Techno",
+      "venue": "Bu Tea Den",
+      "type": "club",
+      "city": "Los Angeles",
+      "region": "la",
+      "date": "2026-11-27",
+      "ts": 1795834800,
+      "url": "https://buteaden.com/techno?utm_source=19hz",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "Club Penguin Rave w/ Melissa Brooks, Treekat, Maymungsucks",
+      "venue": "The Cathedral",
+      "type": "club",
+      "city": "Pomona",
+      "region": "la",
+      "date": "2026-11-27",
+      "ts": 1795834800,
+      "url": "https://www.eventbrite.com/e/partywithmel-presents-club-penguin-rave-tickets-1998617122615",
       "src": "19hz.info"
     },
     {
@@ -2662,6 +2629,17 @@
       "date": "2026-11-28",
       "ts": 1795921200,
       "url": "https://dice.fm/event/yoqbkv-black-party-underworld-ft-tom-stephan-28th-nov-eagle-wilton-manors-wilton-manors-tickets",
+      "src": "19hz.info"
+    },
+    {
+      "artist": "Oscar G + Anastazja",
+      "venue": "Zeyzey",
+      "type": "club",
+      "city": "Miami",
+      "region": "miami",
+      "date": "2026-11-28",
+      "ts": 1795921200,
+      "url": "https://ra.co/events/2563135",
       "src": "19hz.info"
     },
     {
@@ -5470,6 +5448,17 @@
       "src": "Concerts.Vegas"
     },
     {
+      "artist": "Vegas Golden Knights Vs Washington Capitals",
+      "venue": "T-Mobile Arena",
+      "type": "sports",
+      "city": "Las Vegas",
+      "region": "vegas",
+      "date": "2027-01-30",
+      "ts": 1801339200,
+      "url": "https://concerts.vegas/event/vegas-golden-knights-vs-washington-capitals-las-vegas-saturday-january-30-2027-700-pm/",
+      "src": "Concerts.Vegas"
+    },
+    {
       "artist": "Santana Las Vegas House Of Blues",
       "venue": "House of Blues",
       "type": "concert",
@@ -5604,6 +5593,17 @@
     {
       "artist": "Kenny Babyface Edmonds Las Vegas Pearl Concert Theater At Palms Casino Resort",
       "venue": "The Colosseum at Caesars Palace",
+      "type": "residency",
+      "city": "Las Vegas",
+      "region": "vegas",
+      "date": "2027-02-13",
+      "ts": 1802548800,
+      "url": "https://concerts.vegas/event/kenny-babyface-edmonds-las-vegas-pearl-concert-theater-at-palms-casino-resort-saturday-february-13-2027-8-00-pm/",
+      "src": "Concerts.Vegas"
+    },
+    {
+      "artist": "Kenny Babyface Edmonds Las Vegas Pearl Concert Theater At Palms Casino Resort",
+      "venue": "Dolby Live at Park MGM",
       "type": "residency",
       "city": "Las Vegas",
       "region": "vegas",

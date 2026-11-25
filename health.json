@@ -1,49 +1,49 @@
 {
  "version": "3.2.0",
- "built_utc": "2026-11-25T01:48:25Z",
- "build_seconds": 29.8,
+ "built_utc": "2026-11-25T16:35:17Z",
+ "build_seconds": 49.2,
  "feeds": {
   "total": 253,
-  "returned_items": 243,
-  "empty": 10,
+  "returned_items": 244,
+  "empty": 9,
   "failed": 0,
   "failed_names": []
  },
  "news": {
   "items": 140,
-  "multi_outlet": 131,
-  "hot": 77,
+  "multi_outlet": 110,
+  "hot": 96,
   "tabs": {
-   "Las Vegas": 13,
-   "Tickets & Lineups": 13,
-   "Fashion & Swim": 10,
+   "Las Vegas": 8,
+   "Tickets & Lineups": 7,
+   "Fashion & Swim": 8,
    "Ibiza & Global": 6,
-   "Festivals": 9,
-   "Hip-Hop": 13,
-   "Rock": 10,
-   "Retro & Culture": 9,
+   "Festivals": 20,
+   "Hip-Hop": 7,
+   "Rock": 11,
+   "Retro & Culture": 6,
    "Techno & House": 6,
-   "EDM & Dance": 6,
+   "EDM & Dance": 8,
    "Nightlife & Clubs": 6,
-   "Pop & Tours": 39
+   "Pop & Tours": 47
   },
   "promo_filtered": {
-   "shopping": 47,
-   "off-topic outlet": 50,
-   "ticket resale": 2,
-   "how to watch": 10,
-   "ticket how-to": 11,
+   "shopping": 56,
+   "how to watch": 15,
+   "promo publisher": 4,
+   "off-topic outlet": 61,
    "horoscope": 8,
-   "quiz / poll": 13,
-   "sponsored": 1,
-   "promo code": 1,
-   "promo publisher": 1
+   "quiz / poll": 12,
+   "ticket how-to": 11,
+   "promo code": 3,
+   "ticket resale": 1,
+   "sponsored": 1
   }
  },
  "calendar": {
   "events": 436,
   "festivals": 50,
-  "events_updated": 1795571305
+  "events_updated": 1795624517
  },
  "channels": {
   "channels": 416,
