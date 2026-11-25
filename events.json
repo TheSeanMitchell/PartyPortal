@@ -1,5 +1,5 @@
 {
-  "updated": 1795538853,
+  "updated": 1795571305,
   "festivals": [
     {
       "type": "festival",
@@ -817,17 +817,6 @@
       "ts": 1795546800,
       "url": "https://nocovernightclubs.com/events/dj-shift-omnia-nightclub-tuesday-november-24-2026/",
       "src": "No Cover Nightclubs"
-    },
-    {
-      "artist": "Players Era 16 Championship Day Session",
-      "venue": "T-Mobile Arena",
-      "type": "arena",
-      "city": "Las Vegas",
-      "region": "vegas",
-      "date": "2026-11-24",
-      "ts": 1795550400,
-      "url": "https://concerts.vegas/event/players-era-16-championship-day-session-las-vegas-tuesday-november-24-2026-1200-pm/",
-      "src": "Concerts.Vegas"
     },
     {
       "artist": "Players Era 16 Championship Evening Session",
@@ -5445,6 +5434,17 @@
       "date": "2027-01-27",
       "ts": 1801080000,
       "url": "https://concerts.vegas/event/santana-las-vegas-house-of-blues-las-vegas-wednesday-january-27-2027-7-00-pm/",
+      "src": "Concerts.Vegas"
+    },
+    {
+      "artist": "Vegas Golden Knights Vs Buffalo Sabres",
+      "venue": "T-Mobile Arena",
+      "type": "sports",
+      "city": "Las Vegas",
+      "region": "vegas",
+      "date": "2027-01-28",
+      "ts": 1801166400,
+      "url": "https://concerts.vegas/event/vegas-golden-knights-vs-buffalo-sabres-las-vegas-thursday-january-28-2027-700-pm/",
       "src": "Concerts.Vegas"
     },
     {
