@@ -1,4 +1,4 @@
-{"updated":1795489839,"count":449,"checked":{"at":1795269772,"oembed":1695,"live_checked":98,"unknown":97,"dropped":0,"added":0,"http429":0,"secs":272},"channels":[
+{"updated":1795703327,"count":446,"checked":{"at":1795703327,"oembed":2004,"live_checked":97,"unknown":95,"dropped":3,"added":0,"http429":0,"secs":308},"channels":[
 {"id":"livecam-EO_1LWqsCNE","cat":"LIVE CAM","maxIdx":1,"label":"📡 Los Angeles · Venice Beach · Venice V Hotel · Stream","embed":"https://www.youtube.com/embed/EO_1LWqsCNE","src":"Teleport.camera","live":true,"origin":"verified-3.0"},
 {"id":"livecam-YWs0HMRVCBY","cat":"LIVE CAM","maxIdx":1,"label":"📡 BandCam Elbo Room Dance Floor & Bands","embed":"https://www.youtube.com/embed/YWs0HMRVCBY","src":"Elbo Room (Home of ElboTV)","live":true,"origin":"verified-3.0"},
 {"id":"livecam-dfVK7ld38Ys","cat":"LIVE CAM","maxIdx":1,"label":"📡 【ライブ】いまの渋谷・スクランブル交差点　ライブカメラ　Shibuya Scramble Crossing…","embed":"https://www.youtube.com/embed/dfVK7ld38Ys","src":"FNNプライムオンライン","live":true,"origin":"verified-3.0"},
@@ -13,11 +13,9 @@
 {"id":"livecam-_Zqi24i0fl4","cat":"LIVE CAM","maxIdx":1,"label":"📡 Destin, FL Beach — Ocean Reef Resorts","embed":"https://www.youtube.com/embed/_Zqi24i0fl4","src":"Ocean Reef Resorts","live":true,"origin":"verified-3.0"},
 {"id":"livecam-lcVm-Izrpa0","cat":"LIVE CAM","maxIdx":1,"label":"📡 Irish Kevin's Duval Street","embed":"https://www.youtube.com/embed/lcVm-Izrpa0","src":"Seek Florida Keys","live":true,"origin":"verified-3.0"},
 {"id":"livecam-KHy_n-EMWY8","cat":"LIVE CAM","maxIdx":1,"label":"📡 Times Square Crossroads (New York City, NY)","embed":"https://www.youtube.com/embed/KHy_n-EMWY8","src":"EarthCam","live":true,"origin":"verified-3.0"},
-{"id":"livecam-K-ibJs5xuuw","cat":"LIVE CAM","maxIdx":1,"label":"📡 大阪 道頓堀 ライブカメラ　osaka Dotonbori LiveCamera","embed":"https://www.youtube.com/embed/K-ibJs5xuuw","src":"ラジカルビデオジョッキー RVJJP","live":true,"origin":"verified-3.0"},
 {"id":"livecam-xwuuvc86-CI","cat":"LIVE CAM","maxIdx":1,"label":"📡 Los Muertos Beach — Pier — El Dorado Restaurant, Puerto…","embed":"https://www.youtube.com/embed/xwuuvc86-CI","src":"El Dorado Restaurant","live":true,"origin":"verified-3.0"},
 {"id":"livecam-MW3fisTCXRQ","cat":"LIVE CAM","maxIdx":1,"label":"📡 Beach · House of Sanskara · Koh Phangan, Thailand ( stereo…","embed":"https://www.youtube.com/embed/MW3fisTCXRQ","src":"Teleport.camera","live":true,"origin":"verified-3.0"},
 {"id":"livecam-wVNt3l657X0","cat":"LIVE CAM","maxIdx":1,"label":"📡 BAR — Elbo Room Beach Bar • Fort Lauderdale","embed":"https://www.youtube.com/embed/wVNt3l657X0","src":"Elbo Room (Home of ElboTV)","live":true,"origin":"verified-3.0"},
-{"id":"livecam-wyEi0OPai5g","cat":"LIVE CAM","maxIdx":1,"label":"📡 Rio de Janeiro Copacabana Posto 6","embed":"https://www.youtube.com/embed/wyEi0OPai5g","src":"Homes in Rio","live":true,"origin":"verified-3.0"},
 {"id":"livecam-u7kCTaCX_J4","cat":"LIVE CAM","maxIdx":1,"label":"📡 【ライブ】新宿駅前のライブカメラ 現在の様子は？ Shinjuku, Tokyo JAPAN","embed":"https://www.youtube.com/embed/u7kCTaCX_J4","src":"TBS NEWS DIG Powered by JNN","live":true,"origin":"verified-3.0"},
 {"id":"livecam-V_I168MM-ik","cat":"LIVE CAM","maxIdx":1,"label":"📡 White Bay Beach — Soggy Dollar and Sandcastle Hotel, Jost Van…","embed":"https://www.youtube.com/embed/V_I168MM-ik","src":"Soggy Dollar","live":true,"origin":"verified-3.0"},
 {"id":"livecam-NLhxcyzXQxM","cat":"LIVE CAM","maxIdx":1,"label":"📡 SIESTA KEY BEACH","embed":"https://www.youtube.com/embed/NLhxcyzXQxM","src":"SIESTA BEACH LIVE","live":true,"origin":"verified-3.0"},
@@ -44,7 +42,6 @@
 {"id":"livecam-qneJUIWMlzQ","cat":"LIVE CAM","maxIdx":1,"label":"📡 Hamptons.com — ! Main Street, Sag Harbor Village, New York","embed":"https://www.youtube.com/embed/qneJUIWMlzQ","src":"Hamptons. com","live":true,"origin":"verified-3.0"},
 {"id":"livecam-tBEIYdw1HeM","cat":"LIVE CAM","maxIdx":1,"label":"📡 Manhattan Beach and Surf Report","embed":"https://www.youtube.com/embed/tBEIYdw1HeM","src":"The Surfers View","live":true,"origin":"verified-3.0"},
 {"id":"livecam-2wqpy036z24","cat":"LIVE CAM","maxIdx":1,"label":"📡 Beach Bar St. John","embed":"https://www.youtube.com/embed/2wqpy036z24","src":"St. John USVI","live":true,"origin":"verified-3.0"},
-{"id":"livecam-WEl_I5vmuSs","cat":"LIVE CAM","maxIdx":1,"label":"📡 Rio de Janeiro — Copacabana Posto 3","embed":"https://www.youtube.com/embed/WEl_I5vmuSs","src":"Homes in Rio","live":true,"origin":"verified-3.0"},
 {"id":"livecam-QxFFjXu_zqs","cat":"LIVE CAM","maxIdx":1,"label":"📡 New Orleans Balcony View","embed":"https://www.youtube.com/embed/QxFFjXu_zqs","src":"EarthCam","live":true,"origin":"verified-3.0"},
 {"id":"livecam-iHJbTrQSZys","cat":"LIVE CAM","maxIdx":1,"label":"📡 Key West Harbor from PTZtv.","embed":"https://www.youtube.com/embed/iHJbTrQSZys","src":"PTZtv","live":true,"origin":"verified-3.0"},
 {"id":"livecam-vvdy20Ho7ac","cat":"LIVE CAM","maxIdx":1,"label":"📡 Southernmost Beach Resort Buoy","embed":"https://www.youtube.com/embed/vvdy20Ho7ac","src":"Seek Key West","live":true,"origin":"verified-3.0"},
