@@ -1,7 +1,7 @@
 {
  "version": "3.3.0",
- "built_utc": "2026-11-26T14:23:38Z",
- "build_seconds": 33.2,
+ "built_utc": "2026-11-26T16:07:51Z",
+ "build_seconds": 47.3,
  "feeds": {
   "total": 253,
   "returned_items": 245,
@@ -11,37 +11,37 @@
  },
  "news": {
   "items": 140,
-  "multi_outlet": 87,
-  "hot": 80,
+  "multi_outlet": 93,
+  "hot": 81,
   "tabs": {
-   "Las Vegas": 10,
+   "Las Vegas": 13,
    "Tickets & Lineups": 7,
-   "Fashion & Swim": 7,
-   "Ibiza & Global": 11,
-   "Festivals": 17,
-   "Hip-Hop": 7,
-   "Rock": 12,
-   "Retro & Culture": 10,
-   "Techno & House": 7,
-   "EDM & Dance": 9,
-   "Nightlife & Clubs": 6,
-   "Pop & Tours": 37
+   "Fashion & Swim": 8,
+   "Ibiza & Global": 12,
+   "Festivals": 15,
+   "Hip-Hop": 6,
+   "Rock": 14,
+   "Retro & Culture": 6,
+   "Techno & House": 6,
+   "EDM & Dance": 7,
+   "Nightlife & Clubs": 8,
+   "Pop & Tours": 38
   },
   "promo_filtered": {
-   "shopping": 52,
-   "how to watch": 13,
-   "ticket resale": 5,
-   "off-topic outlet": 73,
+   "off-topic outlet": 58,
+   "shopping": 50,
+   "how to watch": 15,
+   "ticket resale": 6,
    "promo publisher": 4,
    "ticket how-to": 5,
    "horoscope": 9,
-   "promo code": 1
+   "promo code": 2
   }
  },
  "calendar": {
-  "events": 819,
+  "events": 817,
   "festivals": 50,
-  "events_updated": 1795703018,
+  "events_updated": 1795709271,
   "las_vegas": {
    "next_30_days": 334,
    "next_60_days": 483,
@@ -68,14 +68,14 @@
    "Concerts.Vegas pearl-concert-theater-at-palms-casino-resort": 23,
    "Concerts.Vegas ph-live-at-planet-hollywood": 27,
    "Concerts.Vegas reynolds-hall-at-the-smith-center": 56,
-   "Concerts.Vegas myrons-at-the-smith-center": 12,
+   "Concerts.Vegas myrons-at-the-smith-center": 13,
    "Concerts.Vegas shows-at-stratosphere": 52,
    "Concerts.Vegas westgate-shows": 29,
    "Concerts.Vegas harrahs": 30,
    "Concerts.Vegas the-showroom-at-the-golden-nugget": 44,
    "Concerts.Vegas showroom-at-south-point-hotel-and-casino": 65,
    "Concerts.Vegas orleans-showroom-at-the-orleans-hotel": 3,
-   "Concerts.Vegas chrome-showroom-at-santa-fe-station-casino": 8,
+   "Concerts.Vegas chrome-showroom-at-santa-fe-station-casino": 9,
    "Concerts.Vegas penn-teller-theater-at-rio-las-vegas": 60,
    "Concerts.Vegas criss-angel-theater-at-planet-hollywood-resort-casino": 60,
    "Concerts.Vegas mgm-grand": 30,
@@ -98,7 +98,7 @@
    "Concerts.Vegas the-railhead-boulder-station-hotel-casino": 4,
    "Concerts.Vegas marquee-dayclub-at-cosmopolitan-hotel": 19,
    "Concerts.Vegas marquee-nightclub-at-cosmopolitan-hotel": 27,
-   "Concerts.Vegas omnia-nightclub-las-vegas-at-caesars-palace": 40,
+   "Concerts.Vegas omnia-nightclub-las-vegas-at-caesars-palace": 39,
    "Concerts.Vegas liv-nightclub-at-fontainebleau": 3,
    "No Cover zouk-nightclub": 1,
    "No Cover xs-nightclub": 2,
@@ -131,7 +131,7 @@
    "No Cover las-vegas-dayclub": 0,
    "Wynn Nightlife XS (official)": 8,
    "Las Vegas (merged)": 687,
-   "Discotech Miami": 20,
+   "Discotech Miami": 18,
    "19hz Miami": 40,
    "19hz Los Angeles": 45,
    "19hz Bay Area": 15,
@@ -155,8 +155,8 @@
   "ticketmaster_key": false
  },
  "channels": {
-  "channels": 449,
-  "videos": 2021,
-  "live": 98
+  "channels": 446,
+  "videos": 2018,
+  "live": 95
  }
 }
