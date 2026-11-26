@@ -25,7 +25,7 @@ Run locally:  python bot.py    (Python 3.8+, standard library only)
 """
 
 import os, re, json, time, hashlib, html as htmllib
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from xml.etree import ElementTree as ET
 import urllib.request, urllib.parse, urllib.error
@@ -1359,7 +1359,8 @@ def _hz_parse(page, region_default, metro):
         reg = region_default if (not city or metro.search(city)) else "world"
         out.append({"artist": name[:80], "venue": venue[:80] or city, "type": "club", "city": city or "",
                     "region": reg, "date": "%04d-%02d-%02d" % (y, mo, d),
-                    "ts": _cal.timegm((y, mo, d, 20, 0, 0, 0, 0, 0)) + (7 * 3600 if region_default != "world" else 0),
+                    "ts": (lv_ts(y, mo, d, 21) if region_default in ("vegas", "la")      # 3.3: Pacific time, PST/PDT
+                           else _cal.timegm((y, mo, d, 20, 0, 0, 0, 0, 0)) + (7 * 3600 if region_default != "world" else 0)),
                     "url": url if url.startswith("http") else "https://19hz.info", "src": "19hz.info"})
     return out
 
@@ -1374,13 +1375,14 @@ CAL_SOURCES = [
     ("19hz Miami",        "https://19hz.info/eventlisting_Miami.php", "hz", "", "club", "Miami", "miami", 40),
     ("19hz Los Angeles",  "https://19hz.info/eventlisting_LosAngeles.php", "hz", "", "club", "Los Angeles", "la", 45),
     ("19hz Bay Area",     "https://19hz.info/eventlisting_BayArea.php", "hz", "", "club", "San Francisco", "world", 15),
-    ("19hz Las Vegas",    "https://19hz.info/eventlisting_LasVegas.php", "hz", "", "club", "Las Vegas", "vegas", 15),
+    ("19hz Las Vegas",    "https://19hz.info/eventlisting_LasVegas.php", "hz", "", "club", "Las Vegas", "vegas", 40),
     ("19hz Texas",        "https://19hz.info/eventlisting_Texas.php", "hz", "", "club", "Texas", "world", 12),
     ("Eventbrite NYC",    "https://www.eventbrite.com/d/ny--new-york/nightlife/", "eb", "New York", "club", "New York", "nyc", 30),
     ("Eventbrite NYC parties", "https://www.eventbrite.com/d/ny--new-york/parties/", "eb", "New York", "club", "New York", "nyc", 30),
     ("Eventbrite LA",     "https://www.eventbrite.com/d/ca--los-angeles/nightlife/", "eb", "Los Angeles", "club", "Los Angeles", "la", 20),
     ("Eventbrite Miami",  "https://www.eventbrite.com/d/fl--miami/nightlife/", "eb", "Miami", "club", "Miami", "miami", 20),
-    ("Eventbrite Las Vegas", "https://www.eventbrite.com/d/nv--las-vegas/nightlife/", "eb", "Las Vegas", "club", "Las Vegas", "vegas", 12),
+    # 3.3: off - reading Eventbrite's pages this way may break its terms, and the live build got 0 events from it
+    # ("Eventbrite Las Vegas", "https://www.eventbrite.com/d/nv--las-vegas/nightlife/", "eb", "Las Vegas", "club", "Las Vegas", "vegas", 12),
     ("Eventbrite London", "https://www.eventbrite.com/d/united-kingdom--london/nightlife/", "eb", "London", "club", "London", "world", 20),
     ("Eventbrite Ibiza",  "https://www.eventbrite.com/d/spain--ibiza/parties/", "eb", "Ibiza", "club", "Ibiza", "ibiza", 15),
 ]
@@ -1556,6 +1558,616 @@ def scrape_world():
             out.extend(evs)
     return out
 
+# ═══════════ 3.3 (ORDER-701 E1 + E2): LAS VEGAS - every venue, Pacific time, on-sale alerts ═══════════
+# Sources measured 23 Nov 2026 (robots.txt allows each path; terms read). NOT used because their terms forbid
+# automated collection: fontainebleaulasvegas.com, taogroup.com, zoukgrouplv.com, draisgroup.com,
+# fremontstreetexperience.com, ticketmaster.com / livenation.com pages (Ticketmaster only through its API key).
+try:
+    from zoneinfo import ZoneInfo as _ZoneInfo
+    _LV_TZ = _ZoneInfo("America/Los_Angeles")
+except Exception:
+    _LV_TZ = None
+
+
+def _lv_off_h(y, mo, d, hh):
+    """US rule since 2007: PDT (-7) from the 2nd Sunday of March 02:00 to the 1st Sunday of November 02:00, else PST (-8)."""
+    def nth_sunday(month, n):
+        return 1 + (6 - _cal.weekday(y, month, 1)) % 7 + 7 * (n - 1)
+    return -7 if (3, nth_sunday(3, 2), 2) <= (mo, d, hh) < (11, nth_sunday(11, 1), 2) else -8
+
+
+def lv_ts(y, mo, d, hh=20, mi=0):
+    """Las Vegas wall-clock time -> epoch seconds (America/Los_Angeles: PST in winter, PDT in summer)."""
+    if _LV_TZ is not None:
+        try:
+            return int(datetime(y, mo, d, hh, mi, tzinfo=_LV_TZ).timestamp())
+        except Exception:
+            pass
+    return _cal.timegm((y, mo, d, hh, mi, 0, 0, 0, 0)) - _lv_off_h(y, mo, d, hh) * 3600
+
+
+def lv_dt(ts):
+    """epoch -> Las Vegas local datetime"""
+    if _LV_TZ is not None:
+        try:
+            return datetime.fromtimestamp(ts, _LV_TZ)
+        except Exception:
+            pass
+    t = time.gmtime(ts - 8 * 3600)
+    off = _lv_off_h(t.tm_year, t.tm_mon, t.tm_mday, t.tm_hour)
+    return datetime.fromtimestamp(ts, timezone(timedelta(hours=off)))
+
+
+def _clock(hh, mi):
+    return "%d:%02d %s" % ((hh % 12) or 12, mi, "AM" if hh < 12 else "PM")
+
+
+# Venue table: (regex on the venue name, short name, card type, Las Vegas group, the venue's official page).
+# Groups: nightclub, dayclub, concert (concerts & arenas), theater (theaters & shows), festival, sports.
+LV_VENUES = [   # first match wins; "Sphere" never matches "Stratosphere Las Vegas"
+    (r"t-?mobile arena", "T-Mobile Arena", "arena", "concert", "https://www.t-mobilearena.com/events"),
+    (r"allegiant stadium", "Allegiant Stadium", "stadium", "concert", "https://www.allegiantstadium.com/events"),
+    (r"^sphere\b|\bsphere las vegas|msg sphere", "Sphere", "sphere", "concert", "https://www.thespherevegas.com/shows"),
+    (r"mgm grand garden", "MGM Grand Garden Arena", "arena", "concert", ""),
+    (r"michelob ultra arena", "Michelob ULTRA Arena", "arena", "concert", ""),
+    (r"orleans arena", "Orleans Arena", "arena", "concert", ""),
+    (r"thomas ?(&|and) ?mack", "Thomas & Mack Center", "arena", "concert", ""),
+    (r"festival grounds", "Las Vegas Festival Grounds", "concert", "festival", ""),
+    (r"motor speedway", "Las Vegas Motor Speedway", "concert", "festival", ""),
+    (r"downtown las vegas events center", "Downtown Las Vegas Events Center", "concert", "festival", ""),
+    (r"bleau ?live", "BleauLive Theater", "residency", "theater", "https://www.fontainebleaulasvegas.com/entertainment/"),
+    (r"dolby live|park theater", "Dolby Live at Park MGM", "residency", "theater", ""),
+    (r"colosseum", "The Colosseum at Caesars Palace", "residency", "theater", ""),
+    (r"theater at virgin|theatre at virgin", "The Theater at Virgin Hotels", "concert", "theater", ""),
+    (r"theatre at resorts world|theater at resorts world|resorts world theat", "Resorts World Theatre", "residency", "theater", ""),
+    (r"encore theat", "Encore Theater at Wynn", "residency", "theater", ""),
+    (r"venetian theat|palazzo theat", "Venetian Theatre", "residency", "theater", ""),
+    (r"pearl concert theater|pearl theater", "Pearl Concert Theater at Palms", "concert", "theater", ""),
+    (r"ph live|bakkt theater", "PH Live at Planet Hollywood", "residency", "theater", ""),
+    (r"reynolds hall", "Reynolds Hall at The Smith Center", "theater", "theater", "https://www.thesmithcenter.com/"),
+    (r"myron'?s", "Myron's at The Smith Center", "theater", "theater", "https://www.thesmithcenter.com/"),
+    (r"strat theater", "The Strat Theater", "theater", "theater", ""),
+    (r"westgate", "Westgate Las Vegas", "theater", "theater", ""),
+    (r"harrah'?s", "Harrah's Las Vegas", "theater", "theater", ""),
+    (r"golden nugget", "The Showroom at the Golden Nugget", "theater", "theater", ""),
+    (r"south point", "South Point Showroom", "theater", "theater", ""),
+    (r"orleans showroom", "The Orleans Showroom", "theater", "theater", ""),
+    (r"chrome showroom", "Chrome Showroom at Santa Fe Station", "theater", "theater", ""),
+    (r"penn (&|and) teller", "Penn & Teller Theater at Rio", "theater", "theater", ""),
+    (r"criss angel", "Criss Angel Theater at Planet Hollywood", "theater", "theater", ""),
+    (r"mgm grand theater|ka theat", "MGM Grand", "theater", "theater", ""),
+    (r"aliante", "Aliante Casino", "theater", "theater", ""),
+    (r"primm", "Primm Valley Event Center", "theater", "theater", ""),
+    (r"grand canal shoppes|venetian hotel", "The Venetian", "theater", "theater", ""),
+    (r"b-side room", "B-Side Room at House of Blues", "concert", "concert", "https://www.houseofblues.com/lasvegas"),
+    (r"house of blues", "House of Blues Las Vegas", "concert", "concert", "https://www.houseofblues.com/lasvegas"),
+    (r"brooklyn bowl", "Brooklyn Bowl Las Vegas", "concert", "concert", "https://www.brooklynbowl.com/las-vegas"),
+    (r"the chelsea|chelsea at the cosmopolitan", "The Chelsea at The Cosmopolitan", "concert", "concert", ""),
+    (r"24 oxford", "24 Oxford at Virgin Hotels", "concert", "concert", ""),
+    (r"stage at zouk", "The Stage at Zouk", "concert", "concert", ""),
+    (r"area ?15|a-lot|portal at", "AREA15", "concert", "concert", ""),
+    (r"llama lot|backstage bar|bel-aire|grey witch|swan dive|substance|usual place|railhead", "", "concert", "concert", ""),
+    (r"marquee day", "Marquee Dayclub", "pool", "dayclub", ""),
+    (r"ebc at night", "EBC at Night", "club", "nightclub", "https://www.wynnsocial.com/events/"),
+    (r"encore beach club|^ebc", "Encore Beach Club", "pool", "dayclub", "https://www.wynnsocial.com/events/"),
+    (r"liv beach", "LIV Beach", "pool", "dayclub", "https://www.livnightclub.com/las-vegas/"),
+    (r"tao beach", "Tao Beach", "pool", "dayclub", ""),
+    (r"\bayu\b", "AYU Dayclub", "pool", "dayclub", ""),
+    (r"drai'?s beach", "Drai's Beachclub", "pool", "dayclub", "https://www.draisgroup.com/"),
+    (r"wet republic|daylight|liquid pool|palm tree beach|tailgate beach|stadium swim|omnia day|bare pool|elia beach|flamingo go", "", "pool", "dayclub", ""),
+    (r"drai'?s after ?hours", "Drai's After Hours", "club", "nightclub", "https://www.draisgroup.com/"),
+    (r"drai'?s", "Drai's Nightclub", "club", "nightclub", "https://www.draisgroup.com/"),
+    (r"omnia", "Omnia", "club", "nightclub", "https://taogroup.com/"),
+    (r"hakkasan", "Hakkasan", "club", "nightclub", "https://taogroup.com/"),
+    (r"^tao\b|tao nightclub", "Tao", "club", "nightclub", "https://taogroup.com/"),
+    (r"marquee", "Marquee", "club", "nightclub", "https://taogroup.com/"),
+    (r"jewel", "Jewel", "club", "nightclub", "https://taogroup.com/"),
+    (r"^liv\b|liv nightclub", "LIV Nightclub", "club", "nightclub", "https://www.livnightclub.com/las-vegas/"),
+    (r"zouk", "Zouk Nightclub", "club", "nightclub", "https://zoukgrouplv.com/events/"),
+    (r"^xs\b|xs nightclub", "XS Nightclub", "club", "nightclub", "https://www.wynnsocial.com/events/"),
+    (r"on the record", "On The Record", "club", "nightclub", "https://ontherecordlv.com/"),
+    (r"discopussy", "Discopussy", "club", "nightclub", ""),
+    (r"ghostbar|forty deuce|vinyl room|foundation room|1 oak|hyde|intrigue|apex|chateau|light nightclub|ebc at night", "", "club", "nightclub", ""),
+]
+_LV_VENUE_RES = [(re.compile(rx, re.I), n, t, gname, u) for rx, n, t, gname, u in LV_VENUES]
+_LV_SPORTS = re.compile(r"\bvs\.?\s|\bv\.\s|golden knights|raiders\b|\bufc\b|boxing|\bnfr\b|rodeo|championship|basketball|"
+                        r"football|hockey|\bncaa\b|soccer|rugby|wrestling|\bwwe\b|\bpbr\b|nascar|\bbowl game|las vegas bowl|"
+                        r"supercross|grand prix|\baces\b|monster jam|tournament", re.I)
+_LV_FEST = re.compile(r"festival|\bfest\b|edc\b|electric daisy", re.I)
+
+
+def lv_venue(name):
+    """(short name, type, group, official url) for a Las Vegas venue name; unknown -> ('', 'concert', 'concert', '')."""
+    for rx, short, typ, grp, url in _LV_VENUE_RES:
+        if rx.search(name or ""):
+            return short or name, typ, grp, url
+    return name, "concert", "concert", ""
+
+
+def _norm(s):
+    return re.sub(r"[^a-z0-9]+", "", (s or "").lower().replace("&", "and"))
+
+
+def lv_event(artist, venue_raw, y, mo, d, hh=None, mi=0, url="", src="", ld_type=""):
+    """One Las Vegas event dict: Pacific time, venue group, official venue page; hh None = time not published."""
+    short, typ, grp, vurl = lv_venue(venue_raw)
+    artist = re.sub(r"\s+", " ", htmllib.unescape(str(artist or ""))).strip()[:90]
+    if _LV_SPORTS.search(artist) or "SportsEvent" in (ld_type or ""):
+        typ, grp = "sports", "sports"
+    elif _LV_FEST.search(artist) and grp in ("concert", "festival"):
+        grp = "festival"
+    known = hh is not None
+    ts = lv_ts(y, mo, d, hh if known else (11 if typ == "pool" else 22 if typ == "club" else 19), mi if known else 0)
+    ev = {"artist": artist, "venue": short or venue_raw, "type": typ, "group": grp, "city": "Las Vegas",
+          "region": "vegas", "date": "%04d-%02d-%02d" % (y, mo, d), "ts": ts, "time": _clock(hh, mi) if known else "",
+          "url": url, "src": src}
+    if vurl:
+        ev["venue_url"] = vurl
+    return ev
+
+
+# A) concerts.vegas venue pages - schema.org Event JSON-LD (real location names, start times with PT offsets).
+#    Current slugs (61 venue links on concerts.vegas/venues/, 23 Nov 2026; redirects followed, duplicates merged).
+#    30 events a page; "?pagenum=N" gives the next 30.
+LV_CV_PAGES = [
+    "venue/t-mobile-arena-events/", "venue/allegiant-stadium/", "sphere/schedule/", "venue/mgm-grand-garden-arena-events/",
+    "michelob-ultra-arena-events/", "venue/orleans-arena-the-orleans-hotel/", "venue/las-vegas-festival-grounds-events/",
+    "venue/las-vegas-motor-speedway-events/", "venue/downtown-las-vegas-events-center-events/",
+    "venue/bleaulive-theater-at-fontainebleau-las-vegas/", "dolby-live-at-park-mgm-tickets/", "venue/colosseum-events/",
+    "virgin-hotels/", "resorts-world/", "encore-events/", "venetian/", "venue/pearl-concert-theater-at-palms-casino-resort/",
+    "venue/ph-live-at-planet-hollywood/", "venue/reynolds-hall-at-the-smith-center/", "venue/myrons-at-the-smith-center/",
+    "shows-at-stratosphere/", "westgate-shows/", "shows/harrahs/", "venue/the-showroom-at-the-golden-nugget/",
+    "venue/showroom-at-south-point-hotel-and-casino/", "venue/orleans-showroom-at-the-orleans-hotel/",
+    "venue/chrome-showroom-at-santa-fe-station-casino/", "venue/penn-teller-theater-at-rio-las-vegas/",
+    "venue/criss-angel-theater-at-planet-hollywood-resort-casino/", "shows/mgm-grand/", "venue/aliante-casino-and-hotel/",
+    "venue/primm-valley-event-center/", "venue/house-of-blues-las-vegas/", "venue/b-side-room-at-house-of-blues-las-vegas/",
+    "venue/brooklyn-bowl-las-vegas/", "cosmopolitan/", "venue/the-stage-at-zouk-at-resorts-world-las-vegas/",
+    "venue/a-lot-at-area15/", "venue/portal-at-area15/", "venue/llama-lot/", "venue/backstage-bar-billiards/",
+    "venue/bel-aire-backyard/", "venue/grey-witch/", "venue/swan-dive-las-vegas/", "venue/substance/", "venue/the-usual-place/",
+    "venue/the-railhead-boulder-station-hotel-casino/", "venue/marquee-dayclub-at-cosmopolitan-hotel/",
+    "venue/marquee-nightclub-at-cosmopolitan-hotel/", "venue/omnia-nightclub-las-vegas-at-caesars-palace/",
+    "venue/liv-nightclub-at-fontainebleau/",
+]
+LV_HORIZON_DAYS = 120
+LV_CV_MAX_PAGES = 4
+
+
+def _cv_ld_page(path):
+    """One concerts.vegas listing (all its pages up to the horizon) -> Las Vegas events. Never raises."""
+    out, horizon = [], time.time() + LV_HORIZON_DAYS * 86400
+    for pg in range(1, LV_CV_MAX_PAGES + 1):
+        u = "https://concerts.vegas/" + path + ("" if pg == 1 else "?pagenum=%d" % pg)
+        try:
+            page = _fetch_page(u)
+        except Exception as e:
+            print(f"  [CV WARN] {u}: {e}")
+            break
+        n_ld, last = 0, 0
+        for blk in _LD_RE.finditer(page):
+            try:
+                data = json.loads(htmllib.unescape(blk.group(1).strip()))
+            except Exception:
+                try:
+                    data = json.loads(blk.group(1).strip())
+                except Exception:
+                    continue
+            for it in _ld_items(data):
+                s = str(it.get("startDate") or "")
+                m = re.match(r"(\d{4})-(\d\d)-(\d\d)(?:T(\d\d):(\d\d))?", s)
+                if not m or not it.get("name"):
+                    continue
+                n_ld += 1
+                y, mo, d = int(m.group(1)), int(m.group(2)), int(m.group(3))
+                hh, mi = (int(m.group(4)), int(m.group(5))) if m.group(4) else (None, 0)
+                loc = it.get("location") or {}
+                if isinstance(loc, list):
+                    loc = loc[0] if loc else {}
+                vname = (loc.get("name") if isinstance(loc, dict) else "") or ""
+                ent = it.get("mainEntityOfPage")
+                url = it.get("url") or (ent.get("@id") if isinstance(ent, dict) else ent) or it.get("@id") or ""
+                if not isinstance(url, str) or not url.startswith("http"):
+                    url = ""
+                t = it.get("@type", "")
+                ev = lv_event(it.get("name"), vname, y, mo, d, hh, mi, url, "Concerts.Vegas", " ".join(t) if isinstance(t, list) else str(t))
+                # the JSON-LD offset is the truth when given (e.g. -08:00 / -07:00)
+                if len(s) > 16 and re.search(r"[+-]\d\d:\d\d$|Z$", s):
+                    try:
+                        ev["ts"] = int(datetime.fromisoformat(s.replace("Z", "+00:00")).timestamp())
+                    except Exception:
+                        pass
+                last = max(last, ev["ts"])
+                out.append(ev)
+        total = re.search(r"Upcoming Events:\s*(\d+)", page)
+        if n_ld < 30 or not total or int(total.group(1)) <= pg * 30 or last > horizon:
+            break
+    return path, out
+
+
+# B) No Cover Nightclubs calendars (club + dayclub nights; the date and artist live in the event URL)
+LV_NOCOVER_EXTRA = ["drais-nightclub-event-calendar", "drais-after-hours-event-calendar", "drais-beachclub-event-calendar",
+                    "on-the-record-event-calendar", "daylight-beach-club-event-calendar", "wet-republic-event-calendar",
+                    "omnia-dayclub-event-calendar", "stadium-swim-event-calendar", "ghostbar-nightclub-event-calendar",
+                    "vinyl-room-event-calendar", "las-vegas-edm-club-calendar", "las-vegas-hip-hop-club-calendar",
+                    "las-vegas-dayclub-event-calendar"]  # the 23 Nov sitemap's Las Vegas calendars 3.2 did not read
+VG_VENUES.update({
+    "drais-nightclub": ("Drai's Nightclub", "club"), "drais-after-hours": ("Drai's After Hours", "club"),
+    "drais-afterhours": ("Drai's After Hours", "club"), "drais-beachclub": ("Drai's Beachclub", "pool"),
+    "drais-beach-club": ("Drai's Beachclub", "pool"), "on-the-record": ("On The Record", "club"),
+    "daylight-beach-club": ("Daylight Beach Club", "pool"), "wet-republic": ("Wet Republic", "pool"),
+    "vinyl-room": ("Vinyl Room at Foundation Room", "club"), "ghostbar": ("Ghostbar", "club"),
+    "jewel-nightclub": ("Jewel", "club"), "discopussy": ("Discopussy", "club"),
+})
+_VG_SLUGS[:] = sorted(VG_VENUES, key=len, reverse=True)
+for _s in LV_NOCOVER_EXTRA:
+    _u = "https://nocovernightclubs.com/%s/" % _s
+    if _u not in VG_CALENDARS:
+        VG_CALENDARS.append(_u)
+
+
+def _nocover_one(cal_url):
+    try:
+        html = _fetch_page(cal_url)
+    except Exception as e:
+        print(f"  [VG WARN] {cal_url}: {e}")
+        return cal_url, []
+    out, seen = [], set()
+    for m in _VG_EVENT_RE.finditer(html):
+        u = m.group(0).rstrip("/")
+        if u in seen:
+            continue
+        seen.add(u)
+        ev = _vg_parse(m.group(0))
+        if ev:
+            y, mo, d = (int(x) for x in ev["date"].split("-"))
+            out.append(lv_event(ev["artist"], ev["venue"], y, mo, d, None, 0, m.group(0), "No Cover Nightclubs"))
+    return cal_url, out
+
+
+# C) Wynn Nightlife (official): XS nights from its event sitemap + each event page's JSON-LD (wynnsocial.com: robots
+#    allows, no clause against automated reading in its terms). EVE1115000 = XS Nightclub.
+LV_WYNN_PREFIX = {"EVE1115000": "XS Nightclub"}
+
+
+def _wynn_xs():
+    out = []
+    try:
+        sm = _fetch_page("https://www.wynnsocial.com/event-sitemap.xml")
+    except Exception as e:
+        print(f"  [WYNN WARN] sitemap: {e}")
+        return out
+    urls = []
+    for u in re.findall(r"<loc>([^<]+)</loc>", sm):
+        m = re.search(r"/event/(EVE\d+?)(\d{8})/", u)
+        if m and m.group(1) in LV_WYNN_PREFIX:
+            urls.append((u, m.group(1), m.group(2)))
+    def one(row):
+        u, pre, ymd = row
+        y, mo, d = int(ymd[:4]), int(ymd[4:6]), int(ymd[6:])
+        if lv_ts(y, mo, d, 23) < time.time() - 43200:
+            return None
+        try:
+            page = _fetch_page(u)
+        except Exception:
+            return None
+        name = ""
+        for blk in _LD_RE.finditer(page):
+            try:
+                for it in _ld_items(json.loads(blk.group(1).strip())):
+                    name = name or str(it.get("name") or "")
+            except Exception:
+                continue
+        if not name or "REPLACE_WITH" in name:
+            return None
+        tm = re.search(r"\b(\d{1,2}):(\d{2})\s*([AP])M\b", page)
+        hh = mi = None
+        if tm:
+            hh, mi = int(tm.group(1)) % 12 + (12 if tm.group(3) == "P" else 0), int(tm.group(2))
+        return lv_event(name, LV_WYNN_PREFIX[pre], y, mo, d, hh, mi or 0, u, "Wynn Nightlife (official)")
+    with ThreadPoolExecutor(max_workers=4) as ex:
+        out = [e for e in ex.map(one, urls[:40]) if e]
+    return out
+
+
+def _lv_squash_nightly(evs, now):
+    """A show that plays most nights (more than 8 dates in 30 days at one venue) keeps its next 3 dates;
+    the 3rd says how many more are on the calendar."""
+    groups = {}
+    for e in evs:
+        groups.setdefault((_norm(e["artist"]), _norm(e["venue"])), []).append(e)
+    keep = []
+    for k, g in groups.items():
+        g.sort(key=lambda e: e["ts"])
+        soon = [e for e in g if e["ts"] <= now + 30 * 86400]
+        if len(soon) > 8:
+            head = g[:3]
+            head[-1]["more"] = len(g) - 3
+            for e in head:
+                e["nightly"] = True
+                if e["group"] in ("concert", "theater") and e["type"] not in ("sports",):
+                    e["group"] = "theater"
+            keep.extend(head)
+        else:
+            keep.extend(g)
+    return keep
+
+
+def scrape_vegas_all():
+    """3.3: every Las Vegas source, each isolated; de-duplicated by artist + venue + date (the entry with a
+    published time and the official source wins). Per-source counts go into CAL_STATS / health.json."""
+    now = int(time.time())
+    allev = []
+    jobs = [("cv", p) for p in LV_CV_PAGES] + [("nc", u) for u in VG_CALENDARS]
+    def run(job):
+        kind, arg = job
+        try:
+            return (kind, arg) + (_cv_ld_page(arg)[1:] if kind == "cv" else _nocover_one(arg)[1:])
+        except Exception as e:
+            print(f"  [LV WARN] {arg}: {e}")
+            return (kind, arg, [])
+    with ThreadPoolExecutor(max_workers=6) as ex:
+        for kind, arg, evs in ex.map(run, jobs):
+            label = ("Concerts.Vegas " + arg.strip("/").split("/")[-1]) if kind == "cv" else ("No Cover " + arg.rstrip("/").split("/")[-1].replace("-event-calendar", "").replace("-calendar", ""))
+            CAL_STATS[label] = len([e for e in evs if e["ts"] >= now - 43200])
+            allev.extend(evs)
+    try:
+        wx = _wynn_xs()
+    except Exception as e:
+        print(f"  [WYNN WARN] {e}")
+        wx = []
+    CAL_STATS["Wynn Nightlife XS (official)"] = len(wx)
+    allev.extend(wx)
+    rank = {"Wynn Nightlife (official)": 0, "Concerts.Vegas": 1, "No Cover Nightclubs": 2}
+    best = {}
+    for e in allev:
+        if e["ts"] < now - 43200 or e["ts"] > now + LV_HORIZON_DAYS * 86400:
+            continue
+        k = (_norm(e["artist"]), _norm(e["venue"]), e["date"])
+        o = best.get(k)
+        if o is None or (bool(e["time"]), -rank.get(e["src"], 9)) > (bool(o["time"]), -rank.get(o["src"], 9)):
+            best[k] = e
+    out = _lv_squash_nightly(list(best.values()), now)
+    out.sort(key=lambda e: e["ts"])
+    CAL_STATS["Las Vegas (merged)"] = len(out)
+    return out
+
+
+# ── E2: Las Vegas on-sale alerts. Keyless: TicketNews (WordPress search RSS: the description carries the on-sale
+#    dates) and Google News on-sale searches (the headline must carry the date). Ticketmaster's Discovery API
+#    (public on-sale + presales) only when the TICKETMASTER_API_KEY secret exists. Only real announcements with a
+#    date; kept until 7 days after the on-sale; old alerts are carried from the previous events.json.
+def _gq(q):
+    return g(urllib.parse.quote_plus(q))
+
+
+ONSALE_FEEDS = [
+    ("TicketNews", "https://www.ticketnews.com/?s=las+vegas&feed=rss2"),
+    ("TicketNews", "https://www.ticketnews.com/?s=las+vegas&feed=rss2&paged=2"),
+    ("TicketNews", "https://www.ticketnews.com/?s=sphere&feed=rss2"),
+    ("Google News", _gq('"las vegas" "on sale" when:14d')),
+    ("Google News", _gq('"las vegas" presale when:14d')),
+    ("Google News", _gq('"las vegas" "tickets go on sale" when:14d')),
+    ("Google News", _gq('"las vegas residency" tickets when:14d')),
+    ("Google News", _gq('sphere "las vegas" presale OR "on sale" when:14d')),
+]
+_OS_MON = r"(jan(?:uary)?|feb(?:ruary)?|mar(?:ch)?|apr(?:il)?|may|june?|july?|aug(?:ust)?|sept?(?:ember)?|oct(?:ober)?|nov(?:ember)?|dec(?:ember)?)"
+_OS_TIME = r"(?:\s*(?:,|at|@|from|beginning at|starting at)?\s*(\d{1,2})(?::(\d{2}))?\s*([ap])\.?\s?m\.?(?:\s*(pt|pst|pdt|et|est|edt|ct|cst|cdt|mt|mst|mdt|local(?: time)?))?)?"
+_OS_DATE = re.compile(r"\b(?:(?:mon|tues|wednes|thurs|fri|satur|sun)day,?\s+)?" + _OS_MON + r"\.?\s+(\d{1,2})(?:st|nd|rd|th)?\b(?:,?\s+(20\d\d))?" + _OS_TIME, re.I)
+_OS_WDAY = re.compile(r"\b(today|tomorrow|monday|tuesday|wednesday|thursday|friday|saturday|sunday)\b" + _OS_TIME, re.I)
+_OS_KEY = re.compile(r"(pre-?sales?|fan club|verified fan|citi\b|on[- ]?sales?|ticket sales|tickets? (?:go|goes|will go|are|went) (?:on sale|live)|"
+                     r"sales? (?:begin|begins|start|starts|open|opens)|general (?:public|admission|tickets?)|public sale)", re.I)
+_OS_VEGAS = re.compile(r"\blas vegas\b|\bvegas\b|\bsphere\b|bleau ?live|t-mobile arena|allegiant stadium|dolby live|colosseum at caesars|"
+                       r"michelob ultra|mgm grand garden|resorts world|encore theat|venetian theat|pearl concert|ph live|"
+                       r"smith center|fontainebleau las vegas", re.I)
+_OS_SKIP = re.compile(r"postpone|cancel|refund|lawsuit|\bstudy\b|resale cap|earnings|revenue|homeless|shelter|how to (?:get|secure|buy)|"
+                      r"here'?s how|if you missed|where to buy|best seats|sold out", re.I)
+_OS_TZ = {"et": 3, "est": 3, "edt": 3, "ct": 2, "cst": 2, "cdt": 2, "mt": 1, "mst": 1, "mdt": 1}
+_OS_MONTHS = {m[:3].lower(): i for i, m in enumerate(_cal.month_name) if m}
+
+
+def _os_dates(text, pub_ts):
+    """[(kind 'presale'|'general', y, mo, d, hh|None, mi)] for dates that follow an on-sale / presale phrase."""
+    pub = lv_dt(pub_ts)
+    found = []
+    for m in list(_OS_DATE.finditer(text)) + list(_OS_WDAY.finditer(text)):
+        before = text[max(0, m.start() - 60):m.start()]
+        keys = list(_OS_KEY.finditer(before))
+        if not keys:
+            continue
+        kw = keys[-1].group(0).lower()
+        if m.re is _OS_WDAY and m.start() - (max(0, m.start() - 60) + keys[-1].end()) > 25:
+            continue                       # a bare weekday counts only right after the phrase ("on sale Friday")
+        kind = "presale" if re.search(r"pre-?sale|fan club|verified|citi", kw) else "general"
+        if m.re is _OS_DATE:
+            mo = _OS_MONTHS[m.group(1)[:3].lower()]
+            d = int(m.group(2))
+            if m.group(3):
+                y = int(m.group(3))
+            else:                          # the year that puts it nearest after the announcement
+                y = pub.year
+                if (mo, d) < (pub.month, pub.day) and (pub.month - mo) % 12 > 2:
+                    y += 1
+            hh_g, mi_g, ap, tz = m.group(4), m.group(5), m.group(6), m.group(7)
+        else:
+            w = m.group(1).lower()
+            if w == "today":
+                add = 0
+            elif w == "tomorrow":
+                add = 1
+            else:
+                add = (["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"].index(w) - pub.weekday()) % 7
+            dd = datetime(pub.year, pub.month, pub.day) + timedelta(days=add)
+            y, mo, d = dd.year, dd.month, dd.day
+            hh_g, mi_g, ap, tz = m.group(2), m.group(3), m.group(4), m.group(5)
+        try:
+            datetime(y, mo, d)
+        except ValueError:
+            continue
+        hh = mi = None
+        if hh_g and ap:
+            hh = int(hh_g) % 12 + (12 if ap.lower() == "p" else 0)
+            mi = int(mi_g or 0)
+            hh -= _OS_TZ.get((tz or "").lower(), 0)
+            if hh < 0:
+                hh = None               # crossing midnight: leave the time out rather than guess
+        found.append((kind, y, mo, d, hh, mi or 0))
+    return found
+
+
+def _os_artist(title):
+    t = re.split(r"\s+(?:announces?|adds?|sets?|extends?|returns?|expands?|doubles?|brings?|confirms?|unveils?|plans?|reveals?|"
+                 r"will|to play|to perform|coming|heads?|tickets?|las vegas|vegas|residency|presale|on sale)\b|[:–—|]", title, 1, flags=re.I)[0]
+    t = re.sub(r"^(when do|when is|when are|how to)\s+", "", t.strip(), flags=re.I).strip(" '\"‘’“”?")
+    t = re.split(r"\s+(?:at|in)\s+(?:the\s+)?(?:sphere|las vegas|vegas)\b", t, 1, flags=re.I)[0]
+    return t if 2 <= len(t) <= 48 else ""
+
+
+def onsale_from_feeds():
+    """Keyless on-sale alerts. Never raises."""
+    rows = []
+    def one(src_url):
+        src, url = src_url
+        out = []
+        try:
+            req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (compatible; PartyPortalBot/3.0)"})
+            with urllib.request.urlopen(req, timeout=FETCH_TIMEOUT + 6) as r:
+                root = ET.fromstring(r.read())
+        except Exception as e:
+            print(f"  [ONSALE WARN] {src}: {e}")
+            return src, out
+        for it in root.iter("item"):
+            title = strip_source(htmllib.unescape((it.findtext("title") or "").strip()))
+            desc = re.sub(r"\s+", " ", htmllib.unescape(re.sub(r"<[^>]+>", " ", it.findtext("description") or "")))
+            desc = re.sub(r"The post .* appeared first on .*$", "", desc).strip() if src == "TicketNews" else ""
+            link = (it.findtext("link") or "").strip()
+            try:
+                pub = int(datetime.strptime((it.findtext("pubDate") or "").strip()[:25], "%a, %d %b %Y %H:%M:%S").replace(tzinfo=timezone.utc).timestamp())
+            except Exception:
+                continue
+            text = title + ". " + desc
+            if not _OS_VEGAS.search(text) or _OS_SKIP.search(text):
+                continue
+            dates = _os_dates(text, pub)
+            if not dates:
+                continue
+            out.append({"title": title, "desc": desc[:300], "link": link, "pub": pub, "dates": dates, "src": src,
+                        "outlet": (it.findtext("source") or src).strip()})
+        return src, out
+    with ThreadPoolExecutor(max_workers=4) as ex:
+        for src, out in ex.map(one, ONSALE_FEEDS):
+            ONSALE_STATS[src] = ONSALE_STATS.get(src, 0) + len(out)
+            rows.extend(out)
+    alerts = []
+    for r in rows:
+        gen = [x for x in r["dates"] if x[0] == "general"]
+        pre = [x for x in r["dates"] if x[0] == "presale"]
+        main = (gen or pre)[0]
+        venue = ""
+        for rx, short, _t, _g, vurl in _LV_VENUE_RES:      # in running text a venue name need not start the string
+            if short and re.search(rx.pattern.replace("^", r"\b"), r["title"] + " " + r["desc"], re.I):
+                venue = short
+                break
+        _s, _t2, _g2, vurl = lv_venue(venue) if venue else ("", "", "", "")
+        a = {"event": r["title"][:140], "artist": _os_artist(r["title"]), "venue": venue or "Las Vegas",
+             "onsale_date": "%04d-%02d-%02d" % main[1:4], "onsale_time": _clock(main[4], main[5]) if main[4] is not None else "",
+             "onsale_ts": lv_ts(main[1], main[2], main[3], main[4] if main[4] is not None else 0, main[5]),
+             "kind": "general" if gen else "presale", "announced": r["pub"], "src": r["outlet"], "src_url": r["link"],
+             "ticket_url": vurl or "", "note": r["desc"][:220]}
+        if gen and pre:
+            p = pre[0]
+            a["presale_date"] = "%04d-%02d-%02d" % p[1:4]
+            a["presale_time"] = _clock(p[4], p[5]) if p[4] is not None else ""
+            a["presale_ts"] = lv_ts(p[1], p[2], p[3], p[4] if p[4] is not None else 0, p[5])
+        alerts.append(a)
+    return alerts
+
+
+def onsale_from_ticketmaster():
+    """Ticketmaster Discovery API (only with the TICKETMASTER_API_KEY secret): Las Vegas (DMA 319) events whose public
+    on-sale starts between 7 days ago and 60 days ahead, with their presales and the official ticket page."""
+    if not TM_KEY:
+        return []
+    out = []
+    try:
+        q = urllib.parse.urlencode({"apikey": TM_KEY, "dmaId": "319", "size": "100", "sort": "onSaleStartDate,asc",
+                                    "onsaleStartDateTime": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime(time.time() - 7 * 86400)),
+                                    "onsaleEndDateTime": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime(time.time() + 60 * 86400))})
+        with urllib.request.urlopen(urllib.request.Request(TM_API + "?" + q, headers={"Accept": "application/json"}), timeout=FETCH_TIMEOUT) as r:
+            data = json.loads(r.read().decode("utf-8", "ignore"))
+        out = tm_onsale_parse(data)
+    except Exception as e:
+        print(f"  [TM ONSALE] {e}")
+    return out
+
+
+def tm_onsale_parse(data):
+    out = []
+    for ev in ((data or {}).get("_embedded") or {}).get("events") or []:
+        try:
+            pub = ((ev.get("sales") or {}).get("public") or {})
+            st = pub.get("startDateTime")
+            if not st or pub.get("startTBD"):
+                continue
+            ots = int(datetime.fromisoformat(st.replace("Z", "+00:00")).timestamp())
+            loc = lv_dt(ots)
+            venue = (((ev.get("_embedded") or {}).get("venues") or [{}])[0].get("name") or "Las Vegas")
+            a = {"event": (ev.get("name") or "")[:140], "artist": (ev.get("name") or "")[:48], "venue": lv_venue(venue)[0] or venue,
+                 "onsale_date": loc.strftime("%Y-%m-%d"), "onsale_time": _clock(loc.hour, loc.minute), "onsale_ts": ots,
+                 "kind": "general", "announced": 0, "src": "Ticketmaster", "src_url": ev.get("url") or "",
+                 "ticket_url": ev.get("url") or "", "note": ""}
+            ds = ((ev.get("dates") or {}).get("start") or {}).get("localDate")
+            if ds:
+                a["event_date"] = ds
+            pres = [p for p in ((ev.get("sales") or {}).get("presales") or []) if p.get("startDateTime")]
+            if pres:
+                p = sorted(pres, key=lambda p: p["startDateTime"])[0]
+                pts = int(datetime.fromisoformat(p["startDateTime"].replace("Z", "+00:00")).timestamp())
+                pl = lv_dt(pts)
+                a.update({"presale_date": pl.strftime("%Y-%m-%d"), "presale_time": _clock(pl.hour, pl.minute), "presale_ts": pts,
+                          "presale_name": (p.get("name") or "")[:60]})
+            out.append(a)
+        except Exception:
+            continue
+    return out
+
+
+ONSALE_STATS = {}
+
+
+def build_onsale(prior):
+    """Merge new alerts with the previous build's; newest announcements first; drop 7 days after the on-sale."""
+    now = int(time.time())
+    fresh = []
+    for name, fn in (("feeds", onsale_from_feeds), ("Ticketmaster", onsale_from_ticketmaster)):
+        try:
+            got = fn()
+        except Exception as e:
+            print(f"  [ONSALE ERROR] {name}: {e}")
+            got = []
+        if name == "Ticketmaster":
+            ONSALE_STATS["Ticketmaster"] = len(got)
+        fresh.extend(got)
+    keyed = {}
+    for a in (prior or []) + fresh:      # later (fresh) wins
+        if not isinstance(a, dict) or not a.get("onsale_ts"):
+            continue
+        if a["onsale_ts"] < now - 7 * 86400 or a["onsale_ts"] > now + 120 * 86400:
+            continue
+        k = (_norm((a.get("artist") or a.get("event")).replace("!", "i"))[:4], a.get("onsale_date"))
+        o = keyed.get(k)
+        if o:
+            first = min(x for x in (o.get("announced"), a.get("announced")) if x) if (o.get("announced") or a.get("announced")) else 0
+            def score(x):   # the official record, then the one with the presale, then the trade press with details
+                return (x.get("src") == "Ticketmaster", "presale_date" in x, x.get("src") == "TicketNews" or bool(x.get("note")))
+            if score(o) > score(a):
+                a = o
+            a["announced"] = first                                    # first time it was seen
+        keyed[k] = a
+    out = sorted(keyed.values(), key=lambda a: (-(a.get("announced") or 0), a["onsale_ts"]))
+    for a in out:
+        a["id"] = hashlib.md5((_norm((a.get("artist") or a.get("event")).replace("!", "i"))[:24] + a["onsale_date"]).encode()).hexdigest()[:10]
+    return out[:60]
+
+
 def load_prior():
     """Previous feed.json as raw tuples so yesterday's stories persist (fills 'Earlier')."""
     try:
@@ -1575,7 +2187,7 @@ def load_prior():
 # ─────────────────────────────── MAIN ──────────────────────────────
 if __name__ == "__main__":
     _T0 = time.time()
-    print(f"[Party Portal Bot 3.2] {datetime.now(timezone.utc).isoformat()}")
+    print(f"[Party Portal Bot 3.3] {datetime.now(timezone.utc).isoformat()}")
     print(f"  Keywords: {len(KEYWORDS)} | Feeds: {len(CULTURE_SOURCES)} | Tabs: {len(TAB_ORDER)}")
     print("  Fetching RSS…")
     raw = fetch_all()
@@ -1601,11 +2213,17 @@ if __name__ == "__main__":
     # ── On The Horizon ──
     try:
         print("  Building On The Horizon…")
+        _T_CAL = time.time()
         try:
-            vg = scrape_vegas()
+            _prior_ev = json.load(open("events.json", "r", encoding="utf-8"))
+        except Exception:
+            _prior_ev = {}
+        try:
+            vg = scrape_vegas_all()          # 3.3: every Las Vegas source (E1)
         except Exception as _e:
             print(f"  [VG ERROR] {_e}")
             vg = []
+        print(f"  Las Vegas: {len(vg)} events in {time.time() - _T_CAL:.1f} s")
         try:
             world = scrape_world()
         except Exception as _e:
@@ -1628,6 +2246,17 @@ if __name__ == "__main__":
             _seen.add(_k)
             _clean.append(_e)
         fests = festivals_json(_now_ts)
+        for _e in _clean + fests:            # 3.3: every Las Vegas entry carries its venue group for the page
+            if _e.get("region") == "vegas" and not _e.get("group"):
+                _short, _typ, _grp, _vurl = lv_venue(_e.get("venue", ""))
+                _e["group"] = "festival" if _e.get("type") == "festival" else (
+                    "dayclub" if _e.get("type") == "pool" else "nightclub" if _e.get("type") == "club" and _grp in ("concert", "nightclub") else _grp)
+        try:
+            onsale = build_onsale(_prior_ev.get("onsale") if isinstance(_prior_ev, dict) else [])   # 3.3 (E2)
+        except Exception as _oe:
+            print(f"  [ONSALE ERROR] {_oe}")
+            onsale = _prior_ev.get("onsale", []) if isinstance(_prior_ev, dict) else []
+        print(f"  on-sale alerts: {len(onsale)} | " + ", ".join(f"{k} {v}" for k, v in ONSALE_STATS.items()))
         regions = {}
         for _e in _clean:
             regions[_e.get("region", "world")] = regions.get(_e.get("region", "world"), 0) + 1
@@ -1635,10 +2264,14 @@ if __name__ == "__main__":
         print(f"  calendar: {len(_clean)} events + {len(fests)} festivals | by region: "
               + ", ".join(f"{k} {v}" for k, v in sorted(regions.items(), key=lambda kv: -kv[1])))
         if len(_clean) >= 8:
+            # 3.3: room for every Las Vegas venue (3.2 kept 650 in all); one event per line keeps the file small
+            _keep = _clean[:1800]
             with open("events.json", "w", encoding="utf-8") as f:
-                json.dump({"updated": int(time.time()), "festivals": fests, "events": _clean[:650]},
-                          f, ensure_ascii=False, indent=2)
-            print(f"[OK] events.json written — {min(len(_clean), 650)} events, {len(fests)} festivals")
+                f.write('{"updated": %d,\n"festivals": %s,\n"onsale": [\n%s\n],\n"events": [\n%s\n]}\n' % (
+                    int(time.time()), json.dumps(fests, ensure_ascii=False),
+                    ",\n".join(json.dumps(a, ensure_ascii=False) for a in onsale),
+                    ",\n".join(json.dumps(e, ensure_ascii=False) for e in _keep)))
+            print(f"[OK] events.json written — {len(_keep)} events, {len(fests)} festivals, {len(onsale)} on-sale alerts")
         else:
             print(f"[CAL] only {len(_clean)} events parsed — keeping existing events.json (no overwrite)")
     except Exception as e:
@@ -1654,8 +2287,10 @@ if __name__ == "__main__":
                 return {}
         _ev = _read_json("events.json")
         _chs = _read_json("channels.json").get("channels", [])
+        _vg_ev = [e for e in _ev.get("events", []) if e.get("region") == "vegas"]
+        _now_h = int(time.time())
         health = {
-            "version": "3.2.0",
+            "version": "3.3.0",
             "built_utc": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
             "build_seconds": round(time.time() - _T0, 1),
             "feeds": {"total": len(CULTURE_SOURCES),
@@ -1667,7 +2302,14 @@ if __name__ == "__main__":
                      "tabs": {t: tabs.get(t, 0) for t in TAB_ORDER},
                      "promo_filtered": dict(_PP_PROMO_LOG)},
             "calendar": {"events": len(_ev.get("events", [])), "festivals": len(_ev.get("festivals", [])),
-                         "events_updated": _ev.get("updated")},
+                         "events_updated": _ev.get("updated"),
+                         "las_vegas": {"next_30_days": sum(1 for e in _vg_ev if e.get("ts", 0) <= _now_h + 30 * 86400),
+                                       "next_60_days": sum(1 for e in _vg_ev if e.get("ts", 0) <= _now_h + 60 * 86400),
+                                       "next_120_days": sum(1 for e in _vg_ev if e.get("ts", 0) <= _now_h + 120 * 86400),
+                                       "venues": len(set(e.get("venue") for e in _vg_ev))},
+                         "sources": dict(CAL_STATS)},
+            "onsale": {"alerts": len(_ev.get("onsale", [])), "sources": dict(ONSALE_STATS),
+                       "ticketmaster_key": bool(TM_KEY)},
             "channels": {"channels": len(_chs),
                          "videos": sum(len(_c.get("items") or [1]) for _c in _chs),
                          "live": sum(1 for _c in _chs if _c.get("live"))},

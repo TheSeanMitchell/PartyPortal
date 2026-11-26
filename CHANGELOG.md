@@ -1,5 +1,67 @@
 # Changelog
 
+## v3.3 — Every Las Vegas venue, the Vegas On-Sale Radar, 210 swim runway videos (Argus 1.0.3, 26 Nov 2026)
+
+Asked for on 23 November: a calendar with "EVERY event" at the Fontainebleau and at every Las Vegas venue,
+club, dayclub and arena; near the bottom of the page, an alert "when MAJOR events are about to go on sale";
+and at least 100 bikini and fashion show videos each (then "the bikini list going to 200 even").
+
+### Las Vegas, every venue (On The Horizon)
+- **Las Vegas events in the next 30 / 60 / 120 days: 250 / 290 / 311 → 334 / 484 / 688, at 60 venues
+  (was 33)** - the arenas and stadiums (T-Mobile Arena, MGM Grand Garden Arena, Allegiant Stadium, Sphere,
+  Michelob ULTRA Arena), the theaters (BleauLive Theater, Dolby Live, The Colosseum, Encore Theater, the
+  Venetian, the Pearl, House of Blues, Brooklyn Bowl, The Smith Center, the showrooms) and the clubs and
+  dayclubs (LIV, Omnia, Hakkasan, Tao, Marquee and Marquee Dayclub, Zouk, XS).
+- Read from Concerts.Vegas venue pages (51 venues, their schema.org event data: the real venue and start
+  time), No Cover Nightclubs calendars (29 clubs and dayclubs), Wynn Nightlife's own XS calendar and 19hz
+  (and Ticketmaster with the optional key). Each source stands alone - one failing never empties the
+  calendar - the same show from two sources is shown once, and a show that plays every night shows its
+  next three dates ("+N more dates").
+- **The 🎰 Las Vegas view:** only Las Vegas, by Tonight / This weekend / Next 30 days, by venue type
+  (nightclubs, dayclubs, concerts & arenas, theaters & shows, festivals, sports) and by venue. Every time is
+  Las Vegas time (PST in winter, PDT in summer), and each event links to its ticket page and the venue's
+  own page.
+- Fixed from 3.2: Concerts.Vegas had renamed its venue pages, so some shows carried the wrong venue, and
+  every show had one fixed time; Las Vegas and Los Angeles club nights (19hz) now carry their real
+  Pacific time; "Stratosphere" no longer counts as Sphere.
+- Not read, because their terms forbid automated collection: the Fontainebleau, Tao Group, Zouk, Drai's
+  and Fremont Street Experience sites and Ticketmaster's web pages (Ticketmaster only through its API key).
+  3.2's Eventbrite Las Vegas listing is turned off for the same reason (on the live site it gave 0 events).
+  Not on any calendar the bot may read yet: LIV Beach, Azul, Tao Beach, AYU, Encore Beach Club, Drai's,
+  Jewel, On The Record and Discopussy.
+
+### The Vegas On-Sale Radar (near the bottom)
+- Major Las Vegas shows about to go on sale, or just on sale: the event, the venue, the on-sale date and
+  time (Las Vegas time), the presale when it is published, the ticket page and the announcement, a
+  countdown; newest announcements first, "NEW" for 48 hours, each kept until a week after its on-sale.
+- Without keys it reads TicketNews and Google News on-sale searches and keeps only announcements that give
+  a date (on 26 November: P!NK at Sphere). With the optional free Ticketmaster key it also lists
+  Ticketmaster's official public on-sale and presale times for Las Vegas.
+
+### The screens
+- **Full screen pauses the rest:** when one video goes full screen (TAB, ARGUS, the ⛶ button or the
+  player's own), every other silent screen pauses; when it comes back, the ones that were playing carry on
+  (a live stream rejoins live). A full screen that is refused leaves nothing paused.
+- A silent screen scrolled out of sight pauses and carries on when it is seen again; while the page is
+  hidden every silent screen pauses (as in 3.2). The screen with the sound always plays.
+- **Every wall of four** (with no station, search or shared link) holds at least one rock screen, one
+  rave / DJ / party screen and one swim-runway screen; the fourth is free and every visit deals a fresh
+  set (10 test visits: the mix every time, 0 repeats from one visit to the next). Shuffle and 🔀 keep it.
+
+### More to watch
+- **Swim & bikini runway 16 channels / 73 videos → 46 / 210**; fashion shows 31 / 148, every one checked
+  again; the whole catalogue 419 / 1,884 → **449 / 2,021**.
+- The new shows are the organisers' own uploads - Miami Swim Week The Shows (FashionStock), Art Hearts
+  Fashion, Gran Canaria Swim Week (Moda Cálida), FashionTV, Miami Swim Week TV, Australian Fashion Week -
+  long-form runway shows only, each read by title, channel and description (compilations, re-uploads,
+  try-ons, castings, age-restricted videos and anything else unsuited left out) and checked playing on the
+  live site. Ten older swim videos that fell short of that bar were taken out.
+
+### For Argus and any other host
+- README "The Argus contract": the pause rules and the tile mix.
+- `health.json`: version 3.3.0, the Las Vegas counts (30 / 60 / 120 days, venues), every calendar source's
+  count, and the on-sale radar's sources and whether the Ticketmaster key is set.
+
 ## v3.2 — Four big screens first, a Top 10 like NUZU's, a LIVE VIDEO switch, a winter calendar (Argus 1.0.3, 21 Nov 2026)
 
 Asked for on 21 November ("video, then headlines, then calendar"; "match NUZU its news ability"; the top

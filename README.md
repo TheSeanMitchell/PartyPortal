@@ -6,8 +6,8 @@ nightlife news.
 
 > Live at: `https://theseanmitchell.github.io/PartyPortal/`
 
-A fast, single-page, static site (no framework, no server). See **[CHANGELOG.md](CHANGELOG.md)** for the
-full 3.0 notes.
+A fast, single-page, static site (no framework, no server). See **[CHANGELOG.md](CHANGELOG.md)** for what
+each version changed (now 3.3).
 
 ---
 
@@ -16,7 +16,7 @@ full 3.0 notes.
 - **Two looks, one switch** — the colourful **Neon** look (default) and **Onyx** dark mode, identical to
   NUZU's dark mode and Argus Onyx. The *Dark* switch in the top bar (or the `T` key) remembers your choice
   (`localStorage 'pp:theme'`); a link can force one with `?theme=dark` or `?theme=light`.
-- **1,700+ verified videos in ~390 playlist channels across 19 lanes** — Live World Cams, Cercle & Scenic, Festival Mainstage, Club &
+- **2,000+ verified videos in ~450 playlist channels across 19 lanes** — Live World Cams, Cercle & Scenic, Festival Mainstage, Club &
   Boiler Room, Pool & Beach Parties, Swim & Bikini Runway, Fashion Week Runway, Retro MTV & Spring Break,
   Rock Live, Hip-Hop Live, Latin & Reggaeton, Carnival & Street Parties, Melodic Techno, Anjuna Open Air,
   Afro House, Psytrance, Rave/DnB/Hard Techno, Arena Concerts, 24/7 Radio. Every video comes from the
@@ -25,7 +25,8 @@ full 3.0 notes.
 - **A different wall every visit** — channels are playlists of ~6 videos; each starts on a random video
   this device hasn't seen lately. A theme-weighted shuffle across all lanes (at most 2 tiles per lane) and
   a per-device memory of recent channels and videos keep consecutive visits different (10 test visits:
-  100 tiles, 100 different videos). Long sets start at a random point.
+  100 tiles, 100 different videos). Long sets start at a random point. Every wall of four holds at
+  least one rock, one rave / DJ / party and one swim-runway screen.
 - **Stations** — one chip per lane with a live count, plus ★ Favorites. Keys **1–9** jump to the first nine.
 - **Search**, **favorites** (⭐, saved on your device), **share / deep-link** (`?ch=<id>` features a channel).
 - **Party Mode** — full-screen 12-channel wall (desktop). **Mobile player** — one channel at a time with
@@ -33,6 +34,10 @@ full 3.0 notes.
 - **On The Horizon** — festivals with countdowns (gold shimmering cards) plus club, dayclub, concert and
   residency dates from Las Vegas, Miami, Los Angeles, New York, London, Ibiza and more. Filter by
   **When / Where / Type**, scroll with the ‹ › buttons, arrow keys, drag or wheel, or open **View all**.
+  The **🎰 Las Vegas** view lists every Las Vegas venue's dates in Las Vegas time, by Tonight / This
+  weekend / Next 30 days, venue type and venue.
+- **Vegas On-Sale Radar** — near the bottom: major Las Vegas shows about to go on sale or just on sale,
+  with the on-sale and presale dates (Las Vegas time), a countdown and the ticket link.
 - **Party & Culture News** — real headlines from ~110 music, nightlife, fashion and culture outlets in 12
   tabs with counts, refreshed 3×/day.
 - **Installable PWA** + offline support, keyboard shortcuts (`?` for the list), social share card.
@@ -54,7 +59,7 @@ full 3.0 notes.
    A sanity gate refuses to write if a run would drop more than 15% at once.
 
 Optional secrets: `YOUTUBE_API_KEY` (extra growth from official channels) and `TICKETMASTER_API_KEY`
-(more concert dates). Both are optional; without them everything above still runs.
+(more concert dates, and Ticketmaster's official on-sale and presale times for the Vegas On-Sale Radar). Both are optional; without them everything above still runs.
 
 Run locally: `python bot.py` and `python curate.py` (Python 3.8+, standard library only).
 
@@ -98,7 +103,8 @@ Google News feed — and short, high-signal words to `RAW_KEYWORDS` (relevance) 
 
 Big festivals live in `FESTIVALS` in `bot.py` with the dates their organisers announced (an edition drops
 off by itself after it ends). Any venue page that publishes schema.org Event data can be added to
-`VG_JSONLD_SOURCES` or `CAL_SOURCES`.
+`VG_JSONLD_SOURCES` or `CAL_SOURCES`. Las Vegas venues are in `LV_VENUES` (name, venue type, official
+page) and `LV_CV_PAGES` (their Concerts.Vegas pages).
 
 ## The Argus contract
 
@@ -122,14 +128,28 @@ and run the Argus tests below after changing `index.html`.
 - Argus calls `window.__argusSetAccent('#rrggbb')` with its theme's colour, or `null` on its own Onyx.
 
 **The video being heard** has the class `audio-active`. It is held when the window or Argus's side tab
-is resized (wide: the first tile; narrow: the phone player, the same video). While the page is hidden
-only the silent videos pause; the heard one keeps playing.
+is resized (wide: the first tile; narrow: the phone player, the same video), and it always plays.
+
+**The silent videos play only while they can be seen** (3.3). They pause:
+- while another video is full screen - TAB, ARGUS, the ⛶ button or the player's own full screen - and
+  the ones that were playing carry on when it ends (a full screen that is refused leaves nothing paused);
+- while scrolled fully out of sight, carrying on when seen again;
+- while the page is hidden (another browser tab, or Argus showing another tab).
+
+Back in view a recorded video carries on where it was and a live stream rejoins live; a video the viewer
+paused stays paused.
+
+**The tile mix** (3.3): with no station, search or shared link, every wall of four holds at least one
+`ROCK` tile, one rave / DJ / party tile (`CLUB`, `FESTIVAL`, `RAVE`, `CERCLE`, `MELODIC`, `ANJUNA`, `AFRO`,
+`PSYTRANCE`, `POOL`) and one `SWIM` tile; the fourth is free. Every visit deals a fresh set; Shuffle and 🔀
+keep the mix.
 
 **The Argus tests to run** (in the Argus source folder, with Python):
 - `tests/party_portal_holds_the_heard_video.py` with `ARGUS_PP_PAGE` set to this `index.html`
 - `tests/nuzu_and_party_portal_first_visit.py`
 
-`health.json` (written each build) says how the last build went: feeds, news, calendar, channels.
+`health.json` (written each build) says how the last build went: feeds, news, calendar (with the Las
+Vegas counts and each source's count), the on-sale radar, channels.
 
 ---
 

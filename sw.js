@@ -2,7 +2,7 @@
    App-shell caching for offline support + faster repeat loads.
    Strategy: navigations & every .json data file = network-first (fresh content),
    static assets = cache-first. */
-var CACHE = 'party-portal-v5';   // 3.2: four big screens, Top 10, LIVE VIDEO switch, NUZU-style top bar, winter calendar
+var CACHE = 'party-portal-v6';   // 3.3: the Las Vegas view, the Vegas On-Sale Radar, 210 swim runway videos, the pause rules
 var SHELL = [
   './',
   'index.html',
