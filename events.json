@@ -1,5 +1,5 @@
 {
-  "updated": 1795624517,
+  "updated": 1795656223,
   "festivals": [
     {
       "type": "festival",
@@ -828,17 +828,6 @@
       "ts": 1795633200,
       "url": "https://nocovernightclubs.com/events/dj-franzen-hakkasan-nightclub-wednesday-november-25-2026/",
       "src": "No Cover Nightclubs"
-    },
-    {
-      "artist": "Uconn Huskies Vs Duke Blue Devils",
-      "venue": "T-Mobile Arena",
-      "type": "sports",
-      "city": "Las Vegas",
-      "region": "vegas",
-      "date": "2026-11-25",
-      "ts": 1795636800,
-      "url": "https://concerts.vegas/event/uconn-huskies-vs-duke-blue-devils-las-vegas-wednesday-november-25-2026-tba/",
-      "src": "Concerts.Vegas"
     },
     {
       "artist": "Give Thanks Wednesday: Zeds Dead, Levity, Of The Trees, Clozee, Peekaboo, Cyclop",
@@ -1749,17 +1738,6 @@
       "src": "Discotech Miami",
       "end_ts": 1795701600,
       "region": "miami"
-    },
-    {
-      "artist": "Special Guest",
-      "venue": "Omnia",
-      "type": "club",
-      "city": "Las Vegas",
-      "region": "vegas",
-      "date": "2026-11-26",
-      "ts": 1795719600,
-      "url": "https://nocovernightclubs.com/events/special-guest-omnia-nightclub-thursday-november-26-2026/",
-      "src": "No Cover Nightclubs"
     },
     {
       "artist": "Dj Shift",
@@ -5085,6 +5063,17 @@
       "src": "Concerts.Vegas"
     },
     {
+      "artist": "Club 90s Las Vegas House Of Blues",
+      "venue": "House of Blues",
+      "type": "concert",
+      "city": "Las Vegas",
+      "region": "vegas",
+      "date": "2026-12-31",
+      "ts": 1798747200,
+      "url": "https://concerts.vegas/event/club-90s-las-vegas-house-of-blues-las-vegas-thursday-december-31-2026-9-00-pm/",
+      "src": "Concerts.Vegas"
+    },
+    {
       "artist": "New Years Eve Tyga Las Vegas Hakkasan Mgm Casino",
       "venue": "Encore Theater at Wynn",
       "type": "residency",
@@ -5162,6 +5151,17 @@
       "src": "Concerts.Vegas"
     },
     {
+      "artist": "Nirvana Mania Nirvana Tribute Las Vegas House Of Blues",
+      "venue": "House of Blues",
+      "type": "concert",
+      "city": "Las Vegas",
+      "region": "vegas",
+      "date": "2027-01-02",
+      "ts": 1798920000,
+      "url": "https://concerts.vegas/event/nirvana-mania-nirvana-tribute-las-vegas-house-of-blues-las-vegas-saturday-january-2-2027-7-00-pm/",
+      "src": "Concerts.Vegas"
+    },
+    {
       "artist": "Vegas Golden Knights Vs Minnesota Wild",
       "venue": "T-Mobile Arena",
       "type": "sports",
@@ -5195,6 +5195,28 @@
       "src": "Concerts.Vegas"
     },
     {
+      "artist": "Legends Of Gospel The Clark Sisters Hezekiah Walker And Deitrick Haddon Las Vegas The Theater At Virgin Hotels",
+      "venue": "The Theater at Virgin Hotels",
+      "type": "concert",
+      "city": "Las Vegas",
+      "region": "vegas",
+      "date": "2027-01-16",
+      "ts": 1800129600,
+      "url": "https://concerts.vegas/event/legends-of-gospel-the-clark-sisters-hezekiah-walker-and-deitrick-haddon-las-vegas-the-theater-at-virgin-hotels-las-vegas-saturday-january-16-2027-6-30-pm/",
+      "src": "Concerts.Vegas"
+    },
+    {
+      "artist": "Legends Of Gospel The Clark Sisters Hezekiah Walker And Deitrick Haddon Las Vegas The Theater At Virgin Hotels",
+      "venue": "24 Oxford at Virgin Hotels",
+      "type": "concert",
+      "city": "Las Vegas",
+      "region": "vegas",
+      "date": "2027-01-16",
+      "ts": 1800129600,
+      "url": "https://concerts.vegas/event/legends-of-gospel-the-clark-sisters-hezekiah-walker-and-deitrick-haddon-las-vegas-the-theater-at-virgin-hotels-las-vegas-saturday-january-16-2027-6-30-pm/",
+      "src": "Concerts.Vegas"
+    },
+    {
       "artist": "Jodeci Las Vegas Pearl Concert Theater At Palms Casino Resort",
       "venue": "The Colosseum at Caesars Palace",
       "type": "residency",
@@ -5225,6 +5247,28 @@
       "date": "2027-01-17",
       "ts": 1800216000,
       "url": "https://concerts.vegas/event/jodeci-las-vegas-pearl-concert-theater-at-palms-casino-resort-sunday-january-17-2027-8-00-pm/",
+      "src": "Concerts.Vegas"
+    },
+    {
+      "artist": "Legends Of Gospel The Clark Sisters Hezekiah Walker And Deitrick Haddon Las Vegas The Theater At Virgin Hotels",
+      "venue": "The Theater at Virgin Hotels",
+      "type": "concert",
+      "city": "Las Vegas",
+      "region": "vegas",
+      "date": "2027-01-17",
+      "ts": 1800216000,
+      "url": "https://concerts.vegas/event/legends-of-gospel-the-clark-sisters-hezekiah-walker-and-deitrick-haddon-las-vegas-the-theater-at-virgin-hotels-las-vegas-sunday-january-17-2027-6-30-pm/",
+      "src": "Concerts.Vegas"
+    },
+    {
+      "artist": "Legends Of Gospel The Clark Sisters Hezekiah Walker And Deitrick Haddon Las Vegas The Theater At Virgin Hotels",
+      "venue": "24 Oxford at Virgin Hotels",
+      "type": "concert",
+      "city": "Las Vegas",
+      "region": "vegas",
+      "date": "2027-01-17",
+      "ts": 1800216000,
+      "url": "https://concerts.vegas/event/legends-of-gospel-the-clark-sisters-hezekiah-walker-and-deitrick-haddon-las-vegas-the-theater-at-virgin-hotels-las-vegas-sunday-january-17-2027-6-30-pm/",
       "src": "Concerts.Vegas"
     },
     {
@@ -5492,6 +5536,17 @@
       "src": "Concerts.Vegas"
     },
     {
+      "artist": "Las Vegas Vs Seattle Torrent Las Vegas T Mobile Arena",
+      "venue": "T-Mobile Arena",
+      "type": "sports",
+      "city": "Las Vegas",
+      "region": "vegas",
+      "date": "2027-02-11",
+      "ts": 1802376000,
+      "url": "https://concerts.vegas/event/las-vegas-vs-seattle-torrent-las-vegas-t-mobile-arena-thursday-february-11-2027-7-00-pm/",
+      "src": "Concerts.Vegas"
+    },
+    {
       "artist": "John Fogerty Las Vegas Ph Live At Planet Hollywood",
       "venue": "Bakkt Theater at Planet Hollywood",
       "type": "residency",
@@ -5555,61 +5610,6 @@
       "date": "2027-02-12",
       "ts": 1802462400,
       "url": "https://concerts.vegas/event/john-fogerty-las-vegas-ph-live-at-planet-hollywood-friday-february-12-2027-8-00-pm/",
-      "src": "Concerts.Vegas"
-    },
-    {
-      "artist": "Kenny Babyface Edmonds Las Vegas Pearl Concert Theater At Palms Casino Resort",
-      "venue": "Encore Theater at Wynn",
-      "type": "residency",
-      "city": "Las Vegas",
-      "region": "vegas",
-      "date": "2027-02-12",
-      "ts": 1802462400,
-      "url": "https://concerts.vegas/event/kenny-babyface-edmonds-las-vegas-pearl-concert-theater-at-palms-casino-resort-friday-february-12-2027-8-00-pm/",
-      "src": "Concerts.Vegas"
-    },
-    {
-      "artist": "Kenny Babyface Edmonds Las Vegas Pearl Concert Theater At Palms Casino Resort",
-      "venue": "BleauLive Theater at Fontainebleau",
-      "type": "concert",
-      "city": "Las Vegas",
-      "region": "vegas",
-      "date": "2027-02-12",
-      "ts": 1802462400,
-      "url": "https://concerts.vegas/event/kenny-babyface-edmonds-las-vegas-pearl-concert-theater-at-palms-casino-resort-friday-february-12-2027-8-00-pm/",
-      "src": "Concerts.Vegas"
-    },
-    {
-      "artist": "Kenny Babyface Edmonds Las Vegas Pearl Concert Theater At Palms Casino Resort",
-      "venue": "Pearl Theater at Palms",
-      "type": "concert",
-      "city": "Las Vegas",
-      "region": "vegas",
-      "date": "2027-02-12",
-      "ts": 1802462400,
-      "url": "https://concerts.vegas/event/kenny-babyface-edmonds-las-vegas-pearl-concert-theater-at-palms-casino-resort-friday-february-12-2027-8-00-pm/",
-      "src": "Concerts.Vegas"
-    },
-    {
-      "artist": "Kenny Babyface Edmonds Las Vegas Pearl Concert Theater At Palms Casino Resort",
-      "venue": "The Colosseum at Caesars Palace",
-      "type": "residency",
-      "city": "Las Vegas",
-      "region": "vegas",
-      "date": "2027-02-13",
-      "ts": 1802548800,
-      "url": "https://concerts.vegas/event/kenny-babyface-edmonds-las-vegas-pearl-concert-theater-at-palms-casino-resort-saturday-february-13-2027-8-00-pm/",
-      "src": "Concerts.Vegas"
-    },
-    {
-      "artist": "Kenny Babyface Edmonds Las Vegas Pearl Concert Theater At Palms Casino Resort",
-      "venue": "Dolby Live at Park MGM",
-      "type": "residency",
-      "city": "Las Vegas",
-      "region": "vegas",
-      "date": "2027-02-13",
-      "ts": 1802548800,
-      "url": "https://concerts.vegas/event/kenny-babyface-edmonds-las-vegas-pearl-concert-theater-at-palms-casino-resort-saturday-february-13-2027-8-00-pm/",
       "src": "Concerts.Vegas"
     },
     {
