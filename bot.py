@@ -1615,6 +1615,7 @@ LV_VENUES = [   # first match wins; "Sphere" never matches "Stratosphere Las Veg
     (r"festival grounds", "Las Vegas Festival Grounds", "concert", "festival", ""),
     (r"motor speedway", "Las Vegas Motor Speedway", "concert", "festival", ""),
     (r"downtown las vegas events center", "Downtown Las Vegas Events Center", "concert", "festival", ""),
+    (r"lee'?s family forum", "Lee's Family Forum", "arena", "concert", ""),
     (r"bleau ?live", "BleauLive Theater", "residency", "theater", "https://www.fontainebleaulasvegas.com/entertainment/"),
     (r"dolby live|park theater", "Dolby Live at Park MGM", "residency", "theater", ""),
     (r"colosseum", "The Colosseum at Caesars Palace", "residency", "theater", ""),
@@ -1674,6 +1675,7 @@ _LV_SPORTS = re.compile(r"\bvs\.?\s|\bv\.\s|golden knights|raiders\b|\bufc\b|box
                         r"football|hockey|\bncaa\b|soccer|rugby|wrestling|\bwwe\b|\bpbr\b|nascar|\bbowl game|las vegas bowl|"
                         r"supercross|grand prix|\baces\b|monster jam|tournament", re.I)
 _LV_FEST = re.compile(r"festival|\bfest\b|edc\b|electric daisy", re.I)
+_LV_ARTS = re.compile(r"ballet|nutcracker|symphony|philharmonic|orchestra|the musical\b|\bopera\b", re.I)
 
 
 def lv_venue(name):
@@ -1692,7 +1694,9 @@ def lv_event(artist, venue_raw, y, mo, d, hh=None, mi=0, url="", src="", ld_type
     """One Las Vegas event dict: Pacific time, venue group, official venue page; hh None = time not published."""
     short, typ, grp, vurl = lv_venue(venue_raw)
     artist = re.sub(r"\s+", " ", htmllib.unescape(str(artist or ""))).strip()[:90]
-    if _LV_SPORTS.search(artist) or "SportsEvent" in (ld_type or ""):
+    if _LV_ARTS.search(artist):
+        pass                       # 3.4: "Nevada Ballet Theatre vs. The Nutcracker" is a ballet, not a game
+    elif _LV_SPORTS.search(artist) or "SportsEvent" in (ld_type or ""):
         typ, grp = "sports", "sports"
     elif _LV_FEST.search(artist) and grp in ("concert", "festival"):
         grp = "festival"
@@ -1727,14 +1731,21 @@ LV_CV_PAGES = [
     "venue/the-railhead-boulder-station-hotel-casino/", "venue/marquee-dayclub-at-cosmopolitan-hotel/",
     "venue/marquee-nightclub-at-cosmopolitan-hotel/", "venue/omnia-nightclub-las-vegas-at-caesars-palace/",
     "venue/liv-nightclub-at-fontainebleau/",
+    # 3.4 (F1): Thomas & Mack (the Wrangler NFR, UNLV) is not linked from concerts.vegas/venues/; the sports listing
+    # adds Lee's Family Forum, Allegiant and the Speedway; Sphere's venue listing holds more than sphere/schedule/.
+    "venue/thomas-mack-center/", "sports/", "venue/sphere/",
 ]
 LV_HORIZON_DAYS = 120
 LV_CV_MAX_PAGES = 4
+CV_PAGE_COVER = {}    # 3.4: listing -> the latest start its pages reached, when the page limit or a failure cut it short
+LV_CV_VENUE_COVER = {}  # 3.4: venue -> how far its Concerts.Vegas listings reached this build (only when short of the horizon)
+_LV_PASS = re.compile(r"\s+[-–—]\s+(?:\d+[- ]day|all[- ](?:tournament|sessions?)|weekend|full[- ]event|multi[- ]day)\s+pass\b.*$", re.I)
 
 
 def _cv_ld_page(path):
     """One concerts.vegas listing (all its pages up to the horizon) -> Las Vegas events. Never raises."""
     out, horizon = [], time.time() + LV_HORIZON_DAYS * 86400
+    complete = False
     for pg in range(1, LV_CV_MAX_PAGES + 1):
         u = "https://concerts.vegas/" + path + ("" if pg == 1 else "?pagenum=%d" % pg)
         try:
@@ -1757,6 +1768,8 @@ def _cv_ld_page(path):
                 if not m or not it.get("name"):
                     continue
                 n_ld += 1
+                if re.match(r"\s*parking\b", str(it.get("name")), re.I):
+                    continue                  # 3.4: "PARKING: Raiders vs ..." is a parking pass, not an event
                 y, mo, d = int(m.group(1)), int(m.group(2)), int(m.group(3))
                 hh, mi = (int(m.group(4)), int(m.group(5))) if m.group(4) else (None, 0)
                 loc = it.get("location") or {}
@@ -1779,7 +1792,12 @@ def _cv_ld_page(path):
                 out.append(ev)
         total = re.search(r"Upcoming Events:\s*(\d+)", page)
         if n_ld < 30 or not total or int(total.group(1)) <= pg * 30 or last > horizon:
+            complete = True
             break
+    if complete:
+        CV_PAGE_COVER.pop(path, None)
+    else:
+        CV_PAGE_COVER[path] = max([e["ts"] for e in out] or [0])
     return path, out
 
 
@@ -1895,6 +1913,7 @@ def scrape_vegas_all():
     """3.3: every Las Vegas source, each isolated; de-duplicated by artist + venue + date (the entry with a
     published time and the official source wins). Per-source counts go into CAL_STATS / health.json."""
     now = int(time.time())
+    horizon = now + LV_HORIZON_DAYS * 86400
     allev = []
     jobs = [("cv", p) for p in LV_CV_PAGES] + [("nc", u) for u in VG_CALENDARS]
     def run(job):
@@ -1904,11 +1923,19 @@ def scrape_vegas_all():
         except Exception as e:
             print(f"  [LV WARN] {arg}: {e}")
             return (kind, arg, [])
+    cover = {}
     with ThreadPoolExecutor(max_workers=6) as ex:
         for kind, arg, evs in ex.map(run, jobs):
             label = ("Concerts.Vegas " + arg.strip("/").split("/")[-1]) if kind == "cv" else ("No Cover " + arg.rstrip("/").split("/")[-1].replace("-event-calendar", "").replace("-calendar", ""))
             CAL_STATS[label] = len([e for e in evs if e["ts"] >= now - 43200])
             allev.extend(evs)
+            if kind == "cv":      # 3.4: how far each venue's listings reached (JUST ANNOUNCED trusts nothing beyond)
+                c = CV_PAGE_COVER.get(arg, horizon)
+                for e in evs:
+                    v = _norm(e["venue"])[:30]
+                    cover[v] = max(cover.get(v, 0), c)
+    LV_CV_VENUE_COVER.clear()
+    LV_CV_VENUE_COVER.update({v: c for v, c in cover.items() if c < horizon - 86400})
     try:
         wx = _wynn_xs()
     except Exception as e:
@@ -1925,10 +1952,240 @@ def scrape_vegas_all():
         o = best.get(k)
         if o is None or (bool(e["time"]), -rank.get(e["src"], 9)) > (bool(o["time"]), -rank.get(o["src"], 9)):
             best[k] = e
+    # 3.4: a multi-day pass listed beside its own sessions is the same event twice (and its time is a placeholder,
+    # e.g. "National Finals Rodeo - 4 Day Pass" at 3:30 AM); a pass with no sessions listed stays (it is the ticket).
+    names = {(_norm(e["artist"]), _norm(e["venue"])) for e in best.values()}
+    for k in [k for k, e in best.items() if _LV_PASS.search(e["artist"])]:
+        e = best[k]
+        if (_norm(_LV_PASS.split(e["artist"])[0]), _norm(e["venue"])) in names:
+            del best[k]
     out = _lv_squash_nightly(list(best.values()), now)
     out.sort(key=lambda e: e["ts"])
     CAL_STATS["Las Vegas (merged)"] = len(out)
     return out
+
+
+# ═══════════ 3.4 (ORDER-701 F1): the Vegas ticket section - major rooms, NFR / holiday / NYE tags, first seen ═══════════
+# The page's COMING UP IN LAS VEGAS lists the "major" entries (a big room or a festival, not a nightly production)
+# and everything tagged NFR, Christmas / holiday or New Year's Eve; nightly shows stay in the calendar only.
+LV_MAJOR = {_norm(v)[:40] for v in (
+    "T-Mobile Arena", "Allegiant Stadium", "Sphere", "MGM Grand Garden Arena", "Michelob ULTRA Arena", "Orleans Arena",
+    "Thomas & Mack Center", "Las Vegas Festival Grounds", "Las Vegas Motor Speedway", "Downtown Las Vegas Events Center",
+    "Lee's Family Forum", "BleauLive Theater", "Dolby Live at Park MGM", "The Colosseum at Caesars Palace",
+    "The Theater at Virgin Hotels", "Resorts World Theatre", "Encore Theater at Wynn", "Venetian Theatre",
+    "Pearl Concert Theater at Palms", "PH Live at Planet Hollywood", "Reynolds Hall at The Smith Center",
+    "House of Blues Las Vegas", "Brooklyn Bowl Las Vegas", "The Chelsea at The Cosmopolitan", "Westgate Las Vegas",
+    "Harrah's Las Vegas", "The Stage at Zouk", "AREA15")}
+_TK_NFR = re.compile(r"\bnfr\b|national finals rodeo|wrangler|cowboy christmas|rodeo|bull ?riding|\bpbr\b", re.I)
+_TK_HOLIDAY = re.compile(r"christmas|x-?mas\b|(?<!billie )holiday(?! inn)|nutcracker|jingle|santa claus|santa jam|"
+                         r"winter wonderland|\bcarols?\b|hanukkah|\bnoel\b|grinch|\belf\b", re.I)
+# holiday tours whose titles carry no Christmas word (TSO 2026 = "The Ghosts of Christmas Eve"; Debbie Gibson's
+# "Winterlicious" = her holiday shows at The STRAT; Lindsey Stirling's "Snow Waltz" holiday tour) - in Nov / Dec only
+_TK_HOLIDAY_SEASON = re.compile(r"trans-?siberian orchestra|winterlicious|snow waltz|mannheim steamroller", re.I)
+_TK_NYE = re.compile(r"new year'?s'? eve|\bnye\b|new years? (?:party|celebration|countdown|bash|ball|gala)|"
+                     r"countdown (?:to )?20\d\d|las vegas new year", re.I)
+_TK_SPECIAL = re.compile(r"las vegas bowl|\bufc\b|\bboxing\b|title fight|grand prix|monster jam|supercross|wrestlemania|"
+                         r"\bwwe\b|\baew\b|\bpbr\b|world finals|national finals|all-star|fireworks|\bparade\b", re.I)
+# The country & western shows on the official NFR-week entertainment list, December 2026 (nfrexperience.com, read by
+# hand on 26 Nov 2026 - its terms forbid automated reading, so the bot never fetches it): name, venue, days.
+LV_NFR_WEEK = [
+    ("Marcus King", "virgin", (3,)), ("Dwight Yoakam", "resortsworld", (3,)), ("Dierks Bentley", "bleaulive", (4, 5)),
+    ("Gary Allan", "resortsworld", (4,)), ("Cross Canadian Ragweed", "brooklynbowl", (4,)),
+    ("Jeff Foxworthy", "phlive", (4,)), ("Red Clay Strays", "mgmgrandgarden", (5,)), ("Bailey Zimmerman", "phlive", (5,)),
+    ("Rascal Flatts", "colosseum", (5,)), ("Clay Walker", "venetian", (5,)), ("Chris Young", "resortsworld", (5,)),
+    ("Ron White", "chelsea", (5,)), ("Brett Young", "pearl", (5,)), ("Santa Jam", "pearl", (6,)),
+    ("Riley Green", "resortsworld", (6, 10)), ("Casey Donahew", "virgin", (9,)), ("Lee Brice", "resortsworld", (9,)),
+    ("Thomas Rhett", "colosseum", (10, 12)), ("Wyatt Flores", "brooklynbowl", (10,)), ("Gavin Adcock", "virgin", (10,)),
+    ("Midland", "pearl", (10,)), ("Luke Bryan", "allegiant", (11,)), ("Koe Wetzel", "phlive", (11,)),
+    ("Turnpike Troubadours", "brooklynbowl", (11,)), ("Sam Barber", "virgin", (12,)), ("Hudson Westbrook", "chelsea", (12,)),
+    ("Sheryl Crow", "resortsworld", (12,)),
+]
+_LV_NFR_WEEK = [(_norm(a), v, {"2026-12-%02d" % d for d in days}) for a, v, days in LV_NFR_WEEK]
+
+# Las Vegas specials no calendar we may read carries, from the official pages, read by hand on 26 Nov 2026 (the NFR's
+# own site forbids automated reading: the bot never fetches it, the cards only link to it). Each one drops itself
+# once its end is past. "covers": the calendar's own entries of the same thing (they stay in the calendar, but the
+# ticket section shows this one card instead of three).
+LV_CURATED = [
+    {"artist": "Wrangler National Finals Rodeo", "venue": "Thomas & Mack Center", "type": "sports", "group": "sports",
+     "start": "2026-12-03T17:45:00-08:00", "end": "2026-12-12T23:59:00-08:00", "time": "5:45 PM",
+     "url": "https://www.axs.com/events/1567526/2026-nfr-tickets", "src": "AXS, the NFR's official ticket seller",
+     "tk": ["nfr", "special"], "major": True, "covers": r"national finals rodeo|\bnfr\b"},
+    {"artist": "Downtown Hoedown - the NFR kick-off concert", "venue": "Fremont Street Experience", "type": "concert",
+     "group": "festival", "start": "2026-12-02T16:15:00-08:00", "end": "2026-12-02T22:45:00-08:00", "time": "4:15 PM",
+     "url": "https://www.nfrexperience.com/downtown-hoedown", "src": "the NFR's official site", "tk": ["nfr", "special"]},
+    {"artist": "Cowboy Christmas - free admission", "venue": "Las Vegas Convention Center, South Halls", "type": "concert",
+     "group": "festival", "start": "2026-12-03T09:00:00-08:00", "end": "2026-12-12T16:00:00-08:00", "time": "9:00 AM",
+     "url": "https://www.nfrexperience.com/cowboychristmas/", "src": "the NFR's official site", "tk": ["nfr", "holiday"]},
+    {"artist": "NFR nightly viewing parties & after-parties", "venue": "Westgate, MGM Grand, Resorts World, Rio, TI, Virgin, Circa and more",
+     "type": "concert", "group": "festival", "start": "2026-12-03T18:00:00-08:00", "end": "2026-12-12T23:59:00-08:00",
+     "time": "", "dateLabel": "Nightly, Dec 3 – 12", "url": "https://www.nfrexperience.com/nightly-events-after-parties",
+     "src": "the NFR's official site", "tk": ["nfr"]},
+    # Christmas shows the calendar does not carry (checked 27 Nov 2026). "yield": once the calendar lists the same show
+    # that day, its own entry (with its ticket link) replaces this one.
+    {"artist": "A Very Vegas Christmas - Las Vegas Philharmonic", "venue": "Reynolds Hall at The Smith Center",
+     "type": "theater", "group": "theater", "start": "2026-12-05T19:30:00-08:00", "end": "2026-12-05T22:00:00-08:00",
+     "time": "7:30 PM", "url": "https://lvphil.org/events/a-very-vegas-christmas26", "src": "the Las Vegas Philharmonic's official site",
+     "tk": ["holiday"], "yield": r"very vegas christmas"},
+    {"artist": "A Very Vegas Christmas - Las Vegas Philharmonic", "venue": "Reynolds Hall at The Smith Center",
+     "type": "theater", "group": "theater", "start": "2026-12-06T14:00:00-08:00", "end": "2026-12-06T16:30:00-08:00",
+     "time": "2:00 PM", "url": "https://lvphil.org/events/a-very-vegas-christmas26", "src": "the Las Vegas Philharmonic's official site",
+     "tk": ["holiday"], "yield": r"very vegas christmas"},
+] + [
+    # Lindsey Stirling, The Snow Waltz holiday tour: 16, 18 and 19 Dec 2026 at The Venetian Theatre (Ticketmaster's tour
+    # page and TicketNews, 27 Nov 2026); no official page states the start time yet, so none is shown.
+    {"artist": "Lindsey Stirling - The Snow Waltz Tour", "venue": "Venetian Theatre", "type": "concert", "group": "theater",
+     "start": "2026-12-%02dT19:00:00-08:00" % _d, "end": "2026-12-%02dT23:00:00-08:00" % _d, "time": "",
+     "dateLabel": "time on the ticket page", "url": "https://www.lindseystirling.com/tour",
+     "src": "Lindsey Stirling's official tour page", "tk": ["holiday"], "yield": r"lindsey stirling|snow waltz"}
+    for _d in (16, 18, 19)
+]
+
+
+def lv_curated_events(now=None, calendar=None):
+    """LV_CURATED -> calendar entries (Pacific time, an end), only those not over yet, and not a show the calendar
+    itself now lists that day ("yield")."""
+    now = now or int(time.time())
+    out = []
+    for c in LV_CURATED:
+        try:
+            ts, end_ts = _iso_ts(c["start"]), _iso_ts(c["end"])
+        except Exception:
+            continue
+        if end_ts < now:
+            continue
+        if c.get("yield") and any(e.get("date") == c["start"][:10] and re.search(c["yield"], str(e.get("artist") or ""), re.I)
+                                  for e in calendar or [] if e.get("region") == "vegas" and not e.get("curated")):
+            continue
+        ev = {"artist": c["artist"], "venue": c["venue"], "type": c["type"], "group": c["group"], "city": "Las Vegas",
+              "region": "vegas", "date": c["start"][:10], "ts": ts, "end_ts": end_ts, "time": c.get("time", ""),
+              "url": c["url"], "src": c["src"], "tk": list(c.get("tk") or []), "curated": True}
+        for k in ("dateLabel", "major", "covers"):
+            if c.get(k):
+                ev[k] = c[k]
+        out.append(ev)
+    return out
+
+
+def lv_ticket_marks(evs):
+    """Every Las Vegas entry: "major" (true only), "tk" (nfr / holiday / nye / special, only when any). The calendar's
+    own entries of a curated special ("covers") get neither, so the ticket section shows that thing once."""
+    vg = [e for e in evs if isinstance(e, dict) and e.get("region") == "vegas"]
+    covered = []
+    for c in vg:
+        if c.get("covers"):
+            covered.append((re.compile(c.pop("covers"), re.I), _norm(c["venue"]), c["ts"] - 43200, c.get("end_ts") or c["ts"]))
+    for e in vg:
+        try:
+            a = str(e.get("artist") or "")
+            if not e.get("curated") and any(rx.search(a) and _norm(e.get("venue")) == v and t0 <= e["ts"] <= t1
+                                            for rx, v, t0, t1 in covered):
+                e.pop("major", None)
+                e.pop("tk", None)
+                continue
+            tags = list(e.get("tk") or [])
+            def add(t):
+                if t not in tags:
+                    tags.append(t)
+            na, nv, day = _norm(a), _norm(e.get("venue")), e.get("date", "")
+            if _TK_NFR.search(a) or any(n in na and v in nv and day in days for n, v, days in _LV_NFR_WEEK):
+                add("nfr")
+            if _TK_HOLIDAY.search(a) or (_TK_HOLIDAY_SEASON.search(a) and day[5:7] in ("11", "12")):
+                add("holiday")
+            if (_TK_NYE.search(a) and not re.search(r"lunar|chinese", a, re.I)) or (
+                    day.endswith("-12-31") and lv_dt(e["ts"]).hour >= 17 and e.get("type") != "pool"):
+                add("nye")
+            if _TK_SPECIAL.search(a):
+                add("special")
+            if tags:
+                e["tk"] = tags
+            else:
+                e.pop("tk", None)
+            if "major" not in e or not e.get("curated"):
+                major = (_norm(e.get("venue"))[:40] in LV_MAJOR or e.get("group") == "festival"
+                         or e.get("type") == "festival") and not e.get("nightly")
+                if major:
+                    e["major"] = True
+                else:
+                    e.pop("major", None)
+        except Exception:
+            continue
+    return evs
+
+
+def _seen_key(e):
+    return "%s|%s|%s" % (_norm(e.get("artist"))[:40], _norm(e.get("venue"))[:30], "" if e.get("nightly") else e.get("date", ""))
+
+
+def lv_track_seen(evs, prior, now):
+    """JUST ANNOUNCED: each Las Vegas entry carries "seen" = the build time it first appeared in the calendar (absent
+    = it was already there when tracking began). What is known comes from the previous events.json the workflow
+    committed: its entries' "seen" and its "seen_keys" (entries missing from that build - a source that failed, a
+    cancelled show - kept until 2 days after their date). When the previous file has no "seen_since" (the first
+    build of 3.4), nothing is called new and tracking starts now. A key never seen before is new only where the
+    previous build would have seen it: a curated entry or festival, or a Concerts.Vegas listing dated within what
+    that venue's pages reached last time ("seen_cover", else the 120-day horizon). Rolling-window sources (No Cover's
+    next-week calendars, Wynn's sitemap, 19hz, Eventbrite, Ticketmaster) never claim new. Returns the block to write."""
+    prior = prior if isinstance(prior, dict) else {}
+    since = int(prior.get("seen_since") or 0)
+    vg = [e for e in evs if isinstance(e, dict) and e.get("region") == "vegas"]
+    known, last = {}, {}
+    if since:
+        for e in (prior.get("events") or []) + (prior.get("festivals") or []):
+            if isinstance(e, dict) and e.get("region") == "vegas":
+                k, f = _seen_key(e), int(e.get("seen") or 0)
+                known[k] = min(known.get(k, f), f)
+                last[k] = max(last.get(k, 0), int(e.get("end_ts") or e.get("ts") or 0))
+        for k, v in (prior.get("seen_keys") or {}).items():
+            if k not in known and isinstance(v, list) and len(v) == 2:
+                known[k], last[k] = int(v[0] or 0), int(v[1] or 0)
+    pref = {}
+    for k, f in known.items():
+        p = k.rsplit("|", 1)[0]
+        pref[p] = min(pref.get(p, f), f)       # a show that became (or stopped being) nightly keeps its first sighting
+    prior_h = int(prior.get("updated") or now) + (LV_HORIZON_DAYS - 2) * 86400
+    pcov = prior.get("seen_cover") if isinstance(prior.get("seen_cover"), dict) else {}
+    present, n_new = set(), 0
+    for e in vg:
+        k = _seen_key(e)
+        present.add(k)
+        if not since:
+            f = 0
+        elif k in known:
+            f = known[k]
+        elif k.rsplit("|", 1)[0] in pref:
+            f = pref[k.rsplit("|", 1)[0]]
+        elif e.get("curated") or e.get("type") == "festival":
+            f = now
+        elif e.get("src") == "Concerts.Vegas" and e.get("ts", 0) <= int(pcov.get(_norm(e.get("venue"))[:30], prior_h)):
+            f = now
+        else:
+            f = 0
+        if f:
+            e["seen"] = f
+            n_new += f == now
+        else:
+            e.pop("seen", None)
+        last[k] = max(last.get(k, 0), int(e.get("end_ts") or e.get("ts") or 0))
+    carry = {k: [known[k], last.get(k, 0)] for k in known if k not in present and last.get(k, 0) + 2 * 86400 >= now}
+    CAL_STATS["Las Vegas first seen this build"] = n_new
+    return {"seen_since": since or now, "seen_keys": carry, "seen_cover": dict(LV_CV_VENUE_COVER)}
+
+
+def _tickets_health(ev, now):
+    """health.json "tickets": the page's three parts as it counts them (COMING UP = major or tagged, not over,
+    starting within 7 / 30 / 90 days)."""
+    vg = [e for e in (ev.get("events") or []) + (ev.get("festivals") or []) if isinstance(e, dict) and e.get("region") == "vegas"]
+    pool = [e for e in vg if (e.get("end_ts") or e.get("ts", 0) + 4 * 3600) >= now and e.get("ts", 0) <= now + 90 * 86400
+            and (e.get("major") or e.get("tk"))]
+    os_ = [a for a in ev.get("onsale") or [] if isinstance(a, dict) and a.get("onsale_ts")]
+    return {"coming_up": {"7_days": sum(1 for e in pool if e["ts"] <= now + 7 * 86400),
+                          "30_days": sum(1 for e in pool if e["ts"] <= now + 30 * 86400), "90_days": len(pool)},
+            "tags_90_days": {t: sum(1 for e in pool if t in (e.get("tk") or [])) for t in ("nfr", "holiday", "nye", "special")},
+            "just_announced": sum(1 for e in pool if e.get("seen") and now - e["seen"] < 7 * 86400),
+            "going_on_sale": sum(1 for a in os_ if a["onsale_ts"] > now),
+            "just_went_on_sale": sum(1 for a in os_ if now - 7 * 86400 < a["onsale_ts"] <= now),
+            "seen_since": ev.get("seen_since") or 0}
 
 
 # ── E2: Las Vegas on-sale alerts. Keyless: TicketNews (WordPress search RSS: the description carries the on-sale
@@ -2187,7 +2444,7 @@ def load_prior():
 # ─────────────────────────────── MAIN ──────────────────────────────
 if __name__ == "__main__":
     _T0 = time.time()
-    print(f"[Party Portal Bot 3.3] {datetime.now(timezone.utc).isoformat()}")
+    print(f"[Party Portal Bot 3.4] {datetime.now(timezone.utc).isoformat()}")
     print(f"  Keywords: {len(KEYWORDS)} | Feeds: {len(CULTURE_SOURCES)} | Tabs: {len(TAB_ORDER)}")
     print("  Fetching RSS…")
     raw = fetch_all()
@@ -2236,8 +2493,8 @@ if __name__ == "__main__":
             tm = []
         _now_ts = int(time.time())
         _seen, _clean = set(), []
-        for _e in sorted(vg + world + tm + curated_events(), key=lambda x: x.get("ts", 0)):
-            if _e.get("ts", 0) < _now_ts - 43200:      # >12h past = expired
+        for _e in sorted(vg + world + tm + curated_events() + lv_curated_events(_now_ts, vg + world + tm), key=lambda x: x.get("ts", 0)):
+            if max(_e.get("ts", 0), _e.get("end_ts", 0)) < _now_ts - 43200:      # >12h past (its end, if it has one) = expired
                 continue
             _k = (re.sub(r"\W+", "", str(_e.get("artist", "")).lower()), _e.get("date", ""),
                   re.sub(r"\W+", "", str(_e.get("venue", "")).lower())[:12])
@@ -2251,6 +2508,15 @@ if __name__ == "__main__":
                 _short, _typ, _grp, _vurl = lv_venue(_e.get("venue", ""))
                 _e["group"] = "festival" if _e.get("type") == "festival" else (
                     "dayclub" if _e.get("type") == "pool" else "nightclub" if _e.get("type") == "club" and _grp in ("concert", "nightclub") else _grp)
+        _tk_block = {}
+        try:                                 # 3.4 (F1): the ticket section's marks and first-seen times
+            lv_ticket_marks(_clean + fests)
+            _tk_block = lv_track_seen(_clean + fests, _prior_ev, _now_ts)
+        except Exception as _te:
+            print(f"  [TICKETS WARN] {_te}")
+            _pe = _prior_ev if isinstance(_prior_ev, dict) else {}
+            _tk_block = {"seen_since": int(_pe.get("seen_since") or 0) or _now_ts, "seen_keys": _pe.get("seen_keys") or {},
+                         "seen_cover": _pe.get("seen_cover") or {}}
         try:
             onsale = build_onsale(_prior_ev.get("onsale") if isinstance(_prior_ev, dict) else [])   # 3.3 (E2)
         except Exception as _oe:
@@ -2266,9 +2532,15 @@ if __name__ == "__main__":
         if len(_clean) >= 8:
             # 3.3: room for every Las Vegas venue (3.2 kept 650 in all); one event per line keeps the file small
             _keep = _clean[:1800]
+            # 3.4: "marks" = the Las Vegas entries carry the bot's "major" / "tk" (the page trusts them as they are);
+            # "seen_since" / "seen_cover" / "seen_keys" = JUST ANNOUNCED's memory for the next build (lv_track_seen).
             with open("events.json", "w", encoding="utf-8") as f:
-                f.write('{"updated": %d,\n"festivals": %s,\n"onsale": [\n%s\n],\n"events": [\n%s\n]}\n' % (
-                    int(time.time()), json.dumps(fests, ensure_ascii=False),
+                f.write('{"updated": %d,\n"marks": 1,\n"seen_since": %d,\n"seen_cover": %s,\n"seen_keys": %s,\n'
+                        '"festivals": %s,\n"onsale": [\n%s\n],\n"events": [\n%s\n]}\n' % (
+                    int(time.time()), int(_tk_block.get("seen_since") or _now_ts),
+                    json.dumps(_tk_block.get("seen_cover") or {}, ensure_ascii=False, sort_keys=True),
+                    json.dumps(_tk_block.get("seen_keys") or {}, ensure_ascii=False, sort_keys=True),
+                    json.dumps(fests, ensure_ascii=False),
                     ",\n".join(json.dumps(a, ensure_ascii=False) for a in onsale),
                     ",\n".join(json.dumps(e, ensure_ascii=False) for e in _keep)))
             print(f"[OK] events.json written — {len(_keep)} events, {len(fests)} festivals, {len(onsale)} on-sale alerts")
@@ -2290,7 +2562,7 @@ if __name__ == "__main__":
         _vg_ev = [e for e in _ev.get("events", []) if e.get("region") == "vegas"]
         _now_h = int(time.time())
         health = {
-            "version": "3.3.0",
+            "version": "3.4.0",
             "built_utc": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
             "build_seconds": round(time.time() - _T0, 1),
             "feeds": {"total": len(CULTURE_SOURCES),
@@ -2310,6 +2582,7 @@ if __name__ == "__main__":
                          "sources": dict(CAL_STATS)},
             "onsale": {"alerts": len(_ev.get("onsale", [])), "sources": dict(ONSALE_STATS),
                        "ticketmaster_key": bool(TM_KEY)},
+            "tickets": _tickets_health(_ev, _now_h),
             "channels": {"channels": len(_chs),
                          "videos": sum(len(_c.get("items") or [1]) for _c in _chs),
                          "live": sum(1 for _c in _chs if _c.get("live"))},

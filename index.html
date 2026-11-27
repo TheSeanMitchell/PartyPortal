@@ -537,6 +537,9 @@
     @media(max-width:1000px){.pp-nav-upd{display:none}}
     @media(max-width:900px){.pp-theme-lbl{display:none}.pp-theme-ico{display:inline}.pp-saved-lbl{display:none}.pp-shuf-lbl{display:none}.pp-nav-r{gap:8px}#pp-help-btn{display:none}}
     @media(max-width:600px){.pp-nav-r{gap:7px}.pp-saved-btn{padding:5px 8px}}
+    /* 3.4: a narrow desktop window - Argus's side tab at phone size - has no phone zoom-to-fit, so the top bar was
+       64 px wider than 412 px and the page scrolled sideways (3.3 too). Tighter there; phones keep their look. */
+    @media(max-width:480px) and (hover:hover) and (pointer:fine){.pp-nav{padding:0 8px;gap:6px}.pp-logo{font-size:1.2em;letter-spacing:.08em;gap:6px}.pp-logo-mark{width:22px;height:22px}.pp-nav-r{gap:5px}.pp-nav-r .pp-theme{gap:3px;padding:4px 0}.pp-saved-btn{padding:4px 6px;gap:4px}}
     @media(max-width:380px){.pp-logo-text{font-size:.82em;letter-spacing:.06em}}
     /* Top 10 - Most Reported, like NUZU's */
     .pp-top-wrap{max-width:1440px;margin:0 auto;padding:18px 18px 8px}
@@ -570,6 +573,32 @@
     .pp-os-links{display:flex;flex-wrap:wrap;gap:4px 14px;margin-top:6px}
     .pp-os-links a{color:var(--pink-ink);font-weight:700;text-decoration:underline;text-underline-offset:2px}
     .pp-os-empty{color:var(--ink-3);padding:8px 0 4px}
+    /* 3.4 (F1): the Vegas ticket section - full width, three parts, simple filters */
+    .pp-tk-filters{display:flex;flex-wrap:wrap;gap:7px 8px;align-items:center;margin:0 0 12px}
+    .pp-tk-filters .pp-tk-sep{width:1px;height:20px;background:var(--rule-2);margin:0 4px}
+    .pp-tk-part{margin:0 0 18px}
+    .pp-tk-h{display:flex;align-items:baseline;flex-wrap:wrap;gap:4px 10px;margin:0 0 8px;font-family:'Bebas Neue',sans-serif;font-weight:400;font-size:1.32em;letter-spacing:.08em;color:var(--ink-1)}
+    .pp-tk-h .pp-tk-n{font-family:'Space Mono',monospace;font-size:.62em;letter-spacing:0;color:var(--ink-3)}
+    .pp-tk-h .pp-tk-why{font-family:'Barlow Condensed',sans-serif;font-size:.68em;letter-spacing:.02em;color:var(--ink-3)}
+    .pp-tk-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:10px}
+    .pp-tk-card{display:flex;flex-direction:column;gap:5px;background:var(--panel);border:1px solid var(--rule);border-left:3px solid var(--cyan-ink);border-radius:9px;padding:10px 12px;min-width:0}
+    .pp-tk-card.pp-tk-special{border-left-color:var(--gold-ink)}
+    html[data-theme="onyx"] .pp-tk-card{border-left-color:var(--rule-2)}
+    .pp-tk-when{display:flex;flex-wrap:wrap;gap:2px 8px;align-items:baseline;font-weight:700;color:var(--ink-1)}
+    .pp-tk-day{font-family:'Bebas Neue',sans-serif;font-weight:400;font-size:1.28em;letter-spacing:.05em;line-height:1}
+    .pp-tk-time{font-family:'Space Mono',monospace;font-size:.8em;color:var(--ink-2)}
+    .pp-tk-title{font-weight:700;font-size:1.02em;line-height:1.3;color:var(--ink-1);overflow-wrap:anywhere}
+    .pp-tk-venue{font-size:.88em;color:var(--ink-2);overflow-wrap:anywhere}
+    .pp-tk-tags{display:flex;flex-wrap:wrap;gap:5px}
+    .pp-tk-tag{font-size:.72em;font-weight:800;letter-spacing:.07em;text-transform:uppercase;padding:1px 6px;border-radius:3px;border:1px solid var(--cyan-ink);color:var(--cyan-ink)}
+    .pp-tk-tag.pp-tk-gold{border-color:var(--gold-ink);color:var(--gold-ink)}
+    .pp-tk-tag.pp-tk-new{background:var(--chip-on);border-color:var(--chip-on);color:var(--on-chip-on)}
+    .pp-tk-links{display:flex;flex-wrap:wrap;gap:4px 14px;margin-top:auto;padding-top:3px;font-size:.88em}
+    .pp-tk-links a{color:var(--pink-ink);font-weight:700;text-decoration:underline;text-underline-offset:2px}
+    .pp-tk-note{color:var(--ink-3);font-size:.92em;line-height:1.45;padding:4px 0}
+    .pp-tk-more{display:block;margin:10px auto 0;background:var(--chip);border:1px solid var(--rule-2);border-radius:20px;color:var(--ink-1);font-size:.9em;font-weight:700;letter-spacing:.08em;text-transform:uppercase;padding:8px 18px;cursor:pointer}
+    .pp-tk-more[hidden]{display:none}
+    @media(max-width:600px){.pp-os-wrap{padding:16px 12px 10px}.pp-tk-grid{grid-template-columns:1fr}}
     .pp-top-go,.pp-watch{background:none;border:none;padding:0;cursor:pointer;font:inherit;font-weight:700;color:var(--pink-ink);text-decoration:underline;text-underline-offset:2px}
     .pp-top-read{color:var(--cyan-ink);font-weight:700;text-decoration:none}
     .pp-top-read:hover,.pp-top-go:hover,.pp-watch:hover{color:var(--ink-1)}
@@ -695,18 +724,7 @@
   <div class="pp-mplayer" id="pp-mplayer" aria-label="Channel player"></div>
 </section>
 
-<!-- TOP 10 - MOST REPORTED (3.2: second) -->
-<section class="pp-top-wrap" id="pp-top" aria-label="Top 10 — the most reported party and culture stories">
-  <div class="pp-sec-hdr">
-    <span class="pp-sec-dot" aria-hidden="true"></span>
-    <h2 class="pp-sec-title">Top 10 &middot; Most Reported</h2>
-    <span class="pp-sec-sub" id="pp-top-sub"></span>
-    <button class="pp-top-videooff" id="pp-top-videoon" title="Turn LIVE VIDEO back on">&#128250; Turn on Live Video</button>
-  </div>
-  <div class="pp-top-grid" id="pp-top-grid"><div class="pp-top-empty">Loading the most reported stories&hellip;</div></div>
-</section>
-
-<!-- ON THE HORIZON (3.2: third) -->
+<!-- ON THE HORIZON (3.4, F4: right below the videos) -->
 <section class="pp-cd-wrap" id="pp-cd-wrap" aria-label="On The Horizon — upcoming parties, festivals and shows worldwide">
   <div class="pp-cd-hdr">
     <span class="pp-sec-dot" aria-hidden="true"></span>
@@ -737,6 +755,31 @@
   <button class="pp-cd-more" id="pp-cd-more">Show more</button>
 </section>
 
+<!-- 3.4 (F1, F4): THE VEGAS TICKET SECTION, below On The Horizon - just announced, going on sale, coming up -->
+<section class="pp-os-wrap" id="pp-onsale" aria-label="Vegas Tickets and On-Sale Radar: Las Vegas events just announced, going on sale soon and coming up">
+  <div class="pp-sec-hdr">
+    <span class="pp-sec-dot" aria-hidden="true"></span>
+    <h2 class="pp-sec-title">Vegas Tickets &amp; On-Sale Radar</h2>
+    <span class="pp-sec-sub" id="pp-os-sub"></span>
+  </div>
+  <p class="pp-os-intro">The big Las Vegas tickets: what was just announced, what goes on sale soon, and every major show, concert, residency, rodeo, holiday show and party coming up. Times are Las Vegas time (PT). Always buy from the official ticket page.</p>
+  <div class="pp-tk-filters" id="pp-tk-filters" role="toolbar" aria-label="Filter the Las Vegas tickets"></div>
+  <div class="pp-tk-part" id="pp-tk-new"><h3 class="pp-tk-h">Just announced <span class="pp-tk-n" id="pp-tk-new-n"></span><span class="pp-tk-why">first on our Las Vegas calendar in the last 7 days</span></h3><div class="pp-tk-grid" id="pp-tk-new-grid"></div></div>
+  <div class="pp-tk-part" id="pp-tk-sale"><h3 class="pp-tk-h">Going on sale soon <span class="pp-tk-n" id="pp-tk-sale-n"></span><span class="pp-tk-why">on-sale and presale dates as announced, and the ones that just went on sale</span></h3><div class="pp-tk-grid pp-os-grid" id="pp-os-grid"><div class="pp-os-empty">Loading the latest Las Vegas on-sales&hellip;</div></div></div>
+  <div class="pp-tk-part" id="pp-tk-coming"><h3 class="pp-tk-h">Coming up in Las Vegas <span class="pp-tk-n" id="pp-tk-coming-n"></span><span class="pp-tk-why">the major ticketed events of the next 90 days, soonest first</span></h3><div class="pp-tk-grid" id="pp-tk-coming-grid"><div class="pp-os-empty">Loading the Las Vegas calendar&hellip;</div></div><button class="pp-tk-more" id="pp-tk-more" hidden>Show more</button></div>
+</section>
+
+<!-- TOP 10 - MOST REPORTED (3.4, F4: after the Vegas tickets; with LIVE VIDEO off it leads, as in 3.2) -->
+<section class="pp-top-wrap" id="pp-top" aria-label="Top 10 — the most reported party and culture stories">
+  <div class="pp-sec-hdr">
+    <span class="pp-sec-dot" aria-hidden="true"></span>
+    <h2 class="pp-sec-title">Top 10 &middot; Most Reported</h2>
+    <span class="pp-sec-sub" id="pp-top-sub"></span>
+    <button class="pp-top-videooff" id="pp-top-videoon" title="Turn LIVE VIDEO back on">&#128250; Turn on Live Video</button>
+  </div>
+  <div class="pp-top-grid" id="pp-top-grid"><div class="pp-top-empty">Loading the most reported stories&hellip;</div></div>
+</section>
+
 <!-- CULTURE SECTION (3.2: then every news tab) -->
 <section class="pp-culture-wrap" id="culture" aria-label="Party and culture news">
   <div class="pp-sec-hdr">
@@ -747,17 +790,6 @@
   </div>
   <div class="pp-news-pills" id="pp-news-pills" role="toolbar" aria-label="News tabs"></div>
   <div class="pp-culture-cols" id="pp-culture-cols"></div>
-</section>
-
-<!-- 3.3 (E2): VEGAS ON-SALE RADAR - near the bottom of the page -->
-<section class="pp-os-wrap" id="pp-onsale" aria-label="Vegas On-Sale Radar: Las Vegas tickets about to go on sale, or just on sale">
-  <div class="pp-sec-hdr">
-    <span class="pp-sec-dot" aria-hidden="true"></span>
-    <h2 class="pp-sec-title">Vegas On-Sale Radar</h2>
-    <span class="pp-sec-sub" id="pp-os-sub"></span>
-  </div>
-  <p class="pp-os-intro">Major Las Vegas shows about to go on sale &mdash; and the ones that just did. Newest announcements first; times are Las Vegas time (PT). Always buy from the official ticket page.</p>
-  <div class="pp-top-grid pp-os-grid" id="pp-os-grid"><div class="pp-os-empty">Loading the latest Las Vegas on-sales&hellip;</div></div>
 </section>
 
 <footer class="pp-footer">
@@ -1103,14 +1135,15 @@ function ytCommand(iframe, func, args) {
 function soloAudio(iframe, inset, btn){
   var grid=document.getElementById('pp-video-grid'); if(!grid) return;
   var already = btn && btn.classList.contains('pp-on');
-  grid.querySelectorAll('iframe').forEach(function(f){ ytCommand(f,'mute'); });
+  grid.querySelectorAll('iframe').forEach(function(f){ ytCommand(f,'mute'); f.__ppSoundNext=false; });   /* 3.4 (F6) */
   grid.querySelectorAll('.pp-inset').forEach(function(el){ el.classList.remove('pp-audio-active'); });
   grid.querySelectorAll('.pp-tool-unmute').forEach(function(b){ b.classList.remove('pp-on'); b.innerHTML='🔇'; });
-  if(already){ PP.heard=null; if(window.ppReconcile) ppReconcile(); return; }
+  if(already){ PP.heard=null; if(PP_WS){ PP_WS.heard=-1; ppWsSave(); } if(window.ppReconcile) ppReconcile(); return; }
   ytCommand(iframe,'unMute'); ytCommand(iframe,'setVolume',[100]);
   if(inset) inset.classList.add('pp-audio-active');
   if(btn){ btn.classList.add('pp-on'); btn.innerHTML='🔊'; }
   PP.heard = inset ? {id:inset.getAttribute('data-id'), frame:iframe} : null;   /* ORDER-700: held across a resize */
+  if(PP_WS){ PP_WS.heard=ppSlotOf(iframe); ppWsSave(); }   /* 3.4 (F5): which tile has the sound, kept */
   ppHandshake(iframe);   /* ORDER-700: its time reported from now, not at the next 20 s handshake */
   if(window.ppReconcile) ppReconcile();   /* 3.3 (E4): the heard one plays; a silent one out of sight pauses */
 }
@@ -1146,7 +1179,9 @@ function ppResumeFrame(f){
   var src=f.getAttribute('src')||''; if(!src || src==='about:blank') return;
   var h=f.closest('.pp-inset') || f.closest('.pp-wrcell'), fd=h ? feedById(h.getAttribute('data-id')) : curMobileFeed();
   if(fd && ppIsLiveFeed(fd)){
-    /* a live stream rejoins live; the handshake makes the new player report its state at once */
+    /* a live stream rejoins live; the handshake makes the new player report its state at once.
+       3.4 (F6): a silent tile comes back silent, even if its address still carries the sound of an earlier turn */
+    if(!ppIsHeard(f)) src=src.replace(/([?&])mute=0/, '$1mute=1');
     f.__ppPlaying=undefined; f.__ppState=undefined; f.src='about:blank';
     setTimeout(function(){ f.src=src; setTimeout(function(){ ppHandshake(f); }, 1500); }, 60);
     return 'live';
@@ -1235,6 +1270,7 @@ function ppHandshake(iframe){
 function ppHandshakeAll(){ ppFrames().forEach(ppHandshake); }
 function ppOnScreen(){ var o={}; document.querySelectorAll('.pp-inset,.pp-wrcell').forEach(function(el){ var id=el.getAttribute('data-id'); if(id) o[id]=1; }); return o; }
 function ppSetTile(holder, iframe, feed, keepChannel){
+  var heard=ppTileHeard(iframe);   /* 3.4 (F6): the sound stays with the tile that had it - and only with it */
   holder.setAttribute('data-id', feed.id); holder.setAttribute('data-cat', feed.cat);
   if(holder.classList.contains('pp-inset')) holder.id='pp-inset-'+feed.id;
   var s=ppSrc(feed);
@@ -1244,8 +1280,10 @@ function ppSetTile(holder, iframe, feed, keepChannel){
   var fav=holder.querySelector('[data-fav-id]'); if(fav){ fav.setAttribute('data-fav-id',feed.id); fav.classList.toggle('pp-tool-on',isFav(feed.id)); fav.innerHTML=isFav(feed.id)?'★':'☆'; }
   delete PP_PROGRESS[iframe.src];
   iframe.src=s.src;
+  if(heard) ppKeepSound(iframe, feed.id);
   if(!keepChannel) ppRemember([feed.id]);
   ppRememberV(s.v);
+  ppWsSetSlot(iframe, feed, s);   /* 3.4 (F5) */
   setTimeout(function(){ ppHandshake(iframe); }, 1200);
 }
 function ppIsPlaylist(feed){ return !!(feed && ((feed.items && feed.items.length>1) || (feed.maxIdx && feed.maxIdx>1) || /[?&](list|playlist)=/.test(feed.embed||''))); }
@@ -1253,6 +1291,7 @@ function ppReplaceTile(iframe, dead){
   try {
     if(iframe.id==='pp-mp-iframe'){
       var cf=curMobileFeed();
+      if(PP_WS) PP_WS.tiles[PP_WS.mslot]=null;   /* 3.4 (F5): the phone's tile takes the replacement */
       if(dead && cf && cf.items){ var bv=iframe.getAttribute('data-v'); ppMarkDeadV(bv); if(ppItems(cf).length){ renderMobilePlayer(); return; } }
       if(dead && cf) ppMarkDead(cf.id);
       mobileNext(); return;
@@ -1291,6 +1330,7 @@ window.addEventListener('message', function(e){
         if(tf.__ppPaused && info.playerState===1){ if(ppWantPaused(tf)) ytCommand(tf,'pauseVideo'); else tf.__ppPaused=false; }
       }
       if(info.videoData && info.videoData.video_id) tf.__ppV=info.videoData.video_id;
+      ppWsTrack(tf, info);   /* 3.4 (F5): each tile's video and place, kept */
     }
   }
   if(d.event==='onError' || (d.event==='infoDelivery' && info.errorCode)){ var bad=ppFrameFromSource(e.source); if(bad) ppReplaceTile(bad, true); return; }
@@ -1383,42 +1423,113 @@ function ppNextVideo(holder, iframe){
   delete PP_PROGRESS[iframe.src];
   iframe.src=s.src; ppRememberV(s.v);
   if(heard) ppKeepSound(iframe, feed.id);
+  ppWsSetSlot(iframe, feed, s);   /* 3.4 (F5) */
   setTimeout(function(){ ppHandshake(iframe); }, 1200);
   toast('Next video · '+((s.item&&s.item.t)||feed.label).replace(/^[^A-Za-z0-9]+/,'').slice(0,60));
 }
 function ppNewChannel(holder, iframe){
-  var heard=ppTileHeard(iframe);
-  ppReplaceTile(iframe, false);
+  ppReplaceTile(iframe, false);   /* 3.4 (F6): ppSetTile keeps the sound only if this tile had it */
   var nid=holder.getAttribute('data-id');
-  if(heard) ppKeepSound(iframe, nid);
   var nf=feedById(nid); if(nf) toast('New channel · '+(nf.label||'').replace(/^[^A-Za-z0-9]+/,'').slice(0,60));
 }
-function buildMainGrid(){
-  var grid=document.getElementById('pp-video-grid'); if(!grid) return;
-  grid.querySelectorAll('iframe').forEach(function(f){ f.src='about:blank'; });
-  if(!ppVideoOn()){ grid.innerHTML=''; PP.curMain=[]; return; }
-  var filt=getFilterById(PP.filterId), pool=getActivePool();
+/* ════════ 3.4 (F5): THE WALL IS HELD ════════
+   The four tiles - each one's video, its place in the video, and which tile has the sound - are kept in
+   sessionStorage ('pp:wall'), up to date from the players' own reports. Every layout change (phone size <->
+   wide), every reload (Argus's F11 reload included), Party Mode and LIVE VIDEO off / on bring back the same
+   four, each where it was. On the phone the heard tile (else the one it showed before, the first at first)
+   carries on; wide again, the heard one leads (the user's Q22) and the other three keep their order.
+   Only Shuffle, a station or a search, "new channel", "next video" (and the phone's Shuffle Next, Prev and
+   swipe) change a video - and a video that ends or breaks is replaced, as before. A new tab is a new
+   visit: a fresh deal (E5). */
+var PP_WS=null, PP_WS_KEY='pp:wall', PP_WS_AGE=3*3600000, PP_WS_T=null, PP_CAT_REAL=false, PP_CH=null;
+function ppSlotOf(f){
+  if(!f || !PP_WS) return -1;
+  if(f.id==='pp-mp-iframe') return PP_WS.mslot;
+  var h=f.closest && f.closest('.pp-inset'); if(!h || !h.parentNode || h.parentNode.id!=='pp-video-grid') return -1;
+  return Array.prototype.indexOf.call(h.parentNode.children, h);
+}
+function ppWsTile(feed, s){
+  var m=(s.src||'').match(/[?&]start=(\d+)/);
+  return {id:feed.id, cat:feed.cat, lbl:feed.label, v:s.v||'', base:(s.src||'').replace(/&start=\d+/,''), t:m?+m[1]:0, at:Date.now(), pl:false, live:ppIsLiveFeed(feed)};
+}
+function ppWsSrc(tile, heard){
+  var feed=feedById(tile.id), base=tile.base||'';
+  /* a playlist channel that moved on to its next video: start there */
+  if(feed && tile.v && base.indexOf('/embed/'+tile.v)<0 && ppItemByV(feed, tile.v) && !PP_DEADV.has(tile.v)){ base=ppSrc(feed, tile.v).src.replace(/&start=\d+/,''); tile.base=base; }
+  var src=base.replace(/([?&])mute=[01]/, '$1mute='+(heard?'0':'1'));
+  if(!tile.live && typeof tile.t==='number' && tile.t>1) src+='&start='+Math.floor(tile.t);
+  return src;
+}
+function ppWsLoad(){
+  try{ var s=JSON.parse(sessionStorage.getItem(PP_WS_KEY)||'null');
+    if(s && s.v===1 && Array.isArray(s.tiles) && s.tiles.length && s.tiles.every(function(t){ return t && t.id && t.base; }) && Date.now()-(s.at||0)<PP_WS_AGE) return s; }catch(e){}
+  return null;
+}
+function ppWsSave(){ if(!PP_WS) return; clearTimeout(PP_WS_T); PP_WS_T=null; PP_WS.at=Date.now(); try{ sessionStorage.setItem(PP_WS_KEY, JSON.stringify(PP_WS)); }catch(e){} }
+function ppWsSaveSoon(){ if(!PP_WS_T) PP_WS_T=setTimeout(ppWsSave, 1500); }
+/* every playing tile's place, fixed now (before a layout change, a reload, Party Mode, LIVE VIDEO off) */
+function ppWsCapture(){
+  if(!PP_WS) return; var now=Date.now();
+  PP_WS.tiles.forEach(function(tl){ if(tl && tl.pl && typeof tl.t==='number'){ tl.t+=Math.max(0, Math.min(60, (now-(tl.at||now))/1000)); tl.at=now; tl.pl=false; } });
+  ppWsSave();
+}
+function ppWsTrack(f, info){
+  var i=ppSlotOf(f), tl=PP_WS && PP_WS.tiles[i]; if(!tl) return;
+  if(info.videoData && info.videoData.video_id && info.videoData.video_id!==tl.v){ tl.v=info.videoData.video_id; tl.t=0; }
+  if(typeof info.currentTime==='number'){ tl.t=info.currentTime; tl.at=Date.now(); }
+  if(typeof info.playerState!=='undefined') tl.pl=(info.playerState===1);
+  ppWsSaveSoon();
+}
+function ppWsSetSlot(f, feed, s){ var i=ppSlotOf(f); if(i<0 || !PP_WS) return; PP_WS.tiles[i]=ppWsTile(feed, s); ppWsSave(); }
+function ppWsFits(s){ return !!(s && s.filter===PP.filterId && (s.search||'')===PP.search.trim() && s.tiles.length && s.tiles.every(Boolean)); }
+/* a fresh deal of four: the mix (E5), a featured channel first (?ch=, ▸ Watch) */
+function ppWsDeal(){
+  var pool=getActivePool();
   var chosen=ppWithMix(ppPick(pool, PP_WALL), pool, PP_WALL);   /* 3.3 (E5) */
   var featId=null, featV=PP.featureV||null;
   if(PP.feature){ var ff=feedById(PP.feature); if(ff){ featId=ff.id; chosen=[ff].concat(chosen.filter(function(f){ return f.id!==ff.id; })).slice(0,PP_WALL); } PP.feature=null; PP.featureV=null; }
   else { chosen=ppShuffle(chosen); }
-  PP.curMain=chosen;
+  PP_WS={v:1, filter:PP.filterId, search:PP.search.trim(), ch:PP_CH||'', fb:!PP_CAT_REAL, heard:-1, mslot:0,
+         tiles:chosen.map(function(feed){ return ppWsTile(feed, ppSrc(feed, feed.id===featId ? featV : null)); })};
+  ppRemember(chosen.map(function(f){ return f.id; }));
+  PP_WS.tiles.forEach(function(t){ ppRememberV(t.v); });
+  ppWsSave();
+  return PP_WS;
+}
+window.addEventListener('pagehide', ppWsCapture);
+window.addEventListener('beforeunload', ppWsCapture);
+document.addEventListener('visibilitychange', function(){ if(document.hidden) ppWsCapture(); });
+/* mode 'held': the kept four (a fresh deal if none fits the station); heardFirst: back from the phone */
+function buildMainGrid(mode, heardFirst){
+  var grid=document.getElementById('pp-video-grid'); if(!grid) return;
+  grid.querySelectorAll('iframe').forEach(function(f){ f.src='about:blank'; });
+  if(!ppVideoOn()){ grid.innerHTML=''; PP.curMain=[]; return; }
+  var filt=getFilterById(PP.filterId);
+  var st=(mode==='held' && ppWsFits(PP_WS)) ? PP_WS : ppWsDeal();
+  if(heardFirst && st.heard>0 && st.tiles[st.heard]){ st.tiles.unshift(st.tiles.splice(st.heard,1)[0]); st.heard=0; st.mslot=0; }
+  /* a kept channel that has retired since (or died this session) gets a fresh pick in its place */
+  if(PP_CAT_REAL) st.tiles.forEach(function(tl, i){ if(!feedById(tl.id) || ppIsDead(tl.id)){ var nx=ppPick(getActivePool(), 1, ppOnScreenIds(st))[0]; if(nx){ st.tiles[i]=ppWsTile(nx, ppSrc(nx)); if(st.heard===i) st.heard=-1; } } });
+  PP.curMain=[];
   grid.innerHTML='';
-  if(!chosen.length){
+  if(!st.tiles.length){
     var nm=filt.kind==='all'?'':filt.label.replace(/^[^A-Za-z]+/,'');
     grid.innerHTML='<div class="pp-grid-empty">No channels match <b>'+escHtml(nm||'your search')+'</b>'+(PP.search?(' &middot; &ldquo;'+escHtml(PP.search)+'&rdquo;'):'')+'. Try another station.</div>';
     return;
   }
-  chosen.forEach(function(feed){
+  var heardSet=false;
+  st.tiles.forEach(function(tile, ti){
+    var feed=feedById(tile.id) || {id:tile.id, cat:tile.cat||'', label:tile.lbl||'', embed:'', live:tile.live};
+    var heard=(ti===st.heard);
+    PP.curMain.push(feed);
+    var s={v:tile.v, item:ppItemByV(feed, tile.v)};
     var inset=document.createElement('div'); inset.className='pp-inset'; inset.id='pp-inset-'+feed.id;
     inset.setAttribute('data-id',feed.id); inset.setAttribute('data-cat',feed.cat);
     var iframe=document.createElement('iframe');
     iframe.setAttribute('allow','autoplay; encrypted-media; fullscreen');
     iframe.setAttribute('allowfullscreen',''); iframe.setAttribute('frameborder','0');
     iframe.setAttribute('title', feed.label);
-    var s=ppSrc(feed, feed.id===featId ? featV : null);
-    var held = PP.hold && PP.hold.id===feed.id;
-    iframe.src = held ? ppHeldSrc(s.src, PP.hold) : s.src; inset.setAttribute('data-v', s.v||''); ppRememberV(s.v);
+    var held=heard;
+    iframe.src=ppWsSrc(tile, heard); inset.setAttribute('data-v', tile.v||'');
     inset.appendChild(iframe);
     var tools=document.createElement('div'); tools.className='pp-inset-tools';
     var bUn=document.createElement('button'); bUn.className='pp-tool pp-tool-unmute'; bUn.title='Unmute'; bUn.setAttribute('aria-label','Unmute'); bUn.innerHTML='🔇';
@@ -1434,30 +1545,27 @@ function buildMainGrid(){
     bNc.addEventListener('click', function(ev){ ev.stopPropagation(); ppNewChannel(inset, iframe); });
     tools.appendChild(bUn); tools.appendChild(bNv); tools.appendChild(bNc); bFs.forEach(function(b){ tools.appendChild(b); }); tools.appendChild(bFav); tools.appendChild(bSh);
     inset.appendChild(tools);
-    if(ppIsLiveFeed(feed)){ var live=document.createElement('span'); live.className='pp-inset-live'; live.innerHTML='<span class="pp-inset-live-dot"></span>LIVE'; inset.appendChild(live); }
+    if(ppIsLiveFeed(feed) || tile.live){ var live=document.createElement('span'); live.className='pp-inset-live'; live.innerHTML='<span class="pp-inset-live-dot"></span>LIVE'; inset.appendChild(live); }
     var cat=document.createElement('span'); cat.className='pp-inset-cat'; cat.textContent=ppCat(feed.cat).label; inset.appendChild(cat);
     var lbl=document.createElement('span'); lbl.className='pp-inset-lbl'; lbl.textContent=ppTileLabel(feed, s.item); lbl.title=feed.label; inset.appendChild(lbl);
     inset.addEventListener('click', function(){ soloAudio(iframe, inset, bUn); });
     grid.appendChild(inset);
-    if(held){ inset.classList.add('pp-audio-active'); bUn.classList.add('pp-on'); bUn.innerHTML='🔊'; ppSoundOnLoad(iframe); PP.heard={id:feed.id, frame:iframe}; PP.hold=null; }
+    if(held){ inset.classList.add('pp-audio-active'); bUn.classList.add('pp-on'); bUn.innerHTML='🔊'; ppSoundOnLoad(iframe); PP.heard={id:feed.id, frame:iframe}; heardSet=true; }
   });
-  ppRemember(chosen.map(function(f){ return f.id; }));
+  if(!heardSet){ PP.heard=null; st.heard=-1; }
+  ppWsSave();
 }
+function ppOnScreenIds(st){ var o={}; (st && st.tiles || []).forEach(function(t){ if(t) o[t.id]=1; }); return o; }
 
 /* ════════ MOBILE SINGLE PLAYER ════════ */
+/* 3.4 (F5): the phone shows one of the four kept tiles (PP_WS.mslot: the heard one, else the one it showed
+   before) and carries it on; Shuffle Next / Prev / swipe move that tile through the station's channels.
+   A fresh deal already puts a core-lane channel (and a featured one) first, as 3.2 did here. */
 function buildMobileQueue(){
-  var pool=getActivePool();
-  PP.mQueue=pool.length?ppPick(pool, pool.length):[]; PP.mIndex=0;
-  /* 3.2: the first channel on a phone is from the core lanes too (no station / search chosen) */
-  if(PP.filterId==='all' && !PP.search.trim() && PP.mQueue.length && !PP_CORE[PP.mQueue[0].cat]){
-    for(var qi=1;qi<PP.mQueue.length;qi++){ if(PP_CORE[PP.mQueue[qi].cat]){ PP.mQueue.unshift(PP.mQueue.splice(qi,1)[0]); break; } }
-  }
-  if(PP.feature){
-    PP.mFeatV=PP.featureV||null; PP.featureV=null;
-    var ff=feedById(PP.feature);
-    if(ff){ PP.mQueue=[ff].concat(PP.mQueue.filter(function(f){ return f.id!==ff.id; })); }
-    PP.feature=null;
-  }
+  var pool=getActivePool(), tl=PP_WS && PP_WS.tiles[PP_WS.mslot];
+  var first=tl ? (feedById(tl.id) || {id:tl.id, cat:tl.cat||'', label:tl.lbl||'', embed:'', live:tl.live}) : null;
+  var ex={}; if(first) ex[first.id]=1;
+  PP.mQueue=(first?[first]:[]).concat(pool.length?ppPick(pool, pool.length, ex):[]); PP.mIndex=0;
 }
 function curMobileFeed(){ return PP.mQueue.length?PP.mQueue[PP.mIndex%PP.mQueue.length]:null; }
 function stopMobileFrame(){ var f=document.getElementById('pp-mp-iframe'); if(f) f.src='about:blank'; }
@@ -1472,9 +1580,14 @@ function renderMobilePlayer(){
   var feed=curMobileFeed(), filt=getFilterById(PP.filterId);
   var label=filt.kind==='all'?'All stations':filt.label.replace(/^[^A-Za-z★]+/,'');
   if(!feed){ box.innerHTML='<div class="pp-mp-empty">No channels match <b>'+escHtml(label)+'</b>'+(PP.search?(' &middot; &ldquo;'+escHtml(PP.search)+'&rdquo;'):'')+'.<br>Try another station.</div>'; return; }
-  var n=PP.mQueue.length, pos=(PP.mIndex%n)+1, isLive=ppIsLiveFeed(feed);
-  var ms=ppSrc(feed, PP.mFeatV||null); PP.mFeatV=null; ppRememberV(ms.v);
-  var mheld = PP.hold && PP.hold.id===feed.id; if(mheld){ ms.src=ppHeldSrc(ms.src, PP.hold); }
+  var n=PP.mQueue.length, pos=(PP.mIndex%n)+1;
+  /* 3.4 (F5): the phone is one of the kept tiles - its video and place, its sound (F6: next / prev keep it) */
+  if(!PP_WS) ppWsDeal();
+  var slot=Math.max(0, Math.min(PP_WS.mslot||0, PP_WS.tiles.length-1)), tile=PP_WS.tiles[slot];
+  if(!tile || tile.id!==feed.id){ tile=ppWsTile(feed, ppSrc(feed, PP.mFeatV||null)); PP_WS.tiles[slot]=tile; ppRememberV(tile.v); }
+  PP.mFeatV=null; PP_WS.mslot=slot;
+  var mheld=(PP_WS.heard===slot), isLive=ppIsLiveFeed(feed) || !!tile.live;
+  var ms={src:ppWsSrc(tile, mheld), v:tile.v, item:ppItemByV(feed, tile.v)};
   box.innerHTML=''
     +'<div class="pp-mp-context"><span class="pp-mp-context-l">Now playing <b>'+pos+'</b> / '+n+' · '+escHtml(label)+'</span>'
     +'<button class="pp-mp-auto'+(PP.mAuto?' pp-on':'')+'" id="pp-mp-auto" aria-pressed="'+(PP.mAuto?'true':'false')+'">⟳ Auto</button></div>'
@@ -1500,19 +1613,22 @@ function renderMobilePlayer(){
     var its=ppItems(feed), cur=iframe.__ppV || iframe.getAttribute('data-v'), k=-1;
     its.forEach(function(it,j){ if(it.v===cur) k=j; });
     PP.mFeatV=its[(k+1)%its.length].v;
-    if(!muted) PP.hold={id:feed.id, t:null};    /* heard: the next video keeps the sound on */
+    if(PP_WS) PP_WS.tiles[PP_WS.mslot]=null;    /* the next video in this tile; heard, it keeps the sound on */
     renderMobilePlayer();
   });
   mute.addEventListener('click', function(){
     muted=!muted;
     if(muted){ ytCommand(iframe,'mute'); mute.classList.remove('pp-on'); mute.innerHTML='🔇 Unmute'; PP.heard=null; }
     else { ytCommand(iframe,'unMute'); ytCommand(iframe,'setVolume',[100]); mute.classList.add('pp-on'); mute.innerHTML='🔊 Mute'; PP.heard={id:feed.id, frame:iframe}; ppHandshake(iframe); }
+    if(PP_WS){ PP_WS.heard=muted?-1:PP_WS.mslot; ppWsSave(); }
   });
   /* ORDER-700: full screen on the phone player too (it had none) */
   var fsbar=document.createElement('div'); fsbar.className='pp-mp-fsbar';
   ppFsButtons(function(){ return iframe; }).forEach(function(b){ fsbar.appendChild(b); });
   box.querySelector('.pp-mp-frame').appendChild(fsbar);
-  if(mheld){ muted=false; mute.classList.add('pp-on'); mute.innerHTML='🔊 Mute'; ppSoundOnLoad(iframe); PP.heard={id:feed.id, frame:iframe}; PP.hold=null; }
+  if(mheld){ muted=false; mute.classList.add('pp-on'); mute.innerHTML='🔊 Mute'; ppSoundOnLoad(iframe); PP.heard={id:feed.id, frame:iframe}; }
+  else PP.heard=null;
+  ppWsSave();
   var frame=box.querySelector('.pp-mp-frame'), sx=null;
   frame.addEventListener('touchstart', function(e){ sx=e.touches[0].clientX; }, {passive:true});
   frame.addEventListener('touchend', function(e){ if(sx===null) return; var dx=e.changedTouches[0].clientX-sx; sx=null; if(Math.abs(dx)>45){ if(dx<0) mobileNext(); else mobilePrev(); } }, {passive:true});
@@ -1528,9 +1644,10 @@ function renderActiveView(rebuild){
     stopMobileAuto(); stopMobileFrame();
     var g0=document.getElementById('pp-video-grid'); if(g0){ g0.querySelectorAll('iframe').forEach(function(f){ f.src='about:blank'; }); g0.innerHTML=''; }
     var b0=document.getElementById('pp-mplayer'); if(b0) b0.innerHTML='';
-    PP.heard=null; PP.hold=null; PP.viewNarrow=IS_NARROW(); return;
+    PP.heard=null; PP.viewNarrow=IS_NARROW(); return;   /* 3.4 (F5): the kept four (and the heard one) wait */
   }
-  var narrow=IS_NARROW(), pool=getActivePool();
+  /* rebuild: true = a fresh deal (Shuffle, a station, a search, ▸ Watch, a new link); 'held' = the kept four */
+  var narrow=IS_NARROW(), pool=getActivePool(), held=(rebuild==='held'), fromPhone=(PP.viewNarrow===true && !narrow);
   var hint=document.getElementById('pp-feeds-hint');
   if(hint){
     var cats={}; pool.forEach(function(f){ cats[f.cat]=1; });
@@ -1541,51 +1658,53 @@ function renderActiveView(rebuild){
   PP.viewNarrow=narrow;
   if(narrow){
     var grid=document.getElementById('pp-video-grid'); if(grid){ grid.querySelectorAll('iframe').forEach(function(f){ f.src='about:blank'; }); grid.innerHTML=''; }
-    if(rebuild || !PP.mQueue.length) buildMobileQueue();
+    if(!(held && ppWsFits(PP_WS))) ppWsDeal();
+    if(PP_WS.heard>=0 && PP_WS.tiles[PP_WS.heard]) PP_WS.mslot=PP_WS.heard;   /* the heard tile carries on */
+    else PP_WS.mslot=Math.min(PP_WS.mslot||0, Math.max(0, PP_WS.tiles.length-1));
+    buildMobileQueue();
     renderMobilePlayer();
   } else {
     stopMobileAuto(); stopMobileFrame();
     var box=document.getElementById('pp-mplayer'); if(box) box.innerHTML='';
-    buildMainGrid();
+    buildMainGrid(held?'held':null, held && fromPhone);
   }
 }
-/* ── ORDER-700 (Q21-Q23): a video whose sound is on is HELD when the side tab is made wider
-      or narrower: it becomes the first wall tile, or the phone player, at the same spot,
-      still heard. A video full screen is never pulled out by a resize: the switch waits. ── */
-function ppHoldHeard(){
-  var h=PP.heard; PP.hold=null;
-  if(!h || !h.frame || !document.body.contains(h.frame)){ PP.heard=null; return; }
-  var f=h.frame, feed=feedById(h.id); if(!feed){ PP.heard=null; return; }
-  var t=null;
-  if(!ppIsLiveFeed(feed) && typeof f.__ppT==='number'){ t=f.__ppT + (f.__ppPlaying ? (Date.now()-(f.__ppAt||Date.now()))/1000 : 0); }
-  var holder=f.closest('.pp-inset');
-  PP.feature=feed.id; PP.featureV=f.__ppV || f.getAttribute('data-v') || (holder && holder.getAttribute('data-v')) || null;
-  PP.hold={id:feed.id, t:t};
-}
+/* ── ORDER-700 (Q21-Q23), 3.4 (F5): a resize never deals afresh: the phone carries on the heard tile (else
+      the one it showed), wide again brings back the same four with the heard one first, each at its place.
+      A video full screen is never pulled out by a resize: the switch waits. ── */
 function ppHeldSrc(src, hold){
   src=src.replace(/([?&])mute=1/, '$1mute=0').replace(/&start=\d+/, '');
   if(hold && typeof hold.t==='number' && hold.t>1) src += '&start='+Math.floor(hold.t);
   return src;
 }
 function ppSoundOnLoad(iframe){
-  iframe.addEventListener('load', function(){ setTimeout(function(){ ppHandshake(iframe); ytCommand(iframe,'unMute'); ytCommand(iframe,'setVolume',[100]); }, 700); });
+  /* 3.4 (F6): the sound is turned on for the NEXT load only, and only if this tile still has the sound then.
+     3.3 added a listener that stayed for good: a tile that had been heard got its sound back on every later
+     video ("next", "new channel", a video ending) even after the sound had moved to another tile. */
+  iframe.__ppSoundNext=true;
+  if(iframe.__ppSoundL) return; iframe.__ppSoundL=1;
+  iframe.addEventListener('load', function(){
+    if(!iframe.__ppSoundNext) return; iframe.__ppSoundNext=false;
+    setTimeout(function(){ if(!ppTileHeard(iframe)) return; ppHandshake(iframe); ytCommand(iframe,'unMute'); ytCommand(iframe,'setVolume',[100]); }, 700);
+  });
 }
 function ppFullScreenNow(){ return !!(document.fullscreenElement || document.webkitFullscreenElement); }
 (function(){
   var mq=window.matchMedia('(max-width:600px)');
   var handler=function(){
     if(ppFullScreenNow()){ PP.switchWaiting=true; return; }
-    ppHoldHeard(); renderActiveView(true);
+    ppWsCapture(); renderActiveView('held');   /* 3.4 (F5) */
   };
   if(mq.addEventListener) mq.addEventListener('change', handler); else if(mq.addListener) mq.addListener(handler);
   var out=function(){
     if(ppFullScreenNow() || !PP.switchWaiting) return;
     PP.switchWaiting=false;
-    if(IS_NARROW()!==PP.viewNarrow){ ppHoldHeard(); renderActiveView(true); }
+    if(IS_NARROW()!==PP.viewNarrow){ ppWsCapture(); renderActiveView('held'); }
   };
   document.addEventListener('fullscreenchange', out); document.addEventListener('webkitfullscreenchange', out);
 })();
-function shuffleCurrent(){ if(IS_NARROW()){ buildMobileQueue(); renderMobilePlayer(); } else { buildMainGrid(); } }
+/* Shuffle (the button, S): a fresh set of four - on the phone too */
+function shuffleCurrent(){ if(IS_NARROW()){ ppWsDeal(); buildMobileQueue(); renderMobilePlayer(); } else { buildMainGrid(); } }
 
 /* ════════ PARTY MODE (desktop only) ════════ */
 (function(){
@@ -1594,8 +1713,8 @@ function shuffleCurrent(){ if(IS_NARROW()){ buildMobileQueue(); renderMobilePlay
       grid=document.getElementById('pp-wrgrid');
   if(!openBtn||!overlay||!closeBtn||!grid) return;
   var _wrOpen=false,_wrFs=false,VIDEO_AR=16/9,WR_COUNT=12;
-  function _suspendMain(){ document.querySelectorAll('#pp-video-grid iframe').forEach(function(f){ f.src='about:blank'; }); }
-  function _restoreMain(){ if(!IS_NARROW()) buildMainGrid(); }
+  function _suspendMain(){ ppWsCapture(); document.querySelectorAll('#pp-video-grid iframe').forEach(function(f){ f.src='about:blank'; }); }
+  function _restoreMain(){ if(!IS_NARROW()) buildMainGrid('held'); }   /* 3.4 (F5): the same four come back */
   function _overscan(cell){
     var iframe=cell.querySelector('iframe'); if(!iframe) return;
     var cw=cell.clientWidth, ch=cell.clientHeight; if(cw<1||ch<1) return;
@@ -1934,31 +2053,115 @@ function renderCountdowns(){
    newest announcements first; NEW for 48 hours. */
 var PP_ONSALE=[];
 function ppOsWhen(day, t){ return ppDayLabel(day)+(t?' · '+t+' PT':' · time not announced'); }
-function ppRenderOnsale(list){
-  var grid=document.getElementById('pp-os-grid'), sub=document.getElementById('pp-os-sub'); if(!grid) return;
-  var now=Date.now();
-  PP_ONSALE=(list||[]).filter(function(a){ return a && a.onsale_ts && a.onsale_ts*1000 > now-7*86400000; });
-  if(sub) sub.textContent=PP_ONSALE.length ? PP_ONSALE.filter(function(a){ return a.onsale_ts*1000>now; }).length+' coming up · '+PP_ONSALE.filter(function(a){ return a.onsale_ts*1000<=now; }).length+' just went on sale' : '';
-  if(!PP_ONSALE.length){ grid.innerHTML='<div class="pp-os-empty">No major Las Vegas on-sale has been announced in the last few days. New announcements appear here at the next update.</div>'; return; }
-  var cards=PP_ONSALE.map(function(a){
-    var isNew=a.announced && (now-a.announced*1000) < 48*3600000, future=a.onsale_ts*1000>now;
-    var links=(a.ticket_url?'<a href="'+escHtml(a.ticket_url)+'" target="_blank" rel="noopener">'+(a.src==='Ticketmaster'?'Official tickets ↗':'Official venue page ↗')+'</a>':'')
-      +(a.src_url && a.src_url!==a.ticket_url?'<a href="'+escHtml(a.src_url)+'" target="_blank" rel="noopener">The announcement ↗</a>':'');
-    return '<div class="pp-top-card" data-os="'+escHtml(a.id||'')+'"><div class="pp-top-body">'
-      +'<div class="pp-top-tags">'+(isNew?'<span class="pp-top-n">NEW</span>':'')+'<span class="pp-top-tab">'+escHtml(a.venue||'Las Vegas')+'</span>'
-      +'<span class="pp-os-cd" data-os-ts="'+(a.onsale_ts*1000)+'" data-os-t="'+(a.onsale_time?1:0)+'"></span></div>'
-      +'<span class="pp-top-title">'+escHtml(a.event||'')+'</span>'
-      +'<div class="pp-top-meta"><span class="pp-os-when">'+(a.kind==='presale'?'Presale: ':'On sale: ')+escHtml(ppOsWhen(a.onsale_date, a.onsale_time))+'</span>'
-      +(a.presale_date?'<span>Presale: '+escHtml(ppOsWhen(a.presale_date, a.presale_time))+(a.presale_name?' ('+escHtml(a.presale_name)+')':'')+'</span>':'')
-      +(a.event_date?'<span>Show: '+escHtml(ppDayLabel(a.event_date,{month:'short',day:'numeric',year:'numeric'}))+'</span>':'')
-      +'<span class="pp-top-src">via '+escHtml(a.src||'')+'</span></div>'
-      +(links?'<div class="pp-os-links">'+links+'</div>':'')
-      +'</div></div>';
-  });
-  var half=Math.ceil(cards.length/2);
-  grid.innerHTML='<div class="pp-top-col">'+cards.slice(0,half).join('')+'</div><div class="pp-top-col">'+cards.slice(half).join('')+'</div>';
+/* 3.4 (F1): THE VEGAS TICKET SECTION, full width and never empty, Las Vegas only, in three parts:
+   JUST ANNOUNCED - first on the calendar in the last 7 days (the bot keeps each event's first-seen time, "seen";
+     0 = it was already there when tracking started, so nothing is called new that is not);
+   GOING ON SALE SOON - the announced on-sale / presale dates (events.json "onsale"), and the ones just gone on sale;
+   COMING UP IN LAS VEGAS - the major ticketed events of the next 90 days (the bot marks them "major" and tags NFR,
+     holiday and New Year's Eve: "tk"), soonest first, with simple filters. */
+var PP_TK={cat:'all', days:90, limit:24, since:0, marks:false, loaded:false, failed:false};
+var PP_TK_CATS=[['all','All'],['concert','Concerts & arenas'],['theater','Residencies & shows'],['nfr','NFR & rodeo'],['holiday','Christmas & holiday'],['nye','New Year’s Eve'],['special','Festivals & special events'],['sports','Sports']];
+var PP_TK_DAYS=[[7,'Next 7 days'],[30,'Next 30 days'],[90,'Next 90 days']];
+var PP_TK_RX={nfr:/\bnfr\b|national finals rodeo|wrangler|cowboy christmas|rodeo|bull ?riding|\bpbr\b/i,
+  holiday:/christmas|x-?mas|holiday|nutcracker|jingle|santa claus|winter wonderland|\bcarols?\b|hanukkah|\bnoel\b|grinch|\belf\b/i,
+  nye:/new year|\bnye\b/i};
+function ppTkTags(ev){ if(Array.isArray(ev.tk)) return ev.tk; if(PP_TK.marks) return [];   /* the bot's marks are the truth when the file has them */
+  var t=[], s=(ev.artist||'')+' '+(ev.venue||'');
+  ['nfr','holiday','nye'].forEach(function(k){ if(PP_TK_RX[k].test(s)) t.push(k); });
+  if(t.indexOf('nye')<0 && /-12-31$/.test(ev.date||'')) t.push('nye'); return t; }
+function ppTkMajor(ev){ if(typeof ev.major==='boolean') return ev.major; if(PP_TK.marks) return false; var g=ppLvGroup(ev); return !ev.nightly && (g==='concert'||g==='theater'||g==='festival'||g==='sports'); }
+function ppTkEnd(ev){ return ev.end_ts ? ev.end_ts*1000 : ppEvStart(ev)+4*3600000; }
+function ppTkIn(ev, now, days){ return ev && ev.region==='vegas' && ev.ts && ppTkEnd(ev)>=now && ppEvStart(ev)<=now+days*86400000 && (ppTkMajor(ev) || ppTkTags(ev).length>0); }
+function ppTkCatOf(ev, c){ if(c==='all') return true; var tg=ppTkTags(ev), g=ppLvGroup(ev);
+  if(c==='nfr'||c==='holiday'||c==='nye') return tg.indexOf(c)>=0;
+  if(c==='special') return g==='festival' || tg.indexOf('special')>=0;
+  if(c==='sports') return g==='sports';
+  return g===c && (ppTkMajor(ev) || tg.length>0); }
+function ppTkWhen(ev){
+  var day=ppDayLabel(ev.date||ppLvDay(ppEvStart(ev)));
+  if(ev.end_ts && ev.end_ts-ev.ts>30*3600){ var e2=ppLvDay(ev.end_ts*1000); day=ppDayLabel(ev.date,{month:'short',day:'numeric'})+' – '+ppDayLabel(e2,{month:'short',day:'numeric'}); }
+  return '<span class="pp-tk-day">'+escHtml(day)+'</span><span class="pp-tk-time">'+escHtml(ev.time?ev.time+' PT':(ev.dateLabel||'time to be announced'))+'</span>'; }
+function ppTkCard(ev, now){
+  var tg=ppTkTags(ev), g=ppLvGroup(ev), lab={nfr:'NFR',holiday:'Holiday',nye:'New Year’s Eve',special:'Special event'};
+  var tags=tg.map(function(k){ return '<span class="pp-tk-tag pp-tk-gold">'+escHtml(lab[k]||k)+'</span>'; }).join('')
+    +'<span class="pp-tk-tag">'+escHtml({concert:'Concert',theater:ev.type==='residency'?'Residency':'Show',festival:'Festival',sports:'Sports',nightclub:'Nightclub',dayclub:'Dayclub'}[g]||'Event')+'</span>'
+    +(ev.seen && now-ev.seen*1000<7*86400000?'<span class="pp-tk-tag pp-tk-new">New</span>':'')
+    +(ev.more?'<span class="pp-tk-tag">+'+ev.more+' more dates</span>':'');
+  var official=/official/i.test(ev.src||'');
+  var links=(ev.url?'<a href="'+escHtml(ev.url)+'" target="_blank" rel="noopener">'+(official?'Official page ↗':'Tickets &amp; info ↗')+'</a>':'')
+    +(ev.venue_url && ev.venue_url!==ev.url?'<a href="'+escHtml(ev.venue_url)+'" target="_blank" rel="noopener">Venue ↗</a>':'');
+  return '<div class="pp-tk-card'+(tg.length?' pp-tk-special':'')+'" data-tk-cat="'+escHtml(g)+'" data-tk-tags="'+escHtml(tg.join(' '))+'" data-ts="'+ev.ts+'">'
+    +'<div class="pp-tk-when">'+ppTkWhen(ev)+'</div><div class="pp-tk-title">'+escHtml(ev.artist||'')+'</div>'
+    +'<div class="pp-tk-venue">'+escHtml(ev.venue||'Las Vegas')+'</div><div class="pp-tk-tags">'+tags+'</div>'
+    +(links?'<div class="pp-tk-links">'+links+'</div>':'')+'<div class="pp-tk-src pp-tk-note" style="padding:0;font-size:.8em">via '+escHtml(ev.src||'')+'</div></div>'; }
+function ppOsMatch(a, c){ if(c==='all') return true; var s=(a.event||'')+' '+(a.venue||'');
+  if(PP_TK_RX[c]) return PP_TK_RX[c].test(s);
+  var g=null; for(var i=0;i<PP_EVENTS.length && !g;i++){ if(PP_EVENTS[i].region==='vegas' && PP_EVENTS[i].venue===a.venue) g=ppLvGroup(PP_EVENTS[i]); }
+  return (g||'concert')===c || (c==='special' && /festival/i.test(s)); }
+function ppOsCard(a, now){
+  var isNew=a.announced && (now-a.announced*1000) < 48*3600000;
+  var links=(a.ticket_url?'<a href="'+escHtml(a.ticket_url)+'" target="_blank" rel="noopener">'+(a.src==='Ticketmaster'?'Official tickets ↗':'Official venue page ↗')+'</a>':'')
+    +(a.src_url && a.src_url!==a.ticket_url?'<a href="'+escHtml(a.src_url)+'" target="_blank" rel="noopener">The announcement ↗</a>':'');
+  return '<div class="pp-tk-card pp-tk-special" data-os="'+escHtml(a.id||'')+'">'
+    +'<div class="pp-tk-when"><span class="pp-os-when">'+(a.kind==='presale'?'Presale ':'On sale ')+escHtml(ppOsWhen(a.onsale_date, a.onsale_time))+'</span></div>'
+    +'<div class="pp-tk-tags">'+(isNew?'<span class="pp-tk-tag pp-tk-new">New</span>':'')+'<span class="pp-os-cd" data-os-ts="'+(a.onsale_ts*1000)+'" data-os-t="'+(a.onsale_time?1:0)+'"></span></div>'
+    +'<div class="pp-tk-title">'+escHtml(a.event||'')+'</div><div class="pp-tk-venue">'+escHtml(a.venue||'Las Vegas')+'</div>'
+    +(a.presale_date?'<div class="pp-tk-venue">Presale: '+escHtml(ppOsWhen(a.presale_date, a.presale_time))+(a.presale_name?' ('+escHtml(a.presale_name)+')':'')+'</div>':'')
+    +(a.event_date?'<div class="pp-tk-venue">Show: '+escHtml(ppDayLabel(a.event_date,{month:'short',day:'numeric',year:'numeric'}))+'</div>':'')
+    +(links?'<div class="pp-tk-links">'+links+'</div>':'')+'<div class="pp-tk-note" style="padding:0;font-size:.8em">via '+escHtml(a.src||'')+'</div></div>'; }
+function ppRenderOnsale(list){ PP_ONSALE=(list||[]).filter(function(a){ return a && a.onsale_ts; }); ppRenderTickets(); }
+function ppRenderTickets(){
+  var gNew=document.getElementById('pp-tk-new-grid'), gSale=document.getElementById('pp-os-grid'), gCome=document.getElementById('pp-tk-coming-grid');
+  if(!gNew||!gSale||!gCome) return;
+  var now=Date.now(), c=PP_TK.cat, days=PP_TK.days;
+  var pool=PP_EVENTS.filter(function(ev){ return ppTkIn(ev, now, 90); });
+  var coming=pool.filter(function(ev){ return ppEvStart(ev)<=now+days*86400000 && ppTkCatOf(ev, c); }).sort(function(a,b){ return a.ts-b.ts; });
+  var fresh=pool.filter(function(ev){ return ev.seen && now-ev.seen*1000<7*86400000 && ppTkCatOf(ev, c); }).sort(function(a,b){ return (b.seen-a.seen)||(a.ts-b.ts); });
+  var sale=PP_ONSALE.filter(function(a){ return a.onsale_ts*1000>now-7*86400000 && a.onsale_ts*1000<now+120*86400000 && ppOsMatch(a, c); });
+  var soon=sale.filter(function(a){ return a.onsale_ts*1000>now; }).sort(function(a,b){ return a.onsale_ts-b.onsale_ts; }),
+      gone=sale.filter(function(a){ return a.onsale_ts*1000<=now; }).sort(function(a,b){ return b.onsale_ts-a.onsale_ts; });
+  /* the filters, with how many coming up in each */
+  var fb=document.getElementById('pp-tk-filters');
+  if(fb){
+    var h=PP_TK_CATS.map(function(x){ var n=pool.filter(function(ev){ return ppEvStart(ev)<=now+days*86400000 && ppTkCatOf(ev, x[0]); }).length;
+      return '<button class="pp-fbtn'+(c===x[0]?' pp-active':'')+'" data-tkc="'+x[0]+'" aria-pressed="'+(c===x[0])+'"'+(n||x[0]==='all'||c===x[0]?'':' disabled')+'>'+escHtml(x[1])+'<span class="pp-n">'+n+'</span></button>'; }).join('')
+      +'<span class="pp-tk-sep" aria-hidden="true"></span>'
+      +PP_TK_DAYS.map(function(x){ return '<button class="pp-fbtn'+(days===x[0]?' pp-active':'')+'" data-tkd="'+x[0]+'" aria-pressed="'+(days===x[0])+'">'+escHtml(x[1])+'</button>'; }).join('');
+    fb.innerHTML=h;
+  }
+  var label=c==='all'?'':' in '+((PP_TK_CATS.filter(function(x){ return x[0]===c; })[0]||[,''])[1]);
+  /* JUST ANNOUNCED */
+  document.getElementById('pp-tk-new-n').textContent=fresh.length?'('+fresh.length+')':'';
+  if(fresh.length) gNew.innerHTML=fresh.slice(0,12).map(function(ev){ return ppTkCard(ev, now); }).join('');
+  else {
+    var since=PP_TK.since*1000, msg;
+    if(!PP_TK.loaded) msg=PP_TK.failed?'The Las Vegas calendar could not be loaded just now. It comes back at the next visit.':'Loading the Las Vegas calendar…';
+    else if(!since) msg='New Las Vegas listings appear here once the calendar has been updated again.';
+    else if(now-since<7*86400000) msg='We started watching the Las Vegas calendar for new listings on '+ppDayLabel(ppLvDay(since),{weekday:'long',month:'long',day:'numeric'})+'. Nothing is new yet'+label+': everything already on the calendar then counts as known. Shows added after that appear here at the next updates.';
+    else msg='Nothing new'+label+' has been added to the Las Vegas calendar in the last 7 days.';
+    gNew.innerHTML='<div class="pp-tk-note">'+escHtml(msg)+'</div>';
+  }
+  /* GOING ON SALE SOON */
+  document.getElementById('pp-tk-sale-n').textContent=sale.length?'('+soon.length+' coming · '+gone.length+' just went on sale)':'';
+  gSale.innerHTML=sale.length ? soon.concat(gone).slice(0,24).map(function(a){ return ppOsCard(a, now); }).join('')
+    : '<div class="pp-tk-note">'+escHtml(PP_TK.loaded?'No Las Vegas on-sale date'+label+' has been announced in the last few days. New on-sales appear here as soon as they are announced.':'Loading the latest Las Vegas on-sales…')+'</div>';
+  /* COMING UP */
+  document.getElementById('pp-tk-coming-n').textContent=coming.length?'('+coming.length+')':'';
+  var more=document.getElementById('pp-tk-more');
+  if(coming.length){ gCome.innerHTML=coming.slice(0,PP_TK.limit).map(function(ev){ return ppTkCard(ev, now); }).join('');
+    if(more){ more.hidden=coming.length<=PP_TK.limit; more.textContent='Show more ('+(coming.length-Math.min(PP_TK.limit,coming.length))+' more)'; } }
+  else { gCome.innerHTML='<div class="pp-tk-note">'+escHtml(!PP_TK.loaded?(PP_TK.failed?'The Las Vegas calendar could not be loaded just now. It comes back at the next visit.':'Loading the Las Vegas calendar…'):'Nothing'+label+' in the next '+days+' days. Try All, or a longer time.')+'</div>'; if(more) more.hidden=true; }
+  var sub=document.getElementById('pp-os-sub');
+  if(sub) sub.textContent=PP_TK.loaded?(fresh.length+' just announced · '+soon.length+' going on sale · '+coming.length+' coming up'):'';
   ppTickOnsale();
 }
+(function(){
+  var fb=document.getElementById('pp-tk-filters'), more=document.getElementById('pp-tk-more');
+  if(fb) fb.addEventListener('click', function(e){ var b=e.target.closest('button'); if(!b||b.disabled) return;
+    if(b.hasAttribute('data-tkc')) PP_TK.cat=b.getAttribute('data-tkc'); else if(b.hasAttribute('data-tkd')) PP_TK.days=+b.getAttribute('data-tkd');
+    PP_TK.limit=24; ppRenderTickets(); });
+  if(more) more.addEventListener('click', function(){ PP_TK.limit+=24; ppRenderTickets(); });
+})();
 function ppTickOnsale(){
   var now=Date.now();
   document.querySelectorAll('#pp-os-grid .pp-os-cd[data-os-ts]').forEach(function(el){
@@ -2105,12 +2308,22 @@ document.addEventListener('keydown', function(e){
 });
 document.getElementById('pp-shuffle-btn').addEventListener('click', shuffleCurrent);
 /* ── 3.2: the LIVE VIDEO switch (remembered as pp:video) and the Saved button ── */
+/* 3.4 (F4): videos, On The Horizon, the Vegas tickets, the Top 10, the news. With LIVE VIDEO off the
+   Top 10 leads, as it has since 3.2 ("the headlines lead"). */
+function ppOrderSections(){
+  var top=document.getElementById('pp-top'), feeds=document.querySelector('.pp-feeds-wrap'), os=document.getElementById('pp-onsale');
+  if(!top || !feeds || !os) return;
+  if(ppVideoOn()){ if(os.nextElementSibling!==top) os.parentNode.insertBefore(top, os.nextElementSibling); }
+  else if(feeds.nextElementSibling!==top) feeds.parentNode.insertBefore(top, feeds.nextElementSibling);
+}
+ppOrderSections();
 function ppSetVideo(on, save){
   if(save){ PP_VIDEO_Q=null; try{ localStorage.setItem('pp:video', on?'1':'0'); }catch(e){} }
   else { PP_VIDEO_Q=on?'1':'0'; }
   document.documentElement.classList.toggle('pp-novideo', !on);
   var vt=document.getElementById('pp-video-toggle'); if(vt) vt.checked=on;
-  if(on){ renderActiveView(true); } else { renderActiveView(false); }
+  ppOrderSections();
+  if(on){ renderActiveView('held'); } else { ppWsCapture(); renderActiveView(false); }   /* 3.4 (F5): back on, the same four */
 }
 (function(){
   var vt=document.getElementById('pp-video-toggle'); if(!vt) return;
@@ -2385,9 +2598,17 @@ var PP_NEWS_TABS = ['EDM & Dance','Techno & House','Festivals','Nightlife & Club
     }catch(e){}
     try{ var st=localStorage.getItem('pp:station'); if(st){ var sf=getFilterById(st); if(sf && sf.id===st && (sf.kind!=='fav' || PP.favs.size>0)) PP.filterId=st; } }catch(e){}
     var featLabel=null, chId=params&&params.get('ch');
-    if(chId){ var fd=ppFind(chId), cf=fd&&fd.feed; if(cf){ PP.filterId='all'; PP.feature=cf.id; PP.featureV=fd.v; var fit=fd.v&&ppItemByV(cf,fd.v); featLabel=fit&&fit.t?fit.t:cf.label; } else { setTimeout(function(){ toast('That channel has retired — here’s a fresh mix'); }, 600); } }
+    PP_CH=chId||null;
+    /* 3.4 (F5): a reload (Argus's F11 reload too) brings back the kept four, their places and the heard
+       tile; a new tab is a new visit (sessionStorage is per tab) and a new ?ch= link deals afresh around it */
+    var boot=ppWsLoad();
+    if(boot && (boot.ch||'')!==(chId||'')) boot=null;
+    if(boot){ var bf=getFilterById(boot.filter); if(bf && bf.id===boot.filter && (bf.kind!=='fav' || PP.favs.size>0)) PP.filterId=boot.filter; else boot=null; }
+    if(boot && boot.search){ PP.search=boot.search; var bsi=document.getElementById('pp-search'), bsc=document.getElementById('pp-search-clear'); if(bsi) bsi.value=boot.search; if(bsc) bsc.classList.add('pp-show'); }
+    if(boot){ PP_WS=boot; }
+    else if(chId){ var fd=ppFind(chId), cf=fd&&fd.feed; if(cf){ PP.filterId='all'; PP.feature=cf.id; PP.featureV=fd.v; var fit=fd.v&&ppItemByV(cf,fd.v); featLabel=fit&&fit.t?fit.t:cf.label; } else { setTimeout(function(){ toast('That channel has retired — here’s a fresh mix'); }, 600); } }
     renderChips();
-    renderActiveView(true);
+    renderActiveView(boot ? 'held' : true);
     if(featLabel) toast('Featuring — '+featLabel.replace(/^[^A-Za-z0-9]+/,''));
     if(params && params.get('mode')==='party' && !IS_NARROW() && window.__ppOpenParty){ setTimeout(window.__ppOpenParty, 400); }
     renderCountdowns();
@@ -2399,14 +2620,18 @@ var PP_NEWS_TABS = ['EDM & Dance','Techno & House','Festivals','Nightlife & Club
     .then(function(d){
       var list = d ? (Array.isArray(d) ? d : d.channels) : null;
       if(Array.isArray(list) && list.length >= 40 && list.every(function(c){ return c && c.id && c.cat && c.embed; })){
-        PP_ALL_FEEDS = list;
-        if(PP.ready){ counts(); renderChips(); renderActiveView(true); }
+        PP_ALL_FEEDS = list; PP_CAT_REAL = true;
+        /* late catalogue: a wall dealt from the built-in list is dealt again; a kept wall stays (3.4, F5) */
+        if(PP.ready){ counts(); renderChips(); renderActiveView(PP_WS && !PP_WS.fb ? 'held' : true); }
         if(window.__ppNewsRepaint) window.__ppNewsRepaint();   /* 3.2: ▸ Watch against the full catalogue */
       }
     }).catch(function(){}).then(function(){ clearTimeout(timer); start(); });
   fetch('./events.json?v='+Date.now()).then(function(r){ return r.ok?r.json():null; })
-    .then(function(d){ ppRenderOnsale(d && Array.isArray(d.onsale) ? d.onsale : []); if(d && Array.isArray(d.events)){ PP_EVENTS=d.events.concat(Array.isArray(d.festivals)?d.festivals:[]); renderCountdowns(); var ns=document.getElementById('pp-nye-sub'); if(ns) ns.__set=false; ppNyeTick(); } })
-    .catch(function(){});
+    .then(function(d){ if(d && Array.isArray(d.events)){ PP_EVENTS=d.events.concat(Array.isArray(d.festivals)?d.festivals:[]); PP_TK.since=+d.seen_since||0; PP_TK.marks=!!d.marks; renderCountdowns(); var ns=document.getElementById('pp-nye-sub'); if(ns) ns.__set=false; ppNyeTick(); }
+      PP_TK.loaded=!!(d && Array.isArray(d.events)); PP_TK.failed=!PP_TK.loaded;   /* 3.4 (F1) */
+      ppRenderOnsale(d && Array.isArray(d.onsale) ? d.onsale : []); })
+    .catch(function(){ PP_TK.failed=true; ppRenderTickets(); });
+  setInterval(function(){ if(PP_TK.loaded && !document.hidden) ppRenderTickets(); }, 15*60000);   /* windows move on while the page stays open */
   renderCountdowns();
 })();
 </script>

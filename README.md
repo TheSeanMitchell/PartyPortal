@@ -7,7 +7,7 @@ nightlife news.
 > Live at: `https://theseanmitchell.github.io/PartyPortal/`
 
 A fast, single-page, static site (no framework, no server). See **[CHANGELOG.md](CHANGELOG.md)** for what
-each version changed (now 3.3).
+each version changed (now 3.4).
 
 ---
 
@@ -36,8 +36,10 @@ each version changed (now 3.3).
   **When / Where / Type**, scroll with the ‹ › buttons, arrow keys, drag or wheel, or open **View all**.
   The **🎰 Las Vegas** view lists every Las Vegas venue's dates in Las Vegas time, by Tonight / This
   weekend / Next 30 days, venue type and venue.
-- **Vegas On-Sale Radar** — near the bottom: major Las Vegas shows about to go on sale or just on sale,
-  with the on-sale and presale dates (Las Vegas time), a countdown and the ticket link.
+- **The Vegas ticket section** — after On The Horizon, full width, Las Vegas only: Just announced (new in
+  the calendar in the last 7 days), Going on sale soon (on-sale and presale dates, Las Vegas time) and
+  Coming up in Las Vegas (the major ticketed shows of the next 90 days - the NFR, Christmas shows, New
+  Year's Eve, special events - each with its date, time, venue and ticket link), with filters.
 - **Party & Culture News** — real headlines from ~110 music, nightlife, fashion and culture outlets in 12
   tabs with counts, refreshed 3×/day.
 - **Installable PWA** + offline support, keyboard shortcuts (`?` for the list), social share card.
@@ -59,7 +61,7 @@ each version changed (now 3.3).
    A sanity gate refuses to write if a run would drop more than 15% at once.
 
 Optional secrets: `YOUTUBE_API_KEY` (extra growth from official channels) and `TICKETMASTER_API_KEY`
-(more concert dates, and Ticketmaster's official on-sale and presale times for the Vegas On-Sale Radar). Both are optional; without them everything above still runs.
+(more concert dates, and Ticketmaster's official on-sale and presale times for the Vegas ticket section). Both are optional; without them everything above still runs.
 
 Run locally: `python bot.py` and `python curate.py` (Python 3.8+, standard library only).
 
@@ -130,6 +132,15 @@ and run the Argus tests below after changing `index.html`.
 **The video being heard** has the class `audio-active`. It is held when the window or Argus's side tab
 is resized (wide: the first tile; narrow: the phone player, the same video), and it always plays.
 
+**The wall is held** (3.4): the four tiles - each video, its place in the video and which tile has the
+sound - are kept for the visit in sessionStorage (`pp:wall`) through every layout change and reload.
+Shrunk to phone size, the phone player carries on with the heard video; widened again, the same four come
+back with the heard one first, each near its place; a reload (Argus's F11) brings back the same four with
+the same tile heard. Only Shuffle, new channel and next video change a video; a new visit deals a fresh four.
+
+**Skip keeps mute** (3.4): next video or new channel on a silent tile brings the new video in silent - the
+sound stays with the tile that had it.
+
 **The silent videos play only while they can be seen** (3.3). They pause:
 - while another video is full screen - TAB, ARGUS, the ⛶ button or the player's own full screen - and
   the ones that were playing carry on when it ends (a full screen that is refused leaves nothing paused);
@@ -149,7 +160,8 @@ keep the mix.
 - `tests/nuzu_and_party_portal_first_visit.py`
 
 `health.json` (written each build) says how the last build went: feeds, news, calendar (with the Las
-Vegas counts and each source's count), the on-sale radar, channels.
+Vegas counts and each source's count), the Vegas ticket section (`tickets`: coming up in 7 / 30 / 90
+days, the NFR / holiday / New Year's Eve / special counts, just announced, going on sale), channels.
 
 ---
 

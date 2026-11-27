@@ -1,5 +1,64 @@
 # Changelog
 
+## v3.4 — The Vegas ticket section, female-only swim and fashion, the wall held (Argus 1.0.3, 27 Nov 2026)
+
+Asked for on 26 November: an "expansive upcoming ticket section" for Las Vegas, filled across the screen
+(the NFR, Christmas concerts, special events, what is about to go on sale); female models only in the bikini
+and fashion lanes; a new page order; and in Argus's side tab a wall that holds its videos and their places,
+with skip keeping the sound where it was.
+
+### The Vegas ticket section (was the Vegas On-Sale Radar)
+- A full-width grid, Las Vegas only, never empty, in three parts:
+  - **Just announced** - shows that first appeared in the calendar in the last 7 days. The bot now keeps a
+    first-seen time for each show, carried over from the events.json the workflow committed before. The
+    first build after this upload has nothing to compare with, so nothing is "new" yet - and the page says
+    so in plain words.
+  - **Going on sale soon** - real on-sale and presale dates from dated announcements, and from Ticketmaster
+    when the optional `TICKETMASTER_API_KEY` is set (the best source; see HOW TO INSTALL).
+  - **Coming up in Las Vegas** - the major ticketed shows of the next 90 days (arenas, stadiums, Sphere, the
+    big theaters and residencies, festivals), each with its date and time (Las Vegas time), venue and
+    ticket link, sorted by date: **54 / 170 / 304 in the next 7 / 30 / 90 days** at the build of 27 Nov.
+- Filters: NFR, holiday, New Year's Eve, special, sports, concert, theater; 7 / 30 / 90 days; Show more.
+  On 27 Nov: NFR 33, holiday 24, New Year's Eve 11, special 4.
+- The Wrangler National Finals Rodeo (3-12 Dec, Thomas & Mack Center) and its events: Cowboy Christmas,
+  the Downtown Hoedown, the NFR nightly parties and the NFR-week country concerts. Christmas shows such as
+  Trans-Siberian Orchestra, Debbie Gibson's Winterlicious, the Las Vegas Philharmonic's "A Very Vegas
+  Christmas" and Lindsey Stirling's Snow Waltz. Shows entered by hand from official pages drop themselves
+  once past, and give way when the calendar lists the same show that day.
+- The calendar also reads Concerts.Vegas's Thomas & Mack Center, sports and Sphere pages and Lee's Family
+  Forum; parking listings are skipped, and a multi-day pass listed beside its own nights is left out.
+- `health.json` (version 3.4.0) has a `tickets` block with these counts; events.json carries the
+  first-seen times.
+
+### Female models only (the bikini and fashion lanes)
+- Every SWIM and FASHION video was read (title, channel, full description); all 210 SWIM videos and the
+  58 FASHION videos in doubt were also looked at frame by frame. Only shows with female models stay.
+- **SWIM 210 → 150 videos**: shows where men walk, menswear and co-ed labels, multi-designer showcases not
+  known to be women only, and the shows where a child walks. **FASHION 148 → 102**: men's shows, and shows
+  where a man walks or the label is co-ed. Catalogue: 445 channels / 2,017 videos → 440 / 1,911.
+- **Coming in a follow-up (channels.json only):** the doubling of the LIVE ROCK and BIKINI lanes (ROCK
+  toward 332, SWIM toward 420, with new official, embeddable full shows at the same bar as before), and a
+  second look at the swim shows taken out only because they could not be confirmed women only - each one
+  comes back if it is.
+
+### The page order
+- Videos, then On The Horizon, then the Vegas ticket section, then the Top 10, then the news (with LIVE
+  VIDEO off the Top 10 leads, as before).
+
+### The wall is held (Argus's side tab)
+- The four tiles - each video, its place in the video and which tile has the sound - are kept for the visit
+  (sessionStorage `pp:wall`) through every layout change and reload: shrink the side tab to phone size and
+  the heard video carries on in the phone player; widen it again and the same four come back, the heard one
+  first, each near where it was; a reload (Argus's F11) brings back the same four with the same tile heard.
+- Only Shuffle, new channel and next video change a video. A new visit still deals a fresh four.
+
+### Skip keeps mute
+- Next video or new channel on a silent tile brings the new video in silent; the sound stays with the tile
+  that had it.
+
+### Also
+- `sw.js` cache `party-portal-v7`, so every installed copy picks up 3.4.
+
 ## v3.3 — Every Las Vegas venue, the Vegas On-Sale Radar, 210 swim runway videos (Argus 1.0.3, 26 Nov 2026)
 
 Asked for on 23 November: a calendar with "EVERY event" at the Fontainebleau and at every Las Vegas venue,
