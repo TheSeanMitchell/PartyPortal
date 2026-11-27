@@ -1,4 +1,4 @@
-{"updated":1795709578,"count":446,"checked":{"at":1795709578,"oembed":2001,"live_checked":95,"unknown":95,"dropped":0,"added":0,"http429":0,"secs":307},"channels":[
+{"updated":1795742832,"count":445,"checked":{"at":1795742832,"oembed":2001,"live_checked":95,"unknown":94,"dropped":1,"added":0,"http429":0,"secs":307},"channels":[
 {"id":"livecam-EO_1LWqsCNE","cat":"LIVE CAM","maxIdx":1,"label":"📡 Los Angeles · Venice Beach · Venice V Hotel · Stream","embed":"https://www.youtube.com/embed/EO_1LWqsCNE","src":"Teleport.camera","live":true,"origin":"verified-3.0"},
 {"id":"livecam-YWs0HMRVCBY","cat":"LIVE CAM","maxIdx":1,"label":"📡 BandCam Elbo Room Dance Floor & Bands","embed":"https://www.youtube.com/embed/YWs0HMRVCBY","src":"Elbo Room (Home of ElboTV)","live":true,"origin":"verified-3.0"},
 {"id":"livecam-dfVK7ld38Ys","cat":"LIVE CAM","maxIdx":1,"label":"📡 【ライブ】いまの渋谷・スクランブル交差点　ライブカメラ　Shibuya Scramble Crossing…","embed":"https://www.youtube.com/embed/dfVK7ld38Ys","src":"FNNプライムオンライン","live":true,"origin":"verified-3.0"},
@@ -13,7 +13,6 @@
 {"id":"livecam-_Zqi24i0fl4","cat":"LIVE CAM","maxIdx":1,"label":"📡 Destin, FL Beach — Ocean Reef Resorts","embed":"https://www.youtube.com/embed/_Zqi24i0fl4","src":"Ocean Reef Resorts","live":true,"origin":"verified-3.0"},
 {"id":"livecam-lcVm-Izrpa0","cat":"LIVE CAM","maxIdx":1,"label":"📡 Irish Kevin's Duval Street","embed":"https://www.youtube.com/embed/lcVm-Izrpa0","src":"Seek Florida Keys","live":true,"origin":"verified-3.0"},
 {"id":"livecam-KHy_n-EMWY8","cat":"LIVE CAM","maxIdx":1,"label":"📡 Times Square Crossroads (New York City, NY)","embed":"https://www.youtube.com/embed/KHy_n-EMWY8","src":"EarthCam","live":true,"origin":"verified-3.0"},
-{"id":"livecam-xwuuvc86-CI","cat":"LIVE CAM","maxIdx":1,"label":"📡 Los Muertos Beach — Pier — El Dorado Restaurant, Puerto…","embed":"https://www.youtube.com/embed/xwuuvc86-CI","src":"El Dorado Restaurant","live":true,"origin":"verified-3.0"},
 {"id":"livecam-MW3fisTCXRQ","cat":"LIVE CAM","maxIdx":1,"label":"📡 Beach · House of Sanskara · Koh Phangan, Thailand ( stereo…","embed":"https://www.youtube.com/embed/MW3fisTCXRQ","src":"Teleport.camera","live":true,"origin":"verified-3.0"},
 {"id":"livecam-wVNt3l657X0","cat":"LIVE CAM","maxIdx":1,"label":"📡 BAR — Elbo Room Beach Bar • Fort Lauderdale","embed":"https://www.youtube.com/embed/wVNt3l657X0","src":"Elbo Room (Home of ElboTV)","live":true,"origin":"verified-3.0"},
 {"id":"livecam-u7kCTaCX_J4","cat":"LIVE CAM","maxIdx":1,"label":"📡 【ライブ】新宿駅前のライブカメラ 現在の様子は？ Shinjuku, Tokyo JAPAN","embed":"https://www.youtube.com/embed/u7kCTaCX_J4","src":"TBS NEWS DIG Powered by JNN","live":true,"origin":"verified-3.0"},
