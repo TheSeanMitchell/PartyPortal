@@ -1,4 +1,4 @@
-{"updated": 1795789785,
+{"updated": 1795791117,
 "marks": 1,
 "seen_since": 1795788808,
 "seen_cover": {},
@@ -8,7 +8,6 @@
 
 ],
 "events": [
-{"artist": "The Trip Miami", "venue": "Nova Social Club", "type": "club", "city": "Miami", "date": "2026-11-27", "ts": 1795766400, "url": "https://app.discotech.me/events/38226254-the-trip-miami-at-nova-social-club", "src": "Discotech Miami", "end_ts": 1795788000, "region": "miami"},
 {"artist": "Cleve Island Pool Party", "venue": "The Clevelander", "type": "pool", "city": "Miami", "date": "2026-11-27", "ts": 1795798800, "url": "https://app.discotech.me/events/38220607-cleve-island-pool-party-at-the-clevelander", "src": "Discotech Miami", "end_ts": 1795824000, "region": "miami"},
 {"artist": "Iron Lyon", "venue": "Strawberry Moon", "type": "club", "city": "Miami", "date": "2026-11-27", "ts": 1795798800, "url": "https://app.discotech.me/events/38237603-iron-lyon-at-strawberry-moon", "src": "Discotech Miami", "end_ts": 1795820400, "region": "miami"},
 {"artist": "Players Era 16 Championship - Session 5", "venue": "T-Mobile Arena", "type": "sports", "group": "sports", "city": "Las Vegas", "region": "vegas", "date": "2026-11-27", "ts": 1795802400, "time": "10:00 AM", "url": "https://concerts.vegas/event/players-era-16-championship-session-5-las-vegas-t-mobile-arena-friday-november-27-2026-10-00-am/", "src": "Concerts.Vegas", "venue_url": "https://www.t-mobilearena.com/events", "major": true},
@@ -101,6 +100,7 @@
 {"artist": "Ambrosia", "venue": "The Showroom at the Golden Nugget", "type": "theater", "group": "theater", "city": "Las Vegas", "region": "vegas", "date": "2026-11-27", "ts": 1795838400, "time": "8:00 PM", "url": "https://concerts.vegas/event/ambrosia-las-vegas-friday-november-27-2026-800-pm/", "src": "Concerts.Vegas"},
 {"artist": "Penn & Teller", "venue": "Penn & Teller Theater at Rio", "type": "theater", "group": "theater", "city": "Las Vegas", "region": "vegas", "date": "2026-11-27", "ts": 1795838400, "time": "8:00 PM", "url": "https://concerts.vegas/event/penn-and-teller-las-vegas-penn-and-teller-theater-at-rio-las-vegas-friday-november-27-2026-8-00-pm/", "src": "Concerts.Vegas", "nightly": true},
 {"artist": "Trixx", "venue": "Brad Garrett's Comedy Club At The MGM Grand", "type": "concert", "group": "concert", "city": "Las Vegas", "region": "vegas", "date": "2026-11-27", "ts": 1795838400, "time": "8:00 PM", "url": "https://concerts.vegas/event/trixx-las-vegas-brad-garretts-comedy-club-at-the-mgm-grand-friday-november-27-2026-8-00-pm/", "src": "Concerts.Vegas"},
+{"artist": "Free Acid with VERBS & Gunk", "venue": "The Pickle", "type": "club", "city": "Miami", "date": "2026-11-27", "ts": 1795838400, "url": "https://app.discotech.me/events/38302284-free-acid-with-verbs-and-gunk-at-the-pickle", "src": "Discotech Miami", "end_ts": 1795874400, "region": "miami"},
 {"artist": "The Eagles", "venue": "Sphere", "type": "sphere", "group": "concert", "city": "Las Vegas", "region": "vegas", "date": "2026-11-27", "ts": 1795840200, "time": "8:30 PM", "url": "https://concerts.vegas/event/the-eagles-las-vegas-friday-november-27-2026-830-pm/", "src": "Concerts.Vegas", "venue_url": "https://www.thespherevegas.com/shows", "major": true},
 {"artist": "Rouge - The Sexiest Show In Vegas", "venue": "The Strat Theater", "type": "theater", "group": "theater", "city": "Las Vegas", "region": "vegas", "date": "2026-11-27", "ts": 1795840200, "time": "8:30 PM", "url": "https://concerts.vegas/event/rouge-the-sexiest-show-in-vegas-las-vegas-friday-november-27-2026-830-pm/", "src": "Concerts.Vegas", "nightly": true},
 {"artist": "Eres Emo", "venue": "House of Blues Las Vegas", "type": "concert", "group": "concert", "city": "Las Vegas", "region": "vegas", "date": "2026-11-27", "ts": 1795842000, "time": "9:00 PM", "url": "https://concerts.vegas/event/eres-emo-las-vegas-house-of-blues-las-vegas-friday-november-27-2026-9-00-pm/", "src": "Concerts.Vegas", "venue_url": "https://www.houseofblues.com/lasvegas", "major": true},
