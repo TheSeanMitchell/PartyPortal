@@ -1,49 +1,49 @@
 {
  "version": "3.4.0",
- "built_utc": "2026-11-27T14:13:31Z",
- "build_seconds": 30.6,
+ "built_utc": "2026-11-27T14:29:45Z",
+ "build_seconds": 18.9,
  "feeds": {
   "total": 253,
-  "returned_items": 246,
-  "empty": 7,
+  "returned_items": 245,
+  "empty": 8,
   "failed": 0,
   "failed_names": []
  },
  "news": {
   "items": 140,
-  "multi_outlet": 93,
-  "hot": 75,
+  "multi_outlet": 89,
+  "hot": 72,
   "tabs": {
-   "Las Vegas": 13,
-   "Tickets & Lineups": 13,
+   "Las Vegas": 11,
+   "Tickets & Lineups": 12,
    "Fashion & Swim": 6,
-   "Ibiza & Global": 16,
-   "Festivals": 9,
-   "Hip-Hop": 6,
-   "Rock": 15,
+   "Ibiza & Global": 14,
+   "Festivals": 10,
+   "Hip-Hop": 7,
+   "Rock": 13,
    "Retro & Culture": 8,
    "Techno & House": 7,
-   "EDM & Dance": 11,
+   "EDM & Dance": 15,
    "Nightlife & Clubs": 6,
-   "Pop & Tours": 30
+   "Pop & Tours": 31
   },
   "promo_filtered": {
+   "off-topic outlet": 66,
    "horoscope": 6,
-   "shopping": 43,
-   "off-topic outlet": 68,
+   "shopping": 42,
+   "how to watch": 27,
    "ticket how-to": 6,
-   "how to watch": 24,
    "promo code": 2,
    "betting": 1,
    "quiz / poll": 1,
-   "promo publisher": 4,
-   "ticket resale": 5
+   "ticket resale": 5,
+   "promo publisher": 3
   }
  },
  "calendar": {
-  "events": 881,
+  "events": 841,
   "festivals": 50,
-  "events_updated": 1795788811,
+  "events_updated": 1795789785,
   "las_vegas": {
    "next_30_days": 347,
    "next_60_days": 496,
@@ -142,11 +142,11 @@
    "19hz Bay Area": 15,
    "19hz Las Vegas": 5,
    "19hz Texas": 12,
-   "Eventbrite NYC": 8,
-   "Eventbrite NYC parties": 8,
-   "Eventbrite LA": 13,
-   "Eventbrite Miami": 9,
-   "Eventbrite London": 6,
+   "Eventbrite NYC": 0,
+   "Eventbrite NYC parties": 0,
+   "Eventbrite LA": 0,
+   "Eventbrite Miami": 0,
+   "Eventbrite London": 0,
    "Eventbrite Ibiza": 0,
    "Las Vegas first seen this build": 0
   }
