@@ -1,62 +1,61 @@
 {
  "version": "3.4.0",
- "built_utc": "2026-11-28T00:55:24Z",
- "build_seconds": 34.4,
+ "built_utc": "2026-11-28T03:04:22Z",
+ "build_seconds": 36.1,
  "feeds": {
   "total": 253,
-  "returned_items": 245,
-  "empty": 8,
+  "returned_items": 246,
+  "empty": 7,
   "failed": 0,
   "failed_names": []
  },
  "news": {
   "items": 140,
-  "multi_outlet": 111,
-  "hot": 71,
+  "multi_outlet": 109,
+  "hot": 69,
   "tabs": {
-   "Las Vegas": 8,
-   "Tickets & Lineups": 11,
+   "Las Vegas": 7,
+   "Tickets & Lineups": 12,
    "Fashion & Swim": 6,
-   "Ibiza & Global": 17,
-   "Festivals": 16,
-   "Hip-Hop": 9,
-   "Rock": 11,
+   "Ibiza & Global": 16,
+   "Festivals": 13,
+   "Hip-Hop": 8,
+   "Rock": 12,
    "Retro & Culture": 6,
    "Techno & House": 7,
-   "EDM & Dance": 15,
-   "Nightlife & Clubs": 6,
+   "EDM & Dance": 18,
+   "Nightlife & Clubs": 7,
    "Pop & Tours": 28
   },
   "promo_filtered": {
-   "shopping": 62,
-   "off-topic outlet": 79,
-   "how to watch": 27,
+   "shopping": 64,
+   "off-topic outlet": 77,
+   "how to watch": 28,
    "quiz / poll": 1,
    "ticket how-to": 9,
    "promo code": 2,
-   "horoscope": 7,
-   "sponsored": 1,
+   "horoscope": 6,
    "betting": 1,
-   "promo publisher": 1,
-   "ticket resale": 4
+   "ticket resale": 4,
+   "promo publisher": 1
   }
  },
  "calendar": {
-  "events": 828,
+  "events": 832,
   "festivals": 50,
-  "events_updated": 1795827324,
+  "events_updated": 1795835062,
   "las_vegas": {
    "next_30_days": 337,
-   "next_60_days": 482,
-   "next_120_days": 696,
-   "venues": 63
+   "next_60_days": 484,
+   "next_120_days": 700,
+   "venues": 64
   },
   "sources": {
    "Concerts.Vegas t-mobile-arena-events": 60,
    "Concerts.Vegas allegiant-stadium": 15,
    "Concerts.Vegas schedule": 30,
    "Concerts.Vegas mgm-grand-garden-arena-events": 10,
-   "Concerts.Vegas michelob-ultra-arena-events": 7,
+   "Concerts.Vegas michelob-ultra-arena-events": 6,
    "Concerts.Vegas orleans-arena-the-orleans-hotel": 3,
    "Concerts.Vegas las-vegas-festival-grounds-events": 1,
    "Concerts.Vegas las-vegas-motor-speedway-events": 8,
@@ -76,7 +75,7 @@
    "Concerts.Vegas westgate-shows": 29,
    "Concerts.Vegas harrahs": 30,
    "Concerts.Vegas the-showroom-at-the-golden-nugget": 44,
-   "Concerts.Vegas showroom-at-south-point-hotel-and-casino": 65,
+   "Concerts.Vegas showroom-at-south-point-hotel-and-casino": 64,
    "Concerts.Vegas orleans-showroom-at-the-orleans-hotel": 3,
    "Concerts.Vegas chrome-showroom-at-santa-fe-station-casino": 11,
    "Concerts.Vegas penn-teller-theater-at-rio-las-vegas": 86,
@@ -136,7 +135,7 @@
    "No Cover las-vegas-hip-hop-club": 0,
    "No Cover las-vegas-dayclub": 0,
    "Wynn Nightlife XS (official)": 7,
-   "Las Vegas (merged)": 687,
+   "Las Vegas (merged)": 691,
    "Discotech Miami": 20,
    "19hz Miami": 40,
    "19hz Los Angeles": 45,
@@ -163,9 +162,9 @@
  },
  "tickets": {
   "coming_up": {
-   "7_days": 42,
-   "30_days": 151,
-   "90_days": 283
+   "7_days": 40,
+   "30_days": 148,
+   "90_days": 280
   },
   "tags_90_days": {
    "nfr": 33,
@@ -179,8 +178,8 @@
   "seen_since": 1795788808
  },
  "channels": {
-  "channels": 440,
-  "videos": 1911,
+  "channels": 497,
+  "videos": 2236,
   "live": 94
  }
 }
