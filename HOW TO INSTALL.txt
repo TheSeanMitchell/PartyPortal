@@ -1,89 +1,12 @@
-PARTY PORTAL 3.4 - UPLOAD TO GITHUB (27 November 2026)
-=============================================================================
+PARTY PORTAL 3.4.1 - HOW TO INSTALL (27 November 2026)
 
-WHAT IS IN THIS FOLDER (only the files that changed; everything else on GitHub stays as it is)
-  index.html          the page (3.4)
-  channels.json       the channel list: 440 channels / 1,911 videos (was 445 / 2,017) - female
-                      models only in the swim and fashion lanes
-  bot.py              the news, calendar and ticket builder (3.4)
-  sw.js               the offline cache, version bumped so phones load the new page
-  CHANGELOG.md        what changed, v3.4 at the top
-  README.md           the read-me; "The Argus contract" now has the held wall and skip keeps mute
-  events.json         the calendar and the Vegas ticket section from this PC's build of 27 November,
-                      so the page is full before the first refresh on GitHub
-  health.json         how that build went ("version": "3.4.0", with a "tickets" block)
-  HOW TO INSTALL.txt  this note (do not upload it)
-  The workflow (.github\workflows\daily-content.yml) and curate.py did not change - leave them.
+Two files, on top of Party Portal 3.4 (upload 3.4 first if it is not on the site yet):
+  channels.json  - the playlists: rock 166 -> 383 videos, bikini runway 150 -> 241, fashion 102 -> 119
+  CHANGELOG.md   - the 3.4.1 entry on top
 
-WHAT CHANGED
-  1. THE VEGAS TICKET SECTION (it replaces the Vegas On-Sale Radar), right after On The Horizon,
-     across the whole width, Las Vegas only, never empty:
-       - COMING UP IN LAS VEGAS: the major ticketed shows of the next 90 days - arenas, stadiums,
-         Sphere, the big theaters and residencies, festivals - each with its date and time (Las
-         Vegas time), venue and ticket link. On 27 November: 54 / 170 / 304 in the next
-         7 / 30 / 90 days; NFR 33, holiday 24, New Year's Eve 11, special 8 (with the festivals).
-       - JUST ANNOUNCED: shows that first appeared in the calendar in the last 7 days. The first
-         refresh after the upload starts the watching, so at first it says in plain words that
-         nothing is new yet; it fills by itself from then on.
-       - GOING ON SALE SOON: real on-sale and presale dates. Without a key it keeps only dated
-         announcements, so it is often empty (27 November: none) and says so; the free
-         Ticketmaster key below fills it.
-     Filters: NFR, holiday, New Year's Eve, special, sports, concert, theater; 7 / 30 / 90 days.
-     The National Finals Rodeo (3-12 Dec, Thomas & Mack) with Cowboy Christmas, the Downtown
-     Hoedown and the NFR parties; Christmas shows (Trans-Siberian Orchestra, the Las Vegas
-     Philharmonic's "A Very Vegas Christmas", Debbie Gibson, Lindsey Stirling and more).
-  2. Female models only: swim runway 210 -> 150 videos, fashion shows 148 -> 102. Out went the
-     shows where men walk, menswear and co-ed labels, multi-designer showcases that could not be
-     confirmed women only, and any show where a child walks. Every video was read; every swim
-     video and every fashion video in doubt was looked at frame by frame.
-  3. The page order: videos, On The Horizon, the Vegas ticket section, the Top 10, the news.
-  4. In Argus's side tab the wall holds: shrink it to phone size and widen it again, or reload
-     (F11) - the same four videos come back, each where it was, with the sound on the same one.
-     Only Shuffle, new channel and next video change a video.
-  5. Skip keeps mute: next video or new channel on a silent screen brings the new one in silent;
-     the sound stays where it was.
-  6. Argus's side tab at phone size no longer scrolls sideways (the top bar is a little tighter
-     in a narrow desktop window; phones keep their look).
-  STILL TO COME (a follow-up, channels.json only): doubling the LIVE ROCK and BIKINI lanes.
+1. Open the PartyPortal repository on github.com.
+2. "Add file" -> "Upload files", drag in channels.json and CHANGELOG.md (they replace the old ones).
+3. "Commit changes".
 
-HOW TO UPLOAD (about three minutes)
-  1. Open https://github.com/TheSeanMitchell/PartyPortal
-  2. Add file > Upload files. Drag in the eight files: index.html, channels.json, bot.py, sw.js,
-     CHANGELOG.md, README.md, events.json, health.json (not this note). They replace the old
-     ones (3.3, which is the version live now). Commit message, for example: "v3.4".
-     Commit changes.
-  3. Run the refresh once: the upload of bot.py starts it by itself (Actions tab: "Daily Culture
-     Feed Refresh"). If it does not appear within a minute: Actions > Daily Culture Feed
-     Refresh > Run workflow > Run workflow.
-
-CHECK (about five minutes later)
-  - https://theseanmitchell.github.io/PartyPortal/ (reload once if the old page shows): after the
-    videos and On The Horizon comes the Vegas ticket section, full width, with its filters.
-  - https://theseanmitchell.github.io/PartyPortal/health.json shows "version": "3.4.0".
-
-OPTIONAL - A FREE TICKETMASTER KEY (only you can make it; it fills "Going on sale soon")
-  1. Sign up free at https://developer.ticketmaster.com and copy your app's "Consumer Key".
-  2. In the GitHub repo: Settings > Secrets and variables > Actions > New repository secret.
-     Name: TICKETMASTER_API_KEY   Secret: paste the key. Add secret.
-  3. Actions > Daily Culture Feed Refresh > Run workflow.
-  What it adds: Ticketmaster's official public on-sale and presale dates and times for the Las
-  Vegas area (up to 100 events each refresh); the calendar gets up to 12 Ticketmaster events in
-  each of 18 cities, Las Vegas included, for the next 45 days.
-  health.json then shows "ticketmaster_key": true.
-
-TESTED ON THIS PC (27 November 2026, the files in this folder)
-  - A real build with live feeds and no keys: 31 seconds, 881 events + 50 festivals, the ticket
-    section 54 / 170 / 304 (7 / 30 / 90 days). These are the events.json and health.json here.
-  - Headless Edge: the page order (also with LIVE VIDEO off); the ticket section full width,
-    every filter, 7 / 30 / 90 days, Show more, Just announced (also with shows seen in the last
-    7 days), a missing calendar file = plain words; the held wall (1600 -> 412 -> 1600 px and a
-    reload: the same four, the same screen heard, each video within a few seconds of its place);
-    skip keeps mute (next video and new channel); 10 visits with rock + party + swim every time
-    and 0 repeats; 0 console errors; no sideways scrolling at 412 px.
-  - Argus's own Party Portal test passes on this page: party_portal_holds_the_heard_video.
-  - The channel list: valid, every playlist matches its videos, no removed video left, only the
-    swim and fashion lanes changed, every lane the wall needs is full.
-  - bot.py passes the Python 3.11 check (the workflow runs 3.12).
-
-UNTIL YOU UPLOAD
-  Argus works with the page that is live now (3.3); this upload only adds to it.
+Nothing else is needed: the page fetches channels.json network-first, so visitors get the new playlists on their
+next visit - no cache change in sw.js. The site's daily workflow keeps checking every video (curate.py) as before.

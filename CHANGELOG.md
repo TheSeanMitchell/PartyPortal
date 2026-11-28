@@ -1,5 +1,35 @@
 # Changelog
 
+## v3.4.1 — Twice the live rock, more bikini runway (27 Nov 2026)
+
+Asked for on 26 November: "a solid doubling" of the rock and bikini lanes so they "never run out of LIVE ROCK and
+BIKINI videos" - female models only in swim and fashion, and the same high bar. Only channels.json changes.
+
+### Rock: 166 -> 383 videos
+- 217 new full live concerts and full festival sets, every one an official upload: WDR Rockpalast 61, Wacken Open Air 54, Hellfest 37, ARTE Concert at the rock festivals (Hellfest, Summer Breeze, M'era Luna) 31, KEXP full performances 24, the bands' own channels 10.
+- Blues and hard rock, punk and post-punk, indie, stoner and doom, folk and medieval rock, metalcore, death and
+  black metal - at most one or two sets per band.
+- Left out on purpose: techno DJ sets, pop, soul and reggae shows, "3 songs" excerpts, multi-band compilations,
+  talk and line-up streams, and a second set by a band already added.
+
+### Bikini runway: 150 -> 241 videos, women only
+- 91 new full swimwear runway shows (Miami Swim Week, Paraiso, DCSW, Gran Canaria Swim Week, Mercedes-Benz
+  Fashion Week Swim, Art Basel), each looked at by eye: female models only, no children.
+- Back in after a second look: Omni Beach Swimwear (Miami Swim Week 2025) - the whole show seen through its preview
+  frames, women only (a designer's bow at the end). Still out: PALMAS 2026 and four FashionStock multi-designer
+  showcases (men walk in them; a child in one).
+- Left out: shows with men or co-ed labels, children on the runway, multi-designer showcases, talks, and shows
+  that will not play outside YouTube.
+
+### Fashion: 102 -> 119 videos, women only
+- 17 new women's couture and ready-to-wear shows: Elie Saab 6, Zimmermann 5, Valentino 4, Zuhair Murad 2.
+
+### Checked
+- Every new video played in the embed test on theseanmitchell.github.io (329 of 336 tested played; the rest,
+  3 known controls among them, were left out); none is age-restricted.
+- channels.json: valid, each channel's playlist matches its videos, every 3.4 channel unchanged, no men's show
+  added back. The page mixes rock + party + swim on every one of 10 visits, with 0 console errors.
+
 ## v3.4 — The Vegas ticket section, female-only swim and fashion, the wall held (Argus 1.0.3, 27 Nov 2026)
 
 Asked for on 26 November: an "expansive upcoming ticket section" for Las Vegas, filled across the screen
